@@ -46,6 +46,7 @@ export default function App() {
   const [answers, setAnswers] = useState({});
   const [dailyDone, setDailyDone] = useState(false);
   const [filter, setFilter] = useState("All");
+  const [lessonSearch, setLessonSearch] = useState("");
   const [showResult, setShowResult] = useState(false);
   const [quizRecorded, setQuizRecorded] = useState(false);
   const [quizNotice, setQuizNotice] = useState("");
@@ -113,7 +114,14 @@ export default function App() {
       console.warn("Could not save learning progress.", error);
     });
   }, [completed, stats, certificateName, storageReady]);
-  const filteredLessons = useMemo(() => lessons.filter(item => filter === "All" || item.level === filter), [filter]);
+  const filteredLessons = useMemo(() => {
+    const query = lessonSearch.trim().toLocaleLowerCase();
+    return lessons.filter(item => {
+      const matchesLevel = filter === "All" || item.level === filter;
+      const searchableText = `${item.title} ${item.subtitle} ${item.rule} ${item.urdu}`.toLocaleLowerCase();
+      return matchesLevel && (!query || searchableText.includes(query));
+    });
+  }, [filter, lessonSearch]);
 
   function openLesson(item) {
     setIsExam(false);
@@ -325,9 +333,10 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
   function Learn() {
     return <ScrollView contentContainerStyle={styles.content}>
       <Header eyebrow="THE GRAMMAR LIBRARY" title="Explore lessons" subtitle="Build your foundation, step by step." />
+      <TextInput accessibilityLabel="Search grammar lessons" value={lessonSearch} onChangeText={setLessonSearch} placeholder="Search lessons, rules or examples..." placeholderTextColor="#8B93A5" returnKeyType="search" autoCapitalize="none" style={styles.lessonSearch} />
       <View style={styles.filterRow}>{["All", "Beginner", "Intermediate"].map(x => <Pill key={x} active={filter === x} onPress={() => setFilter(x)}>{x}</Pill>)}</View>
-      <Text style={styles.listCount}>{filteredLessons.length} LESSONS · {completed.length} COMPLETED</Text>
-      {filteredLessons.map((item, index) => <View key={item.id}>{renderLessonCard(item, lessons.indexOf(item))}{completed.includes(item.id) ? <Text style={styles.doneMark}>✓ Completed</Text> : null}</View>)}
+      <Text style={styles.listCount}>{filteredLessons.length} LESSONS FOUND · {completed.length} COMPLETED</Text>
+      {filteredLessons.length ? filteredLessons.map(item => <View key={item.id}>{renderLessonCard(item, lessons.indexOf(item))}{completed.includes(item.id) ? <Text style={styles.doneMark}>✓ Completed</Text> : null}</View>) : <Text style={styles.emptyText}>No lessons match “{lessonSearch}”. Try another topic or choose a different level.</Text>}
     </ScrollView>;
   }
 
@@ -437,6 +446,7 @@ const styles = StyleSheet.create({
   eyebrow: { color: green, fontSize: 9, letterSpacing: 1.5, fontWeight: "900" },
   headerTitle: { color: ink, fontSize: 27, lineHeight: 33, fontWeight: "900", marginTop: 7 },
   headerSub: { color: muted, fontSize: 12, marginTop: 6, lineHeight: 18 },
+  lessonSearch: { backgroundColor: "#FFFFFF", borderWidth: 1, borderColor: "#E3E7EF", borderRadius: 14, paddingHorizontal: 15, paddingVertical: 12, minHeight: 48, color: ink, fontSize: 13, marginBottom: 13 },
   filterRow: { flexDirection: "row", gap: 7, marginBottom: 18 },
   pill: { paddingHorizontal: 13, paddingVertical: 9, borderRadius: 20, backgroundColor: "#E9EBF1" },
   pillActive: { backgroundColor: navy },
