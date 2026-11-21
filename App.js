@@ -151,7 +151,7 @@ export default function App() {
   function submitQuiz(force = false) {
     if (!quiz || quizRecorded || showResult) return;
     const total = quiz.length;
-    if (!force && Object.keys(answers).length !== total) {
+    if (!force && !isExam && Object.keys(answers).length !== total) {
       setQuizNotice("Please answer every question before checking your result.");
       return;
     }
