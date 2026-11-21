@@ -56,6 +56,51 @@ function buildTopicQuestions(lesson) {
   return questions.slice(0, 5);
 }
 
+function buildAdditionalTopicQuestions(lesson, lessonIndex) {
+  const otherLessons = lessons.filter(item => item.id !== lesson.id);
+  const unique = values => [...new Set(values.filter(value => typeof value === "string" && value.trim()))];
+  const make = (q, correct, distractors, why) => {
+    const options = unique([correct, ...distractors]).slice(0, 4);
+    return options.length === 4 ? { q, options, answer: 0, why } : null;
+  };
+  const questions = [];
+  const ruleOptions = unique(otherLessons.map(item => item.rule));
+  const exampleOptions = unique(otherLessons.map(item => item.example));
+  const breakdown = lesson.breakdown || [];
+  const otherBreakdown = otherLessons.flatMap(item => item.breakdown || []);
+  const word = breakdown[0];
+  const role = breakdown[breakdown.length - 1];
+
+  questions.push(make(
+    "For the topic " + lesson.title + ", which rule is correct?",
+    lesson.rule, ruleOptions, lesson.rule
+  ));
+  questions.push(make(
+    "Which sentence or phrase is used as an example in " + lesson.title + "?",
+    lesson.example, exampleOptions, "This is the example provided for " + lesson.title + "."
+  ));
+  if (word) questions.push(make(
+    "In the " + lesson.title + " lesson breakdown, which item is identified?",
+    word[0], otherBreakdown.map(item => item[0]),
+    word[0] + " is identified in this topic's example breakdown."
+  ));
+  if (role) questions.push(make(
+    "Which grammatical label is used for \"" + role[0] + "\" in " + lesson.title + "?",
+    role[1], otherBreakdown.map(item => item[1]),
+    role[0] + " is labelled " + role[1] + " in this lesson."
+  ));
+
+  if (lessonIndex < 4 && breakdown[1]) {
+    const extra = breakdown[1];
+    questions.push(make(
+      "In the " + lesson.title + " example, what is the role of \"" + extra[0] + "\"?",
+      extra[1], otherBreakdown.map(item => item[1]),
+      extra[0] + " is identified as " + extra[1] + " in the lesson breakdown."
+    ));
+  }
+  return questions.filter(Boolean);
+}
+
 function buildTenTopicQuestions(lesson) {
   const questions = buildTopicQuestions(lesson);
   const otherLessons = lessons.filter(item => item.id !== lesson.id);
@@ -216,7 +261,7 @@ export default function App() {
     setExamDeadline(null);
     setExamExpired(false);
     setSelected(item);
-    setQuiz(buildTenTopicQuestions(item));
+    setQuiz([...buildTenTopicQuestions(item), ...buildAdditionalTopicQuestions(item, lessons.findIndex(lesson => lesson.id === item.id))]);
     setAnswers({});
     setShowResult(false);
     setQuizRecorded(false);
@@ -476,11 +521,11 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
 
   function MCQs() {
     return <ScrollView contentContainerStyle={styles.content}>
-      <Header eyebrow="TOPIC-BY-TOPIC PRACTICE" title="MCQ library" subtitle="Choose any grammar topic and answer ten focused multiple-choice questions." />
-      <View style={styles.mcqSummary}><Text style={styles.mcqSummaryNumber}>{lessons.length * 10}</Text><View style={{ flex: 1 }}><Text style={styles.cardTitle}>Practice questions</Text><Text style={styles.cardSub}>{lessons.length} topics · 10 questions per topic</Text></View></View>
+      <Header eyebrow="TOPIC-BY-TOPIC PRACTICE" title="MCQ library" subtitle="Choose a grammar topic and practise 14 or 15 focused multiple-choice questions." />
+      <View style={styles.mcqSummary}><Text style={styles.mcqSummaryNumber}>{lessons.length * 14 + Math.min(lessons.length, 4)}</Text><View style={{ flex: 1 }}><Text style={styles.cardTitle}>Practice questions</Text><Text style={styles.cardSub}>{lessons.length} topics · 14–15 questions per topic</Text></View></View>
       {lessons.map((item, index) => <TouchableOpacity key={item.id} onPress={() => startTopicMCQ(item)} style={styles.mcqTopicCard}>
         <View style={styles.lessonNumber}><Text style={styles.lessonNumberText}>{String(index + 1).padStart(2, "0")}</Text></View>
-        <View style={{ flex: 1 }}><Text style={styles.cardTitle}>{item.title}</Text><Text style={styles.cardSub}>{item.subtitle}</Text><Text style={styles.cardMeta}>5 MCQS · START PRACTICE</Text></View>
+        <View style={{ flex: 1 }}><Text style={styles.cardTitle}>{item.title}</Text><Text style={styles.cardSub}>{item.subtitle}</Text><Text style={styles.cardMeta}>{index < 4 ? "15" : "14"} MCQS · START PRACTICE</Text></View>
         <Text style={styles.chevron}>›</Text>
       </TouchableOpacity>)}
     </ScrollView>;
