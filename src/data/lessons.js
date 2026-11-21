@@ -5298,6 +5298,182 @@ export const lessons = [
     ],
     "practicePrompt": "Write a dialogue between a student and a librarian about choosing a suitable book. Include a clear opening, at least eight exchanges, polite language and a natural closing."
   }
+,
+  {
+    "id": "appreciation-of-poetry",
+    "title": "The Appreciation of Poetry",
+    "subtitle": "Introductory remarks, features of good poetry and specimen appreciation",
+    "urdu": "شاعری کی appreciation سے مراد نظم کو غور سے پڑھ کر اس کے مرکزی خیال، جذبات، زبان، تصویری انداز اور پیغام کو سمجھنا اور ان پر اپنی رائے واضح انداز میں بیان کرنا ہے۔ صرف نظم کا خلاصہ کافی نہیں؛ شاعر نے الفاظ اور ادبی طریقوں سے اثر کیسے پیدا کیا، یہ بھی دیکھیں۔",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "rule": "Introductory remarks: Appreciating poetry means reading a poem thoughtfully and explaining its meaning, feelings, ideas and artistic features. Begin by identifying the speaker and situation, then consider the central theme, tone, imagery, choice of words, rhythm, sound and structure. Characteristics of good poetry: Effective poetry often communicates a meaningful idea or emotion, uses precise and suggestive language, creates vivid images, has a suitable rhythm or sound pattern, and leaves the reader with a memorable impression. Not every poem must rhyme; free verse can also be effective through its images, line breaks and carefully chosen words. In an appreciation, support your comments with details from the poem and distinguish the poet's voice from your own opinion.",
+    "example": "**Original specimen poem: “After the Rain”**\n\nThe thirsty earth drinks from the sky,\nAnd silver drops on branches lie;\nA little bird begins to sing,\nWhile sunlight paints the fields of spring.\n\n**Appreciation:** The poem describes the freshness of nature after rainfall. Its central theme is renewal and the beauty of the natural world. The phrase “thirsty earth” gives the ground a human quality, while “silver drops” creates a bright visual image. The singing bird suggests happiness and new life. The regular end rhymes (sky/lie and sing/spring) give the short poem a gentle musical quality. The cheerful tone and images of sunlight, rain and birds leave the reader with a feeling of hope and freshness.",
+    "breakdown": [
+      [
+        "Identify the speaker and situation",
+        "Context",
+        "نظم میں بولنے والے اور صورت حال کو سمجھیں"
+      ],
+      [
+        "State the central theme",
+        "Meaning",
+        "نظم کا بنیادی خیال بیان کریں"
+      ],
+      [
+        "Describe tone and feelings",
+        "Mood",
+        "جذبات اور لہجے کی وضاحت کریں"
+      ],
+      [
+        "Notice imagery and word choice",
+        "Language",
+        "تصویری الفاظ اور ادبی انداز دیکھیں"
+      ],
+      [
+        "Comment on sound and structure",
+        "Form",
+        "قافیہ، ردھم اور ترتیب پر غور کریں"
+      ],
+      [
+        "Support comments with details",
+        "Evidence",
+        "اپنی رائے نظم کے الفاظ سے ثابت کریں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What should a poetry appreciation explain?",
+        "options": [
+          "Meaning, feelings and artistic features",
+          "Only the poet's birth date",
+          "Only the number of lines"
+        ],
+        "answer": 0,
+        "why": "Appreciation explores what a poem communicates and how its language and form create an effect."
+      },
+      {
+        "q": "What is the central theme of a poem?",
+        "options": [
+          "Its main idea or message",
+          "The page number",
+          "The length of each word"
+        ],
+        "answer": 0,
+        "why": "The theme is the central idea developed by the poem."
+      },
+      {
+        "q": "Which phrase from the specimen uses personification?",
+        "options": [
+          "The thirsty earth",
+          "silver drops",
+          "fields of spring"
+        ],
+        "answer": 0,
+        "why": "The earth is described as if it could feel thirst and drink."
+      },
+      {
+        "q": "Must every good poem rhyme?",
+        "options": [
+          "No, free verse can also be effective",
+          "Yes, every line must rhyme",
+          "Only poems with four lines are good"
+        ],
+        "answer": 0,
+        "why": "Poetry can create effects through imagery, rhythm, language and structure without regular rhyme."
+      }
+    ],
+    "practicePrompt": "Write an appreciation of the original poem “After the Rain”. Include its theme, tone, imagery, one poetic device and comments on its sound."
+  },
+  {
+    "id": "paraphrasing",
+    "title": "Paraphrasing",
+    "subtitle": "Introductory remarks, uses, characteristics, special hints, procedure and specimen",
+    "urdu": "Paraphrasing کا مطلب کسی عبارت یا شعر کے مفہوم کو اپنے الفاظ میں دوبارہ بیان کرنا ہے، اس طرح کہ اصل معنی برقرار رہیں۔ الفاظ اور جملوں کی ساخت بدل سکتی ہے، لیکن خیال، اہم معلومات اور لہجہ بلاوجہ تبدیل نہیں ہونا چاہیے۔",
+    "level": "Intermediate",
+    "duration": "16 min",
+    "rule": "Introductory remarks: Paraphrasing is expressing another writer's meaning in your own words and sentence structure. It is usually similar in length to the original passage, unlike a precis, which is much shorter. Uses of paraphrasing: It demonstrates understanding, makes difficult language easier to follow, explains poetry or complex prose in plain language, and helps integrate source material into writing. Characteristics of a good paraphrase: It preserves the original meaning and essential details; uses genuinely different wording and sentence structure; is clear, accurate and natural; does not add unsupported ideas or omit important points; and acknowledges the source when paraphrasing someone else's published work. Special hints: Read the original several times before writing; identify unfamiliar words; understand the whole thought rather than replacing words one by one; set the original aside while drafting; compare your version with the source; and use quotation marks for any exact words retained. Method of procedure: (1) Read the passage carefully. (2) Identify its main idea and supporting details. (3) Look up words you do not understand. (4) Restate each idea in your own natural language and sentence pattern. (5) Preserve the original order where it helps clarity. (6) Compare both versions for accuracy and completeness. (7) Add a source reference when required. For poetry, explain the sense of each line or group of lines in clear prose while preserving the poet's intended meaning and mood.",
+    "example": "**Specimen original passage**\n\n“Regular exercise keeps the body healthy. It strengthens the muscles, improves the working of the heart and helps people feel more energetic. Even a daily walk can make a positive difference.”\n\n**Paraphrase**\n\nTaking part in physical activity on a regular basis is beneficial to our health. It builds muscular strength, supports heart function and increases energy. A simple walk every day can also improve our well-being.\n\n**Specimen: paraphrasing a poetic idea**\n\nOriginal: “The thirsty earth drinks from the sky.”\n\nParaphrase: The dry ground absorbs the rain that falls from the clouds.\n\nThe wording changes, but the original meaning is retained.",
+    "breakdown": [
+      [
+        "Understand the whole original",
+        "Comprehension",
+        "پہلے مکمل مفہوم سمجھیں"
+      ],
+      [
+        "Identify main and supporting ideas",
+        "Analysis",
+        "مرکزی اور معاون خیالات الگ کریں"
+      ],
+      [
+        "Rewrite naturally",
+        "Restatement",
+        "اپنے الفاظ اور جملوں کی ساخت استعمال کریں"
+      ],
+      [
+        "Preserve meaning and details",
+        "Accuracy",
+        "اصل مفہوم اور ضروری تفصیل برقرار رکھیں"
+      ],
+      [
+        "Compare and acknowledge source",
+        "Review",
+        "اصل عبارت سے موازنہ اور ضرورت کے مطابق حوالہ دیں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "How is a paraphrase different from a precis?",
+        "options": [
+          "A paraphrase usually keeps most details and similar length",
+          "A paraphrase always removes almost all details",
+          "A precis must use the original wording"
+        ],
+        "answer": 0,
+        "why": "A paraphrase restates the content, while a precis condenses it substantially."
+      },
+      {
+        "q": "What must a good paraphrase preserve?",
+        "options": [
+          "The original meaning",
+          "Every original sentence word for word",
+          "The writer's own unrelated opinion"
+        ],
+        "answer": 0,
+        "why": "The wording changes, but the intended meaning must remain accurate."
+      },
+      {
+        "q": "What is wrong with replacing each original word with a synonym?",
+        "options": [
+          "It may keep the same structure without showing real understanding",
+          "It always makes the passage shorter",
+          "It automatically improves clarity"
+        ],
+        "answer": 0,
+        "why": "A proper paraphrase restates ideas naturally with a different sentence structure."
+      },
+      {
+        "q": "What should you do after writing a paraphrase?",
+        "options": [
+          "Compare it with the source for accuracy",
+          "Delete all important details",
+          "Change the original message"
+        ],
+        "answer": 0,
+        "why": "Comparison helps ensure no key meaning has been lost or distorted."
+      },
+      {
+        "q": "When paraphrasing someone else's published work, what may be required?",
+        "options": [
+          "Acknowledging the source",
+          "Claiming the idea as your own",
+          "Removing the author's meaning"
+        ],
+        "answer": 0,
+        "why": "Paraphrased ideas still come from a source and should be credited when required."
+      }
+    ],
+    "practicePrompt": "Paraphrase the specimen passage about regular exercise in your own words. Then paraphrase this idea: “A little bird begins to sing, while sunlight paints the fields of spring.” Keep the meaning but use natural prose."
+  }
 ];
 
 export const dailyQuestions = [
