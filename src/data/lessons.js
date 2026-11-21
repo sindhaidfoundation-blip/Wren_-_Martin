@@ -1389,7 +1389,468 @@ export const lessons = [
         "why": "Fast modifies the verb runs."
       }
     ]
+  },,
+  {
+    "id": "analysis-of-simple-sentences",
+    "title": "Analysis of Simple Sentences",
+    "subtitle": "Breaking a sentence into its grammatical parts",
+    "urdu": "Simple sentence میں ایک independent clause ہوتا ہے۔ اس کے subject، predicate، object، complement اور modifiers کو الگ کر کے ان کا کام پہچانیں۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "Analyse a simple sentence by identifying its subject and predicate, then the verb, objects, complements, and modifiers. A simple sentence contains one independent clause.",
+    "example": "The diligent student wrote a careful answer in her notebook.",
+    "breakdown": [
+      [
+        "The diligent student",
+        "Subject",
+        "جس کے بارے میں بات ہو رہی ہے"
+      ],
+      [
+        "wrote",
+        "Verb",
+        "عمل ظاہر کرتا ہے"
+      ],
+      [
+        "a careful answer",
+        "Direct object",
+        "کیا لکھا؟"
+      ],
+      [
+        "in her notebook",
+        "Adverbial phrase",
+        "کہاں لکھا؟"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "In 'The child opened the door', what is the direct object?",
+        "options": [
+          "The child",
+          "opened",
+          "the door"
+        ],
+        "answer": 2,
+        "why": "The door receives the action of opened."
+      },
+      {
+        "q": "Which part tells what the subject does or is?",
+        "options": [
+          "Predicate",
+          "Article",
+          "Object only"
+        ],
+        "answer": 0,
+        "why": "The predicate says something about the subject and includes the verb."
+      },
+      {
+        "q": "How many independent clauses does a simple sentence contain?",
+        "options": [
+          "One",
+          "Two",
+          "At least three"
+        ],
+        "answer": 0,
+        "why": "A simple sentence has one independent clause."
+      }
+    ]
   },
+  {
+    "id": "phrases",
+    "title": "Phrases",
+    "subtitle": "Understanding groups of words",
+    "urdu": "Phrase الفاظ کا ایسا مجموعہ ہے جو جملے میں ایک اکائی کی طرح کام کرتا ہے، مگر عام طور پر اس میں subject اور finite verb پر مشتمل مکمل clause نہیں ہوتا۔",
+    "level": "Intermediate",
+    "duration": "8 min",
+    "rule": "A phrase is a group of related words that functions as a unit in a sentence but does not contain a complete subject–finite-verb structure.",
+    "example": "The girl with curly hair smiled.",
+    "breakdown": [
+      [
+        "with curly hair",
+        "Phrase",
+        "اسم girl کے بارے میں مزید بتاتا ہے"
+      ],
+      [
+        "The girl",
+        "Noun phrase",
+        "جملے کا subject"
+      ],
+      [
+        "smiled",
+        "Verb",
+        "predicate کا بنیادی فعل"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which group is a phrase rather than a clause?",
+        "options": [
+          "because it rained",
+          "under the wooden bridge",
+          "when she arrived"
+        ],
+        "answer": 1,
+        "why": "Under the wooden bridge has no subject–finite-verb combination."
+      },
+      {
+        "q": "A phrase usually functions as what?",
+        "options": [
+          "A grammatical unit",
+          "A complete paragraph",
+          "Always a full sentence"
+        ],
+        "answer": 0,
+        "why": "A phrase performs a grammatical role as a unit."
+      }
+    ]
+  },
+  {
+    "id": "adjective-phrases",
+    "title": "Adjective Phrases",
+    "subtitle": "Phrases that describe nouns and pronouns",
+    "urdu": "Adjective phrase ایسا phrase ہے جو adjective کی طرح noun یا pronoun کی وضاحت کرتا ہے۔ یہ عموماً بتاتا ہے کہ کوئی شخص یا چیز کیسی ہے۔",
+    "level": "Intermediate",
+    "duration": "8 min",
+    "rule": "An adjective phrase is a group of words that modifies a noun or pronoun and functions like an adjective.",
+    "example": "The house on the hill belongs to my aunt.",
+    "breakdown": [
+      [
+        "on the hill",
+        "Adjective phrase",
+        "house کی نشاندہی کرتا ہے"
+      ],
+      [
+        "The house",
+        "Noun",
+        "جس کے بارے میں بات ہے"
+      ],
+      [
+        "belongs to my aunt",
+        "Predicate",
+        "subject کے بارے میں خبر"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Identify the adjective phrase: 'The boy with a red cap waved.'",
+        "options": [
+          "The boy",
+          "with a red cap",
+          "waved"
+        ],
+        "answer": 1,
+        "why": "With a red cap describes the noun boy."
+      },
+      {
+        "q": "An adjective phrase modifies which kind of word?",
+        "options": [
+          "A noun or pronoun",
+          "Only a verb",
+          "Only a conjunction"
+        ],
+        "answer": 0,
+        "why": "It functions as an adjective and describes a noun or pronoun."
+      }
+    ]
+  },
+  {
+    "id": "adverb-phrases",
+    "title": "Adverb Phrases",
+    "subtitle": "Phrases that modify verbs, adjectives or adverbs",
+    "urdu": "Adverb phrase فعل، adjective یا دوسرے adverb کے بارے میں مزید معلومات دیتا ہے۔ یہ وقت، جگہ، طریقہ، وجہ یا شدت ظاہر کر سکتا ہے۔",
+    "level": "Intermediate",
+    "duration": "8 min",
+    "rule": "An adverb phrase is a group of words that functions as an adverb, modifying a verb, adjective, or another adverb.",
+    "example": "The team played with great enthusiasm.",
+    "breakdown": [
+      [
+        "played",
+        "Verb",
+        "عمل"
+      ],
+      [
+        "with great enthusiasm",
+        "Adverb phrase",
+        "بتاتا ہے کہ ٹیم نے کیسے کھیلا"
+      ],
+      [
+        "The team",
+        "Subject",
+        "کام کرنے والا گروہ"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Find the adverb phrase: 'She spoke in a gentle voice.'",
+        "options": [
+          "She",
+          "spoke",
+          "in a gentle voice"
+        ],
+        "answer": 2,
+        "why": "The phrase explains how she spoke."
+      },
+      {
+        "q": "An adverb phrase can answer which question?",
+        "options": [
+          "How?",
+          "Whose name?",
+          "Which article?"
+        ],
+        "answer": 0,
+        "why": "Adverb phrases can express manner, time, place, reason and degree."
+      }
+    ]
+  },
+  {
+    "id": "noun-phrases",
+    "title": "Noun Phrases",
+    "subtitle": "Groups of words that function as nouns",
+    "urdu": "Noun phrase ایسا مجموعہ ہے جس کا مرکزی لفظ noun یا pronoun ہوتا ہے۔ پورا phrase subject، object یا complement کا کام کر سکتا ہے۔",
+    "level": "Intermediate",
+    "duration": "8 min",
+    "rule": "A noun phrase is a group of words built around a noun or pronoun and functioning as a noun in a sentence.",
+    "example": "The very old wooden bridge collapsed.",
+    "breakdown": [
+      [
+        "The very old wooden bridge",
+        "Noun phrase",
+        "پورا phrase subject ہے"
+      ],
+      [
+        "bridge",
+        "Head noun",
+        "phrase کا مرکزی اسم"
+      ],
+      [
+        "collapsed",
+        "Verb",
+        "عمل ظاہر کرتا ہے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which is the noun phrase in 'Those three little birds are singing'?",
+        "options": [
+          "are singing",
+          "Those three little birds",
+          "singing"
+        ],
+        "answer": 1,
+        "why": "The complete group is built around the head noun birds."
+      },
+      {
+        "q": "What is the head noun in 'a basket of ripe mangoes'?",
+        "options": [
+          "basket",
+          "of",
+          "ripe"
+        ],
+        "answer": 0,
+        "why": "Basket is the main noun of the phrase."
+      }
+    ]
+  },
+  {
+    "id": "clauses",
+    "title": "Clauses",
+    "subtitle": "Groups of words with a subject and a verb",
+    "urdu": "Clause میں subject اور verb دونوں ہوتے ہیں۔ Independent clause مکمل خیال ظاہر کرتا ہے، جبکہ dependent clause معنی مکمل کرنے کے لیے کسی دوسرے clause پر انحصار کرتا ہے۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "A clause is a group of words containing a subject and a verb. Independent clauses can stand alone; dependent clauses cannot.",
+    "example": "I stayed inside because it was raining.",
+    "breakdown": [
+      [
+        "I stayed inside",
+        "Independent clause",
+        "مکمل خیال"
+      ],
+      [
+        "because it was raining",
+        "Dependent clause",
+        "وجہ بتاتا ہے مگر اکیلا مکمل جملہ نہیں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which group is an independent clause?",
+        "options": [
+          "although she was tired",
+          "the train arrived",
+          "because we waited"
+        ],
+        "answer": 1,
+        "why": "The train arrived expresses a complete thought."
+      },
+      {
+        "q": "What must a clause contain?",
+        "options": [
+          "A subject and a verb",
+          "Only an adjective",
+          "Two articles"
+        ],
+        "answer": 0,
+        "why": "A clause has a subject–verb relationship."
+      }
+    ]
+  },
+  {
+    "id": "adverb-clauses",
+    "title": "Adverb Clauses",
+    "subtitle": "Dependent clauses that work like adverbs",
+    "urdu": "Adverb clause ایک dependent clause ہے جو verb یا پورے main clause کے بارے میں وقت، وجہ، شرط، مقصد، رعایت یا طریقہ بتاتا ہے۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "An adverb clause is a dependent clause that modifies a verb or main clause and commonly answers when, where, why, how, or under what condition.",
+    "example": "We cancelled the match because it was raining.",
+    "breakdown": [
+      [
+        "We cancelled the match",
+        "Main clause",
+        "بنیادی بات"
+      ],
+      [
+        "because it was raining",
+        "Adverb clause of reason",
+        "میچ منسوخ کرنے کی وجہ"
+      ],
+      [
+        "it",
+        "Subject",
+        "clause کا subject"
+      ],
+      [
+        "was raining",
+        "Verb phrase",
+        "clause کا فعل"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which is the adverb clause in 'Call me when you arrive'?",
+        "options": [
+          "Call me",
+          "when you arrive",
+          "me"
+        ],
+        "answer": 1,
+        "why": "When you arrive tells when to call."
+      },
+      {
+        "q": "What does an adverb clause commonly express?",
+        "options": [
+          "Time or reason",
+          "Only the name of a person",
+          "Possession only"
+        ],
+        "answer": 0,
+        "why": "Adverb clauses express meanings such as time, reason, condition and contrast."
+      }
+    ]
+  },
+  {
+    "id": "adjective-clauses",
+    "title": "Adjective Clauses",
+    "subtitle": "Relative clauses that describe nouns",
+    "urdu": "Adjective clause ایک dependent clause ہے جو noun یا pronoun کی وضاحت کرتا ہے۔ یہ اکثر who، whom، whose، which یا that سے شروع ہوتا ہے۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "An adjective clause is a dependent clause that modifies a noun or pronoun, often introduced by a relative pronoun or relative adverb.",
+    "example": "The student who won the prize thanked her teacher.",
+    "breakdown": [
+      [
+        "The student",
+        "Noun",
+        "جس کی وضاحت ہو رہی ہے"
+      ],
+      [
+        "who won the prize",
+        "Adjective clause",
+        "student کے بارے میں بتاتا ہے"
+      ],
+      [
+        "who",
+        "Relative pronoun",
+        "clause کو student سے جوڑتا ہے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Identify the adjective clause: 'I liked the book that you recommended.'",
+        "options": [
+          "I liked",
+          "the book",
+          "that you recommended"
+        ],
+        "answer": 2,
+        "why": "That you recommended describes which book."
+      },
+      {
+        "q": "Which word commonly introduces an adjective clause?",
+        "options": [
+          "who",
+          "very",
+          "under"
+        ],
+        "answer": 0,
+        "why": "Who is a relative pronoun that can introduce an adjective clause."
+      }
+    ]
+  },
+  {
+    "id": "noun-clauses",
+    "title": "Noun Clauses",
+    "subtitle": "Dependent clauses that function as nouns",
+    "urdu": "Noun clause ایک dependent clause ہے جو جملے میں noun کی طرح subject، object یا complement کا کام کرتا ہے۔ یہ اکثر that، what، whether یا سوالیہ الفاظ سے شروع ہوتا ہے۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A noun clause is a dependent clause that performs a noun function, such as subject, direct object, or subject complement.",
+    "example": "What she said surprised everyone.",
+    "breakdown": [
+      [
+        "What she said",
+        "Noun clause",
+        "پورا clause subject ہے"
+      ],
+      [
+        "she",
+        "Subject",
+        "noun clause کے اندر"
+      ],
+      [
+        "said",
+        "Verb",
+        "noun clause کے اندر فعل"
+      ],
+      [
+        "surprised everyone",
+        "Predicate",
+        "noun clause کے بارے میں خبر"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Find the noun clause: 'I know that he is honest.'",
+        "options": [
+          "I know",
+          "that he is honest",
+          "he is"
+        ],
+        "answer": 1,
+        "why": "That he is honest is the object of know."
+      },
+      {
+        "q": "What role can a noun clause perform?",
+        "options": [
+          "Subject or object",
+          "Only adjective modifier",
+          "Only punctuation mark"
+        ],
+        "answer": 0,
+        "why": "A noun clause can function as a subject, object, or complement."
+      }
+    ]
+  }
 ];
 
 export const dailyQuestions = [
