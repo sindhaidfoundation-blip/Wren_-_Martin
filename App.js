@@ -37,8 +37,28 @@ function Header({ eyebrow, title, subtitle }) {
 }
 const fullCourseQuestions = lessons.flatMap(lesson => lesson.quiz.map(question => ({ ...question, lessonTitle: lesson.title, lessonId: lesson.id })));
 
+function buildTopicQuestions(lesson) {
+  const questions = (lesson.quiz || []).slice(0, 5).map(question => ({ ...question }));
+  const otherLessons = lessons.filter(item => item.id !== lesson.id);
+  const addQuestion = (q, options, answer, why) => {
+    if (questions.length < 5) questions.push({ q, options, answer, why });
+  };
+  const unique = values => [...new Set(values.filter(Boolean))];
+  const ruleOptions = unique([lesson.rule, ...otherLessons.map(item => item.rule)]).slice(0, 4);
+  if (ruleOptions.length === 4) addQuestion("Which statement best describes the rule in \"" + lesson.title + "\"?", ruleOptions, 0, lesson.rule);
+  const exampleOptions = unique([lesson.example, ...otherLessons.map(item => item.example)]).slice(0, 4);
+  if (exampleOptions.length === 4) addQuestion("Which sentence is the example used in \"" + lesson.title + "\"?", exampleOptions, 0, "This is the example sentence for " + lesson.title + ".");
+  const titleOptions = unique([lesson.title, ...otherLessons.map(item => item.title)]).slice(0, 4);
+  if (titleOptions.length === 4) addQuestion("Which topic are you practising in this set?", titleOptions, 0, "This set focuses on " + lesson.title + ".");
+  const firstPart = lesson.breakdown && lesson.breakdown[0];
+  const roles = unique([firstPart && firstPart[1], ...otherLessons.flatMap(item => (item.breakdown || []).map(line => line[1]))]).slice(0, 4);
+  if (firstPart && roles.length === 4) addQuestion("In the lesson example, what is the grammatical role of \"" + firstPart[0] + "\"?", roles, 0, firstPart[0] + " is identified as " + firstPart[1] + " in the lesson breakdown.");
+  return questions.slice(0, 5);
+}
+
 export default function App() {
   const [tab, setTab] = useState("Home");
+  const [quizReturnTab, setQuizReturnTab] = useState("Lesson");
   const [selected, setSelected] = useState(null);
   const [completed, setCompleted] = useState([]);
   const [stats, setStats] = useState({ quizzesTaken: 0, questionsAnsweredCorrectly: 0, dailySessions: 0, lastPracticeDate: null, dailyPracticeDates: [], quizHistory: [], wrongAnswers: [] });
@@ -168,6 +188,20 @@ export default function App() {
     setQuizRecorded(false);
     setQuizNotice("");
     setTab("Lesson");
+  }
+  function startTopicMCQ(item) {
+    setIsExam(false);
+    setIsMistakePractice(false);
+    setExamDeadline(null);
+    setExamExpired(false);
+    setSelected(item);
+    setQuiz(buildTopicQuestions(item));
+    setAnswers({});
+    setShowResult(false);
+    setQuizRecorded(false);
+    setQuizNotice("");
+    setQuizReturnTab("MCQs");
+    setTab("Quiz");
   }
   function startQuiz(item) {
     setIsExam(false);
@@ -418,6 +452,18 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
     </ScrollView>;
   }
 
+  function MCQs() {
+    return <ScrollView contentContainerStyle={styles.content}>
+      <Header eyebrow="TOPIC-BY-TOPIC PRACTICE" title="MCQ library" subtitle="Choose any grammar topic and answer five focused multiple-choice questions." />
+      <View style={styles.mcqSummary}><Text style={styles.mcqSummaryNumber}>{lessons.length * 5}</Text><View style={{ flex: 1 }}><Text style={styles.cardTitle}>Practice questions</Text><Text style={styles.cardSub}>{lessons.length} topics · 5 questions per topic</Text></View></View>
+      {lessons.map((item, index) => <TouchableOpacity key={item.id} onPress={() => startTopicMCQ(item)} style={styles.mcqTopicCard}>
+        <View style={styles.lessonNumber}><Text style={styles.lessonNumberText}>{String(index + 1).padStart(2, "0")}</Text></View>
+        <View style={{ flex: 1 }}><Text style={styles.cardTitle}>{item.title}</Text><Text style={styles.cardSub}>{item.subtitle}</Text><Text style={styles.cardMeta}>5 MCQS · START PRACTICE</Text></View>
+        <Text style={styles.chevron}>›</Text>
+      </TouchableOpacity>)}
+    </ScrollView>;
+  }
+
   function Lesson() {
     if (!selected) return null;
     return <ScrollView contentContainerStyle={styles.content}>
@@ -446,7 +492,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
         } else {
           setExamDeadline(null);
           setExamExpired(false);
-          setTab(selected ? "Lesson" : isMistakePractice ? "Practice" : "Home");
+          setTab(selected ? quizReturnTab : isMistakePractice ? "Practice" : "Home");
         }
       }}><Text style={styles.back}>‹  BACK</Text></TouchableOpacity>
       <Header eyebrow={isExam ? "TIMED ASSESSMENT" : isMistakePractice ? "PERSONALISED REVISION" : "QUICK KNOWLEDGE CHECK"} title={isExam ? "Full course exam" : isMistakePractice ? "Review missed questions" : selected ? selected.title + " quiz" : "Daily practice"} subtitle={isExam ? "Test your knowledge across all 25 lessons." : isMistakePractice ? "Try these questions again and strengthen your weak topics." : "Choose the best answer for each question."} />
@@ -490,9 +536,9 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
     </ScrollView>;
   }
 
-  const screens = { Home: <Home />, Learn: <Learn />, Lesson: <Lesson />, Quiz: <Quiz />, Practice: <Practice />, Progress: <Progress /> };
+  const screens = { Home: <Home />, Learn: <Learn />, MCQs: <MCQs />, Lesson: <Lesson />, Quiz: <Quiz />, Practice: <Practice />, Progress: <Progress /> };
   const nav = [{ id: "Home", icon: "⌂", label: "Home" }, { id: "Learn", icon: "▤", label: "Learn" }, { id: "Practice", icon: "✦", label: "Practice" }, { id: "Progress", icon: "◔", label: "Progress" }];
-  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View><View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View><View style={styles.screen}>{screens[tab] || <Home />}</View>{isExam ? null : <View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View>}</SafeAreaView>;
+  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View><TouchableOpacity onPress={() => setTab("MCQs")} style={[styles.mcqTopButton, tab === "MCQs" && styles.mcqTopButtonActive]}><Text style={styles.mcqTopButtonText}>MCQs</Text></TouchableOpacity><View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View><View style={styles.screen}>{screens[tab] || <Home />}</View>{isExam ? null : <View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View>}</SafeAreaView>;
 }
 
 const styles = StyleSheet.create({
@@ -500,6 +546,12 @@ const styles = StyleSheet.create({
   topbar: { height: 68, paddingHorizontal: 22, flexDirection: "row", alignItems: "center", justifyContent: "space-between", backgroundColor: navy },
   brandSmall: { color: gold, fontSize: 9, letterSpacing: 2, fontWeight: "800" },
   brand: { color: "#FFFFFF", fontSize: 18, fontWeight: "800", marginTop: 2 },
+  mcqTopButton: { paddingHorizontal: 13, paddingVertical: 9, borderRadius: 12, borderWidth: 1, borderColor: "#52617B", backgroundColor: "#263655", marginLeft: "auto", marginRight: 10 },
+  mcqTopButtonActive: { backgroundColor: green, borderColor: green },
+  mcqTopButtonText: { color: "#FFFFFF", fontSize: 11, fontWeight: "900", letterSpacing: 0.5 },
+  mcqSummary: { flexDirection: "row", alignItems: "center", backgroundColor: "#EAF3F0", borderRadius: 17, padding: 16, marginBottom: 17 },
+  mcqSummaryNumber: { color: green, fontSize: 28, fontWeight: "900", marginRight: 14 },
+  mcqTopicCard: { flexDirection: "row", alignItems: "center", backgroundColor: "#FFFFFF", borderRadius: 17, padding: 14, marginBottom: 10, borderWidth: 1, borderColor: "#EAECF2" },
   avatar: { width: 38, height: 38, borderRadius: 14, backgroundColor: "#263655", alignItems: "center", justifyContent: "center", borderWidth: 1, borderColor: "#52617B" },
   avatarText: { color: gold, fontWeight: "900", fontSize: 16 },
   screen: { flex: 1, backgroundColor: bg },
