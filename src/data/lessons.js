@@ -432,6 +432,202 @@ export const lessons = [
       { q: "Which is the usual phrase for an older brother in traditional usage?", options: ["elder brother", "eldest brother (for any comparison)", "more elder brother"], answer: 0, why: "Elder is traditionally used before a family noun such as brother." }
     ]
   }
+
+  {
+    id: "reflexive-emphatic-pronouns", title: "Reflexive and Emphatic Pronouns", subtitle: "Pronouns ending in -self and -selves",
+    urdu: "Reflexive pronoun اس وقت آتا ہے جب subject اور object ایک ہی شخص یا چیز ہوں، جیسے She hurt herself۔ Emphatic pronoun کسی noun یا pronoun پر زور دیتا ہے، جیسے The principal herself welcomed us۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "Reflexive pronouns refer back to the subject; emphatic (intensive) pronouns add emphasis and can usually be removed without changing the basic sentence structure.",
+    example: "He taught himself French. / The captain herself spoke to us.",
+    breakdown: [["himself", "Reflexive", "He ہی نے خود کو سکھایا"], ["herself", "Emphatic", "کپتان پر زور؛ جملہ اس کے بغیر بھی مکمل ہے"]],
+    quiz: [
+      { q: "Choose the correct pronoun: 'Maya looked at ___ in the mirror.'", options: ["herself", "her", "hers"], answer: 0, why: "The subject and object refer to Maya, so use the reflexive herself." },
+      { q: "Which sentence uses an emphatic pronoun?", options: ["He blamed himself.", "The manager herself opened the meeting.", "They introduced themselves."], answer: 1, why: "Herself adds emphasis to the manager and is not the object of opened." },
+      { q: "Choose the plural reflexive pronoun for 'we'.", options: ["ourself", "ourselves", "themselves"], answer: 1, why: "The reflexive form of we is ourselves." }
+    ]
+  },
+  {
+    id: "demonstrative-indefinite-distributive-pronouns", title: "Demonstrative, Indefinite and Distributive Pronouns", subtitle: "Pointing, referring generally and considering members separately",
+    urdu: "Demonstrative pronouns کسی چیز کی طرف اشارہ کرتے ہیں: this, that, these, those۔ Indefinite pronouns غیرمتعین افراد یا چیزوں کے لیے ہیں: someone, anything, many۔ Distributive pronouns افراد یا چیزوں کو الگ الگ دیکھتے ہیں: each, either, neither۔",
+    level: "Intermediate", duration: "10 min",
+    rule: "Demonstrative pronouns point to specific items; indefinite pronouns refer to unspecified people or things; distributive pronouns consider members individually or as alternatives.",
+    example: "These are fresh. / Someone is waiting. / Each has a ticket. / Neither is suitable.",
+    breakdown: [["These", "Demonstrative", "قریب موجود جمع چیزوں کی طرف اشارہ"], ["Someone", "Indefinite", "کسی غیرمتعین شخص کے لیے"], ["Each", "Distributive", "ہر فرد کو الگ الگ دیکھتا ہے"], ["Neither", "Distributive", "دو میں سے کوئی بھی نہیں"]],
+    quiz: [
+      { q: "Which is a demonstrative pronoun?", options: ["Those", "Someone", "Each"], answer: 0, why: "Those points to particular plural items." },
+      { q: "Choose the indefinite pronoun.", options: ["This", "Nobody", "Either"], answer: 1, why: "Nobody refers to an unspecified person or no person." },
+      { q: "Complete: ___ of the two answers is correct; both are wrong.", options: ["Neither", "These", "Someone"], answer: 0, why: "Neither means not one and not the other of two." }
+    ]
+  },
+  {
+    id: "relative-pronouns", title: "Relative Pronouns", subtitle: "Connecting clauses to the nouns they describe",
+    urdu: "Relative pronouns کسی noun کے بارے میں مزید وضاحت دینے والی clause کو ملاتے ہیں۔ Who لوگوں، whom object کے طور پر لوگوں، whose ملکیت، which چیزوں، اور that بعض defining clauses میں لوگوں یا چیزوں کے لیے آتا ہے۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "Relative pronouns introduce relative clauses and refer back to an antecedent: who, whom, whose, which, and that.",
+    example: "The student who won is my cousin. / The artist whose work we saw is here. / This is the tool that I need.",
+    breakdown: [["who", "Subject form", "relative clause میں subject"], ["whom", "Object form", "relative clause میں object؛ رسمی استعمال"], ["whose", "Possessive", "ملکیت ظاہر کرتا ہے"], ["which / that", "Things", "چیزوں کے لیے relative pronouns"]],
+    quiz: [
+      { q: "The woman ___ called you is outside.", options: ["who", "whom", "whose"], answer: 0, why: "Who is the subject of called." },
+      { q: "The boy ___ bicycle was stolen reported it.", options: ["which", "whose", "whom"], answer: 1, why: "Whose expresses possession: the boy's bicycle." },
+      { q: "The person to ___ I spoke was helpful.", options: ["who", "whom", "which"], answer: 1, why: "Whom is the formal object of the preposition to." }
+    ]
+  },
+  {
+    id: "interrogative-pronouns", title: "Interrogative Pronouns", subtitle: "Who, whom, whose, which and what",
+    urdu: "Interrogative pronouns سوال پوچھنے کے لیے استعمال ہوتے ہیں۔ Who شخص کے بارے میں، whom object کے بارے میں، whose ملکیت کے بارے میں، which محدود انتخاب میں، اور what عمومی چیز یا معلومات کے بارے میں پوچھتا ہے۔",
+    level: "Beginner", duration: "8 min",
+    rule: "Interrogative pronouns introduce questions: who, whom, whose, which, and what.",
+    example: "Who is at the door? / Whom did you invite? / Which is yours? / What happened?",
+    breakdown: [["Who", "Person / subject", "کون؟ بطور subject"], ["Whom", "Person / object", "کسے؟ بطور object"], ["Whose", "Possession", "کس کا؟"], ["Which", "Choice", "محدود انتخاب میں کون سا؟"], ["What", "Thing / information", "کیا؟"]],
+    quiz: [
+      { q: "___ is your favourite author?", options: ["Who", "Whose", "Whom"], answer: 0, why: "Who asks which person is your favourite author." },
+      { q: "___ bag is lying here?", options: ["Whom", "Whose", "Which (person)"], answer: 1, why: "Whose asks about ownership." },
+      { q: "___ of these two routes is shorter?", options: ["Which", "Who", "Whom"], answer: 0, why: "Which asks someone to choose from a limited set." }
+    ]
+  },
+  {
+    id: "the-verb", title: "The Verb", subtitle: "Main verbs, auxiliary verbs and verb forms",
+    urdu: "Verb جملے میں عمل، واقعہ یا حالت ظاہر کرتا ہے۔ Main verb بنیادی معنی دیتا ہے، جبکہ auxiliary verb tense، سوال، نفی یا voice بنانے میں مدد دیتا ہے۔ Verbs کی base، past، past participle اور -ing صورتیں ہوتی ہیں۔",
+    level: "Beginner", duration: "10 min",
+    rule: "A verb expresses an action, event, or state. Main verbs carry lexical meaning; auxiliary verbs help form tenses, questions, negatives, and passive constructions.",
+    example: "She writes daily. / She is writing. / The letter was written.",
+    breakdown: [["writes", "Main verb", "عمل ظاہر کرتا ہے"], ["is", "Auxiliary", "continuous tense بنانے میں مدد"], ["was", "Auxiliary", "passive construction میں مدد"], ["written", "Past participle", "write کی تیسری صورت"]],
+    quiz: [
+      { q: "Identify the main verb: 'They have finished the work.'", options: ["They", "have", "finished"], answer: 2, why: "Finished carries the main action; have is the auxiliary." },
+      { q: "Which is an auxiliary verb?", options: ["garden", "will", "beautiful"], answer: 1, why: "Will helps form a future construction." },
+      { q: "Choose the past participle of 'write'.", options: ["wrote", "written", "writing"], answer: 1, why: "Written is the past participle of write." }
+    ]
+  },
+  {
+    id: "verbs-incomplete-predication", title: "Verbs of Incomplete Predication", subtitle: "Linking verbs and subject complements",
+    urdu: "کچھ verbs اپنے معنی کو مکمل کرنے کے لیے subject complement چاہتے ہیں۔ ایسے verbs کو verbs of incomplete predication کہا جاتا ہے۔ Be, seem, become, appear اور feel جیسے linking verbs کے بعد noun یا adjective آ سکتا ہے۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "A verb of incomplete predication does not make a complete predicate by itself; it is completed by a subject complement that describes or identifies the subject.",
+    example: "The sky is blue. / She became a doctor. / The plan seems sensible.",
+    breakdown: [["is", "Linking verb", "subject کو complement سے ملاتا ہے"], ["blue", "Subject complement", "sky کی حالت بتاتا ہے"], ["became", "Linking verb", "subject کی نئی شناخت/حالت"], ["a doctor", "Subject complement", "She کی شناخت"]],
+    quiz: [
+      { q: "In 'The soup tastes delicious', what is 'delicious'?", options: ["Direct object", "Subject complement", "Adverb"], answer: 1, why: "Delicious describes the subject soup after the linking verb tastes." },
+      { q: "Choose the linking verb.", options: ["seems", "kicked", "built"], answer: 0, why: "Seems links the subject to a description or identification." },
+      { q: "Which sentence contains a subject complement?", options: ["He kicked the ball.", "The child became sleepy.", "She opened the window."], answer: 1, why: "Sleepy describes the subject child and completes became." }
+    ]
+  },
+  {
+    id: "active-passive-voice", title: "Active and Passive Voice", subtitle: "Changing the focus of a sentence",
+    urdu: "Active voice میں subject کام کرتا ہے: The chef cooked the meal۔ Passive voice میں object کو subject بنا کر کام پر توجہ دی جاتی ہے: The meal was cooked by the chef۔ Passive بنانے کے لیے مناسب be form اور past participle استعمال ہوتا ہے۔",
+    level: "Intermediate", duration: "10 min",
+    rule: "In active voice the subject performs the action. In passive voice the receiver becomes the subject and the verb uses an appropriate form of be + past participle.",
+    example: "Active: The students completed the project. / Passive: The project was completed by the students.",
+    breakdown: [["The students", "Active subject", "کام کرنے والے"], ["completed", "Active verb", "ماضی کا فعل"], ["The project", "Passive subject", "جس پر کام ہوا"], ["was completed", "Passive verb", "was + past participle"]],
+    quiz: [
+      { q: "Choose the passive form: 'They built the bridge.'", options: ["The bridge was built by them.", "The bridge built them.", "The bridge is build by them."], answer: 0, why: "Simple past passive uses was/were + past participle." },
+      { q: "Which sentence is active?", options: ["The window was broken.", "The team won the match.", "The match was won."], answer: 1, why: "The subject team performs the action won." },
+      { q: "What form follows the appropriate form of 'be' in a passive verb?", options: ["Past participle", "Present participle only", "Infinitive with to"], answer: 0, why: "Passive constructions use be + past participle." }
+    ]
+  },
+  {
+    id: "mood", title: "Mood", subtitle: "Indicative, imperative and subjunctive",
+    urdu: "Mood فعل کی ایسی صورت ہے جو بولنے والے کا انداز یا مقصد ظاہر کرتی ہے۔ Indicative حقیقت یا سوال، imperative حکم یا درخواست، اور subjunctive خواہش، ضرورت، تجویز یا غیرحقیقی صورت ظاہر کر سکتا ہے۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "Grammatical mood expresses how a speaker presents an action: indicative for statements and questions, imperative for commands and requests, and subjunctive for certain wishes, demands, and hypothetical situations.",
+    example: "She is at home. (indicative) / Please sit down. (imperative) / I suggest that he be on time. (subjunctive)",
+    breakdown: [["She is at home", "Indicative", "حقیقت بیان کرتا ہے"], ["Please sit down", "Imperative", "درخواست یا حکم"], ["he be on time", "Subjunctive", "تجویز کے بعد base form"]],
+    quiz: [
+      { q: "'Close the door, please.' uses which mood?", options: ["Indicative", "Imperative", "Subjunctive"], answer: 1, why: "It gives a polite command or request." },
+      { q: "Choose the subjunctive form: 'They insisted that he ___ present.'", options: ["is", "be", "was"], answer: 1, why: "The mandative subjunctive uses the base form be." },
+      { q: "Which sentence is indicative?", options: ["May you succeed!", "The train arrives at six.", "Turn left."], answer: 1, why: "It states information about a scheduled arrival." }
+    ]
+  },
+  {
+    id: "tenses-introduction", title: "Tenses: Introduction", subtitle: "Present, past and future time",
+    urdu: "Tense فعل کے ذریعے وقت ظاہر کرتا ہے۔ بنیادی طور پر present، past اور future کی بات کی جاتی ہے۔ ان کے ساتھ simple، continuous، perfect اور perfect continuous جیسے پہلو بھی پڑھائے جاتے ہیں۔",
+    level: "Beginner", duration: "9 min",
+    rule: "Tense locates an action or state in time; English teaching commonly groups forms around present, past, and future, with simple, continuous, perfect, and perfect continuous aspects.",
+    example: "I work. / I worked. / I will work. / I am working.",
+    breakdown: [["work", "Present simple", "حال کی عادت یا حقیقت"], ["worked", "Past simple", "ماضی کا مکمل عمل"], ["will work", "Future construction", "مستقبل کا ارادہ یا پیش گوئی"], ["am working", "Present continuous", "اس وقت جاری عمل"]],
+    quiz: [
+      { q: "Which sentence is in the past simple?", options: ["I walk.", "I walked.", "I will walk."], answer: 1, why: "Walked is the past simple form." },
+      { q: "Which form commonly describes an action happening now?", options: ["Present continuous", "Past perfect", "Future simple"], answer: 0, why: "Present continuous uses am/is/are + -ing." },
+      { q: "What does tense primarily help express?", options: ["Time", "Ownership", "Comparison"], answer: 0, why: "Tense relates an action or state to time." }
+    ]
+  },
+  {
+    id: "uses-present-past-tenses", title: "The Uses of the Present and Past Tenses", subtitle: "Habits, facts, ongoing actions and past events",
+    urdu: "Present simple عادت اور عمومی حقیقت، present continuous جاری یا عارضی عمل، present perfect ماضی کے عمل کا حال سے تعلق، past simple مکمل ماضی، اور past continuous ماضی میں جاری عمل کے لیے استعمال ہوتا ہے۔",
+    level: "Intermediate", duration: "11 min",
+    rule: "Use present simple for habits and facts, present continuous for ongoing or temporary actions, present perfect for past actions connected to the present, past simple for completed past events, and past continuous for actions in progress at a past time.",
+    example: "She walks to school. / She is walking now. / She has finished. / She visited us yesterday. / She was reading at eight.",
+    breakdown: [["walks", "Present simple", "عادت"], ["is walking", "Present continuous", "ابھی جاری عمل"], ["has finished", "Present perfect", "ماضی کا کام اور موجودہ نتیجہ"], ["visited", "Past simple", "ماضی میں مکمل واقعہ"], ["was reading", "Past continuous", "ماضی کے ایک وقت پر جاری عمل"]],
+    quiz: [
+      { q: "Choose the present simple sentence expressing a habit.", options: ["He is sleeping now.", "He walks to work every day.", "He walked yesterday."], answer: 1, why: "Every day signals a regular habit." },
+      { q: "Complete: I ___ my homework already.", options: ["have finished", "finish yesterday", "am finish"], answer: 0, why: "Present perfect connects a completed action with the present." },
+      { q: "At 9 pm last night, we ___ dinner.", options: ["eat", "were eating", "have eaten"], answer: 1, why: "Past continuous describes an action in progress at a past time." }
+    ]
+  },
+  {
+    id: "the-future", title: "The Future", subtitle: "Will, going to and present forms for future meaning",
+    urdu: "Future کے لیے will، be going to، present continuous اور present simple مختلف موقعوں پر آتے ہیں۔ Will فوری فیصلے، پیش گوئی یا وعدے؛ going to پہلے سے ارادے یا موجودہ ثبوت پر مبنی پیش گوئی؛ present continuous طے شدہ انتظامات کے لیے عام ہے۔",
+    level: "Intermediate", duration: "10 min",
+    rule: "English expresses future meaning with several constructions: will + base verb, be going to + base verb, present continuous for arrangements, and present simple for timetables.",
+    example: "I will help you. / It is going to rain. / We are meeting Ali tomorrow. / The train leaves at six.",
+    breakdown: [["will help", "Will future", "فیصلہ، وعدہ یا پیش گوئی"], ["is going to rain", "Going to", "موجودہ شواہد پر پیش گوئی"], ["are meeting", "Present continuous", "طے شدہ انتظام"], ["leaves", "Present simple", "شیڈول یا ٹائم ٹیبل"]],
+    quiz: [
+      { q: "The phone is ringing. I ___ answer it. (decision made now)", options: ["will", "am going", "was"], answer: 0, why: "Will is commonly used for a spontaneous decision." },
+      { q: "Look at those dark clouds! It ___ rain.", options: ["is going to", "has", "did"], answer: 0, why: "Going to suits a prediction based on present evidence." },
+      { q: "Which form commonly describes a fixed timetable?", options: ["Present simple", "Past continuous", "Past perfect"], answer: 0, why: "Timetables often use the present simple: The train leaves at six." }
+    ]
+  },
+  {
+    id: "verb-person-number", title: "The Verb: Person and Number", subtitle: "Matching verb forms to the subject",
+    urdu: "Person بتاتا ہے کہ subject بولنے والا، سننے والا یا کسی تیسرے شخص کے بارے میں ہے۔ Number واحد یا جمع بتاتا ہے۔ Simple present میں he/she/it کے ساتھ اکثر verb میں s یا es آتا ہے؛ be کی صورتیں am, is, are اور was, were بھی subject کے مطابق بدلتی ہیں۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "Verb forms may vary according to the grammatical person and number of the subject; in the present simple, third-person singular lexical verbs usually take -s or -es.",
+    example: "I work. / She works. / We are ready. / He is ready. / They were late.",
+    breakdown: [["I work", "First person singular", "I کے ساتھ base form"], ["She works", "Third person singular", "verb کے ساتھ s"], ["We are", "First person plural", "جمع subject کے ساتھ are"], ["He is", "Third person singular", "واحد subject کے ساتھ is"]],
+    quiz: [
+      { q: "Choose the correct verb: 'My brother ___ in Lahore.'", options: ["live", "lives", "living"], answer: 1, why: "My brother is third-person singular, so use lives." },
+      { q: "Choose the correct form: 'You ___ my best friend.'", options: ["is", "am", "are"], answer: 2, why: "You takes are in standard English." },
+      { q: "Which sentence has correct subject–verb agreement?", options: ["They was happy.", "They were happy.", "They is happy."], answer: 1, why: "The plural subject they takes were in the past tense of be." }
+    ]
+  },
+  {
+    id: "the-infinitive", title: "The Infinitive", subtitle: "To-infinitives and bare infinitives",
+    urdu: "Infinitive فعل کی بنیادی صورت ہے۔ اکثر اس سے پہلے to آتا ہے، جیسے to read، مگر modal verbs کے بعد اور let/make جیسے بعض verbs کے بعد bare infinitive یعنی بغیر to کے base verb آتا ہے۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "The to-infinitive is to + base verb; the bare infinitive is the base verb without to, used after modal auxiliaries and certain verbs and expressions.",
+    example: "I want to learn. / She can swim. / Let him speak.",
+    breakdown: [["to learn", "To-infinitive", "to + base verb"], ["swim", "Bare infinitive", "modal can کے بعد to نہیں"], ["speak", "Bare infinitive", "let کے بعد base form"]],
+    quiz: [
+      { q: "Choose the correct form: 'She hopes ___ abroad.'", options: ["study", "to study", "studying"], answer: 1, why: "Hope is normally followed by a to-infinitive." },
+      { q: "Complete: 'You must ___ the instructions.'", options: ["to read", "reading", "read"], answer: 2, why: "A modal verb such as must is followed by the bare infinitive." },
+      { q: "Which sentence contains a bare infinitive?", options: ["They decided to leave.", "He can drive.", "I enjoy reading."], answer: 1, why: "Drive follows the modal can without to." }
+    ]
+  },
+  {
+    id: "the-participle", title: "The Participle", subtitle: "Present, past and perfect participles",
+    urdu: "Participle فعل کی ایسی صورت ہے جو verb phrase یا adjective کا کام کر سکتی ہے۔ Present participle عموماً -ing، past participle عموماً تیسری صورت، اور perfect participle having + past participle سے بنتا ہے۔",
+    level: "Intermediate", duration: "10 min",
+    rule: "Present participles use the -ing form, past participles use the verb's past-participle form, and perfect participle clauses commonly use having + past participle.",
+    example: "The crying baby needs sleep. / The broken window was repaired. / Having finished her work, she went home.",
+    breakdown: [["crying", "Present participle", "baby کی وضاحت کرتا ہے"], ["broken", "Past participle", "window کی حالت بتاتا ہے"], ["Having finished", "Perfect participle", "پہلا عمل مکمل ہونے کے بعد دوسرا عمل"]],
+    quiz: [
+      { q: "Which word is a present participle?", options: ["written", "running", "ran"], answer: 1, why: "Running is the -ing participle form." },
+      { q: "Choose the past participle of 'break'.", options: ["broke", "breaking", "broken"], answer: 2, why: "Broken is the past participle of break." },
+      { q: "Complete: '___ the letter, he posted it.'", options: ["Having written", "Writes", "To writing"], answer: 0, why: "Having + past participle forms a perfect participle clause." }
+    ]
+  },
+  {
+    id: "the-gerund", title: "The Gerund", subtitle: "The -ing form used as a noun",
+    urdu: "Gerund فعل کی -ing صورت ہے جو noun کا کام کرتی ہے۔ یہ subject، object یا preposition کے بعد آ سکتا ہے۔ ہر -ing لفظ gerund نہیں ہوتا؛ اگر وہ continuous tense یا adjective کا کام کرے تو اس کا grammatical کردار مختلف ہے۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "A gerund is an -ing verb form functioning as a noun; it can serve as a subject, object, or complement and may take its own object.",
+    example: "Reading improves vocabulary. / She enjoys painting. / He is good at solving puzzles.",
+    breakdown: [["Reading", "Gerund subject", "جملے کا subject"], ["painting", "Gerund object", "enjoys کا object"], ["solving puzzles", "Gerund phrase", "preposition at کے بعد noun کا کام"]],
+    quiz: [
+      { q: "Which sentence uses a gerund as its subject?", options: ["She is reading.", "Reading is relaxing.", "The reading child smiled."], answer: 1, why: "Reading functions as the subject of is." },
+      { q: "Choose the correct form: 'They avoided ___ late.'", options: ["to arrive", "arriving", "arrive"], answer: 1, why: "Avoid is normally followed by a gerund." },
+      { q: "Which -ing word is a gerund?", options: ["Swimming is fun.", "They are swimming.", "The swimming child waved."], answer: 0, why: "Swimming functions as a noun and is the subject." }
+    ]
+  },
 ];
 
 export const dailyQuestions = [
