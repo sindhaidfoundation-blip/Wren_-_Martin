@@ -4889,6 +4889,102 @@ export const lessons = [
     ],
     "practicePrompt": "Read the specimen passage and answer all seven questions in complete, concise sentences. Then write the main idea of the passage in one sentence."
   }
+,
+  {
+    "id": "precis-writing",
+    "title": "Precis Writing",
+    "subtitle": "Introductory remarks, uses, method of procedure, summary and specimen",
+    "urdu": "Precis writing سے مراد کسی عبارت کے بنیادی خیال کو مختصر، واضح اور اپنے الفاظ میں بیان کرنا ہے۔ ایک اچھا precis اصل عبارت کے مرکزی نکات محفوظ رکھتا ہے، غیر ضروری مثالیں اور تکرار حذف کرتا ہے، اور مصنف کے مطلب کو تبدیل نہیں کرتا۔",
+    "level": "Intermediate",
+    "duration": "15 min",
+    "rule": "Introductory remarks: A precis (pronounced “pray-see”) is a concise and accurate summary of a passage. It presents the central idea and essential supporting points in the writer's own words, without adding personal opinions. Uses of precis writing: It develops careful reading, separates main ideas from minor details, improves concise expression, and helps readers communicate the substance of long reports, articles or speeches quickly. Method of procedure: (1) Read the passage carefully to understand its overall meaning. (2) Read it again and identify the central idea and essential points. (3) Underline key points and note their logical order. (4) Remove repetition, illustrations, unnecessary examples and minor details. (5) Write the summary in your own words, usually in one connected paragraph. (6) Give it a short, suitable title. (7) Compare it with the original to check accuracy, completeness, grammar and length. Follow the word limit given in the question; a precis is often about one-third of the original passage, but the stated instructions take priority. To sum up: A precis should be brief, clear, coherent, accurate and objective. It must preserve the original meaning and include only the essential points.",
+    "example": "**Specimen passage**\n\nTrees are among the most useful gifts of nature. They provide shade, fruit and timber, and their roots help hold the soil together. They absorb carbon dioxide and release oxygen, while their leaves help cool the air. Trees also provide shelter and food for birds, insects and many other living creatures. Yet forests are often cleared to make room for buildings, roads and farms. When too many trees are cut down, soil erosion increases, wildlife loses its habitat and the local climate may become hotter. Planting young trees is helpful, but protecting existing forests is equally important because mature trees take many years to grow. Governments and communities should therefore work together to prevent unnecessary cutting, care for public green spaces and encourage responsible planting. Every person can contribute by protecting trees in their neighbourhood and using paper thoughtfully.\n\n**Specimen precis**\n\n**Title: The Importance of Trees**\n\nTrees benefit people and the environment by providing useful products, oxygen, shade and wildlife habitats. Deforestation causes soil erosion, habitat loss and rising temperatures. Since mature trees take years to grow, existing forests must be protected as well as new trees planted. Governments, communities and individuals should work together to conserve trees and use natural resources responsibly.\n\n**Note:** The specimen precis is shorter than the original and retains its central ideas without copying every example.",
+    "breakdown": [
+      [
+        "Read the whole passage",
+        "Understand",
+        "عبارت کا مجموعی مطلب سمجھیں"
+      ],
+      [
+        "Identify the central idea",
+        "Main point",
+        "مرکزی خیال معلوم کریں"
+      ],
+      [
+        "Select essential supporting points",
+        "Key details",
+        "صرف ضروری نکات منتخب کریں"
+      ],
+      [
+        "Remove repetition and examples",
+        "Condense",
+        "تکرار اور غیر ضروری تفصیل حذف کریں"
+      ],
+      [
+        "Rewrite in your own words",
+        "Draft",
+        "اپنے الفاظ میں مربوط خلاصہ لکھیں"
+      ],
+      [
+        "Check meaning, title and word limit",
+        "Revise",
+        "اصل مطلب، عنوان اور الفاظ کی تعداد جانچیں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What is the main purpose of a precis?",
+        "options": [
+          "To present the essential meaning briefly",
+          "To add the writer's personal opinions",
+          "To copy the passage word for word"
+        ],
+        "answer": 0,
+        "why": "A precis condenses the original while preserving its central meaning."
+      },
+      {
+        "q": "Which detail should usually be removed from a precis?",
+        "options": [
+          "An unnecessary example or repetition",
+          "The central idea",
+          "An essential reason"
+        ],
+        "answer": 0,
+        "why": "Minor examples and repeated points are omitted to keep the summary concise."
+      },
+      {
+        "q": "In whose words should a precis normally be written?",
+        "options": [
+          "The writer's own words",
+          "Only the original author's exact sentences",
+          "A mixture of unrelated quotations"
+        ],
+        "answer": 0,
+        "why": "Paraphrasing shows understanding and creates a concise summary."
+      },
+      {
+        "q": "What should you do after drafting a precis?",
+        "options": [
+          "Compare it with the original for accuracy",
+          "Add new arguments",
+          "Change the author's meaning"
+        ],
+        "answer": 0,
+        "why": "Checking against the passage ensures the summary remains accurate and complete."
+      },
+      {
+        "q": "What should guide the length of a precis?",
+        "options": [
+          "The word limit in the instructions",
+          "The number of paragraphs in the original only",
+          "A fixed length in every task"
+        ],
+        "answer": 0,
+        "why": "Always follow the specified word limit; one-third is only a common guideline."
+      }
+    ],
+    "practicePrompt": "Write a precis of the specimen passage in about one-third of its length. Give it a suitable title, use your own words, and preserve the main points without adding your opinion."
+  }
 ];
 
 export const dailyQuestions = [
