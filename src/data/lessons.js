@@ -2566,6 +2566,398 @@ export const lessons = [
         "why": "A semicolon can join two closely related independent clauses."
       }
     ]
+  },
+  {
+    "id": "transformation-of-sentences",
+    "title": "Transformation of Sentences",
+    "subtitle": "Changing sentence structure without changing meaning",
+    "urdu": "Sentence transformation میں جملے کی ساخت یا انداز بدلا جاتا ہے لیکن بنیادی مطلب برقرار رہتا ہے۔ تبدیلی کرتے وقت tense، subject، verb اور اصل مفہوم کا خیال رکھیں۔",
+    "level": "Advanced",
+    "duration": "10 min",
+    "rule": "Sentence transformation changes the grammatical form or structure of a sentence while preserving its essential meaning. Common transformations include changing degrees of comparison, voice, polarity, and sentence types.",
+    "example": "Though he is poor, he is honest. → In spite of his poverty, he is honest.",
+    "breakdown": [
+      [
+        "Though he is poor",
+        "Adverb clause of concession",
+        "اصل جملے میں رعایت کا مفہوم"
+      ],
+      [
+        "In spite of his poverty",
+        "Prepositional phrase",
+        "اسی مفہوم کو phrase سے ظاہر کیا گیا"
+      ],
+      [
+        "he is honest",
+        "Main clause",
+        "بنیادی مطلب برقرار ہے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What must usually remain unchanged in a sentence transformation?",
+        "options": [
+          "The original meaning",
+          "The number of words",
+          "The punctuation only"
+        ],
+        "answer": 0,
+        "why": "A correct transformation changes form but preserves the essential meaning."
+      },
+      {
+        "q": "Which expression can replace 'although' in many transformations?",
+        "options": [
+          "In spite of",
+          "Because",
+          "So that"
+        ],
+        "answer": 0,
+        "why": "Although + clause can often be changed to in spite of + noun or gerund phrase."
+      }
+    ]
+  },
+  {
+    "id": "sentences-containing-adverb-too",
+    "title": "Sentences Containing the Adverb 'Too'",
+    "subtitle": "Transforming too...to into so...that",
+    "urdu": "Too کا مطلب ضرورت سے زیادہ ہوتا ہے۔ too + adjective/adverb + to کے جملے کو اکثر so + adjective/adverb + that + cannot/could not میں بدلا جا سکتا ہے۔",
+    "level": "Advanced",
+    "duration": "8 min",
+    "rule": "A sentence with too...to can often be transformed into so...that...cannot/could not. Keep the tense and meaning consistent. Example: 'He is too weak to walk' becomes 'He is so weak that he cannot walk.'",
+    "example": "The box is too heavy for me to lift. → The box is so heavy that I cannot lift it.",
+    "breakdown": [
+      [
+        "too heavy",
+        "Too + adjective",
+        "شدت ضرورت سے زیادہ ہے"
+      ],
+      [
+        "for me to lift",
+        "Infinitive phrase",
+        "کام کرنے والے شخص کی نشاندہی"
+      ],
+      [
+        "so heavy that I cannot lift it",
+        "So...that construction",
+        "ناممکن ہونے کا مفہوم واضح کیا گیا"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct transformation: 'She is too young to drive.'",
+        "options": [
+          "She is so young that she cannot drive.",
+          "She is so young that she can drive.",
+          "She is too young that she drives."
+        ],
+        "answer": 0,
+        "why": "Too young to drive means she is so young that she cannot drive."
+      },
+      {
+        "q": "Which word commonly follows 'too + adjective' in this pattern?",
+        "options": [
+          "to + verb",
+          "that + noun",
+          "for + past tense"
+        ],
+        "answer": 0,
+        "why": "The usual pattern is too + adjective + to-infinitive."
+      }
+    ]
+  },
+  {
+    "id": "interchange-degrees-of-comparison",
+    "title": "Interchange of the Degrees of Comparison",
+    "subtitle": "Positive, comparative and superlative forms",
+    "urdu": "Adjective کے positive، comparative اور superlative درجوں کو معنی برقرار رکھتے ہوئے بدلا جا سکتا ہے۔ تبدیلی میں than any other، one of the، as...as اور not so...as جیسے سانچوں کا درست استعمال کریں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "Degrees of comparison can be interchanged while preserving meaning. A superlative such as 'the tallest' can become 'taller than any other' or 'no other...as tall as'. For a group, 'one of the tallest' becomes 'among those that are taller than most'.",
+    "example": "Ali is the tallest boy in the class. → Ali is taller than any other boy in the class. → No other boy in the class is as tall as Ali.",
+    "breakdown": [
+      [
+        "the tallest",
+        "Superlative degree",
+        "گروہ میں سب سے بلند"
+      ],
+      [
+        "taller than any other boy",
+        "Comparative degree",
+        "ہر دوسرے لڑکے سے بلند"
+      ],
+      [
+        "No other boy...as tall as Ali",
+        "Positive degree",
+        "کسی دوسرے لڑکے کے برابر بلند نہیں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "'Sara is wiser than any other girl in the group' can be changed to:",
+        "options": [
+          "No other girl in the group is as wise as Sara.",
+          "Sara is the least wise girl.",
+          "Every girl is wiser than Sara."
+        ],
+        "answer": 0,
+        "why": "The positive form uses 'No other...as...as'."
+      },
+      {
+        "q": "Which degree uses 'more...than' or '-er than'?",
+        "options": [
+          "Positive",
+          "Comparative",
+          "Superlative"
+        ],
+        "answer": 1,
+        "why": "The comparative degree compares two people or things."
+      }
+    ]
+  },
+  {
+    "id": "interchange-active-passive",
+    "title": "Interchange of Active and Passive Voice",
+    "subtitle": "Changing the focus while keeping tense",
+    "urdu": "Active voice میں subject کام کرتا ہے، جبکہ passive voice میں object کو subject کی جگہ لایا جاتا ہے۔ Passive بناتے وقت مناسب helping verb اور verb کی third form استعمال کریں؛ tense برقرار رکھیں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "To change active into passive, make the object the new subject, use the correct form of be + past participle, and add 'by + agent' when needed. Keep the tense unchanged. Only verbs that take an object can normally form a passive.",
+    "example": "The teacher praised the student. → The student was praised by the teacher.",
+    "breakdown": [
+      [
+        "The teacher",
+        "Active subject / agent",
+        "کام کرنے والا"
+      ],
+      [
+        "praised",
+        "Simple past active verb",
+        "فعل ماضی"
+      ],
+      [
+        "The student",
+        "Passive subject",
+        "Active object کو subject بنایا"
+      ],
+      [
+        "was praised",
+        "Simple past passive",
+        "was + past participle"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the passive form of 'They are cleaning the room.'",
+        "options": [
+          "The room is being cleaned by them.",
+          "The room was cleaned by them.",
+          "The room has cleaned them."
+        ],
+        "answer": 0,
+        "why": "Present continuous passive uses am/is/are + being + past participle."
+      },
+      {
+        "q": "What happens to the active object in a standard passive transformation?",
+        "options": [
+          "It becomes the passive subject",
+          "It disappears in every case",
+          "It becomes the main verb"
+        ],
+        "answer": 0,
+        "why": "The active object normally moves to subject position."
+      }
+    ]
+  },
+  {
+    "id": "interchange-affirmative-negative",
+    "title": "Interchange of Affirmative and Negative Sentences",
+    "subtitle": "Changing polarity without changing meaning",
+    "urdu": "Affirmative جملے کو negative اور negative کو affirmative بناتے وقت مفہوم وہی رکھیں۔ Often، always، everyone، only، must وغیرہ کے ساتھ مناسب متبادل ساخت استعمال کریں؛ صرف not لگانا کافی نہیں ہوتا۔",
+    "level": "Advanced",
+    "duration": "8 min",
+    "rule": "An affirmative sentence can sometimes be changed into a negative sentence, and vice versa, without changing its meaning by using an equivalent expression. For example, 'He is always punctual' may become 'He is never late.' Avoid changing the intended meaning.",
+    "example": "Only a brave person can do this. → None but a brave person can do this.",
+    "breakdown": [
+      [
+        "Only",
+        "Restrictive adverb",
+        "صرف کے معنی دیتا ہے"
+      ],
+      [
+        "None but",
+        "Negative equivalent",
+        "اسی محدود معنی کو ظاہر کرتا ہے"
+      ],
+      [
+        "a brave person can do this",
+        "Main clause",
+        "اصل مفہوم برقرار"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which is a meaning-preserving negative form of 'Everyone likes kindness'?",
+        "options": [
+          "No one dislikes kindness.",
+          "No one likes kindness.",
+          "Everyone hates kindness."
+        ],
+        "answer": 0,
+        "why": "No one dislikes kindness expresses the same general positive idea."
+      },
+      {
+        "q": "'Only the wise can understand it' can become:",
+        "options": [
+          "None but the wise can understand it.",
+          "Nobody can understand it.",
+          "The wise cannot understand it."
+        ],
+        "answer": 0,
+        "why": "'None but' is an equivalent negative expression for 'only'."
+      }
+    ]
+  },
+  {
+    "id": "interchange-interrogative-assertive",
+    "title": "Interchange of Interrogative and Assertive Sentences",
+    "subtitle": "Questions and statements with equivalent meaning",
+    "urdu": "Interrogative sentence سوال کرتا ہے جبکہ assertive sentence بیان کرتا ہے۔ Rhetorical question کو assertive جملے میں بدلتے وقت سوال کا پوشیدہ مطلب بیان کریں اور مناسب punctuation استعمال کریں۔",
+    "level": "Advanced",
+    "duration": "8 min",
+    "rule": "A rhetorical interrogative can be transformed into an assertive sentence by stating its implied meaning. A question such as 'Who does not love freedom?' means 'Everyone loves freedom.' Ordinary information questions do not always have a direct assertive equivalent.",
+    "example": "Who does not wish to be happy? → Everyone wishes to be happy.",
+    "breakdown": [
+      [
+        "Who does not wish...?",
+        "Rhetorical interrogative",
+        "سوال کی صورت میں زور دیا گیا"
+      ],
+      [
+        "Everyone wishes...",
+        "Assertive sentence",
+        "پوشیدہ مثبت مطلب بیان کیا"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "'Who can deny the truth?' is closest in meaning to:",
+        "options": [
+          "No one can deny the truth.",
+          "Everyone denies the truth.",
+          "Can truth deny anyone?"
+        ],
+        "answer": 0,
+        "why": "The rhetorical question implies that nobody can deny the truth."
+      },
+      {
+        "q": "What punctuation usually ends an assertive sentence?",
+        "options": [
+          "Question mark",
+          "Full stop",
+          "Exclamation mark"
+        ],
+        "answer": 1,
+        "why": "An ordinary assertive statement generally ends with a full stop."
+      }
+    ]
+  },
+  {
+    "id": "interchange-exclamatory-assertive",
+    "title": "Interchange of Exclamatory and Assertive Sentences",
+    "subtitle": "Expressing strong feeling as a statement",
+    "urdu": "Exclamatory sentence جذبات یا حیرت ظاہر کرتا ہے۔ اسے assertive میں بدلتے وقت What a یا How کے بجائے جملے کا اصل مطلب بیان کریں اور exclamation mark کو full stop سے بدلیں۔",
+    "level": "Advanced",
+    "duration": "8 min",
+    "rule": "An exclamatory sentence can be changed into an assertive sentence by expressing the same feeling as a statement. 'What a beautiful day!' becomes 'It is a very beautiful day.' Preserve the intensity with words such as very, greatly, or indeed where appropriate.",
+    "example": "How clever she is! → She is very clever.",
+    "breakdown": [
+      [
+        "How clever",
+        "Exclamatory structure",
+        "شدت اور تعریف ظاہر کرتا ہے"
+      ],
+      [
+        "She is very clever",
+        "Assertive structure",
+        "وہی تعریف بیان کی گئی"
+      ],
+      [
+        "! → .",
+        "Punctuation change",
+        "بیان کے آخر میں full stop"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Change 'What a lovely flower it is!' into an assertive sentence.",
+        "options": [
+          "It is a very lovely flower.",
+          "Is it a lovely flower?",
+          "It is not a flower."
+        ],
+        "answer": 0,
+        "why": "The exclamation becomes a statement while retaining the strong positive meaning."
+      },
+      {
+        "q": "Which punctuation normally ends an assertive sentence?",
+        "options": [
+          "!",
+          "?",
+          "."
+        ],
+        "answer": 2,
+        "why": "An assertive sentence normally ends with a full stop."
+      }
+    ]
+  },
+  {
+    "id": "interchange-parts-of-speech",
+    "title": "Interchange of One Part of Speech for Another",
+    "subtitle": "Changing word forms while preserving meaning",
+    "urdu": "ایک ہی خیال کو مختلف parts of speech کے ذریعے بیان کیا جا سکتا ہے۔ مثلاً adjective کو noun یا verb کو noun میں بدلا جا سکتا ہے۔ تبدیلی کے بعد sentence structure اور ضروری prepositions درست رکھیں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A sentence can often be rewritten by replacing a word with another part of speech derived from the same word family. Adjust the surrounding grammar so that the meaning remains the same: 'He is a careful driver' can become 'He drives carefully.'",
+    "example": "She is a beautiful singer. → She sings beautifully.",
+    "breakdown": [
+      [
+        "beautiful",
+        "Adjective",
+        "singer کی خوبی بتاتا ہے"
+      ],
+      [
+        "beautifully",
+        "Adverb",
+        "sings کے طریقے کو بیان کرتا ہے"
+      ],
+      [
+        "singer → sings",
+        "Noun → Verb",
+        "جملے کی ساخت بدلی مگر مطلب برقرار"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "In 'He is a quick runner' → 'He runs quickly', which change occurs?",
+        "options": [
+          "Adjective to adverb",
+          "Noun to pronoun",
+          "Verb to preposition"
+        ],
+        "answer": 0,
+        "why": "Quick is an adjective; quickly is an adverb modifying runs."
+      },
+      {
+        "q": "Choose the correct transformation: 'She gave a careful answer.'",
+        "options": [
+          "She answered carefully.",
+          "She careful answered.",
+          "She answered carefulness."
+        ],
+        "answer": 0,
+        "why": "Careful (adjective) becomes carefully (adverb) to modify answered."
+      }
+    ]
   }
 ];
 
