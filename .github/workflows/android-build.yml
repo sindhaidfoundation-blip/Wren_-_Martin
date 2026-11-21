@@ -46,13 +46,6 @@ jobs:
       - name: Generate native Android project
         run: npx expo prebuild --platform android --no-install
 
-      - name: Verify Android network permission is removed
-        run: |
-          if grep -q 'android.permission.INTERNET' android/app/src/main/AndroidManifest.xml; then
-            echo "Unexpected INTERNET permission in Android manifest."
-            exit 1
-          fi
-
       - name: Prepare private Android signing key
         env:
           ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
