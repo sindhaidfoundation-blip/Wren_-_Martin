@@ -4808,6 +4808,87 @@ export const lessons = [
     ],
     "practicePrompt": "Write (1) a friendly letter inviting a cousin to spend the holidays with you, and (2) a formal letter to a newspaper editor about keeping your neighbourhood clean. For each, use the appropriate format and tone."
   }
+,
+  {
+    "id": "comprehension",
+    "title": "Comprehension",
+    "subtitle": "Introductory remarks and specimen passage with questions",
+    "urdu": "Comprehension یعنی عبارت کو غور سے پڑھ کر اس کا مطلب سمجھنا اور سوالات کے جواب عبارت کی بنیاد پر دینا۔ پہلے عبارت کا مجموعی خیال سمجھیں، پھر سوالات پڑھ کر متعلقہ معلومات تلاش کریں۔ جواب اپنے الفاظ میں، مختصر اور واضح لکھیں۔ عبارت سے باہر کی معلومات شامل نہ کریں، جب تک سوال خاص طور پر رائے یا نتیجہ اخذ کرنے کو نہ کہے۔",
+    "level": "Intermediate",
+    "duration": "12 min",
+    "rule": "Introductory remarks: Reading comprehension tests how accurately you understand a passage. Read the passage once for its general meaning, then read it again for details, important words, the writer's purpose and the relationships between ideas. Read each question carefully and identify what it asks: a fact, a reason, a meaning, an inference or the main idea. Answer from evidence in the passage, preferably in your own words. Keep answers relevant and concise, use complete sentences when required, and check that you have answered every part of the question. For vocabulary questions, use the surrounding sentence to infer meaning. Do not copy large sections when a short answer is enough.",
+    "example": "**Specimen passage: The Community Garden**\n\nIn a crowded part of the city, an unused piece of land stood between two rows of houses. People often passed it without noticing the rubbish scattered across it. One summer, a group of neighbours decided to turn the neglected space into a garden. They cleared the waste, prepared the soil and planted vegetables, herbs and flowers. Some residents donated seeds, while others offered tools or gave an hour of work each weekend.\n\nAt first, the plants grew slowly because the soil was dry. The neighbours arranged a watering schedule and collected rainwater in covered containers. Soon, green shoots appeared, and butterflies began visiting the flowers. The garden did more than provide fresh produce. Children learned how plants grow, older residents shared their gardening knowledge, and neighbours who had rarely spoken began working together. The project showed that a shared effort can improve not only a place but also the relationships among the people who live there.\n\n**Questions**\n1. Where was the unused piece of land located?\n2. What did the neighbours do to improve it?\n3. Why did the plants grow slowly at first?\n4. How did the neighbours solve the watering problem?\n5. Mention two benefits of the garden besides fresh produce.\n6. What does the word “neglected” mean in the passage?\n7. What is the main lesson of the passage?",
+    "breakdown": [
+      [
+        "Read once for the general idea",
+        "Gist",
+        "پہلی بار عبارت کا مرکزی خیال سمجھیں"
+      ],
+      [
+        "Read again for names, reasons and details",
+        "Scanning",
+        "دوسری بار مطلوبہ معلومات تلاش کریں"
+      ],
+      [
+        "Notice context around unfamiliar words",
+        "Vocabulary in context",
+        "لفظ کا مطلب آس پاس کے جملوں سے اخذ کریں"
+      ],
+      [
+        "Support answers with passage evidence",
+        "Accuracy",
+        "جواب عبارت کی معلومات کے مطابق دیں"
+      ],
+      [
+        "Write briefly in your own words",
+        "Clear response",
+        "اپنے الفاظ میں مختصر اور مکمل جواب دیں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What should you do on the first reading of a passage?",
+        "options": [
+          "Understand its general meaning",
+          "Memorise every word",
+          "Skip the title and topic"
+        ],
+        "answer": 0,
+        "why": "The first reading helps you grasp the overall subject and main idea."
+      },
+      {
+        "q": "Where should answers to factual questions come from?",
+        "options": [
+          "Evidence in the passage",
+          "An unrelated story",
+          "A guess unrelated to the text"
+        ],
+        "answer": 0,
+        "why": "Comprehension answers should be supported by the given text."
+      },
+      {
+        "q": "How can you work out an unfamiliar word's meaning?",
+        "options": [
+          "Use clues in the surrounding sentences",
+          "Ignore the whole paragraph",
+          "Choose any meaning at random"
+        ],
+        "answer": 0,
+        "why": "Context often explains how a word is being used."
+      },
+      {
+        "q": "What does “neglected” mean in the specimen passage?",
+        "options": [
+          "Not cared for",
+          "Newly painted",
+          "Carefully guarded"
+        ],
+        "answer": 0,
+        "why": "The land was unused and covered with rubbish, showing it had not been cared for."
+      }
+    ],
+    "practicePrompt": "Read the specimen passage and answer all seven questions in complete, concise sentences. Then write the main idea of the passage in one sentence."
+  }
 ];
 
 export const dailyQuestions = [
