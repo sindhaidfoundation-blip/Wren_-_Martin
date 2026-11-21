@@ -2958,6 +2958,310 @@ export const lessons = [
         "why": "Careful (adjective) becomes carefully (adverb) to modify answered."
       }
     ]
+  },
+  {
+    "id": "simple-to-compound-sentences",
+    "title": "Conversion of Simple Sentences into Compound Sentences",
+    "subtitle": "Changing a phrase into coordinated clauses",
+    "urdu": "Simple sentence میں ایک ہی principal clause ہوتا ہے، جبکہ compound sentence میں دو یا زیادہ independent clauses ہوتے ہیں۔ Simple کو compound بناتے وقت phrase کو مناسب مکمل clause میں بدلیں اور and, but, or, so وغیرہ استعمال کریں۔ اصل مفہوم برقرار رکھیں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A simple sentence can be changed into a compound sentence by expanding a phrase or participial construction into an independent clause and joining it to the other independent clause with a suitable coordinating conjunction. Preserve the original relationship and meaning.",
+    "example": "In spite of his poverty, he is honest. → He is poor, but he is honest.",
+    "breakdown": [
+      [
+        "In spite of his poverty",
+        "Prepositional phrase",
+        "Simple sentence میں رعایت کا مفہوم"
+      ],
+      [
+        "He is poor",
+        "Independent clause 1",
+        "Phrase کو مکمل clause بنایا"
+      ],
+      [
+        "but",
+        "Coordinating conjunction",
+        "تضاد ظاہر کرتا ہے"
+      ],
+      [
+        "he is honest",
+        "Independent clause 2",
+        "دوسرا independent clause"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the compound form of 'Being ill, he stayed at home.'",
+        "options": [
+          "He was ill, so he stayed at home.",
+          "Being ill at home.",
+          "He stayed at home because of illness."
+        ],
+        "answer": 0,
+        "why": "The participial phrase becomes an independent clause joined by so."
+      },
+      {
+        "q": "Which conjunction best shows contrast in this conversion?",
+        "options": [
+          "and",
+          "but",
+          "so"
+        ],
+        "answer": 1,
+        "why": "But joins independent clauses with contrasting ideas."
+      }
+    ]
+  },
+  {
+    "id": "compound-to-simple-sentences",
+    "title": "Conversion of Compound Sentences into Simple Sentences",
+    "subtitle": "Combining coordinated clauses into one principal clause",
+    "urdu": "Compound sentence کے دو یا زیادہ independent clauses کو simple sentence میں بدلنے کے لیے ایک clause کو phrase، participle، infinitive یا prepositional construction میں تبدیل کیا جا سکتا ہے۔ Subject اور tense کا خیال رکھیں اور معنی نہ بدلیں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A compound sentence can be converted into a simple sentence by reducing one independent clause to a phrase, participial construction, infinitive, or prepositional phrase. The resulting sentence has one principal clause and retains the original meaning.",
+    "example": "He finished his work, and he went home. → Having finished his work, he went home.",
+    "breakdown": [
+      [
+        "He finished his work",
+        "First independent clause",
+        "پہلا کام مکمل ہونے کا بیان"
+      ],
+      [
+        "Having finished his work",
+        "Perfect participial phrase",
+        "پہلے clause کو phrase میں بدلا"
+      ],
+      [
+        "he went home",
+        "Principal clause",
+        "اب صرف ایک principal clause ہے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the simple form of 'She heard the news and she became happy.'",
+        "options": [
+          "Hearing the news, she became happy.",
+          "She heard the news, and she was happy.",
+          "She was happy because she heard the news."
+        ],
+        "answer": 0,
+        "why": "The first clause is reduced to a participial phrase, leaving one principal clause."
+      },
+      {
+        "q": "A simple sentence has:",
+        "options": [
+          "Two independent clauses",
+          "One principal clause",
+          "Only one word"
+        ],
+        "answer": 1,
+        "why": "A simple sentence contains one independent or principal clause, though it may have phrases."
+      }
+    ]
+  },
+  {
+    "id": "simple-to-complex-sentences",
+    "title": "Conversion of Simple Sentences into Complex Sentences",
+    "subtitle": "Expanding phrases into subordinate clauses",
+    "urdu": "Simple sentence کو complex بنانے کے لیے کسی phrase کو subordinate clause میں تبدیل کریں۔ Clause کو اس کے کام کے مطابق noun، adjective یا adverb clause بنائیں اور because, although, when, who, which, that جیسے الفاظ درست استعمال کریں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A simple sentence can be converted into a complex sentence by expanding a phrase into a subordinate clause. The subordinate clause may function as a noun, adjective, or adverb clause. Keep the relationship and meaning unchanged.",
+    "example": "Despite his illness, he attended the meeting. → Although he was ill, he attended the meeting.",
+    "breakdown": [
+      [
+        "Despite his illness",
+        "Prepositional phrase",
+        "Simple sentence میں concession ظاہر کرتا ہے"
+      ],
+      [
+        "Although he was ill",
+        "Adverb clause of concession",
+        "Phrase کو subordinate clause میں بدلا"
+      ],
+      [
+        "he attended the meeting",
+        "Main clause",
+        "مرکزی خیال برقرار"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the complex form of 'On seeing the police, the thief ran away.'",
+        "options": [
+          "When the thief saw the police, he ran away.",
+          "The thief saw the police and ran away.",
+          "Seeing the police, the thief ran away."
+        ],
+        "answer": 0,
+        "why": "The phrase On seeing becomes the subordinate adverb clause when the thief saw."
+      },
+      {
+        "q": "Which word can introduce a clause of concession?",
+        "options": [
+          "Although",
+          "And",
+          "Or"
+        ],
+        "answer": 0,
+        "why": "Although introduces a subordinate clause expressing contrast or concession."
+      }
+    ]
+  },
+  {
+    "id": "complex-to-simple-sentences",
+    "title": "Conversion of Complex Sentences into Simple Sentences",
+    "subtitle": "Reducing subordinate clauses to phrases",
+    "urdu": "Complex sentence میں subordinate clause کو participial، infinitive، gerund یا prepositional phrase میں بدل کر simple sentence بنایا جا سکتا ہے۔ Main clause برقرار رکھیں اور subordinate clause کا تعلق واضح رکھیں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A complex sentence can be converted into a simple sentence by reducing a subordinate clause to a phrase, such as a participial, infinitive, gerund, or prepositional phrase. The final sentence must contain only one principal clause.",
+    "example": "When he saw the snake, he ran away. → Seeing the snake, he ran away.",
+    "breakdown": [
+      [
+        "When he saw the snake",
+        "Adverb clause of time",
+        "وقت کا تعلق ظاہر کرتا ہے"
+      ],
+      [
+        "Seeing the snake",
+        "Present participial phrase",
+        "Subordinate clause کو phrase میں بدلا"
+      ],
+      [
+        "he ran away",
+        "Principal clause",
+        "بنیادی خیال برقرار"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the simple form of 'Because he was careless, he made a mistake.'",
+        "options": [
+          "Being careless, he made a mistake.",
+          "Because he was careless, he made a mistake.",
+          "He was careless, so he made a mistake."
+        ],
+        "answer": 0,
+        "why": "The reason clause is reduced to the participial phrase Being careless."
+      },
+      {
+        "q": "Which structure can replace a subordinate clause in a simple sentence?",
+        "options": [
+          "A phrase",
+          "Another independent clause",
+          "A question mark"
+        ],
+        "answer": 0,
+        "why": "A phrase can express the related idea without forming another clause."
+      }
+    ]
+  },
+  {
+    "id": "compound-to-complex-sentences",
+    "title": "Conversion of Compound Sentences into Complex Sentences",
+    "subtitle": "Replacing coordination with subordination",
+    "urdu": "Compound sentence میں independent clauses کو coordinating conjunction جوڑتا ہے۔ اسے complex بنانے کے لیے ایک independent clause کو subordinate clause میں بدلیں، مثلاً because، although، when، if یا who کے ذریعے۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A compound sentence can be converted into a complex sentence by making one independent clause subordinate to the other. Choose a subordinating conjunction or relative pronoun that accurately expresses the relationship, such as cause, contrast, time, condition, or description.",
+    "example": "He was ill, but he attended the meeting. → Although he was ill, he attended the meeting.",
+    "breakdown": [
+      [
+        "He was ill",
+        "Subordinate adverb clause",
+        "Although کے بعد dependent بن گیا"
+      ],
+      [
+        "Although",
+        "Subordinating conjunction",
+        "تضاد / رعایت ظاہر کرتا ہے"
+      ],
+      [
+        "he attended the meeting",
+        "Main clause",
+        "مرکزی independent clause"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the complex form of 'Work hard, or you will fail.'",
+        "options": [
+          "If you do not work hard, you will fail.",
+          "Work hard, and you will succeed.",
+          "Work hard to avoid failure."
+        ],
+        "answer": 0,
+        "why": "The alternative warning is expressed as a subordinate condition clause."
+      },
+      {
+        "q": "What is the key change from compound to complex?",
+        "options": [
+          "One independent clause becomes subordinate",
+          "All verbs are removed",
+          "The sentence becomes a fragment"
+        ],
+        "answer": 0,
+        "why": "A complex sentence has one main clause and at least one subordinate clause."
+      }
+    ]
+  },
+  {
+    "id": "complex-to-compound-sentences",
+    "title": "Conversion of Complex Sentences into Compound Sentences",
+    "subtitle": "Replacing subordination with coordination",
+    "urdu": "Complex sentence میں main clause کے ساتھ subordinate clause ہوتا ہے۔ Compound بنانے کے لیے subordinate clause کو independent clause میں بدلیں اور مناسب coordinating conjunction جیسے and, but, so, or استعمال کریں۔ اصل تعلق اور معنی برقرار رکھیں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A complex sentence can be converted into a compound sentence by turning the subordinate clause into an independent clause and joining the clauses with an appropriate coordinating conjunction. Select the conjunction to preserve cause, contrast, result, or sequence.",
+    "example": "Although he was tired, he continued working. → He was tired, but he continued working.",
+    "breakdown": [
+      [
+        "Although he was tired",
+        "Adverb clause of concession",
+        "Complex sentence میں dependent clause"
+      ],
+      [
+        "He was tired",
+        "Independent clause 1",
+        "اب مکمل independent clause"
+      ],
+      [
+        "but",
+        "Coordinating conjunction",
+        "تضاد برقرار رکھتا ہے"
+      ],
+      [
+        "he continued working",
+        "Independent clause 2",
+        "دوسرا independent clause"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the compound form of 'As it was raining, we stayed indoors.'",
+        "options": [
+          "It was raining, so we stayed indoors.",
+          "Because it rained, we stayed indoors.",
+          "Staying indoors in the rain."
+        ],
+        "answer": 0,
+        "why": "The reason clause becomes an independent clause joined by so."
+      },
+      {
+        "q": "Which conjunction commonly expresses result in a compound sentence?",
+        "options": [
+          "So",
+          "Although",
+          "Because"
+        ],
+        "answer": 0,
+        "why": "So coordinates two independent clauses and expresses a result."
+      }
+    ]
   }
 ];
 
