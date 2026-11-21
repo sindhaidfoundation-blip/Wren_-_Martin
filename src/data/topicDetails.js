@@ -245,3 +245,206 @@ export const topicDetails = {
     examples: ["Reading improves vocabulary. (subject)", "She enjoys painting landscapes. (object)", "He left without saying goodbye. (after preposition)"]
   }
 };
+
+// Extra examples give learners more sentence patterns to practise.
+const extraTopicExamples = {
+  "parts-of-speech": [
+    "Birds fly over the tall trees. (Birds = noun, fly = verb, tall = adjective)",
+    "She quickly opened the door. (quickly = adverb, the = article)"
+  ],
+  "nouns": [
+    "The teacher praised the students. (people)",
+    "Patience brings success. (quality)"
+  ],
+  "pronouns": [
+    "He gave her a present.",
+    "We enjoyed ourselves at the park."
+  ],
+  "verbs": [
+    "The baby is sleeping.",
+    "They will visit Lahore tomorrow."
+  ],
+  "adjectives": [
+    "She bought a beautiful dress.",
+    "The room is clean and spacious."
+  ],
+  "tenses": [
+    "I write in my diary every night. (present habit)",
+    "They were playing when it started raining. (past continuous)"
+  ],
+  "articles": [
+    "I saw an elephant at the zoo.",
+    "The sun rises in the east."
+  ],
+  "prepositions": [
+    "The picture hangs above the sofa.",
+    "We have lived here since Monday."
+  ],
+  "voice": [
+    "Active: The chef cooks the meal.",
+    "Passive: The meal is cooked by the chef."
+  ],
+  "reported-speech": [
+    "Direct: He said, “I like tea.” Reported: He said that he liked tea.",
+    "Direct: She said, “I will help.” Reported: She said that she would help."
+  ],
+  "adverbs": [
+    "The train arrived late. (time)",
+    "He almost missed the bus. (degree)"
+  ],
+  "conjunctions": [
+    "You can have tea or coffee.",
+    "Although it was cold, we went outside."
+  ],
+  "interjections": [
+    "Alas! We lost the match.",
+    "Wow! This painting is amazing."
+  ],
+  "subject-predicate": [
+    "My younger sister / plays the piano.",
+    "The birds in the garden / are singing."
+  ],
+  "sentence-types": [
+    "Where do you live? (question)",
+    "Never touch a hot pan. (command)"
+  ],
+  "subject-verb-agreement": [
+    "My brother plays cricket.",
+    "The books on the shelf are mine."
+  ],
+  "punctuation": [
+    "My favourite colours are red, blue and green.",
+    "It is raining; take an umbrella."
+  ],
+  "countable-uncountable": [
+    "There are three chairs in the room.",
+    "Please give me some information."
+  ],
+  "comparatives-superlatives": [
+    "A train is faster than a bus.",
+    "This is the tallest building in town."
+  ],
+  "modals": [
+    "You must wear a seat belt. (obligation)",
+    "Could you help me, please? (polite request)"
+  ],
+  "clauses-and-phrases": [
+    "after the long journey (phrase)",
+    "I smiled because I was happy. (main and dependent clauses)"
+  ],
+  "conditionals": [
+    "If you study, you will improve. (first conditional)",
+    "If I had more time, I would learn French. (second conditional)"
+  ],
+  "gerunds-infinitives": [
+    "He avoids eating junk food. (gerund)",
+    "They decided to start early. (infinitive)"
+  ],
+  "relative-clauses": [
+    "The girl who sits beside me is kind.",
+    "This is the phone that I bought yesterday."
+  ],
+  "question-tags": [
+    "He can swim, can't he?",
+    "Let's begin, shall we?"
+  ],
+  "the-sentence": [
+    "The children are playing outside. (complete sentence)",
+    "When the teacher arrived. (fragment)"
+  ],
+  "kinds-of-nouns": [
+    "Pakistan is a country. (proper and common nouns)",
+    "A flock of birds flew away. (collective noun)"
+  ],
+  "noun-gender": [
+    "The king welcomed the guests. (masculine)",
+    "The nurse said they would return soon. (gender-neutral pronoun)"
+  ],
+  "noun-number": [
+    "one tooth, two teeth",
+    "one leaf, many leaves"
+  ],
+  "noun-case": [
+    "The boy's bicycle is new. (singular possession)",
+    "The teachers' room is upstairs. (plural possession)"
+  ],
+  "personal-pronouns": [
+    "I saw him at the market.",
+    "They gave us their address."
+  ],
+  "adjectives-as-nouns": [
+    "The young should respect the old.",
+    "The blind can access books in different formats."
+  ],
+  "position-of-adjectives": [
+    "It is a delicious meal. (before noun)",
+    "The meal tastes delicious. (after linking verb)"
+  ],
+  "correct-use-of-adjectives": [
+    "The instructions are confusing; I am confused.",
+    "We have a little milk left. (some milk)"
+  ],
+  "reflexive-emphatic-pronouns": [
+    "I cut myself while cooking. (reflexive)",
+    "The queen herself opened the exhibition. (emphatic)"
+  ],
+  "demonstrative-indefinite-distributive-pronouns": [
+    "Those are my shoes. (demonstrative)",
+    "Neither of the answers is correct. (distributive)"
+  ],
+  "relative-pronouns": [
+    "The man whom we met was friendly.",
+    "I know a writer whose books are popular."
+  ],
+  "interrogative-pronouns": [
+    "What is your name?",
+    "Whom did you invite? (formal object form)"
+  ],
+  "the-verb": [
+    "The children laughed loudly. (intransitive)",
+    "She painted a picture. (transitive)"
+  ],
+  "verbs-incomplete-predication": [
+    "The flowers smell sweet.",
+    "His idea sounds interesting."
+  ],
+  "active-passive-voice": [
+    "Active: The police caught the thief.",
+    "Passive: The thief was caught by the police."
+  ],
+  "mood": [
+    "May you succeed! (wish)",
+    "The committee recommends that he attend. (subjunctive)"
+  ],
+  "tenses-introduction": [
+    "They have been waiting for an hour. (continuing action)",
+    "We had finished dinner before he arrived. (earlier past action)"
+  ],
+  "uses-present-past-tenses": [
+    "Water boils at 100°C. (general fact)",
+    "I was reading when the phone rang. (past action in progress)"
+  ],
+  "the-future": [
+    "She is meeting her friend tomorrow. (arrangement)",
+    "I think our team will win. (prediction)"
+  ],
+  "verb-person-number": [
+    "She writes neatly. (third-person singular)",
+    "You and I are classmates. (plural subject)"
+  ],
+  "the-infinitive": [
+    "He came to see his uncle. (purpose)",
+    "Let the children play. (bare infinitive)"
+  ],
+  "the-participle": [
+    "The crying baby needs milk. (present participle)",
+    "The letter was written yesterday. (past participle)"
+  ],
+  "the-gerund": [
+    "Dancing is her favourite hobby. (subject)",
+    "He is fond of reading novels. (after preposition)"
+  ]
+};
+for (const [topicId, examples] of Object.entries(extraTopicExamples)) {
+  if (topicDetails[topicId]) topicDetails[topicId].examples.push(...examples);
+}
