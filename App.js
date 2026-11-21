@@ -4,6 +4,7 @@ import * as Print from "expo-print";
 import * as Sharing from "expo-sharing";
 import { Alert, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { lessons, dailyQuestions, sindhiTranslations } from "./src/data/lessons";
+import { topicDetails } from "./src/data/topicDetails";
 
 const navy = "#101C3A";
 const ink = "#18233F";
@@ -540,6 +541,21 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       <View style={styles.examplePanel}><Text style={styles.panelLabel}>EXAMPLE</Text><Text style={styles.exampleText}>{selected.example}</Text></View>
       <Text style={styles.sectionTitle}>Understand the sentence</Text>
       {selected.breakdown.map((line, i) => <View key={i} style={styles.breakRow}><View style={{ flex: 1 }}><Text style={styles.breakWord}>{line[0]}</Text><Text style={styles.breakKind}>{line[1]}</Text></View><Text style={styles.breakUrdu}>{line[2]}</Text></View>)}
+      {topicDetails[selected.id] ? <View style={{ marginTop: 24, gap: 12 }}>
+        <Text style={styles.sectionTitle}>Explore this topic further</Text>
+        <View style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 8 }}>
+          <Text style={styles.panelLabel}>MORE TO UNDERSTAND</Text>
+          <Text style={{ color: ink, fontSize: 15, lineHeight: 24 }}>{topicDetails[selected.id].overview}</Text>
+        </View>
+        <View style={{ backgroundColor: "#FFF8E9", borderRadius: 16, borderWidth: 1, borderColor: "#F1E2BE", padding: 16, gap: 8 }}>
+          <Text style={styles.panelLabel}>COMMON MISTAKE TO AVOID</Text>
+          <Text style={{ color: ink, fontSize: 15, lineHeight: 24 }}>{topicDetails[selected.id].watchFor}</Text>
+        </View>
+        <View style={{ backgroundColor: "#F0F5FF", borderRadius: 16, borderWidth: 1, borderColor: "#DFE8FA", padding: 16, gap: 8 }}>
+          <Text style={styles.panelLabel}>MORE EXAMPLES</Text>
+          {topicDetails[selected.id].examples.map((example, index) => <Text key={index} style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{index + 1}. {example}</Text>)}
+        </View>
+      </View> : null}
       <Action title="Take chapter quiz  →" onPress={() => startQuiz(selected)} />
       <Action title="Mark lesson complete" secondary onPress={finishLesson} />
     </ScrollView>;
