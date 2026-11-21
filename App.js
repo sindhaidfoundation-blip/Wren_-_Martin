@@ -106,11 +106,15 @@ export default function App() {
   function score() {
     return (quiz || []).filter((q, i) => answers[i] === q.answer).length;
   }
+  function bestScoreFor(lessonId) {
+    const attempts = (stats.quizHistory || []).filter(item => item.lessonId === lessonId && item.total > 0);
+    return attempts.length ? Math.max(...attempts.map(item => item.percent)) : null;
+  }
 
   const renderLessonCard = (item, index) => (
     <TouchableOpacity key={item.id} onPress={() => openLesson(item)} style={styles.lessonCard}>
       <View style={styles.lessonNumber}><Text style={styles.lessonNumberText}>{String(index + 1).padStart(2, "0")}</Text></View>
-      <View style={{ flex: 1 }}><Text style={styles.cardTitle}>{item.title}</Text><Text style={styles.cardSub}>{item.subtitle}</Text><Text style={styles.cardMeta}>{item.level}  ·  {item.duration}</Text></View>
+      <View style={{ flex: 1 }}><Text style={styles.cardTitle}>{item.title}</Text><Text style={styles.cardSub}>{item.subtitle}</Text><Text style={styles.cardMeta}>{item.level}  ·  {item.duration}</Text>{bestScoreFor(item.id) !== null ? <Text style={styles.bestScoreMeta}>Best quiz score: {bestScoreFor(item.id)}%</Text> : null}</View>
       <Text style={styles.chevron}>›</Text>
     </TouchableOpacity>
   );
@@ -185,7 +189,7 @@ export default function App() {
         }
         setQuizNotice("");
         setShowResult(true);
-      }} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text><Action title="Done" onPress={() => { if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
+      }} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text><Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); }} /><Action title="Done" onPress={() => { if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
     </ScrollView>;
   }
 
@@ -242,6 +246,7 @@ const styles = StyleSheet.create({
   cardTitle: { color: ink, fontSize: 14, fontWeight: "800" },
   cardSub: { color: muted, fontSize: 11, marginTop: 4 },
   cardMeta: { color: green, fontSize: 9, fontWeight: "800", marginTop: 6, letterSpacing: 0.4 },
+  bestScoreMeta: { color: green, fontSize: 10, fontWeight: "800", marginTop: 5 },
   chevron: { color: "#A8AFBD", fontSize: 26, marginLeft: 8 },
   dailyCard: { flexDirection: "row", alignItems: "center", backgroundColor: "#EAF3F0", borderRadius: 18, padding: 14, marginTop: 12 },
   dailyIcon: { width: 42, height: 42, borderRadius: 14, backgroundColor: "#D4E9E1", alignItems: "center", justifyContent: "center", marginRight: 11 },
