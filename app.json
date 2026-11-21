@@ -21,6 +21,15 @@
         "backgroundColor": "#101C3A"
       },
       "allowBackup": false
-    }
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-4568292017940942~2885847236",
+          "delayAppMeasurementInit": true
+        }
+      ]
+    ]
   }
 }
