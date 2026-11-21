@@ -56,6 +56,27 @@ function buildTopicQuestions(lesson) {
   return questions.slice(0, 5);
 }
 
+function buildTenTopicQuestions(lesson) {
+  const questions = buildTopicQuestions(lesson);
+  const otherLessons = lessons.filter(item => item.id !== lesson.id);
+  const unique = values => [...new Set(values.filter(value => typeof value === "string" && value.trim()))];
+  const add = (q, values, explanation) => {
+    const options = unique([values[0], ...values.slice(1)]).slice(0, 4);
+    if (options.length === 4) questions.push({ q, options, answer: 0, why: explanation });
+  };
+  add("What is the key rule to remember about " + lesson.title + "?", unique([lesson.rule, ...otherLessons.map(item => item.rule)]), lesson.rule);
+  add("Choose the sentence that illustrates " + lesson.title + ".", unique([lesson.example, ...otherLessons.map(item => item.example)]), "This sentence illustrates " + lesson.title + ".");
+  add("Which description belongs to the " + lesson.title + " lesson?", unique([lesson.subtitle, ...otherLessons.map(item => item.subtitle)]), lesson.subtitle);
+  const parts = lesson.breakdown || [];
+  const word = parts.length ? parts[0] : null;
+  const words = unique([word && word[0], ...otherLessons.flatMap(item => (item.breakdown || []).map(line => line[0]))]);
+  if (word) add("Which word appears in the example breakdown for " + lesson.title + "?", words, word[0] + " appears in this lesson's breakdown.");
+  const role = parts.length ? parts[parts.length - 1] : null;
+  const roles = unique([role && role[1], ...otherLessons.flatMap(item => (item.breakdown || []).map(line => line[1]))]);
+  if (role) add("What grammatical role is assigned to \"" + role[0] + "\" in this lesson?", roles, role[0] + " is labelled " + role[1] + ".");
+  return questions.slice(0, 10);
+}
+
 export default function App() {
   const [tab, setTab] = useState("Home");
   const [quizReturnTab, setQuizReturnTab] = useState("Lesson");
@@ -195,7 +216,7 @@ export default function App() {
     setExamDeadline(null);
     setExamExpired(false);
     setSelected(item);
-    setQuiz(buildTopicQuestions(item));
+    setQuiz(buildTenTopicQuestions(item));
     setAnswers({});
     setShowResult(false);
     setQuizRecorded(false);
@@ -455,8 +476,8 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
 
   function MCQs() {
     return <ScrollView contentContainerStyle={styles.content}>
-      <Header eyebrow="TOPIC-BY-TOPIC PRACTICE" title="MCQ library" subtitle="Choose any grammar topic and answer five focused multiple-choice questions." />
-      <View style={styles.mcqSummary}><Text style={styles.mcqSummaryNumber}>{lessons.length * 5}</Text><View style={{ flex: 1 }}><Text style={styles.cardTitle}>Practice questions</Text><Text style={styles.cardSub}>{lessons.length} topics · 5 questions per topic</Text></View></View>
+      <Header eyebrow="TOPIC-BY-TOPIC PRACTICE" title="MCQ library" subtitle="Choose any grammar topic and answer ten focused multiple-choice questions." />
+      <View style={styles.mcqSummary}><Text style={styles.mcqSummaryNumber}>{lessons.length * 10}</Text><View style={{ flex: 1 }}><Text style={styles.cardTitle}>Practice questions</Text><Text style={styles.cardSub}>{lessons.length} topics · 10 questions per topic</Text></View></View>
       {lessons.map((item, index) => <TouchableOpacity key={item.id} onPress={() => startTopicMCQ(item)} style={styles.mcqTopicCard}>
         <View style={styles.lessonNumber}><Text style={styles.lessonNumberText}>{String(index + 1).padStart(2, "0")}</Text></View>
         <View style={{ flex: 1 }}><Text style={styles.cardTitle}>{item.title}</Text><Text style={styles.cardSub}>{item.subtitle}</Text><Text style={styles.cardMeta}>5 MCQS · START PRACTICE</Text></View>
