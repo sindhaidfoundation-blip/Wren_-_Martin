@@ -52,6 +52,7 @@ export default function App() {
   const [quizRecorded, setQuizRecorded] = useState(false);
   const [quizNotice, setQuizNotice] = useState("");
   const [isExam, setIsExam] = useState(false);
+  const [isMistakePractice, setIsMistakePractice] = useState(false);
   const [examDeadline, setExamDeadline] = useState(null);
   const [examRemaining, setExamRemaining] = useState(0);
   const [examExpired, setExamExpired] = useState(false);
@@ -156,6 +157,7 @@ export default function App() {
 
   function openLesson(item) {
     setIsExam(false);
+    setIsMistakePractice(false);
     setExamDeadline(null);
     setExamExpired(false);
     setSelected(item);
@@ -168,6 +170,7 @@ export default function App() {
   }
   function startQuiz(item) {
     setIsExam(false);
+    setIsMistakePractice(false);
     setExamDeadline(null);
     setExamExpired(false);
     setSelected(item || null);
@@ -178,8 +181,27 @@ export default function App() {
     setQuizNotice("");
     setTab("Quiz");
   }
+  function startMistakePractice() {
+    const questions = (stats.wrongAnswers || [])
+      .filter(item => Array.isArray(item.options) && Number.isInteger(item.answer) && item.answer >= 0 && item.answer < item.options.length)
+      .slice(0, 10)
+      .map(item => ({ q: item.question, options: item.options, answer: item.answer, why: item.explanation, lessonTitle: item.lessonTitle, lessonId: item.lessonId }));
+    if (!questions.length) return;
+    setIsExam(false);
+    setIsMistakePractice(true);
+    setExamDeadline(null);
+    setExamExpired(false);
+    setSelected(null);
+    setQuiz(questions);
+    setAnswers({});
+    setShowResult(false);
+    setQuizRecorded(false);
+    setQuizNotice("");
+    setTab("Quiz");
+  }
   function startExam() {
     const questions = fullCourseQuestions;
+    setIsMistakePractice(false);
     setSelected(null);
     setIsExam(true);
     setQuiz(questions);
@@ -293,8 +315,8 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
     }
     const correct = score();
     const today = localDateKey();
-    const isDaily = !selected && !isExam;
-    const title = isExam ? "Full course exam" : selected ? selected.title : "Daily practice";
+    const isDaily = !selected && !isExam && !isMistakePractice;
+    const title = isExam ? "Full course exam" : isMistakePractice ? "Mistake review" : selected ? selected.title : "Daily practice";
     const lessonBreakdown = isExam ? lessons.map(lesson => {
       const lessonQuestions = quiz.map((question, index) => ({ question, index })).filter(item => item.question.lessonId === lesson.id);
       const lessonCorrect = lessonQuestions.filter(item => answers[item.index] === item.question.answer).length;
@@ -309,7 +331,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       lastPracticeDate: isDaily ? today : old.lastPracticeDate,
       dailyPracticeDates: isDaily ? [...new Set([...(old.dailyPracticeDates || []), today])].slice(-90) : (old.dailyPracticeDates || []),
       quizHistory: [attempt, ...(old.quizHistory || [])].slice(0, 20),
-      wrongAnswers: [...quiz.map((question, index) => ({ question: question.q, selectedAnswer: answers[index] === undefined ? "Not answered" : question.options[answers[index]], correctAnswer: question.options[question.answer], explanation: question.why, lessonTitle: question.lessonTitle || (selected ? selected.title : title), lessonId: question.lessonId || (selected ? selected.id : null), date: today })).filter((item, index) => answers[index] !== quiz[index].answer), ...(old.wrongAnswers || [])].slice(0, 50)
+      wrongAnswers: [...quiz.map((question, index) => ({ question: question.q, options: question.options, answer: question.answer, selectedAnswer: answers[index] === undefined ? "Not answered" : question.options[answers[index]], correctAnswer: question.options[question.answer], explanation: question.why, lessonTitle: question.lessonTitle || (selected ? selected.title : title), lessonId: question.lessonId || (selected ? selected.id : null), date: today })).filter((item, index) => answers[index] !== quiz[index].answer), ...(old.wrongAnswers || [])].slice(0, 50)
     }));
     if (isDaily) setDailyDone(true);
     setQuizRecorded(true);
@@ -414,7 +436,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           setTab(selected ? "Lesson" : "Home");
         }
       }}><Text style={styles.back}>‹  BACK</Text></TouchableOpacity>
-      <Header eyebrow={isExam ? "TIMED ASSESSMENT" : "QUICK KNOWLEDGE CHECK"} title={isExam ? "Full course exam" : selected ? selected.title + " quiz" : "Daily practice"} subtitle={isExam ? "Test your knowledge across all 25 lessons." : "Choose the best answer for each question."} />
+      <Header eyebrow={isExam ? "TIMED ASSESSMENT" : isMistakePractice ? "PERSONALISED REVISION" : "QUICK KNOWLEDGE CHECK"} title={isExam ? "Full course exam" : isMistakePractice ? "Review missed questions" : selected ? selected.title + " quiz" : "Daily practice"} subtitle={isExam ? "Test your knowledge across all 25 lessons." : isMistakePractice ? "Try these questions again and strengthen your weak topics." : "Choose the best answer for each question."} />
       {isExam ? <View style={styles.examTimer}><Text style={styles.examTimerLabel}>TIME REMAINING</Text><Text style={styles.examTimerValue}>{timerText}</Text><Text style={styles.examTimerHint}>{total} questions · 30 minutes · unanswered questions count as incorrect</Text></View> : null}
       {!showResult ? <View style={styles.quizProgress}><View style={styles.quizProgressTop}><Text style={styles.panelLabel}>YOUR PROGRESS</Text><Text style={styles.cardSub}>{Object.keys(answers).length} OF {total} ANSWERED</Text></View><View style={styles.progressTrack}><View style={[styles.progressFill, { width: (total ? Math.round((Object.keys(answers).length / total) * 100) : 0) + "%" }]} /></View></View> : null}
       {quiz.map((q, i) => <View key={i} style={styles.questionCard}>{isExam && q.lessonTitle ? <Text style={styles.questionCount}>{q.lessonTitle.toUpperCase()}</Text> : null}<View style={styles.questionMetaRow}><Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={[styles.questionStatus, answers[i] !== undefined ? styles.questionStatusAnswered : styles.questionStatusPending]}>{answers[i] !== undefined ? "ANSWERED" : "NOT ANSWERED"}</Text></View><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text> : null}</View>)}
@@ -428,10 +450,13 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
     </ScrollView>;
   }
 
+  const reviewableMistakes = (stats.wrongAnswers || []).filter(item => Array.isArray(item.options) && Number.isInteger(item.answer) && item.answer >= 0 && item.answer < item.options.length);
+
   function Practice() {
     return <ScrollView contentContainerStyle={styles.content}>
       <Header eyebrow="BUILD A DAILY HABIT" title="Practice makes progress" subtitle="Short sessions. Stronger grammar. Better confidence." />
       <View style={styles.practiceHero}><Text style={styles.practiceNumber}>{String(dailyQuestions.length).padStart(2, "0")}</Text><Text style={styles.practiceLabel}>QUESTIONS IN THE PRACTICE BANK</Text><Text style={styles.practiceDescription}>A quick daily challenge covering grammar essentials.</Text><Action title={dailyDone ? "Practice again" : "Start daily practice"} onPress={() => startQuiz(null)} /></View>
+      {reviewableMistakes.length ? <View style={styles.reviewCard}><Text style={styles.reviewEyebrow}>PERSONALISED REVISION</Text><Text style={styles.examTitle}>Review missed questions</Text><Text style={styles.examDescription}>{reviewableMistakes.length} saved question{reviewableMistakes.length === 1 ? "" : "s"} to help strengthen your weaker topics. Start with up to 10.</Text><Action title="Practice my mistakes" onPress={startMistakePractice} /></View> : null}
       <View style={styles.examCard}><Text style={styles.examEyebrow}>FINAL ASSESSMENT</Text><Text style={styles.examTitle}>Full course exam</Text><Text style={styles.examDescription}>One question set from every lesson. Check your overall grammar knowledge in a timed challenge.</Text><View style={styles.examFacts}><View><Text style={styles.examFactNumber}>{lessons.reduce((sum, lesson) => sum + lesson.quiz.length, 0)}</Text><Text style={styles.examFactLabel}>QUESTIONS</Text></View><View><Text style={styles.examFactNumber}>30</Text><Text style={styles.examFactLabel}>MINUTES</Text></View><View><Text style={styles.examFactNumber}>{lessons.length}</Text><Text style={styles.examFactLabel}>LESSONS</Text></View></View><Action title="Start full course exam" onPress={startExam} /></View>
       <View style={styles.tipCard}><Text style={styles.tipLabel}>STUDY TIP</Text><Text style={styles.tipText}>Try to explain each grammar rule in your own words after reading it.</Text><Text style={styles.tipUrdu}>ہر سبق کے بعد اصول کو اپنے الفاظ میں سمجھانے کی کوشش کریں۔</Text></View>
     </ScrollView>;
@@ -551,6 +576,8 @@ const styles = StyleSheet.create({
   progressCard: { backgroundColor: "#FFFFFF", borderRadius: 18, padding: 19, marginTop: 13, borderWidth: 1, borderColor: "#EAECF2" },
   historyRow: { flexDirection: "row", alignItems: "center", paddingVertical: 11, borderBottomWidth: 1, borderBottomColor: "#EEF0F4" },
   historyScore: { color: green, fontSize: 18, fontWeight: "900", marginLeft: 12 },
+  reviewCard: { backgroundColor: "#FFF7E8", borderRadius: 20, padding: 20, marginTop: 14, borderWidth: 1, borderColor: "#F0DCA9" },
+  reviewEyebrow: { color: "#A5792F", fontSize: 9, fontWeight: "900", letterSpacing: 1.5 },
   examCard: { backgroundColor: navy, borderRadius: 20, padding: 20, marginTop: 14 },
   examEyebrow: { color: gold, fontSize: 9, fontWeight: "900", letterSpacing: 1.5 },
   examTitle: { color: "#FFFFFF", fontSize: 21, fontWeight: "900", marginTop: 8 },
