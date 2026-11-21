@@ -4985,6 +4985,87 @@ export const lessons = [
     ],
     "practicePrompt": "Write a precis of the specimen passage in about one-third of its length. Give it a suitable title, use your own words, and preserve the main points without adding your opinion."
   }
+,
+  {
+    "id": "expansion-of-passages",
+    "title": "Expansion of Passages",
+    "subtitle": "Introductory remarks, method of procedure and specimen",
+    "urdu": "Expansion of passages میں دیے گئے مختصر قول یا خیال کو اس کے مرکزی مفہوم سے ہٹے بغیر ایک مکمل، مربوط پیراگراف میں پھیلایا جاتا ہے۔ اصل خیال کو سمجھیں، متعلقہ نکات سوچیں، مثال یا وضاحت شامل کریں اور غیر متعلقہ باتوں سے گریز کریں۔",
+    "level": "Intermediate",
+    "duration": "13 min",
+    "rule": "Introductory remarks: Expansion of a passage means developing a short statement, quotation or central idea into a clear, connected piece of writing. The aim is to explain the thought fully, not merely to repeat it in more words. Method of procedure: (1) Read the given statement carefully and identify its central idea. (2) Consider what it means and what message it conveys. (3) Note two or three relevant supporting points, reasons or examples. (4) Arrange these points in a logical order. (5) Write an introductory sentence that introduces the idea, followed by explanation and suitable examples. (6) End with a sentence that reinforces the main message. Keep the expansion focused, coherent and accurate. Do not distort the original meaning, add unrelated ideas or use unnecessary repetition. A proverb or quotation may be explained with a practical example where appropriate.",
+    "example": "**Specimen statement: “Where there is a will, there is a way.”**\n\nDetermination is one of the most important qualities for success. A person who has a clear aim and is willing to work steadily can often overcome difficulties that seem impossible at first. Talent and good opportunities are helpful, but they are not enough without effort and patience. For example, a student who finds a subject difficult can improve through regular practice, careful study and guidance from teachers. The student may progress slowly, but persistence makes improvement possible. On the other hand, a person who gives up at the first obstacle loses the chance to discover what can be achieved. This proverb reminds us that strong determination encourages us to find solutions and continue working towards our goals. Success may take time, but a firm will and consistent effort can open a way forward.",
+    "breakdown": [
+      [
+        "Understand the statement",
+        "Central idea",
+        "قول یا خیال کا بنیادی مطلب سمجھیں"
+      ],
+      [
+        "Think of reasons and implications",
+        "Development",
+        "خیال کی وضاحت کے لیے متعلقہ نکات سوچیں"
+      ],
+      [
+        "Choose a relevant example",
+        "Illustration",
+        "مناسب مثال سے بات واضح کریں"
+      ],
+      [
+        "Arrange points logically",
+        "Coherence",
+        "خیالات کو درست ترتیب میں رکھیں"
+      ],
+      [
+        "Write a focused conclusion",
+        "Closing",
+        "اختتام میں مرکزی پیغام مضبوط کریں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What is the purpose of expanding a passage or statement?",
+        "options": [
+          "To explain its central idea fully and clearly",
+          "To repeat the statement many times",
+          "To change its original meaning"
+        ],
+        "answer": 0,
+        "why": "Expansion develops the given thought with relevant explanation and support."
+      },
+      {
+        "q": "What should you identify before writing?",
+        "options": [
+          "The central idea",
+          "The longest possible word",
+          "An unrelated topic"
+        ],
+        "answer": 0,
+        "why": "Understanding the central idea keeps the expansion relevant."
+      },
+      {
+        "q": "Which material is most useful in an expansion?",
+        "options": [
+          "Relevant reasons and examples",
+          "Unconnected stories",
+          "Repeated sentences"
+        ],
+        "answer": 0,
+        "why": "Relevant support explains and illustrates the original thought."
+      },
+      {
+        "q": "How should an expansion end?",
+        "options": [
+          "With a conclusion that reinforces the main message",
+          "With a completely new topic",
+          "In the middle of an unfinished idea"
+        ],
+        "answer": 0,
+        "why": "A focused conclusion brings the explanation back to its central message."
+      }
+    ],
+    "practicePrompt": "Expand the statement “Honesty is the best policy” into a well-organised paragraph of about 150–180 words. Explain the idea, give a relevant example and finish with a clear conclusion."
+  }
 ];
 
 export const dailyQuestions = [
