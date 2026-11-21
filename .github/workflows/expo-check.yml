@@ -1,0 +1,40 @@
+name: Expo app checks
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  expo-check:
+    name: Validate Expo app
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Check Expo SDK compatibility
+        run: npx expo-doctor
+
+      - name: Bundle Android
+        run: npx expo export --platform android
+
+      - name: Bundle iOS
+        run: npx expo export --platform ios
