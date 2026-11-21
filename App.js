@@ -10,6 +10,13 @@ const gold = "#E6B85C";
 const bg = "#F5F6FA";
 const green = "#23866D";
 const STORAGE_KEY = "@wren-martin-grammar-master/progress-v1";
+function localDateKey() {
+  const date = new Date();
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
 
 function Pill({ children, active = false, onPress }) {
   return <TouchableOpacity onPress={onPress} style={[styles.pill, active && styles.pillActive]}><Text style={[styles.pillText, active && styles.pillTextActive]}>{children}</Text></TouchableOpacity>;
@@ -52,7 +59,7 @@ export default function App() {
             dailySessions: Number(parsed.stats.dailySessions) || 0,
             lastPracticeDate: typeof parsed.stats.lastPracticeDate === "string" ? parsed.stats.lastPracticeDate : null
           });
-          setDailyDone(parsed.stats.lastPracticeDate === new Date().toISOString().slice(0, 10));
+          setDailyDone(parsed.stats.lastPracticeDate === localDateKey());
         }
       } catch (error) {
         console.warn("Could not load saved learning progress.", error);
@@ -161,7 +168,7 @@ export default function App() {
         if (!quizRecorded) {
           const correct = score();
           const isDaily = !selected;
-          const today = new Date().toISOString().slice(0, 10);
+          const today = localDateKey();
           setStats(old => ({
             ...old,
             quizzesTaken: old.quizzesTaken + 1,
