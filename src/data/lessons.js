@@ -4239,6 +4239,313 @@ export const lessons = [
       }
     ]
   }
+,
+  {
+    "id": "structures",
+    "title": "Structures",
+    "subtitle": "Building common English sentence patterns",
+    "urdu": "English sentence structures مختلف انداز میں خیال ظاہر کرتے ہیں۔ عام patterns میں Subject + Verb، Subject + Verb + Object، Subject + Linking Verb + Complement، اور There is/There are شامل ہیں۔ درست structure منتخب کرنے سے جملہ واضح اور مکمل بنتا ہے۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "English clauses are commonly built around a subject and a verb. Frequent patterns include Subject + Verb (Birds fly), Subject + Verb + Object (She reads books), Subject + Linking Verb + Complement (He is kind), and Subject + Verb + Indirect Object + Direct Object (She gave me a gift). There is/There are introduces the existence or presence of something.",
+    "example": "The baby sleeps. / We watched a film. / The soup smells delicious. / There are three books on the desk.",
+    "breakdown": [
+      [
+        "The baby",
+        "Subject",
+        "جس کے بارے میں بات ہو رہی ہے"
+      ],
+      [
+        "sleeps",
+        "Intransitive verb",
+        "اسے object کی ضرورت نہیں"
+      ],
+      [
+        "We watched a film",
+        "S + V + O",
+        "subject، فعل اور object"
+      ],
+      [
+        "smells delicious",
+        "Linking verb + complement",
+        "delicious subject کی حالت بتاتا ہے"
+      ],
+      [
+        "There are three books",
+        "Existential structure",
+        "موجودگی ظاہر کرتا ہے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which sentence follows Subject + Verb + Object?",
+        "options": [
+          "Birds fly.",
+          "Mina opened the window.",
+          "The sky is blue."
+        ],
+        "answer": 1,
+        "why": "Mina is the subject, opened is the verb, and the window is the object."
+      },
+      {
+        "q": "Choose the correct linking-verb structure.",
+        "options": [
+          "The flowers smell sweet.",
+          "The flowers smell the room sweet.",
+          "Sweet smell the flowers."
+        ],
+        "answer": 0,
+        "why": "Sweet is a complement describing the subject flowers after the linking verb smell."
+      },
+      {
+        "q": "Choose the correct expression.",
+        "options": [
+          "There is two chairs.",
+          "There are two chairs.",
+          "There be two chairs."
+        ],
+        "answer": 1,
+        "why": "Use there are with the plural noun phrase two chairs."
+      }
+    ]
+  },
+  {
+    "id": "verb-patterns",
+    "title": "Verb Patterns",
+    "subtitle": "Choosing the correct form after a verb",
+    "urdu": "ہر verb کے بعد ہر قسم کی ساخت استعمال نہیں ہوتی۔ کچھ verbs کے بعد infinitive آتا ہے، کچھ کے بعد gerund، کچھ دونوں قبول کرتے ہیں مگر معنی بدل سکتے ہیں، اور بعض verbs کے بعد object کے ساتھ infinitive یا base form آتی ہے۔",
+    "level": "Advanced",
+    "duration": "12 min",
+    "rule": "English verbs govern different complements. Some are followed by a to-infinitive (want to go, decide to leave), some by a gerund (enjoy reading, avoid driving), and some by either form with little change (begin to rain / begin raining). Others change meaning: remember to lock (do not forget a task) versus remember locking (recall a past action). Common patterns also include verb + object + to-infinitive (asked me to wait) and make/let + object + base verb (made me laugh; let me go).",
+    "example": "She decided to study. / He enjoys swimming. / I remembered to call her. / I remember meeting him.",
+    "breakdown": [
+      [
+        "decided to study",
+        "Verb + to-infinitive",
+        "فیصلے کے بعد infinitive"
+      ],
+      [
+        "enjoys swimming",
+        "Verb + gerund",
+        "enjoy کے بعد -ing form"
+      ],
+      [
+        "remembered to call",
+        "Remember + infinitive",
+        "کام یاد رہا اور پھر کیا"
+      ],
+      [
+        "remember meeting",
+        "Remember + gerund",
+        "ماضی کا واقعہ یاد ہے"
+      ],
+      [
+        "made me laugh",
+        "Make + object + base verb",
+        "make کے بعد object اور base form"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct form: They enjoy ___ football.",
+        "options": [
+          "to play",
+          "playing",
+          "play"
+        ],
+        "answer": 1,
+        "why": "Enjoy is followed by a gerund."
+      },
+      {
+        "q": "Choose the correct sentence.",
+        "options": [
+          "She decided going home.",
+          "She decided to go home.",
+          "She decided go home."
+        ],
+        "answer": 1,
+        "why": "Decide is normally followed by a to-infinitive."
+      },
+      {
+        "q": "What does 'I remembered to post the letter' mean?",
+        "options": [
+          "I recalled posting it earlier.",
+          "I did not forget to post it.",
+          "I forgot the letter."
+        ],
+        "answer": 1,
+        "why": "Remember + to-infinitive refers to remembering a task that needs to be done."
+      },
+      {
+        "q": "Choose the correct pattern.",
+        "options": [
+          "The joke made us laugh.",
+          "The joke made us to laugh.",
+          "The joke made laugh us."
+        ],
+        "answer": 0,
+        "why": "Make + object is followed by the base form without to."
+      }
+    ]
+  },
+  {
+    "id": "question-tags-and-short-answers",
+    "title": "Question Tags and Short Answers",
+    "subtitle": "Checking information and replying naturally",
+    "urdu": "Question tag جملے کے آخر میں مختصر سوال ہوتا ہے، جس سے تصدیق یا اتفاق طلب کیا جاتا ہے۔ مثبت جملے کے بعد عموماً منفی tag اور منفی جملے کے بعد مثبت tag آتا ہے۔ Short answers میں سوال کے auxiliary verb کو استعمال کیا جاتا ہے، مثلاً Yes, I do یا No, she isn't۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "A question tag usually uses an auxiliary verb and a pronoun. A positive statement normally takes a negative tag (You are ready, aren't you?), while a negative statement takes a positive tag (She isn't late, is she?). If there is no auxiliary in the statement, use do/does/did. Short answers repeat the auxiliary: Yes, I do; No, he hasn't. Match the auxiliary and tense, and remember special forms such as I am late, aren't I?",
+    "example": "They have finished, haven't they? / He doesn't drive, does he? / Do you like tea? Yes, I do.",
+    "breakdown": [
+      [
+        "They have finished",
+        "Positive statement",
+        "have auxiliary موجود ہے"
+      ],
+      [
+        "haven't they?",
+        "Negative tag",
+        "اسی auxiliary اور pronoun کا tag"
+      ],
+      [
+        "He doesn't drive",
+        "Negative statement",
+        "doesn't کے ذریعے نفی"
+      ],
+      [
+        "does he?",
+        "Positive tag",
+        "منفی statement کے بعد مثبت tag"
+      ],
+      [
+        "Yes, I do",
+        "Short answer",
+        "سوال کے auxiliary do کو دہرایا"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Complete the tag: You are a student, ___?",
+        "options": [
+          "are you",
+          "aren't you",
+          "don't you"
+        ],
+        "answer": 1,
+        "why": "A positive statement with are normally takes the negative tag aren't you."
+      },
+      {
+        "q": "Complete the tag: She doesn't eat meat, ___?",
+        "options": [
+          "does she",
+          "doesn't she",
+          "is she"
+        ],
+        "answer": 0,
+        "why": "A negative statement takes a positive tag; use does to match doesn't."
+      },
+      {
+        "q": "Short answer: 'Do they live here?' — 'Yes, ___.'",
+        "options": [
+          "they do",
+          "they are",
+          "they have"
+        ],
+        "answer": 0,
+        "why": "Repeat the auxiliary do in the short answer."
+      },
+      {
+        "q": "Choose the usual tag: I am late, ___?",
+        "options": [
+          "amn't I",
+          "aren't I",
+          "don't I"
+        ],
+        "answer": 1,
+        "why": "The conventional question tag after I am is aren't I."
+      }
+    ]
+  },
+  {
+    "id": "more-structures",
+    "title": "More Structures",
+    "subtitle": "Useful patterns for emphasis, comparison and complex meaning",
+    "urdu": "مزید sentence structures میں there اور it کے ابتدائی استعمال، emphatic do، so/such، too/enough، not only…but also، either…or، neither…nor، اور comparative structures شامل ہیں۔ ان patterns میں parallel structure اور subject-verb agreement کا خیال رکھیں۔",
+    "level": "Advanced",
+    "duration": "12 min",
+    "rule": "English uses a range of fixed structures to express emphasis, degree, alternatives, and comparison. Examples include emphatic do (I do understand), so + adjective/adverb + that (so tired that...), such + noun phrase + that (such a difficult task that...), too + adjective + to-infinitive, adjective + enough + to-infinitive, not only…but also, either…or, neither…nor, and the…the comparative pattern. Keep parallel elements grammatically balanced. With either…or and neither…nor, the verb commonly agrees with the nearer subject.",
+    "example": "I do want to help. / It was so cold that we stayed inside. / The bag is too heavy to lift. / She is not only clever but also hardworking. / The sooner we start, the earlier we finish.",
+    "breakdown": [
+      [
+        "do want",
+        "Emphatic do",
+        "بات پر زور دیتا ہے"
+      ],
+      [
+        "so cold that",
+        "So…that structure",
+        "شدت اور نتیجہ"
+      ],
+      [
+        "too heavy to lift",
+        "Too…to structure",
+        "ضرورت سے زیادہ بھاری"
+      ],
+      [
+        "not only…but also",
+        "Correlative conjunctions",
+        "متوازی دو باتیں جوڑتا ہے"
+      ],
+      [
+        "The sooner…the earlier",
+        "Comparative structure",
+        "دو تبدیلیوں کا باہمی تعلق"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct structure.",
+        "options": [
+          "The box is too heavy to lift.",
+          "The box is too heavy that lift.",
+          "The box too heavy to lifting."
+        ],
+        "answer": 0,
+        "why": "Too + adjective is followed by a to-infinitive in this pattern."
+      },
+      {
+        "q": "Complete the sentence: It was ___ interesting that I read it twice.",
+        "options": [
+          "so",
+          "such",
+          "too"
+        ],
+        "answer": 0,
+        "why": "Use so + adjective + that."
+      },
+      {
+        "q": "Choose the parallel structure.",
+        "options": [
+          "She is not only kind but also helpful.",
+          "She is not only kind but also helps.",
+          "She is not only kindness but also helpful."
+        ],
+        "answer": 0,
+        "why": "Kind and helpful are both adjectives, keeping the paired elements parallel."
+      },
+      {
+        "q": "Choose the correct verb: Neither the teacher nor the students ___ ready.",
+        "options": [
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": 1,
+        "why": "With neither…nor, the verb commonly agrees with the nearer subject, students."
+      }
+    ]
+  }
 ];
 
 export const dailyQuestions = [
