@@ -247,6 +247,72 @@ export const lessons = [
     breakdown: [["should", "Modal", "مشورہ ظاہر کرتا ہے"], ["can", "Modal", "صلاحیت ظاہر کرتا ہے"], ["practise / swim", "Base verb", "modal کے بعد بنیادی صورت"]],
     quiz: [{ q: "Which modal is commonly used to give advice?", options: ["should", "mustn't", "mightn't", "wouldn't"], answer: 0, why: "Should is commonly used for advice or recommendation." }]
   }
+  ,
+  {
+    id: "clauses-and-phrases", title: "Phrases and Clauses", subtitle: "Recognising groups of words and complete thoughts",
+    urdu: "Phrase الفاظ کا ایسا مجموعہ ہے جو مکمل subject اور verb کے ساتھ مکمل خیال ظاہر نہیں کرتا۔ Clause میں subject اور verb دونوں ہوتے ہیں؛ بعض clauses مکمل جملہ بھی بن سکتے ہیں۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "A phrase is a group of related words without a subject–verb combination forming a clause. A clause contains a subject and a verb.",
+    example: "under the old bridge (phrase) / when the rain stopped (dependent clause) / The rain stopped. (independent clause)",
+    breakdown: [["under the old bridge", "Phrase", "یہاں مکمل subject اور verb نہیں"], ["the rain stopped", "Subject + verb", "یہ مکمل خیال بن سکتا ہے"], ["when the rain stopped", "Dependent clause", "یہ اکیلا مکمل خیال نہیں"], ["The rain stopped.", "Independent clause", "یہ مکمل جملہ ہے"]],
+    quiz: [
+      { q: "Which group of words is a phrase?", options: ["because she laughed", "near the station", "the baby cried"], answer: 1, why: "Near the station has no subject–verb combination." },
+      { q: "Which is an independent clause?", options: ["although it was late", "after the match ended", "The team celebrated."], answer: 2, why: "The team celebrated expresses a complete thought." },
+      { q: "A clause must contain which elements?", options: ["A subject and a verb", "Two adjectives", "A preposition only"], answer: 0, why: "A clause contains a subject and a verb." }
+    ]
+  },
+  {
+    id: "conditionals", title: "Conditional Sentences", subtitle: "Talking about facts, possibilities and imagined situations",
+    urdu: "Conditional sentences میں کسی شرط اور اس کے نتیجے کا ذکر ہوتا ہے۔ Zero conditional عمومی حقائق، first conditional ممکنہ مستقبل، second conditional خیالی حال یا مستقبل، اور third conditional ماضی کے غیرحقیقی حالات کے لیے استعمال ہوتا ہے۔",
+    level: "Intermediate", duration: "10 min",
+    rule: "Conditionals link a condition with its result. Common patterns include if + present, will + base verb for likely future results, and if + past, would + base verb for unreal situations.",
+    example: "If you heat ice, it melts. / If it rains, we will stay inside. / If I had more time, I would read.",
+    breakdown: [["If you heat ice", "Zero conditional", "عمومی حقیقت یا سائنسی اصول"], ["If it rains", "First conditional", "ممکنہ مستقبل کی شرط"], ["If I had more time", "Second conditional", "خیالی یا غیرحقیقی صورت حال"]],
+    quiz: [
+      { q: "Choose the correct zero conditional sentence.", options: ["If water reaches 100°C, it boils.", "If water reached 100°C, it will boil.", "If water will reach 100°C, it boiled."], answer: 0, why: "Zero conditional uses present simple in both clauses for general facts." },
+      { q: "Complete: If I see Sara, I ___ her the message.", options: ["gave", "will give", "would gave"], answer: 1, why: "The first conditional uses present simple after if and will + base verb for the result." },
+      { q: "Choose the correct second conditional form.", options: ["If I am rich, I bought a boat.", "If I were rich, I would buy a boat.", "If I will be rich, I buy a boat."], answer: 1, why: "Second conditional commonly uses if + past form and would + base verb." }
+    ]
+  },
+  {
+    id: "gerunds-infinitives", title: "Gerunds and Infinitives", subtitle: "Using -ing forms and to + verb",
+    urdu: "Gerund فعل کی -ing صورت ہے جو noun کا کام کرتی ہے، جیسے Reading is useful۔ Infinitive عام طور پر to + verb ہوتا ہے، جیسے to read۔ بعض verbs کے بعد gerund اور بعض کے بعد infinitive آتا ہے۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "A gerund is an -ing verb form used as a noun. An infinitive is usually to + base verb. Which form follows depends on the preceding word or the sentence structure.",
+    example: "Swimming is healthy. / I hope to travel. / She enjoys painting.",
+    breakdown: [["Swimming", "Gerund", "جملے میں noun کا کام"], ["to travel", "Infinitive", "to کے بعد verb کی بنیادی صورت"], ["painting", "Gerund", "enjoy کے بعد -ing استعمال ہوتا ہے"]],
+    quiz: [
+      { q: "Choose the correct form: He enjoys ___.", options: ["to cook", "cooking", "cook"], answer: 1, why: "Enjoy is normally followed by a gerund (-ing form)." },
+      { q: "Which sentence uses an infinitive?", options: ["Reading helps me relax.", "They decided to leave.", "She avoids driving."], answer: 1, why: "To leave is an infinitive: to + base verb." },
+      { q: "In “Dancing is fun”, what is “Dancing”?", options: ["A gerund", "A finite verb", "A preposition"], answer: 0, why: "Dancing is an -ing form functioning as the subject noun." }
+    ]
+  },
+  {
+    id: "relative-clauses", title: "Relative Clauses", subtitle: "Adding information about people and things",
+    urdu: "Relative clauses کسی شخص یا چیز کے بارے میں اضافی معلومات دیتی ہیں۔ Who عموماً لوگوں، which چیزوں، اور that لوگوں یا چیزوں کے لیے defining clauses میں استعمال ہو سکتا ہے۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "A relative clause modifies a noun. Common relative pronouns include who for people, which for things, and that for people or things in defining clauses.",
+    example: "The woman who teaches us is kind. / This is the book that I borrowed.",
+    breakdown: [["who", "Relative pronoun", "لوگوں کے لیے"], ["which", "Relative pronoun", "چیزوں کے لیے"], ["that I borrowed", "Relative clause", "کتاب کے بارے میں وضاحت"]],
+    quiz: [
+      { q: "Choose the best relative pronoun: The man ___ lives next door is a doctor.", options: ["which", "who", "where"], answer: 1, why: "Who is used for people." },
+      { q: "Choose the best option: This is the laptop ___ I bought yesterday.", options: ["who", "where", "that"], answer: 2, why: "That can introduce a defining relative clause referring to a thing." },
+      { q: "What does a relative clause do?", options: ["Modifies a noun", "Always asks a question", "Shows only past time"], answer: 0, why: "A relative clause gives identifying or additional information about a noun." }
+    ]
+  },
+  {
+    id: "question-tags", title: "Question Tags", subtitle: "Checking information and inviting agreement",
+    urdu: "Question tag جملے کے آخر میں آنے والا مختصر سوال ہے۔ مثبت جملے کے بعد عموماً منفی tag اور منفی جملے کے بعد مثبت tag آتا ہے۔ معاون فعل اور subject کے مطابق tag بنایا جاتا ہے۔",
+    level: "Intermediate", duration: "8 min",
+    rule: "A question tag is a short question added to a statement. Positive statements usually take negative tags; negative statements usually take positive tags.",
+    example: "You are ready, aren't you? / She doesn't drive, does she?",
+    breakdown: [["You are ready", "Positive statement", "مثبت جملہ"], ["aren't you?", "Negative tag", "منفی tag اور وہی auxiliary"], ["doesn't drive", "Negative statement", "منفی جملہ"], ["does she?", "Positive tag", "مثبت tag"]],
+    quiz: [
+      { q: "Choose the correct tag: She is a doctor, ___?", options: ["is she", "isn't she", "doesn't she"], answer: 1, why: "A positive statement with is takes the negative tag isn't she." },
+      { q: "Choose the correct tag: They don't live here, ___?", options: ["do they", "don't they", "are they"], answer: 0, why: "A negative statement takes a positive tag; don't changes to do." },
+      { q: "Choose the correct tag: Let's begin, ___?", options: ["will we", "shall we", "do we"], answer: 1, why: "Let's commonly takes the tag shall we." }
+    ]
+  }
 ];
 
 export const dailyQuestions = [
