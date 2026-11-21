@@ -20,4 +20,4 @@ This repository contains an original learning companion inspired by the grammar 
 
 ## Notes
 
-Progress is currently stored locally on the device. Cloud sync, user accounts and publishing to app stores are not configured yet.
+Progress and the learner's certificate name are stored locally on the device. After passing the full-course exam (60% or higher), learners can enter their name and generate a landscape PDF certificate, then save or share it using the Android or iOS share sheet. PDF generation uses Expo Print and file sharing uses Expo Sharing. Cloud sync, user accounts and publishing to app stores are not configured yet.
