@@ -32,7 +32,7 @@ export default function App() {
   const [tab, setTab] = useState("Home");
   const [selected, setSelected] = useState(null);
   const [completed, setCompleted] = useState([]);
-  const [stats, setStats] = useState({ quizzesTaken: 0, questionsAnsweredCorrectly: 0, dailySessions: 0, lastPracticeDate: null, quizHistory: [] });
+  const [stats, setStats] = useState({ quizzesTaken: 0, questionsAnsweredCorrectly: 0, dailySessions: 0, lastPracticeDate: null, dailyPracticeDates: [], quizHistory: [] });
   const [storageReady, setStorageReady] = useState(false);
   const [quiz, setQuiz] = useState(null);
   const [answers, setAnswers] = useState({});
@@ -58,6 +58,7 @@ export default function App() {
             questionsAnsweredCorrectly: Number(parsed.stats.questionsAnsweredCorrectly) || 0,
             dailySessions: Number(parsed.stats.dailySessions) || 0,
             lastPracticeDate: typeof parsed.stats.lastPracticeDate === "string" ? parsed.stats.lastPracticeDate : null,
+            dailyPracticeDates: Array.isArray(parsed.stats.dailyPracticeDates) ? [...new Set(parsed.stats.dailyPracticeDates.filter(date => typeof date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(date)))].slice(-90) : [],
             quizHistory: Array.isArray(parsed.stats.quizHistory) ? parsed.stats.quizHistory.filter(item => item && typeof item.title === "string" && Number.isFinite(item.correct) && Number.isFinite(item.total)).slice(0, 20) : []
           });
           setDailyDone(parsed.stats.lastPracticeDate === localDateKey());
@@ -110,6 +111,29 @@ export default function App() {
     const attempts = (stats.quizHistory || []).filter(item => item.lessonId === lessonId && item.total > 0);
     return attempts.length ? Math.max(...attempts.map(item => item.percent)) : null;
   }
+  function dateKeyOffset(offset) {
+    const date = new Date();
+    date.setDate(date.getDate() + offset);
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
+  }
+  const practiceDates = new Set(stats.dailyPracticeDates || []);
+  const currentStreak = (() => {
+    let offset = practiceDates.has(dateKeyOffset(0)) ? 0 : practiceDates.has(dateKeyOffset(-1)) ? -1 : null;
+    if (offset === null) return 0;
+    let count = 0;
+    while (practiceDates.has(dateKeyOffset(offset))) { count += 1; offset -= 1; }
+    return count;
+  })();
+  const weeklyActivity = Array.from({ length: 7 }, (_, index) => {
+    const offset = index - 6;
+    const key = dateKeyOffset(offset);
+    const date = new Date();
+    date.setDate(date.getDate() + offset);
+    return { key, label: date.toLocaleDateString("en", { weekday: "short" }), active: practiceDates.has(key), today: offset === 0 };
+  });
 
   const renderLessonCard = (item, index) => (
     <TouchableOpacity key={item.id} onPress={() => openLesson(item)} style={styles.lessonCard}>
@@ -182,6 +206,7 @@ export default function App() {
             questionsAnsweredCorrectly: old.questionsAnsweredCorrectly + correct,
             dailySessions: old.dailySessions + (isDaily ? 1 : 0),
             lastPracticeDate: isDaily ? today : old.lastPracticeDate,
+            dailyPracticeDates: isDaily ? [...new Set([...(old.dailyPracticeDates || []), today])].slice(-90) : (old.dailyPracticeDates || []),
             quizHistory: [attempt, ...(old.quizHistory || [])].slice(0, 20)
           }));
           if (isDaily) setDailyDone(true);
@@ -206,7 +231,7 @@ export default function App() {
       <Header eyebrow="YOUR LEARNING JOURNEY" title="Your progress" subtitle="Every lesson brings you closer to confident English." />
       <View style={styles.statsGrid}><View style={styles.statCard}><Text style={styles.statNumber}>{completed.length}</Text><Text style={styles.statLabel}>LESSONS DONE</Text></View><View style={styles.statCard}><Text style={styles.statNumber}>{lessons.length - completed.length}</Text><Text style={styles.statLabel}>REMAINING</Text></View></View>
       <View style={styles.statsGrid}><View style={styles.statCard}><Text style={styles.statNumber}>{stats.quizzesTaken}</Text><Text style={styles.statLabel}>QUIZ ATTEMPTS</Text></View><View style={styles.statCard}><Text style={styles.statNumber}>{stats.questionsAnsweredCorrectly}</Text><Text style={styles.statLabel}>CORRECT ANSWERS</Text></View></View>
-      <View style={styles.progressCard}><Text style={styles.panelLabel}>DAILY PRACTICE</Text><Text style={styles.progressBig}>{stats.dailySessions}</Text><Text style={styles.cardSub}>Practice sessions completed</Text></View>
+      <View style={styles.progressCard}><Text style={styles.panelLabel}>DAILY PRACTICE</Text><View style={styles.streakHeader}><View><Text style={styles.progressBig}>{currentStreak}</Text><Text style={styles.cardSub}>Day current streak</Text></View><View style={styles.activeDays}><Text style={styles.activeDaysNumber}>{practiceDates.size}</Text><Text style={styles.activeDaysLabel}>ACTIVE DAYS</Text></View></View><Text style={styles.cardSub}>{stats.dailySessions} practice sessions completed</Text><Text style={styles.weekLabel}>LAST 7 DAYS</Text><View style={styles.weekRow}>{weeklyActivity.map(day => <View key={day.key} style={styles.weekDay}><View style={[styles.weekDot, day.active && styles.weekDotActive, day.today && styles.weekDotToday]}><Text style={[styles.weekCheck, day.active && styles.weekCheckActive]}>{day.active ? "✓" : "·"}</Text></View><Text style={[styles.weekDayLabel, day.today && styles.weekDayToday]}>{day.label}</Text></View>)}</View></View>
       <View style={styles.progressCard}><Text style={styles.panelLabel}>RECENT QUIZ RESULTS</Text>{(stats.quizHistory || []).length ? stats.quizHistory.slice(0, 5).map((item, index) => <View key={item.date + item.title + index} style={styles.historyRow}><View style={{ flex: 1 }}><Text style={styles.cardTitle}>{item.title}</Text><Text style={styles.cardSub}>{item.date} · {item.correct}/{item.total} correct</Text></View><Text style={styles.historyScore}>{item.percent}%</Text></View>) : <Text style={styles.emptyText}>Your quiz results will appear here after your first attempt.</Text>}</View>
       <View style={styles.progressCard}><Text style={styles.panelLabel}>COURSE COMPLETION</Text><Text style={styles.progressBig}>{progress}%</Text><View style={styles.progressTrack}><View style={[styles.progressFill, { width: progress + "%" }]} /></View><Text style={styles.cardSub}>{completed.length} of {lessons.length} lessons completed</Text></View>
       <Text style={styles.sectionTitle}>Completed lessons</Text>
@@ -306,6 +331,20 @@ const styles = StyleSheet.create({
   progressCard: { backgroundColor: "#FFFFFF", borderRadius: 18, padding: 19, marginTop: 13, borderWidth: 1, borderColor: "#EAECF2" },
   historyRow: { flexDirection: "row", alignItems: "center", paddingVertical: 11, borderBottomWidth: 1, borderBottomColor: "#EEF0F4" },
   historyScore: { color: green, fontSize: 18, fontWeight: "900", marginLeft: 12 },
+  streakHeader: { flexDirection: "row", alignItems: "center", justifyContent: "space-between" },
+  activeDays: { backgroundColor: "#F1F6F3", borderRadius: 14, paddingHorizontal: 16, paddingVertical: 10, alignItems: "center" },
+  activeDaysNumber: { color: green, fontSize: 22, fontWeight: "900" },
+  activeDaysLabel: { color: muted, fontSize: 8, fontWeight: "900", letterSpacing: 1 },
+  weekLabel: { color: muted, fontSize: 9, fontWeight: "900", letterSpacing: 1.2, marginTop: 20, marginBottom: 12 },
+  weekRow: { flexDirection: "row", justifyContent: "space-between" },
+  weekDay: { alignItems: "center", flex: 1 },
+  weekDot: { width: 29, height: 29, borderRadius: 15, backgroundColor: "#F0F2F6", alignItems: "center", justifyContent: "center" },
+  weekDotActive: { backgroundColor: "#DDF1E6" },
+  weekDotToday: { borderWidth: 1, borderColor: green },
+  weekCheck: { color: muted, fontSize: 15, fontWeight: "800" },
+  weekCheckActive: { color: green },
+  weekDayLabel: { color: muted, fontSize: 9, marginTop: 6, fontWeight: "700" },
+  weekDayToday: { color: green, fontWeight: "900" },
   progressBig: { color: ink, fontSize: 38, fontWeight: "900", marginTop: 8 },
   progressTrack: { height: 9, backgroundColor: "#E9ECF2", borderRadius: 10, marginTop: 10, marginBottom: 10, overflow: "hidden" },
   progressFill: { height: 9, backgroundColor: green, borderRadius: 10 },
