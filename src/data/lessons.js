@@ -2438,6 +2438,134 @@ export const lessons = [
         "As if introduces an imagined comparison or supposition."
       ]
     ]
+  },
+  {
+    "id": "analysis-of-complex-sentences",
+    "title": "Analysis of Complex Sentences",
+    "subtitle": "Clause analysis: main and subordinate clauses",
+    "urdu": "Complex sentence میں ایک independent (main) clause اور کم از کم ایک dependent (subordinate) clause ہوتا ہے۔ تجزیے میں ہر clause کی حد، subject، verb اور function پہچانیں۔ دیکھیں کہ subordinate clause noun، adjective یا adverb کا کام کر رہا ہے۔",
+    "level": "Advanced",
+    "duration": "11 min",
+    "rule": "To analyse a complex sentence, identify the main clause and every subordinate clause. Mark each clause's subject and verb, then classify its function: noun, adjective (relative), or adverb. Also note the subordinating word and the relationship it expresses.",
+    "example": "When the rain stopped, the children who were waiting outside ran to the playground because the sun had appeared.",
+    "breakdown": [
+      [
+        "When the rain stopped",
+        "Adverb clause of time",
+        "بتاتا ہے بچے کب بھاگے؛ subordinate clause"
+      ],
+      [
+        "the children ran to the playground",
+        "Main / independent clause",
+        "بنیادی مکمل خیال"
+      ],
+      [
+        "who were waiting outside",
+        "Adjective clause",
+        "children کی وضاحت کرتا ہے"
+      ],
+      [
+        "because the sun had appeared",
+        "Adverb clause of reason",
+        "بھاگنے کی وجہ بتاتا ہے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "In 'Although he was tired, he finished the work', which is the main clause?",
+        "options": [
+          "Although he was tired",
+          "he finished the work",
+          "Although he"
+        ],
+        "answer": 1,
+        "why": "He finished the work can stand alone as a complete independent clause."
+      },
+      {
+        "q": "In 'The book that you gave me is useful', what is 'that you gave me'?",
+        "options": [
+          "Noun clause",
+          "Adjective clause",
+          "Adverb clause"
+        ],
+        "answer": 1,
+        "why": "It modifies the noun book and identifies which book."
+      },
+      {
+        "q": "In 'I know where she lives', what is 'where she lives'?",
+        "options": [
+          "Noun clause",
+          "Adjective clause",
+          "Adverb clause of place"
+        ],
+        "answer": 0,
+        "why": "The clause is the object of know, so it functions as a noun."
+      }
+    ]
+  },
+  {
+    "id": "analysis-of-compound-sentences",
+    "title": "Analysis of Compound Sentences",
+    "subtitle": "Clause analysis: coordinating independent clauses",
+    "urdu": "Compound sentence میں دو یا زیادہ independent clauses ہوتے ہیں۔ ہر clause کا اپنا subject اور verb ہوتا ہے اور clauses عموماً coordinating conjunction (for, and, nor, but, or, yet, so) یا semicolon سے جڑتے ہیں۔ تجزیے میں ہر independent clause الگ کریں اور رابطے کا طریقہ بتائیں۔",
+    "level": "Advanced",
+    "duration": "10 min",
+    "rule": "To analyse a compound sentence, separate its independent clauses, identify the subject and predicate in each, and explain how they are joined: by a coordinating conjunction (FANBOYS), a semicolon, or a suitable conjunctive adverb with correct punctuation.",
+    "example": "The sky grew dark, and the wind began to blow; soon, the rain started.",
+    "breakdown": [
+      [
+        "The sky grew dark",
+        "Independent clause 1",
+        "Subject: the sky; verb: grew; complement: dark"
+      ],
+      [
+        "and",
+        "Coordinating conjunction",
+        "دونوں independent clauses کو جوڑتا ہے"
+      ],
+      [
+        "the wind began to blow",
+        "Independent clause 2",
+        "Subject: the wind; verb phrase: began to blow"
+      ],
+      [
+        "soon, the rain started",
+        "Independent clause 3",
+        "Subject: the rain; verb: started؛ semicolon سے پہلے والے clause سے جڑا"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "How many independent clauses are in 'Mina cooked dinner, and Ali washed the dishes'?",
+        "options": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "answer": 1,
+        "why": "Mina cooked dinner and Ali washed the dishes can each stand alone."
+      },
+      {
+        "q": "Which word joins the clauses in 'I called, but nobody answered'?",
+        "options": [
+          "I",
+          "but",
+          "answered"
+        ],
+        "answer": 1,
+        "why": "But is the coordinating conjunction joining the two independent clauses."
+      },
+      {
+        "q": "Which punctuation can join closely related independent clauses without a coordinating conjunction?",
+        "options": [
+          "A semicolon",
+          "An apostrophe",
+          "A hyphen"
+        ],
+        "answer": 0,
+        "why": "A semicolon can join two closely related independent clauses."
+      }
+    ]
   }
 ];
 
