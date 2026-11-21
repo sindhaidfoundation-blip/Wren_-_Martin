@@ -21,7 +21,6 @@
         "backgroundColor": "#101C3A"
       },
       "allowBackup": false,
-      "usesCleartextTraffic": false,
       "blockedPermissions": [
         "android.permission.INTERNET"
       ]
