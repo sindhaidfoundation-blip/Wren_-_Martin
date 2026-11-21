@@ -60,6 +60,7 @@ export default function App() {
   const [certificateBusy, setCertificateBusy] = useState(false);
   const [certificateMessage, setCertificateMessage] = useState("");
   const [examCertificateId, setExamCertificateId] = useState("");
+  const [examCompletedDate, setExamCompletedDate] = useState("");
 
   const progress = Math.round((completed.length / lessons.length) * 100);
 
@@ -211,6 +212,7 @@ export default function App() {
     setQuizNotice("");
     setExamExpired(false);
     setCertificateMessage("");
+    setExamCompletedDate("");
     setExamCertificateId(createCertificateId());
     setExamRemaining(30 * 60);
     setExamDeadline(Date.now() + 30 * 60 * 1000);
@@ -245,7 +247,7 @@ export default function App() {
     setCertificateMessage("");
     const safeName = escapeHtml(learner);
     const safeId = escapeHtml(examCertificateId);
-    const date = escapeHtml(localDateKey());
+    const date = escapeHtml(examCompletedDate || localDateKey());
     const grade = escapeHtml(examGrade.letter);
     const percentage = examGrade.percent;
     const html = `<!DOCTYPE html>
@@ -278,14 +280,24 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
 </main></body></html>`;
     try {
       const file = await Print.printToFileAsync({ html, width: 842, height: 595, margins: { top: 0, right: 0, bottom: 0, left: 0 } });
-      const canShare = await Sharing.isAvailableAsync();
-      if (canShare) {
-        await Sharing.shareAsync(file.uri, { mimeType: "application/pdf", UTI: "com.adobe.pdf", dialogTitle: "Save or share your grammar certificate" });
-        setCertificateMessage("Your certificate PDF is ready. Choose a destination in the share menu to save or send it.");
-      } else {
-        await Print.printAsync({ uri: file.uri, orientation: Print.Orientation.landscape });
-        setCertificateMessage("The PDF was created. Sharing is unavailable on this device, so the print dialog was opened instead.");
+      if (!file || !file.uri) throw new Error("The PDF file was not created.");
+      let canShare = false;
+      try {
+        canShare = await Sharing.isAvailableAsync();
+      } catch (availabilityError) {
+        console.warn("The sharing service is unavailable; opening print options instead.", availabilityError);
       }
+      if (canShare) {
+        try {
+          await Sharing.shareAsync(file.uri, { mimeType: "application/pdf", UTI: ".pdf", dialogTitle: "Save or share your grammar certificate" });
+          setCertificateMessage("Your certificate PDF is ready. Choose a destination in the share menu to save or send it.");
+          return;
+        } catch (shareError) {
+          console.warn("Could not open the share sheet; falling back to print options.", shareError);
+        }
+      }
+      await Print.printAsync({ uri: file.uri, orientation: Print.Orientation.landscape });
+      setCertificateMessage("Your PDF was created. Sharing is unavailable, so the system print dialog was opened. Choose Save as PDF if your device offers it.");
     } catch (error) {
       console.warn("Could not create or share the certificate PDF.", error);
       setCertificateMessage("We couldn't create or share the PDF just now. Please try again.");
@@ -315,6 +327,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
     }
     const correct = score();
     const today = localDateKey();
+    if (isExam) setExamCompletedDate(today);
     const isDaily = !selected && !isExam && !isMistakePractice;
     const title = isExam ? "Full course exam" : isMistakePractice ? "Mistake review" : selected ? selected.title : "Daily practice";
     const lessonBreakdown = isExam ? lessons.map(lesson => {
@@ -445,8 +458,8 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
         <View style={styles.examGradeCard}><Text style={styles.examGradeLabel}>YOUR FINAL GRADE</Text><Text style={styles.examGradeLetter}>{examGrade.letter}</Text><Text style={styles.examGradePercent}>{examGrade.percent}% · {examGrade.label}</Text><Text style={styles.examGradeNote}>{examGrade.passed ? "You passed the full course assessment." : "You need 60% to pass. Review the topics below and try again."}</Text></View>
         <Text style={styles.breakdownHeading}>PER-LESSON PERFORMANCE</Text>
         {examBreakdown.map(item => <View key={item.lessonId} style={styles.breakdownRow}><View style={styles.breakdownTop}><Text style={styles.breakdownTitle}>{item.title}</Text><Text style={styles.breakdownScore}>{item.correct}/{item.total} · {item.percent}%</Text></View><View style={styles.breakdownTrack}><View style={[styles.breakdownFill, { width: item.percent + "%" }]} /></View></View>)}
-        {examGrade.passed ? <View style={styles.certificate}><Text style={styles.certificateKicker}>WREN & MARTIN GRAMMAR MASTER</Text><Text style={styles.certificateTitle}>Certificate of Achievement</Text><Text style={styles.certificateBody}>This certificate is presented to</Text><TextInput accessibilityLabel="Certificate learner name" value={certificateName} onChangeText={value => { setCertificateName(value); setCertificateMessage(""); }} placeholder="Enter learner's full name" placeholderTextColor="#9AA2B2" maxLength={70} style={styles.certificateNameInput} autoCapitalize="words" returnKeyType="done" /><Text style={styles.certificateBody}>for successfully completing the full-course grammar assessment.</Text><View style={styles.certificateRule} /><Text style={styles.certificateGrade}>GRADE {examGrade.letter} · {examGrade.percent}%</Text><Text style={styles.certificateDate}>{localDateKey()}</Text><Text style={styles.certificateId}>CERTIFICATE ID · {examCertificateId}</Text><Action title={certificateBusy ? "Preparing PDF..." : "Download / share PDF certificate"} onPress={createAndShareCertificate} /><Text style={styles.certificateHint}>On Android and iPhone, use the share sheet to save the PDF to your files or send it.</Text>{certificateMessage ? <Text accessibilityLiveRegion="polite" style={styles.certificateMessage}>{certificateMessage}</Text> : null}</View> : null}
-      </> : null}<Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); if (isExam) { setExamExpired(false); setExamCertificateId(createCertificateId()); setCertificateMessage(""); setExamRemaining(30 * 60); setExamDeadline(Date.now() + 30 * 60 * 1000); } }} /><Action title="Done" onPress={() => { setExamDeadline(null); setExamExpired(false); if (isExam) { setIsExam(false); setQuiz(null); setAnswers({}); setTab("Practice"); } else if (selected && score() === total) finishLesson(); else setTab(isMistakePractice ? "Practice" : "Home"); }} /></View>}
+        {examGrade.passed ? <View style={styles.certificate}><Text style={styles.certificateKicker}>WREN & MARTIN GRAMMAR MASTER</Text><Text style={styles.certificateTitle}>Certificate of Achievement</Text><Text style={styles.certificateBody}>This certificate is presented to</Text><TextInput accessibilityLabel="Certificate learner name" value={certificateName} onChangeText={value => { setCertificateName(value); setCertificateMessage(""); }} placeholder="Enter learner's full name" placeholderTextColor="#9AA2B2" maxLength={70} style={styles.certificateNameInput} autoCapitalize="words" returnKeyType="done" /><Text style={styles.certificateBody}>for successfully completing the full-course grammar assessment.</Text><View style={styles.certificateRule} /><Text style={styles.certificateGrade}>GRADE {examGrade.letter} · {examGrade.percent}%</Text><Text style={styles.certificateDate}>{examCompletedDate || localDateKey()}</Text><Text style={styles.certificateId}>CERTIFICATE ID · {examCertificateId}</Text><Action title={certificateBusy ? "Preparing PDF..." : "Download / share PDF certificate"} onPress={createAndShareCertificate} /><Text style={styles.certificateHint}>On Android and iPhone, use the share sheet to save the PDF to your files or send it.</Text>{certificateMessage ? <Text accessibilityLiveRegion="polite" style={styles.certificateMessage}>{certificateMessage}</Text> : null}</View> : null}
+      </> : null}<Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); if (isExam) { setExamExpired(false); setExamCompletedDate(""); setExamCertificateId(createCertificateId()); setCertificateMessage(""); setExamRemaining(30 * 60); setExamDeadline(Date.now() + 30 * 60 * 1000); } }} /><Action title="Done" onPress={() => { setExamDeadline(null); setExamExpired(false); if (isExam) { setIsExam(false); setQuiz(null); setAnswers({}); setTab("Practice"); } else if (selected && score() === total) finishLesson(); else setTab(isMistakePractice ? "Practice" : "Home"); }} /></View>}
     </ScrollView>;
   }
 
