@@ -148,6 +148,17 @@ export default function App() {
   function score() {
     return (quiz || []).filter((q, i) => answers[i] === q.answer).length;
   }
+  const examPercent = quiz && quiz.length ? Math.round((score() / quiz.length) * 100) : 0;
+  const examGrade = (() => {
+    const bands = examPercent >= 90 ? { letter: "A", label: "Excellent", passed: true } : examPercent >= 80 ? { letter: "B", label: "Very good", passed: true } : examPercent >= 70 ? { letter: "C", label: "Good", passed: true } : examPercent >= 60 ? { letter: "D", label: "Pass", passed: true } : { letter: "F", label: "Needs improvement", passed: false };
+    return { ...bands, percent: examPercent };
+  })();
+  const examBreakdown = isExam ? lessons.map(lesson => {
+    const items = quiz.map((question, index) => ({ question, index })).filter(item => item.question.lessonId === lesson.id);
+    const correct = items.filter(item => answers[item.index] === item.question.answer).length;
+    return { lessonId: lesson.id, title: lesson.title, correct, total: items.length, percent: items.length ? Math.round((correct / items.length) * 100) : 0 };
+  }) : [];
+  const examCertificateId = "WM-" + localDateKey().replace(/-/g, "") + "-" + String(score()).padStart(2, "0");
   function submitQuiz(force = false) {
     if (!quiz || quizRecorded || showResult) return;
     const total = quiz.length;
@@ -270,7 +281,12 @@ export default function App() {
       {isExam ? <View style={styles.examTimer}><Text style={styles.examTimerLabel}>TIME REMAINING</Text><Text style={styles.examTimerValue}>{timerText}</Text><Text style={styles.examTimerHint}>{total} questions · 30 minutes · unanswered questions count as incorrect</Text></View> : null}
       {quiz.map((q, i) => <View key={i} style={styles.questionCard}>{isExam && q.lessonTitle ? <Text style={styles.questionCount}>{q.lessonTitle.toUpperCase()}</Text> : null}<Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text> : null}</View>)}
       {quizNotice ? <Text style={styles.quizNotice}>{quizNotice}</Text> : null}
-      {!showResult ? <Action title={isExam ? "Submit exam" : "Check my answers"} onPress={() => submitQuiz(false)} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text><Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); if (isExam) { setExamExpired(false); setExamRemaining(30 * 60); setExamDeadline(Date.now() + 30 * 60 * 1000); } }} /><Action title="Done" onPress={() => { if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
+      {!showResult ? <Action title={isExam ? "Submit exam" : "Check my answers"} onPress={() => submitQuiz(false)} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text>{isExam ? <>
+        <View style={styles.examGradeCard}><Text style={styles.examGradeLabel}>YOUR FINAL GRADE</Text><Text style={styles.examGradeLetter}>{examGrade.letter}</Text><Text style={styles.examGradePercent}>{examGrade.percent}% · {examGrade.label}</Text><Text style={styles.examGradeNote}>{examGrade.passed ? "You passed the full course assessment." : "You need 60% to pass. Review the topics below and try again."}</Text></View>
+        <Text style={styles.breakdownHeading}>PER-LESSON PERFORMANCE</Text>
+        {examBreakdown.map(item => <View key={item.lessonId} style={styles.breakdownRow}><View style={styles.breakdownTop}><Text style={styles.breakdownTitle}>{item.title}</Text><Text style={styles.breakdownScore}>{item.correct}/{item.total} · {item.percent}%</Text></View><View style={styles.breakdownTrack}><View style={[styles.breakdownFill, { width: item.percent + "%" }]} /></View></View>)}
+        {examGrade.passed ? <View style={styles.certificate}><Text style={styles.certificateKicker}>WREN & MARTIN GRAMMAR MASTER</Text><Text style={styles.certificateTitle}>Certificate of Achievement</Text><Text style={styles.certificateBody}>This certificate is presented to</Text><Text style={styles.certificateName}>Grammar Master Learner</Text><Text style={styles.certificateBody}>for successfully completing the full-course grammar assessment.</Text><View style={styles.certificateRule} /><Text style={styles.certificateGrade}>GRADE {examGrade.letter} · {examGrade.percent}%</Text><Text style={styles.certificateDate}>{localDateKey()}</Text><Text style={styles.certificateId}>CERTIFICATE ID · {examCertificateId}</Text></View> : null}
+      </> : null}<Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); if (isExam) { setExamExpired(false); setExamRemaining(30 * 60); setExamDeadline(Date.now() + 30 * 60 * 1000); } }} /><Action title="Done" onPress={() => { setExamDeadline(null); setExamExpired(false); if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
     </ScrollView>;
   }
 
@@ -401,6 +417,27 @@ const styles = StyleSheet.create({
   examTimerLabel: { color: "#8D6A2E", fontSize: 9, fontWeight: "900", letterSpacing: 1.5 },
   examTimerValue: { color: ink, fontSize: 30, fontWeight: "900", marginTop: 3 },
   examTimerHint: { color: muted, fontSize: 10, textAlign: "center", marginTop: 4 },
+  examGradeCard: { backgroundColor: "#F2F5FA", borderRadius: 18, padding: 17, marginTop: 16, alignItems: "center" },
+  examGradeLabel: { color: muted, fontSize: 9, fontWeight: "900", letterSpacing: 1.5 },
+  examGradeLetter: { color: navy, fontSize: 54, fontWeight: "900", lineHeight: 62, marginTop: 5 },
+  examGradePercent: { color: green, fontSize: 14, fontWeight: "900" },
+  examGradeNote: { color: muted, fontSize: 11, textAlign: "center", marginTop: 8, lineHeight: 17 },
+  breakdownHeading: { color: ink, fontSize: 12, fontWeight: "900", letterSpacing: 1, marginTop: 22, marginBottom: 7 },
+  breakdownRow: { paddingVertical: 9, borderBottomWidth: 1, borderBottomColor: "#EEF0F4" },
+  breakdownTop: { flexDirection: "row", alignItems: "center", justifyContent: "space-between" },
+  breakdownTitle: { color: ink, fontSize: 11, fontWeight: "800", flex: 1, marginRight: 8 },
+  breakdownScore: { color: muted, fontSize: 10, fontWeight: "800" },
+  breakdownTrack: { height: 5, backgroundColor: "#E9ECF2", borderRadius: 5, marginTop: 7, overflow: "hidden" },
+  breakdownFill: { height: 5, backgroundColor: green, borderRadius: 5 },
+  certificate: { backgroundColor: "#FFFCF4", borderWidth: 2, borderColor: "#C9A85D", borderRadius: 8, padding: 20, marginTop: 22, alignItems: "center" },
+  certificateKicker: { color: "#9A7836", fontSize: 8, fontWeight: "900", letterSpacing: 1.5, textAlign: "center" },
+  certificateTitle: { color: navy, fontSize: 22, fontWeight: "900", textAlign: "center", marginTop: 17 },
+  certificateBody: { color: muted, fontSize: 10, textAlign: "center", lineHeight: 16, marginTop: 13 },
+  certificateName: { color: "#9A7836", fontSize: 18, fontWeight: "900", marginTop: 8, textAlign: "center" },
+  certificateRule: { height: 1, backgroundColor: "#C9A85D", width: "75%", marginTop: 18 },
+  certificateGrade: { color: navy, fontSize: 12, fontWeight: "900", marginTop: 13 },
+  certificateDate: { color: muted, fontSize: 10, marginTop: 7 },
+  certificateId: { color: "#9A7836", fontSize: 8, fontWeight: "800", marginTop: 12, letterSpacing: 0.5 },
   weakRow: { flexDirection: "row", alignItems: "center", paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: "#EEF0F4" },
   weakTrack: { height: 5, backgroundColor: "#E9ECF2", borderRadius: 5, marginTop: 8, overflow: "hidden" },
   weakFill: { height: 5, backgroundColor: gold, borderRadius: 5 },
