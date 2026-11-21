@@ -41,6 +41,10 @@ export default function App() {
   const [showResult, setShowResult] = useState(false);
   const [quizRecorded, setQuizRecorded] = useState(false);
   const [quizNotice, setQuizNotice] = useState("");
+  const [isExam, setIsExam] = useState(false);
+  const [examDeadline, setExamDeadline] = useState(null);
+  const [examRemaining, setExamRemaining] = useState(0);
+  const [examExpired, setExamExpired] = useState(false);
 
   const progress = Math.round((completed.length / lessons.length) * 100);
 
@@ -75,6 +79,22 @@ export default function App() {
   }, []);
 
   useEffect(() => {
+    if (!examDeadline || showResult || !isExam) return;
+    const updateClock = () => {
+      const remaining = Math.max(0, Math.ceil((examDeadline - Date.now()) / 1000));
+      setExamRemaining(remaining);
+      if (remaining === 0) setExamExpired(true);
+    };
+    updateClock();
+    const timer = setInterval(updateClock, 1000);
+    return () => clearInterval(timer);
+  }, [examDeadline, showResult, isExam]);
+
+  useEffect(() => {
+    if (examExpired && isExam && !showResult && !quizRecorded) submitQuiz(true);
+  }, [examExpired]);
+
+  useEffect(() => {
     if (!storageReady) return;
     AsyncStorage.setItem(STORAGE_KEY, JSON.stringify({ completed, stats })).catch(error => {
       console.warn("Could not save learning progress.", error);
@@ -83,6 +103,9 @@ export default function App() {
   const filteredLessons = useMemo(() => lessons.filter(item => filter === "All" || item.level === filter), [filter]);
 
   function openLesson(item) {
+    setIsExam(false);
+    setExamDeadline(null);
+    setExamExpired(false);
     setSelected(item);
     setQuiz(null);
     setAnswers({});
@@ -92,12 +115,29 @@ export default function App() {
     setTab("Lesson");
   }
   function startQuiz(item) {
+    setIsExam(false);
+    setExamDeadline(null);
+    setExamExpired(false);
     setSelected(item || null);
     setQuiz(item ? item.quiz : dailyQuestions);
     setAnswers({});
     setShowResult(false);
     setQuizRecorded(false);
     setQuizNotice("");
+    setTab("Quiz");
+  }
+  function startExam() {
+    const questions = lessons.flatMap(lesson => lesson.quiz.map(question => ({ ...question, lessonTitle: lesson.title, lessonId: lesson.id })));
+    setSelected(null);
+    setIsExam(true);
+    setQuiz(questions);
+    setAnswers({});
+    setShowResult(false);
+    setQuizRecorded(false);
+    setQuizNotice("");
+    setExamExpired(false);
+    setExamRemaining(30 * 60);
+    setExamDeadline(Date.now() + 30 * 60 * 1000);
     setTab("Quiz");
   }
   function finishLesson() {
@@ -107,6 +147,33 @@ export default function App() {
   }
   function score() {
     return (quiz || []).filter((q, i) => answers[i] === q.answer).length;
+  }
+  function submitQuiz(force = false) {
+    if (!quiz || quizRecorded || showResult) return;
+    const total = quiz.length;
+    if (!force && Object.keys(answers).length !== total) {
+      setQuizNotice("Please answer every question before checking your result.");
+      return;
+    }
+    const correct = score();
+    const today = localDateKey();
+    const isDaily = !selected && !isExam;
+    const title = isExam ? "Full course exam" : selected ? selected.title : "Daily practice";
+    const attempt = { title, lessonId: selected ? selected.id : null, date: today, correct, total, percent: Math.round((correct / total) * 100) };
+    setStats(old => ({
+      ...old,
+      quizzesTaken: old.quizzesTaken + 1,
+      questionsAnsweredCorrectly: old.questionsAnsweredCorrectly + correct,
+      dailySessions: old.dailySessions + (isDaily ? 1 : 0),
+      lastPracticeDate: isDaily ? today : old.lastPracticeDate,
+      dailyPracticeDates: isDaily ? [...new Set([...(old.dailyPracticeDates || []), today])].slice(-90) : (old.dailyPracticeDates || []),
+      quizHistory: [attempt, ...(old.quizHistory || [])].slice(0, 20),
+      wrongAnswers: [...quiz.map((question, index) => ({ question: question.q, selectedAnswer: answers[index] === undefined ? "Not answered" : question.options[answers[index]], correctAnswer: question.options[question.answer], explanation: question.why, lessonTitle: question.lessonTitle || (selected ? selected.title : title), lessonId: question.lessonId || (selected ? selected.id : null), date: today })).filter((item, index) => answers[index] !== quiz[index].answer), ...(old.wrongAnswers || [])].slice(0, 50)
+    }));
+    if (isDaily) setDailyDone(true);
+    setQuizRecorded(true);
+    setQuizNotice(force ? "Time is up. Your exam has been submitted." : "");
+    setShowResult(true);
   }
   function bestScoreFor(lessonId) {
     const attempts = (stats.quizHistory || []).filter(item => item.lessonId === lessonId && item.total > 0);
@@ -191,38 +258,14 @@ export default function App() {
   function Quiz() {
     if (!quiz) return null;
     const total = quiz.length;
+    const timerText = String(Math.floor(examRemaining / 60)).padStart(2, "0") + ":" + String(examRemaining % 60).padStart(2, "0");
     return <ScrollView contentContainerStyle={styles.content}>
-      <TouchableOpacity onPress={() => setTab(selected ? "Lesson" : "Home")}><Text style={styles.back}>‹  BACK</Text></TouchableOpacity>
-      <Header eyebrow="QUICK KNOWLEDGE CHECK" title={selected ? selected.title + " quiz" : "Daily practice"} subtitle="Choose the best answer for each question." />
-      {quiz.map((q, i) => <View key={i} style={styles.questionCard}><Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text> : null}</View>)}
+      <TouchableOpacity onPress={() => { setExamDeadline(null); setExamExpired(false); setTab(selected ? "Lesson" : "Home"); }}><Text style={styles.back}>‹  BACK</Text></TouchableOpacity>
+      <Header eyebrow={isExam ? "TIMED ASSESSMENT" : "QUICK KNOWLEDGE CHECK"} title={isExam ? "Full course exam" : selected ? selected.title + " quiz" : "Daily practice"} subtitle={isExam ? "Test your knowledge across all 25 lessons." : "Choose the best answer for each question."} />
+      {isExam ? <View style={styles.examTimer}><Text style={styles.examTimerLabel}>TIME REMAINING</Text><Text style={styles.examTimerValue}>{timerText}</Text><Text style={styles.examTimerHint}>{total} questions · 30 minutes · unanswered questions count as incorrect</Text></View> : null}
+      {quiz.map((q, i) => <View key={i} style={styles.questionCard}>{isExam && q.lessonTitle ? <Text style={styles.questionCount}>{q.lessonTitle.toUpperCase()}</Text> : null}<Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text> : null}</View>)}
       {quizNotice ? <Text style={styles.quizNotice}>{quizNotice}</Text> : null}
-      {!showResult ? <Action title="Check my answers" onPress={() => {
-        if (Object.keys(answers).length !== total) {
-          setQuizNotice("Please answer every question before checking your result.");
-          return;
-        }
-        if (!quizRecorded) {
-          const correct = score();
-          const isDaily = !selected;
-          const today = localDateKey();
-          const totalQuestions = quiz.length;
-          const attempt = { title: selected ? selected.title : "Daily practice", lessonId: selected ? selected.id : null, date: today, correct, total: totalQuestions, percent: Math.round((correct / totalQuestions) * 100) };
-          setStats(old => ({
-            ...old,
-            quizzesTaken: old.quizzesTaken + 1,
-            questionsAnsweredCorrectly: old.questionsAnsweredCorrectly + correct,
-            dailySessions: old.dailySessions + (isDaily ? 1 : 0),
-            lastPracticeDate: isDaily ? today : old.lastPracticeDate,
-            dailyPracticeDates: isDaily ? [...new Set([...(old.dailyPracticeDates || []), today])].slice(-90) : (old.dailyPracticeDates || []),
-            quizHistory: [attempt, ...(old.quizHistory || [])].slice(0, 20),
-            wrongAnswers: [...quiz.map((question, index) => ({ question: question.q, selectedAnswer: question.options[answers[index]], correctAnswer: question.options[question.answer], explanation: question.why, lessonTitle: selected ? selected.title : "Daily practice", lessonId: selected ? selected.id : null, date: today })).filter((item, index) => answers[index] !== quiz[index].answer), ...(old.wrongAnswers || [])].slice(0, 50)
-          }));
-          if (isDaily) setDailyDone(true);
-          setQuizRecorded(true);
-        }
-        setQuizNotice("");
-        setShowResult(true);
-      }} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text><Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); }} /><Action title="Done" onPress={() => { if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
+      {!showResult ? <Action title={isExam ? "Submit exam" : "Check my answers"} onPress={() => submitQuiz(false)} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text><Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); }} /><Action title="Done" onPress={() => { if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
     </ScrollView>;
   }
 
@@ -230,6 +273,7 @@ export default function App() {
     return <ScrollView contentContainerStyle={styles.content}>
       <Header eyebrow="BUILD A DAILY HABIT" title="Practice makes progress" subtitle="Short sessions. Stronger grammar. Better confidence." />
       <View style={styles.practiceHero}><Text style={styles.practiceNumber}>{String(dailyQuestions.length).padStart(2, "0")}</Text><Text style={styles.practiceLabel}>QUESTIONS IN THE PRACTICE BANK</Text><Text style={styles.practiceDescription}>A quick daily challenge covering grammar essentials.</Text><Action title={dailyDone ? "Practice again" : "Start daily practice"} onPress={() => startQuiz(null)} /></View>
+      <View style={styles.examCard}><Text style={styles.examEyebrow}>FINAL ASSESSMENT</Text><Text style={styles.examTitle}>Full course exam</Text><Text style={styles.examDescription}>One question set from every lesson. Check your overall grammar knowledge in a timed challenge.</Text><View style={styles.examFacts}><View><Text style={styles.examFactNumber}>{lessons.reduce((sum, lesson) => sum + lesson.quiz.length, 0)}</Text><Text style={styles.examFactLabel}>QUESTIONS</Text></View><View><Text style={styles.examFactNumber}>30</Text><Text style={styles.examFactLabel}>MINUTES</Text></View><View><Text style={styles.examFactNumber}>{lessons.length}</Text><Text style={styles.examFactLabel}>LESSONS</Text></View></View><Action title="Start full course exam" onPress={startExam} /></View>
       <View style={styles.tipCard}><Text style={styles.tipLabel}>STUDY TIP</Text><Text style={styles.tipText}>Try to explain each grammar rule in your own words after reading it.</Text><Text style={styles.tipUrdu}>ہر سبق کے بعد اصول کو اپنے الفاظ میں سمجھانے کی کوشش کریں۔</Text></View>
     </ScrollView>;
   }
@@ -341,6 +385,17 @@ const styles = StyleSheet.create({
   progressCard: { backgroundColor: "#FFFFFF", borderRadius: 18, padding: 19, marginTop: 13, borderWidth: 1, borderColor: "#EAECF2" },
   historyRow: { flexDirection: "row", alignItems: "center", paddingVertical: 11, borderBottomWidth: 1, borderBottomColor: "#EEF0F4" },
   historyScore: { color: green, fontSize: 18, fontWeight: "900", marginLeft: 12 },
+  examCard: { backgroundColor: navy, borderRadius: 20, padding: 20, marginTop: 14 },
+  examEyebrow: { color: gold, fontSize: 9, fontWeight: "900", letterSpacing: 1.5 },
+  examTitle: { color: "#FFFFFF", fontSize: 21, fontWeight: "900", marginTop: 8 },
+  examDescription: { color: "#CFD6E4", fontSize: 11, lineHeight: 18, marginTop: 7 },
+  examFacts: { flexDirection: "row", justifyContent: "space-between", marginVertical: 18 },
+  examFactNumber: { color: gold, fontSize: 22, fontWeight: "900" },
+  examFactLabel: { color: "#CFD6E4", fontSize: 8, fontWeight: "800", letterSpacing: 1, marginTop: 3 },
+  examTimer: { backgroundColor: "#FFF8E9", borderRadius: 16, padding: 16, marginBottom: 14, alignItems: "center", borderWidth: 1, borderColor: "#F0DCA9" },
+  examTimerLabel: { color: "#8D6A2E", fontSize: 9, fontWeight: "900", letterSpacing: 1.5 },
+  examTimerValue: { color: ink, fontSize: 30, fontWeight: "900", marginTop: 3 },
+  examTimerHint: { color: muted, fontSize: 10, textAlign: "center", marginTop: 4 },
   weakRow: { flexDirection: "row", alignItems: "center", paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: "#EEF0F4" },
   weakTrack: { height: 5, backgroundColor: "#E9ECF2", borderRadius: 5, marginTop: 8, overflow: "hidden" },
   weakFill: { height: 5, backgroundColor: gold, borderRadius: 5 },
