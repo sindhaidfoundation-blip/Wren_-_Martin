@@ -3,7 +3,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as Print from "expo-print";
 import * as Sharing from "expo-sharing";
 import { Alert, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
-import { lessons, dailyQuestions } from "./src/data/lessons";
+import { lessons, dailyQuestions, sindhiTranslations } from "./src/data/lessons";
 
 const navy = "#101C3A";
 const ink = "#18233F";
@@ -151,7 +151,7 @@ export default function App() {
     return lessons.filter(item => {
       const matchesLevel = filter === "All" || item.level === filter;
       const lessonDetails = [item.example, ...(item.breakdown || []).flat(), ...(item.quiz || []).flatMap(question => [question.q, question.why, ...(question.options || [])])].filter(Boolean).join(" ");
-      const searchableText = `${item.title} ${item.subtitle} ${item.rule} ${item.urdu} ${lessonDetails}`.toLocaleLowerCase();
+      const searchableText = `${item.title} ${item.subtitle} ${item.rule} ${item.urdu} ${sindhiTranslations[item.id] || ""} ${lessonDetails}`.toLocaleLowerCase();
       return matchesLevel && (!query || searchableText.includes(query));
     });
   }, [filter, lessonSearch]);
@@ -423,7 +423,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
     return <ScrollView contentContainerStyle={styles.content}>
       <TouchableOpacity onPress={() => setTab("Learn")}><Text style={styles.back}>‹  ALL LESSONS</Text></TouchableOpacity>
       <Header eyebrow={selected.level.toUpperCase() + " · " + selected.duration.toUpperCase()} title={selected.title} subtitle={selected.subtitle} />
-      <View style={styles.lessonPanel}><Text style={styles.panelLabel}>THE RULE</Text><Text style={styles.ruleText}>{selected.rule}</Text><Text style={styles.urduText}>{selected.urdu}</Text></View>
+      <View style={styles.lessonPanel}><Text style={styles.panelLabel}>THE RULE</Text><Text style={styles.ruleText}>{selected.rule}</Text><Text style={styles.urduText}>{selected.urdu}</Text><Text style={styles.sindhiText}>{sindhiTranslations[selected.id]}</Text></View>
       <View style={styles.examplePanel}><Text style={styles.panelLabel}>EXAMPLE</Text><Text style={styles.exampleText}>{selected.example}</Text></View>
       <Text style={styles.sectionTitle}>Understand the sentence</Text>
       {selected.breakdown.map((line, i) => <View key={i} style={styles.breakRow}><View style={{ flex: 1 }}><Text style={styles.breakWord}>{line[0]}</Text><Text style={styles.breakKind}>{line[1]}</Text></View><Text style={styles.breakUrdu}>{line[2]}</Text></View>)}
@@ -552,6 +552,7 @@ const styles = StyleSheet.create({
   panelLabel: { color: green, fontSize: 9, fontWeight: "900", letterSpacing: 1.4 },
   ruleText: { color: ink, fontSize: 17, lineHeight: 25, fontWeight: "800", marginTop: 10 },
   urduText: { color: "#68738A", fontSize: 15, lineHeight: 26, textAlign: "right", marginTop: 13 },
+  sindhiText: { color: "#23866D", fontSize: 15, lineHeight: 26, textAlign: "right", marginTop: 7 },
   examplePanel: { backgroundColor: navy, borderRadius: 18, padding: 18, marginBottom: 16 },
   exampleText: { color: "#FFFFFF", fontSize: 17, lineHeight: 24, fontWeight: "700", marginTop: 9 },
   breakRow: { flexDirection: "row", alignItems: "center", backgroundColor: "#FFFFFF", borderRadius: 14, padding: 14, marginBottom: 8 },
