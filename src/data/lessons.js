@@ -4712,6 +4712,102 @@ export const lessons = [
     ],
     "practicePrompt": "Write a story using these hints: A thirsty crow — finds a pot — little water at the bottom — cannot reach it — drops pebbles into the pot — water rises — drinks water — flies away happily. Give the story a title and a suitable moral."
   }
+,
+  {
+    "id": "letter-writing",
+    "title": "Letter Writing",
+    "subtitle": "Forms, classification, social and friendly letters, invitations, business, applications, official letters and letters to newspapers",
+    "urdu": "خط نویسی میں مقصد، مخاطب اور رسمی یا غیر رسمی انداز کے مطابق زبان اور ترتیب منتخب کی جاتی ہے۔ دوستانہ خطوط میں بے تکلفی اور گرمجوشی ہوتی ہے، جبکہ کاروباری، درخواست اور سرکاری خطوط میں شائستہ، واضح اور مختصر زبان استعمال ہوتی ہے۔",
+    "level": "Intermediate",
+    "duration": "18 min",
+    "rule": "Introductory remarks: A letter is a written message sent to a person or organisation. Before writing, identify the purpose and reader. The form of letters: A personal letter commonly has the sender's address and date, a greeting, the message, a suitable closing and the writer's name. Formal letters generally include the sender's address, date, recipient's name or designation and address, a clear subject, salutation, concise body, complimentary close and signature. Follow the format required by your school or organisation. Classification: Letters may be broadly classified as informal/personal (social and friendly letters) and formal (business, application, official and letters to newspapers). Social letters: These maintain family and social relationships, for example congratulations, condolences or thanks. Friendly letters: These are written to friends and relatives in a warm, natural tone; use clear paragraphs and personal details. Notes of invitations: State the occasion, date, time, venue and any reply instructions. Keep the wording welcoming and include RSVP details when needed. Business letters: Use a professional tone for enquiries, orders, complaints, claims and replies. Give a precise subject, relevant facts and a clear action requested. Letters of applications: State the post or opportunity applied for, introduce relevant qualifications and experience, refer to enclosed documents if any, and close courteously. Official letters: Address an office or public authority respectfully; state the matter, provide dates or reference numbers where relevant, and make the requested action clear. Letters to newspapers: Address the editor, give a concise subject or heading, explain the issue with accurate facts and reasoned points, and end with a constructive suggestion. Avoid abusive or unsupported claims.",
+    "example": "**Sample: Formal application for leave**\n\n24 Garden Road\nKarachi\n21 November 2026\n\nThe Principal\nCity School\nKarachi\n\n**Subject: Application for two days' leave**\n\nRespected Sir/Madam,\n\nI respectfully request leave for two days, 23 and 24 November, as I am unwell and have been advised to rest. I shall make up the missed classwork after returning to school.\n\nKindly grant me leave for these days.\n\nYours faithfully,\nA Student",
+    "breakdown": [
+      [
+        "Sender's address and date",
+        "Opening details",
+        "مرسل کا پتہ اور تاریخ درج کریں"
+      ],
+      [
+        "Recipient's name/designation and address",
+        "Inside address",
+        "جس شخص یا ادارے کو خط لکھا جا رہا ہے"
+      ],
+      [
+        "Subject and salutation",
+        "Purpose and greeting",
+        "موضوع مختصر اور واضح؛ مناسب خطاب"
+      ],
+      [
+        "Opening paragraph",
+        "Reason for writing",
+        "خط لکھنے کا مقصد واضح کریں"
+      ],
+      [
+        "Main body",
+        "Relevant details",
+        "ضروری معلومات منظم انداز میں دیں"
+      ],
+      [
+        "Closing request and sign-off",
+        "Polite conclusion",
+        "درخواست یا نتیجہ شائستگی سے بیان کریں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which pair gives the broad classification of letters?",
+        "options": [
+          "Informal and formal",
+          "Past and future",
+          "Singular and plural"
+        ],
+        "answer": 0,
+        "why": "Personal letters are informal; business, application and official letters are formal."
+      },
+      {
+        "q": "Which details should an invitation note clearly include?",
+        "options": [
+          "Occasion, date, time and venue",
+          "Only the writer's favourite subject",
+          "A long unrelated story"
+        ],
+        "answer": 0,
+        "why": "Guests need the essential event details to respond and attend."
+      },
+      {
+        "q": "What tone is most suitable for a business letter?",
+        "options": [
+          "Clear, courteous and professional",
+          "Over-familiar and slang-filled",
+          "Angry and insulting"
+        ],
+        "answer": 0,
+        "why": "Professional language helps communicate requests and facts effectively."
+      },
+      {
+        "q": "What should a letter to a newspaper editor contain?",
+        "options": [
+          "A clear issue supported by accurate facts",
+          "Personal attacks without evidence",
+          "Unrelated private messages"
+        ],
+        "answer": 0,
+        "why": "A reasoned, factual letter is more useful to readers and editors."
+      },
+      {
+        "q": "What is the purpose of a subject line in a formal letter?",
+        "options": [
+          "To state the main purpose briefly",
+          "To replace the entire letter",
+          "To give the writer's nickname"
+        ],
+        "answer": 0,
+        "why": "A subject line lets the recipient understand the topic quickly."
+      }
+    ],
+    "practicePrompt": "Write (1) a friendly letter inviting a cousin to spend the holidays with you, and (2) a formal letter to a newspaper editor about keeping your neighbourhood clean. For each, use the appropriate format and tone."
+  }
 ];
 
 export const dailyQuestions = [
