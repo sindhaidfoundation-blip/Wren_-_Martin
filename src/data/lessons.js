@@ -5066,6 +5066,97 @@ export const lessons = [
     ],
     "practicePrompt": "Expand the statement “Honesty is the best policy” into a well-organised paragraph of about 150–180 words. Explain the idea, give a relevant example and finish with a clear conclusion."
   }
+,
+  {
+    "id": "essay-writing",
+    "title": "Essay Writing",
+    "subtitle": "Introduction, characteristics, classification, planning, outlines and writing the essay",
+    "urdu": "Essay writing میں کسی موضوع پر منظم، مربوط اور مکمل تحریر لکھی جاتی ہے۔ اچھا مضمون موضوع کے مطابق ہوتا ہے، اس میں خیالات کی واضح ترتیب، مناسب مثالیں اور مؤثر اختتام ہوتا ہے۔ لکھنے سے پہلے مواد جمع کرنا اور خاکہ بنانا مضمون کو بہتر بناتا ہے۔",
+    "level": "Intermediate",
+    "duration": "20 min",
+    "rule": "Introductory remarks: An essay is a connected piece of writing on a particular subject. It gives the writer an opportunity to explain, describe, narrate or argue about a topic in an organised way. Characteristics of a good school essay: (1) Relevance: stay focused on the assigned topic. (2) Unity: develop one central purpose. (3) Clear organisation: use an introduction, logically arranged body paragraphs and a conclusion. (4) Coherence: connect ideas smoothly. (5) Adequate development: support points with facts, examples or explanations. (6) Clear and correct language: use suitable vocabulary, grammar, spelling and punctuation. (7) Originality and sincerity: express ideas naturally and avoid memorised or irrelevant material. Classification of essays: Descriptive essays portray a person, place, object or scene; narrative essays tell a story or recount events; expository essays explain a subject or process; argumentative/persuasive essays present a position supported by reasons and evidence; reflective essays discuss thoughts or experiences. Hints on essay writing: Understand the topic and instructions, decide the purpose and audience, narrow a broad subject, keep to the word limit, avoid repetition and leave time to revise. Method of collecting materials: Brainstorm what you already know; list relevant points; consult reliable books or sources when permitted; gather accurate facts, examples, quotations and observations; record where information came from; and select only material that supports the topic. Bare outline: A bare outline is a brief skeleton plan made of headings or keywords, showing the main points in their intended order. It helps the writer see the structure at a glance. Full outline: A full outline expands each main heading into subpoints, explanations, examples or evidence. It provides a more detailed writing plan and helps prevent gaps or repetition. Writing the essay: Begin with an engaging but relevant introduction that establishes the topic and main idea. Develop one main point in each body paragraph, using explanations and examples. Use transitions to show connections. End with a conclusion that draws the points together without introducing a new argument. Finally, revise for relevance, organisation, clarity, accuracy and length.",
+    "example": "**Specimen topic: The Importance of Trees**\n\n**Bare outline**\n1. Introduction — trees and human life\n2. Benefits — oxygen, shade, fruit, timber\n3. Environmental value — soil, climate, wildlife\n4. Threats — cutting and loss of forests\n5. Protection — planting and caring for trees\n6. Conclusion — shared responsibility\n\n**Full outline**\n1. Introduction: Trees are essential to people and the natural world.\n2. Benefits to people: They provide fruit, useful materials, shade and places for recreation.\n3. Environmental value: They absorb carbon dioxide, release oxygen, protect soil and provide habitats.\n4. Threats: Unnecessary cutting reduces green spaces, damages habitats and increases soil erosion.\n5. Protection: Plant new trees, protect mature forests and care for parks and local green areas.\n6. Conclusion: Individuals and communities should work together to conserve trees.\n\n**Specimen essay: The Importance of Trees**\n\nTrees are among the most valuable gifts of nature. They make our surroundings beautiful and support life in many ways. People depend on trees for fruit, shade, timber and other useful products. In towns and villages, trees also provide pleasant places where people can rest and enjoy the outdoors.\n\nTrees are equally important for the environment. They absorb carbon dioxide and release oxygen. Their roots hold the soil together and help reduce erosion. They also provide food and shelter for birds, insects and many other creatures. A healthy tree cover can make an area cooler and improve the quality of the surroundings.\n\nUnfortunately, forests are sometimes cleared carelessly to make room for buildings, roads and other activities. This destroys wildlife habitats and can damage the balance of nature. Planting new trees is useful, but protecting existing forests is just as important because mature trees take many years to grow.\n\nEveryone can help by caring for trees, protecting green spaces and planting suitable species. Schools, communities and public authorities should encourage these efforts. Trees benefit both present and future generations, so protecting them is a responsibility we all share.",
+    "breakdown": [
+      [
+        "Introduction",
+        "Introduce the topic and central idea",
+        "موضوع کا تعارف اور مرکزی خیال"
+      ],
+      [
+        "Body paragraphs",
+        "Develop separate main points with evidence",
+        "ہر پیراگراف میں ایک بنیادی نکتہ اور اس کی وضاحت"
+      ],
+      [
+        "Transitions",
+        "Connect ideas in a logical sequence",
+        "خیالات کو مربوط رکھنے والے الفاظ"
+      ],
+      [
+        "Conclusion",
+        "Bring the discussion to a clear close",
+        "بحث کو واضح نتیجے پر ختم کریں"
+      ],
+      [
+        "Revision",
+        "Check content, order, grammar and length",
+        "مواد، ترتیب، قواعد اور طوالت درست کریں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which quality means staying focused on the assigned subject?",
+        "options": [
+          "Relevance",
+          "Repetition",
+          "Decoration"
+        ],
+        "answer": 0,
+        "why": "A relevant essay develops the assigned topic and avoids unrelated details."
+      },
+      {
+        "q": "Which type of essay tells a story or recounts events?",
+        "options": [
+          "Narrative",
+          "Expository",
+          "Argumentative"
+        ],
+        "answer": 0,
+        "why": "A narrative essay presents events in a connected sequence."
+      },
+      {
+        "q": "What is a bare outline?",
+        "options": [
+          "A brief skeleton plan of headings or keywords",
+          "The complete final essay",
+          "A list of unrelated quotations"
+        ],
+        "answer": 0,
+        "why": "A bare outline shows the main points in a concise form."
+      },
+      {
+        "q": "How does a full outline differ from a bare outline?",
+        "options": [
+          "It adds subpoints and supporting details",
+          "It removes the main points",
+          "It is always the conclusion"
+        ],
+        "answer": 0,
+        "why": "A full outline develops each heading into a more detailed plan."
+      },
+      {
+        "q": "What should a conclusion normally do?",
+        "options": [
+          "Bring the main discussion together",
+          "Introduce an unrelated topic",
+          "Repeat the entire essay word for word"
+        ],
+        "answer": 0,
+        "why": "A conclusion reinforces the central message and gives the essay a satisfying close."
+      }
+    ],
+    "practicePrompt": "Prepare a bare outline and a full outline for the topic “The Value of Education”. Then write a school essay of 250–300 words using your full outline. Revise it for unity, coherence, grammar and relevance."
+  }
 ];
 
 export const dailyQuestions = [
