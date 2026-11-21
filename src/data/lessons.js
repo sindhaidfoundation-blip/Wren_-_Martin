@@ -431,8 +431,7 @@ export const lessons = [
       { q: "Choose the correct sentence.", options: ["Every students are ready.", "Every student is ready.", "Every student are ready."], answer: 1, why: "Every is followed by a singular noun and normally takes a singular verb." },
       { q: "Which is the usual phrase for an older brother in traditional usage?", options: ["elder brother", "eldest brother (for any comparison)", "more elder brother"], answer: 0, why: "Elder is traditionally used before a family noun such as brother." }
     ]
-  }
-
+  },
   {
     id: "reflexive-emphatic-pronouns", title: "Reflexive and Emphatic Pronouns", subtitle: "Pronouns ending in -self and -selves",
     urdu: "Reflexive pronoun اس وقت آتا ہے جب subject اور object ایک ہی شخص یا چیز ہوں، جیسے She hurt herself۔ Emphatic pronoun کسی noun یا pronoun پر زور دیتا ہے، جیسے The principal herself welcomed us۔",
