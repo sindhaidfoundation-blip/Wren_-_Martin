@@ -3390,6 +3390,149 @@ export const lessons = [
         "why": "Use a comma before a coordinating conjunction that joins two independent clauses."
       }
     ]
+  },
+  {
+    "id": "sequence-of-tenses",
+    "title": "The Sequence of Tenses",
+    "subtitle": "Keeping verb tenses consistent in connected clauses",
+    "urdu": "Sequence of Tenses سے مراد ایک ہی جملے یا بیان میں مختلف clauses کے افعال کے زمانوں کا باہمی تعلق ہے۔ عام طور پر past reporting verb کے بعد subordinate clause میں بھی past tense آتا ہے، لیکن universal truth، مستقل حقیقت یا اب بھی درست بات کے لیے present tense برقرار رہ سکتا ہے۔",
+    "level": "Advanced",
+    "duration": "10 min",
+    "rule": "The sequence of tenses is the relationship between the tense of a verb in a main clause and the tense of a verb in a subordinate clause. When the main verb is in the past, a subordinate verb often shifts to a past form if the action is viewed from that past time. However, a general truth or a fact that is still true may remain in the present. A past perfect is used for an action completed before another past action.",
+    "example": "He said that he was tired. / The teacher explained that the Earth moves around the Sun.",
+    "breakdown": [
+      [
+        "He said",
+        "Main clause: simple past",
+        "Reporting verb ماضی میں ہے"
+      ],
+      [
+        "that he was tired",
+        "Subordinate noun clause: past",
+        "ماضی کے reporting verb کے ساتھ tense backshift ہوا"
+      ],
+      [
+        "The teacher explained",
+        "Main clause: simple past",
+        "ماضی میں وضاحت کی گئی"
+      ],
+      [
+        "that the Earth moves around the Sun",
+        "Subordinate noun clause: simple present",
+        "ہمیشہ درست حقیقت ہے، اس لیے present برقرار ہے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct sentence: 'She said that she ___ busy.'",
+        "options": [
+          "is",
+          "was",
+          "will"
+        ],
+        "answer": 1,
+        "why": "With a past reporting verb, the present 'am/is' commonly shifts to 'was' in reported context."
+      },
+      {
+        "q": "Which tense is normally used for a universal truth after a past reporting verb?",
+        "options": [
+          "Simple present",
+          "Past perfect only",
+          "Future continuous"
+        ],
+        "answer": 0,
+        "why": "Universal truths generally remain in the simple present."
+      },
+      {
+        "q": "Complete the sentence: He knew that the train ___ before he arrived.",
+        "options": [
+          "leaves",
+          "had left",
+          "will leave"
+        ],
+        "answer": 1,
+        "why": "The train's departure happened before another past action, so past perfect is appropriate."
+      }
+    ]
+  },
+  {
+    "id": "direct-and-indirect-speech",
+    "title": "Direct and Indirect Speech",
+    "subtitle": "Reporting statements, questions, commands and requests",
+    "urdu": "Direct Speech میں بولنے والے کے اصل الفاظ quotation marks میں لکھے جاتے ہیں۔ Indirect یا Reported Speech میں بات اپنے الفاظ میں بیان کی جاتی ہے۔ تبدیلی کرتے وقت pronouns، reporting verb، tense، وقت اور جگہ کے الفاظ اور جملے کی ترتیب درست کریں۔",
+    "level": "Advanced",
+    "duration": "12 min",
+    "rule": "Direct speech gives a speaker's exact words in quotation marks. Indirect (reported) speech reports the meaning without quoting the exact words. When the reporting verb is in the past, tenses commonly backshift (present to past, will to would, can to could), and pronouns and time/place expressions change as needed. No backshift is usually needed when the reporting verb is present or when the statement is a universal truth. Reported questions use statement word order; commands and requests commonly use tell/ask + object + to-infinitive.",
+    "example": "Direct: Sara said, “I am reading now.” → Indirect: Sara said that she was reading then. / Direct: He asked, “Where do you live?” → Indirect: He asked where I lived.",
+    "breakdown": [
+      [
+        "I am reading",
+        "Present continuous",
+        "Reported speech میں was reading ہو گیا"
+      ],
+      [
+        "I → she",
+        "Pronoun change",
+        "بولنے والے کے مطابق ضمیر بدلا"
+      ],
+      [
+        "now → then",
+        "Time expression",
+        "وقت کا لفظ بدلا"
+      ],
+      [
+        "Where do you live?",
+        "Direct question",
+        "Question mark اور do-support ختم"
+      ],
+      [
+        "where I lived",
+        "Reported question",
+        "Statement word order استعمال ہوا"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Change into indirect speech: He said, “I am happy.”",
+        "options": [
+          "He said that he was happy.",
+          "He said that I am happy.",
+          "He said that he is happy yesterday."
+        ],
+        "answer": 0,
+        "why": "The pronoun changes from I to he and present am commonly backshifts to was after said."
+      },
+      {
+        "q": "Choose the correct reported form: She asked, “Where are you going?”",
+        "options": [
+          "She asked where was I going.",
+          "She asked where I was going.",
+          "She asked where am I going."
+        ],
+        "answer": 1,
+        "why": "Reported questions use statement word order: subject before verb."
+      },
+      {
+        "q": "Change the command: The teacher said to the boys, “Sit down.”",
+        "options": [
+          "The teacher told the boys to sit down.",
+          "The teacher said the boys sit down.",
+          "The teacher asked that sit down."
+        ],
+        "answer": 0,
+        "why": "Commands are commonly reported with told + object + to-infinitive."
+      },
+      {
+        "q": "Which expression commonly changes from 'today' in direct speech to 'that day' in reported speech?",
+        "options": [
+          "today",
+          "yesterday",
+          "tomorrow"
+        ],
+        "answer": 0,
+        "why": "Today commonly changes to that day when the reporting context is in the past."
+      }
+    ]
   }
 ];
 
