@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Wren & Martin Grammar Master",
+    "slug": "wren-martin-grammar-master",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.grammar.master.wrenmartin"
+    },
+    "android": {
+      "package": "com.grammar.master.wrenmartin",
+      "adaptiveIcon": {
+        "backgroundColor": "#101C3A"
+      }
+    }
+  }
+}
