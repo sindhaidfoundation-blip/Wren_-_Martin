@@ -3534,6 +3534,711 @@ export const lessons = [
       }
     ]
   }
+,
+  {
+    "id": "agreement-verb-with-subject",
+    "title": "Agreement of the Verb with the Subject",
+    "subtitle": "Choosing a verb that agrees with its subject",
+    "urdu": "Verb ہمیشہ اپنے اصل subject کے مطابق ہونا چاہیے، درمیان میں آنے والے الفاظ کے مطابق نہیں۔ Each، every، everyone اور neither جیسے الفاظ عموماً واحد فعل لیتے ہیں؛ and سے جڑے دو subjects عموماً جمع فعل لیتے ہیں۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "A verb agrees with its subject in person and number. Ignore phrases between the subject and verb. A singular subject generally takes a singular verb, while a plural subject takes a plural verb. Each, every, everyone, either, and neither are generally singular; subjects joined by and are usually plural.",
+    "example": "The quality of the apples is good. / Each of the players has a uniform. / Ali and Sara are ready.",
+    "breakdown": [
+      [
+        "quality",
+        "Head noun / subject",
+        "اصل subject واحد ہے"
+      ],
+      [
+        "of the apples",
+        "Prepositional phrase",
+        "یہ subject کو جمع نہیں بناتا"
+      ],
+      [
+        "is",
+        "Singular verb",
+        "quality کے ساتھ واحد فعل"
+      ],
+      [
+        "Ali and Sara",
+        "Compound subject",
+        "دو افراد، اس لیے جمع"
+      ],
+      [
+        "are",
+        "Plural verb",
+        "جمع subject کے مطابق"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct verb: The basket of oranges ___ heavy.",
+        "options": [
+          "are",
+          "is",
+          "be"
+        ],
+        "answer": 1,
+        "why": "The subject is basket, not oranges; basket is singular."
+      },
+      {
+        "q": "Each of the students ___ a notebook.",
+        "options": [
+          "have",
+          "has",
+          "having"
+        ],
+        "answer": 1,
+        "why": "Each is treated as singular and takes has."
+      },
+      {
+        "q": "My brother and sister ___ at home.",
+        "options": [
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": 1,
+        "why": "Two subjects joined by and normally take a plural verb."
+      }
+    ]
+  },
+  {
+    "id": "correct-usage-nouns-pronouns",
+    "title": "Correct Usage: Nouns and Pronouns",
+    "subtitle": "Using noun forms and pronouns accurately",
+    "urdu": "Noun اور pronoun کا درست استعمال جملے کے معنی اور ساخت کو واضح کرتا ہے۔ Countable اور uncountable nouns، possessive forms، subject اور object pronouns، اور pronoun کا اپنے antecedent سے تعلق خاص طور پر اہم ہیں۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "Use countable nouns with suitable singular or plural forms, and do not normally pluralize uncountable nouns such as advice, information, and furniture. Choose subject pronouns (I, he, she, we, they) for subjects and object pronouns (me, him, her, us, them) for objects. Make pronouns agree clearly with their antecedents.",
+    "example": "She gave me some useful advice. / The children brought their books. / This is between you and me.",
+    "breakdown": [
+      [
+        "advice",
+        "Uncountable noun",
+        "some advice، نہ کہ an advice"
+      ],
+      [
+        "me",
+        "Object pronoun",
+        "gave کا object"
+      ],
+      [
+        "children",
+        "Plural noun",
+        "اس کے مطابق their استعمال ہوا"
+      ],
+      [
+        "you and me",
+        "Object pronouns",
+        "preposition between کے بعد object forms"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct phrase.",
+        "options": [
+          "an advice",
+          "some advice",
+          "many advice"
+        ],
+        "answer": 1,
+        "why": "Advice is uncountable; use some advice or a piece of advice."
+      },
+      {
+        "q": "The teacher spoke to Sara and ___.",
+        "options": [
+          "I",
+          "me",
+          "my"
+        ],
+        "answer": 1,
+        "why": "The pronoun is the object of to, so use me."
+      },
+      {
+        "q": "Every student must bring ___ own pencil.",
+        "options": [
+          "their",
+          "them",
+          "theirs"
+        ],
+        "answer": 0,
+        "why": "Singular they is widely accepted for a person whose gender is unknown; their comes before the noun."
+      }
+    ]
+  },
+  {
+    "id": "correct-usage-adjectives",
+    "title": "Correct Usage: Adjectives",
+    "subtitle": "Choosing and placing adjectives correctly",
+    "urdu": "Adjective noun یا pronoun کی صفت، تعداد یا حالت بتاتا ہے۔ Adjective اور adverb میں فرق کریں، comparative کے ساتھ than اور superlative کے ساتھ عموماً the استعمال کریں، اور صفت کو درست noun کے ساتھ رکھیں۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "Use an adjective to describe a noun or pronoun and an adverb to modify a verb, adjective, or adverb. Use comparative forms when comparing two and superlative forms for the highest or lowest degree in a group. Avoid double comparatives and double superlatives.",
+    "example": "She is a careful driver. / She drives carefully. / This is the most useful of the three books.",
+    "breakdown": [
+      [
+        "careful",
+        "Adjective",
+        "driver کی وضاحت کرتا ہے"
+      ],
+      [
+        "carefully",
+        "Adverb",
+        "drives کے طریقے کی وضاحت"
+      ],
+      [
+        "more useful",
+        "Comparative",
+        "دو یا زیادہ چیزوں کا تقابل"
+      ],
+      [
+        "most useful",
+        "Superlative",
+        "گروہ میں سب سے زیادہ مفید"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct sentence.",
+        "options": [
+          "He is a carefully driver.",
+          "He is a careful driver.",
+          "He is carefully driver."
+        ],
+        "answer": 1,
+        "why": "Careful is an adjective describing the noun driver."
+      },
+      {
+        "q": "Which is the correct comparative form of 'good'?",
+        "options": [
+          "gooder",
+          "better",
+          "best"
+        ],
+        "answer": 1,
+        "why": "Better is the comparative form; best is the superlative."
+      },
+      {
+        "q": "Choose the correct phrase.",
+        "options": [
+          "more easier",
+          "easier",
+          "most easier"
+        ],
+        "answer": 1,
+        "why": "Do not use more with the -er comparative form."
+      }
+    ]
+  },
+  {
+    "id": "correct-usage-verbs",
+    "title": "Correct Usage: Verbs",
+    "subtitle": "Using verb forms, auxiliaries and tenses accurately",
+    "urdu": "Verb کے درست استعمال کے لیے tense، subject-verb agreement، infinitive، gerund، participle اور auxiliary کا خیال رکھیں۔ Modal کے بعد عموماً base form آتی ہے، اور do/does/did کے بعد بھی base verb استعمال ہوتا ہے۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "Use the correct tense and verb form for the context. After do, does, or did, use the base form; after a modal auxiliary, use the base form. Use a gerund after verbs and prepositions that require it, and use the past participle in perfect and passive constructions.",
+    "example": "Did she go? / He can swim. / I enjoy reading. / They have finished the work.",
+    "breakdown": [
+      [
+        "did",
+        "Past auxiliary",
+        "ماضی کا سوال بنانے میں مدد دیتا ہے"
+      ],
+      [
+        "go",
+        "Base form",
+        "did کے بعد went نہیں آئے گا"
+      ],
+      [
+        "can",
+        "Modal auxiliary",
+        "صلاحیت ظاہر کرتا ہے"
+      ],
+      [
+        "swim",
+        "Base form",
+        "modal کے بعد بنیادی صورت"
+      ],
+      [
+        "reading",
+        "Gerund",
+        "enjoy کے بعد -ing form"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct sentence.",
+        "options": [
+          "Did he went home?",
+          "Did he go home?",
+          "Did he goes home?"
+        ],
+        "answer": 1,
+        "why": "After did, use the base form go."
+      },
+      {
+        "q": "You must ___ your homework.",
+        "options": [
+          "to finish",
+          "finish",
+          "finished"
+        ],
+        "answer": 1,
+        "why": "A modal verb is followed by the base form."
+      },
+      {
+        "q": "She enjoys ___ novels.",
+        "options": [
+          "read",
+          "to reading",
+          "reading"
+        ],
+        "answer": 2,
+        "why": "Enjoy is followed by a gerund."
+      }
+    ]
+  },
+  {
+    "id": "correct-usage-adverbs",
+    "title": "Correct Usage: Adverbs",
+    "subtitle": "Using adverbs in the right form and position",
+    "urdu": "Adverb فعل، صفت یا دوسرے adverb کی وضاحت کرتا ہے۔ Adjective اور adverb کی شکل میں فرق رکھیں، frequency adverbs کو عموماً main verb سے پہلے اور be کے بعد رکھیں، جبکہ enough عموماً adjective یا adverb کے بعد آتا ہے۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "Use adverbs to modify verbs, adjectives, or other adverbs. Adverbs of frequency usually come before a main verb but after forms of be. Place enough after the adjective or adverb it modifies. Distinguish hard (with effort) from hardly (almost not), and late from lately (recently).",
+    "example": "She usually arrives early. / He is always polite. / The box is large enough. / They worked hard.",
+    "breakdown": [
+      [
+        "usually",
+        "Adverb of frequency",
+        "main verb arrives سے پہلے"
+      ],
+      [
+        "always",
+        "Adverb of frequency",
+        "verb is کے بعد"
+      ],
+      [
+        "large enough",
+        "Adjective + adverb",
+        "enough صفت کے بعد"
+      ],
+      [
+        "hard",
+        "Adverb",
+        "محنت سے؛ hardly کا مطلب تقریباً نہیں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct sentence.",
+        "options": [
+          "She speaks English fluent.",
+          "She speaks English fluently.",
+          "She fluent speaks English."
+        ],
+        "answer": 1,
+        "why": "Fluently is the adverb modifying speaks."
+      },
+      {
+        "q": "Choose the correct position.",
+        "options": [
+          "He is always late.",
+          "He always is late (usual neutral order).",
+          "He late is always."
+        ],
+        "answer": 0,
+        "why": "An adverb of frequency normally follows the verb be."
+      },
+      {
+        "q": "The water is warm ___.",
+        "options": [
+          "enough",
+          "too enough",
+          "enoughly"
+        ],
+        "answer": 0,
+        "why": "Enough follows the adjective it modifies."
+      }
+    ]
+  },
+  {
+    "id": "correct-usage-conjunctions",
+    "title": "Correct Usage: Conjunctions",
+    "subtitle": "Joining ideas with the right conjunction",
+    "urdu": "Conjunction الفاظ، phrases اور clauses کو جوڑتا ہے۔ And، but، or، so جیسے الفاظ کو معنی کے مطابق منتخب کریں۔ Although کے ساتھ but اور because کے ساتھ so کو ایک ہی ساخت میں غیر ضروری طور پر اکٹھا نہ کریں۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "Choose coordinating and subordinating conjunctions according to the logical relationship: addition, contrast, choice, reason, result, time, or condition. Do not use two conjunctions redundantly when one construction is sufficient. Keep parallel grammatical structures on both sides of a conjunction.",
+    "example": "Although it was raining, we went out. / It was raining, but we went out. / She likes reading and writing.",
+    "breakdown": [
+      [
+        "Although",
+        "Subordinating conjunction",
+        "رعایت یا تضاد کے ساتھ dependent clause"
+      ],
+      [
+        "but",
+        "Coordinating conjunction",
+        "دو independent clauses میں تضاد"
+      ],
+      [
+        "reading and writing",
+        "Parallel gerunds",
+        "دونوں طرف ایک جیسی grammatical form"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct sentence.",
+        "options": [
+          "Although he was tired, but he worked.",
+          "Although he was tired, he worked.",
+          "Although he tired, but worked."
+        ],
+        "answer": 1,
+        "why": "Although already introduces the subordinate contrast clause; but is unnecessary here."
+      },
+      {
+        "q": "She is interested in singing ___ dancing.",
+        "options": [
+          "and",
+          "because",
+          "although"
+        ],
+        "answer": 0,
+        "why": "And joins two parallel activities."
+      },
+      {
+        "q": "Choose the conjunction that introduces a condition.",
+        "options": [
+          "if",
+          "because",
+          "although"
+        ],
+        "answer": 0,
+        "why": "If commonly introduces a conditional clause."
+      }
+    ]
+  },
+  {
+    "id": "correct-order-of-words",
+    "title": "Correct Usage: Order of Words",
+    "subtitle": "Arranging words in natural English sentences",
+    "urdu": "English میں عام خبریہ جملے کی ترتیب Subject + Verb + Object ہوتی ہے۔ Adjective عموماً noun سے پہلے، adverb مناسب مقام پر، اور سوالیہ جملے میں auxiliary subject سے پہلے آتا ہے۔ الفاظ کی غلط ترتیب معنی یا جملے کی فطری روانی بدل سکتی ہے۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "The usual English statement order is Subject + Verb + Object (SVO). Adjectives generally precede the nouns they modify. Place indirect objects and adverbs in natural positions, and form most questions by placing an auxiliary before the subject.",
+    "example": "The children (subject) read (verb) a story (object). / Where does she live? / She bought a beautiful red dress.",
+    "breakdown": [
+      [
+        "The children",
+        "Subject",
+        "جملے کا فاعل"
+      ],
+      [
+        "read",
+        "Verb",
+        "عمل"
+      ],
+      [
+        "a story",
+        "Object",
+        "جس پر عمل ہوا"
+      ],
+      [
+        "Where does she live?",
+        "Question order",
+        "question word + auxiliary + subject + base verb"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the natural word order.",
+        "options": [
+          "A story the children read.",
+          "The children read a story.",
+          "Read the children a story (as a statement)."
+        ],
+        "answer": 1,
+        "why": "The normal statement order is subject, verb, then object."
+      },
+      {
+        "q": "Choose the correct question.",
+        "options": [
+          "Where she does live?",
+          "Where does she live?",
+          "Where does live she?"
+        ],
+        "answer": 1,
+        "why": "The auxiliary does comes before the subject she, followed by the base verb live."
+      },
+      {
+        "q": "Choose the correctly ordered phrase.",
+        "options": [
+          "a wooden small box",
+          "a small wooden box",
+          "a box wooden small"
+        ],
+        "answer": 1,
+        "why": "Opinion/size and material adjectives follow conventional adjective order; small normally precedes wooden."
+      }
+    ]
+  },
+  {
+    "id": "idioms-continued",
+    "title": "Idioms (Continued)",
+    "subtitle": "Understanding common expressions beyond their literal meanings",
+    "urdu": "Idiom ایسا مستقل فقرہ ہے جس کا مطلب اکثر اس کے لفظی معنی سے مختلف ہوتا ہے۔ اسے context کے مطابق سمجھیں اور عام طور پر اس کے الفاظ کو اپنی مرضی سے تبدیل نہ کریں۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "An idiom is a fixed expression whose meaning is not always predictable from the literal meanings of its words. Learn the expression as a unit, understand its context and register, and use it naturally rather than translating it word for word.",
+    "example": "Once in a blue moon = very rarely. / Break the ice = make people feel more relaxed. / A blessing in disguise = something that seems bad at first but turns out well.",
+    "breakdown": [
+      [
+        "once in a blue moon",
+        "Idiom",
+        "بہت کم یا شاذ و نادر"
+      ],
+      [
+        "break the ice",
+        "Idiom",
+        "ابتدائی جھجک ختم کرنا"
+      ],
+      [
+        "a blessing in disguise",
+        "Idiom",
+        "بظاہر نقصان مگر بعد میں فائدہ"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What does 'once in a blue moon' mean?",
+        "options": [
+          "Very often",
+          "Very rarely",
+          "At midnight"
+        ],
+        "answer": 1,
+        "why": "The idiom means something happens very rarely."
+      },
+      {
+        "q": "If someone 'breaks the ice', what do they do?",
+        "options": [
+          "Make people feel more comfortable",
+          "Damage a frozen lake",
+          "End a friendship"
+        ],
+        "answer": 0,
+        "why": "It means easing initial awkwardness in a social situation."
+      },
+      {
+        "q": "A 'blessing in disguise' is...",
+        "options": [
+          "A hidden danger",
+          "Something bad that leads to a good result",
+          "A formal celebration"
+        ],
+        "answer": 1,
+        "why": "The expression describes an apparently bad event that turns out beneficial."
+      }
+    ]
+  },
+  {
+    "id": "correct-punctuation",
+    "title": "Correct Usage: Punctuation",
+    "subtitle": "Using punctuation marks to make meaning clear",
+    "urdu": "Punctuation marks جملے کی ساخت اور معنی واضح کرتے ہیں۔ Comma، semicolon، colon، apostrophe، quotation marks، dash اور hyphen کے استعمال میں فرق سمجھیں۔ Comma splice سے بچیں اور possessive اور contraction میں apostrophe درست لگائیں۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "Use a full stop to end a statement, a question mark for a direct question, and an exclamation mark for a strong exclamation. Use commas to separate items and introductory elements; use a semicolon to join closely related independent clauses; use apostrophes for possession and contractions. Do not join independent clauses with only a comma.",
+    "example": "My brother, who lives in Lahore, is visiting. / It was late; we went home. / Sara's book is here. / Don't be late.",
+    "breakdown": [
+      [
+        ";",
+        "Semicolon",
+        "قریب المعنی دو independent clauses جوڑتا ہے"
+      ],
+      [
+        "Sara's",
+        "Possessive apostrophe",
+        "Sara کی ملکیت"
+      ],
+      [
+        "Don't",
+        "Contraction",
+        "do not کی مختصر شکل"
+      ],
+      [
+        ", who lives in Lahore,",
+        "Non-essential clause",
+        "اضافی معلومات کو commas میں رکھا"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which sentence uses the apostrophe correctly for one girl's book?",
+        "options": [
+          "The girls book is new.",
+          "The girl's book is new.",
+          "The girls' book is new."
+        ],
+        "answer": 1,
+        "why": "Girl's shows possession by one girl; girls' would mean multiple girls."
+      },
+      {
+        "q": "Which punctuation mark can join two closely related independent clauses?",
+        "options": [
+          "Semicolon",
+          "Apostrophe",
+          "Hyphen"
+        ],
+        "answer": 0,
+        "why": "A semicolon can join closely related independent clauses."
+      },
+      {
+        "q": "Which is a comma splice?",
+        "options": [
+          "I was tired, so I slept.",
+          "I was tired; I slept.",
+          "I was tired, I slept."
+        ],
+        "answer": 2,
+        "why": "Two independent clauses should not be joined by only a comma."
+      }
+    ]
+  },
+  {
+    "id": "spelling-rules",
+    "title": "Spelling Rules",
+    "subtitle": "Reliable patterns for spelling English words",
+    "urdu": "English spelling میں کچھ عام اصول مدد دیتے ہیں، مثلاً consonant کے بعد y کو plural یا third-person form میں i بنانا، silent e کے ساتھ suffix لگانا، اور بعض الفاظ میں ie/ei کی ترتیب۔ تاہم کئی exceptions بھی ہیں، اس لیے لفظ اور اس کی family کو یاد رکھیں۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "Common spelling patterns include changing a consonant + y to i before many endings (happy → happier; city → cities), dropping a silent e before a vowel suffix (make → making), and doubling a final consonant in some short stressed syllables (stop → stopping). Keep exceptions in mind: chief, receive, weird, and many others do not follow a single universal rule.",
+    "example": "city → cities; make → making; stop → stopped; hope → hoping; receive; separate.",
+    "breakdown": [
+      [
+        "city → cities",
+        "Consonant + y",
+        "y بدل کر ies ہوا"
+      ],
+      [
+        "make → making",
+        "Silent e",
+        "vowel suffix سے پہلے e حذف ہوا"
+      ],
+      [
+        "stop → stopping",
+        "Final consonant",
+        "مختصر stressed syllable میں p دگنا ہوا"
+      ],
+      [
+        "receive",
+        "Exception / ie-ei",
+        "ei یہاں c کے بعد آیا"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct plural spelling.",
+        "options": [
+          "citys",
+          "cities",
+          "cityes"
+        ],
+        "answer": 1,
+        "why": "A consonant + y usually changes to ies in the plural."
+      },
+      {
+        "q": "Choose the correct -ing form.",
+        "options": [
+          "makeing",
+          "making",
+          "makking"
+        ],
+        "answer": 1,
+        "why": "The silent e is dropped before -ing."
+      },
+      {
+        "q": "Choose the correct spelling.",
+        "options": [
+          "recieve",
+          "receive",
+          "receeve"
+        ],
+        "answer": 1,
+        "why": "Receive is spelled with ei after c."
+      }
+    ]
+  },
+  {
+    "id": "figures-of-speech",
+    "title": "Figures of Speech",
+    "subtitle": "Using language imaginatively and effectively",
+    "urdu": "Figures of Speech زبان کو مؤثر، خوبصورت اور تصویری بناتے ہیں۔ Simile میں like یا as کے ذریعے موازنہ، metaphor میں براہِ راست تشبیہ، personification میں غیر انسانی چیز کو انسانی صفت، اور hyperbole میں مبالغہ ہوتا ہے۔",
+    "level": "Intermediate",
+    "duration": "11 min",
+    "rule": "A figure of speech uses language in a non-literal or specially patterned way for emphasis, vividness, or artistic effect. A simile makes an explicit comparison using like or as; a metaphor describes one thing as another; personification gives human qualities to non-human things; hyperbole is deliberate exaggeration; alliteration repeats initial consonant sounds.",
+    "example": "Her smile was like sunshine. (simile) / Time is a thief. (metaphor) / The wind whispered. (personification) / I've told you a million times. (hyperbole)",
+    "breakdown": [
+      [
+        "like sunshine",
+        "Simile",
+        "like کے ذریعے واضح موازنہ"
+      ],
+      [
+        "Time is a thief",
+        "Metaphor",
+        "وقت کو چور قرار دیا"
+      ],
+      [
+        "wind whispered",
+        "Personification",
+        "ہوا کو انسانی عمل دیا"
+      ],
+      [
+        "a million times",
+        "Hyperbole",
+        "زور دینے کے لیے مبالغہ"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "'The stars danced in the sky' is an example of...",
+        "options": [
+          "Personification",
+          "Literal description",
+          "Alliteration"
+        ],
+        "answer": 0,
+        "why": "Stars are given the human action of dancing."
+      },
+      {
+        "q": "Which sentence contains a simile?",
+        "options": [
+          "He is a lion.",
+          "Her voice is like music.",
+          "The city never sleeps."
+        ],
+        "answer": 1,
+        "why": "Like explicitly signals the comparison."
+      },
+      {
+        "q": "'I am so hungry I could eat a horse' is...",
+        "options": [
+          "Hyperbole",
+          "Personification",
+          "Onomatopoeia"
+        ],
+        "answer": 0,
+        "why": "It is deliberate exaggeration, not a literal claim."
+      }
+    ]
+  }
 ];
 
 export const dailyQuestions = [
