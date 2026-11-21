@@ -19,7 +19,9 @@
       "package": "com.grammar.master.wrenmartin",
       "adaptiveIcon": {
         "backgroundColor": "#101C3A"
-      }
+      },
+      "allowBackup": false,
+      "usesCleartextTraffic": false
     }
   }
 }
