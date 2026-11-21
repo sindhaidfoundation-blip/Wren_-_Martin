@@ -4546,6 +4546,172 @@ export const lessons = [
       }
     ]
   }
+,
+  {
+    "id": "paragraph-writing",
+    "title": "Paragraph Writing",
+    "subtitle": "Introductory remarks, principles, examples and writing a single paragraph",
+    "urdu": "Paragraph ایک مرکزی خیال کے گرد منظم جملوں کا مجموعہ ہے۔ اچھے paragraph میں topic sentence، وضاحتی تفصیل، مثالیں اور اختتامی جملہ شامل ہو سکتے ہیں۔ تمام جملے ایک ہی موضوع سے متعلق ہوں اور ترتیب منطقی ہو۔",
+    "level": "Intermediate",
+    "duration": "12 min",
+    "rule": "A paragraph develops one main idea. Begin with a clear topic sentence, add supporting details, facts or examples, arrange ideas in a logical order, and finish with a concluding sentence when appropriate. Good paragraphs show unity (one controlling idea), coherence (clear connections), adequate development (enough detail), and correct mechanics (grammar, spelling and punctuation). Use transitions such as first, moreover, for example, and finally where they help the reader.",
+    "example": "Reading is a valuable habit. It increases our knowledge and improves our language. Through books, we learn about people, places and ideas beyond our own experience. Reading also develops imagination and concentration. For these reasons, everyone should make time for reading every day.",
+    "breakdown": [
+      [
+        "Reading is a valuable habit.",
+        "Topic sentence",
+        "مرکزی خیال متعارف کراتا ہے"
+      ],
+      [
+        "It increases our knowledge...",
+        "Supporting detail",
+        "مرکزی خیال کی وضاحت"
+      ],
+      [
+        "Through books...",
+        "Example / elaboration",
+        "مزید تفصیل دیتا ہے"
+      ],
+      [
+        "Reading also develops...",
+        "Additional support",
+        "دوسرا متعلقہ فائدہ"
+      ],
+      [
+        "For these reasons...",
+        "Concluding sentence",
+        "پیراگراف کو نتیجے پر ختم کرتا ہے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What is the main purpose of a topic sentence?",
+        "options": [
+          "To introduce the paragraph's main idea",
+          "To add an unrelated detail",
+          "To list every punctuation mark"
+        ],
+        "answer": 0,
+        "why": "A topic sentence states the central idea that the rest of the paragraph develops."
+      },
+      {
+        "q": "Which quality means that all sentences support one main idea?",
+        "options": [
+          "Unity",
+          "Handwriting",
+          "Rhyme"
+        ],
+        "answer": 0,
+        "why": "Unity keeps every sentence relevant to the paragraph's controlling idea."
+      },
+      {
+        "q": "Which is the best supporting detail for a paragraph about the benefits of exercise?",
+        "options": [
+          "Exercise strengthens the heart and muscles.",
+          "My favourite film is a comedy.",
+          "The train leaves at noon."
+        ],
+        "answer": 0,
+        "why": "It directly supports the topic of exercise benefits."
+      },
+      {
+        "q": "What is coherence?",
+        "options": [
+          "Logical flow and clear connection between ideas",
+          "Using the longest possible words",
+          "Repeating the topic sentence exactly"
+        ],
+        "answer": 0,
+        "why": "Coherence makes the paragraph easy to follow through logical order and transitions."
+      }
+    ],
+    "practicePrompt": "Write one paragraph of 6–8 sentences on 'The Importance of Trees'. Include a topic sentence, at least three supporting details and a suitable concluding sentence."
+  },
+  {
+    "id": "story-writing",
+    "title": "Story Writing",
+    "subtitle": "Introductory remarks, hints and specimen story",
+    "urdu": "Story writing میں واقعات کو دلچسپ اور منطقی ترتیب سے بیان کیا جاتا ہے۔ Hints کو صرف الگ الگ جملوں کی صورت میں نقل نہ کریں؛ انہیں کردار، جگہ، مسئلے، واقعات اور انجام کے ساتھ مربوط کہانی میں تبدیل کریں۔ کہانی کا آغاز واضح ہو، واقعات میں تسلسل ہو اور اختتام مؤثر ہو۔",
+    "level": "Intermediate",
+    "duration": "13 min",
+    "rule": "A good story usually has a setting, characters, a problem or central event, a sequence of connected actions, and an ending. When writing from hints, identify the main idea, put events in a sensible order, add only relevant details and dialogue, and keep the tense and point of view consistent. Give the story a suitable title. A moral may be added when the task calls for one, but it should grow naturally from the events.",
+    "example": "**The Honest Woodcutter**\n\nA poor woodcutter was cutting a tree beside a river when his axe slipped from his hands and fell into the deep water. He sat on the bank and began to weep. A kind spirit appeared and asked what had happened. The spirit brought out a golden axe, but the woodcutter said it was not his. The spirit then showed him a silver axe, which he also refused. At last, the spirit brought out the woodcutter's old iron axe. The woodcutter happily recognised it. Pleased by his honesty, the spirit gave him all three axes. The woodcutter returned home grateful and happy.\n\n**Moral: Honesty is the best policy.**",
+    "breakdown": [
+      [
+        "A poor woodcutter... beside a river",
+        "Setting and character",
+        "کردار اور جگہ کا تعارف"
+      ],
+      [
+        "his axe... fell into the deep water",
+        "Problem",
+        "کہانی کا بنیادی مسئلہ"
+      ],
+      [
+        "A kind spirit appeared...",
+        "Rising action",
+        "واقعات آگے بڑھتے ہیں"
+      ],
+      [
+        "he also refused... recognised it",
+        "Turning point",
+        "کردار کی دیانت ظاہر ہوتی ہے"
+      ],
+      [
+        "the spirit gave him all three axes",
+        "Resolution",
+        "مسئلہ حل ہو جاتا ہے"
+      ],
+      [
+        "Honesty is the best policy",
+        "Moral",
+        "کہانی کا سبق"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What should you do first when given story-writing hints?",
+        "options": [
+          "Understand and arrange the events logically",
+          "Copy each hint without connecting it",
+          "Write the moral before understanding the story"
+        ],
+        "answer": 0,
+        "why": "Planning the sequence helps create a coherent story."
+      },
+      {
+        "q": "Which element tells the reader where and when a story happens?",
+        "options": [
+          "Setting",
+          "Conclusion",
+          "Punctuation"
+        ],
+        "answer": 0,
+        "why": "The setting establishes the time and place."
+      },
+      {
+        "q": "Why should the tense usually remain consistent?",
+        "options": [
+          "It helps readers follow when events happen",
+          "It makes every sentence a question",
+          "It removes the need for characters"
+        ],
+        "answer": 0,
+        "why": "Consistent tense keeps the timeline clear."
+      },
+      {
+        "q": "Which is the strongest ending for a story?",
+        "options": [
+          "A conclusion that resolves the main problem",
+          "An unrelated new event",
+          "A sentence that stops in the middle"
+        ],
+        "answer": 0,
+        "why": "A satisfying ending brings the central events to a meaningful close."
+      }
+    ],
+    "practicePrompt": "Write a story using these hints: A thirsty crow — finds a pot — little water at the bottom — cannot reach it — drops pebbles into the pot — water rises — drinks water — flies away happily. Give the story a title and a suitable moral."
+  }
 ];
 
 export const dailyQuestions = [
