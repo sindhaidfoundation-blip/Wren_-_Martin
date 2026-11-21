@@ -1389,7 +1389,7 @@ export const lessons = [
         "why": "Fast modifies the verb runs."
       }
     ]
-  },,
+  },
   {
     "id": "analysis-of-simple-sentences",
     "title": "Analysis of Simple Sentences",
@@ -1849,6 +1849,594 @@ export const lessons = [
         "answer": 0,
         "why": "A noun clause can function as a subject, object, or complement."
       }
+    ]
+  },
+  {
+    "id": "sentence-types-simple-compound-complex",
+    "title": "Simple, Compound and Complex Sentences",
+    "subtitle": "Distinguishing sentence structures",
+    "urdu": "Simple sentence میں ایک independent clause ہوتا ہے۔ Compound sentence میں دو یا زیادہ independent clauses ہوتے ہیں، جبکہ complex sentence میں ایک independent اور کم از کم ایک dependent clause ہوتا ہے۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "Classify sentences by their clause structure: simple has one independent clause; compound joins independent clauses; complex combines an independent clause with at least one dependent clause.",
+    "example": "The bell rang. / The bell rang, and the students left. / When the bell rang, the students left.",
+    "breakdown": [
+      [
+        "The bell rang.",
+        "Simple",
+        "ایک independent clause"
+      ],
+      [
+        "The bell rang, and the students left.",
+        "Compound",
+        "دو independent clauses"
+      ],
+      [
+        "When the bell rang, the students left.",
+        "Complex",
+        "ایک dependent اور ایک independent clause"
+      ]
+    ],
+    "quiz": [
+      [
+        "Which sentence is compound?",
+        [
+          "I smiled.",
+          "I smiled because I was happy.",
+          "I smiled, and she waved."
+        ],
+        2,
+        "It joins two independent clauses with and."
+      ],
+      [
+        "Which sentence is complex?",
+        [
+          "After the rain stopped, we went out.",
+          "The rain stopped.",
+          "The rain stopped, and the sun appeared."
+        ],
+        0,
+        "After the rain stopped is dependent; we went out is independent."
+      ]
+    ]
+  },
+  {
+    "id": "more-about-noun-clauses",
+    "title": "More About Noun Clauses",
+    "subtitle": "Functions, introductions and punctuation",
+    "urdu": "Noun clause subject، object، subject complement یا prepositional object بن سکتا ہے۔ یہ that، whether، if اور wh-words جیسے what، who، where، why سے شروع ہو سکتا ہے۔ indirect question میں عام statement word order استعمال ہوتا ہے۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "Noun clauses function as subjects, objects, complements, or objects of prepositions. They are introduced by that, whether, if, and wh-words; embedded questions use statement word order.",
+    "example": "What you decide is important. / I wonder where she lives. / The truth is that we need help.",
+    "breakdown": [
+      [
+        "What you decide",
+        "Noun clause / subject",
+        "پورے جملے کا subject"
+      ],
+      [
+        "where she lives",
+        "Embedded question",
+        "statement word order"
+      ],
+      [
+        "that we need help",
+        "Noun clause / complement",
+        "truth کی وضاحت"
+      ]
+    ],
+    "quiz": [
+      [
+        "Choose the correct embedded question.",
+        [
+          "I know where does he live.",
+          "I know where he lives.",
+          "I know where lives he."
+        ],
+        1,
+        "Embedded questions use subject before verb."
+      ],
+      [
+        "In 'What she said surprised me', the noun clause is:",
+        [
+          "What she said",
+          "surprised me",
+          "me"
+        ],
+        0,
+        "The clause functions as the subject."
+      ]
+    ]
+  },
+  {
+    "id": "more-about-adjective-clauses",
+    "title": "More About Adjective Clauses",
+    "subtitle": "Defining, non-defining and relative words",
+    "urdu": "Adjective clauses کی دو اہم اقسام defining اور non-defining ہیں۔ Defining clause ضروری شناخت دیتا ہے اور عموماً commas کے بغیر آتا ہے۔ Non-defining clause اضافی معلومات دیتا ہے اور commas سے الگ ہوتا ہے۔ who لوگوں، which چیزوں، whose ملکیت، اور that defining clauses میں استعمال ہو سکتا ہے۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "Adjective clauses may be defining (essential information) or non-defining (extra information). Relative pronouns include who, whom, whose, which, and that; that is generally not used in non-defining clauses.",
+    "example": "The student who studies regularly improves. / My car, which I bought last year, is reliable.",
+    "breakdown": [
+      [
+        "who studies regularly",
+        "Defining adjective clause",
+        "ضروری شناخت"
+      ],
+      [
+        "which I bought last year",
+        "Non-defining adjective clause",
+        "اضافی معلومات، commas کے ساتھ"
+      ],
+      [
+        "whose",
+        "Possessive relative pronoun",
+        "ملکیت ظاہر کرتا ہے"
+      ]
+    ],
+    "quiz": [
+      [
+        "Which is correctly punctuated?",
+        [
+          "My brother who lives in Lahore, is a doctor.",
+          "My brother, who lives in Lahore, is a doctor.",
+          "My brother who lives in Lahore is, a doctor."
+        ],
+        1,
+        "A non-defining clause is enclosed by commas."
+      ],
+      [
+        "Which relative word shows possession?",
+        [
+          "whose",
+          "which",
+          "where"
+        ],
+        0,
+        "Whose indicates possession."
+      ]
+    ]
+  },
+  {
+    "id": "more-about-adverb-clauses",
+    "title": "More About Adverb Clauses",
+    "subtitle": "Meaning, position and punctuation",
+    "urdu": "Adverb clause dependent clause ہوتا ہے جو وقت، جگہ، مقصد، وجہ، شرط، نتیجہ، موازنہ یا رعایت ظاہر کرتا ہے۔ جب یہ جملے کے شروع میں آئے تو عموماً اس کے بعد comma لگتا ہے؛ آخر میں آئے تو اکثر comma نہیں لگتا۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "Adverb clauses are dependent clauses that modify a verb or whole clause by expressing time, place, purpose, reason, condition, result, comparison, or concession. An introductory adverb clause is usually followed by a comma.",
+    "example": "Although it was late, we continued because we had work to finish.",
+    "breakdown": [
+      [
+        "Although it was late",
+        "Adverb clause of concession",
+        "رعایت یا مخالفت"
+      ],
+      [
+        "because we had work to finish",
+        "Adverb clause of reason",
+        "وجہ"
+      ],
+      [
+        "introductory clause + comma",
+        "Punctuation",
+        "شروع میں آنے پر comma"
+      ]
+    ],
+    "quiz": [
+      [
+        "Which punctuation is usual when an adverb clause begins the sentence?",
+        [
+          "A comma after the clause",
+          "A semicolon inside the clause",
+          "No punctuation ever"
+        ],
+        0,
+        "An introductory dependent clause is normally followed by a comma."
+      ],
+      [
+        "An adverb clause is:",
+        [
+          "A dependent clause modifying a verb or clause",
+          "Always an independent clause",
+          "A phrase without a verb"
+        ],
+        0,
+        "It contains a subject and verb and functions adverbially."
+      ]
+    ]
+  },
+  {
+    "id": "adverb-clauses-of-time",
+    "title": "Adverb Clauses of Time",
+    "subtitle": "When an action happens",
+    "urdu": "Adverb clause of time بتاتا ہے کہ کام کب ہوتا ہے۔ عام subordinating conjunctions میں when، while، before، after، until، as soon as، since اور once شامل ہیں۔ مستقبل کے معنی میں time clause کے اندر عموماً will کے بجائے present simple استعمال ہوتا ہے۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A time adverb clause tells when an action happens. Common subordinators include when, while, before, after, until, as soon as, since, and once. Use a present form in a future time clause rather than will.",
+    "example": "When the lesson ends, we will practise.",
+    "breakdown": [
+      [
+        "When the lesson ends",
+        "Time clause",
+        "کب مشق کریں گے؟"
+      ],
+      [
+        "when / before / after",
+        "Time conjunctions",
+        "وقت کا تعلق"
+      ],
+      [
+        "will practise",
+        "Main clause",
+        "مستقبل کا عمل"
+      ]
+    ],
+    "quiz": [
+      [
+        "Choose the correct sentence.",
+        [
+          "When he will arrive, call me.",
+          "When he arrives, call me.",
+          "When he arrive, call me."
+        ],
+        1,
+        "Present simple is commonly used in future time clauses."
+      ],
+      [
+        "Which conjunction introduces time?",
+        [
+          "although",
+          "because",
+          "until"
+        ],
+        2,
+        "Until introduces a time limit."
+      ]
+    ]
+  },
+  {
+    "id": "adverb-clauses-of-place",
+    "title": "Adverb Clauses of Place",
+    "subtitle": "Where an action happens",
+    "urdu": "Adverb clause of place بتاتا ہے کہ کام کہاں ہوتا ہے۔ عام الفاظ where اور wherever ہیں۔ یہ clauses اکثر verb یا main clause کی جگہ یا حدود واضح کرتے ہیں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A place adverb clause tells where an action occurs or applies. It is commonly introduced by where or wherever.",
+    "example": "You may sit wherever you feel comfortable.",
+    "breakdown": [
+      [
+        "wherever you feel comfortable",
+        "Place clause",
+        "کہاں بیٹھ سکتے ہیں؟"
+      ],
+      [
+        "where / wherever",
+        "Subordinators",
+        "جگہ ظاہر کرتے ہیں"
+      ],
+      [
+        "You may sit",
+        "Main clause",
+        "بنیادی بات"
+      ]
+    ],
+    "quiz": [
+      [
+        "Which word commonly introduces a place clause?",
+        [
+          "wherever",
+          "because",
+          "unless"
+        ],
+        0,
+        "Wherever introduces a place clause."
+      ],
+      [
+        "In 'Stay where you are', the clause tells:",
+        [
+          "When to stay",
+          "Where to stay",
+          "Why to stay"
+        ],
+        1,
+        "Where you are identifies the place."
+      ]
+    ]
+  },
+  {
+    "id": "adverb-clauses-of-purpose",
+    "title": "Adverb Clauses of Purpose",
+    "subtitle": "Explaining the aim of an action",
+    "urdu": "Adverb clause of purpose کسی عمل کا مقصد بتاتا ہے۔ عام الفاظ so that اور in order that ہیں۔ مقصد کے clause میں can، could، may یا might جیسے modal verbs آ سکتے ہیں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A purpose adverb clause explains the aim of an action and is often introduced by so that or in order that. It commonly uses a modal such as can, could, may, or might.",
+    "example": "She spoke slowly so that everyone could understand.",
+    "breakdown": [
+      [
+        "so that everyone could understand",
+        "Purpose clause",
+        "مقصد واضح کرتا ہے"
+      ],
+      [
+        "could understand",
+        "Modal + verb",
+        "ممکنہ مقصد"
+      ],
+      [
+        "She spoke slowly",
+        "Main clause",
+        "عمل"
+      ]
+    ],
+    "quiz": [
+      [
+        "Which conjunction introduces purpose?",
+        [
+          "so that",
+          "although",
+          "unless"
+        ],
+        0,
+        "So that introduces the intended aim."
+      ],
+      [
+        "Choose the purpose sentence.",
+        [
+          "He left because he was tired.",
+          "He whispered so that the baby would not wake.",
+          "He stayed although it rained."
+        ],
+        1,
+        "The clause gives the purpose of whispering."
+      ]
+    ]
+  },
+  {
+    "id": "adverb-clauses-of-cause-reason",
+    "title": "Adverb Clauses of Cause or Reason",
+    "subtitle": "Explaining why something happens",
+    "urdu": "Adverb clause of cause or reason کسی کام کی وجہ بتاتا ہے۔ عام subordinators because، since اور as ہیں۔ Because عام طور پر واضح وجہ کے لیے استعمال ہوتا ہے؛ since اور as اکثر معلوم یا پس منظر کی وجہ دیتے ہیں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A cause or reason adverb clause explains why something happens. Common subordinators are because, since, and as. Because often introduces a direct reason; since and as can introduce an already-known or background reason.",
+    "example": "We stayed indoors because the storm was severe.",
+    "breakdown": [
+      [
+        "because the storm was severe",
+        "Reason clause",
+        "کیوں اندر رہے؟"
+      ],
+      [
+        "because / since / as",
+        "Subordinators",
+        "وجہ ظاہر کرتے ہیں"
+      ],
+      [
+        "We stayed indoors",
+        "Main clause",
+        "نتیجہ خیز عمل"
+      ]
+    ],
+    "quiz": [
+      [
+        "Choose the conjunction of reason.",
+        [
+          "because",
+          "wherever",
+          "unless"
+        ],
+        0,
+        "Because introduces a reason."
+      ],
+      [
+        "In 'Since it was raining, we took a taxi', the clause gives:",
+        [
+          "A condition",
+          "A reason",
+          "A comparison"
+        ],
+        1,
+        "Since introduces the reason for taking a taxi."
+      ]
+    ]
+  },
+  {
+    "id": "adverb-clauses-of-condition",
+    "title": "Adverb Clauses of Condition",
+    "subtitle": "Stating what must happen first",
+    "urdu": "Adverb clause of condition کسی عمل کے لیے شرط بتاتا ہے۔ عام الفاظ if، unless، provided that، as long as اور in case ہیں۔ Future condition clause میں عموماً if کے بعد will نہیں آتا۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "A condition adverb clause states the condition under which something happens. Common subordinators include if, unless, provided that, as long as, and in case. Use a present form in ordinary future condition clauses.",
+    "example": "If you revise, you will improve.",
+    "breakdown": [
+      [
+        "If you revise",
+        "Condition clause",
+        "شرط"
+      ],
+      [
+        "you will improve",
+        "Main clause",
+        "نتیجہ"
+      ],
+      [
+        "unless",
+        "Negative condition",
+        "if...not کے معنی"
+      ]
+    ],
+    "quiz": [
+      [
+        "Choose the correct future condition.",
+        [
+          "If it will rain, we will stay.",
+          "If it rains, we will stay.",
+          "If it rain, we will stay."
+        ],
+        1,
+        "The if-clause normally uses present simple for a future condition."
+      ],
+      [
+        "Unless usually means:",
+        [
+          "if not",
+          "because",
+          "at the time"
+        ],
+        0,
+        "Unless introduces a negative condition."
+      ]
+    ]
+  },
+  {
+    "id": "adverb-clauses-of-result-consequence",
+    "title": "Adverb Clauses of Result and Consequence",
+    "subtitle": "Showing an outcome",
+    "urdu": "Adverb clause of result یا consequence کسی عمل کا نتیجہ ظاہر کرتا ہے۔ Common patterns میں so...that اور such...that شامل ہیں۔ So کے بعد adjective یا adverb، جبکہ such کے بعد عموماً noun phrase آتا ہے۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "Result clauses show the consequence of an action or quality. Common patterns are so + adjective/adverb + that and such + noun phrase + that.",
+    "example": "The road was so slippery that several cars stopped.",
+    "breakdown": [
+      [
+        "so slippery",
+        "So + adjective",
+        "شدت ظاہر کرتا ہے"
+      ],
+      [
+        "that several cars stopped",
+        "Result clause",
+        "نتیجہ"
+      ],
+      [
+        "such a difficult task that...",
+        "Such + noun phrase",
+        "متبادل ساخت"
+      ]
+    ],
+    "quiz": [
+      [
+        "Choose the correct pattern.",
+        [
+          "so tired that",
+          "so that tired",
+          "such tired so"
+        ],
+        0,
+        "So is followed by an adjective and then that-clause."
+      ],
+      [
+        "Which sentence shows result?",
+        [
+          "He left so early that nobody saw him.",
+          "He left before sunrise.",
+          "He left because he was tired."
+        ],
+        0,
+        "The that-clause gives the consequence of leaving early."
+      ]
+    ]
+  },
+  {
+    "id": "adverb-clauses-of-comparison",
+    "title": "Adverb Clauses of Comparison",
+    "subtitle": "Comparing actions or qualities",
+    "urdu": "Adverb clause of comparison کسی عمل یا کیفیت کا موازنہ کرتا ہے۔ عام ساختیں than، as...as، not so...as اور as if/as though ہیں۔ فعل یا auxiliary کی تکرار سے بچنے کے لیے بعض اوقات مختصر clause استعمال ہوتا ہے۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "Comparison adverb clauses compare actions or qualities. Common patterns include than, as...as, not so...as, and as if/as though.",
+    "example": "She runs faster than I do. / He talks as if he knew everything.",
+    "breakdown": [
+      [
+        "than I do",
+        "Comparison clause",
+        "دو اعمال کا موازنہ"
+      ],
+      [
+        "as...as",
+        "Equal comparison",
+        "برابری"
+      ],
+      [
+        "as if he knew everything",
+        "Manner / supposition",
+        "جیسے اسے سب معلوم ہو"
+      ]
+    ],
+    "quiz": [
+      [
+        "Complete: 'She is as tall ___ her sister.'",
+        [
+          "as",
+          "than",
+          "that"
+        ],
+        0,
+        "The equal comparison pattern is as...as."
+      ],
+      [
+        "Which word commonly introduces comparison?",
+        [
+          "than",
+          "unless",
+          "because"
+        ],
+        0,
+        "Than introduces a comparative clause."
+      ]
+    ]
+  },
+  {
+    "id": "adverb-clauses-of-supposition-concession",
+    "title": "Adverb Clauses of Supposition or Concession",
+    "subtitle": "Imagined situations and contrast",
+    "urdu": "Supposition میں as if، as though یا even if فرضی یا غیر یقینی صورت ظاہر کرتے ہیں۔ Concession میں although، though، even though، whereas یا while ایسی بات بتاتے ہیں جو main clause کے باوجود درست رہتی ہے۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "Supposition clauses express an imagined or uncertain situation, often with as if or as though. Concession clauses express contrast or an unexpected fact, often with although, though, even though, or even if.",
+    "example": "He talks as though he knew the answer. / Although it was cold, they went swimming.",
+    "breakdown": [
+      [
+        "as though he knew the answer",
+        "Supposition clause",
+        "فرضی تاثر"
+      ],
+      [
+        "Although it was cold",
+        "Concession clause",
+        "مخالفت کے باوجود"
+      ],
+      [
+        "even if",
+        "Concessive condition",
+        "چاہے ایسا ہو"
+      ]
+    ],
+    "quiz": [
+      [
+        "Which conjunction commonly introduces concession?",
+        [
+          "although",
+          "because",
+          "where"
+        ],
+        0,
+        "Although introduces a contrast or concession."
+      ],
+      [
+        "Which phrase often introduces supposition?",
+        [
+          "as if",
+          "so that",
+          "until"
+        ],
+        0,
+        "As if introduces an imagined comparison or supposition."
+      ]
     ]
   }
 ];
