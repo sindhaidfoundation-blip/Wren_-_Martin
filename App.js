@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as Print from "expo-print";
 import * as Sharing from "expo-sharing";
-import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
+import { Alert, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { lessons, dailyQuestions } from "./src/data/lessons";
 
 const navy = "#101C3A";
@@ -35,6 +35,7 @@ function Action({ title, onPress, secondary = false }) {
 function Header({ eyebrow, title, subtitle }) {
   return <View style={styles.header}><Text style={styles.eyebrow}>{eyebrow}</Text><Text style={styles.headerTitle}>{title}</Text>{subtitle ? <Text style={styles.headerSub}>{subtitle}</Text> : null}</View>;
 }
+const fullCourseQuestions = lessons.flatMap(lesson => lesson.quiz.map(question => ({ ...question, lessonTitle: lesson.title, lessonId: lesson.id })));
 
 export default function App() {
   const [tab, setTab] = useState("Home");
@@ -70,6 +71,29 @@ export default function App() {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed.completed)) setCompleted(parsed.completed.filter(id => lessons.some(item => item.id === id)));
         if (typeof parsed.certificateName === "string") setCertificateName(parsed.certificateName);
+        const savedExam = parsed.examSession;
+        if (savedExam && Number.isFinite(savedExam.deadline) && savedExam.totalQuestions === fullCourseQuestions.length) {
+          const restoredAnswers = {};
+          if (savedExam.answers && typeof savedExam.answers === "object" && !Array.isArray(savedExam.answers)) {
+            Object.keys(savedExam.answers).forEach(key => {
+              const index = Number(key);
+              const answer = savedExam.answers[key];
+              if (Number.isInteger(index) && index >= 0 && index < fullCourseQuestions.length && Number.isInteger(answer) && answer >= 0 && answer < fullCourseQuestions[index].options.length) restoredAnswers[index] = answer;
+            });
+          }
+          setSelected(null);
+          setIsExam(true);
+          setQuiz(fullCourseQuestions);
+          setAnswers(restoredAnswers);
+          setShowResult(false);
+          setQuizRecorded(false);
+          setQuizNotice("Your saved exam has been restored.");
+          setExamDeadline(savedExam.deadline);
+          setExamRemaining(Math.max(0, Math.ceil((savedExam.deadline - Date.now()) / 1000)));
+          setExamExpired(false);
+          setExamCertificateId(typeof savedExam.certificateId === "string" ? savedExam.certificateId : createCertificateId());
+          setTab("Quiz");
+        }
         if (parsed.stats && typeof parsed.stats === "object") {
           setStats({
             quizzesTaken: Number(parsed.stats.quizzesTaken) || 0,
@@ -110,10 +134,16 @@ export default function App() {
 
   useEffect(() => {
     if (!storageReady) return;
-    AsyncStorage.setItem(STORAGE_KEY, JSON.stringify({ completed, stats, certificateName })).catch(error => {
+    const examSession = isExam && examDeadline && !showResult && quiz ? {
+      deadline: examDeadline,
+      answers,
+      totalQuestions: quiz.length,
+      certificateId: examCertificateId
+    } : null;
+    AsyncStorage.setItem(STORAGE_KEY, JSON.stringify({ completed, stats, certificateName, examSession })).catch(error => {
       console.warn("Could not save learning progress.", error);
     });
-  }, [completed, stats, certificateName, storageReady]);
+  }, [completed, stats, certificateName, storageReady, isExam, examDeadline, showResult, quiz, answers, examCertificateId]);
   const filteredLessons = useMemo(() => {
     const query = lessonSearch.trim().toLocaleLowerCase();
     return lessons.filter(item => {
@@ -149,7 +179,7 @@ export default function App() {
     setTab("Quiz");
   }
   function startExam() {
-    const questions = lessons.flatMap(lesson => lesson.quiz.map(question => ({ ...question, lessonTitle: lesson.title, lessonId: lesson.id })));
+    const questions = fullCourseQuestions;
     setSelected(null);
     setIsExam(true);
     setQuiz(questions);
@@ -360,7 +390,18 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
     const total = quiz.length;
     const timerText = String(Math.floor(examRemaining / 60)).padStart(2, "0") + ":" + String(examRemaining % 60).padStart(2, "0");
     return <ScrollView contentContainerStyle={styles.content}>
-      <TouchableOpacity onPress={() => { setExamDeadline(null); setExamExpired(false); setTab(selected ? "Lesson" : "Home"); }}><Text style={styles.back}>‹  BACK</Text></TouchableOpacity>
+      <TouchableOpacity onPress={() => {
+        if (isExam) {
+          Alert.alert("Leave the exam?", "Your answers are saved. You can resume this timed exam if you reopen the app before time expires.", [
+            { text: "Continue exam", style: "cancel" },
+            { text: "End exam", style: "destructive", onPress: () => { setExamDeadline(null); setExamExpired(false); setIsExam(false); setQuiz(null); setAnswers({}); setTab("Practice"); } }
+          ]);
+        } else {
+          setExamDeadline(null);
+          setExamExpired(false);
+          setTab(selected ? "Lesson" : "Home");
+        }
+      }}><Text style={styles.back}>‹  BACK</Text></TouchableOpacity>
       <Header eyebrow={isExam ? "TIMED ASSESSMENT" : "QUICK KNOWLEDGE CHECK"} title={isExam ? "Full course exam" : selected ? selected.title + " quiz" : "Daily practice"} subtitle={isExam ? "Test your knowledge across all 25 lessons." : "Choose the best answer for each question."} />
       {isExam ? <View style={styles.examTimer}><Text style={styles.examTimerLabel}>TIME REMAINING</Text><Text style={styles.examTimerValue}>{timerText}</Text><Text style={styles.examTimerHint}>{total} questions · 30 minutes · unanswered questions count as incorrect</Text></View> : null}
       {quiz.map((q, i) => <View key={i} style={styles.questionCard}>{isExam && q.lessonTitle ? <Text style={styles.questionCount}>{q.lessonTitle.toUpperCase()}</Text> : null}<Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text> : null}</View>)}
@@ -370,7 +411,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
         <Text style={styles.breakdownHeading}>PER-LESSON PERFORMANCE</Text>
         {examBreakdown.map(item => <View key={item.lessonId} style={styles.breakdownRow}><View style={styles.breakdownTop}><Text style={styles.breakdownTitle}>{item.title}</Text><Text style={styles.breakdownScore}>{item.correct}/{item.total} · {item.percent}%</Text></View><View style={styles.breakdownTrack}><View style={[styles.breakdownFill, { width: item.percent + "%" }]} /></View></View>)}
         {examGrade.passed ? <View style={styles.certificate}><Text style={styles.certificateKicker}>WREN & MARTIN GRAMMAR MASTER</Text><Text style={styles.certificateTitle}>Certificate of Achievement</Text><Text style={styles.certificateBody}>This certificate is presented to</Text><TextInput accessibilityLabel="Certificate learner name" value={certificateName} onChangeText={value => { setCertificateName(value); setCertificateMessage(""); }} placeholder="Enter learner's full name" placeholderTextColor="#9AA2B2" maxLength={70} style={styles.certificateNameInput} autoCapitalize="words" returnKeyType="done" /><Text style={styles.certificateBody}>for successfully completing the full-course grammar assessment.</Text><View style={styles.certificateRule} /><Text style={styles.certificateGrade}>GRADE {examGrade.letter} · {examGrade.percent}%</Text><Text style={styles.certificateDate}>{localDateKey()}</Text><Text style={styles.certificateId}>CERTIFICATE ID · {examCertificateId}</Text><Action title={certificateBusy ? "Preparing PDF..." : "Download / share PDF certificate"} onPress={createAndShareCertificate} /><Text style={styles.certificateHint}>On Android and iPhone, use the share sheet to save the PDF to your files or send it.</Text>{certificateMessage ? <Text accessibilityLiveRegion="polite" style={styles.certificateMessage}>{certificateMessage}</Text> : null}</View> : null}
-      </> : null}<Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); if (isExam) { setExamExpired(false); setExamCertificateId(createCertificateId()); setCertificateMessage(""); setExamRemaining(30 * 60); setExamDeadline(Date.now() + 30 * 60 * 1000); } }} /><Action title="Done" onPress={() => { setExamDeadline(null); setExamExpired(false); if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
+      </> : null}<Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); if (isExam) { setExamExpired(false); setExamCertificateId(createCertificateId()); setCertificateMessage(""); setExamRemaining(30 * 60); setExamDeadline(Date.now() + 30 * 60 * 1000); } }} /><Action title="Done" onPress={() => { setExamDeadline(null); setExamExpired(false); if (isExam) { setIsExam(false); setQuiz(null); setAnswers({}); setTab("Practice"); } else if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
     </ScrollView>;
   }
 
@@ -400,7 +441,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
 
   const screens = { Home: <Home />, Learn: <Learn />, Lesson: <Lesson />, Quiz: <Quiz />, Practice: <Practice />, Progress: <Progress /> };
   const nav = [{ id: "Home", icon: "⌂", label: "Home" }, { id: "Learn", icon: "▤", label: "Learn" }, { id: "Practice", icon: "✦", label: "Practice" }, { id: "Progress", icon: "◔", label: "Progress" }];
-  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View><View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View><View style={styles.screen}>{screens[tab] || <Home />}</View><View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View></SafeAreaView>;
+  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View><View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View><View style={styles.screen}>{screens[tab] || <Home />}</View>{isExam ? null : <View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View>}</SafeAreaView>;
 }
 
 const styles = StyleSheet.create({
