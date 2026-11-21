@@ -313,6 +313,125 @@ export const lessons = [
       { q: "Choose the correct tag: Let's begin, ___?", options: ["will we", "shall we", "do we"], answer: 1, why: "Let's commonly takes the tag shall we." }
     ]
   }
+  ,
+  {
+    id: "the-sentence", title: "The Sentence", subtitle: "What makes a complete sentence",
+    urdu: "Sentence الفاظ کا ایسا مجموعہ ہے جو مکمل خیال ظاہر کرے۔ عام طور پر اس میں subject اور predicate ہوتا ہے اور تحریر میں مناسب capital letter اور اختتامی punctuation استعمال ہوتی ہے۔",
+    level: "Beginner", duration: "8 min",
+    rule: "A sentence is a group of words that expresses a complete thought. It normally contains a subject and a predicate.",
+    example: "The children are playing outside. / Please close the door.",
+    breakdown: [["The children", "Subject", "جس کے بارے میں بات ہو رہی ہے"], ["are playing outside", "Predicate", "subject کے بارے میں مکمل بات"], ["Please close the door.", "Imperative sentence", "حکم یا درخواست؛ subject you پوشیدہ ہے"]],
+    quiz: [
+      { q: "Which group of words is a complete sentence?", options: ["Under the table", "Because it was raining", "The birds are singing."], answer: 2, why: "The birds are singing expresses a complete thought." },
+      { q: "What does a sentence normally express?", options: ["A complete thought", "Only a noun", "Only an adjective"], answer: 0, why: "A sentence communicates a complete thought." },
+      { q: "Which punctuation mark ends this question: 'Where are you going'", options: [".", "?", "!"], answer: 1, why: "A direct question ends with a question mark." }
+    ]
+  },
+  {
+    id: "kinds-of-nouns", title: "The Noun: Kinds of Nouns", subtitle: "Proper, common, collective, abstract and material nouns",
+    urdu: "Noun کی اہم اقسام میں proper، common، collective، abstract اور material nouns شامل ہیں۔ Proper noun خاص نام، common noun عام نام، collective noun گروہ، abstract noun خیال یا کیفیت، اور material noun مادّے کا نام ہے۔",
+    level: "Beginner", duration: "10 min",
+    rule: "Nouns may be classified as proper, common, collective, abstract, and material nouns according to what they name.",
+    example: "Ayesha (proper), girl (common), team (collective), courage (abstract), gold (material).",
+    breakdown: [["Ayesha", "Proper noun", "خاص شخص کا نام"], ["team", "Collective noun", "افراد کے گروہ کا نام"], ["honesty", "Abstract noun", "نظر نہ آنے والی خوبی یا خیال"], ["gold", "Material noun", "مادّے کا نام"]],
+    quiz: [
+      { q: "Which is an abstract noun?", options: ["Table", "Wisdom", "Karachi"], answer: 1, why: "Wisdom names an idea or quality." },
+      { q: "Which is a collective noun?", options: ["Crowd", "Stone", "Kindness"], answer: 0, why: "Crowd names a group of people." },
+      { q: "Which is a proper noun?", options: ["river", "city", "Indus"], answer: 2, why: "Indus is the specific name of a river." }
+    ]
+  },
+  {
+    id: "noun-gender", title: "The Noun: Gender", subtitle: "Masculine, feminine, common and neuter",
+    urdu: "Gender کے لحاظ سے nouns کو masculine، feminine، common اور neuter میں تقسیم کیا جاتا ہے۔ Masculine مرد یا نر، feminine عورت یا مادہ، common دونوں کے لیے، اور neuter بے جان چیزوں کے لیے آتا ہے۔",
+    level: "Beginner", duration: "8 min",
+    rule: "The four traditional grammatical genders are masculine, feminine, common, and neuter.",
+    example: "king (masculine), queen (feminine), teacher (common), pencil (neuter).",
+    breakdown: [["king", "Masculine", "مذکر"], ["queen", "Feminine", "مونث"], ["teacher", "Common gender", "مرد یا عورت دونوں ہو سکتے ہیں"], ["pencil", "Neuter", "بے جان چیز"]],
+    quiz: [
+      { q: "What is the gender of 'teacher' when it may refer to a man or woman?", options: ["Masculine", "Common", "Neuter"], answer: 1, why: "A common-gender noun can refer to either a male or a female." },
+      { q: "Which is the feminine form of 'actor'?", options: ["Actress", "Actoring", "Actorman"], answer: 0, why: "Actress is the traditional feminine counterpart of actor." },
+      { q: "Which noun is neuter in traditional grammar?", options: ["Mother", "Boy", "Window"], answer: 2, why: "Window names an inanimate thing." }
+    ]
+  },
+  {
+    id: "noun-number", title: "The Noun: Number", subtitle: "Singular and plural nouns",
+    urdu: "Number بتاتا ہے کہ noun ایک ہے یا ایک سے زیادہ۔ زیادہ تر nouns میں s یا es لگتا ہے، لیکن کچھ کی plural صورت بدل جاتی ہے، جیسے child/children اور mouse/mice۔",
+    level: "Beginner", duration: "9 min",
+    rule: "Nouns have singular and plural forms. Most plurals add -s or -es, while some are irregular.",
+    example: "book/books, bus/buses, child/children, sheep/sheep.",
+    breakdown: [["book → books", "Regular plural", "عام طور پر s لگتا ہے"], ["box → boxes", "Plural in -es", "s، sh، ch، x یا z کی آواز کے بعد اکثر es"], ["child → children", "Irregular plural", "لفظ کی صورت بدلتی ہے"], ["sheep → sheep", "Same form", "واحد اور جمع ایک جیسی صورت"]],
+    quiz: [
+      { q: "Choose the correct plural of 'woman'.", options: ["Womans", "Women", "Womens"], answer: 1, why: "Woman has the irregular plural women." },
+      { q: "Which is the correct plural of 'box'?", options: ["Boxs", "Boxes", "Boxies"], answer: 1, why: "Nouns ending in x normally add -es." },
+      { q: "Which noun has the same singular and plural form?", options: ["Sheep", "Child", "Foot"], answer: 0, why: "Sheep is commonly unchanged in the plural." }
+    ]
+  },
+  {
+    id: "noun-case", title: "The Noun: Case", subtitle: "How a noun functions in a sentence",
+    urdu: "Case noun کا جملے میں grammatical تعلق یا کام ظاہر کرتا ہے۔ عام تدریسی تقسیم میں nominative/subjective، objective اور possessive/genitive case شامل ہیں۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "Case shows the grammatical function of a noun. A noun may be used as a subject, an object, or to show possession.",
+    example: "The girl (subject) helped the boy (object). The girl's bag is blue (possessive).",
+    breakdown: [["The girl", "Nominative / subjective", "فعل کرنے والا subject"], ["the boy", "Objective", "فعل کا object"], ["girl's", "Possessive / genitive", "ملکیت ظاہر کرتا ہے"]],
+    quiz: [
+      { q: "In 'The dog chased the cat', which noun is the subject?", options: ["dog", "cat", "chased"], answer: 0, why: "The dog performs the action and is the subject." },
+      { q: "Which form shows possession?", options: ["teacher", "teacher's", "teachers (as a verb)"], answer: 1, why: "The apostrophe-s form commonly marks singular possession." },
+      { q: "In 'We thanked the doctor', what is 'the doctor'?", options: ["Subject", "Object", "Possessive"], answer: 1, why: "The doctor receives the action of thanking." }
+    ]
+  },
+  {
+    id: "personal-pronouns", title: "Personal Pronouns", subtitle: "Person, number, gender and case",
+    urdu: "Personal pronouns بولنے والے، سننے والے یا جس شخص/چیز کے بارے میں بات ہو رہی ہو اس کی جگہ آتے ہیں۔ مثالیں I, we, you, he, she, it, they اور ان کی object forms me, us, him, her, them ہیں۔",
+    level: "Beginner", duration: "9 min",
+    rule: "Personal pronouns refer to the speaker (first person), the person addressed (second person), or the person or thing spoken about (third person).",
+    example: "I called Sara. She answered me. They invited us.",
+    breakdown: [["I / we", "First person", "بولنے والا یا بولنے والے"], ["you", "Second person", "جس سے بات کی جائے"], ["he / she / it / they", "Third person", "جس کے بارے میں بات ہو"], ["me / him / her / us / them", "Object forms", "فعل یا preposition کے بعد object"]],
+    quiz: [
+      { q: "Choose the correct pronoun: 'Sara is my friend. ___ is kind.'", options: ["He", "She", "They"], answer: 1, why: "She is the appropriate third-person singular pronoun for Sara in this example." },
+      { q: "Choose the correct object pronoun: 'The teacher praised Ali and ___.'", options: ["I", "me", "my"], answer: 1, why: "Me is the object form required after praised." },
+      { q: "Which pronoun is first person plural?", options: ["They", "We", "You"], answer: 1, why: "We refers to the speaker together with one or more others." }
+    ]
+  },
+  {
+    id: "adjectives-as-nouns", title: "Adjectives Used as Nouns", subtitle: "Adjectives referring to people or groups",
+    urdu: "کچھ adjectives اسم کے طور پر استعمال ہوتے ہیں۔ The rich یا the poor پوری جماعت یا گروہ کو ظاہر کر سکتے ہیں، جبکہ بعض صفات کسی خاص فرد کے لیے بھی noun کا کام کرتی ہیں۔",
+    level: "Intermediate", duration: "7 min",
+    rule: "An adjective may function like a noun, often with the definite article the to refer to a whole class of people.",
+    example: "The rich should help the poor. / The injured were taken to hospital.",
+    breakdown: [["the rich", "Adjective used as noun", "امیر لوگوں کا گروہ"], ["the poor", "Adjective used as noun", "غریب لوگوں کا گروہ"], ["the injured", "Adjective used as noun", "زخمی افراد"]],
+    quiz: [
+      { q: "In 'The young need guidance', what does 'the young' mean?", options: ["A young object", "Young people as a group", "One young person only"], answer: 1, why: "The + adjective can refer to a whole class of people." },
+      { q: "Choose the correct sentence.", options: ["The poors need help.", "The poor need help.", "A poor need help."], answer: 1, why: "The poor is a plural group expression and normally takes a plural verb." },
+      { q: "Complete: The injured ___ taken to hospital.", options: ["was", "were", "is"], answer: 1, why: "The injured refers to injured people as a plural group." }
+    ]
+  },
+  {
+    id: "position-of-adjectives", title: "Position of the Adjectives", subtitle: "Attributive and predicative use",
+    urdu: "Adjective عموماً noun سے پہلے آتا ہے، جیسے a beautiful garden؛ لیکن linking verb کے بعد بھی آ سکتا ہے، جیسے the garden is beautiful۔ بعض adjectives صرف مخصوص جگہوں پر استعمال ہوتے ہیں۔",
+    level: "Intermediate", duration: "8 min",
+    rule: "Adjectives commonly appear before the noun they modify (attributive position) or after a linking verb (predicative position).",
+    example: "a clever student (attributive) / The student is clever (predicative).",
+    breakdown: [["a clever student", "Attributive", "adjective noun سے پہلے"], ["is clever", "Predicative", "linking verb کے بعد"], ["something useful", "Postpositive", "کچھ مخصوص صورتوں میں noun/pronoun کے بعد"]],
+    quiz: [
+      { q: "Where is the adjective in 'She bought a red dress'?", options: ["Before the noun", "After the linking verb", "At the end of the sentence"], answer: 0, why: "Red comes before and describes the noun dress." },
+      { q: "Which sentence uses an adjective predicatively?", options: ["A quiet room", "The room is quiet", "A quiet and clean room"], answer: 1, why: "Quiet follows the linking verb is." },
+      { q: "Choose the natural phrase.", options: ["something useful", "useful something (in ordinary use)", "usefully something"], answer: 0, why: "After indefinite pronouns such as something, adjectives commonly follow." }
+    ]
+  },
+  {
+    id: "correct-use-of-adjectives", title: "The Correct Use of Some Adjectives", subtitle: "Common distinctions and adjective patterns",
+    urdu: "کچھ adjectives معنی یا استعمال میں ایک دوسرے سے ملتے جلتے ہیں مگر ایک جیسے نہیں، مثلاً few/a few، little/a little، each/every، older/elder اور later/latter۔ درست لفظ سیاق کے مطابق چنیں۔",
+    level: "Intermediate", duration: "10 min",
+    rule: "Choose adjectives and adjective determiners according to their meaning, countability, and grammatical pattern.",
+    example: "Few people came (almost none). / A few people came (some). / There is little hope (almost none). / There is a little hope (some).",
+    breakdown: [["few / a few", "Countable nouns", "few تقریباً نہ ہونے کے برابر؛ a few کچھ"], ["little / a little", "Uncountable nouns", "little تقریباً نہ ہونے کے برابر؛ a little کچھ"], ["each / every", "Singular idea", "دونوں کے بعد عموماً singular noun اور singular verb"], ["older / elder", "Age", "elder عموماً خاندان کے افراد کے لیے attributive استعمال ہوتا ہے"]],
+    quiz: [
+      { q: "Choose the sentence meaning 'some books are available'.", options: ["Few books are available.", "A few books are available.", "Little books are available."], answer: 1, why: "A few means some and is used with countable plural nouns." },
+      { q: "Choose the correct phrase.", options: ["a little water", "a few water", "few water"], answer: 0, why: "Water is uncountable, so a little is used." },
+      { q: "Choose the correct sentence.", options: ["Every students are ready.", "Every student is ready.", "Every student are ready."], answer: 1, why: "Every is followed by a singular noun and normally takes a singular verb." },
+      { q: "Which is the usual phrase for an older brother in traditional usage?", options: ["elder brother", "eldest brother (for any comparison)", "more elder brother"], answer: 0, why: "Elder is traditionally used before a family noun such as brother." }
+    ]
+  }
 ];
 
 export const dailyQuestions = [
