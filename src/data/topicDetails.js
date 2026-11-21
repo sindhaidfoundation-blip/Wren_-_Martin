@@ -448,3 +448,207 @@ const extraTopicExamples = {
 for (const [topicId, examples] of Object.entries(extraTopicExamples)) {
   if (topicDetails[topicId]) topicDetails[topicId].examples.push(...examples);
 }
+
+
+// Two more practice examples for every grammar topic.
+const furtherTopicExamples = {
+  "parts-of-speech": [
+    "Honesty is the best policy. (honesty = noun, is = verb, best = adjective)",
+    "The little bird sang sweetly. (little = adjective, sang = verb, sweetly = adverb)"
+  ],
+  "nouns": [
+    "The committee held a meeting. (collective noun)",
+    "Childhood is full of discoveries. (abstract noun)"
+  ],
+  "pronouns": [
+    "This is the book that I wanted.",
+    "Nobody knows the correct answer."
+  ],
+  "verbs": [
+    "The students completed their homework.",
+    "My father has repaired the bicycle."
+  ],
+  "adjectives": [
+    "It was a difficult examination.",
+    "We watched an exciting match."
+  ],
+  "tenses": [
+    "She has been studying since morning. (present perfect continuous)",
+    "They had left before the rain began. (past perfect)"
+  ],
+  "articles": [
+    "She is a university student.",
+    "He waited for an hour."
+  ],
+  "prepositions": [
+    "The cat is hiding beneath the table.",
+    "We walked through the tunnel."
+  ],
+  "voice": [
+    "Active: The workers are painting the bridge.",
+    "Passive: The bridge is being painted by the workers."
+  ],
+  "reported-speech": [
+    "Direct: Ali said, “I am tired.” Reported: Ali said that he was tired.",
+    "Direct: She said, “Open the window.” Reported: She told me to open the window."
+  ],
+  "adverbs": [
+    "She speaks English fluently. (manner)",
+    "I have already finished my work. (time)"
+  ],
+  "conjunctions": [
+    "I stayed home because I was ill.",
+    "Work hard, and you will succeed."
+  ],
+  "interjections": [
+    "Hurray! We won the final.",
+    "Oh! I forgot my keys."
+  ],
+  "subject-predicate": [
+    "The old clock / stopped suddenly.",
+    "Our teacher / explained the lesson clearly."
+  ],
+  "sentence-types": [
+    "What a beautiful garden! (exclamation)",
+    "Please close the door. (request)"
+  ],
+  "subject-verb-agreement": [
+    "The dog barks every night.",
+    "Neither answer is correct."
+  ],
+  "punctuation": [
+    "Sara said, “I am ready.”",
+    "We bought apples, oranges, and bananas."
+  ],
+  "countable-uncountable": [
+    "There is an apple on the desk. (countable)",
+    "The bottle contains plenty of water. (uncountable)"
+  ],
+  "comparatives-superlatives": [
+    "This road is narrower than the main road.",
+    "She is the most careful driver in our family."
+  ],
+  "modals": [
+    "You should drink more water. (advice)",
+    "It might rain this evening. (possibility)"
+  ],
+  "clauses-and-phrases": [
+    "because the shop was closed (dependent clause)",
+    "under the wooden bridge (prepositional phrase)"
+  ],
+  "conditionals": [
+    "If you heat ice, it melts. (zero conditional)",
+    "If they had hurried, they would have caught the bus. (third conditional)"
+  ],
+  "gerunds-infinitives": [
+    "Swimming keeps the body healthy. (gerund)",
+    "I hope to visit Karachi soon. (infinitive)"
+  ],
+  "relative-clauses": [
+    "The student who won the prize is my cousin.",
+    "I found the keys which I had lost."
+  ],
+  "question-tags": [
+    "You are coming with us, aren't you?",
+    "She doesn't eat meat, does she?"
+  ],
+  "the-sentence": [
+    "The sun disappeared behind the clouds. (complete sentence)",
+    "Because I was late. (fragment)"
+  ],
+  "kinds-of-nouns": [
+    "The team celebrated its victory. (collective noun)",
+    "Gold is an expensive metal. (material noun)"
+  ],
+  "noun-gender": [
+    "The actress received an award. (feminine)",
+    "The stallion ran across the field. (masculine)"
+  ],
+  "noun-number": [
+    "one mouse, two mice",
+    "one city, several cities"
+  ],
+  "noun-case": [
+    "This is Ahmed's notebook. (possessive case)",
+    "The child kicked the ball. (objective case)"
+  ],
+  "personal-pronouns": [
+    "She invited them to dinner.",
+    "You should believe in yourself."
+  ],
+  "adjectives-as-nouns": [
+    "The rich should help the poor.",
+    "The elderly deserve our respect."
+  ],
+  "position-of-adjectives": [
+    "She wore a red scarf. (before noun)",
+    "The sky looks clear. (after linking verb)"
+  ],
+  "correct-use-of-adjectives": [
+    "There are fewer students today. (countable)",
+    "This is the less expensive option."
+  ],
+  "reflexive-emphatic-pronouns": [
+    "They prepared themselves for the test. (reflexive)",
+    "The principal himself welcomed us. (emphatic)"
+  ],
+  "demonstrative-indefinite-distributive-pronouns": [
+    "Everyone enjoyed the picnic. (indefinite)",
+    "These are fresher than those. (demonstrative)"
+  ],
+  "relative-pronouns": [
+    "The artist who painted this picture is famous.",
+    "That is the house which belongs to my aunt."
+  ],
+  "interrogative-pronouns": [
+    "Who is standing outside?",
+    "Which of these bags is yours?"
+  ],
+  "the-verb": [
+    "Birds migrate every winter. (intransitive)",
+    "The mechanic fixed the engine. (transitive)"
+  ],
+  "verbs-incomplete-predication": [
+    "The soup tastes delicious.",
+    "The children became quiet."
+  ],
+  "active-passive-voice": [
+    "Active: The gardener watered the plants.",
+    "Passive: The plants were watered by the gardener."
+  ],
+  "mood": [
+    "God bless you! (wish)",
+    "Please submit your assignment. (imperative)"
+  ],
+  "tenses-introduction": [
+    "He is cooking dinner now. (present continuous)",
+    "She will have completed the course by June. (future perfect)"
+  ],
+  "uses-present-past-tenses": [
+    "My mother works at a school. (present habit)",
+    "They watched a film last night. (simple past)"
+  ],
+  "the-future": [
+    "We are going to paint the room. (intention)",
+    "The meeting starts at nine tomorrow. (schedule)"
+  ],
+  "verb-person-number": [
+    "He studies science every day. (third-person singular)",
+    "The players practise after school. (plural subject)"
+  ],
+  "the-infinitive": [
+    "To forgive is sometimes difficult. (infinitive as subject)",
+    "You should take a rest. (bare infinitive)"
+  ],
+  "the-participle": [
+    "The shining stars looked beautiful. (present participle)",
+    "The stolen wallet was found. (past participle)"
+  ],
+  "the-gerund": [
+    "Cooking relaxes my mother. (subject)",
+    "They discussed moving to a new house. (object)"
+  ]
+};
+for (const [topicId, examples] of Object.entries(furtherTopicExamples)) {
+  if (topicDetails[topicId]) topicDetails[topicId].examples.push(...examples);
+}
