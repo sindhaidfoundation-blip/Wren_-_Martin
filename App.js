@@ -159,7 +159,6 @@ export default function App() {
         if (!active || !saved) return;
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed.completed)) setCompleted(parsed.completed.filter(id => lessons.some(item => item.id === id)));
-        if (typeof parsed.certificateName === "string") setCertificateName(parsed.certificateName);
         const savedExam = parsed.examSession;
         if (savedExam && Number.isFinite(savedExam.deadline) && savedExam.totalQuestions === fullCourseQuestions.length) {
           const restoredAnswers = {};
@@ -229,10 +228,11 @@ export default function App() {
       totalQuestions: quiz.length,
       certificateId: examCertificateId
     } : null;
-    AsyncStorage.setItem(STORAGE_KEY, JSON.stringify({ completed, stats, certificateName, examSession })).catch(error => {
+    // Keep the learner name in memory only; never persist it with learning progress.
+    AsyncStorage.setItem(STORAGE_KEY, JSON.stringify({ completed, stats, examSession })).catch(error => {
       console.warn("Could not save learning progress.", error);
     });
-  }, [completed, stats, certificateName, storageReady, isExam, examDeadline, showResult, quiz, answers, examCertificateId]);
+  }, [completed, stats, storageReady, isExam, examDeadline, showResult, quiz, answers, examCertificateId]);
   const filteredLessons = useMemo(() => {
     const query = lessonSearch.trim().toLocaleLowerCase();
     return lessons.filter(item => {
