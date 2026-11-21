@@ -3262,6 +3262,134 @@ export const lessons = [
         "why": "So coordinates two independent clauses and expresses a result."
       }
     ]
+  },
+  {
+    "id": "synthesis-simple-sentences-into-simple",
+    "title": "Synthesis: Combining Two or More Simple Sentences into One Simple Sentence",
+    "subtitle": "Joining ideas with phrases and single-clause structures",
+    "urdu": "Synthesis کا مطلب کئی جملوں کو ملا کر ایک جملہ بنانا ہے۔ دو یا زیادہ simple sentences کو ایک simple sentence میں بدلتے وقت participle، infinitive، prepositional phrase، apposition یا مناسب لفظ استعمال کریں۔ نئے جملے میں صرف ایک principal clause ہو اور تمام بنیادی خیالات محفوظ رہیں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "To combine two or more simple sentences into one simple sentence, express related ideas through a participial phrase, infinitive phrase, prepositional phrase, apposition, or a compound element such as a shared subject or predicate. The result must contain one principal clause, not two coordinated independent clauses.",
+    "example": "The sun set. The sky became dark. → The sun having set, the sky became dark.",
+    "breakdown": [
+      [
+        "The sun set",
+        "Simple sentence 1",
+        "پہلا مکمل خیال"
+      ],
+      [
+        "The sky became dark",
+        "Simple sentence 2",
+        "دوسرا مکمل خیال"
+      ],
+      [
+        "The sun having set",
+        "Perfect participial phrase",
+        "پہلے جملے کو phrase میں بدلا"
+      ],
+      [
+        "the sky became dark",
+        "Principal clause",
+        "ایک ہی principal clause باقی ہے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the single simple sentence made from 'He saw the danger. He ran away.'",
+        "options": [
+          "Seeing the danger, he ran away.",
+          "He saw the danger, so he ran away.",
+          "He saw the danger and he ran away."
+        ],
+        "answer": 0,
+        "why": "The first sentence becomes a participial phrase, leaving one principal clause."
+      },
+      {
+        "q": "Which structure can help combine simple sentences into one simple sentence?",
+        "options": [
+          "A participial phrase",
+          "Two independent clauses joined by but",
+          "A question clause only"
+        ],
+        "answer": 0,
+        "why": "A participial phrase can express one idea without creating another independent clause."
+      },
+      {
+        "q": "How many principal clauses should the final simple sentence contain?",
+        "options": [
+          "One",
+          "Two",
+          "At least three"
+        ],
+        "answer": 0,
+        "why": "A simple sentence has one principal or independent clause."
+      }
+    ]
+  },
+  {
+    "id": "synthesis-simple-sentences-into-compound",
+    "title": "Synthesis: Combining Two or More Simple Sentences into One Compound Sentence",
+    "subtitle": "Joining complete ideas with coordinating conjunctions",
+    "urdu": "دو یا زیادہ simple sentences کو compound sentence میں ملانے کے لیے ہر مکمل خیال کو independent clause کی صورت میں رکھیں اور انہیں and، but، or، so، yet، for یا nor جیسے coordinating conjunction سے جوڑیں۔ ضرورت کے مطابق comma لگائیں اور اصل معنی برقرار رکھیں۔",
+    "level": "Advanced",
+    "duration": "9 min",
+    "rule": "To combine two or more simple sentences into one compound sentence, retain each complete idea as an independent clause and join the clauses with an appropriate coordinating conjunction (for, and, nor, but, or, yet, so) or suitable punctuation such as a semicolon. Use a comma before a coordinating conjunction joining independent clauses.",
+    "example": "The weather was cold. We went for a walk. → The weather was cold, but we went for a walk.",
+    "breakdown": [
+      [
+        "The weather was cold",
+        "Independent clause 1",
+        "Subject: the weather; predicate: was cold"
+      ],
+      [
+        "but",
+        "Coordinating conjunction",
+        "تضاد ظاہر کرتا ہے"
+      ],
+      [
+        "we went for a walk",
+        "Independent clause 2",
+        "Subject: we; predicate: went for a walk"
+      ],
+      [
+        "The weather was cold, but we went for a walk.",
+        "Compound sentence",
+        "دو independent clauses ایک compound sentence میں جڑے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the compound sentence made from 'It was raining. We stayed indoors.'",
+        "options": [
+          "It was raining, so we stayed indoors.",
+          "Because it was raining, we stayed indoors.",
+          "Staying indoors in the rain."
+        ],
+        "answer": 0,
+        "why": "Both ideas remain independent clauses joined by the coordinating conjunction so."
+      },
+      {
+        "q": "Which conjunction best joins contrasting ideas?",
+        "options": [
+          "but",
+          "so",
+          "for"
+        ],
+        "answer": 0,
+        "why": "But expresses contrast between the two independent clauses."
+      },
+      {
+        "q": "What punctuation is normally placed before a coordinating conjunction joining two independent clauses?",
+        "options": [
+          "A comma",
+          "An apostrophe",
+          "A hyphen"
+        ],
+        "answer": 0,
+        "why": "Use a comma before a coordinating conjunction that joins two independent clauses."
+      }
+    ]
   }
 ];
 
