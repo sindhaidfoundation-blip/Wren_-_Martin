@@ -5157,6 +5157,147 @@ export const lessons = [
     ],
     "practicePrompt": "Prepare a bare outline and a full outline for the topic “The Value of Education”. Then write a school essay of 250–300 words using your full outline. Revise it for unity, coherence, grammar and relevance."
   }
+,
+  {
+    "id": "autobiographies",
+    "title": "Autobiographies",
+    "subtitle": "Introductory remarks and specimen autobiography",
+    "urdu": "Autobiography ایسی تحریر ہے جس میں کوئی شخص اپنی زندگی کی کہانی خود بیان کرتا ہے۔ اس میں اہم واقعات، تجربات، کامیابیاں، مشکلات اور ان سے حاصل ہونے والے اسباق شامل ہوتے ہیں۔ اسے عموماً first person یعنی I اور my کے ذریعے لکھا جاتا ہے۔",
+    "level": "Intermediate",
+    "duration": "12 min",
+    "rule": "Introductory remarks: An autobiography is an account of a person's life written by that person. Unlike a biography, which is written by someone else, an autobiography uses the first person (I, me, my). It may describe family background, childhood, education, important experiences, challenges, achievements and hopes for the future. A good school autobiography is truthful, clear, personal and arranged in a sensible order. Select events that reveal something meaningful about the writer; do not turn it into an unrelated list of dates or achievements.",
+    "example": "**Specimen: My Life as a Student**\n\nI was born in a small town and grew up in a family that always encouraged me to value education. Some of my earliest memories are of listening to stories told by my grandmother and looking through the picture books she kept at home. When I began school, I was shy and found it difficult to speak in front of the class. A kind teacher encouraged me to read aloud a few lines every day. Gradually, I became more confident and began taking part in class activities.\n\nOne of the most important lessons I have learned is that progress comes through patience and regular effort. I have not always succeeded in every task, but mistakes have taught me to prepare better and ask for help when necessary. I enjoy reading, learning new skills and spending time with my friends. I hope to continue my studies and use my education to serve others. My journey is still beginning, and I look forward to the opportunities and responsibilities that lie ahead.",
+    "breakdown": [
+      [
+        "I was born... grew up...",
+        "Background",
+        "ابتدائی زندگی اور خاندان کا تعارف"
+      ],
+      [
+        "When I began school...",
+        "Early experience",
+        "تعلیم کے آغاز کا واقعہ"
+      ],
+      [
+        "A kind teacher encouraged me...",
+        "Turning point",
+        "اہم تجربہ یا تبدیلی"
+      ],
+      [
+        "progress comes through patience...",
+        "Reflection",
+        "تجربے سے حاصل ہونے والا سبق"
+      ],
+      [
+        "I hope to continue...",
+        "Future hopes",
+        "مستقبل کے ارادے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Who writes an autobiography?",
+        "options": [
+          "The person whose life is described",
+          "A newspaper editor",
+          "A person who has never met the subject"
+        ],
+        "answer": 0,
+        "why": "An autobiography is written by the person telling their own life story."
+      },
+      {
+        "q": "Which point of view is generally used?",
+        "options": [
+          "First person",
+          "Second person only",
+          "Third person only"
+        ],
+        "answer": 0,
+        "why": "Autobiographies commonly use I, me and my."
+      },
+      {
+        "q": "What makes a school autobiography effective?",
+        "options": [
+          "Truthful, relevant experiences in a clear order",
+          "A list of unrelated facts",
+          "Invented achievements presented as true"
+        ],
+        "answer": 0,
+        "why": "A clear personal account selects meaningful experiences and reflects on them honestly."
+      }
+    ],
+    "practicePrompt": "Write a short autobiography titled “My Life and My Ambitions”. Include your background, one important experience, a lesson you learned and your hopes for the future. Use the first person."
+  },
+  {
+    "id": "dialogue-writing",
+    "title": "Dialogue Writing",
+    "subtitle": "Introductory remarks, method of procedure, special hints and specimen",
+    "urdu": "Dialogue writing دو یا دو سے زیادہ افراد کے درمیان گفتگو کو تحریری شکل دینے کا نام ہے۔ اچھی گفتگو فطری، مقصد کے مطابق اور واضح ہوتی ہے۔ ہر مقرر کی بات الگ لکھی جاتی ہے، اور الفاظ سے کردار اور موقع کی مناسبت ظاہر ہونی چاہیے۔",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "rule": "Introductory remarks: A dialogue is a written conversation between two or more people. It may be used in stories, plays and everyday communication. A good dialogue sounds natural and helps reveal information, feelings or a decision. Method of procedure: (1) Identify the speakers, situation and purpose. (2) Decide what each speaker wants to say. (3) Arrange the exchange in a logical sequence: opening, discussion and closing. (4) Give each speaker a separate turn and identify the speaker clearly. (5) Use short, natural sentences and suitable expressions. (6) Read the conversation aloud mentally and revise anything stiff or repetitive. Special hints: Keep the conversation relevant; make each speaker's voice appropriate to age, role and situation; avoid long speeches when a short reply will do; use polite language where needed; do not repeat the same point; and use punctuation consistently. In a play script, speaker names may be written before their lines. In prose, quotation marks and dialogue tags may be used according to the required format.",
+    "example": "**Specimen: Two Friends Discuss Preparing for an Examination**\n\n**Ali:** Have you started preparing for the examinations?\n\n**Sara:** Yes. I made a timetable last Sunday. What about you?\n\n**Ali:** I have revised English and Science, but I still need to practise Mathematics.\n\n**Sara:** Why don't we solve a few Mathematics questions together after school?\n\n**Ali:** That would be helpful. We can also test each other on the difficult topics.\n\n**Sara:** Good idea. Let us meet in the library at four o'clock.\n\n**Ali:** I will bring my notebook and the questions I could not solve.\n\n**Sara:** Excellent. We should take short breaks too, so that we can concentrate.\n\n**Ali:** Agreed. See you at four!\n\n**Sara:** See you then.",
+    "breakdown": [
+      [
+        "Have you started preparing...?",
+        "Opening",
+        "گفتگو کا موضوع متعارف کرایا گیا"
+      ],
+      [
+        "I made a timetable...",
+        "Exchange of information",
+        "دونوں کردار اپنی تیاری بتاتے ہیں"
+      ],
+      [
+        "Why don't we solve...",
+        "Suggestion",
+        "ایک کردار حل تجویز کرتا ہے"
+      ],
+      [
+        "Let us meet...",
+        "Decision",
+        "گفتگو میں عملی منصوبہ بنتا ہے"
+      ],
+      [
+        "See you at four!",
+        "Closing",
+        "گفتگو فطری انداز میں ختم ہوتی ہے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What should you identify before writing a dialogue?",
+        "options": [
+          "Speakers, situation and purpose",
+          "Only the final punctuation mark",
+          "An unrelated story"
+        ],
+        "answer": 0,
+        "why": "Knowing who is speaking and why helps shape a relevant exchange."
+      },
+      {
+        "q": "How should each speaker's turn be presented?",
+        "options": [
+          "As a separate, clearly identified turn",
+          "Mixed into one confusing paragraph",
+          "Without indicating who speaks"
+        ],
+        "answer": 0,
+        "why": "Separate turns make the conversation easy to follow."
+      },
+      {
+        "q": "Which is a useful special hint for dialogue writing?",
+        "options": [
+          "Use natural, concise and relevant language",
+          "Make every reply a long speech",
+          "Repeat the same idea in every turn"
+        ],
+        "answer": 0,
+        "why": "Natural, focused exchanges make dialogue believable and clear."
+      }
+    ],
+    "practicePrompt": "Write a dialogue between a student and a librarian about choosing a suitable book. Include a clear opening, at least eight exchanges, polite language and a natural closing."
+  }
 ];
 
 export const dailyQuestions = [
