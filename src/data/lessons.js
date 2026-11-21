@@ -5474,6 +5474,177 @@ export const lessons = [
     ],
     "practicePrompt": "Paraphrase the specimen passage about regular exercise in your own words. Then paraphrase this idea: “A little bird begins to sing, while sunlight paints the fields of spring.” Keep the meaning but use natural prose."
   }
+,
+  {
+    "id": "common-abbreviations",
+    "title": "Common Abbreviations",
+    "subtitle": "Frequently used shortened forms in everyday and formal writing",
+    "urdu": "Abbreviation کسی لفظ یا الفاظ کی مختصر شکل ہے۔ اسے وقت اور جگہ بچانے کے لیے استعمال کیا جاتا ہے۔ رسمی تحریر میں صرف معروف اور مناسب abbreviations استعمال کریں، اور جہاں ضرورت ہو پہلی بار مکمل اصطلاح لکھ کر قوسین میں مختصر شکل دیں۔",
+    "level": "Beginner",
+    "duration": "10 min",
+    "rule": "An abbreviation is a shortened form of a word or phrase. Some abbreviations are formed from the first letters of a phrase (e.g., USA); others shorten a word (e.g., Dr.). Use standard forms consistently. In formal writing, avoid unfamiliar abbreviations and write the full term on first mention when readers may not know it. Full stops vary by style guide: forms such as Mr and Dr are commonly written without a full stop in British usage, while U.S. styles often use Mr. and Dr. Do not add an apostrophe to ordinary plurals of abbreviations (MPs, not MP's).",
+    "example": "**Common abbreviations**\n\n| Abbreviation | Full form / meaning |\n|---|---|\n| e.g. | for example (exempli gratia) |\n| i.e. | that is (id est) |\n| etc. | and so on (et cetera) |\n| a.m. | before noon (ante meridiem) |\n| p.m. | after noon (post meridiem) |\n| Dr | Doctor |\n| Mr | Mister |\n| Mrs | Mistress / title for a married woman |\n| Ms | Title for a woman, marital status unspecified |\n| Prof. | Professor |\n| St | Saint or Street, depending on context |\n| No. | Number |\n| Ltd | Limited |\n| Co. | Company |\n| UK | United Kingdom |\n| USA | United States of America |\n| UN | United Nations |\n| RSVP | Please reply (from French) |\n\n**In sentences:** The meeting begins at 9 a.m. Bring stationery, e.g., pens and pencils. The library is closed on Sunday, i.e., it does not open that day.",
+    "breakdown": [
+      [
+        "e.g.",
+        "for example",
+        "مثلاً"
+      ],
+      [
+        "i.e.",
+        "that is",
+        "یعنی"
+      ],
+      [
+        "etc.",
+        "and so on",
+        "وغیرہ"
+      ],
+      [
+        "a.m. / p.m.",
+        "before noon / after noon",
+        "دوپہر سے پہلے / بعد"
+      ],
+      [
+        "Dr / Prof.",
+        "Doctor / Professor",
+        "ڈاکٹر / پروفیسر"
+      ],
+      [
+        "No. / Ltd",
+        "Number / Limited",
+        "نمبر / لمیٹڈ"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What does e.g. mean?",
+        "options": [
+          "For example",
+          "That is",
+          "And so on"
+        ],
+        "answer": 0,
+        "why": "E.g. introduces one or more examples."
+      },
+      {
+        "q": "Which abbreviation means 'that is'?",
+        "options": [
+          "etc.",
+          "i.e.",
+          "a.m."
+        ],
+        "answer": 1,
+        "why": "I.e. clarifies or restates something."
+      },
+      {
+        "q": "What does p.m. indicate?",
+        "options": [
+          "Before noon",
+          "After noon",
+          "A page number"
+        ],
+        "answer": 1,
+        "why": "P.m. refers to the time from noon to midnight."
+      },
+      {
+        "q": "Choose the correct plural form.",
+        "options": [
+          "MP's",
+          "MPs",
+          "MPes"
+        ],
+        "answer": 1,
+        "why": "Ordinary plurals of abbreviations do not need an apostrophe."
+      },
+      {
+        "q": "In formal writing, what should you do with an unfamiliar abbreviation?",
+        "options": [
+          "Explain it on first use",
+          "Use it without explanation",
+          "Replace every noun with it"
+        ],
+        "answer": 0,
+        "why": "Writing the full term first helps readers understand the abbreviation."
+      }
+    ],
+    "practicePrompt": "Write the full forms or meanings of e.g., i.e., etc., a.m., p.m., UN and RSVP. Then write three sentences using abbreviations appropriately."
+  },
+  {
+    "id": "message-to-the-readers",
+    "title": "Message to the Readers",
+    "subtitle": "A guide to learning grammar thoughtfully and using this course",
+    "urdu": "قارئین کے نام پیغام: زبان سیکھنے کا بہترین طریقہ مسلسل مطالعہ، مشق اور اپنی غلطیوں کی اصلاح ہے۔ قواعد کو صرف یاد نہ کریں بلکہ انہیں پڑھنے، لکھنے اور گفتگو میں استعمال کریں۔ مثالوں کو سمجھیں، اپنی مثالیں بنائیں اور ہر سبق کے بعد مشق ضرور کریں۔",
+    "level": "Beginner",
+    "duration": "7 min",
+    "rule": "A message to readers is a short introductory note from the writer or editor. It explains the purpose of a book or learning resource, tells readers how to use it, and encourages them to study actively. A helpful reader's message is welcoming, clear, honest about the scope of the material, and practical. It may explain the order of lessons, the role of examples and exercises, and how learners can review their progress. In this course, study one topic at a time, understand the rule before memorising it, read examples aloud, attempt exercises independently, and revisit mistakes. Grammar becomes useful when applied in original speaking and writing.",
+    "example": "**A message to the readers**\n\nDear Learner,\n\nWelcome to this grammar course. It has been prepared to help you understand the structure of English and use the language with greater confidence. The lessons move from basic ideas to more advanced topics. Each lesson includes explanations, examples and practice so that you can apply what you learn.\n\nDo not try to memorise every rule at once. Read each explanation carefully, study the examples, and then complete the exercises without looking at the answers. When you make a mistake, return to the relevant rule and try again. Keep a notebook of new words and useful sentence patterns. Most importantly, practise using English regularly in your own writing and conversation.\n\nSteady effort, careful reading and regular practice will help you make progress.\n\nWith best wishes,\nThe Editorial Team\n\n**Main purposes:** welcome readers, explain the resource, give study guidance and encourage consistent practice.",
+    "breakdown": [
+      [
+        "Welcome the reader",
+        "Greeting",
+        "قارئ کو خوش آمدید کہیں"
+      ],
+      [
+        "Explain the purpose",
+        "Purpose",
+        "کتاب یا کورس کا مقصد بتائیں"
+      ],
+      [
+        "Describe how to use it",
+        "Guidance",
+        "استعمال کا طریقہ سمجھائیں"
+      ],
+      [
+        "Encourage regular practice",
+        "Encouragement",
+        "باقاعدہ مشق کی ترغیب دیں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "What is the main purpose of a message to readers?",
+        "options": [
+          "To introduce the resource and guide readers",
+          "To list unrelated stories",
+          "To replace all lessons"
+        ],
+        "answer": 0,
+        "why": "It welcomes readers, explains the purpose and offers guidance."
+      },
+      {
+        "q": "Which quality makes a reader's message effective?",
+        "options": [
+          "Clear and helpful language",
+          "Unexplained technical terms",
+          "Unrelated details"
+        ],
+        "answer": 0,
+        "why": "A clear message helps readers understand what to expect and how to proceed."
+      },
+      {
+        "q": "What should learners do after studying examples?",
+        "options": [
+          "Attempt exercises independently",
+          "Skip all practice",
+          "Memorise without understanding"
+        ],
+        "answer": 0,
+        "why": "Independent practice helps turn knowledge into usable skill."
+      },
+      {
+        "q": "How should mistakes be treated?",
+        "options": [
+          "As chances to review and improve",
+          "As a reason to stop learning",
+          "As something to hide"
+        ],
+        "answer": 0,
+        "why": "Reviewing mistakes helps learners identify and correct gaps in understanding."
+      }
+    ],
+    "practicePrompt": "Write a short message to new students explaining how they should use an English grammar course. Include its purpose, study advice and an encouraging closing."
+  }
 ];
 
 export const dailyQuestions = [
