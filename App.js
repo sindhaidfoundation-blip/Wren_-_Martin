@@ -389,7 +389,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
         <View style={styles.heroBottom}><View><Text style={styles.heroSmall}>COURSE PROGRESS</Text><Text style={styles.heroPercent}>{progress}%</Text></View><View style={styles.heroProgressTrack}><View style={[styles.heroProgressFill, { width: progress + "%" }]} /></View></View>
       </View>
       <View style={styles.sectionRow}><Text style={styles.sectionTitle}>Continue learning</Text><Text style={styles.link} onPress={() => setTab("Learn")}>View all</Text></View>
-      {lessons.filter(x => !completed.includes(x.id)).slice(0, 2).map(renderLessonCard)}
+      {completed.length === lessons.length ? <><Text style={styles.cardSub}>You have completed every lesson. Revisit any topic to refresh your knowledge.</Text>{lessons.slice(0, 2).map(renderLessonCard)}</> : lessons.filter(x => !completed.includes(x.id)).slice(0, 2).map(renderLessonCard)}
       <View style={styles.dailyCard}><View style={styles.dailyIcon}><Text style={{ fontSize: 22 }}>✦</Text></View><View style={{ flex: 1 }}><Text style={styles.dailyTitle}>Daily practice</Text><Text style={styles.cardSub}>{dailyQuestions.length} quick questions to sharpen your English</Text></View><Action title="Start" onPress={() => startQuiz(null)} /></View>
       <View style={styles.tipCard}><Text style={styles.tipLabel}>TODAY'S TIP</Text><Text style={styles.tipText}>“An” is used before a vowel sound, not simply a vowel letter.</Text><Text style={styles.tipUrdu}>مثال: an hour، لیکن a university۔</Text></View>
     </ScrollView>;
