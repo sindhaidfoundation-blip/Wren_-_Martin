@@ -404,6 +404,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       }}><Text style={styles.back}>‹  BACK</Text></TouchableOpacity>
       <Header eyebrow={isExam ? "TIMED ASSESSMENT" : "QUICK KNOWLEDGE CHECK"} title={isExam ? "Full course exam" : selected ? selected.title + " quiz" : "Daily practice"} subtitle={isExam ? "Test your knowledge across all 25 lessons." : "Choose the best answer for each question."} />
       {isExam ? <View style={styles.examTimer}><Text style={styles.examTimerLabel}>TIME REMAINING</Text><Text style={styles.examTimerValue}>{timerText}</Text><Text style={styles.examTimerHint}>{total} questions · 30 minutes · unanswered questions count as incorrect</Text></View> : null}
+      {!showResult ? <View style={styles.quizProgress}><View style={styles.quizProgressTop}><Text style={styles.panelLabel}>YOUR PROGRESS</Text><Text style={styles.cardSub}>{Object.keys(answers).length} OF {total} ANSWERED</Text></View><View style={styles.progressTrack}><View style={[styles.progressFill, { width: (total ? Math.round((Object.keys(answers).length / total) * 100) : 0) + "%" }]} /></View></View> : null}
       {quiz.map((q, i) => <View key={i} style={styles.questionCard}>{isExam && q.lessonTitle ? <Text style={styles.questionCount}>{q.lessonTitle.toUpperCase()}</Text> : null}<Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text> : null}</View>)}
       {quizNotice ? <Text style={styles.quizNotice}>{quizNotice}</Text> : null}
       {!showResult ? <Action title={isExam ? "Submit exam" : "Check my answers"} onPress={() => submitQuiz(false)} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text>{isExam ? <>
@@ -509,6 +510,8 @@ const styles = StyleSheet.create({
   breakUrdu: { color: muted, fontSize: 12, textAlign: "right", flex: 1 },
   questionCard: { backgroundColor: "#FFFFFF", borderRadius: 18, padding: 16, marginBottom: 13, borderWidth: 1, borderColor: "#EAECF2" },
   questionCount: { color: green, fontSize: 9, fontWeight: "900", letterSpacing: 1.2 },
+  quizProgress: { backgroundColor: "#FFFFFF", borderRadius: 14, padding: 14, marginBottom: 14, borderWidth: 1, borderColor: "#E9ECF2" },
+  quizProgressTop: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
   questionText: { color: ink, fontSize: 16, fontWeight: "800", lineHeight: 23, marginTop: 9, marginBottom: 12 },
   option: { borderWidth: 1, borderColor: "#E5E8EF", padding: 12, borderRadius: 12, marginTop: 7, minHeight: 44, justifyContent: "center" },
   optionSelected: { borderColor: green, backgroundColor: "#EAF4F0" },
