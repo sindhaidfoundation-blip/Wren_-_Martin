@@ -331,7 +331,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       lastPracticeDate: isDaily ? today : old.lastPracticeDate,
       dailyPracticeDates: isDaily ? [...new Set([...(old.dailyPracticeDates || []), today])].slice(-90) : (old.dailyPracticeDates || []),
       quizHistory: [attempt, ...(old.quizHistory || [])].slice(0, 20),
-      wrongAnswers: [...quiz.map((question, index) => ({ question: question.q, options: question.options, answer: question.answer, selectedAnswer: answers[index] === undefined ? "Not answered" : question.options[answers[index]], correctAnswer: question.options[question.answer], explanation: question.why, lessonTitle: question.lessonTitle || (selected ? selected.title : title), lessonId: question.lessonId || (selected ? selected.id : null), date: today })).filter((item, index) => answers[index] !== quiz[index].answer), ...(old.wrongAnswers || [])].slice(0, 50)
+      wrongAnswers: [...quiz.map((question, index) => ({ question: question.q, options: question.options, answer: question.answer, selectedAnswer: answers[index] === undefined ? "Not answered" : question.options[answers[index]], correctAnswer: question.options[question.answer], explanation: question.why, lessonTitle: question.lessonTitle || (selected ? selected.title : title), lessonId: question.lessonId || (selected ? selected.id : null), date: today })).filter((item, index) => answers[index] !== quiz[index].answer), ...(isMistakePractice ? (old.wrongAnswers || []).filter(item => !quiz.some((question, index) => question.q === item.question && answers[index] === question.answer)) : (old.wrongAnswers || []))].slice(0, 50)
     }));
     if (isDaily) setDailyDone(true);
     setQuizRecorded(true);
