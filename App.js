@@ -1,4 +1,5 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { lessons, dailyQuestions } from "./src/data/lessons";
 
@@ -8,6 +9,7 @@ const muted = "#7B8499";
 const gold = "#E6B85C";
 const bg = "#F5F6FA";
 const green = "#23866D";
+const STORAGE_KEY = "@wren-martin-grammar-master/progress-v1";
 
 function Pill({ children, active = false, onPress }) {
   return <TouchableOpacity onPress={onPress} style={[styles.pill, active && styles.pillActive]}><Text style={[styles.pillText, active && styles.pillTextActive]}>{children}</Text></TouchableOpacity>;
@@ -23,13 +25,51 @@ export default function App() {
   const [tab, setTab] = useState("Home");
   const [selected, setSelected] = useState(null);
   const [completed, setCompleted] = useState([]);
+  const [stats, setStats] = useState({ quizzesTaken: 0, questionsAnsweredCorrectly: 0, dailySessions: 0, lastPracticeDate: null });
+  const [storageReady, setStorageReady] = useState(false);
   const [quiz, setQuiz] = useState(null);
   const [answers, setAnswers] = useState({});
   const [dailyDone, setDailyDone] = useState(false);
   const [filter, setFilter] = useState("All");
   const [showResult, setShowResult] = useState(false);
+  const [quizRecorded, setQuizRecorded] = useState(false);
+  const [quizNotice, setQuizNotice] = useState("");
 
   const progress = Math.round((completed.length / lessons.length) * 100);
+
+  useEffect(() => {
+    let active = true;
+    async function loadProgress() {
+      try {
+        const saved = await AsyncStorage.getItem(STORAGE_KEY);
+        if (!active || !saved) return;
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed.completed)) setCompleted(parsed.completed.filter(id => lessons.some(item => item.id === id)));
+        if (parsed.stats && typeof parsed.stats === "object") {
+          setStats({
+            quizzesTaken: Number(parsed.stats.quizzesTaken) || 0,
+            questionsAnsweredCorrectly: Number(parsed.stats.questionsAnsweredCorrectly) || 0,
+            dailySessions: Number(parsed.stats.dailySessions) || 0,
+            lastPracticeDate: typeof parsed.stats.lastPracticeDate === "string" ? parsed.stats.lastPracticeDate : null
+          });
+          setDailyDone(parsed.stats.lastPracticeDate === new Date().toISOString().slice(0, 10));
+        }
+      } catch (error) {
+        console.warn("Could not load saved learning progress.", error);
+      } finally {
+        if (active) setStorageReady(true);
+      }
+    }
+    loadProgress();
+    return () => { active = false; };
+  }, []);
+
+  useEffect(() => {
+    if (!storageReady) return;
+    AsyncStorage.setItem(STORAGE_KEY, JSON.stringify({ completed, stats })).catch(error => {
+      console.warn("Could not save learning progress.", error);
+    });
+  }, [completed, stats, storageReady]);
   const filteredLessons = useMemo(() => lessons.filter(item => filter === "All" || item.level === filter), [filter]);
 
   function openLesson(item) {
@@ -37,6 +77,8 @@ export default function App() {
     setQuiz(null);
     setAnswers({});
     setShowResult(false);
+    setQuizRecorded(false);
+    setQuizNotice("");
     setTab("Lesson");
   }
   function startQuiz(item) {
@@ -44,6 +86,8 @@ export default function App() {
     setQuiz(item ? item.quiz : dailyQuestions);
     setAnswers({});
     setShowResult(false);
+    setQuizRecorded(false);
+    setQuizNotice("");
     setTab("Quiz");
   }
   function finishLesson() {
@@ -73,7 +117,7 @@ export default function App() {
       </View>
       <View style={styles.sectionRow}><Text style={styles.sectionTitle}>Continue learning</Text><Text style={styles.link} onPress={() => setTab("Learn")}>View all</Text></View>
       {lessons.filter(x => !completed.includes(x.id)).slice(0, 2).map(renderLessonCard)}
-      <View style={styles.dailyCard}><View style={styles.dailyIcon}><Text style={{ fontSize: 22 }}>✦</Text></View><View style={{ flex: 1 }}><Text style={styles.dailyTitle}>Daily practice</Text><Text style={styles.cardSub}>3 quick questions to sharpen your English</Text></View><Action title="Start" onPress={() => startQuiz(null)} /></View>
+      <View style={styles.dailyCard}><View style={styles.dailyIcon}><Text style={{ fontSize: 22 }}>✦</Text></View><View style={{ flex: 1 }}><Text style={styles.dailyTitle}>Daily practice</Text><Text style={styles.cardSub}>{dailyQuestions.length} quick questions to sharpen your English</Text></View><Action title="Start" onPress={() => startQuiz(null)} /></View>
       <View style={styles.tipCard}><Text style={styles.tipLabel}>TODAY'S TIP</Text><Text style={styles.tipText}>“An” is used before a vowel sound, not simply a vowel letter.</Text><Text style={styles.tipUrdu}>مثال: an hour، لیکن a university۔</Text></View>
     </ScrollView>;
   }
@@ -108,14 +152,36 @@ export default function App() {
       <TouchableOpacity onPress={() => setTab(selected ? "Lesson" : "Home")}><Text style={styles.back}>‹  BACK</Text></TouchableOpacity>
       <Header eyebrow="QUICK KNOWLEDGE CHECK" title={selected ? selected.title + " quiz" : "Daily practice"} subtitle="Choose the best answer for each question." />
       {quiz.map((q, i) => <View key={i} style={styles.questionCard}><Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text> : null}</View>)}
-      {!showResult ? <Action title="Check my answers" onPress={() => setShowResult(true)} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text><Action title="Done" onPress={() => { if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
+      {quizNotice ? <Text style={styles.quizNotice}>{quizNotice}</Text> : null}
+      {!showResult ? <Action title="Check my answers" onPress={() => {
+        if (Object.keys(answers).length !== total) {
+          setQuizNotice("Please answer every question before checking your result.");
+          return;
+        }
+        if (!quizRecorded) {
+          const correct = score();
+          const isDaily = !selected;
+          const today = new Date().toISOString().slice(0, 10);
+          setStats(old => ({
+            ...old,
+            quizzesTaken: old.quizzesTaken + 1,
+            questionsAnsweredCorrectly: old.questionsAnsweredCorrectly + correct,
+            dailySessions: old.dailySessions + (isDaily ? 1 : 0),
+            lastPracticeDate: isDaily ? today : old.lastPracticeDate
+          }));
+          if (isDaily) setDailyDone(true);
+          setQuizRecorded(true);
+        }
+        setQuizNotice("");
+        setShowResult(true);
+      }} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text><Action title="Done" onPress={() => { if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
     </ScrollView>;
   }
 
   function Practice() {
     return <ScrollView contentContainerStyle={styles.content}>
       <Header eyebrow="BUILD A DAILY HABIT" title="Practice makes progress" subtitle="Short sessions. Stronger grammar. Better confidence." />
-      <View style={styles.practiceHero}><Text style={styles.practiceNumber}>03</Text><Text style={styles.practiceLabel}>QUESTIONS FOR TODAY</Text><Text style={styles.practiceDescription}>A quick daily challenge covering grammar essentials.</Text><Action title={dailyDone ? "Practice again" : "Start daily practice"} onPress={() => startQuiz(null)} /></View>
+      <View style={styles.practiceHero}><Text style={styles.practiceNumber}>{String(dailyQuestions.length).padStart(2, "0")}</Text><Text style={styles.practiceLabel}>QUESTIONS IN THE PRACTICE BANK</Text><Text style={styles.practiceDescription}>A quick daily challenge covering grammar essentials.</Text><Action title={dailyDone ? "Practice again" : "Start daily practice"} onPress={() => startQuiz(null)} /></View>
       <View style={styles.tipCard}><Text style={styles.tipLabel}>STUDY TIP</Text><Text style={styles.tipText}>Try to explain each grammar rule in your own words after reading it.</Text><Text style={styles.tipUrdu}>ہر سبق کے بعد اصول کو اپنے الفاظ میں سمجھانے کی کوشش کریں۔</Text></View>
     </ScrollView>;
   }
@@ -124,6 +190,8 @@ export default function App() {
     return <ScrollView contentContainerStyle={styles.content}>
       <Header eyebrow="YOUR LEARNING JOURNEY" title="Your progress" subtitle="Every lesson brings you closer to confident English." />
       <View style={styles.statsGrid}><View style={styles.statCard}><Text style={styles.statNumber}>{completed.length}</Text><Text style={styles.statLabel}>LESSONS DONE</Text></View><View style={styles.statCard}><Text style={styles.statNumber}>{lessons.length - completed.length}</Text><Text style={styles.statLabel}>REMAINING</Text></View></View>
+      <View style={styles.statsGrid}><View style={styles.statCard}><Text style={styles.statNumber}>{stats.quizzesTaken}</Text><Text style={styles.statLabel}>QUIZ ATTEMPTS</Text></View><View style={styles.statCard}><Text style={styles.statNumber}>{stats.questionsAnsweredCorrectly}</Text><Text style={styles.statLabel}>CORRECT ANSWERS</Text></View></View>
+      <View style={styles.progressCard}><Text style={styles.panelLabel}>DAILY PRACTICE</Text><Text style={styles.progressBig}>{stats.dailySessions}</Text><Text style={styles.cardSub}>Practice sessions completed</Text></View>
       <View style={styles.progressCard}><Text style={styles.panelLabel}>COURSE COMPLETION</Text><Text style={styles.progressBig}>{progress}%</Text><View style={styles.progressTrack}><View style={[styles.progressFill, { width: progress + "%" }]} /></View><Text style={styles.cardSub}>{completed.length} of {lessons.length} lessons completed</Text></View>
       <Text style={styles.sectionTitle}>Completed lessons</Text>
       {completed.length ? lessons.filter(x => completed.includes(x.id)).map(x => <View key={x.id} style={styles.completedRow}><Text style={styles.completedCheck}>✓</Text><Text style={styles.cardTitle}>{x.title}</Text></View>) : <Text style={styles.emptyText}>Your completed lessons will appear here. Start with Parts of Speech!</Text>}
@@ -206,6 +274,7 @@ const styles = StyleSheet.create({
   optionText: { color: ink, fontSize: 12, fontWeight: "600" },
   optionTextSelected: { color: green, fontWeight: "900" },
   explanation: { color: muted, fontSize: 11, lineHeight: 17, marginTop: 11 },
+  quizNotice: { color: "#A34C32", fontSize: 12, fontWeight: "700", marginBottom: 10, lineHeight: 18 },
   resultCard: { backgroundColor: "#EAF3F0", padding: 18, borderRadius: 18, alignItems: "center" },
   resultScore: { color: green, fontSize: 34, fontWeight: "900" },
   resultText: { color: ink, fontWeight: "700", marginTop: 4 },
