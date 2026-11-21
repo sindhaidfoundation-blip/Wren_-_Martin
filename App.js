@@ -159,7 +159,12 @@ export default function App() {
     const today = localDateKey();
     const isDaily = !selected && !isExam;
     const title = isExam ? "Full course exam" : selected ? selected.title : "Daily practice";
-    const attempt = { title, lessonId: selected ? selected.id : null, date: today, correct, total, percent: Math.round((correct / total) * 100) };
+    const lessonBreakdown = isExam ? lessons.map(lesson => {
+      const lessonQuestions = quiz.map((question, index) => ({ question, index })).filter(item => item.question.lessonId === lesson.id);
+      const lessonCorrect = lessonQuestions.filter(item => answers[item.index] === item.question.answer).length;
+      return { lessonId: lesson.id, correct: lessonCorrect, total: lessonQuestions.length };
+    }) : [];
+    const attempt = { title, lessonId: selected ? selected.id : null, date: today, correct, total, percent: Math.round((correct / total) * 100), lessonBreakdown };
     setStats(old => ({
       ...old,
       quizzesTaken: old.quizzesTaken + 1,
@@ -203,7 +208,7 @@ export default function App() {
     return { key, label: date.toLocaleDateString("en", { weekday: "short" }), active: practiceDates.has(key), today: offset === 0 };
   });
   const weakestLessons = lessons.map(lesson => {
-    const attempts = (stats.quizHistory || []).filter(item => item.lessonId === lesson.id);
+    const attempts = (stats.quizHistory || []).flatMap(item => item.lessonId === lesson.id ? [{ total: item.total, correct: item.correct }] : (item.lessonBreakdown || []).filter(part => part.lessonId === lesson.id));
     const total = attempts.reduce((sum, item) => sum + item.total, 0);
     const correct = attempts.reduce((sum, item) => sum + item.correct, 0);
     return { ...lesson, total, percent: total ? Math.round((correct / total) * 100) : 0 };
@@ -265,7 +270,7 @@ export default function App() {
       {isExam ? <View style={styles.examTimer}><Text style={styles.examTimerLabel}>TIME REMAINING</Text><Text style={styles.examTimerValue}>{timerText}</Text><Text style={styles.examTimerHint}>{total} questions · 30 minutes · unanswered questions count as incorrect</Text></View> : null}
       {quiz.map((q, i) => <View key={i} style={styles.questionCard}>{isExam && q.lessonTitle ? <Text style={styles.questionCount}>{q.lessonTitle.toUpperCase()}</Text> : null}<Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text> : null}</View>)}
       {quizNotice ? <Text style={styles.quizNotice}>{quizNotice}</Text> : null}
-      {!showResult ? <Action title={isExam ? "Submit exam" : "Check my answers"} onPress={() => submitQuiz(false)} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text><Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); }} /><Action title="Done" onPress={() => { if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
+      {!showResult ? <Action title={isExam ? "Submit exam" : "Check my answers"} onPress={() => submitQuiz(false)} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text><Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); if (isExam) { setExamExpired(false); setExamRemaining(30 * 60); setExamDeadline(Date.now() + 30 * 60 * 1000); } }} /><Action title="Done" onPress={() => { if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
     </ScrollView>;
   }
 
