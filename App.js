@@ -1,6 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import * as Print from "expo-print";
+import * as Sharing from "expo-sharing";
+import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { lessons, dailyQuestions } from "./src/data/lessons";
 
 const navy = "#101C3A";
@@ -16,6 +18,12 @@ function localDateKey() {
   const month = String(date.getMonth() + 1).padStart(2, "0");
   const day = String(date.getDate()).padStart(2, "0");
   return `${year}-${month}-${day}`;
+}
+function escapeHtml(value) {
+  return String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/\x27/g, "&#39;");
+}
+function createCertificateId() {
+  return "WM-" + localDateKey().replace(/-/g, "") + "-" + Date.now().toString(36).toUpperCase() + Math.random().toString(36).slice(2, 6).toUpperCase();
 }
 
 function Pill({ children, active = false, onPress }) {
@@ -45,6 +53,10 @@ export default function App() {
   const [examDeadline, setExamDeadline] = useState(null);
   const [examRemaining, setExamRemaining] = useState(0);
   const [examExpired, setExamExpired] = useState(false);
+  const [certificateName, setCertificateName] = useState("");
+  const [certificateBusy, setCertificateBusy] = useState(false);
+  const [certificateMessage, setCertificateMessage] = useState("");
+  const [examCertificateId, setExamCertificateId] = useState("");
 
   const progress = Math.round((completed.length / lessons.length) * 100);
 
@@ -56,6 +68,7 @@ export default function App() {
         if (!active || !saved) return;
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed.completed)) setCompleted(parsed.completed.filter(id => lessons.some(item => item.id === id)));
+        if (typeof parsed.certificateName === "string") setCertificateName(parsed.certificateName);
         if (parsed.stats && typeof parsed.stats === "object") {
           setStats({
             quizzesTaken: Number(parsed.stats.quizzesTaken) || 0,
@@ -96,10 +109,10 @@ export default function App() {
 
   useEffect(() => {
     if (!storageReady) return;
-    AsyncStorage.setItem(STORAGE_KEY, JSON.stringify({ completed, stats })).catch(error => {
+    AsyncStorage.setItem(STORAGE_KEY, JSON.stringify({ completed, stats, certificateName })).catch(error => {
       console.warn("Could not save learning progress.", error);
     });
-  }, [completed, stats, storageReady]);
+  }, [completed, stats, certificateName, storageReady]);
   const filteredLessons = useMemo(() => lessons.filter(item => filter === "All" || item.level === filter), [filter]);
 
   function openLesson(item) {
@@ -136,6 +149,8 @@ export default function App() {
     setQuizRecorded(false);
     setQuizNotice("");
     setExamExpired(false);
+    setCertificateMessage("");
+    setExamCertificateId(createCertificateId());
     setExamRemaining(30 * 60);
     setExamDeadline(Date.now() + 30 * 60 * 1000);
     setTab("Quiz");
@@ -158,7 +173,66 @@ export default function App() {
     const correct = items.filter(item => answers[item.index] === item.question.answer).length;
     return { lessonId: lesson.id, title: lesson.title, correct, total: items.length, percent: items.length ? Math.round((correct / items.length) * 100) : 0 };
   }) : [];
-  const examCertificateId = "WM-" + localDateKey().replace(/-/g, "") + "-" + String(score()).padStart(2, "0");
+  async function createAndShareCertificate() {
+    if (!isExam || !showResult || !examGrade.passed || !examCertificateId) return;
+    const learner = certificateName.trim();
+    if (!learner) {
+      setCertificateMessage("Enter the learner name to personalise the certificate.");
+      return;
+    }
+    setCertificateBusy(true);
+    setCertificateMessage("");
+    const safeName = escapeHtml(learner);
+    const safeId = escapeHtml(examCertificateId);
+    const date = escapeHtml(localDateKey());
+    const grade = escapeHtml(examGrade.letter);
+    const percentage = examGrade.percent;
+    const html = `<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@page { size: A4 landscape; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; width: 100%; height: 100%; font-family: Arial, Helvetica, sans-serif; color: #18233F; }
+body { padding: 28px; background: #fff; }
+.frame { width: 100%; height: 100%; min-height: 535px; border: 8px double #C9A85D; padding: 38px 54px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.kicker { color: #9A7836; font-size: 13px; font-weight: 700; letter-spacing: 4px; }
+h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #101C3A; }
+.intro { font-size: 16px; color: #667085; margin: 8px 0; }
+.name { font-family: Georgia, serif; font-size: 34px; font-weight: bold; color: #9A7836; border-bottom: 1px solid #C9A85D; padding: 8px 36px 12px; margin: 10px 0 12px; }
+.course { font-size: 18px; font-weight: bold; color: #101C3A; margin-top: 7px; }
+.grade { font-size: 18px; font-weight: bold; color: #23866D; margin-top: 22px; }
+.meta { color: #667085; font-size: 11px; margin-top: 13px; letter-spacing: 1px; }
+.note { color: #7B8499; font-size: 10px; margin-top: 18px; }
+</style></head><body><main class="frame">
+<div class="kicker">WREN &amp; MARTIN GRAMMAR MASTER</div>
+<h1>Certificate of Achievement</h1>
+<div class="intro">This certificate is proudly presented to</div>
+<div class="name">${safeName}</div>
+<div class="intro">for passing the full-course English grammar assessment.</div>
+<div class="course">Wren &amp; Martin Grammar Master</div>
+<div class="grade">GRADE ${grade} · ${percentage}%</div>
+<div class="meta">COMPLETED: ${date}</div>
+<div class="meta">CERTIFICATE ID: ${safeId}</div>
+<div class="note">Learning achievement certificate · This is not a formal academic accreditation.</div>
+</main></body></html>`;
+    try {
+      const file = await Print.printToFileAsync({ html, width: 842, height: 595, margins: { top: 0, right: 0, bottom: 0, left: 0 } });
+      const canShare = await Sharing.isAvailableAsync();
+      if (canShare) {
+        await Sharing.shareAsync(file.uri, { mimeType: "application/pdf", UTI: "com.adobe.pdf", dialogTitle: "Save or share your grammar certificate" });
+        setCertificateMessage("Your certificate PDF is ready. Choose a destination in the share menu to save or send it.");
+      } else {
+        await Print.printAsync({ uri: file.uri, orientation: Print.Orientation.landscape });
+        setCertificateMessage("The PDF was created. Sharing is unavailable on this device, so the print dialog was opened instead.");
+      }
+    } catch (error) {
+      console.warn("Could not create or share the certificate PDF.", error);
+      setCertificateMessage("We couldn't create or share the PDF just now. Please try again.");
+    } finally {
+      setCertificateBusy(false);
+    }
+  }
+
   function submitQuiz(force = false) {
     if (!quiz || quizRecorded || showResult) return;
     const total = quiz.length;
@@ -285,7 +359,7 @@ export default function App() {
         <View style={styles.examGradeCard}><Text style={styles.examGradeLabel}>YOUR FINAL GRADE</Text><Text style={styles.examGradeLetter}>{examGrade.letter}</Text><Text style={styles.examGradePercent}>{examGrade.percent}% · {examGrade.label}</Text><Text style={styles.examGradeNote}>{examGrade.passed ? "You passed the full course assessment." : "You need 60% to pass. Review the topics below and try again."}</Text></View>
         <Text style={styles.breakdownHeading}>PER-LESSON PERFORMANCE</Text>
         {examBreakdown.map(item => <View key={item.lessonId} style={styles.breakdownRow}><View style={styles.breakdownTop}><Text style={styles.breakdownTitle}>{item.title}</Text><Text style={styles.breakdownScore}>{item.correct}/{item.total} · {item.percent}%</Text></View><View style={styles.breakdownTrack}><View style={[styles.breakdownFill, { width: item.percent + "%" }]} /></View></View>)}
-        {examGrade.passed ? <View style={styles.certificate}><Text style={styles.certificateKicker}>WREN & MARTIN GRAMMAR MASTER</Text><Text style={styles.certificateTitle}>Certificate of Achievement</Text><Text style={styles.certificateBody}>This certificate is presented to</Text><Text style={styles.certificateName}>Grammar Master Learner</Text><Text style={styles.certificateBody}>for successfully completing the full-course grammar assessment.</Text><View style={styles.certificateRule} /><Text style={styles.certificateGrade}>GRADE {examGrade.letter} · {examGrade.percent}%</Text><Text style={styles.certificateDate}>{localDateKey()}</Text><Text style={styles.certificateId}>CERTIFICATE ID · {examCertificateId}</Text></View> : null}
+        {examGrade.passed ? <View style={styles.certificate}><Text style={styles.certificateKicker}>WREN & MARTIN GRAMMAR MASTER</Text><Text style={styles.certificateTitle}>Certificate of Achievement</Text><Text style={styles.certificateBody}>This certificate is presented to</Text><TextInput accessibilityLabel="Certificate learner name" value={certificateName} onChangeText={value => { setCertificateName(value); setCertificateMessage(""); }} placeholder="Enter learner's full name" placeholderTextColor="#9AA2B2" maxLength={70} style={styles.certificateNameInput} autoCapitalize="words" returnKeyType="done" /><Text style={styles.certificateBody}>for successfully completing the full-course grammar assessment.</Text><View style={styles.certificateRule} /><Text style={styles.certificateGrade}>GRADE {examGrade.letter} · {examGrade.percent}%</Text><Text style={styles.certificateDate}>{localDateKey()}</Text><Text style={styles.certificateId}>CERTIFICATE ID · {examCertificateId}</Text><Action title={certificateBusy ? "Preparing PDF..." : "Download / share PDF certificate"} onPress={createAndShareCertificate} /><Text style={styles.certificateHint}>On Android and iPhone, use the share sheet to save the PDF to your files or send it.</Text>{certificateMessage ? <Text accessibilityLiveRegion="polite" style={styles.certificateMessage}>{certificateMessage}</Text> : null}</View> : null}
       </> : null}<Action title="Try again" secondary onPress={() => { setAnswers({}); setShowResult(false); setQuizRecorded(false); setQuizNotice(""); if (isExam) { setExamExpired(false); setExamRemaining(30 * 60); setExamDeadline(Date.now() + 30 * 60 * 1000); } }} /><Action title="Done" onPress={() => { setExamDeadline(null); setExamExpired(false); if (selected && score() === total) finishLesson(); else setTab("Home"); }} /></View>}
     </ScrollView>;
   }
@@ -434,6 +508,9 @@ const styles = StyleSheet.create({
   certificateTitle: { color: navy, fontSize: 22, fontWeight: "900", textAlign: "center", marginTop: 17 },
   certificateBody: { color: muted, fontSize: 10, textAlign: "center", lineHeight: 16, marginTop: 13 },
   certificateName: { color: "#9A7836", fontSize: 18, fontWeight: "900", marginTop: 8, textAlign: "center" },
+  certificateNameInput: { color: "#9A7836", fontSize: 18, fontWeight: "900", marginTop: 8, marginBottom: 5, textAlign: "center", borderBottomWidth: 1, borderBottomColor: "#C9A85D", minWidth: "85%", paddingVertical: 8 },
+  certificateHint: { color: muted, fontSize: 9, lineHeight: 14, textAlign: "center", marginTop: 9 },
+  certificateMessage: { color: green, fontSize: 10, fontWeight: "700", lineHeight: 15, textAlign: "center", marginTop: 8 },
   certificateRule: { height: 1, backgroundColor: "#C9A85D", width: "75%", marginTop: 18 },
   certificateGrade: { color: navy, fontSize: 12, fontWeight: "900", marginTop: 13 },
   certificateDate: { color: muted, fontSize: 10, marginTop: 7 },
