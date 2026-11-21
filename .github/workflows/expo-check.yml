@@ -37,3 +37,6 @@ jobs:
 
       - name: Bundle iOS
         run: npx expo export --platform ios
+
+      - name: Build web app for Chrome
+        run: npx expo export --platform web
