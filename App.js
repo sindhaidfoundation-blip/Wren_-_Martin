@@ -32,7 +32,7 @@ export default function App() {
   const [tab, setTab] = useState("Home");
   const [selected, setSelected] = useState(null);
   const [completed, setCompleted] = useState([]);
-  const [stats, setStats] = useState({ quizzesTaken: 0, questionsAnsweredCorrectly: 0, dailySessions: 0, lastPracticeDate: null });
+  const [stats, setStats] = useState({ quizzesTaken: 0, questionsAnsweredCorrectly: 0, dailySessions: 0, lastPracticeDate: null, quizHistory: [] });
   const [storageReady, setStorageReady] = useState(false);
   const [quiz, setQuiz] = useState(null);
   const [answers, setAnswers] = useState({});
@@ -57,7 +57,8 @@ export default function App() {
             quizzesTaken: Number(parsed.stats.quizzesTaken) || 0,
             questionsAnsweredCorrectly: Number(parsed.stats.questionsAnsweredCorrectly) || 0,
             dailySessions: Number(parsed.stats.dailySessions) || 0,
-            lastPracticeDate: typeof parsed.stats.lastPracticeDate === "string" ? parsed.stats.lastPracticeDate : null
+            lastPracticeDate: typeof parsed.stats.lastPracticeDate === "string" ? parsed.stats.lastPracticeDate : null,
+            quizHistory: Array.isArray(parsed.stats.quizHistory) ? parsed.stats.quizHistory.filter(item => item && typeof item.title === "string" && Number.isFinite(item.correct) && Number.isFinite(item.total)).slice(0, 20) : []
           });
           setDailyDone(parsed.stats.lastPracticeDate === localDateKey());
         }
@@ -169,12 +170,15 @@ export default function App() {
           const correct = score();
           const isDaily = !selected;
           const today = localDateKey();
+          const totalQuestions = quiz.length;
+          const attempt = { title: selected ? selected.title : "Daily practice", lessonId: selected ? selected.id : null, date: today, correct, total: totalQuestions, percent: Math.round((correct / totalQuestions) * 100) };
           setStats(old => ({
             ...old,
             quizzesTaken: old.quizzesTaken + 1,
             questionsAnsweredCorrectly: old.questionsAnsweredCorrectly + correct,
             dailySessions: old.dailySessions + (isDaily ? 1 : 0),
-            lastPracticeDate: isDaily ? today : old.lastPracticeDate
+            lastPracticeDate: isDaily ? today : old.lastPracticeDate,
+            quizHistory: [attempt, ...(old.quizHistory || [])].slice(0, 20)
           }));
           if (isDaily) setDailyDone(true);
           setQuizRecorded(true);
@@ -199,6 +203,7 @@ export default function App() {
       <View style={styles.statsGrid}><View style={styles.statCard}><Text style={styles.statNumber}>{completed.length}</Text><Text style={styles.statLabel}>LESSONS DONE</Text></View><View style={styles.statCard}><Text style={styles.statNumber}>{lessons.length - completed.length}</Text><Text style={styles.statLabel}>REMAINING</Text></View></View>
       <View style={styles.statsGrid}><View style={styles.statCard}><Text style={styles.statNumber}>{stats.quizzesTaken}</Text><Text style={styles.statLabel}>QUIZ ATTEMPTS</Text></View><View style={styles.statCard}><Text style={styles.statNumber}>{stats.questionsAnsweredCorrectly}</Text><Text style={styles.statLabel}>CORRECT ANSWERS</Text></View></View>
       <View style={styles.progressCard}><Text style={styles.panelLabel}>DAILY PRACTICE</Text><Text style={styles.progressBig}>{stats.dailySessions}</Text><Text style={styles.cardSub}>Practice sessions completed</Text></View>
+      <View style={styles.progressCard}><Text style={styles.panelLabel}>RECENT QUIZ RESULTS</Text>{(stats.quizHistory || []).length ? stats.quizHistory.slice(0, 5).map((item, index) => <View key={item.date + item.title + index} style={styles.historyRow}><View style={{ flex: 1 }}><Text style={styles.cardTitle}>{item.title}</Text><Text style={styles.cardSub}>{item.date} · {item.correct}/{item.total} correct</Text></View><Text style={styles.historyScore}>{item.percent}%</Text></View>) : <Text style={styles.emptyText}>Your quiz results will appear here after your first attempt.</Text>}</View>
       <View style={styles.progressCard}><Text style={styles.panelLabel}>COURSE COMPLETION</Text><Text style={styles.progressBig}>{progress}%</Text><View style={styles.progressTrack}><View style={[styles.progressFill, { width: progress + "%" }]} /></View><Text style={styles.cardSub}>{completed.length} of {lessons.length} lessons completed</Text></View>
       <Text style={styles.sectionTitle}>Completed lessons</Text>
       {completed.length ? lessons.filter(x => completed.includes(x.id)).map(x => <View key={x.id} style={styles.completedRow}><Text style={styles.completedCheck}>✓</Text><Text style={styles.cardTitle}>{x.title}</Text></View>) : <Text style={styles.emptyText}>Your completed lessons will appear here. Start with Parts of Speech!</Text>}
@@ -294,6 +299,8 @@ const styles = StyleSheet.create({
   statNumber: { color: ink, fontSize: 30, fontWeight: "900" },
   statLabel: { color: muted, fontSize: 9, fontWeight: "900", letterSpacing: 1, marginTop: 5 },
   progressCard: { backgroundColor: "#FFFFFF", borderRadius: 18, padding: 19, marginTop: 13, borderWidth: 1, borderColor: "#EAECF2" },
+  historyRow: { flexDirection: "row", alignItems: "center", paddingVertical: 11, borderBottomWidth: 1, borderBottomColor: "#EEF0F4" },
+  historyScore: { color: green, fontSize: 18, fontWeight: "900", marginLeft: 12 },
   progressBig: { color: ink, fontSize: 38, fontWeight: "900", marginTop: 8 },
   progressTrack: { height: 9, backgroundColor: "#E9ECF2", borderRadius: 10, marginTop: 10, marginBottom: 10, overflow: "hidden" },
   progressFill: { height: 9, backgroundColor: green, borderRadius: 10 },
