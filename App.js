@@ -272,9 +272,21 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
     }
   }
 
-  function submitQuiz(force = false) {
+  function submitQuiz(force = false, confirmed = false) {
     if (!quiz || quizRecorded || showResult) return;
     const total = quiz.length;
+    const unanswered = total - Object.keys(answers).length;
+    if (!force && isExam && unanswered > 0 && !confirmed) {
+      Alert.alert(
+        "Submit with unanswered questions?",
+        `${unanswered} question${unanswered === 1 ? " is" : "s are"} still unanswered. They will count as incorrect.`,
+        [
+          { text: "Review answers", style: "cancel" },
+          { text: "Submit exam", style: "destructive", onPress: () => submitQuiz(false, true) }
+        ]
+      );
+      return;
+    }
     if (!force && !isExam && Object.keys(answers).length !== total) {
       setQuizNotice("Please answer every question before checking your result.");
       return;
