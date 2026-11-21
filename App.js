@@ -118,7 +118,8 @@ export default function App() {
     const query = lessonSearch.trim().toLocaleLowerCase();
     return lessons.filter(item => {
       const matchesLevel = filter === "All" || item.level === filter;
-      const searchableText = `${item.title} ${item.subtitle} ${item.rule} ${item.urdu}`.toLocaleLowerCase();
+      const lessonDetails = [item.example, ...(item.breakdown || []).flat(), ...(item.quiz || []).flatMap(question => [question.q, question.why, ...(question.options || [])])].filter(Boolean).join(" ");
+      const searchableText = `${item.title} ${item.subtitle} ${item.rule} ${item.urdu} ${lessonDetails}`.toLocaleLowerCase();
       return matchesLevel && (!query || searchableText.includes(query));
     });
   }, [filter, lessonSearch]);
