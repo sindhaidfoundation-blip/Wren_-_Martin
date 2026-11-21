@@ -32,7 +32,7 @@ export default function App() {
   const [tab, setTab] = useState("Home");
   const [selected, setSelected] = useState(null);
   const [completed, setCompleted] = useState([]);
-  const [stats, setStats] = useState({ quizzesTaken: 0, questionsAnsweredCorrectly: 0, dailySessions: 0, lastPracticeDate: null, dailyPracticeDates: [], quizHistory: [] });
+  const [stats, setStats] = useState({ quizzesTaken: 0, questionsAnsweredCorrectly: 0, dailySessions: 0, lastPracticeDate: null, dailyPracticeDates: [], quizHistory: [], wrongAnswers: [] });
   const [storageReady, setStorageReady] = useState(false);
   const [quiz, setQuiz] = useState(null);
   const [answers, setAnswers] = useState({});
@@ -59,7 +59,8 @@ export default function App() {
             dailySessions: Number(parsed.stats.dailySessions) || 0,
             lastPracticeDate: typeof parsed.stats.lastPracticeDate === "string" ? parsed.stats.lastPracticeDate : null,
             dailyPracticeDates: Array.isArray(parsed.stats.dailyPracticeDates) ? [...new Set(parsed.stats.dailyPracticeDates.filter(date => typeof date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(date)))].slice(-90) : [],
-            quizHistory: Array.isArray(parsed.stats.quizHistory) ? parsed.stats.quizHistory.filter(item => item && typeof item.title === "string" && Number.isFinite(item.correct) && Number.isFinite(item.total)).slice(0, 20) : []
+            quizHistory: Array.isArray(parsed.stats.quizHistory) ? parsed.stats.quizHistory.filter(item => item && typeof item.title === "string" && Number.isFinite(item.correct) && Number.isFinite(item.total)).slice(0, 20) : [],
+            wrongAnswers: Array.isArray(parsed.stats.wrongAnswers) ? parsed.stats.wrongAnswers.filter(item => item && typeof item.question === "string" && typeof item.correctAnswer === "string").slice(0, 50) : []
           });
           setDailyDone(parsed.stats.lastPracticeDate === localDateKey());
         }
@@ -134,6 +135,12 @@ export default function App() {
     date.setDate(date.getDate() + offset);
     return { key, label: date.toLocaleDateString("en", { weekday: "short" }), active: practiceDates.has(key), today: offset === 0 };
   });
+  const weakestLessons = lessons.map(lesson => {
+    const attempts = (stats.quizHistory || []).filter(item => item.lessonId === lesson.id);
+    const total = attempts.reduce((sum, item) => sum + item.total, 0);
+    const correct = attempts.reduce((sum, item) => sum + item.correct, 0);
+    return { ...lesson, total, percent: total ? Math.round((correct / total) * 100) : 0 };
+  }).filter(item => item.total > 0).sort((a, b) => a.percent - b.percent || b.total - a.total).slice(0, 3);
 
   const renderLessonCard = (item, index) => (
     <TouchableOpacity key={item.id} onPress={() => openLesson(item)} style={styles.lessonCard}>
@@ -207,7 +214,8 @@ export default function App() {
             dailySessions: old.dailySessions + (isDaily ? 1 : 0),
             lastPracticeDate: isDaily ? today : old.lastPracticeDate,
             dailyPracticeDates: isDaily ? [...new Set([...(old.dailyPracticeDates || []), today])].slice(-90) : (old.dailyPracticeDates || []),
-            quizHistory: [attempt, ...(old.quizHistory || [])].slice(0, 20)
+            quizHistory: [attempt, ...(old.quizHistory || [])].slice(0, 20),
+            wrongAnswers: [...quiz.map((question, index) => ({ question: question.q, selectedAnswer: question.options[answers[index]], correctAnswer: question.options[question.answer], explanation: question.why, lessonTitle: selected ? selected.title : "Daily practice", lessonId: selected ? selected.id : null, date: today })).filter((item, index) => answers[index] !== quiz[index].answer), ...(old.wrongAnswers || [])].slice(0, 50)
           }));
           if (isDaily) setDailyDone(true);
           setQuizRecorded(true);
@@ -233,6 +241,8 @@ export default function App() {
       <View style={styles.statsGrid}><View style={styles.statCard}><Text style={styles.statNumber}>{stats.quizzesTaken}</Text><Text style={styles.statLabel}>QUIZ ATTEMPTS</Text></View><View style={styles.statCard}><Text style={styles.statNumber}>{stats.questionsAnsweredCorrectly}</Text><Text style={styles.statLabel}>CORRECT ANSWERS</Text></View></View>
       <View style={styles.progressCard}><Text style={styles.panelLabel}>DAILY PRACTICE</Text><View style={styles.streakHeader}><View><Text style={styles.progressBig}>{currentStreak}</Text><Text style={styles.cardSub}>Day current streak</Text></View><View style={styles.activeDays}><Text style={styles.activeDaysNumber}>{practiceDates.size}</Text><Text style={styles.activeDaysLabel}>ACTIVE DAYS</Text></View></View><Text style={styles.cardSub}>{stats.dailySessions} practice sessions completed</Text><Text style={styles.weekLabel}>LAST 7 DAYS</Text><View style={styles.weekRow}>{weeklyActivity.map(day => <View key={day.key} style={styles.weekDay}><View style={[styles.weekDot, day.active && styles.weekDotActive, day.today && styles.weekDotToday]}><Text style={[styles.weekCheck, day.active && styles.weekCheckActive]}>{day.active ? "✓" : "·"}</Text></View><Text style={[styles.weekDayLabel, day.today && styles.weekDayToday]}>{day.label}</Text></View>)}</View></View>
       <View style={styles.progressCard}><Text style={styles.panelLabel}>RECENT QUIZ RESULTS</Text>{(stats.quizHistory || []).length ? stats.quizHistory.slice(0, 5).map((item, index) => <View key={item.date + item.title + index} style={styles.historyRow}><View style={{ flex: 1 }}><Text style={styles.cardTitle}>{item.title}</Text><Text style={styles.cardSub}>{item.date} · {item.correct}/{item.total} correct</Text></View><Text style={styles.historyScore}>{item.percent}%</Text></View>) : <Text style={styles.emptyText}>Your quiz results will appear here after your first attempt.</Text>}</View>
+      <View style={styles.progressCard}><Text style={styles.panelLabel}>TOPICS TO REVISIT</Text>{weakestLessons.length ? weakestLessons.map(item => <TouchableOpacity key={item.id} style={styles.weakRow} onPress={() => openLesson(item)}><View style={{ flex: 1 }}><Text style={styles.cardTitle}>{item.title}</Text><Text style={styles.cardSub}>{item.total} questions answered · tap to review lesson</Text><View style={styles.weakTrack}><View style={[styles.weakFill, { width: item.percent + "%" }]} /></View></View><Text style={styles.weakPercent}>{item.percent}%</Text></TouchableOpacity>) : <Text style={styles.emptyText}>Complete a lesson quiz to discover which grammar topics need more practice.</Text>}</View>
+      <View style={styles.progressCard}><Text style={styles.panelLabel}>REVIEW YOUR MISTAKES</Text>{(stats.wrongAnswers || []).length ? stats.wrongAnswers.slice(0, 10).map((item, index) => <View key={item.date + item.question + index} style={styles.mistakeRow}><Text style={styles.mistakeQuestion}>{item.question}</Text><Text style={styles.mistakeWrong}>Your answer: {item.selectedAnswer || "No answer"}</Text><Text style={styles.mistakeCorrect}>Correct answer: {item.correctAnswer}</Text>{item.explanation ? <Text style={styles.cardSub}>{item.explanation}</Text> : null}<Text style={styles.mistakeMeta}>{item.lessonTitle} · {item.date}</Text></View>) : <Text style={styles.emptyText}>No mistakes recorded yet. Incorrect answers from completed quizzes will appear here.</Text>}</View>
       <View style={styles.progressCard}><Text style={styles.panelLabel}>COURSE COMPLETION</Text><Text style={styles.progressBig}>{progress}%</Text><View style={styles.progressTrack}><View style={[styles.progressFill, { width: progress + "%" }]} /></View><Text style={styles.cardSub}>{completed.length} of {lessons.length} lessons completed</Text></View>
       <Text style={styles.sectionTitle}>Completed lessons</Text>
       {completed.length ? lessons.filter(x => completed.includes(x.id)).map(x => <View key={x.id} style={styles.completedRow}><Text style={styles.completedCheck}>✓</Text><Text style={styles.cardTitle}>{x.title}</Text></View>) : <Text style={styles.emptyText}>Your completed lessons will appear here. Start with Parts of Speech!</Text>}
@@ -331,6 +341,15 @@ const styles = StyleSheet.create({
   progressCard: { backgroundColor: "#FFFFFF", borderRadius: 18, padding: 19, marginTop: 13, borderWidth: 1, borderColor: "#EAECF2" },
   historyRow: { flexDirection: "row", alignItems: "center", paddingVertical: 11, borderBottomWidth: 1, borderBottomColor: "#EEF0F4" },
   historyScore: { color: green, fontSize: 18, fontWeight: "900", marginLeft: 12 },
+  weakRow: { flexDirection: "row", alignItems: "center", paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: "#EEF0F4" },
+  weakTrack: { height: 5, backgroundColor: "#E9ECF2", borderRadius: 5, marginTop: 8, overflow: "hidden" },
+  weakFill: { height: 5, backgroundColor: gold, borderRadius: 5 },
+  weakPercent: { color: ink, fontSize: 17, fontWeight: "900", marginLeft: 12 },
+  mistakeRow: { paddingVertical: 13, borderBottomWidth: 1, borderBottomColor: "#EEF0F4" },
+  mistakeQuestion: { color: ink, fontSize: 13, fontWeight: "800", lineHeight: 19 },
+  mistakeWrong: { color: "#B45B5B", fontSize: 11, marginTop: 7 },
+  mistakeCorrect: { color: green, fontSize: 11, fontWeight: "800", marginTop: 4 },
+  mistakeMeta: { color: muted, fontSize: 9, marginTop: 7, fontWeight: "700" },
   streakHeader: { flexDirection: "row", alignItems: "center", justifyContent: "space-between" },
   activeDays: { backgroundColor: "#F1F6F3", borderRadius: 14, paddingHorizontal: 16, paddingVertical: 10, alignItems: "center" },
   activeDaysNumber: { color: green, fontSize: 22, fontWeight: "900" },
