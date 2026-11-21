@@ -628,6 +628,769 @@ export const lessons = [
       { q: "Which -ing word is a gerund?", options: ["Swimming is fun.", "They are swimming.", "The swimming child waved."], answer: 0, why: "Swimming functions as a noun and is the subject." }
     ]
   },
+  {
+    "id": "irregular-verbs",
+    "title": "Irregular Verbs",
+    "subtitle": "Past forms that do not take a regular -ed ending",
+    "urdu": "Irregular verbs ماضی اور past participle بنانے کے لیے عام طور پر صرف -ed نہیں لیتے۔ ان کی صورتیں یاد کرنا ضروری ہے، مثلاً go–went–gone اور write–wrote–written۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "Irregular verbs form their past simple and past participle in ways that do not follow the regular -ed pattern.",
+    "example": "go–went–gone; see–saw–seen; buy–bought–bought; cut–cut–cut.",
+    "breakdown": [
+      [
+        "go",
+        "Base form",
+        "اصل صورت"
+      ],
+      [
+        "went",
+        "Past simple",
+        "ماضی کی صورت"
+      ],
+      [
+        "gone",
+        "Past participle",
+        "has/have/had کے ساتھ"
+      ],
+      [
+        "write–wrote–written",
+        "Irregular forms",
+        "تینوں صورتیں مختلف"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the past simple of 'begin'.",
+        "options": [
+          "beginned",
+          "began",
+          "begun"
+        ],
+        "answer": 1,
+        "why": "Began is the past simple; begun is the past participle."
+      },
+      {
+        "q": "Choose the past participle of 'break'.",
+        "options": [
+          "broke",
+          "broken",
+          "breaking"
+        ],
+        "answer": 1,
+        "why": "Broken is used with have/has/had and in passive forms."
+      },
+      {
+        "q": "Which verb has the same base, past and past participle?",
+        "options": [
+          "go",
+          "cut",
+          "write"
+        ],
+        "answer": 1,
+        "why": "Cut–cut–cut has the same spelling in all three forms."
+      }
+    ]
+  },
+  {
+    "id": "auxiliaries-and-modals",
+    "title": "Auxiliaries and Modals",
+    "subtitle": "Helping verbs and modal meanings",
+    "urdu": "Auxiliary verbs اصل فعل کے ساتھ tense، سوال، نفی اور passive voice بناتے ہیں۔ Be, have اور do بنیادی auxiliaries ہیں۔ Modal auxiliaries جیسے can, could, may, might, must, shall, should, will اور would صلاحیت، اجازت، امکان، ضرورت یا ارادہ ظاہر کرتے ہیں۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "Primary auxiliaries be, have, and do help form verb phrases; modal auxiliaries precede a bare infinitive and express meanings such as ability, permission, possibility, obligation, and prediction.",
+    "example": "She is reading. / Have they arrived? / Do you agree? / You must wear a seat belt.",
+    "breakdown": [
+      [
+        "is",
+        "Be auxiliary",
+        "continuous tense"
+      ],
+      [
+        "have",
+        "Have auxiliary",
+        "perfect tense"
+      ],
+      [
+        "do",
+        "Do auxiliary",
+        "سوال اور نفی"
+      ],
+      [
+        "must",
+        "Modal",
+        "ضرورت یا پابندی"
+      ],
+      [
+        "might",
+        "Modal",
+        "امکان"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which auxiliary forms the present perfect?",
+        "options": [
+          "have",
+          "do",
+          "be"
+        ],
+        "answer": 0,
+        "why": "Have/has + past participle forms the present perfect."
+      },
+      {
+        "q": "Which modal expresses strong obligation?",
+        "options": [
+          "might",
+          "must",
+          "could"
+        ],
+        "answer": 1,
+        "why": "Must commonly expresses strong obligation."
+      },
+      {
+        "q": "Choose the correct sentence.",
+        "options": [
+          "She can sings.",
+          "She can sing.",
+          "She cans sing."
+        ],
+        "answer": 1,
+        "why": "A modal is followed by the bare infinitive."
+      }
+    ]
+  },
+  {
+    "id": "conjugation-of-the-verb",
+    "title": "Conjugation of the Verb",
+    "subtitle": "Verb forms according to person, number, tense and mood",
+    "urdu": "Verb کی conjugation سے مراد subject، person، number، tense یا mood کے مطابق فعل کی صورت بدلنا ہے۔ مثال: I am، he is، they are؛ یا I work، she works۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "Conjugation is the variation of a verb's form to express grammatical distinctions such as person, number, tense, and mood.",
+    "example": "I am; you are; he is. / I work; she works. / I went; they went.",
+    "breakdown": [
+      [
+        "am / is / are",
+        "Present forms of be",
+        "subject کے مطابق تبدیلی"
+      ],
+      [
+        "work / works",
+        "Present simple",
+        "third-person singular میں -s"
+      ],
+      [
+        "went",
+        "Past form",
+        "past tense کی صورت"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct form: 'She ___ ready.'",
+        "options": [
+          "am",
+          "are",
+          "is"
+        ],
+        "answer": 2,
+        "why": "The third-person singular subject she takes is."
+      },
+      {
+        "q": "Which is the correct present form?",
+        "options": [
+          "He play",
+          "He plays",
+          "He playing"
+        ],
+        "answer": 1,
+        "why": "A third-person singular subject usually takes -s in the present simple."
+      },
+      {
+        "q": "What is conjugation?",
+        "options": [
+          "Changing a verb's form for grammar",
+          "Adding an adjective",
+          "Joining two nouns"
+        ],
+        "answer": 0,
+        "why": "Conjugation changes a verb form to express grammatical information."
+      }
+    ]
+  },
+  {
+    "id": "the-adverb",
+    "title": "The Adverb",
+    "subtitle": "Modifying verbs, adjectives and other adverbs",
+    "urdu": "Adverb فعل، adjective یا دوسرے adverb کے بارے میں مزید معلومات دیتا ہے۔ یہ manner، time، place، frequency یا degree بتا سکتا ہے، جیسے slowly، yesterday، here، often اور very۔",
+    "level": "Beginner",
+    "duration": "8 min",
+    "rule": "An adverb modifies a verb, an adjective, another adverb, or sometimes a whole clause.",
+    "example": "She speaks softly. / It is very cold. / He arrived yesterday.",
+    "breakdown": [
+      [
+        "softly",
+        "Manner adverb",
+        "کیسے بولتی ہے؟"
+      ],
+      [
+        "very",
+        "Degree adverb",
+        "cold کی شدت"
+      ],
+      [
+        "yesterday",
+        "Time adverb",
+        "کب پہنچا؟"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Find the adverb: 'The baby slept peacefully.'",
+        "options": [
+          "baby",
+          "slept",
+          "peacefully"
+        ],
+        "answer": 2,
+        "why": "Peacefully tells how the baby slept."
+      },
+      {
+        "q": "Which word modifies the adjective in 'very tall'?",
+        "options": [
+          "very",
+          "tall",
+          "in"
+        ],
+        "answer": 0,
+        "why": "Very modifies the degree of tall."
+      },
+      {
+        "q": "Which is an adverb of frequency?",
+        "options": [
+          "often",
+          "outside",
+          "tomorrow"
+        ],
+        "answer": 0,
+        "why": "Often tells how frequently something happens."
+      }
+    ]
+  },
+  {
+    "id": "comparison-of-adverbs",
+    "title": "Comparison of Adverbs",
+    "subtitle": "Positive, comparative and superlative forms",
+    "urdu": "Adverbs بھی comparison کے لیے positive، comparative اور superlative صورتیں رکھتے ہیں۔ چھوٹے adverbs میں اکثر -er اور -est، جبکہ بہت سے -ly adverbs میں more اور most استعمال ہوتے ہیں۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "Adverbs can be compared with -er/-est or more/most; some forms are irregular, such as well, better, best.",
+    "example": "fast, faster, fastest; carefully, more carefully, most carefully; well, better, best.",
+    "breakdown": [
+      [
+        "fast",
+        "Positive",
+        "اصل صورت"
+      ],
+      [
+        "faster",
+        "Comparative",
+        "دو کاموں کا موازنہ"
+      ],
+      [
+        "fastest",
+        "Superlative",
+        "تین یا زیادہ میں سب سے زیادہ"
+      ],
+      [
+        "well / better / best",
+        "Irregular",
+        "غیرقاعدہ صورتیں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the comparative of 'carefully'.",
+        "options": [
+          "carefuller",
+          "more carefully",
+          "most carefully"
+        ],
+        "answer": 1,
+        "why": "Many adverbs ending in -ly use more for the comparative."
+      },
+      {
+        "q": "Choose the superlative of 'fast'.",
+        "options": [
+          "faster",
+          "fastest",
+          "most fast"
+        ],
+        "answer": 1,
+        "why": "Fast forms fastest with -est."
+      },
+      {
+        "q": "What is the comparative form of 'well'?",
+        "options": [
+          "gooder",
+          "better",
+          "best"
+        ],
+        "answer": 1,
+        "why": "Well has the irregular comparative better."
+      }
+    ]
+  },
+  {
+    "id": "formation-of-adverbs",
+    "title": "Formation of Adverbs",
+    "subtitle": "How adverbs are made",
+    "urdu": "بہت سے adverbs میں adjective کے ساتھ -ly لگایا جاتا ہے، جیسے quick → quickly۔ کچھ spellings بدلتی ہیں، مثلاً happy → happily؛ جبکہ بعض الفاظ کی صورت نہیں بدلتی، جیسے fast، hard اور late۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "Many adverbs are formed by adding -ly to adjectives, with spelling changes in some cases; some adverbs have the same form as their adjectives.",
+    "example": "quick → quickly; happy → happily; gentle → gently; good → well; fast → fast.",
+    "breakdown": [
+      [
+        "quickly",
+        "quick + -ly",
+        "عام طریقہ"
+      ],
+      [
+        "happily",
+        "happy → happily",
+        "y بدل کر i"
+      ],
+      [
+        "gently",
+        "gentle → gently",
+        "آخری e حذف"
+      ],
+      [
+        "fast",
+        "same form",
+        "adjective اور adverb دونوں"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the adverb formed from 'careful'.",
+        "options": [
+          "carefuly",
+          "carefully",
+          "carefuller"
+        ],
+        "answer": 1,
+        "why": "Add -ly to careful: carefully."
+      },
+      {
+        "q": "Choose the correct adverb from 'happy'.",
+        "options": [
+          "happyly",
+          "happily",
+          "happiley"
+        ],
+        "answer": 1,
+        "why": "Change y to i before adding -ly."
+      },
+      {
+        "q": "Which word can be both an adjective and an adverb without changing form?",
+        "options": [
+          "fast",
+          "beautiful",
+          "slowly"
+        ],
+        "answer": 0,
+        "why": "Fast can describe a noun or modify a verb."
+      }
+    ]
+  },
+  {
+    "id": "position-of-adverbs",
+    "title": "Position of Adverbs",
+    "subtitle": "Where adverbs usually appear in a sentence",
+    "urdu": "Adverb کی جگہ اس کے معنی اور قسم پر منحصر ہوتی ہے۔ Manner adverbs اکثر verb یا object کے بعد، frequency adverbs عام فعل سے پہلے مگر be کے بعد، اور time/place adverbs اکثر جملے کے آخر میں آتے ہیں۔",
+    "level": "Intermediate",
+    "duration": "9 min",
+    "rule": "Adverb placement depends on its type and emphasis: frequency adverbs usually precede main verbs but follow be; manner, place, and time adverbs often appear after the verb or object or at the end.",
+    "example": "She often reads. / He is always polite. / They worked carefully yesterday.",
+    "breakdown": [
+      [
+        "often reads",
+        "Frequency position",
+        "main verb سے پہلے"
+      ],
+      [
+        "is always",
+        "Frequency with be",
+        "be کے بعد"
+      ],
+      [
+        "worked carefully",
+        "Manner position",
+        "verb/object کے بعد"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the usual position: 'She ___ visits her aunt.'",
+        "options": [
+          "often",
+          "visits often always",
+          "always often"
+        ],
+        "answer": 0,
+        "why": "Frequency adverbs usually come before the main verb."
+      },
+      {
+        "q": "Choose the correct sentence.",
+        "options": [
+          "He always is late.",
+          "He is always late.",
+          "Always he late is."
+        ],
+        "answer": 1,
+        "why": "Frequency adverbs usually follow the verb be."
+      },
+      {
+        "q": "Where does a time adverb often appear?",
+        "options": [
+          "At the end of a sentence",
+          "Inside the subject noun",
+          "Before every article"
+        ],
+        "answer": 0,
+        "why": "Time adverbs commonly appear at the end, though other positions are possible."
+      }
+    ]
+  },
+  {
+    "id": "prepositions-following-words",
+    "title": "Words Followed by Prepositions",
+    "subtitle": "Common adjective, verb and noun combinations",
+    "urdu": "انگریزی میں کئی verbs، adjectives اور nouns مخصوص prepositions کے ساتھ استعمال ہوتے ہیں۔ مثال: listen to، depend on، interested in، afraid of، reason for۔ ان combinations کو مثالوں کے ساتھ یاد کریں۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "Many words form conventional combinations with particular prepositions; learn the complete phrase rather than translating each preposition literally.",
+    "example": "listen to music; depend on others; interested in science; proud of her work; a reason for delay.",
+    "breakdown": [
+      [
+        "listen to",
+        "Verb + preposition",
+        "کسی بات کو سننا"
+      ],
+      [
+        "depend on",
+        "Verb + preposition",
+        "انحصار کرنا"
+      ],
+      [
+        "interested in",
+        "Adjective + preposition",
+        "دلچسپی ہونا"
+      ],
+      [
+        "reason for",
+        "Noun + preposition",
+        "کسی چیز کی وجہ"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the correct phrase.",
+        "options": [
+          "listen at music",
+          "listen to music",
+          "listen on music"
+        ],
+        "answer": 1,
+        "why": "The standard phrase is listen to."
+      },
+      {
+        "q": "She is interested ___ science.",
+        "options": [
+          "on",
+          "at",
+          "in"
+        ],
+        "answer": 2,
+        "why": "Interested is commonly followed by in."
+      },
+      {
+        "q": "Success often depends ___ hard work.",
+        "options": [
+          "on",
+          "for",
+          "with"
+        ],
+        "answer": 0,
+        "why": "The verb depend is followed by on."
+      }
+    ]
+  },
+  {
+    "id": "the-conjunction",
+    "title": "The Conjunction",
+    "subtitle": "Joining words, phrases and clauses",
+    "urdu": "Conjunction ایسا لفظ ہے جو words، phrases یا clauses کو ملاتا ہے۔ اس کی بنیادی اقسام coordinating، subordinating اور correlative conjunctions ہیں۔",
+    "level": "Beginner",
+    "duration": "8 min",
+    "rule": "A conjunction joins words, phrases, or clauses; common groups are coordinating, subordinating, and correlative conjunctions.",
+    "example": "Tea and coffee; I stayed because it rained; either call or text.",
+    "breakdown": [
+      [
+        "and",
+        "Coordinating",
+        "برابر درجے کے الفاظ ملاتا ہے"
+      ],
+      [
+        "because",
+        "Subordinating",
+        "وجہ والی subordinate clause"
+      ],
+      [
+        "either...or",
+        "Correlative",
+        "جوڑے کی صورت میں انتخاب"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which word is a conjunction?",
+        "options": [
+          "under",
+          "because",
+          "quickly"
+        ],
+        "answer": 1,
+        "why": "Because joins a reason clause to the main clause."
+      },
+      {
+        "q": "Which conjunction joins equal grammatical units?",
+        "options": [
+          "Coordinating",
+          "Subordinating",
+          "Interjection"
+        ],
+        "answer": 0,
+        "why": "Coordinating conjunctions join units of equal grammatical status."
+      },
+      {
+        "q": "Complete: 'You can have ___ tea ___ coffee.'",
+        "options": [
+          "either / or",
+          "because / so",
+          "although / but"
+        ],
+        "answer": 0,
+        "why": "Either...or is a correlative pair for alternatives."
+      }
+    ]
+  },
+  {
+    "id": "conjunctions-and-their-uses",
+    "title": "Some Conjunctions and Their Uses",
+    "subtitle": "And, but, or, because, although, unless and more",
+    "urdu": "And اضافہ، but تضاد، or انتخاب، because وجہ، although رعایت، if شرط، unless منفی شرط، اور so نتیجہ ظاہر کرتا ہے۔ ہر conjunction دو حصوں کے درمیان منطقی تعلق قائم کرتا ہے۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "Choose conjunctions according to the relationship: addition (and), contrast (but/although), choice (or), reason (because), result (so), condition (if/unless), and time (when/while).",
+    "example": "I was tired, but I continued. / We stayed in because it rained. / Unless you hurry, you will miss the bus.",
+    "breakdown": [
+      [
+        "and",
+        "Addition",
+        "اضافہ"
+      ],
+      [
+        "but / although",
+        "Contrast",
+        "تضاد یا رعایت"
+      ],
+      [
+        "because",
+        "Reason",
+        "وجہ"
+      ],
+      [
+        "so",
+        "Result",
+        "نتیجہ"
+      ],
+      [
+        "if / unless",
+        "Condition",
+        "شرط"
+      ],
+      [
+        "when / while",
+        "Time",
+        "وقت"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Choose the conjunction of reason: 'We stayed home ___ it was raining.'",
+        "options": [
+          "because",
+          "but",
+          "or"
+        ],
+        "answer": 0,
+        "why": "Because introduces the reason."
+      },
+      {
+        "q": "Complete: '___ you practise, you will improve.'",
+        "options": [
+          "If",
+          "Although",
+          "Unless"
+        ],
+        "answer": 0,
+        "why": "If introduces a condition."
+      },
+      {
+        "q": "Which conjunction shows contrast?",
+        "options": [
+          "and",
+          "but",
+          "so"
+        ],
+        "answer": 1,
+        "why": "But connects contrasting ideas."
+      }
+    ]
+  },
+  {
+    "id": "the-interjection",
+    "title": "The Interjection",
+    "subtitle": "Words expressing sudden feeling or reaction",
+    "urdu": "Interjection ایسا لفظ یا مختصر فقرہ ہے جو اچانک جذبہ، حیرت، خوشی، درد یا افسوس ظاہر کرتا ہے۔ اسے اکثر exclamation mark یا comma سے الگ کیا جاتا ہے۔",
+    "level": "Beginner",
+    "duration": "7 min",
+    "rule": "An interjection expresses a sudden feeling or reaction and is often grammatically independent of the rest of the sentence.",
+    "example": "Hurrah! We have won. / Alas, the old tree has fallen. / Oh! I forgot.",
+    "breakdown": [
+      [
+        "Hurrah!",
+        "Joy",
+        "خوشی"
+      ],
+      [
+        "Alas,",
+        "Sorrow",
+        "افسوس"
+      ],
+      [
+        "Oh!",
+        "Surprise / realization",
+        "حیرت یا احساس"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Which is an interjection expressing joy?",
+        "options": [
+          "Hurrah!",
+          "Because",
+          "Under"
+        ],
+        "answer": 0,
+        "why": "Hurrah expresses happiness or triumph."
+      },
+      {
+        "q": "Choose the interjection in 'Alas! We lost the match.'",
+        "options": [
+          "lost",
+          "match",
+          "Alas"
+        ],
+        "answer": 2,
+        "why": "Alas expresses sorrow or regret."
+      },
+      {
+        "q": "What does an interjection usually express?",
+        "options": [
+          "A sudden feeling",
+          "Ownership",
+          "Verb tense"
+        ],
+        "answer": 0,
+        "why": "Interjections express reactions or emotions."
+      }
+    ]
+  },
+  {
+    "id": "same-word-different-parts-of-speech",
+    "title": "The Same Word Used as Different Parts of Speech",
+    "subtitle": "Meaning and function change with sentence context",
+    "urdu": "ایک ہی لفظ مختلف جملوں میں مختلف parts of speech کا کام کر سکتا ہے۔ اس کا کردار جملے میں اس کے استعمال سے طے ہوتا ہے، صرف لفظ کی شکل سے نہیں۔ مثال: a fast car (adjective)، run fast (adverb)، fast (verb: روزہ رکھنا)۔",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "rule": "A word's part of speech is determined by its function in context; the same spelling can serve as different parts of speech in different sentences.",
+    "example": "I drink water (noun/verb distinction: water as noun); Please water the plants (verb). / a fast train (adjective); run fast (adverb).",
+    "breakdown": [
+      [
+        "water",
+        "Noun",
+        "I drink water؛ چیز کا نام"
+      ],
+      [
+        "water",
+        "Verb",
+        "Water the plants؛ عمل"
+      ],
+      [
+        "fast",
+        "Adjective",
+        "fast train؛ train کی صفت"
+      ],
+      [
+        "fast",
+        "Adverb",
+        "run fast؛ فعل کی کیفیت"
+      ],
+      [
+        "before",
+        "Preposition / conjunction / adverb",
+        "جملے کے مطابق کردار بدل سکتا ہے"
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "In 'They fast during the day', what part of speech is 'fast'?",
+        "options": [
+          "Noun",
+          "Verb",
+          "Adjective"
+        ],
+        "answer": 1,
+        "why": "Fast is the verb meaning to abstain from food."
+      },
+      {
+        "q": "In 'a fast runner', what is 'fast'?",
+        "options": [
+          "Adjective",
+          "Adverb",
+          "Conjunction"
+        ],
+        "answer": 0,
+        "why": "Fast describes the noun runner."
+      },
+      {
+        "q": "In 'She runs fast', what is 'fast'?",
+        "options": [
+          "Adjective",
+          "Adverb",
+          "Preposition"
+        ],
+        "answer": 1,
+        "why": "Fast modifies the verb runs."
+      }
+    ]
+  },
 ];
 
 export const dailyQuestions = [
