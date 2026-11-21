@@ -147,6 +147,105 @@ export const lessons = [
     quiz: [
       { q: "Choose the reported form: He said, 'I am happy.'", options: ["He said he is happy.", "He said that he was happy.", "He says I was happy.", "He said that I am happy."], answer: 1, why: "In a common backshift pattern, am changes to was and I changes to he." }
     ]
+  },
+{
+    id: "adverbs", title: "Adverbs", subtitle: "Describing verbs, adjectives and other adverbs",
+    urdu: "Adverb فعل، صفت یا کسی دوسرے adverb کے بارے میں مزید معلومات دیتا ہے۔ یہ بتا سکتا ہے کہ کام کیسے، کب، کہاں یا کتنی شدت سے ہوا۔",
+    level: "Beginner", duration: "7 min",
+    rule: "An adverb modifies a verb, an adjective, or another adverb.",
+    example: "The athlete ran very quickly.",
+    breakdown: [["ran", "Verb", "دوڑنے کا عمل"], ["quickly", "Adverb", "بتاتا ہے کہ وہ کیسے دوڑا"], ["very", "Adverb", "quickly کی شدت بڑھاتا ہے"]],
+    quiz: [
+      { q: "Find the adverb: 'The baby slept peacefully.'", options: ["baby", "slept", "peacefully", "the"], answer: 2, why: "Peacefully explains how the baby slept." },
+      { q: "Which word modifies the adjective in 'extremely cold'?", options: ["extremely", "cold", "both", "neither"], answer: 0, why: "Extremely intensifies the adjective cold." }
+    ]
+  },
+  {
+    id: "conjunctions", title: "Conjunctions", subtitle: "Connecting words and ideas",
+    urdu: "Conjunction دو الفاظ، فقروں یا جملوں کو آپس میں ملاتا ہے۔ عام مثالیں and, but, or, because اور although ہیں۔",
+    level: "Beginner", duration: "8 min",
+    rule: "A conjunction joins words, phrases, or clauses.",
+    example: "I wanted to go, but it was raining.",
+    breakdown: [["but", "Conjunction", "دو متضاد خیالات کو جوڑتا ہے"]],
+    quiz: [
+      { q: "Choose the conjunction: 'Mina and Sara are friends.'", options: ["Mina", "and", "friends", "are"], answer: 1, why: "And joins the two names." },
+      { q: "Which conjunction gives a reason?", options: ["or", "but", "because", "yet"], answer: 2, why: "Because introduces a reason." }
+    ]
+  },
+  {
+    id: "interjections", title: "Interjections", subtitle: "Expressing sudden feelings",
+    urdu: "Interjection ایسا لفظ یا فقرہ ہے جو اچانک جذبہ یا ردِعمل ظاہر کرتا ہے، جیسے خوشی، حیرت یا دکھ۔",
+    level: "Beginner", duration: "5 min",
+    rule: "An interjection expresses a sudden feeling or reaction.",
+    example: "Wow! That was an amazing performance.",
+    breakdown: [["Wow!", "Interjection", "حیرت یا خوشی ظاہر کرتا ہے"]],
+    quiz: [{ q: "Which is an interjection?", options: ["although", "wow", "under", "carefully"], answer: 1, why: "Wow expresses a sudden reaction." }]
+  },
+  {
+    id: "subject-predicate", title: "Subject and Predicate", subtitle: "The two main parts of a sentence",
+    urdu: "Subject بتاتا ہے کہ جملہ کس کے بارے میں ہے، جبکہ predicate subject کے بارے میں کچھ بتاتا ہے اور عموماً فعل پر مشتمل ہوتا ہے۔",
+    level: "Beginner", duration: "8 min",
+    rule: "The subject tells who or what the sentence is about; the predicate says something about the subject.",
+    example: "The little bird / sang sweetly.",
+    breakdown: [["The little bird", "Subject", "جس کے بارے میں بات ہو رہی ہے"], ["sang sweetly", "Predicate", "subject کے بارے میں خبر"]],
+    quiz: [{ q: "Identify the subject: 'The old train arrived late.'", options: ["arrived late", "old", "The old train", "late"], answer: 2, why: "The old train is what the sentence is about." }]
+  },
+  {
+    id: "sentence-types", title: "Types of Sentences", subtitle: "Statements, questions, commands and exclamations",
+    urdu: "مقصد کے لحاظ سے جملوں کی چار عام اقسام ہیں: خبریہ، سوالیہ، حکمیہ اور فجائیہ۔",
+    level: "Beginner", duration: "8 min",
+    rule: "Sentences may be declarative, interrogative, imperative, or exclamatory.",
+    example: "She is ready. / Are you ready? / Please sit down. / What a day!",
+    breakdown: [["She is ready.", "Declarative", "معلومات دیتا ہے"], ["Are you ready?", "Interrogative", "سوال کرتا ہے"], ["Please sit down.", "Imperative", "درخواست یا حکم"]],
+    quiz: [{ q: "'Where do you live?' is which type?", options: ["Declarative", "Interrogative", "Imperative", "Exclamatory"], answer: 1, why: "It asks a question." }]
+  },
+  {
+    id: "subject-verb-agreement", title: "Subject–Verb Agreement", subtitle: "Matching verbs with their subjects",
+    urdu: "جملے میں فعل کی صورت subject کے واحد یا جمع ہونے اور grammatical person کے مطابق ہونی چاہیے۔",
+    level: "Intermediate", duration: "10 min",
+    rule: "A verb must agree with its subject in number and person.",
+    example: "The boy plays. / The boys play.",
+    breakdown: [["boy plays", "Singular agreement", "واحد subject کے ساتھ plays"], ["boys play", "Plural agreement", "جمع subject کے ساتھ play"]],
+    quiz: [
+      { q: "Choose the correct sentence.", options: ["The girls sings.", "The girls sing.", "The girls singing."], answer: 1, why: "A plural subject takes the plural verb form sing." },
+      { q: "Each of the students ___ a book.", options: ["have", "has", "are"], answer: 1, why: "Each is grammatically singular, so use has." }
+    ]
+  },
+  {
+    id: "punctuation", title: "Punctuation", subtitle: "Making meaning clear",
+    urdu: "Punctuation marks تحریر میں وقفہ، سوال، جذبات اور جملوں کی ساخت واضح کرتے ہیں۔",
+    level: "Beginner", duration: "7 min",
+    rule: "Punctuation marks organize writing and clarify meaning.",
+    example: "Let's eat, Grandma! / Let's eat Grandma!",
+    breakdown: [[",", "Comma", "مختصر وقفہ اور معنی واضح کرتا ہے"], ["?", "Question mark", "سوال کے آخر میں آتا ہے"], [".", "Full stop", "عام خبریہ جملے کے آخر میں آتا ہے"]],
+    quiz: [{ q: "Which mark normally ends a direct question?", options: [".", ",", "?", ":"], answer: 2, why: "A question mark is used at the end of a direct question." }]
+  },
+  {
+    id: "countable-uncountable", title: "Countable and Uncountable Nouns", subtitle: "Using quantity words correctly",
+    urdu: "Countable nouns کو گنا جا سکتا ہے، جیسے books؛ uncountable nouns کو عام طور پر الگ الگ شمار نہیں کیا جاتا، جیسے water یا information۔",
+    level: "Intermediate", duration: "8 min",
+    rule: "Countable nouns have singular and plural forms; uncountable nouns are not normally used in the plural.",
+    example: "many books / much water / a piece of information",
+    breakdown: [["books", "Countable", "تعداد گنی جا سکتی ہے"], ["water", "Uncountable", "عام طور پر مقدار ناپی جاتی ہے"], ["information", "Uncountable", "a piece of information کہیں"]],
+    quiz: [{ q: "Choose the correct phrase.", options: ["many water", "much water", "many informations"], answer: 1, why: "Water is uncountable, so much is appropriate." }]
+  },
+  {
+    id: "comparatives-superlatives", title: "Comparative and Superlative Adjectives", subtitle: "Comparing people and things",
+    urdu: "Comparative دو چیزوں کا موازنہ کرتا ہے؛ superlative تین یا زیادہ میں سب سے نمایاں چیز بتاتا ہے۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "Use comparative forms to compare two; use superlative forms to identify the highest or lowest degree in a group.",
+    example: "tall, taller, tallest / beautiful, more beautiful, most beautiful",
+    breakdown: [["taller", "Comparative", "دو افراد یا چیزوں کا موازنہ"], ["tallest", "Superlative", "گروہ میں سب سے زیادہ لمبا"]],
+    quiz: [{ q: "Choose the superlative of 'good'.", options: ["gooder", "more good", "best", "better"], answer: 2, why: "Good has the irregular superlative form best." }]
+  },
+  {
+    id: "modals", title: "Modal Verbs", subtitle: "Ability, permission, advice and possibility",
+    urdu: "Modal verbs جیسے can, could, may, might, must اور should صلاحیت، اجازت، امکان، ضرورت یا مشورہ ظاہر کرتے ہیں۔ ان کے بعد عموماً verb کی base form آتی ہے۔",
+    level: "Intermediate", duration: "9 min",
+    rule: "Modal auxiliary verbs express meanings such as ability, permission, possibility, obligation, or advice.",
+    example: "You should practise daily. / She can swim.",
+    breakdown: [["should", "Modal", "مشورہ ظاہر کرتا ہے"], ["can", "Modal", "صلاحیت ظاہر کرتا ہے"], ["practise / swim", "Base verb", "modal کے بعد بنیادی صورت"]],
+    quiz: [{ q: "Which modal is commonly used to give advice?", options: ["should", "mustn't", "mightn't", "wouldn't"], answer: 0, why: "Should is commonly used for advice or recommendation." }]
   }
 ];
 
