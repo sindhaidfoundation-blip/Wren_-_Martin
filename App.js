@@ -556,7 +556,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
   function Lesson() {
     if (!selected) return null;
     return <ScrollView contentContainerStyle={styles.content}>
-      <TouchableOpacity onPress={() => setTab("Learn")}><Text style={styles.back}>‹  ALL LESSONS</Text></TouchableOpacity>
+      <TouchableOpacity accessibilityRole="button" accessibilityLabel="Back to all lessons" onPress={() => setTab("Learn")} style={styles.backButton}><Text style={styles.backButtonText}>‹  BACK TO ALL LESSONS</Text></TouchableOpacity>
       <Header eyebrow={selected.level.toUpperCase() + " · " + selected.duration.toUpperCase()} title={selected.title} subtitle={selected.subtitle} />
       <View style={styles.lessonPanel}><Text style={styles.panelLabel}>THE RULE</Text><Text style={styles.ruleText}>{selected.rule}</Text><Text style={styles.urduText}>{selected.urdu}</Text><Text style={styles.sindhiText}>{sindhiTranslations[selected.id]}</Text></View>
       <View style={styles.examplePanel}><Text style={styles.panelLabel}>EXAMPLE</Text><Text style={styles.exampleText}>{selected.example}</Text></View>
@@ -826,7 +826,8 @@ const styles = StyleSheet.create({
   pillTextActive: { color: "#FFFFFF" },
   listCount: { color: muted, fontSize: 9, letterSpacing: 1.2, fontWeight: "900", marginBottom: 10 },
   doneMark: { color: green, fontSize: 10, fontWeight: "800", marginTop: -4, marginBottom: 9, marginLeft: 57 },
-  back: { color: green, fontSize: 10, fontWeight: "900", letterSpacing: 1.1, marginBottom: 12, marginTop: 5 },
+  backButton: { alignSelf: "flex-start", minHeight: 46, justifyContent: "center", backgroundColor: navy, borderRadius: 13, borderWidth: 1.5, borderColor: gold, paddingHorizontal: 17, paddingVertical: 11, marginBottom: 16, marginTop: 5, elevation: 3 },
+  backButtonText: { color: "#FFFFFF", fontSize: 13, fontWeight: "900", letterSpacing: 0.8 },
   lessonPanel: { backgroundColor: "#FFFFFF", borderRadius: 20, padding: 19, borderWidth: 1, borderColor: "#E9ECF2", marginBottom: 12 },
   panelLabel: { color: green, fontSize: 9, fontWeight: "900", letterSpacing: 1.4 },
   ruleText: { color: ink, fontSize: 17, lineHeight: 25, fontWeight: "800", marginTop: 10 },
