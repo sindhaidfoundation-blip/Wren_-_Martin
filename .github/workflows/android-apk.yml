@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - fix/android-startup-diagnostics
     paths:
       - "**"
       - ".github/workflows/android-apk.yml"
@@ -34,6 +35,11 @@ jobs:
 
       - name: Install JavaScript dependencies
         run: npm install --no-audit --no-fund
+
+      - name: Check Expo configuration
+        run: |
+          npm run check:config
+          npx expo-doctor
 
       - name: Generate Android native project
         run: npx expo prebuild --platform android --non-interactive
@@ -85,18 +91,62 @@ jobs:
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
           disable-animations: true
           script: |
+            set -eu
+            LOG="android-api-${{ matrix.api-level }}-launch.log"
+            capture_log() {
+              adb logcat -d -b all -t 20000 > "$LOG" 2>&1 || true
+              echo "===== Recent Android logcat (API ${{ matrix.api-level }}) ====="
+              tail -n 250 "$LOG" || true
+              echo "===== App process ====="
+              adb shell pidof com.grammar.master.wrenmartin || true
+              echo "===== Focused activity ====="
+              adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity" | tail -n 5 || true
+            }
+            trap capture_log EXIT
+
+            adb wait-for-device
+            for attempt in $(seq 1 30); do
+              [ "$(adb shell getprop sys.boot_completed | tr -d '\r')" = "1" ] && break
+              sleep 2
+            done
+            test "$(adb shell getprop sys.boot_completed | tr -d '\r')" = "1"
+
             adb install -r app/app-release.apk
-            adb logcat -c
+            # A fresh emulator already has a clean buffer. Do not make logcat
+            # buffer clearing a prerequisite: older emulator images can reject it.
+            adb logcat -c >/dev/null 2>&1 || true
+
             adb shell monkey -p com.grammar.master.wrenmartin 1
-            sleep 45
-            test -n "$(adb shell pidof com.grammar.master.wrenmartin)"
+            app_started=false
+            for attempt in $(seq 1 60); do
+              if adb shell pidof com.grammar.master.wrenmartin | tr -d '\r' | grep -q '[0-9]'; then
+                app_started=true
+                break
+              fi
+              sleep 2
+            done
+            test "$app_started" = "true"
+
+            sleep 10
             adb shell am force-stop com.grammar.master.wrenmartin
             sleep 2
             adb shell monkey -p com.grammar.master.wrenmartin 1
-            sleep 20
-            test -n "$(adb shell pidof com.grammar.master.wrenmartin)"
-            adb logcat -d -b all -t 10000 > android-api-${{ matrix.api-level }}-launch.log
-            ! grep -Eq "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)|Unable to load script" android-api-${{ matrix.api-level }}-launch.log
+            app_restarted=false
+            for attempt in $(seq 1 30); do
+              if adb shell pidof com.grammar.master.wrenmartin | tr -d '\r' | grep -q '[0-9]'; then
+                app_restarted=true
+                break
+              fi
+              sleep 2
+            done
+            test "$app_restarted" = "true"
+            sleep 5
+
+            adb logcat -d -b all -t 20000 > "$LOG"
+            if grep -Eq "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)|Unable to load script" "$LOG"; then
+              echo "A fatal app/runtime error was detected in logcat."
+              exit 1
+            fi
 
       - name: Upload Android API ${{ matrix.api-level }} launch log
         if: always()
