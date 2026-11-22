@@ -586,6 +586,24 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             </View>)}
           </View>)}
         </View> : null}
+        {topicDetails[selected.id].specialSections?.some(section => section.verbTable) ? <View style={{ gap: 12, marginTop: 12 }}>
+          <Text style={styles.sectionTitle}>VERB FORMS — V1, V2 AND V3</Text>
+          {topicDetails[selected.id].specialSections.filter(section => section.verbTable).map(section => <View key={section.title} style={{ gap: 8 }}>
+            <Text style={{ color: navy, fontSize: 16, fontWeight: "800" }}>{section.title}</Text>
+            <View style={{ borderWidth: 1, borderColor: "#D9E0EA", borderRadius: 12, overflow: "hidden", backgroundColor: "#FFFFFF" }}>
+              <View style={{ flexDirection: "row", backgroundColor: "#EAF0F8", borderBottomWidth: 1, borderBottomColor: "#E5EAF0" }}>
+                {["Base Form (V1)", "Simple Past (V2)", "Past Participle (V3)"].map((heading, index) => <View key={heading} style={{ flex: 1, padding: 8, borderRightWidth: index === 2 ? 0 : 1, borderRightColor: "#E5EAF0" }}>
+                  <Text style={{ color: navy, fontSize: 11, lineHeight: 16, fontWeight: "800" }}>{heading}</Text>
+                </View>)}
+              </View>
+              {section.verbTable.map((row, rowIndex) => <View key={rowIndex} style={{ flexDirection: "row", backgroundColor: rowIndex % 2 === 0 ? "#FFFFFF" : "#F8FAFC", borderBottomWidth: rowIndex === section.verbTable.length - 1 ? 0 : 1, borderBottomColor: "#E5EAF0" }}>
+                {row.map((cell, cellIndex) => <View key={cellIndex} style={{ flex: 1, padding: 8, borderRightWidth: cellIndex === 2 ? 0 : 1, borderRightColor: "#E5EAF0" }}>
+                  <Text style={{ color: ink, fontSize: 12, lineHeight: 17, fontWeight: cellIndex === 0 ? "700" : "500" }}>{cell}</Text>
+                </View>)}
+              </View>)}
+            </View>
+          </View>)}
+        </View> : null}
         {topicDetails[selected.id].voiceTable ? <View style={{ gap: 10, marginTop: 12 }}>
           <Text style={styles.sectionTitle}>{topicDetails[selected.id].voiceTableTitle}</Text>
           <View style={{ borderWidth: 1, borderColor: "#D9E0EA", borderRadius: 12, overflow: "hidden", backgroundColor: "#FFFFFF" }}>
