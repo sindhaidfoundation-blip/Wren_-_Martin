@@ -13763,6 +13763,46 @@ topicDetails["past-tense"] = {
           "The immediate base is the word to which the final affix is added."
         ]
       ]
+    },
+    {
+      "title": "How to Study Latin Roots",
+      "english": "For each root, learn (1) its meaning, (2) the related English word family, and (3) how the word is used in a sentence. For example, aqua means water: aquatic means related to water, and an aquarium is a tank for aquatic animals. Root forms may change when combined with prefixes or suffixes. The list gives useful word-family relationships, not necessarily a direct one-step history for every word.",
+      "urdu": "ہر root کے لیے تین چیزیں یاد کریں: (1) اس کا معنی، (2) اس سے متعلق انگریزی الفاظ، (3) جملے میں اس کا استعمال۔ مثال: aqua کا مطلب پانی ہے؛ aquatic یعنی پانی سے متعلق، اور aquarium پانی کے جانوروں کا ٹینک ہے۔ Prefix یا suffix لگنے پر root کی صورت بدل سکتی ہے۔ فہرست لفظی خاندان دکھاتی ہے، ہر لفظ کی براہِ راست تاریخی تشکیل نہیں۔",
+      "sindhi": "هر root لاءِ ٽي ڳالهيون ياد ڪريو: (1) معنيٰ، (2) لاڳاپيل انگريزي لفظ، (3) جملي ۾ استعمال. مثال aqua جو مطلب پاڻي آهي؛ aquatic يعني پاڻيءَ سان لاڳاپيل، ۽ aquarium پاڻيءَ جي جانورن جو ٽئنڪ آهي. Prefix يا suffix ملڻ سان root جي صورت بدلجي سگهي ٿي.",
+      "examples": [
+        [
+          "aqua → aquatic → aquarium",
+          "پانی → آبی → مچھلیوں کا شیشہ گھر",
+          "پاڻي → آبي → مڇين جو ٽئنڪ",
+          "The root aqua means water."
+        ],
+        [
+          "capio/captus → capture → captive",
+          "پکڑنا → قبضہ کرنا → قیدی",
+          "پڪڙڻ → قبضو ڪرڻ → قيدي",
+          "The root family relates to taking or seizing."
+        ]
+      ]
+    },
+    {
+      "title": "Practice — Latin Roots",
+      "english": "A. Match: aqua, bene, brevis, audio, bellum, vita, manus, scribo. B. Give two derivatives: capio/captus, ago/actus, annus, terra, voco. C. Identify the root in audible, annual, aquatic, manuscript, transport, visible, benevolent and mortality. D. Correct these forms: “Dquus”, “ars, argis”, “caro, carnus”. Answers: A. water; good/well; short; hear; war; life; hand; write. B. capture/captive; action/active; annual/anniversary; terrestrial/territory; vocal/vocation. C. aud-, ann-, aqu-, manu-/script-, port-, vis-, bene-, mort-. D. aequus; ars, artis; caro, carnis.",
+      "urdu": "A. ملائیں: aqua، bene، brevis، audio، bellum، vita، manus، scribo۔ B. دو مشتقات لکھیں: capio/captus، ago/actus، annus، terra، voco۔ C. audible، annual، aquatic، manuscript، transport، visible، benevolent اور mortality میں root پہچانیں۔ D. املا درست کریں: “Dquus”، “ars, argis”، “caro, carnus”۔ جوابات: A. پانی؛ اچھا؛ مختصر؛ سننا؛ جنگ؛ زندگی؛ ہاتھ؛ لکھنا۔ B. capture/captive؛ action/active؛ annual/anniversary؛ terrestrial/territory؛ vocal/vocation۔ C. aud-، ann-، aqu-، manu-/script-، port-، vis-، bene-، mort-۔ D. aequus؛ ars, artis؛ caro, carnis۔",
+      "sindhi": "A. ملائي لکو: aqua، bene، brevis، audio، bellum، vita، manus، scribo. B. ٻه نڪتل لفظ لکو: capio/captus، ago/actus، annus، terra، voco. C. audible، annual، aquatic، manuscript، transport، visible، benevolent ۽ mortality ۾ root سڃاڻو. D. صورتون درست ڪريو: “Dquus”، “ars, argis”، “caro, carnus”. جواب: A. پاڻي؛ سٺو؛ مختصر؛ ٻڌڻ؛ جنگ؛ زندگي؛ هٿ؛ لکڻ. B. capture/captive؛ action/active؛ annual/anniversary؛ terrestrial/territory؛ vocal/vocation. C. aud-، ann-، aqu-، manu-/script-، port-، vis-، bene-، mort-. D. aequus؛ ars, artis؛ caro, carnis.",
+      "examples": [
+        [
+          "bellum → belligerent; vita → vital",
+          "جنگ → جنگجو؛ زندگی → اہم",
+          "جنگ → جنگجو؛ زندگي → اهم",
+          "Roots help infer unfamiliar vocabulary."
+        ],
+        [
+          "manus → manual; annus → annual",
+          "ہاتھ → دستی؛ سال → سالانہ",
+          "هٿ → هٿ سان لاڳاپيل؛ سال → ساليانو",
+          "Recognise the root within a longer word."
+        ]
+      ]
     }
   ]
 }
