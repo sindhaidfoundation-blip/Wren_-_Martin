@@ -7881,7 +7881,7 @@ export const topicDetails = {
           ["remember", "remembered", "remembered"], ["start", "started", "started"], ["stop", "stopped", "stopped"], ["study", "studied", "studied"], ["talk", "talked", "talked"],
           ["travel", "travelled", "travelled"], ["try", "tried", "tried"], ["use", "used", "used"], ["visit", "visited", "visited"], ["wait", "waited", "waited"],
           ["walk", "walked", "walked"], ["want", "wanted", "wanted"], ["watch", "watched", "watched"], ["work", "worked", "worked"], ["wash", "washed", "washed"]
-        ]        ],
+        ],
         examples: [
           ["I accept your invitation.", "میں آپ کی دعوت قبول کرتا ہوں۔", "مان توهان جي دعوت قبول ڪريان ٿو.", "Accept is V1, used here in the simple present."],
           ["She accepted the invitation yesterday.", "اس نے کل دعوت قبول کی۔", "هن ڪالهه دعوت قبول ڪئي.", "Accepted is V2, showing a completed action at a past time."],
@@ -7909,7 +7909,7 @@ export const topicDetails = {
           ["hear", "heard", "heard"], ["keep", "kept", "kept"], ["know", "knew", "known"], ["leave", "left", "left"], ["make", "made", "made"],
           ["meet", "met", "met"], ["read", "read", "read"], ["ride", "rode", "ridden"], ["ring", "rang", "rung"], ["run", "ran", "run"],
           ["say", "said", "said"], ["see", "saw", "seen"], ["sing", "sang", "sung"], ["speak", "spoke", "spoken"], ["write", "wrote", "written"]
-        ]        ],
+        ],
         examples: [
           ["I go to school every day.", "میں ہر روز اسکول جاتا ہوں۔", "مان هر روز اسڪول وڃان ٿو.", "Go is V1, the base form used with I in the simple present."],
           ["I went to school yesterday.", "میں کل اسکول گیا۔", "مان ڪالهه اسڪول ويس.", "Went is V2, the irregular simple past form of go."],
