@@ -13803,6 +13803,248 @@ topicDetails["past-tense"] = {
           "Recognise the root within a longer word."
         ]
       ]
+    },
+    {
+      "title": "A Few Latin Roots — Expanded Word List",
+      "english": "Latin roots are base forms from Latin words that appear in many English words. A root may appear in a changed form (for example, capio/captus gives capt- in capture, while audio gives aud- in audible). The forms below are corrected where the supplied list contained likely spelling errors: aequus (not “Dquus”), ago/actus (not “Agi,actus”), ars/artis (not “ars,argis”), and caro/carnis (not “caro,carnus”). Gens is given with its genitive gentis; jacio has the perfect participle jactus. Amo was repeated in the request, so it is listed once. Meanings are concise guides; English derivatives sometimes entered through French or other languages, and not every related-looking word is a direct modern formation from the Latin form.",
+      "urdu": "Latin roots لاطینی زبان کے بنیادی لفظی اجزاء ہیں جو بہت سے انگریزی الفاظ میں ملتے ہیں۔ لفظ بننے کے دوران root کی شکل بدل سکتی ہے، مثلاً capio/captus سے capture میں capt- آتا ہے، اور audio سے audible میں aud- آتا ہے۔ فراہم کردہ فہرست میں چند املا کی ممکنہ غلطیاں درست کی گئی ہیں: aequus (نہ کہ “Dquus”)، ago/actus، ars/artis، اور caro/carnis۔ Gens کی genitive صورت gentis ہے؛ jacio کی perfect participle صورت jactus ہے۔ Amo دو مرتبہ لکھا گیا تھا، اس لیے ایک بار شامل ہے۔ معنی مختصر رہنمائی ہیں؛ بعض انگریزی الفاظ فرانسیسی یا دوسری زبانوں کے ذریعے آئے ہیں، اس لیے ہر لفظ کو براہِ راست جدید لاطینی تشکیل نہ سمجھیں۔",
+      "sindhi": "Latin roots لاطيني ٻوليءَ جا بنيادي لفظي حصا آهن، جيڪي ڪيترن انگريزي لفظن ۾ ملن ٿا. لفظ ٺهڻ وقت root جي صورت بدلجي سگهي ٿي، مثال capio/captus مان capture ۾ capt- ۽ audio مان audible ۾ aud- اچي ٿو. ڏنل فهرست جون ڪجهه امڪاني اسپيلنگ غلطيون درست ڪيون ويون آهن: aequus، ago/actus، ars/artis، caro/carnis. Gens جي genitive صورت gentis آهي؛ jacio جي perfect participle صورت jactus آهي. Amo ٻه ڀيرا لکيل هو، تنهنڪري هڪ ڀيرو شامل ڪيو ويو آهي. معنائون مختصر رهنمائي آهن؛ ڪجهه انگريزي لفظ فرانسيسي يا ٻين ٻولين وسيلي آيا آهن، تنهنڪري هر لفظ کي سڌي جديد لاطيني ٺهڻ نه سمجهو.",
+      "examples": [
+        [
+          "aequus — equal, level; equate, equal, equity",
+          "برابر، ہم سطح؛ برابر کرنا، مساوات",
+          "برابر، هموار؛ برابر ڪرڻ، برابري",
+          "The aequ- family relates to equality or evenness."
+        ],
+        [
+          "ager — field; agriculture, agrarian",
+          "کھیت؛ زراعت، زرعی",
+          "ٻني؛ زراعت، زرعي",
+          "Ager is the Latin word for a field."
+        ],
+        [
+          "ago, actus — do, drive, set in motion; act, action, active, agent",
+          "کرنا، حرکت دینا؛ عمل، کارروائی، فعال",
+          "ڪرڻ، حرڪت ڏيڻ؛ عمل، سرگرمي، فعال",
+          "Act- appears in many words connected with doing."
+        ],
+        [
+          "alius — other; alias, alien (historically related through Latin forms)",
+          "دوسرا؛ عرف، اجنبی",
+          "ٻيو؛ عرف، ڌاريو",
+          "Alius means other; individual derivatives may have complex histories."
+        ],
+        [
+          "amo, amatus — love; amatory, amateur (via French)",
+          "محبت کرنا؛ عشقیہ، شوقیہ",
+          "پيار ڪرڻ؛ عشقيه، شوقيه",
+          "The am- root is associated with love."
+        ],
+        [
+          "angulus — corner, angle; angular, angle",
+          "کونا، زاویہ؛ زاویائی",
+          "ڪنڊ، زاويه؛ ڪنڊائتو",
+          "Angulus is the source of the English word angle."
+        ],
+        [
+          "anima — breath, life, soul; animal, animate, animation",
+          "سانس، جان، روح؛ جانور، زندہ کرنا، حرکت",
+          "ساهه، جان، روح؛ جانور، جيئرو ڪرڻ، چرپر",
+          "Anima relates to life or breath."
+        ],
+        [
+          "annus — year; annual, anniversary, perennial",
+          "سال؛ سالانہ، سالگرہ، کئی سال رہنے والا",
+          "سال؛ ساليانو، سالگرهه، گهڻن سالن وارو",
+          "Annual means yearly; anniversary marks a year or recurring date."
+        ],
+        [
+          "aperio, apertus — open, uncover; aperture, apert(ure)",
+          "کھولنا؛ سوراخ، دہانہ",
+          "کولڻ؛ سوراخ، کليل جاءِ",
+          "Apert- appears in words referring to an opening."
+        ],
+        [
+          "aqua — water; aquatic, aquarium, aqueduct",
+          "پانی؛ آبی، مچھلی گھر، آبی نالی",
+          "پاڻي؛ آبي، مڇين جو ٽئنڪ، پاڻيءَ جي نهر",
+          "Aqua is a very common Latin root for water."
+        ],
+        [
+          "appello, appellatus — address, call, name; appellation, appeal",
+          "مخاطب کرنا، پکارنا؛ نام، اپیل",
+          "مخاطب ڪرڻ، سڏڻ؛ نالو، اپيل",
+          "Appell- is associated with calling or addressing."
+        ],
+        [
+          "ars, artis — art, skill; artist, artistic, artisan",
+          "فن، ہنر؛ فنکار، فنی، کاریگر",
+          "فن، هنر؛ فنڪار، فني، ڪاريگر",
+          "Artis is the genitive form; art- appears in derivatives."
+        ],
+        [
+          "audio, auditum — hear; audible, audience, audition, auditorium",
+          "سننا؛ قابلِ سماعت، سامعین، آڈیشن، آڈیٹوریم",
+          "ٻڌڻ؛ ٻڌڻ جهڙو، ٻڌندڙ، آڊيشن، آڊيٽوريم",
+          "Aud- is the common combining form meaning hear."
+        ],
+        [
+          "bellum — war; bellicose, belligerent, antebellum",
+          "جنگ؛ جنگجو، جنگ پسند، جنگ سے پہلے کا",
+          "جنگ؛ جنگجو، جنگ پسند، جنگ کان اڳ وارو",
+          "Bell- in these words relates to war, not the English word bell."
+        ],
+        [
+          "bene — well, good; benefit, benevolent, benefactor",
+          "اچھا، بھلا؛ فائدہ، خیرخواہ، محسن",
+          "سٺو، ڀلو؛ فائدو، خيرخواهه، محسن",
+          "Bene means well or good."
+        ],
+        [
+          "brevis — short; brief, brevity, abbreviate",
+          "مختصر؛ مختصر، اختصار، مختصر کرنا",
+          "مختصر؛ مختصر، اختصار، مختصر ڪرڻ",
+          "Brev- appears in words connected with shortness."
+        ],
+        [
+          "caedo, caesus — cut, kill; decide, incision, precise, homicide",
+          "کاٹنا، قتل کرنا؛ فیصلہ کرنا، چیرا، درست، قتل",
+          "ڪٽڻ، مارڻ؛ فيصلو، چير، درست، قتل",
+          "The caes-/cid- family appears in several words with cut or kill meanings; histories vary."
+        ],
+        [
+          "candeo — shine, glow, be white-hot; candid, candour, incandescent",
+          "چمکنا، روشن ہونا؛ صاف گو، صاف دلی، دہکتا ہوا",
+          "چمڪڻ، روشن ٿيڻ؛ صاف گو، صاف دلي، ٻرندڙ",
+          "Cand- is associated with brightness or whiteness."
+        ],
+        [
+          "capio, captus — take, seize; capture, captive, capable, accept",
+          "لینا، پکڑنا؛ گرفتار کرنا، قیدی، قابل، قبول کرنا",
+          "وٺڻ، پڪڙڻ؛ پڪڙڻ، قيدي، قابل، قبول ڪرڻ",
+          "Capt- is a common form in words connected with taking or receiving."
+        ],
+        [
+          "caro, carnis — flesh, meat; carnivore, carnivorous, carnal",
+          "گوشت؛ گوشت خور، جسمانی",
+          "گوشت؛ گوشت خور، جسماني",
+          "Carn- is the combining form for flesh or meat."
+        ],
+        [
+          "gens, gentis — family, clan, people; gentile, genetic, generation (related Latin family)",
+          "قوم، خاندان؛ غیر قوم، جینیاتی، نسل",
+          "قوم، ڪٽنب؛ ٻي قوم جو، جينياتي، نسل",
+          "Gent- and gen- forms occur in words about people, birth and origin."
+        ],
+        [
+          "jacio, jactus — throw, hurl; project, reject, inject, object, trajectory",
+          "پھینکنا؛ منصوبہ بنانا، رد کرنا، انجیکشن دینا، اعتراض",
+          "اڇلائڻ؛ اڳيان اڇلائڻ، رد ڪرڻ، اندر وجهڻ، اعتراض",
+          "Ject- is the common form meaning throw."
+        ],
+        [
+          "manus — hand; manual, manuscript, manufacture, manipulate",
+          "ہاتھ؛ دستی، قلمی نسخہ، بنانا، قابو کرنا",
+          "هٿ؛ هٿ سان، قلمي نسخو، ٺاهڻ، هٿ چراند",
+          "Manu- is associated with the hand."
+        ],
+        [
+          "mitto, missus — send, let go; transmit, mission, dismiss, missile",
+          "بھیجنا، چھوڑنا؛ منتقل کرنا، مشن، برطرف کرنا، میزائل",
+          "موڪلڻ، ڇڏڻ؛ منتقل ڪرڻ، مشن، برطرف ڪرڻ، ميزائل",
+          "Miss-/mit- appears in words about sending."
+        ],
+        [
+          "moveo, motus — move; motion, movement, motive, motor",
+          "حرکت کرنا؛ حرکت، تحریک، محرک، موٹر",
+          "حرڪت ڪرڻ؛ حرڪت، تحريڪ، سبب، موٽر",
+          "Mot- is a common form related to movement."
+        ],
+        [
+          "navis — ship; naval, navigate, navy",
+          "جہاز؛ بحری، راستہ تلاش کرنا، بحریہ",
+          "جهاز؛ بحري، رستو ڳولڻ، بحري فوج",
+          "Nav- is connected with ships and sailing."
+        ],
+        [
+          "nomen, nominis — name; nominal, nominate, nomenclature",
+          "نام؛ اسمی، نامزد کرنا، اصطلاحات",
+          "نالو؛ نالي وارو، نامزد ڪرڻ، اصطلاحن جو نظام",
+          "Nomin- is a common form of the root."
+        ],
+        [
+          "novus — new; novel, novice, renovate, innovation",
+          "نیا؛ نیا ناول، نوآموز، تجدید، جدت",
+          "نئون؛ ناول، نئون سکڻ وارو، نئين سر ٺاهڻ، جدت",
+          "Nov- means new."
+        ],
+        [
+          "pater, patris — father; paternal, paternity, patriarch",
+          "باپ؛ پدری، باپ ہونا، خاندان کا سربراہ",
+          "پيءُ؛ پيءُ وارو، پيءُ هجڻ، خاندان جو وڏو",
+          "Patr- is a common form in related words."
+        ],
+        [
+          "pax, pacis — peace; pacify, pacific, pacifist",
+          "امن؛ صلح کرانا، پُرامن، امن پسند",
+          "امن؛ پرچائڻ، امن وارو، امن پسند",
+          "Pac- forms words associated with peace."
+        ],
+        [
+          "pedis / pes, pedis — foot; pedal, pedestrian, pedicure",
+          "پاؤں؛ پیڈل، پیدل چلنے والا، پاؤں کی دیکھ بھال",
+          "پير؛ پيڊل، پيادل هلندڙ، پيرن جي سنڀال",
+          "Ped- is the common combining form for foot."
+        ],
+        [
+          "pono, positus — place, put; position, deposit, impose, composition",
+          "رکھنا؛ مقام، جمع کرانا، مسلط کرنا، ترکیب",
+          "رکڻ؛ جاءِ، جمع ڪرائڻ، مڙهڻ، جوڙجڪ",
+          "Posit-/pon- appears in words about placing."
+        ],
+        [
+          "porto — carry; transport, portable, porter, import",
+          "اٹھانا، لے جانا؛ نقل و حمل، قابلِ حمل، باربردار، درآمد",
+          "کڻڻ، کڻي وڃڻ؛ آمدرفت، کڻي سگهڻ، بار کڻندڙ، درآمد",
+          "Port- is connected with carrying."
+        ],
+        [
+          "scribo, scriptus — write; describe, prescribe, manuscript, scripture",
+          "لکھنا؛ بیان کرنا، تجویز کرنا، قلمی نسخہ، صحیفہ",
+          "لکڻ؛ بيان ڪرڻ، تجويز ڪرڻ، قلمي نسخو، صحيفو",
+          "Scrib-/script- are forms meaning write."
+        ],
+        [
+          "specto — look at, watch; inspect, spectator, spectacle, respect",
+          "دیکھنا؛ معائنہ کرنا، تماشائی، منظر، احترام",
+          "ڏسڻ؛ جاچڻ، تماشائي، نظارو، احترام",
+          "Spect- is associated with looking or observing."
+        ],
+        [
+          "terra — earth, land; terrestrial, territory, terrain",
+          "زمین؛ زمینی، علاقہ، خطہ",
+          "ڌرتي، زمين؛ زميني، علائقو، زمين جو ڀاڱو",
+          "Terr- appears in words connected with land."
+        ],
+        [
+          "venio, ventus — come; invent, prevent, convene, adventure",
+          "آنا؛ ایجاد کرنا، روکنا، جمع ہونا، مہم",
+          "اچڻ؛ ايجاد ڪرڻ، روڪڻ، گڏ ٿيڻ، مهم",
+          "Ven-/vent- appears in words connected with coming."
+        ],
+        [
+          "video, visus — see; visible, vision, visual, evidence",
+          "دیکھنا؛ نظر آنے والا، بصارت، بصری، ثبوت",
+          "ڏسڻ؛ نظر ايندڙ، بصارت، بصري، ثبوت",
+          "Vis-/vid- is associated with seeing."
+        ],
+        [
+          "voco, vocatus — call, voice; vocal, vocation, invoke, revoke",
+          "بلانا؛ صوتی، پیشہ، دعا کرنا، منسوخ کرنا",
+          "سڏڻ؛ آواز وارو، پيشو، سڏڻ، رد ڪرڻ",
+          "Voc- appears in words connected with calling or voice."
+        ]
+      ]
     }
   ]
 }
