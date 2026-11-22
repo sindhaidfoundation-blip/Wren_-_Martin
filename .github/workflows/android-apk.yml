@@ -45,6 +45,14 @@ jobs:
           chmod +x gradlew
           ./gradlew assembleRelease --no-daemon
 
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: wren-martin-grammar-master-apk
+          path: android/app/build/outputs/apk/release/app-release.apk
+          if-no-files-found: error
+          retention-days: 14
+
 
       - name: Enable KVM for Android emulator
         run: |
@@ -83,10 +91,3 @@ jobs:
           if-no-files-found: ignore
           retention-days: 14
 
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: wren-martin-grammar-master-apk
-          path: android/app/build/outputs/apk/release/app-release.apk
-          if-no-files-found: error
-          retention-days: 14
