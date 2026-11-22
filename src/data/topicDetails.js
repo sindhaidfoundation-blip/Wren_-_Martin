@@ -522,9 +522,205 @@ export const topicDetails = {
           ["I feel tired today.", "میں آج تھکا ہوا محسوس کرتا ہوں۔", "مان اڄ ٿڪل محسوس ڪريان ٿو."],
           ["The students seem ready.", "طلبہ تیار معلوم ہوتے ہیں۔", "شاگرد تيار نظر اچن ٿا."]
         ]
+      },
+      {
+        title: "Adjectives of Quality or Descriptive Adjectives",
+        english: "These adjectives describe the kind, quality or characteristic of a person, animal or thing. They answer the question 'What kind?'",
+        urdu: "یہ صفات کسی شخص، جانور یا چیز کی خوبی، خامی یا خصوصیت بیان کرتی ہیں۔ یہ سوال 'کیسا؟' یا 'کیسی؟' کا جواب دیتی ہیں۔",
+        sindhi: "اهي صفتون ڪنهن ماڻهو، جانور يا شيءِ جي خوبي، خامي يا خاصيت بيان ڪن ٿيون. اهي 'ڪيئن؟' واري سوال جو جواب ڏين ٿيون.",
+        examples: [
+          ["She is a kind woman.", "وہ ایک مہربان عورت ہے۔", "هوءَ هڪ مهربان عورت آهي."],
+          ["He bought a beautiful house.", "اس نے ایک خوبصورت گھر خریدا۔", "هن هڪ سهڻو گهر خريد ڪيو."],
+          ["It was a difficult test.", "یہ ایک مشکل امتحان تھا۔", "اهو هڪ ڏکيو امتحان هو."],
+          ["The brave soldier saved the child.", "بہادر سپاہی نے بچے کو بچایا۔", "بهادر سپاهي ٻار کي بچايو."],
+          ["We saw a huge elephant.", "ہم نے ایک بہت بڑا ہاتھی دیکھا۔", "اسان هڪ تمام وڏو هاٿي ڏٺو."],
+          ["She wore a red dress.", "اس نے سرخ لباس پہنا۔", "هن ڳاڙهو لباس پاتو."],
+          ["This is a useful book.", "یہ ایک مفید کتاب ہے۔", "هي هڪ فائديمند ڪتاب آهي."],
+          ["The clever boy solved the puzzle.", "ذہین لڑکے نے پہیلی حل کی۔", "هوشيار ڇوڪري ڳجهارت حل ڪئي."],
+          ["They live in a quiet village.", "وہ ایک پُرسکون گاؤں میں رہتے ہیں۔", "اهي هڪ ماٺيڻي ڳوٺ ۾ رهن ٿا."],
+          ["Fresh fruit is healthy food.", "تازہ پھل صحت بخش غذا ہے۔", "تازا ميوا صحتمند خوراڪ آهن."]
+        ]
+      },
+      {
+        title: "Proper Adjectives",
+        english: "A proper adjective is formed from a proper noun and begins with a capital letter in English. It describes a person, place, nation, language or culture, such as Pakistani, Sindhi or Shakespearean.",
+        urdu: "Proper Adjective کسی خاص اسم (Proper Noun) سے بنتی ہے اور انگریزی میں اس کا پہلا حرف بڑا لکھا جاتا ہے۔ یہ کسی ملک، شہر، زبان، قوم یا شخصیت سے تعلق ظاہر کرتی ہے۔",
+        sindhi: "Proper Adjective ڪنهن خاص اسم (Proper Noun) مان ٺهندي آهي ۽ انگريزي ۾ ان جو پهريون اکر وڏو لکبو آهي. اها ملڪ، شهر، ٻولي، قوم يا شخصيت سان لاڳاپو ظاهر ڪري ٿي.",
+        examples: [
+          ["Pakistani food is popular.", "پاکستانی کھانا مقبول ہے۔", "پاڪستاني کاڌو مشهور آهي."],
+          ["She enjoys Sindhi poetry.", "وہ سندھی شاعری پسند کرتی ہے۔", "هوءَ سنڌي شاعري پسند ڪري ٿي."],
+          ["We are learning the English language.", "ہم انگریزی زبان سیکھ رہے ہیں۔", "اسان انگريزي ٻولي سکي رهيا آهيون."],
+          ["Italian art attracts visitors.", "اطالوی فن سیاحوں کو متوجہ کرتا ہے۔", "اطالوي فن سياحن کي ڇڪي ٿو."],
+          ["He bought a Chinese phone.", "اس نے چینی فون خریدا۔", "هن چيني فون خريد ڪيو."],
+          ["The French writer visited our school.", "فرانسیسی مصنف نے ہمارے اسکول کا دورہ کیا۔", "فرانسيسي ليکڪ اسان جي اسڪول جو دورو ڪيو."],
+          ["I like Arabian horses.", "مجھے عربی گھوڑے پسند ہیں۔", "مون کي عربي گهوڙا پسند آهن."],
+          ["The Victorian building is very old.", "وکٹورین عمارت بہت پرانی ہے۔", "وڪٽورين عمارت تمام پراڻي آهي."],
+          ["We studied Shakespearean drama.", "ہم نے شیکسپیئر کے ڈرامے کا مطالعہ کیا۔", "اسان شيڪسپيئر جي ڊرامي جو مطالعو ڪيو."],
+          ["Japanese technology is advanced.", "جاپانی ٹیکنالوجی ترقی یافتہ ہے۔", "جاپاني ٽيڪنالاجي ترقي يافته آهي."]
+        ]
+      },
+      {
+        title: "Adjectives of Quantity",
+        english: "Adjectives of quantity tell how much of a thing is meant. They are generally used with uncountable nouns and answer 'How much?' Examples include some, much, little, enough and sufficient.",
+        urdu: "Adjectives of Quantity بتاتی ہیں کہ کسی چیز کی کتنی مقدار مراد ہے۔ یہ عموماً ناقابلِ شمار اسموں کے ساتھ آتی ہیں اور 'کتنا؟' کا جواب دیتی ہیں۔",
+        sindhi: "Adjectives of Quantity ٻڌائين ٿيون ته ڪنهن شيءِ جي ڪيتري مقدار مراد آهي. اهي عام طور اڻ ڳڻپ اسم سان اچن ٿيون ۽ 'ڪيترو؟' جو جواب ڏين ٿيون.",
+        examples: [
+          ["There is some water in the jug.", "جگ میں کچھ پانی ہے۔", "جگ ۾ ڪجهه پاڻي آهي."],
+          ["We have enough rice for dinner.", "ہمارے پاس رات کے کھانے کے لیے کافی چاول ہیں۔", "اسان وٽ رات جي ماني لاءِ ڪافي چانور آهن."],
+          ["There is little milk in the bottle.", "بوتل میں تھوڑا دودھ ہے۔", "بوتل ۾ ٿورو کير آهي."],
+          ["She has much patience.", "اس میں بہت صبر ہے۔", "هن ۾ گهڻو صبر آهي."],
+          ["He drank a little juice.", "اس نے تھوڑا سا رس پیا۔", "هن ٿورو رس پيتو."],
+          ["We need more sugar.", "ہمیں مزید چینی چاہیے۔", "اسان کي وڌيڪ کنڊ گهرجي."],
+          ["There is no oil in the pan.", "پین میں تیل نہیں ہے۔", "ڪڙاهيءَ ۾ تيل ناهي."],
+          ["I have sufficient information.", "میرے پاس کافی معلومات ہیں۔", "مون وٽ ڪافي ڄاڻ آهي."],
+          ["They wasted too much time.", "انہوں نے بہت زیادہ وقت ضائع کیا۔", "انهن تمام گهڻو وقت ضايع ڪيو."],
+          ["Add less salt to the soup.", "سوپ میں کم نمک ڈالیں۔", "سوپ ۾ گهٽ لوڻ وجهو."]
+        ]
+      },
+      {
+        title: "Adjectives of Number or Numerical Adjectives",
+        english: "Adjectives of number tell how many persons or things are meant, or the order in which they occur. They are used with countable nouns. They include definite, indefinite and distributive numeral adjectives; definite numerals include cardinal and ordinal forms.",
+        urdu: "Adjectives of Number بتاتی ہیں کہ کتنے افراد یا چیزیں ہیں یا ان کی ترتیب کیا ہے۔ یہ قابلِ شمار اسموں کے ساتھ استعمال ہوتی ہیں۔ ان کی اقسام میں Definite، Indefinite اور Distributive شامل ہیں؛ Definite میں Cardinal اور Ordinal آتے ہیں۔",
+        sindhi: "Adjectives of Number ٻڌائين ٿيون ته ڪيترا ماڻهو يا شيون آهن يا انهن جي ترتيب ڪهڙي آهي. اهي ڳڻپ لائق اسمن سان استعمال ٿين ٿيون. انهن ۾ Definite، Indefinite ۽ Distributive قسمون آهن؛ Definite ۾ Cardinal ۽ Ordinal اچن ٿا.",
+        examples: [
+          ["Five students passed the test.", "پانچ طلبہ امتحان میں کامیاب ہوئے۔", "پنج شاگرد امتحان ۾ ڪامياب ٿيا."],
+          ["The first train has arrived.", "پہلی ٹرین آ گئی ہے۔", "پهرين ريل اچي وئي آهي."],
+          ["Several birds are sitting on the wall.", "کئی پرندے دیوار پر بیٹھے ہیں۔", "ڪيترائي پکي ڀت تي ويٺا آهن."],
+          ["Each child received a pencil.", "ہر بچے کو ایک پنسل ملی۔", "هر ٻار کي هڪ پينسل ملي."],
+          ["There are twelve months in a year.", "ایک سال میں بارہ مہینے ہوتے ہیں۔", "هڪ سال ۾ ٻارهن مهينا ٿين ٿا."],
+          ["Many people attended the meeting.", "بہت سے لوگ اجلاس میں شریک ہوئے۔", "ڪيترائي ماڻهو گڏجاڻي ۾ شامل ٿيا."],
+          ["Both sisters can swim.", "دونوں بہنیں تیر سکتی ہیں۔", "ٻئي ڀينرون تري سگهن ٿيون."],
+          ["Every student must work hard.", "ہر طالب علم کو محنت کرنی چاہیے۔", "هر شاگرد کي محنت ڪرڻ گهرجي."],
+          ["The third chapter is easy.", "تیسرا باب آسان ہے۔", "ٽيون باب آسان آهي."],
+          ["Neither answer is correct.", "دونوں میں سے کوئی جواب درست نہیں۔", "ٻنهي مان ڪو به جواب صحيح ناهي."]
+        ]
+      },
+      {
+        title: "Definite Numeral Adjectives",
+        english: "A definite numeral adjective gives an exact number or a specific position. Cardinal numbers show an exact count; ordinal numbers show order or rank.",
+        urdu: "Definite Numeral Adjective کسی اسم کی صحیح تعداد یا خاص ترتیب بتاتی ہے۔ Cardinal تعداد بتاتا ہے جبکہ Ordinal درجہ یا ترتیب ظاہر کرتا ہے۔",
+        sindhi: "Definite Numeral Adjective اسم جو صحيح تعداد يا خاص ترتيب ٻڌائي ٿي. Cardinal ڳڻپ ٻڌائي ٿو، جڏهن ته Ordinal درجو يا ترتيب ظاهر ڪري ٿو.",
+        examples: [
+          ["Three boys are playing.", "تین لڑکے کھیل رہے ہیں۔", "ٽي ڇوڪرا راند ڪري رهيا آهن."],
+          ["I bought six apples.", "میں نے چھ سیب خریدے۔", "مون ڇهه صوف خريد ڪيا."],
+          ["Ten workers arrived early.", "دس مزدور جلدی پہنچے۔", "ڏهه مزدور سوير پهتا."],
+          ["She has two brothers.", "اس کے دو بھائی ہیں۔", "هن جا ٻه ڀائر آهن."],
+          ["The fourth lesson is interesting.", "چوتھا سبق دلچسپ ہے۔", "چوٿون سبق دلچسپ آهي."],
+          ["He won the first prize.", "اس نے پہلا انعام جیتا۔", "هن پهريون انعام کٽيو."],
+          ["Our school has twenty classrooms.", "ہمارے اسکول میں بیس جماعتیں ہیں۔", "اسان جي اسڪول ۾ ويهه ڪلاس روم آهن."],
+          ["The seventh player scored a goal.", "ساتویں کھلاڑی نے گول کیا۔", "ستين رانديگر گول ڪيو."],
+          ["I read two chapters today.", "میں نے آج دو ابواب پڑھے۔", "مون اڄ ٻه باب پڙهيا."],
+          ["The tenth page is missing.", "دسواں صفحہ غائب ہے۔", "ڏهون صفحو گم آهي."]
+        ]
+      },
+      {
+        title: "Indefinite Numeral Adjectives",
+        english: "An indefinite numeral adjective indicates an approximate or unspecified number, not an exact count. Examples include many, few, several, some and numerous.",
+        urdu: "Indefinite Numeral Adjective غیر معین یا اندازاً تعداد بتاتی ہے، صحیح گنتی نہیں۔ مثلاً many، few، several اور some۔",
+        sindhi: "Indefinite Numeral Adjective اڻ پڪي يا اندازي واري تعداد ٻڌائي ٿي، صحيح ڳڻپ نه. مثال طور many، few، several ۽ some.",
+        examples: [
+          ["Many students joined the class.", "بہت سے طلبہ جماعت میں شامل ہوئے۔", "ڪيترائي شاگرد ڪلاس ۾ شامل ٿيا."],
+          ["Few people know the answer.", "چند لوگوں کو جواب معلوم ہے۔", "ٿورن ماڻهن کي جواب معلوم آهي."],
+          ["Several guests arrived late.", "کئی مہمان دیر سے پہنچے۔", "ڪيترائي مهمان دير سان پهتا."],
+          ["Some children are playing outside.", "کچھ بچے باہر کھیل رہے ہیں۔", "ڪجهه ٻار ٻاهر راند ڪري رهيا آهن."],
+          ["Numerous stars shine at night.", "رات کو بے شمار ستارے چمکتے ہیں۔", "رات جو بي شمار تارا چمڪن ٿا."],
+          ["I have a few friends here.", "یہاں میرے چند دوست ہیں۔", "هتي منهنجا ڪجهه دوست آهن."],
+          ["Various books are available.", "مختلف کتابیں دستیاب ہیں۔", "مختلف ڪتاب موجود آهن."],
+          ["Most students passed the exam.", "زیادہ تر طلبہ امتحان میں کامیاب ہوئے۔", "گهڻا شاگرد امتحان ۾ ڪامياب ٿيا."],
+          ["Several shops are closed today.", "آج کئی دکانیں بند ہیں۔", "اڄ ڪيتريون ئي دڪان بند آهن."],
+          ["Many birds migrate in winter.", "بہت سے پرندے سردیوں میں ہجرت کرتے ہیں۔", "ڪيترائي پکي سياري ۾ لڏپلاڻ ڪن ٿا."]
+        ]
+      },
+      {
+        title: "Cardinal Numeral Adjectives",
+        english: "Cardinal numeral adjectives tell the exact number of persons or things. They answer 'How many?' Examples: one, two, three, twenty.",
+        urdu: "Cardinal Numeral Adjectives اسم کی صحیح گنتی بتاتی ہیں اور 'کتنے؟' کا جواب دیتی ہیں، جیسے one, two, three۔",
+        sindhi: "Cardinal Numeral Adjectives اسمن جي صحيح ڳڻپ ٻڌائين ٿيون ۽ 'ڪيترا؟' جو جواب ڏين ٿيون، جيئن one, two, three.",
+        examples: [
+          ["I have one sister.", "میری ایک بہن ہے۔", "منهنجي هڪ ڀيڻ آهي."],
+          ["They planted two trees.", "انہوں نے دو درخت لگائے۔", "انهن ٻه وڻ پوکيا."],
+          ["We saw three buses.", "ہم نے تین بسیں دیکھیں۔", "اسان ٽي بسون ڏٺيون."],
+          ["Four boys are absent.", "چار لڑکے غیر حاضر ہیں۔", "چار ڇوڪرا غير حاضر آهن."],
+          ["She bought five pencils.", "اس نے پانچ پنسلیں خریدیں۔", "هن پنج پينسلون خريد ڪيون."],
+          ["Six players entered the field.", "چھ کھلاڑی میدان میں داخل ہوئے۔", "ڇهه رانديگر ميدان ۾ داخل ٿيا."],
+          ["Seven days make a week.", "سات دنوں سے ایک ہفتہ بنتا ہے۔", "ست ڏينهن هڪ هفتو ٺاهين ٿا."],
+          ["Eight birds sat on the roof.", "آٹھ پرندے چھت پر بیٹھے۔", "اٺ پکي ڇت تي ويٺا."],
+          ["Nine students received certificates.", "نو طلبہ کو اسناد ملیں۔", "نون شاگردن کي سرٽيفڪيٽ مليا."],
+          ["Ten workers completed the task.", "دس مزدوروں نے کام مکمل کیا۔", "ڏهن مزدورن ڪم پورو ڪيو."]
+        ]
+      },
+      {
+        title: "Ordinal Numeral Adjectives",
+        english: "Ordinal numeral adjectives show the order, position or rank of a person or thing. They answer 'Which one in order?' Examples: first, second, third and last.",
+        urdu: "Ordinal Numeral Adjectives کسی شخص یا چیز کی ترتیب، مقام یا درجہ بتاتی ہیں، جیسے first، second اور third۔",
+        sindhi: "Ordinal Numeral Adjectives ڪنهن ماڻهو يا شيءِ جي ترتيب، جاءِ يا درجو ٻڌائين ٿيون، جيئن first، second ۽ third.",
+        examples: [
+          ["She won the first prize.", "اس نے پہلا انعام جیتا۔", "هن پهريون انعام کٽيو."],
+          ["He lives on the second floor.", "وہ دوسری منزل پر رہتا ہے۔", "هو ٻئي ماڙ تي رهي ٿو."],
+          ["The third question is easy.", "تیسرا سوال آسان ہے۔", "ٽيون سوال آسان آهي."],
+          ["Our team came fourth.", "ہماری ٹیم چوتھے نمبر پر آئی۔", "اسان جي ٽيم چوٿين نمبر تي آئي."],
+          ["Read the fifth paragraph.", "پانچواں پیراگراف پڑھیں۔", "پنجون پيراگراف پڙهو."],
+          ["The sixth chapter is long.", "چھٹا باب لمبا ہے۔", "ڇهون باب ڊگهو آهي."],
+          ["Today is my seventh day here.", "آج یہاں میرا ساتواں دن ہے۔", "اڄ هتي منهنجو ستون ڏينهن آهي."],
+          ["The eighth player is injured.", "آٹھواں کھلاڑی زخمی ہے۔", "اٺون رانديگر زخمي آهي."],
+          ["This is her ninth birthday.", "یہ اس کی نویں سالگرہ ہے۔", "هيءَ سندس نائين سالگرهه آهي."],
+          ["The tenth bus is ours.", "دسویں بس ہماری ہے۔", "ڏهين بس اسان جي آهي."]
+        ]
+      },
+      {
+        title: "Distributive Numeral Adjectives",
+        english: "Distributive numeral adjectives refer to persons or things one at a time or separately. Common examples are each, every, either and neither. They are normally followed by a singular countable noun.",
+        urdu: "Distributive Numeral Adjectives افراد یا چیزوں کو ایک ایک کر کے یا الگ الگ ظاہر کرتی ہیں۔ عام الفاظ each، every، either اور neither ہیں۔ ان کے بعد عموماً واحد قابلِ شمار اسم آتا ہے۔",
+        sindhi: "Distributive Numeral Adjectives ماڻهن يا شين کي هڪ هڪ ڪري يا الڳ الڳ ظاهر ڪن ٿيون. عام لفظ each، every، either ۽ neither آهن. انهن کان پوءِ عام طور واحد ڳڻپ لائق اسم اچي ٿو.",
+        examples: [
+          ["Each student has a notebook.", "ہر طالب علم کے پاس ایک کاپی ہے۔", "هر شاگرد وٽ هڪ ڪاپي آهي."],
+          ["Every child needs care.", "ہر بچے کو دیکھ بھال کی ضرورت ہے۔", "هر ٻار کي سار سنڀال جي ضرورت آهي."],
+          ["Each player received a medal.", "ہر کھلاڑی کو تمغہ ملا۔", "هر رانديگر کي تمغو مليو."],
+          ["Every room has a window.", "ہر کمرے میں ایک کھڑکی ہے۔", "هر ڪمري ۾ هڪ دري آهي."],
+          ["Either road leads to the village.", "دونوں میں سے کوئی ایک راستہ گاؤں جاتا ہے۔", "ٻنهي مان ڪو هڪ رستو ڳوٺ ڏانهن وڃي ٿو."],
+          ["Neither answer is correct.", "دونوں میں سے کوئی جواب درست نہیں۔", "ٻنهي مان ڪو به جواب صحيح ناهي."],
+          ["Each book has a number.", "ہر کتاب پر ایک نمبر ہے۔", "هر ڪتاب تي هڪ نمبر آهي."],
+          ["Every teacher attended the meeting.", "ہر استاد اجلاس میں شریک ہوا۔", "هر استاد گڏجاڻي ۾ شامل ٿيو."],
+          ["Each of the boys received a prize.", "ہر لڑکے کو انعام ملا۔", "هر ڇوڪري کي انعام مليو."],
+          ["Every seat was occupied.", "ہر نشست پر کوئی بیٹھا ہوا تھا۔", "هر سيٽ تي ڪو ويٺل هو."]
+        ]
+      },
+      {
+        title: "Demonstrative Adjectives",
+        english: "Demonstrative adjectives point out particular nouns. This and that are used with singular nouns; these and those are used with plural nouns. They come before the noun they identify.",
+        urdu: "Demonstrative Adjectives کسی خاص شخص یا چیز کی طرف اشارہ کرتی ہیں۔ This اور that واحد اسم کے ساتھ، جبکہ these اور those جمع اسم کے ساتھ آتے ہیں۔",
+        sindhi: "Demonstrative Adjectives ڪنهن خاص ماڻهو يا شيءِ ڏانهن اشارو ڪن ٿيون. This ۽ that واحد اسم سان، جڏهن ته these ۽ those جمع اسمن سان اچن ٿا.",
+        examples: [
+          ["This book is useful.", "یہ کتاب مفید ہے۔", "هي ڪتاب فائديمند آهي."],
+          ["That house is very old.", "وہ گھر بہت پرانا ہے۔", "اهو گهر تمام پراڻو آهي."],
+          ["These flowers smell sweet.", "یہ پھول خوشبودار ہیں۔", "هي گل خوشبودار آهن."],
+          ["Those boys are playing cricket.", "وہ لڑکے کرکٹ کھیل رہے ہیں۔", "اهي ڇوڪرا ڪرڪيٽ کيڏي رهيا آهن."],
+          ["This pen belongs to me.", "یہ قلم میرا ہے۔", "هي قلم منهنجو آهي."],
+          ["That mountain is high.", "وہ پہاڑ اونچا ہے۔", "اهو جبل اوچو آهي."],
+          ["These apples are fresh.", "یہ سیب تازہ ہیں۔", "اهي صوف تازا آهن."],
+          ["Those birds are flying south.", "وہ پرندے جنوب کی طرف اڑ رہے ہیں۔", "اهي پکي ڏکڻ طرف اڏامي رهيا آهن."],
+          ["This question is important.", "یہ سوال اہم ہے۔", "هي سوال اهم آهي."],
+          ["Those buildings are modern.", "وہ عمارتیں جدید ہیں۔", "اهي عمارتون جديد آهن."]
+        ]
+      },
+      {
+        title: "Interrogative Adjectives",
+        english: "Interrogative adjectives are used with nouns to ask questions. The common forms are which, what and whose. They are different from interrogative pronouns because an interrogative adjective is followed by a noun.",
+        urdu: "Interrogative Adjectives اسم کے ساتھ آ کر سوال پوچھتی ہیں۔ عام الفاظ which، what اور whose ہیں۔ ان کے بعد اسم آتا ہے، اسی لیے یہ Interrogative Pronouns سے مختلف ہیں۔",
+        sindhi: "Interrogative Adjectives اسمن سان گڏ اچي سوال پڇن ٿيون. عام لفظ which، what ۽ whose آهن. انهن کان پوءِ اسم اچي ٿو، تنهنڪري اهي Interrogative Pronouns کان مختلف آهن.",
+        examples: [
+          ["Which book do you want?", "آپ کون سی کتاب چاہتے ہیں؟", "توهان کي ڪهڙو ڪتاب گهرجي؟"],
+          ["What subject do you like?", "آپ کو کون سا مضمون پسند ہے؟", "توهان کي ڪهڙو مضمون پسند آهي؟"],
+          ["Whose bag is this?", "یہ کس کا بستہ ہے؟", "هي ڪنهن جو ٿيلهو آهي؟"],
+          ["Which road goes to the station?", "کون سی سڑک اسٹیشن جاتی ہے؟", "ڪهڙو رستو اسٽيشن ڏانهن وڃي ٿو؟"],
+          ["What colour is your car?", "آپ کی گاڑی کا رنگ کیا ہے؟", "توهان جي گاڏي جو رنگ ڪهڙو آهي؟"],
+          ["Whose pencil is on the desk?", "میز پر کس کی پنسل ہے؟", "ميز تي ڪنهن جي پينسل آهي؟"],
+          ["Which team won the match?", "کون سی ٹیم میچ جیتی؟", "ڪهڙي ٽيم مقابلو کٽيو؟"],
+          ["What time does the class begin?", "کلاس کس وقت شروع ہوتی ہے؟", "ڪلاس ڪهڙي وقت شروع ٿئي ٿي؟"],
+          ["Whose shoes are these?", "یہ جوتے کس کے ہیں؟", "هي جوتا ڪنهن جا آهن؟"],
+          ["Which chapter should we read?", "ہمیں کون سا باب پڑھنا چاہیے؟", "اسان کي ڪهڙو باب پڙهڻ گهرجي؟"]
+        ]
       }
-    ]
-  },
   "tenses": {
     overview: "English tense and aspect work together to show when an event happens and whether it is complete, continuing or connected to another time. The three broad time references are present, past and future.",
     watchFor: "Choose a form based on meaning and context, not only on time words. Present perfect, for example, often connects a past event to the present.",
