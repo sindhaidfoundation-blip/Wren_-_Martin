@@ -8683,397 +8683,664 @@ topicDetails["past-tense"] = {
     }
   ],
   "composition": {
-    "overview": "Composition teaches learners to construct, examine and combine sentences. This section introduces analysis, transformation and synthesis, beginning with the grammatical analysis of simple sentences.",
-    "watchFor": "Do not confuse a long simple sentence with a complex sentence. A simple sentence may contain many phrases and modifiers, but it has only one independent clause and no subordinate clause. Distinguish objects from complements and finite verbs from non-finite verb forms.",
-    "examples": [
-      "The girl opened the window. (one independent clause: simple sentence)",
-      "Because it was cold, the girl closed the window. (a subordinate clause makes this a complex sentence)"
-    ],
-    "specialSectionsTitle": "Analysis, Transformation and Synthesis",
-    "specialSections": [
-      {
-        "title": "Analysis, Transformation and Synthesis — Introduction",
-        "english": "Composition is the arrangement of words and sentences to express ideas clearly and correctly. Analysis means breaking a sentence into grammatical parts and explaining each part's function. Transformation means changing a sentence's grammatical form while preserving its essential meaning, for example affirmative to negative or active to passive. Synthesis means combining two or more short sentences into one sentence by using a conjunction, participle, infinitive, phrase or appositive. These three skills help learners understand sentence structure and express ideas accurately in different forms.",
-        "urdu": "Composition الفاظ اور جملوں کو واضح اور درست انداز میں ترتیب دینے کا نام ہے۔ Analysis میں جملے کو نحوی حصوں میں تقسیم کرکے ہر حصے کا کام سمجھایا جاتا ہے۔ Transformation میں بنیادی مفہوم برقرار رکھتے ہوئے جملے کی صورت بدلی جاتی ہے، مثلاً مثبت کو منفی یا Active کو Passive بنانا۔ Synthesis میں دو یا زیادہ چھوٹے جملوں کو حرفِ عطف، Participle، Infinitive، Phrase یا Appositive کے ذریعے ایک جملے میں ملایا جاتا ہے۔ یہ تینوں مہارتیں جملے کی ساخت سمجھنے اور خیالات کو درست انداز میں بیان کرنے میں مدد دیتی ہیں۔",
-        "sindhi": "Composition لفظن ۽ جملن کي صاف ۽ صحيح نموني ترتيب ڏيڻ جو نالو آهي. Analysis ۾ جملي کي گرامري حصن ۾ ورهائي هر حصي جو ڪم سمجهائبو آهي. Transformation ۾ بنيادي معنيٰ برقرار رکندي جملي جي صورت تبديل ڪبي آهي، مثال طور مثبت کي منفي يا Active کي Passive ڪرڻ. Synthesis ۾ ٻن يا وڌيڪ ننڍن جملن کي حرفِ عطف، Participle، Infinitive، Phrase يا Appositive سان هڪ جملي ۾ گڏ ڪبو آهي. اهي ٽيئي صلاحيتون جملي جي بناوت سمجهڻ ۽ خيالن کي صحيح نموني ظاهر ڪرڻ ۾ مدد ڪن ٿيون.",
-        "subsections": [
-          {
-            "title": "1. Analysis",
-            "english": "Analysis is the grammatical examination of a sentence. Identify its subject and predicate, finite verb, object or complement, and the phrases and modifiers. Explain the function of each part and how it relates to the rest of the sentence.",
-            "urdu": "Analysis جملے کا نحوی جائزہ ہے۔ Subject، Predicate، Finite Verb، Object یا Complement، اور Phrases و Modifiers کی نشاندہی کریں۔ ہر حصے کا کام اور جملے کے باقی حصوں سے اس کا تعلق واضح کریں۔",
-            "sindhi": "Analysis جملي جو گرامري جائزو آهي. Subject، Predicate، Finite Verb، Object يا Complement ۽ Phrases توڙي Modifiers سڃاڻو. هر حصي جو ڪم ۽ جملي جي ٻين حصن سان ان جو لاڳاپو بيان ڪريو."
-          },
-          {
-            "title": "2. Transformation",
-            "english": "Transformation rewrites a sentence in another grammatical form without changing its essential meaning. Common exercises include affirmative/negative, assertive/interrogative, exclamatory/assertive, active/passive and simple/complex/compound forms. A transformation is valid only if the meaning remains substantially the same and the new sentence is grammatically correct.",
-            "urdu": "Transformation میں جملے کا بنیادی مفہوم برقرار رکھتے ہوئے اسے دوسری نحوی صورت میں لکھا جاتا ہے۔ عام مشقوں میں مثبت/منفی، خبریہ/سوالیہ، فجائیہ/خبریہ، Active/Passive اور Simple/Complex/Compound کی تبدیلی شامل ہے۔ درست تبدیلی وہ ہے جس میں مفہوم برقرار رہے اور نیا جملہ قواعد کے مطابق ہو۔",
-            "sindhi": "Transformation ۾ جملي جي بنيادي معنيٰ برقرار رکندي ان کي ٻي گرامري صورت ۾ لکبو آهي. عام مشقن ۾ مثبت/منفي، بيانيه/سواليه، تعجبي/بيانيه، Active/Passive ۽ Simple/Complex/Compound ۾ تبديلي شامل آهي. صحيح تبديلي اها آهي جنهن ۾ مطلب برقرار رهي ۽ نئون جملو گرامر موجب هجي."
-          },
-          {
-            "title": "3. Synthesis",
-            "english": "Synthesis combines two or more short sentences into one clear sentence without losing essential information. It may use coordinating or subordinating conjunctions, participles, infinitives, prepositional phrases or appositives. Select the construction that clearly expresses the relationship between the ideas and avoids unnecessary repetition.",
-            "urdu": "Synthesis دو یا زیادہ چھوٹے جملوں کو بنیادی معلومات برقرار رکھتے ہوئے ایک واضح جملے میں ملانے کا عمل ہے۔ اس میں Coordinating یا Subordinating conjunctions، Participles، Infinitives، Prepositional phrases یا Appositives استعمال ہو سکتے ہیں۔ ایسی ترکیب منتخب کریں جو خیالات کا تعلق واضح کرے اور غیر ضروری تکرار سے بچے۔",
-            "sindhi": "Synthesis ٻن يا وڌيڪ ننڍن جملن کي بنيادي ڄاڻ برقرار رکندي هڪ صاف جملي ۾ گڏ ڪرڻ جو عمل آهي. ان ۾ Coordinating يا Subordinating conjunctions، Participles، Infinitives، Prepositional phrases يا Appositives استعمال ٿي سگهن ٿا. اهڙي ترڪيب چونڊيو جيڪا خيالن جو لاڳاپو واضح ڪري ۽ غيرضروري ورجاءُ کان بچائي."
-          }
-        ]
-      },
-      {
-        "title": "Analysis of Simple Sentences — Definition and Detailed Explanation",
-        "english": "A simple sentence contains one independent clause and expresses a complete thought. It has one main finite verb or verb phrase and no subordinate clause. It may contain a long or compound subject, a compound predicate, objects, complements and several phrases; these do not make it complex or compound unless another clause is present. In traditional school grammar, analysis of a simple sentence means identifying the subject and predicate and explaining the grammatical function of every important word or phrase.",
-        "urdu": "Simple Sentence ایسا جملہ ہے جس میں ایک Independent Clause ہوتا ہے اور جو مکمل خیال ظاہر کرتا ہے۔ اس میں ایک بنیادی Finite Verb یا Verb Phrase ہوتا ہے اور کوئی Subordinate Clause نہیں ہوتا۔ اس میں طویل یا Compound Subject، Compound Predicate، Objects، Complements اور کئی Phrases ہو سکتے ہیں؛ یہ چیزیں اسے Complex یا Compound نہیں بناتیں جب تک دوسرا Clause موجود نہ ہو۔ روایتی قواعد میں Simple Sentence کا Analysis کرنے کا مطلب Subject اور Predicate کی نشاندہی کرکے اہم الفاظ اور فقروں کا نحوی کام بیان کرنا ہے۔",
-        "sindhi": "Simple Sentence اهو جملو آهي جنهن ۾ هڪ Independent Clause هوندو آهي ۽ جيڪو مڪمل خيال ظاهر ڪندو آهي. ان ۾ هڪ مکيه Finite Verb يا Verb Phrase هوندو آهي ۽ ڪو Subordinate Clause نه هوندو آهي. ان ۾ ڊگهو يا Compound Subject، Compound Predicate، Objects، Complements ۽ ڪيترائي Phrases ٿي سگهن ٿا؛ اهي ان کي Complex يا Compound نٿا بڻائين جيستائين ٻيو Clause موجود نه هجي. روايتي گرامر ۾ Simple Sentence جو Analysis ڪرڻ جو مطلب Subject ۽ Predicate سڃاڻڻ ۽ اهم لفظن ۽ فقرن جو گرامري ڪم بيان ڪرڻ آهي۔",
-        "subsections": [
-          {
-            "title": "A. Subject and Predicate",
-            "english": "The subject tells whom or what the sentence is about. The predicate says something about the subject and normally contains the verb. The complete subject includes its modifiers; the complete predicate includes the verb and all words that complete or modify it. The simple subject is the main noun or pronoun, and the simple predicate is the main verb or verb phrase.",
-            "urdu": "Subject بتاتا ہے کہ جملہ کس شخص یا چیز کے بارے میں ہے۔ Predicate، Subject کے بارے میں کچھ بیان کرتا ہے اور عموماً اس میں فعل شامل ہوتا ہے۔ Complete Subject میں اس کے modifiers شامل ہوتے ہیں، جبکہ Complete Predicate میں فعل اور اسے مکمل یا واضح کرنے والے الفاظ شامل ہوتے ہیں۔ Simple Subject بنیادی اسم یا ضمیر اور Simple Predicate بنیادی فعل یا فعلی ترکیب ہے۔",
-            "sindhi": "Subject ٻڌائي ٿو ته جملو ڪنهن ماڻهو يا شيءِ بابت آهي. Predicate، Subject بابت ڳالهه ڪري ٿو ۽ عام طور فعل تي مشتمل هوندو آهي. Complete Subject ۾ ان جا modifiers شامل هوندا آهن، جڏهن ته Complete Predicate ۾ فعل ۽ ان کي مڪمل ڪندڙ لفظ هوندا آهن. Simple Subject مکيه اسم يا ضمير ۽ Simple Predicate مکيه فعل يا فعلي ترڪيب آهي."
-          },
-          {
-            "title": "B. Objects, Complements and Modifiers",
-            "english": "A direct object receives the action of a transitive verb (She opened the door). An indirect object tells to whom or for whom something is done (She gave me a pen). A subject complement follows a linking verb and describes or renames the subject (He is tired; Sara became a doctor). An object complement describes or renames the object (They elected him captain). Modifiers add information about time, place, manner, reason or description. A phrase is a group of related words that does not contain its own subject–finite-verb combination.",
-            "urdu": "Direct Object متعدی فعل کے عمل کو وصول کرتا ہے (She opened the door)۔ Indirect Object بتاتا ہے کہ کام کس کو یا کس کے لیے کیا گیا (She gave me a pen)۔ Subject Complement، Linking Verb کے بعد آ کر Subject کی وضاحت یا نام بدلتا ہے (He is tired؛ Sara became a doctor)۔ Object Complement، Object کی وضاحت کرتا ہے (They elected him captain)۔ Modifiers وقت، جگہ، طریقہ، وجہ یا وصف کی معلومات دیتے ہیں۔ Phrase متعلقہ الفاظ کا مجموعہ ہے جس میں اپنا Subject اور Finite Verb کا جوڑا نہیں ہوتا۔",
-            "sindhi": "Direct Object، transitive verb جي عمل کي وصول ڪري ٿو (She opened the door). Indirect Object ٻڌائي ٿو ته ڪم ڪنهن کي يا ڪنهن لاءِ ٿيو (She gave me a pen). Subject Complement، Linking Verb کان پوءِ اچي Subject جي وضاحت ڪري ٿو (He is tired؛ Sara became a doctor). Object Complement، Object جي وضاحت ڪري ٿو (They elected him captain). Modifiers وقت، هنڌ، طريقي، سبب يا وصف بابت ڄاڻ ڏين ٿا. Phrase لاڳاپيل لفظن جو مجموعو آهي جنهن ۾ پنهنجو Subject ۽ Finite Verb جو جوڙو نه هوندو آهي."
-          },
-          {
-            "title": "C. Steps for Analysis",
-            "english": "1. Read the sentence and understand its meaning. 2. Find the finite verb or verb phrase. 3. Ask who or what performs the action or is described; identify the subject. 4. Separate the predicate. 5. Identify any object or complement. 6. Find phrases and modifiers and state what they modify. 7. Confirm that there is only one independent clause and no subordinate clause. 8. Present the analysis clearly in the order of subject, predicate, verb, object/complement and modifiers.",
-            "urdu": "1۔ جملہ پڑھ کر مفہوم سمجھیں۔ 2۔ Finite Verb یا Verb Phrase تلاش کریں۔ 3۔ پوچھیں کام کون کرتا ہے یا کس کے بارے میں بات ہے؛ Subject پہچانیں۔ 4۔ Predicate الگ کریں۔ 5۔ Object یا Complement تلاش کریں۔ 6۔ Phrases اور Modifiers بتائیں اور واضح کریں کہ وہ کس کی وضاحت کرتے ہیں۔ 7۔ تصدیق کریں کہ صرف ایک Independent Clause ہے اور کوئی Subordinate Clause نہیں۔ 8۔ تجزیہ Subject، Predicate، Verb، Object/Complement اور Modifiers کی ترتیب سے لکھیں۔",
-            "sindhi": "1. جملو پڙهي مطلب سمجهو. 2. Finite Verb يا Verb Phrase ڳوليو. 3. پڇو ته ڪم ڪير ڪري ٿو يا ڪنهن بابت ڳالهه آهي؛ Subject سڃاڻو. 4. Predicate الڳ ڪريو. 5. Object يا Complement ڳوليو. 6. Phrases ۽ Modifiers سڃاڻي ٻڌايو ته اهي ڪهڙي لفظ جي وضاحت ڪن ٿا. 7. پڪ ڪريو ته رڳو هڪ Independent Clause آهي ۽ ڪو Subordinate Clause ناهي. 8. تجزيو Subject، Predicate، Verb، Object/Complement ۽ Modifiers جي ترتيب سان لکو."
-          }
-        ],
-        "examples": [
-          [
-            "The sun rises in the east.",
-            "Subject: The sun (simple subject: sun). Predicate: rises in the east. Verb: rises. Adverbial phrase of place: in the east.",
-            "سورج مشرق سے طلوع ہوتا ہے۔",
-            "سج اوڀر کان اڀري ٿو۔",
-            "This is simple because it has one independent clause. In the east is a prepositional phrase modifying rises."
-          ],
-          [
-            "The little boy kicked the ball.",
-            "Subject: The little boy (simple subject: boy; little modifies boy). Predicate: kicked the ball. Verb: kicked. Direct object: the ball.",
-            "چھوٹے لڑکے نے گیند کو لات ماری۔",
-            "ننڍڙي ڇوڪري بال کي لت هنئي۔",
-            "Kicked is a transitive verb; the ball receives its action."
-          ],
-          [
-            "My elder sister is a doctor.",
-            "Subject: My elder sister. Predicate: is a doctor. Linking verb: is. Subject complement: a doctor.",
-            "میری بڑی بہن ڈاکٹر ہے۔",
-            "منهنجي وڏي ڀيڻ ڊاڪٽر آهي۔",
-            "A doctor renames the subject after the linking verb; it is a subject complement, not an object."
-          ],
-          [
-            "The children played happily in the garden.",
-            "Subject: The children. Predicate: played happily in the garden. Verb: played. Adverb of manner: happily. Adverbial phrase of place: in the garden.",
-            "بچوں نے باغ میں خوشی سے کھیلا۔",
-            "ٻارن باغ ۾ خوشيءَ سان کيڏيو۔",
-            "Happily tells how they played; in the garden tells where. Both modify the verb."
-          ],
-          [
-            "Our teacher gave us useful advice.",
-            "Subject: Our teacher. Predicate: gave us useful advice. Verb: gave. Indirect object: us. Direct object: useful advice.",
-            "ہمارے استاد نے ہمیں مفید مشورہ دیا۔",
-            "اسان جي استاد اسان کي ڪارائتو مشورو ڏنو۔",
-            "Us tells to whom the advice was given; useful advice is what was given."
-          ],
-          [
-            "The brave soldier fought courageously.",
-            "Subject: The brave soldier. Predicate: fought courageously. Verb: fought. Adverb: courageously.",
-            "بہادر سپاہی نے دلیری سے جنگ کی۔",
-            "بهادر سپاهيءَ بهادريءَ سان جنگ ڪئي۔",
-            "Brave modifies soldier; courageously modifies fought."
-          ],
-          [
-            "The sky became dark before sunset.",
-            "Subject: The sky. Predicate: became dark before sunset. Linking verb: became. Subject complement: dark. Adverbial phrase of time: before sunset.",
-            "غروبِ آفتاب سے پہلے آسمان تاریک ہو گیا۔",
-            "سج لهڻ کان اڳ آسمان اونداهو ٿي ويو۔",
-            "Dark describes the subject; before sunset tells when."
-          ],
-          [
-            "A cup of hot tea stood on the table.",
-            "Subject: A cup of hot tea (simple subject: cup; of hot tea modifies cup). Predicate: stood on the table. Verb: stood. Adverbial phrase: on the table.",
-            "گرم چائے کا ایک کپ میز پر رکھا تھا۔",
-            "گرم چانهه جو ڪوپ ميز تي رکيل هو۔",
-            "Of hot tea is part of the subject noun phrase; on the table tells where it stood."
-          ],
-          [
-            "The committee elected Sara captain.",
-            "Subject: The committee. Predicate: elected Sara captain. Verb: elected. Direct object: Sara. Object complement: captain.",
-            "کمیٹی نے سارہ کو کپتان منتخب کیا۔",
-            "ڪميٽي سارا کي ڪپتان چونڊيو۔",
-            "Sara receives the action; captain identifies Sara and is an object complement."
-          ],
-          [
-            "Walking along the river, the tourists admired the scenery.",
-            "Subject: the tourists. Predicate: walking along the river, admired the scenery. Main finite verb: admired. Direct object: the scenery. Participial phrase: walking along the river.",
-            "دریا کے کنارے چلتے ہوئے سیاحوں نے قدرتی منظر کی تعریف کی۔",
-            "درياهه جي ڪناري هلندي سياحن قدرتي نظاري جي ساراهه ڪئي۔",
-            "Walking is non-finite and forms a participial phrase; the sentence still has one finite clause."
-          ]
-        ]
-      }
-    ,
-{
-  "title": "Analysis of Complex Sentences (Clause Analysis) — Full Explanation, Examples and Exercises",
-  "english": "A complex sentence contains one independent (main) clause and at least one dependent (subordinate) clause. The main clause expresses the principal idea and can stand alone as a complete sentence. A subordinate clause depends on the main clause and performs a grammatical function within the sentence. Clause analysis means identifying each clause, finding its subject and finite verb, deciding whether it is main or subordinate, classifying each subordinate clause, and explaining its function. A sentence may contain several subordinate clauses, including a clause embedded inside another clause. Sentence length does not determine sentence type; the number and relationship of clauses do.",
-  "urdu": "Complex Sentence میں ایک Independent یا Main Clause اور کم از کم ایک Dependent یا Subordinate Clause ہوتا ہے۔ Main Clause بنیادی خیال بیان کرتا ہے اور اکیلا مکمل جملہ بن سکتا ہے۔ Subordinate Clause مرکزی جملے پر منحصر ہوتا ہے اور جملے میں ایک نحوی کام انجام دیتا ہے۔ Clause Analysis میں ہر clause کی شناخت، اس کے Subject اور Finite Verb کی نشاندہی، اسے Main یا Subordinate قرار دینا، تابع clause کی قسم اور اس کا نحوی کام بتانا شامل ہے۔ ایک جملے میں کئی تابع clauses بھی ہو سکتے ہیں، حتیٰ کہ ایک clause کے اندر دوسرا clause بھی آ سکتا ہے۔ جملے کی طوالت نہیں بلکہ clauses کی تعداد اور باہمی تعلق اس کی قسم طے کرتے ہیں۔",
-  "sindhi": "Complex Sentence ۾ هڪ Independent يا Main Clause ۽ گهٽ ۾ گهٽ هڪ Dependent يا Subordinate Clause هوندو آهي. Main Clause بنيادي خيال ٻڌائي ٿو ۽ اڪيلو مڪمل جملو ٿي سگهي ٿو. Subordinate Clause مکيه جملي تي دارومدار رکي ٿو ۽ جملي ۾ گرامري ڪم ڪري ٿو. Clause Analysis ۾ هر clause سڃاڻڻ، ان جو Subject ۽ Finite Verb ڳولڻ، ان کي Main يا Subordinate قرار ڏيڻ، تابع clause جو قسم ۽ ان جو گرامري ڪم ٻڌائڻ شامل آهي. هڪ جملي ۾ ڪيترائي تابع clauses به ٿي سگهن ٿا، ايتري قدر جو هڪ clause اندر ٻيو clause به اچي سگهي ٿو. جملي جي ڊيگهه نه، پر clauses جو تعداد ۽ لاڳاپو ان جي قسم جو فيصلو ڪن ٿا.",
-  "subsections": [
-    {
-      "title": "1. Clause, subject, finite verb and phrase",
-      "english": "A clause is a group of words built around a verb and normally containing its own subject. A finite verb shows tense or agrees with its subject: she works, they worked, he is reading. A verb phrase such as has been working is one finite verb phrase, not three clauses. Non-finite forms such as to work, working and written do not by themselves make a finite clause. A phrase such as in the morning has no subject–finite-verb combination, so it is not a clause. To find clauses, locate the finite verb phrases first, then identify the subjects connected with them.",
-      "urdu": "Clause الفاظ کا ایسا مجموعہ ہے جو فعل کے گرد بنتا ہے اور عموماً اس کا اپنا Subject ہوتا ہے۔ Finite Verb زمانہ ظاہر کرتا ہے یا Subject کے مطابق بدلتا ہے: she works، they worked، he is reading۔ Has been working ایک ہی Verb Phrase ہے، تین clauses نہیں۔ To work، working اور written جیسے Non-finite forms اکیلے finite clause نہیں بناتے۔ In the morning ایک phrase ہے کیونکہ اس میں اپنا Subject اور Finite Verb نہیں۔ Clauses تلاش کرنے کے لیے پہلے finite verb phrases اور پھر ان کے Subjects تلاش کریں۔",
-      "sindhi": "Clause لفظن جو اهڙو مجموعو آهي جيڪو فعل جي چوڌاري ٺهي ٿو ۽ عام طور ان جو پنهنجو Subject هوندو آهي. Finite Verb زمانو ڏيکاري ٿو يا Subject موجب بدلجي ٿو: she works، they worked، he is reading. Has been working هڪ ئي Verb Phrase آهي، ٽي clauses نه. To work، working ۽ written جهڙا Non-finite forms اڪيلا finite clause نٿا ٺاهين. In the morning هڪ phrase آهي، ڇو ته ان ۾ پنهنجو Subject ۽ Finite Verb ناهي. Clauses ڳولڻ لاءِ پهرين finite verb phrases ۽ پوءِ انهن جا Subjects ڳوليو."
-    },
-    {
-      "title": "2. Main clause and subordinate clause",
-      "english": "The main clause can stand alone: The children went inside. The subordinate clause cannot normally stand alone: because it was raining. Together they form a complex sentence: The children went inside because it was raining. The subordinate clause may come before or after the main clause. When it opens the sentence, a comma normally follows it: Because it was raining, the children went inside. When it follows the main clause, a comma is usually unnecessary.",
-      "urdu": "Main Clause اکیلا مکمل جملہ بن سکتا ہے: The children went inside۔ Subordinate Clause عموماً اکیلا مکمل جملہ نہیں بن سکتا: because it was raining۔ دونوں مل کر Complex Sentence بناتے ہیں: The children went inside because it was raining۔ تابع clause پہلے یا بعد میں آ سکتا ہے۔ اگر شروع میں آئے تو عموماً اس کے بعد comma لگتا ہے: Because it was raining, the children went inside۔ اگر آخر میں آئے تو عام طور پر comma نہیں لگتا۔",
-      "sindhi": "Main Clause اڪيلو مڪمل جملو ٿي سگهي ٿو: The children went inside. Subordinate Clause عام طور اڪيلو مڪمل جملو نٿو ٿي سگهي: because it was raining. ٻئي گڏجي Complex Sentence ٺاهين ٿا: The children went inside because it was raining. تابع clause پهرين يا پوءِ اچي سگهي ٿو. جيڪڏهن شروع ۾ اچي ته عام طور ان کان پوءِ ڪاما ڏبي: Because it was raining, the children went inside. جيڪڏهن آخر ۾ اچي ته عام طور ڪاما نه ڏبي."
-    },
-    {
-      "title": "3. Three principal types of subordinate clauses",
-      "english": "(A) Noun clause: does the work of a noun. It may be the subject, direct object, subject complement or object of a preposition. Common markers: that, what, whatever, who, whoever, whether, if, why, how, when and where. Example: What she said surprised me. (B) Adjective/relative clause: describes a noun or pronoun. Common markers: who, whom, whose, which, that, where and when. Example: The woman who lives next door is a doctor. (C) Adverb clause: modifies a verb, adjective, adverb or whole main clause, expressing time, place, reason, purpose, condition, result, comparison or concession. Example: We stayed inside because it was raining. Classify by function, not merely by the introductory word.",
-      "urdu": "(A) Noun Clause: اسم کا کام کرتا ہے؛ Subject، Direct Object، Subject Complement یا Preposition کا Object بن سکتا ہے۔ عام الفاظ that, what, who, whether, why, how, when اور where ہیں۔ مثال: What she said surprised me۔ (B) Adjective/Relative Clause: اسم یا ضمیر کی وضاحت کرتا ہے۔ عام الفاظ who, whom, whose, which, that, where اور when ہیں۔ مثال: The woman who lives next door is a doctor۔ (C) Adverb Clause: فعل، صفت، متعلقِ فعل یا پورے مرکزی جملے کی وضاحت کرتا ہے اور وقت، جگہ، وجہ، مقصد، شرط، نتیجہ، موازنہ یا رعایت ظاہر کرتا ہے۔ مثال: We stayed inside because it was raining۔ قسم کا فیصلہ clause کے کام سے کریں، صرف ابتدائی لفظ سے نہیں۔",
-      "sindhi": "(A) Noun Clause: اسم جو ڪم ڪري ٿو؛ Subject، Direct Object، Subject Complement يا Preposition جو Object ٿي سگهي ٿو. عام لفظ that، what، who، whether، why، how، when ۽ where آهن. مثال: What she said surprised me. (B) Adjective/Relative Clause: اسم يا ضمير جي وضاحت ڪري ٿو. عام لفظ who، whom، whose، which، that، where ۽ when آهن. مثال: The woman who lives next door is a doctor. (C) Adverb Clause: فعل، صفت، ظرف يا سڄي مکيه جملي جي وضاحت ڪري ٿو ۽ وقت، هنڌ، سبب، مقصد، شرط، نتيجو، مقابلو يا رعايت ڏيکاري ٿو. مثال: We stayed inside because it was raining. قسم جو فيصلو clause جي ڪم مان ڪريو، رڳو شروعاتي لفظ مان نه."
-    },
-    {
-      "title": "4. Step-by-step method of clause analysis",
-      "english": "1. Read the complete sentence for meaning. 2. Underline every finite verb or finite verb phrase. 3. Find the subject of each finite verb. 4. Group each subject and verb with its related words to identify the clauses. 5. Identify the main clause that can stand alone. 6. Mark each subordinate clause and its introductory word. 7. Classify it as noun, adjective/relative or adverb. 8. State its exact function: subject, object, complement, noun modifier or adverbial of time/reason/condition, etc. 9. If a subordinate clause contains another subordinate clause, show the nesting. 10. Check punctuation and ensure every clause is analysed.",
-      "urdu": "Clause Analysis کے مراحل: 1۔ پورا جملہ پڑھ کر مفہوم سمجھیں۔ 2۔ ہر Finite Verb یا Verb Phrase نشان زد کریں۔ 3۔ ہر فعل کا Subject تلاش کریں۔ 4۔ Subject، فعل اور متعلقہ الفاظ کو ملا کر clauses بنائیں۔ 5۔ Main Clause تلاش کریں جو اکیلا مکمل جملہ بن سکتا ہے۔ 6۔ ہر Subordinate Clause اور اس کے ابتدائی لفظ کو نشان زد کریں۔ 7۔ اسے Noun، Adjective/Relative یا Adverb Clause قرار دیں۔ 8۔ اس کا درست کام بتائیں: Subject، Object، Complement، اسم کی وضاحت یا وقت/وجہ/شرط کا متعلقِ فعل وغیرہ۔ 9۔ اگر تابع clause کے اندر دوسرا clause ہو تو اس کی ترتیب واضح کریں۔ 10۔ punctuation دیکھیں اور تمام clauses کا تجزیہ مکمل کریں۔",
-      "sindhi": "Clause Analysis جا مرحلا: 1. پورو جملو پڙهي مطلب سمجهو. 2. هر Finite Verb يا Verb Phrase نشان لڳايو. 3. هر فعل جو Subject ڳوليو. 4. Subject، فعل ۽ لاڳاپيل لفظ گڏ ڪري clauses سڃاڻو. 5. Main Clause ڳوليو جيڪو اڪيلو مڪمل جملو ٿي سگهي. 6. هر Subordinate Clause ۽ ان جو شروعاتي لفظ نشان لڳايو. 7. ان کي Noun، Adjective/Relative يا Adverb Clause قرار ڏيو. 8. ان جو صحيح ڪم ٻڌايو: Subject، Object، Complement، اسم جي وضاحت يا وقت/سبب/شرط جو ظرف وغيره. 9. جيڪڏهن تابع clause اندر ٻيو clause هجي ته ان جي ترتيب واضح ڪريو. 10. punctuation ڏسو ۽ سڀني clauses جو تجزيو مڪمل ڪريو."
-    },
-    {
-      "title": "5. How to distinguish similar-looking clauses",
-      "english": "The word where illustrates why function matters. In 'I know where he lives', where he lives is a noun clause and the object of know. In 'I visited the town where he lives', where he lives is an adjective/relative clause describing town. Likewise, that introduces a noun clause in 'I believe that she is right', but a relative clause in 'The answer that she gave was correct'. Ask what the whole clause does in the sentence. Noun clauses occupy noun positions; adjective clauses sit beside and describe nouns; adverb clauses modify an action or the whole statement.",
-      "urdu": "Where سے شروع ہونے والے clauses کی قسم ان کے کام سے پہچانیں۔ I know where he lives میں where he lives، Noun Clause اور know کا Object ہے۔ I visited the town where he lives میں یہی clause، town کی وضاحت کرتا ہے، اس لیے Adjective/Relative Clause ہے۔ اسی طرح I believe that she is right میں that ایک Noun Clause شروع کرتا ہے، جبکہ The answer that she gave was correct میں Relative Clause شروع کرتا ہے۔ دیکھیں کہ پورا clause جملے میں کیا کام کر رہا ہے۔",
-      "sindhi": "Where سان شروع ٿيندڙ clauses جو قسم انهن جي ڪم مان سڃاڻو. I know where he lives ۾ where he lives، Noun Clause ۽ know جو Object آهي. I visited the town where he lives ۾ اهو clause، town جي وضاحت ڪري ٿو، تنهنڪري Adjective/Relative Clause آهي. ساڳيءَ طرح I believe that she is right ۾ that، Noun Clause شروع ڪري ٿو، جڏهن ته The answer that she gave was correct ۾ Relative Clause شروع ڪري ٿو. ڏسو ته پورو clause جملي ۾ ڪهڙو ڪم ڪري ٿو."
-    },
-    {
-      "title": "6. Punctuation and common examination errors",
-      "english": "Use a comma after an introductory adverb clause: Although it was late, we continued. Do not normally use commas around an essential relative clause: The student who won the prize is my cousin. Use commas around a non-defining relative clause that adds extra information: My uncle, who lives in Lahore, is visiting. A compound sentence joins independent clauses; a complex sentence joins a main clause with at least one subordinate clause. Avoid fragments such as 'When the lesson ended.' Attach the subordinate clause to a main clause. Do not count auxiliary verbs in one verb phrase as separate clauses. Do not classify by the first word alone. In indirect questions use statement word order: I know where she lives, not I know where does she live.",
-      "urdu": "شروع میں آنے والے Adverb Clause کے بعد comma لگائیں: Although it was late, we continued۔ ضروری Relative Clause کے گرد عموماً comma نہیں لگتا: The student who won the prize is my cousin۔ اضافی معلومات دینے والے Non-defining Relative Clause کے گرد commas لگتے ہیں: My uncle, who lives in Lahore, is visiting۔ Compound Sentence میں Independent Clauses ملتے ہیں، جبکہ Complex Sentence میں Main Clause کے ساتھ کم از کم ایک Subordinate Clause ہوتا ہے۔ When the lesson ended ایک نامکمل fragment ہے؛ اسے Main Clause کے ساتھ ملائیں۔ ایک Verb Phrase کے معاون افعال کو الگ clauses نہ گنیں۔ Indirect Question میں statement word order رکھیں: I know where she lives۔",
-      "sindhi": "شروع ۾ ايندڙ Adverb Clause کان پوءِ ڪاما ڏيو: Although it was late, we continued. ضروري Relative Clause جي چوڌاري عام طور ڪاما نه ڏيو: The student who won the prize is my cousin. اضافي ڄاڻ ڏيندڙ Non-defining Relative Clause جي چوڌاري ڪاما ڏيو: My uncle, who lives in Lahore, is visiting. Compound Sentence ۾ Independent Clauses گڏ ٿين ٿا، جڏهن ته Complex Sentence ۾ Main Clause سان گهٽ ۾ گهٽ هڪ Subordinate Clause هوندو آهي. When the lesson ended اڌورو fragment آهي؛ ان کي Main Clause سان ڳنڍيو. هڪ Verb Phrase جا مددگار فعل الڳ clauses نه ڳڻيو. Indirect Question ۾ statement word order رکو: I know where she lives."
-    },
-    {
-      "title": "7. Detailed Exercise — Identify and classify all clauses",
-      "english": "For every sentence, mark the main clause and all subordinate clauses. Classify each subordinate clause as noun, adjective or adverb; state its function; and identify its subject and finite verb.",
-      "urdu": "ہر جملے میں Main Clause اور تمام Subordinate Clauses نشان زد کریں۔ ہر تابع clause کو Noun، Adjective یا Adverb قرار دیں، اس کا کام اور Subject و Finite Verb بتائیں۔",
-      "sindhi": "هر جملي ۾ Main Clause ۽ سڀ Subordinate Clauses نشان لڳايو. هر تابع clause کي Noun، Adjective يا Adverb قرار ڏيو، ان جو ڪم ۽ Subject توڙي Finite Verb ٻڌايو.",
-      "questions": [
-        "1. I think that he is telling the truth.",
-        "2. The woman who teaches us English is absent today.",
-        "3. We stayed at home because the weather was bad.",
-        "4. Whoever arrives first should open the classroom.",
-        "5. The village where my father was born is beautiful.",
-        "6. If you read carefully, you will understand the passage.",
-        "7. She explained why she had missed the bus.",
-        "8. Although he is rich, he lives simply.",
-        "9. The book that you recommended is interesting because its story is unusual.",
-        "10. When the examination ended, the students who had finished early left the hall."
-      ],
-      "answers": [
-        "1. Main: I think. Noun clause: that he is telling the truth — object of think; subject he, finite verb phrase is telling.",
-        "2. Main frame: The woman ... is absent today. Adjective clause: who teaches us English — modifies woman; subject who, verb teaches.",
-        "3. Main: We stayed at home. Adverb clause: because the weather was bad — reason; subject weather, verb was.",
-        "4. Noun clause: Whoever arrives first — subject of should open; within it whoever is subject and arrives is finite verb.",
-        "5. Main frame: The village ... is beautiful. Adjective clause: where my father was born — modifies village; subject father, verb was born.",
-        "6. Main: you will understand the passage. Adverb clause: If you read carefully — condition; subject you, verb read.",
-        "7. Main: She explained. Noun clause: why she had missed the bus — object; subject she, verb phrase had missed.",
-        "8. Main: he lives simply. Adverb clause: Although he is rich — concession; subject he, verb is.",
-        "9. Main frame: The book ... is interesting. Adjective clause: that you recommended — modifies book; subject you, verb recommended. Adverb clause: because its story is unusual — reason; subject story, verb is.",
-        "10. Main frame: the students ... left the hall. Adverb clause: When the examination ended — time; subject examination, verb ended. Adjective clause: who had finished early — modifies students; subject who, verb phrase had finished."
-      ]
-    },
-    {
-      "title": "8. Detailed Exercise — Complete the analysis",
-      "english": "Fill in the missing information for each sentence: main clause, subordinate clause, clause type and grammatical function.",
-      "urdu": "ہر جملے کے لیے خالی معلومات مکمل کریں: Main Clause، Subordinate Clause، clause کی قسم اور نحوی کام۔",
-      "sindhi": "هر جملي لاءِ خالي ڄاڻ مڪمل ڪريو: Main Clause، Subordinate Clause، clause جو قسم ۽ گرامري ڪم.",
-      "questions": [
-        "1. I remember what you promised.",
-        "2. The house that stands on the hill belongs to my aunt.",
-        "3. We cancelled the picnic because it was raining.",
-        "4. Whoever solves the riddle will receive a prize.",
-        "5. Tell me when the train leaves."
-      ],
-      "answers": [
-        "1. Main: I remember. Subordinate: what you promised — noun clause, direct object of remember.",
-        "2. Main frame: The house ... belongs to my aunt. Subordinate: that stands on the hill — adjective clause modifying house.",
-        "3. Main: We cancelled the picnic. Subordinate: because it was raining — adverb clause of reason.",
-        "4. Subordinate: Whoever solves the riddle — noun clause, subject of will receive; main predicate: will receive a prize.",
-        "5. Main: Tell me. Subordinate: when the train leaves — noun clause, direct object of tell (the thing you are asked to tell)."
-      ]
-    },
-    {
-      "title": "9. Detailed Exercise — Correct the errors",
-      "english": "Rewrite each sentence correctly and explain the clause-related error.",
-      "urdu": "ہر جملے کو درست کرکے دوبارہ لکھیں اور clause سے متعلق غلطی کی وضاحت کریں۔",
-      "sindhi": "هر جملي کي صحيح ڪري ٻيهر لکو ۽ clause سان لاڳاپيل غلطي سمجهايو.",
-      "questions": [
-        "1. Because the bus was late.",
-        "2. I know where does she live.",
-        "3. Although he was tired, but he continued working.",
-        "4. The man which helped me was kind.",
-        "5. I visited the school which my mother teaches."
-      ],
-      "answers": [
-        "1. Because the bus was late, I missed the meeting. (The original is a subordinate-clause fragment; attach a main clause.)",
-        "2. I know where she lives. (An indirect question uses statement word order.)",
-        "3. Although he was tired, he continued working. (Do not use although and but together in this structure.)",
-        "4. The man who helped me was kind. (Use who for a person as the subject of the relative clause.)",
-        "5. I visited the school where my mother teaches. (Where expresses the place in which she teaches; alternatively, 'the school at which my mother teaches'.)"
-      ]
-    }
-  ],
+  "overview": "Composition teaches learners to construct, examine and combine sentences. This section introduces analysis, transformation and synthesis, beginning with the grammatical analysis of simple sentences.",
+  "watchFor": "Do not confuse a long simple sentence with a complex sentence. A simple sentence may contain many phrases and modifiers, but it has only one independent clause and no subordinate clause. Distinguish objects from complements and finite verbs from non-finite verb forms.",
   "examples": [
-    [
-      "I know that she is honest.",
-      "Main clause: I know. Subordinate clause: that she is honest — Noun Clause, direct object of know. Subject: she; finite verb: is.",
-      "میں جانتا ہوں کہ وہ ایماندار ہے۔",
-      "مان ڄاڻان ٿو ته هوءَ ايماندار آهي.",
-      "The clause answers 'what do I know?' and functions as the object."
-    ],
-    [
-      "What he said surprised everyone.",
-      "Subordinate clause: What he said — Noun Clause, subject of surprised. Inside it: subject he; finite verb said. Main predicate: surprised everyone.",
-      "اس نے جو کہا اس نے سب کو حیران کر دیا۔",
-      "هن جيڪو چيو، تنهن سڀني کي حيران ڪري ڇڏيو.",
-      "The entire noun clause is the subject of the main verb."
-    ],
-    [
-      "The girl who won the prize is my sister.",
-      "Main clause frame: The girl ... is my sister. Subordinate clause: who won the prize — Adjective Clause modifying girl. Subject: who; finite verb: won.",
-      "وہ لڑکی جس نے انعام جیتا میری بہن ہے۔",
-      "اها ڇوڪري جنهن انعام کٽيو، منهنجي ڀيڻ آهي.",
-      "The relative clause identifies which girl."
-    ],
-    [
-      "I will wait until you return.",
-      "Main: I will wait. Subordinate: until you return — Adverb Clause of Time modifying wait. Subject: you; finite verb: return.",
-      "میں انتظار کروں گا جب تک تم واپس نہیں آتے۔",
-      "مان انتظار ڪندس جيستائين تون واپس نه اچين.",
-      "It answers 'until when?'."
-    ],
-    [
-      "Because the road was blocked, we took another route.",
-      "Subordinate: Because the road was blocked — Adverb Clause of Reason. Main: we took another route. Subordinate subject: road; finite verb: was.",
-      "چونکہ راستہ بند تھا، ہم نے دوسرا راستہ اختیار کیا۔",
-      "ڇو ته رستو بند هو، تنهنڪري اسان ٻيو رستو ورتو.",
-      "The introductory reason clause is followed by a comma."
-    ],
-    [
-      "The book that you lent me is useful.",
-      "Main frame: The book ... is useful. Subordinate: that you lent me — Adjective Clause modifying book. Subject: you; finite verb: lent; me is indirect object.",
-      "وہ کتاب جو تم نے مجھے دی تھی مفید ہے۔",
-      "اهو ڪتاب جيڪو تو مون کي ڏنو هو، ڪارائتو آهي.",
-      "That refers to book and introduces an identifying relative clause."
-    ],
-    [
-      "If you practise daily, you will improve.",
-      "Main: you will improve. Subordinate: If you practise daily — Adverb Clause of Condition. Subject: you; finite verb: practise.",
-      "اگر تم روزانہ مشق کرو گے تو تم بہتر ہو جاؤ گے۔",
-      "جيڪڏهن تون روزانو مشق ڪندين ته بهتر ٿيندين.",
-      "A real future condition uses present simple in the if-clause."
-    ],
-    [
-      "I cannot understand why he left early.",
-      "Main: I cannot understand. Subordinate: why he left early — Noun Clause, object of understand. Subject: he; finite verb: left.",
-      "میں نہیں سمجھ سکتا کہ وہ جلدی کیوں چلا گیا۔",
-      "مان سمجهي نٿو سگهان ته هو سوير ڇو هليو ويو.",
-      "This is an indirect question, so use statement word order."
-    ],
-    [
-      "The place where we first met has changed.",
-      "Main frame: The place ... has changed. Subordinate: where we first met — Adjective Clause modifying place. Subject: we; finite verb: met.",
-      "وہ جگہ جہاں ہم پہلی بار ملے تھے بدل گئی ہے۔",
-      "اها جاءِ جتي اسين پهريون ڀيرو مليا هئاسين، بدلجي وئي آهي.",
-      "Where introduces a relative clause describing place."
-    ],
-    [
-      "Although she was nervous, she gave an excellent speech.",
-      "Subordinate: Although she was nervous — Adverb Clause of Concession. Main: she gave an excellent speech. Subordinate subject: she; finite verb: was.",
-      "اگرچہ وہ گھبرائی ہوئی تھی، اس نے بہترین تقریر کی۔",
-      "جيتوڻيڪ هوءَ گهٻرايل هئي، هن بهترين تقرير ڪئي.",
-      "The concession clause admits a difficulty despite which the main action happened."
-    ],
-    [
-      "The teacher praised the student who had completed the project.",
-      "Main: The teacher praised the student. Subordinate: who had completed the project — Adjective Clause modifying student. Subject: who; finite verb phrase: had completed.",
-      "استاد نے اس طالب علم کی تعریف کی جس نے منصوبہ مکمل کر لیا تھا۔",
-      "استاد ان شاگرد جي ساراهه ڪئي جنهن منصوبو مڪمل ڪيو هو.",
-      "The relative clause identifies the student."
-    ],
-    [
-      "I believe that the team will win because it has practised well.",
-      "Outer main: I believe. Noun Clause: that the team will win because it has practised well — object of believe. Embedded main idea: the team will win. Embedded adverb clause: because it has practised well — reason. Subjects/verbs: team/will win; it/has practised.",
-      "مجھے یقین ہے کہ ٹیم جیتے گی کیونکہ اس نے اچھی مشق کی ہے۔",
-      "مون کي يقين آهي ته ٽيم کٽيندي، ڇاڪاڻ⁠تہ هن سٺي مشق ڪئي آهي.",
-      "This is a nested structure: an object noun clause contains a reason adverb clause."
-    ],
-    [
-      "Whoever works sincerely will achieve success.",
-      "Subordinate: Whoever works sincerely — Noun Clause functioning as subject. Inside it: whoever is subject; works is finite verb. Main predicate: will achieve success.",
-      "جو شخص خلوص سے محنت کرے گا وہ کامیابی حاصل کرے گا۔",
-      "جيڪو به سچائيءَ سان محنت ڪندو، سو ڪاميابي حاصل ڪندو.",
-      "Whoever introduces a free-relative noun clause that acts as subject."
-    ],
-    [
-      "This is the house which my grandfather built.",
-      "Main: This is the house. Subordinate: which my grandfather built — Adjective Clause modifying house. Subject: my grandfather; finite verb: built; which is the object of built.",
-      "یہ وہ گھر ہے جو میرے دادا نے بنایا تھا۔",
-      "هي اهو گهر آهي جيڪو منهنجي ڏاڏي ٺاهيو هو.",
-      "Which refers to house and functions as the object inside the relative clause."
-    ],
-    [
-      "We left early so that we could catch the first bus.",
-      "Main: We left early. Subordinate: so that we could catch the first bus — Adverb Clause of Purpose. Subject: we; finite verb phrase: could catch.",
-      "ہم جلدی روانہ ہوئے تاکہ پہلی بس پکڑ سکیں۔",
-      "اسين سوير روانا ٿياسين ته جيئن پهرين بس پڪڙي سگهون.",
-      "The purpose clause tells the intention behind leaving early."
-    ],
-    [
-      "The man whose car was stolen reported the theft.",
-      "Main frame: The man ... reported the theft. Subordinate: whose car was stolen — Adjective Clause modifying man. Subject: whose car; finite verb phrase: was stolen.",
-      "وہ شخص جس کی گاڑی چوری ہوئی تھی اس نے چوری کی اطلاع دی۔",
-      "اهو ماڻهو جنهن جي گاڏي چوري ٿي هئي، هن چوري جي رپورٽ ڪئي.",
-      "Whose indicates possession and modifies man through a relative clause."
-    ],
-    [
-      "She asked whether the shop was open.",
-      "Main: She asked. Subordinate: whether the shop was open — Noun Clause, object of asked. Subject: shop; finite verb: was.",
-      "اس نے پوچھا کہ آیا دکان کھلی تھی۔",
-      "هن پڇيو ته ڇا دڪان کليل هو.",
-      "Whether introduces an indirect yes/no question."
-    ],
-    [
-      "When the guests arrived, the food that my mother had prepared was served.",
-      "Adverb Clause: When the guests arrived — time. Main frame: the food ... was served. Adjective Clause: that my mother had prepared — modifies food. Clause subjects/verbs: guests/arrived; mother/had prepared.",
-      "جب مہمان پہنچے تو وہ کھانا پیش کیا گیا جو میری والدہ نے تیار کیا تھا۔",
-      "جڏهن مهمان پهتا ته اهو کاڌو پيش ڪيو ويو جيڪو منهنجي امڙ تيار ڪيو هو.",
-      "There are two subordinate clauses: a time clause and a relative clause inside the subject phrase."
-    ],
-    [
-      "I know the reason why he resigned.",
-      "Main: I know the reason. Subordinate: why he resigned — relative/adjective clause specifying reason. Subject: he; finite verb: resigned.",
-      "میں وہ وجہ جانتا ہوں جس کی بنا پر اس نے استعفیٰ دیا۔",
-      "مان اهو سبب ڄاڻان ٿو جنهن ڪري هن استعيفو ڏنو.",
-      "The clause modifies the noun reason. Compare 'I know why he resigned', where the clause is a noun clause object."
-    ],
-    [
-      "No one knows where the missing keys are.",
-      "Main: No one knows. Subordinate: where the missing keys are — Noun Clause, object of knows. Subject: missing keys; finite verb: are.",
-      "کوئی نہیں جانتا کہ گم شدہ چابیاں کہاں ہیں۔",
-      "ڪنهن کي به خبر ناهي ته گم ٿيل چاٻيون ڪٿي آهن.",
-      "It answers 'what does no one know?' and is therefore a noun clause."
-    ]
+    "The girl opened the window. (one independent clause: simple sentence)",
+    "Because it was cold, the girl closed the window. (a subordinate clause makes this a complex sentence)"
   ],
-  "subsectionsExtra": "Exercises"
-}]
-  }
+  "specialSectionsTitle": "Analysis, Transformation and Synthesis",
+  "specialSections": [
+    {
+      "title": "Analysis, Transformation and Synthesis — Introduction",
+      "english": "Composition is the arrangement of words and sentences to express ideas clearly and correctly. Analysis means breaking a sentence into grammatical parts and explaining each part's function. Transformation means changing a sentence's grammatical form while preserving its essential meaning, for example affirmative to negative or active to passive. Synthesis means combining two or more short sentences into one sentence by using a conjunction, participle, infinitive, phrase or appositive. These three skills help learners understand sentence structure and express ideas accurately in different forms.",
+      "urdu": "Composition الفاظ اور جملوں کو واضح اور درست انداز میں ترتیب دینے کا نام ہے۔ Analysis میں جملے کو نحوی حصوں میں تقسیم کرکے ہر حصے کا کام سمجھایا جاتا ہے۔ Transformation میں بنیادی مفہوم برقرار رکھتے ہوئے جملے کی صورت بدلی جاتی ہے، مثلاً مثبت کو منفی یا Active کو Passive بنانا۔ Synthesis میں دو یا زیادہ چھوٹے جملوں کو حرفِ عطف، Participle، Infinitive، Phrase یا Appositive کے ذریعے ایک جملے میں ملایا جاتا ہے۔ یہ تینوں مہارتیں جملے کی ساخت سمجھنے اور خیالات کو درست انداز میں بیان کرنے میں مدد دیتی ہیں۔",
+      "sindhi": "Composition لفظن ۽ جملن کي صاف ۽ صحيح نموني ترتيب ڏيڻ جو نالو آهي. Analysis ۾ جملي کي گرامري حصن ۾ ورهائي هر حصي جو ڪم سمجهائبو آهي. Transformation ۾ بنيادي معنيٰ برقرار رکندي جملي جي صورت تبديل ڪبي آهي، مثال طور مثبت کي منفي يا Active کي Passive ڪرڻ. Synthesis ۾ ٻن يا وڌيڪ ننڍن جملن کي حرفِ عطف، Participle، Infinitive، Phrase يا Appositive سان هڪ جملي ۾ گڏ ڪبو آهي. اهي ٽيئي صلاحيتون جملي جي بناوت سمجهڻ ۽ خيالن کي صحيح نموني ظاهر ڪرڻ ۾ مدد ڪن ٿيون.",
+      "subsections": [
+        {
+          "title": "1. Analysis",
+          "english": "Analysis is the grammatical examination of a sentence. Identify its subject and predicate, finite verb, object or complement, and the phrases and modifiers. Explain the function of each part and how it relates to the rest of the sentence.",
+          "urdu": "Analysis جملے کا نحوی جائزہ ہے۔ Subject، Predicate، Finite Verb، Object یا Complement، اور Phrases و Modifiers کی نشاندہی کریں۔ ہر حصے کا کام اور جملے کے باقی حصوں سے اس کا تعلق واضح کریں۔",
+          "sindhi": "Analysis جملي جو گرامري جائزو آهي. Subject، Predicate، Finite Verb، Object يا Complement ۽ Phrases توڙي Modifiers سڃاڻو. هر حصي جو ڪم ۽ جملي جي ٻين حصن سان ان جو لاڳاپو بيان ڪريو."
+        },
+        {
+          "title": "2. Transformation",
+          "english": "Transformation rewrites a sentence in another grammatical form without changing its essential meaning. Common exercises include affirmative/negative, assertive/interrogative, exclamatory/assertive, active/passive and simple/complex/compound forms. A transformation is valid only if the meaning remains substantially the same and the new sentence is grammatically correct.",
+          "urdu": "Transformation میں جملے کا بنیادی مفہوم برقرار رکھتے ہوئے اسے دوسری نحوی صورت میں لکھا جاتا ہے۔ عام مشقوں میں مثبت/منفی، خبریہ/سوالیہ، فجائیہ/خبریہ، Active/Passive اور Simple/Complex/Compound کی تبدیلی شامل ہے۔ درست تبدیلی وہ ہے جس میں مفہوم برقرار رہے اور نیا جملہ قواعد کے مطابق ہو۔",
+          "sindhi": "Transformation ۾ جملي جي بنيادي معنيٰ برقرار رکندي ان کي ٻي گرامري صورت ۾ لکبو آهي. عام مشقن ۾ مثبت/منفي، بيانيه/سواليه، تعجبي/بيانيه، Active/Passive ۽ Simple/Complex/Compound ۾ تبديلي شامل آهي. صحيح تبديلي اها آهي جنهن ۾ مطلب برقرار رهي ۽ نئون جملو گرامر موجب هجي."
+        },
+        {
+          "title": "3. Synthesis",
+          "english": "Synthesis combines two or more short sentences into one clear sentence without losing essential information. It may use coordinating or subordinating conjunctions, participles, infinitives, prepositional phrases or appositives. Select the construction that clearly expresses the relationship between the ideas and avoids unnecessary repetition.",
+          "urdu": "Synthesis دو یا زیادہ چھوٹے جملوں کو بنیادی معلومات برقرار رکھتے ہوئے ایک واضح جملے میں ملانے کا عمل ہے۔ اس میں Coordinating یا Subordinating conjunctions، Participles، Infinitives، Prepositional phrases یا Appositives استعمال ہو سکتے ہیں۔ ایسی ترکیب منتخب کریں جو خیالات کا تعلق واضح کرے اور غیر ضروری تکرار سے بچے۔",
+          "sindhi": "Synthesis ٻن يا وڌيڪ ننڍن جملن کي بنيادي ڄاڻ برقرار رکندي هڪ صاف جملي ۾ گڏ ڪرڻ جو عمل آهي. ان ۾ Coordinating يا Subordinating conjunctions، Participles، Infinitives، Prepositional phrases يا Appositives استعمال ٿي سگهن ٿا. اهڙي ترڪيب چونڊيو جيڪا خيالن جو لاڳاپو واضح ڪري ۽ غيرضروري ورجاءُ کان بچائي."
+        }
+      ]
+    },
+    {
+      "title": "Analysis of Simple Sentences — Definition and Detailed Explanation",
+      "english": "A simple sentence contains one independent clause and expresses a complete thought. It has one main finite verb or verb phrase and no subordinate clause. It may contain a long or compound subject, a compound predicate, objects, complements and several phrases; these do not make it complex or compound unless another clause is present. In traditional school grammar, analysis of a simple sentence means identifying the subject and predicate and explaining the grammatical function of every important word or phrase.",
+      "urdu": "Simple Sentence ایسا جملہ ہے جس میں ایک Independent Clause ہوتا ہے اور جو مکمل خیال ظاہر کرتا ہے۔ اس میں ایک بنیادی Finite Verb یا Verb Phrase ہوتا ہے اور کوئی Subordinate Clause نہیں ہوتا۔ اس میں طویل یا Compound Subject، Compound Predicate، Objects، Complements اور کئی Phrases ہو سکتے ہیں؛ یہ چیزیں اسے Complex یا Compound نہیں بناتیں جب تک دوسرا Clause موجود نہ ہو۔ روایتی قواعد میں Simple Sentence کا Analysis کرنے کا مطلب Subject اور Predicate کی نشاندہی کرکے اہم الفاظ اور فقروں کا نحوی کام بیان کرنا ہے۔",
+      "sindhi": "Simple Sentence اهو جملو آهي جنهن ۾ هڪ Independent Clause هوندو آهي ۽ جيڪو مڪمل خيال ظاهر ڪندو آهي. ان ۾ هڪ مکيه Finite Verb يا Verb Phrase هوندو آهي ۽ ڪو Subordinate Clause نه هوندو آهي. ان ۾ ڊگهو يا Compound Subject، Compound Predicate، Objects، Complements ۽ ڪيترائي Phrases ٿي سگهن ٿا؛ اهي ان کي Complex يا Compound نٿا بڻائين جيستائين ٻيو Clause موجود نه هجي. روايتي گرامر ۾ Simple Sentence جو Analysis ڪرڻ جو مطلب Subject ۽ Predicate سڃاڻڻ ۽ اهم لفظن ۽ فقرن جو گرامري ڪم بيان ڪرڻ آهي۔",
+      "subsections": [
+        {
+          "title": "A. Subject and Predicate",
+          "english": "The subject tells whom or what the sentence is about. The predicate says something about the subject and normally contains the verb. The complete subject includes its modifiers; the complete predicate includes the verb and all words that complete or modify it. The simple subject is the main noun or pronoun, and the simple predicate is the main verb or verb phrase.",
+          "urdu": "Subject بتاتا ہے کہ جملہ کس شخص یا چیز کے بارے میں ہے۔ Predicate، Subject کے بارے میں کچھ بیان کرتا ہے اور عموماً اس میں فعل شامل ہوتا ہے۔ Complete Subject میں اس کے modifiers شامل ہوتے ہیں، جبکہ Complete Predicate میں فعل اور اسے مکمل یا واضح کرنے والے الفاظ شامل ہوتے ہیں۔ Simple Subject بنیادی اسم یا ضمیر اور Simple Predicate بنیادی فعل یا فعلی ترکیب ہے۔",
+          "sindhi": "Subject ٻڌائي ٿو ته جملو ڪنهن ماڻهو يا شيءِ بابت آهي. Predicate، Subject بابت ڳالهه ڪري ٿو ۽ عام طور فعل تي مشتمل هوندو آهي. Complete Subject ۾ ان جا modifiers شامل هوندا آهن، جڏهن ته Complete Predicate ۾ فعل ۽ ان کي مڪمل ڪندڙ لفظ هوندا آهن. Simple Subject مکيه اسم يا ضمير ۽ Simple Predicate مکيه فعل يا فعلي ترڪيب آهي."
+        },
+        {
+          "title": "B. Objects, Complements and Modifiers",
+          "english": "A direct object receives the action of a transitive verb (She opened the door). An indirect object tells to whom or for whom something is done (She gave me a pen). A subject complement follows a linking verb and describes or renames the subject (He is tired; Sara became a doctor). An object complement describes or renames the object (They elected him captain). Modifiers add information about time, place, manner, reason or description. A phrase is a group of related words that does not contain its own subject–finite-verb combination.",
+          "urdu": "Direct Object متعدی فعل کے عمل کو وصول کرتا ہے (She opened the door)۔ Indirect Object بتاتا ہے کہ کام کس کو یا کس کے لیے کیا گیا (She gave me a pen)۔ Subject Complement، Linking Verb کے بعد آ کر Subject کی وضاحت یا نام بدلتا ہے (He is tired؛ Sara became a doctor)۔ Object Complement، Object کی وضاحت کرتا ہے (They elected him captain)۔ Modifiers وقت، جگہ، طریقہ، وجہ یا وصف کی معلومات دیتے ہیں۔ Phrase متعلقہ الفاظ کا مجموعہ ہے جس میں اپنا Subject اور Finite Verb کا جوڑا نہیں ہوتا۔",
+          "sindhi": "Direct Object، transitive verb جي عمل کي وصول ڪري ٿو (She opened the door). Indirect Object ٻڌائي ٿو ته ڪم ڪنهن کي يا ڪنهن لاءِ ٿيو (She gave me a pen). Subject Complement، Linking Verb کان پوءِ اچي Subject جي وضاحت ڪري ٿو (He is tired؛ Sara became a doctor). Object Complement، Object جي وضاحت ڪري ٿو (They elected him captain). Modifiers وقت، هنڌ، طريقي، سبب يا وصف بابت ڄاڻ ڏين ٿا. Phrase لاڳاپيل لفظن جو مجموعو آهي جنهن ۾ پنهنجو Subject ۽ Finite Verb جو جوڙو نه هوندو آهي."
+        },
+        {
+          "title": "C. Steps for Analysis",
+          "english": "1. Read the sentence and understand its meaning. 2. Find the finite verb or verb phrase. 3. Ask who or what performs the action or is described; identify the subject. 4. Separate the predicate. 5. Identify any object or complement. 6. Find phrases and modifiers and state what they modify. 7. Confirm that there is only one independent clause and no subordinate clause. 8. Present the analysis clearly in the order of subject, predicate, verb, object/complement and modifiers.",
+          "urdu": "1۔ جملہ پڑھ کر مفہوم سمجھیں۔ 2۔ Finite Verb یا Verb Phrase تلاش کریں۔ 3۔ پوچھیں کام کون کرتا ہے یا کس کے بارے میں بات ہے؛ Subject پہچانیں۔ 4۔ Predicate الگ کریں۔ 5۔ Object یا Complement تلاش کریں۔ 6۔ Phrases اور Modifiers بتائیں اور واضح کریں کہ وہ کس کی وضاحت کرتے ہیں۔ 7۔ تصدیق کریں کہ صرف ایک Independent Clause ہے اور کوئی Subordinate Clause نہیں۔ 8۔ تجزیہ Subject، Predicate، Verb، Object/Complement اور Modifiers کی ترتیب سے لکھیں۔",
+          "sindhi": "1. جملو پڙهي مطلب سمجهو. 2. Finite Verb يا Verb Phrase ڳوليو. 3. پڇو ته ڪم ڪير ڪري ٿو يا ڪنهن بابت ڳالهه آهي؛ Subject سڃاڻو. 4. Predicate الڳ ڪريو. 5. Object يا Complement ڳوليو. 6. Phrases ۽ Modifiers سڃاڻي ٻڌايو ته اهي ڪهڙي لفظ جي وضاحت ڪن ٿا. 7. پڪ ڪريو ته رڳو هڪ Independent Clause آهي ۽ ڪو Subordinate Clause ناهي. 8. تجزيو Subject، Predicate، Verb، Object/Complement ۽ Modifiers جي ترتيب سان لکو."
+        }
+      ],
+      "examples": [
+        [
+          "The sun rises in the east.",
+          "Subject: The sun (simple subject: sun). Predicate: rises in the east. Verb: rises. Adverbial phrase of place: in the east.",
+          "سورج مشرق سے طلوع ہوتا ہے۔",
+          "سج اوڀر کان اڀري ٿو۔",
+          "This is simple because it has one independent clause. In the east is a prepositional phrase modifying rises."
+        ],
+        [
+          "The little boy kicked the ball.",
+          "Subject: The little boy (simple subject: boy; little modifies boy). Predicate: kicked the ball. Verb: kicked. Direct object: the ball.",
+          "چھوٹے لڑکے نے گیند کو لات ماری۔",
+          "ننڍڙي ڇوڪري بال کي لت هنئي۔",
+          "Kicked is a transitive verb; the ball receives its action."
+        ],
+        [
+          "My elder sister is a doctor.",
+          "Subject: My elder sister. Predicate: is a doctor. Linking verb: is. Subject complement: a doctor.",
+          "میری بڑی بہن ڈاکٹر ہے۔",
+          "منهنجي وڏي ڀيڻ ڊاڪٽر آهي۔",
+          "A doctor renames the subject after the linking verb; it is a subject complement, not an object."
+        ],
+        [
+          "The children played happily in the garden.",
+          "Subject: The children. Predicate: played happily in the garden. Verb: played. Adverb of manner: happily. Adverbial phrase of place: in the garden.",
+          "بچوں نے باغ میں خوشی سے کھیلا۔",
+          "ٻارن باغ ۾ خوشيءَ سان کيڏيو۔",
+          "Happily tells how they played; in the garden tells where. Both modify the verb."
+        ],
+        [
+          "Our teacher gave us useful advice.",
+          "Subject: Our teacher. Predicate: gave us useful advice. Verb: gave. Indirect object: us. Direct object: useful advice.",
+          "ہمارے استاد نے ہمیں مفید مشورہ دیا۔",
+          "اسان جي استاد اسان کي ڪارائتو مشورو ڏنو۔",
+          "Us tells to whom the advice was given; useful advice is what was given."
+        ],
+        [
+          "The brave soldier fought courageously.",
+          "Subject: The brave soldier. Predicate: fought courageously. Verb: fought. Adverb: courageously.",
+          "بہادر سپاہی نے دلیری سے جنگ کی۔",
+          "بهادر سپاهيءَ بهادريءَ سان جنگ ڪئي۔",
+          "Brave modifies soldier; courageously modifies fought."
+        ],
+        [
+          "The sky became dark before sunset.",
+          "Subject: The sky. Predicate: became dark before sunset. Linking verb: became. Subject complement: dark. Adverbial phrase of time: before sunset.",
+          "غروبِ آفتاب سے پہلے آسمان تاریک ہو گیا۔",
+          "سج لهڻ کان اڳ آسمان اونداهو ٿي ويو۔",
+          "Dark describes the subject; before sunset tells when."
+        ],
+        [
+          "A cup of hot tea stood on the table.",
+          "Subject: A cup of hot tea (simple subject: cup; of hot tea modifies cup). Predicate: stood on the table. Verb: stood. Adverbial phrase: on the table.",
+          "گرم چائے کا ایک کپ میز پر رکھا تھا۔",
+          "گرم چانهه جو ڪوپ ميز تي رکيل هو۔",
+          "Of hot tea is part of the subject noun phrase; on the table tells where it stood."
+        ],
+        [
+          "The committee elected Sara captain.",
+          "Subject: The committee. Predicate: elected Sara captain. Verb: elected. Direct object: Sara. Object complement: captain.",
+          "کمیٹی نے سارہ کو کپتان منتخب کیا۔",
+          "ڪميٽي سارا کي ڪپتان چونڊيو۔",
+          "Sara receives the action; captain identifies Sara and is an object complement."
+        ],
+        [
+          "Walking along the river, the tourists admired the scenery.",
+          "Subject: the tourists. Predicate: walking along the river, admired the scenery. Main finite verb: admired. Direct object: the scenery. Participial phrase: walking along the river.",
+          "دریا کے کنارے چلتے ہوئے سیاحوں نے قدرتی منظر کی تعریف کی۔",
+          "درياهه جي ڪناري هلندي سياحن قدرتي نظاري جي ساراهه ڪئي۔",
+          "Walking is non-finite and forms a participial phrase; the sentence still has one finite clause."
+        ]
+      ]
+    },
+    {
+      "title": "Analysis of Complex Sentences (Clause Analysis) — Full Explanation, Examples and Exercises",
+      "english": "A complex sentence contains one independent (main) clause and at least one dependent (subordinate) clause. The main clause expresses the principal idea and can stand alone as a complete sentence. A subordinate clause depends on the main clause and performs a grammatical function within the sentence. Clause analysis means identifying each clause, finding its subject and finite verb, deciding whether it is main or subordinate, classifying each subordinate clause, and explaining its function. A sentence may contain several subordinate clauses, including a clause embedded inside another clause. Sentence length does not determine sentence type; the number and relationship of clauses do.",
+      "urdu": "Complex Sentence میں ایک Independent یا Main Clause اور کم از کم ایک Dependent یا Subordinate Clause ہوتا ہے۔ Main Clause بنیادی خیال بیان کرتا ہے اور اکیلا مکمل جملہ بن سکتا ہے۔ Subordinate Clause مرکزی جملے پر منحصر ہوتا ہے اور جملے میں ایک نحوی کام انجام دیتا ہے۔ Clause Analysis میں ہر clause کی شناخت، اس کے Subject اور Finite Verb کی نشاندہی، اسے Main یا Subordinate قرار دینا، تابع clause کی قسم اور اس کا نحوی کام بتانا شامل ہے۔ ایک جملے میں کئی تابع clauses بھی ہو سکتے ہیں، حتیٰ کہ ایک clause کے اندر دوسرا clause بھی آ سکتا ہے۔ جملے کی طوالت نہیں بلکہ clauses کی تعداد اور باہمی تعلق اس کی قسم طے کرتے ہیں۔",
+      "sindhi": "Complex Sentence ۾ هڪ Independent يا Main Clause ۽ گهٽ ۾ گهٽ هڪ Dependent يا Subordinate Clause هوندو آهي. Main Clause بنيادي خيال ٻڌائي ٿو ۽ اڪيلو مڪمل جملو ٿي سگهي ٿو. Subordinate Clause مکيه جملي تي دارومدار رکي ٿو ۽ جملي ۾ گرامري ڪم ڪري ٿو. Clause Analysis ۾ هر clause سڃاڻڻ، ان جو Subject ۽ Finite Verb ڳولڻ، ان کي Main يا Subordinate قرار ڏيڻ، تابع clause جو قسم ۽ ان جو گرامري ڪم ٻڌائڻ شامل آهي. هڪ جملي ۾ ڪيترائي تابع clauses به ٿي سگهن ٿا، ايتري قدر جو هڪ clause اندر ٻيو clause به اچي سگهي ٿو. جملي جي ڊيگهه نه، پر clauses جو تعداد ۽ لاڳاپو ان جي قسم جو فيصلو ڪن ٿا.",
+      "subsections": [
+        {
+          "title": "1. Clause, subject, finite verb and phrase",
+          "english": "A clause is a group of words built around a verb and normally containing its own subject. A finite verb shows tense or agrees with its subject: she works, they worked, he is reading. A verb phrase such as has been working is one finite verb phrase, not three clauses. Non-finite forms such as to work, working and written do not by themselves make a finite clause. A phrase such as in the morning has no subject–finite-verb combination, so it is not a clause. To find clauses, locate the finite verb phrases first, then identify the subjects connected with them.",
+          "urdu": "Clause الفاظ کا ایسا مجموعہ ہے جو فعل کے گرد بنتا ہے اور عموماً اس کا اپنا Subject ہوتا ہے۔ Finite Verb زمانہ ظاہر کرتا ہے یا Subject کے مطابق بدلتا ہے: she works، they worked، he is reading۔ Has been working ایک ہی Verb Phrase ہے، تین clauses نہیں۔ To work، working اور written جیسے Non-finite forms اکیلے finite clause نہیں بناتے۔ In the morning ایک phrase ہے کیونکہ اس میں اپنا Subject اور Finite Verb نہیں۔ Clauses تلاش کرنے کے لیے پہلے finite verb phrases اور پھر ان کے Subjects تلاش کریں۔",
+          "sindhi": "Clause لفظن جو اهڙو مجموعو آهي جيڪو فعل جي چوڌاري ٺهي ٿو ۽ عام طور ان جو پنهنجو Subject هوندو آهي. Finite Verb زمانو ڏيکاري ٿو يا Subject موجب بدلجي ٿو: she works، they worked، he is reading. Has been working هڪ ئي Verb Phrase آهي، ٽي clauses نه. To work، working ۽ written جهڙا Non-finite forms اڪيلا finite clause نٿا ٺاهين. In the morning هڪ phrase آهي، ڇو ته ان ۾ پنهنجو Subject ۽ Finite Verb ناهي. Clauses ڳولڻ لاءِ پهرين finite verb phrases ۽ پوءِ انهن جا Subjects ڳوليو."
+        },
+        {
+          "title": "2. Main clause and subordinate clause",
+          "english": "The main clause can stand alone: The children went inside. The subordinate clause cannot normally stand alone: because it was raining. Together they form a complex sentence: The children went inside because it was raining. The subordinate clause may come before or after the main clause. When it opens the sentence, a comma normally follows it: Because it was raining, the children went inside. When it follows the main clause, a comma is usually unnecessary.",
+          "urdu": "Main Clause اکیلا مکمل جملہ بن سکتا ہے: The children went inside۔ Subordinate Clause عموماً اکیلا مکمل جملہ نہیں بن سکتا: because it was raining۔ دونوں مل کر Complex Sentence بناتے ہیں: The children went inside because it was raining۔ تابع clause پہلے یا بعد میں آ سکتا ہے۔ اگر شروع میں آئے تو عموماً اس کے بعد comma لگتا ہے: Because it was raining, the children went inside۔ اگر آخر میں آئے تو عام طور پر comma نہیں لگتا۔",
+          "sindhi": "Main Clause اڪيلو مڪمل جملو ٿي سگهي ٿو: The children went inside. Subordinate Clause عام طور اڪيلو مڪمل جملو نٿو ٿي سگهي: because it was raining. ٻئي گڏجي Complex Sentence ٺاهين ٿا: The children went inside because it was raining. تابع clause پهرين يا پوءِ اچي سگهي ٿو. جيڪڏهن شروع ۾ اچي ته عام طور ان کان پوءِ ڪاما ڏبي: Because it was raining, the children went inside. جيڪڏهن آخر ۾ اچي ته عام طور ڪاما نه ڏبي."
+        },
+        {
+          "title": "3. Three principal types of subordinate clauses",
+          "english": "(A) Noun clause: does the work of a noun. It may be the subject, direct object, subject complement or object of a preposition. Common markers: that, what, whatever, who, whoever, whether, if, why, how, when and where. Example: What she said surprised me. (B) Adjective/relative clause: describes a noun or pronoun. Common markers: who, whom, whose, which, that, where and when. Example: The woman who lives next door is a doctor. (C) Adverb clause: modifies a verb, adjective, adverb or whole main clause, expressing time, place, reason, purpose, condition, result, comparison or concession. Example: We stayed inside because it was raining. Classify by function, not merely by the introductory word.",
+          "urdu": "(A) Noun Clause: اسم کا کام کرتا ہے؛ Subject، Direct Object، Subject Complement یا Preposition کا Object بن سکتا ہے۔ عام الفاظ that, what, who, whether, why, how, when اور where ہیں۔ مثال: What she said surprised me۔ (B) Adjective/Relative Clause: اسم یا ضمیر کی وضاحت کرتا ہے۔ عام الفاظ who, whom, whose, which, that, where اور when ہیں۔ مثال: The woman who lives next door is a doctor۔ (C) Adverb Clause: فعل، صفت، متعلقِ فعل یا پورے مرکزی جملے کی وضاحت کرتا ہے اور وقت، جگہ، وجہ، مقصد، شرط، نتیجہ، موازنہ یا رعایت ظاہر کرتا ہے۔ مثال: We stayed inside because it was raining۔ قسم کا فیصلہ clause کے کام سے کریں، صرف ابتدائی لفظ سے نہیں۔",
+          "sindhi": "(A) Noun Clause: اسم جو ڪم ڪري ٿو؛ Subject، Direct Object، Subject Complement يا Preposition جو Object ٿي سگهي ٿو. عام لفظ that، what، who، whether، why، how، when ۽ where آهن. مثال: What she said surprised me. (B) Adjective/Relative Clause: اسم يا ضمير جي وضاحت ڪري ٿو. عام لفظ who، whom، whose، which، that، where ۽ when آهن. مثال: The woman who lives next door is a doctor. (C) Adverb Clause: فعل، صفت، ظرف يا سڄي مکيه جملي جي وضاحت ڪري ٿو ۽ وقت، هنڌ، سبب، مقصد، شرط، نتيجو، مقابلو يا رعايت ڏيکاري ٿو. مثال: We stayed inside because it was raining. قسم جو فيصلو clause جي ڪم مان ڪريو، رڳو شروعاتي لفظ مان نه."
+        },
+        {
+          "title": "4. Step-by-step method of clause analysis",
+          "english": "1. Read the complete sentence for meaning. 2. Underline every finite verb or finite verb phrase. 3. Find the subject of each finite verb. 4. Group each subject and verb with its related words to identify the clauses. 5. Identify the main clause that can stand alone. 6. Mark each subordinate clause and its introductory word. 7. Classify it as noun, adjective/relative or adverb. 8. State its exact function: subject, object, complement, noun modifier or adverbial of time/reason/condition, etc. 9. If a subordinate clause contains another subordinate clause, show the nesting. 10. Check punctuation and ensure every clause is analysed.",
+          "urdu": "Clause Analysis کے مراحل: 1۔ پورا جملہ پڑھ کر مفہوم سمجھیں۔ 2۔ ہر Finite Verb یا Verb Phrase نشان زد کریں۔ 3۔ ہر فعل کا Subject تلاش کریں۔ 4۔ Subject، فعل اور متعلقہ الفاظ کو ملا کر clauses بنائیں۔ 5۔ Main Clause تلاش کریں جو اکیلا مکمل جملہ بن سکتا ہے۔ 6۔ ہر Subordinate Clause اور اس کے ابتدائی لفظ کو نشان زد کریں۔ 7۔ اسے Noun، Adjective/Relative یا Adverb Clause قرار دیں۔ 8۔ اس کا درست کام بتائیں: Subject، Object، Complement، اسم کی وضاحت یا وقت/وجہ/شرط کا متعلقِ فعل وغیرہ۔ 9۔ اگر تابع clause کے اندر دوسرا clause ہو تو اس کی ترتیب واضح کریں۔ 10۔ punctuation دیکھیں اور تمام clauses کا تجزیہ مکمل کریں۔",
+          "sindhi": "Clause Analysis جا مرحلا: 1. پورو جملو پڙهي مطلب سمجهو. 2. هر Finite Verb يا Verb Phrase نشان لڳايو. 3. هر فعل جو Subject ڳوليو. 4. Subject، فعل ۽ لاڳاپيل لفظ گڏ ڪري clauses سڃاڻو. 5. Main Clause ڳوليو جيڪو اڪيلو مڪمل جملو ٿي سگهي. 6. هر Subordinate Clause ۽ ان جو شروعاتي لفظ نشان لڳايو. 7. ان کي Noun، Adjective/Relative يا Adverb Clause قرار ڏيو. 8. ان جو صحيح ڪم ٻڌايو: Subject، Object، Complement، اسم جي وضاحت يا وقت/سبب/شرط جو ظرف وغيره. 9. جيڪڏهن تابع clause اندر ٻيو clause هجي ته ان جي ترتيب واضح ڪريو. 10. punctuation ڏسو ۽ سڀني clauses جو تجزيو مڪمل ڪريو."
+        },
+        {
+          "title": "5. How to distinguish similar-looking clauses",
+          "english": "The word where illustrates why function matters. In 'I know where he lives', where he lives is a noun clause and the object of know. In 'I visited the town where he lives', where he lives is an adjective/relative clause describing town. Likewise, that introduces a noun clause in 'I believe that she is right', but a relative clause in 'The answer that she gave was correct'. Ask what the whole clause does in the sentence. Noun clauses occupy noun positions; adjective clauses sit beside and describe nouns; adverb clauses modify an action or the whole statement.",
+          "urdu": "Where سے شروع ہونے والے clauses کی قسم ان کے کام سے پہچانیں۔ I know where he lives میں where he lives، Noun Clause اور know کا Object ہے۔ I visited the town where he lives میں یہی clause، town کی وضاحت کرتا ہے، اس لیے Adjective/Relative Clause ہے۔ اسی طرح I believe that she is right میں that ایک Noun Clause شروع کرتا ہے، جبکہ The answer that she gave was correct میں Relative Clause شروع کرتا ہے۔ دیکھیں کہ پورا clause جملے میں کیا کام کر رہا ہے۔",
+          "sindhi": "Where سان شروع ٿيندڙ clauses جو قسم انهن جي ڪم مان سڃاڻو. I know where he lives ۾ where he lives، Noun Clause ۽ know جو Object آهي. I visited the town where he lives ۾ اهو clause، town جي وضاحت ڪري ٿو، تنهنڪري Adjective/Relative Clause آهي. ساڳيءَ طرح I believe that she is right ۾ that، Noun Clause شروع ڪري ٿو، جڏهن ته The answer that she gave was correct ۾ Relative Clause شروع ڪري ٿو. ڏسو ته پورو clause جملي ۾ ڪهڙو ڪم ڪري ٿو."
+        },
+        {
+          "title": "6. Punctuation and common examination errors",
+          "english": "Use a comma after an introductory adverb clause: Although it was late, we continued. Do not normally use commas around an essential relative clause: The student who won the prize is my cousin. Use commas around a non-defining relative clause that adds extra information: My uncle, who lives in Lahore, is visiting. A compound sentence joins independent clauses; a complex sentence joins a main clause with at least one subordinate clause. Avoid fragments such as 'When the lesson ended.' Attach the subordinate clause to a main clause. Do not count auxiliary verbs in one verb phrase as separate clauses. Do not classify by the first word alone. In indirect questions use statement word order: I know where she lives, not I know where does she live.",
+          "urdu": "شروع میں آنے والے Adverb Clause کے بعد comma لگائیں: Although it was late, we continued۔ ضروری Relative Clause کے گرد عموماً comma نہیں لگتا: The student who won the prize is my cousin۔ اضافی معلومات دینے والے Non-defining Relative Clause کے گرد commas لگتے ہیں: My uncle, who lives in Lahore, is visiting۔ Compound Sentence میں Independent Clauses ملتے ہیں، جبکہ Complex Sentence میں Main Clause کے ساتھ کم از کم ایک Subordinate Clause ہوتا ہے۔ When the lesson ended ایک نامکمل fragment ہے؛ اسے Main Clause کے ساتھ ملائیں۔ ایک Verb Phrase کے معاون افعال کو الگ clauses نہ گنیں۔ Indirect Question میں statement word order رکھیں: I know where she lives۔",
+          "sindhi": "شروع ۾ ايندڙ Adverb Clause کان پوءِ ڪاما ڏيو: Although it was late, we continued. ضروري Relative Clause جي چوڌاري عام طور ڪاما نه ڏيو: The student who won the prize is my cousin. اضافي ڄاڻ ڏيندڙ Non-defining Relative Clause جي چوڌاري ڪاما ڏيو: My uncle, who lives in Lahore, is visiting. Compound Sentence ۾ Independent Clauses گڏ ٿين ٿا، جڏهن ته Complex Sentence ۾ Main Clause سان گهٽ ۾ گهٽ هڪ Subordinate Clause هوندو آهي. When the lesson ended اڌورو fragment آهي؛ ان کي Main Clause سان ڳنڍيو. هڪ Verb Phrase جا مددگار فعل الڳ clauses نه ڳڻيو. Indirect Question ۾ statement word order رکو: I know where she lives."
+        },
+        {
+          "title": "7. Detailed Exercise — Identify and classify all clauses",
+          "english": "For every sentence, mark the main clause and all subordinate clauses. Classify each subordinate clause as noun, adjective or adverb; state its function; and identify its subject and finite verb.",
+          "urdu": "ہر جملے میں Main Clause اور تمام Subordinate Clauses نشان زد کریں۔ ہر تابع clause کو Noun، Adjective یا Adverb قرار دیں، اس کا کام اور Subject و Finite Verb بتائیں۔",
+          "sindhi": "هر جملي ۾ Main Clause ۽ سڀ Subordinate Clauses نشان لڳايو. هر تابع clause کي Noun، Adjective يا Adverb قرار ڏيو، ان جو ڪم ۽ Subject توڙي Finite Verb ٻڌايو.",
+          "questions": [
+            "1. I think that he is telling the truth.",
+            "2. The woman who teaches us English is absent today.",
+            "3. We stayed at home because the weather was bad.",
+            "4. Whoever arrives first should open the classroom.",
+            "5. The village where my father was born is beautiful.",
+            "6. If you read carefully, you will understand the passage.",
+            "7. She explained why she had missed the bus.",
+            "8. Although he is rich, he lives simply.",
+            "9. The book that you recommended is interesting because its story is unusual.",
+            "10. When the examination ended, the students who had finished early left the hall."
+          ],
+          "answers": [
+            "1. Main: I think. Noun clause: that he is telling the truth — object of think; subject he, finite verb phrase is telling.",
+            "2. Main frame: The woman ... is absent today. Adjective clause: who teaches us English — modifies woman; subject who, verb teaches.",
+            "3. Main: We stayed at home. Adverb clause: because the weather was bad — reason; subject weather, verb was.",
+            "4. Noun clause: Whoever arrives first — subject of should open; within it whoever is subject and arrives is finite verb.",
+            "5. Main frame: The village ... is beautiful. Adjective clause: where my father was born — modifies village; subject father, verb was born.",
+            "6. Main: you will understand the passage. Adverb clause: If you read carefully — condition; subject you, verb read.",
+            "7. Main: She explained. Noun clause: why she had missed the bus — object; subject she, verb phrase had missed.",
+            "8. Main: he lives simply. Adverb clause: Although he is rich — concession; subject he, verb is.",
+            "9. Main frame: The book ... is interesting. Adjective clause: that you recommended — modifies book; subject you, verb recommended. Adverb clause: because its story is unusual — reason; subject story, verb is.",
+            "10. Main frame: the students ... left the hall. Adverb clause: When the examination ended — time; subject examination, verb ended. Adjective clause: who had finished early — modifies students; subject who, verb phrase had finished."
+          ]
+        },
+        {
+          "title": "8. Detailed Exercise — Complete the analysis",
+          "english": "Fill in the missing information for each sentence: main clause, subordinate clause, clause type and grammatical function.",
+          "urdu": "ہر جملے کے لیے خالی معلومات مکمل کریں: Main Clause، Subordinate Clause، clause کی قسم اور نحوی کام۔",
+          "sindhi": "هر جملي لاءِ خالي ڄاڻ مڪمل ڪريو: Main Clause، Subordinate Clause، clause جو قسم ۽ گرامري ڪم.",
+          "questions": [
+            "1. I remember what you promised.",
+            "2. The house that stands on the hill belongs to my aunt.",
+            "3. We cancelled the picnic because it was raining.",
+            "4. Whoever solves the riddle will receive a prize.",
+            "5. Tell me when the train leaves."
+          ],
+          "answers": [
+            "1. Main: I remember. Subordinate: what you promised — noun clause, direct object of remember.",
+            "2. Main frame: The house ... belongs to my aunt. Subordinate: that stands on the hill — adjective clause modifying house.",
+            "3. Main: We cancelled the picnic. Subordinate: because it was raining — adverb clause of reason.",
+            "4. Subordinate: Whoever solves the riddle — noun clause, subject of will receive; main predicate: will receive a prize.",
+            "5. Main: Tell me. Subordinate: when the train leaves — noun clause, direct object of tell (the thing you are asked to tell)."
+          ]
+        },
+        {
+          "title": "9. Detailed Exercise — Correct the errors",
+          "english": "Rewrite each sentence correctly and explain the clause-related error.",
+          "urdu": "ہر جملے کو درست کرکے دوبارہ لکھیں اور clause سے متعلق غلطی کی وضاحت کریں۔",
+          "sindhi": "هر جملي کي صحيح ڪري ٻيهر لکو ۽ clause سان لاڳاپيل غلطي سمجهايو.",
+          "questions": [
+            "1. Because the bus was late.",
+            "2. I know where does she live.",
+            "3. Although he was tired, but he continued working.",
+            "4. The man which helped me was kind.",
+            "5. I visited the school which my mother teaches."
+          ],
+          "answers": [
+            "1. Because the bus was late, I missed the meeting. (The original is a subordinate-clause fragment; attach a main clause.)",
+            "2. I know where she lives. (An indirect question uses statement word order.)",
+            "3. Although he was tired, he continued working. (Do not use although and but together in this structure.)",
+            "4. The man who helped me was kind. (Use who for a person as the subject of the relative clause.)",
+            "5. I visited the school where my mother teaches. (Where expresses the place in which she teaches; alternatively, 'the school at which my mother teaches'.)"
+          ]
+        }
+      ],
+      "examples": [
+        [
+          "I know that she is honest.",
+          "Main clause: I know. Subordinate clause: that she is honest — Noun Clause, direct object of know. Subject: she; finite verb: is.",
+          "میں جانتا ہوں کہ وہ ایماندار ہے۔",
+          "مان ڄاڻان ٿو ته هوءَ ايماندار آهي.",
+          "The clause answers 'what do I know?' and functions as the object."
+        ],
+        [
+          "What he said surprised everyone.",
+          "Subordinate clause: What he said — Noun Clause, subject of surprised. Inside it: subject he; finite verb said. Main predicate: surprised everyone.",
+          "اس نے جو کہا اس نے سب کو حیران کر دیا۔",
+          "هن جيڪو چيو، تنهن سڀني کي حيران ڪري ڇڏيو.",
+          "The entire noun clause is the subject of the main verb."
+        ],
+        [
+          "The girl who won the prize is my sister.",
+          "Main clause frame: The girl ... is my sister. Subordinate clause: who won the prize — Adjective Clause modifying girl. Subject: who; finite verb: won.",
+          "وہ لڑکی جس نے انعام جیتا میری بہن ہے۔",
+          "اها ڇوڪري جنهن انعام کٽيو، منهنجي ڀيڻ آهي.",
+          "The relative clause identifies which girl."
+        ],
+        [
+          "I will wait until you return.",
+          "Main: I will wait. Subordinate: until you return — Adverb Clause of Time modifying wait. Subject: you; finite verb: return.",
+          "میں انتظار کروں گا جب تک تم واپس نہیں آتے۔",
+          "مان انتظار ڪندس جيستائين تون واپس نه اچين.",
+          "It answers 'until when?'."
+        ],
+        [
+          "Because the road was blocked, we took another route.",
+          "Subordinate: Because the road was blocked — Adverb Clause of Reason. Main: we took another route. Subordinate subject: road; finite verb: was.",
+          "چونکہ راستہ بند تھا، ہم نے دوسرا راستہ اختیار کیا۔",
+          "ڇو ته رستو بند هو، تنهنڪري اسان ٻيو رستو ورتو.",
+          "The introductory reason clause is followed by a comma."
+        ],
+        [
+          "The book that you lent me is useful.",
+          "Main frame: The book ... is useful. Subordinate: that you lent me — Adjective Clause modifying book. Subject: you; finite verb: lent; me is indirect object.",
+          "وہ کتاب جو تم نے مجھے دی تھی مفید ہے۔",
+          "اهو ڪتاب جيڪو تو مون کي ڏنو هو، ڪارائتو آهي.",
+          "That refers to book and introduces an identifying relative clause."
+        ],
+        [
+          "If you practise daily, you will improve.",
+          "Main: you will improve. Subordinate: If you practise daily — Adverb Clause of Condition. Subject: you; finite verb: practise.",
+          "اگر تم روزانہ مشق کرو گے تو تم بہتر ہو جاؤ گے۔",
+          "جيڪڏهن تون روزانو مشق ڪندين ته بهتر ٿيندين.",
+          "A real future condition uses present simple in the if-clause."
+        ],
+        [
+          "I cannot understand why he left early.",
+          "Main: I cannot understand. Subordinate: why he left early — Noun Clause, object of understand. Subject: he; finite verb: left.",
+          "میں نہیں سمجھ سکتا کہ وہ جلدی کیوں چلا گیا۔",
+          "مان سمجهي نٿو سگهان ته هو سوير ڇو هليو ويو.",
+          "This is an indirect question, so use statement word order."
+        ],
+        [
+          "The place where we first met has changed.",
+          "Main frame: The place ... has changed. Subordinate: where we first met — Adjective Clause modifying place. Subject: we; finite verb: met.",
+          "وہ جگہ جہاں ہم پہلی بار ملے تھے بدل گئی ہے۔",
+          "اها جاءِ جتي اسين پهريون ڀيرو مليا هئاسين، بدلجي وئي آهي.",
+          "Where introduces a relative clause describing place."
+        ],
+        [
+          "Although she was nervous, she gave an excellent speech.",
+          "Subordinate: Although she was nervous — Adverb Clause of Concession. Main: she gave an excellent speech. Subordinate subject: she; finite verb: was.",
+          "اگرچہ وہ گھبرائی ہوئی تھی، اس نے بہترین تقریر کی۔",
+          "جيتوڻيڪ هوءَ گهٻرايل هئي، هن بهترين تقرير ڪئي.",
+          "The concession clause admits a difficulty despite which the main action happened."
+        ],
+        [
+          "The teacher praised the student who had completed the project.",
+          "Main: The teacher praised the student. Subordinate: who had completed the project — Adjective Clause modifying student. Subject: who; finite verb phrase: had completed.",
+          "استاد نے اس طالب علم کی تعریف کی جس نے منصوبہ مکمل کر لیا تھا۔",
+          "استاد ان شاگرد جي ساراهه ڪئي جنهن منصوبو مڪمل ڪيو هو.",
+          "The relative clause identifies the student."
+        ],
+        [
+          "I believe that the team will win because it has practised well.",
+          "Outer main: I believe. Noun Clause: that the team will win because it has practised well — object of believe. Embedded main idea: the team will win. Embedded adverb clause: because it has practised well — reason. Subjects/verbs: team/will win; it/has practised.",
+          "مجھے یقین ہے کہ ٹیم جیتے گی کیونکہ اس نے اچھی مشق کی ہے۔",
+          "مون کي يقين آهي ته ٽيم کٽيندي، ڇاڪاڻ⁠تہ هن سٺي مشق ڪئي آهي.",
+          "This is a nested structure: an object noun clause contains a reason adverb clause."
+        ],
+        [
+          "Whoever works sincerely will achieve success.",
+          "Subordinate: Whoever works sincerely — Noun Clause functioning as subject. Inside it: whoever is subject; works is finite verb. Main predicate: will achieve success.",
+          "جو شخص خلوص سے محنت کرے گا وہ کامیابی حاصل کرے گا۔",
+          "جيڪو به سچائيءَ سان محنت ڪندو، سو ڪاميابي حاصل ڪندو.",
+          "Whoever introduces a free-relative noun clause that acts as subject."
+        ],
+        [
+          "This is the house which my grandfather built.",
+          "Main: This is the house. Subordinate: which my grandfather built — Adjective Clause modifying house. Subject: my grandfather; finite verb: built; which is the object of built.",
+          "یہ وہ گھر ہے جو میرے دادا نے بنایا تھا۔",
+          "هي اهو گهر آهي جيڪو منهنجي ڏاڏي ٺاهيو هو.",
+          "Which refers to house and functions as the object inside the relative clause."
+        ],
+        [
+          "We left early so that we could catch the first bus.",
+          "Main: We left early. Subordinate: so that we could catch the first bus — Adverb Clause of Purpose. Subject: we; finite verb phrase: could catch.",
+          "ہم جلدی روانہ ہوئے تاکہ پہلی بس پکڑ سکیں۔",
+          "اسين سوير روانا ٿياسين ته جيئن پهرين بس پڪڙي سگهون.",
+          "The purpose clause tells the intention behind leaving early."
+        ],
+        [
+          "The man whose car was stolen reported the theft.",
+          "Main frame: The man ... reported the theft. Subordinate: whose car was stolen — Adjective Clause modifying man. Subject: whose car; finite verb phrase: was stolen.",
+          "وہ شخص جس کی گاڑی چوری ہوئی تھی اس نے چوری کی اطلاع دی۔",
+          "اهو ماڻهو جنهن جي گاڏي چوري ٿي هئي، هن چوري جي رپورٽ ڪئي.",
+          "Whose indicates possession and modifies man through a relative clause."
+        ],
+        [
+          "She asked whether the shop was open.",
+          "Main: She asked. Subordinate: whether the shop was open — Noun Clause, object of asked. Subject: shop; finite verb: was.",
+          "اس نے پوچھا کہ آیا دکان کھلی تھی۔",
+          "هن پڇيو ته ڇا دڪان کليل هو.",
+          "Whether introduces an indirect yes/no question."
+        ],
+        [
+          "When the guests arrived, the food that my mother had prepared was served.",
+          "Adverb Clause: When the guests arrived — time. Main frame: the food ... was served. Adjective Clause: that my mother had prepared — modifies food. Clause subjects/verbs: guests/arrived; mother/had prepared.",
+          "جب مہمان پہنچے تو وہ کھانا پیش کیا گیا جو میری والدہ نے تیار کیا تھا۔",
+          "جڏهن مهمان پهتا ته اهو کاڌو پيش ڪيو ويو جيڪو منهنجي امڙ تيار ڪيو هو.",
+          "There are two subordinate clauses: a time clause and a relative clause inside the subject phrase."
+        ],
+        [
+          "I know the reason why he resigned.",
+          "Main: I know the reason. Subordinate: why he resigned — relative/adjective clause specifying reason. Subject: he; finite verb: resigned.",
+          "میں وہ وجہ جانتا ہوں جس کی بنا پر اس نے استعفیٰ دیا۔",
+          "مان اهو سبب ڄاڻان ٿو جنهن ڪري هن استعيفو ڏنو.",
+          "The clause modifies the noun reason. Compare 'I know why he resigned', where the clause is a noun clause object."
+        ],
+        [
+          "No one knows where the missing keys are.",
+          "Main: No one knows. Subordinate: where the missing keys are — Noun Clause, object of knows. Subject: missing keys; finite verb: are.",
+          "کوئی نہیں جانتا کہ گم شدہ چابیاں کہاں ہیں۔",
+          "ڪنهن کي به خبر ناهي ته گم ٿيل چاٻيون ڪٿي آهن.",
+          "It answers 'what does no one know?' and is therefore a noun clause."
+        ]
+      ],
+      "subsectionsExtra": "Exercises"
+    },
+    {
+      "title": "Transformation of Sentences — Interchange of Sentence Forms and Parts of Speech",
+      "english": "Sentence transformation means changing the grammatical form or structure of a sentence without changing its essential meaning. In a correct transformation, the tense, time reference, facts, emphasis and logical relationship should remain as close to the original as the target structure allows. The four areas in this lesson are: affirmative and negative sentences; interrogative and assertive sentences; exclamatory and assertive sentences; and changing one part of speech into another. Do not add a negative word carelessly, change the tense, or alter the meaning merely to satisfy a pattern.",
+      "urdu": "Sentence Transformation کا مطلب جملے کا بنیادی مفہوم برقرار رکھتے ہوئے اس کی نحوی ساخت یا صورت تبدیل کرنا ہے۔ درست تبدیلی میں زمانہ، وقت، حقیقت، زور اور منطقی تعلق حتی الامکان وہی رہنا چاہیے۔ اس سبق میں چار موضوعات شامل ہیں: Affirmative اور Negative جملوں کی تبدیلی؛ Interrogative اور Assertive جملوں کی تبدیلی؛ Exclamatory اور Assertive جملوں کی تبدیلی؛ اور ایک Part of Speech کو دوسرے Part of Speech میں تبدیل کرنا۔ صرف pattern پورا کرنے کے لیے بلاوجہ نفی، زمانے کی تبدیلی یا معنی میں فرق پیدا نہ کریں۔",
+      "sindhi": "Sentence Transformation جو مطلب جملي جو بنيادي مفهوم برقرار رکندي ان جي گرامري بناوت يا صورت تبديل ڪرڻ آهي. صحيح تبديليءَ ۾ زمانو، وقت، حقيقت، زور ۽ منطقي لاڳاپو ممڪن حد تائين ساڳيو رهڻ گهرجي. هن سبق ۾ چار موضوع آهن: Affirmative ۽ Negative جملن جي مٽاسٽا؛ Interrogative ۽ Assertive جملن جي مٽاسٽا؛ Exclamatory ۽ Assertive جملن جي مٽاسٽا؛ ۽ هڪ Part of Speech کي ٻئي Part of Speech ۾ بدلائڻ. رڳو قاعدو پورو ڪرڻ لاءِ بنا ضرورت نفي، زماني جي تبديلي يا معنيٰ ۾ فرق پيدا نه ڪريو.",
+      "subsections": [
+        {
+          "title": "1. Interchange of Affirmative and Negative Sentences",
+          "english": "An affirmative sentence states something positively; a negative sentence denies something or states that it is not so. Transformation usually uses a suitable opposite expression or a negative construction while keeping the original sense. Common patterns include: (a) only + person → none but/no one but; only + thing → nothing but; (b) everyone/all → there is no one who does not / not ... anyone, where natural; (c) always → never ... without, only when the meaning truly supports it; (d) as soon as → no sooner ... than / hardly ... when, with correct inversion; (e) too ... to → so ... that ... cannot/could not; (f) comparative with 'less ... than' → negative form with 'not so/as ... as' only when the comparison remains equivalent. Keep the same tense and subject. Avoid double negatives in standard English. Not every affirmative sentence has a natural negative equivalent with exactly the same shade of meaning; do not force an unnatural conversion.",
+          "urdu": "Affirmative جملہ کسی بات کو مثبت انداز میں بیان کرتا ہے، جبکہ Negative جملہ اس کی نفی کرتا ہے۔ تبدیلی میں مناسب متضاد لفظ یا منفی ساخت استعمال کی جاتی ہے، مگر اصل مفہوم برقرار رہنا چاہیے۔ عام طریقے: (الف) only + شخص → none but/no one but؛ only + چیز → nothing but؛ (ب) everyone/all → there is no one who does not، جہاں یہ فطری ہو؛ (ج) always → never ... without، صرف وہاں جہاں معنی درست رہیں؛ (د) as soon as → no sooner ... than یا hardly ... when؛ (ہ) too ... to → so ... that ... cannot/could not؛ (و) تقابلی ساخت کو not so/as ... as میں بدلنا، صرف جب موازنہ برابر رہے۔ زمانہ اور Subject تبدیل نہ کریں۔ معیاری انگریزی میں double negative سے بچیں۔ ہر مثبت جملے کا فطری منفی متبادل لازمی نہیں ہوتا۔",
+          "sindhi": "Affirmative جملو ڪنهن ڳالهه کي هاڪاري نموني بيان ڪري ٿو، جڏهن ته Negative جملو ان جي نفي ڪري ٿو. تبديليءَ ۾ مناسب ابتڙ لفظ يا منفي بناوت استعمال ڪريو، پر اصل مفهوم برقرار رکو. عام طريقا: (الف) only + ماڻهو → none but/no one but؛ only + شيءِ → nothing but؛ (ب) everyone/all → there is no one who does not، جتي فطري هجي؛ (ج) always → never ... without، صرف تڏهن جڏهن مطلب صحيح رهي؛ (د) as soon as → no sooner ... than يا hardly ... when؛ (هـ) too ... to → so ... that ... cannot/could not؛ (و) تقابلي بناوت کي not so/as ... as ۾ بدلائڻ، صرف جڏهن مقابلو برابر رهي. زمانو ۽ Subject نه بدلايو. معياري انگريزيءَ ۾ double negative کان پاسو ڪريو. هر هاڪاري جملي جو فطري منفي متبادل لازمي ناهي."
+        },
+        {
+          "title": "2. Interchange of Interrogative and Assertive Sentences",
+          "english": "An interrogative sentence asks a question and ends with a question mark. An assertive (declarative) sentence makes a statement and normally ends with a full stop. To transform a rhetorical question into an assertive sentence, express the implied statement and preserve its positive or negative sense. Examples: 'Who does not love freedom?' → 'Everyone loves freedom.' 'Is there any doubt about it?' → 'There is no doubt about it.' For ordinary information questions, a direct conversion is not generally possible without adding information or changing the communicative purpose. Yes/no rhetorical questions may be recast with everyone, no one, surely, certainly, or a suitable negative statement. Retain the tense and modal meaning; change question word order to statement word order.",
+          "urdu": "Interrogative جملہ سوال پوچھتا ہے اور آخر میں question mark آتا ہے۔ Assertive یا Declarative جملہ بیان دیتا ہے اور عموماً full stop پر ختم ہوتا ہے۔ Rhetorical Question کو Assertive میں بدلتے وقت اس میں پوشیدہ مفہوم کو بیان کریں اور مثبت یا منفی معنی برقرار رکھیں۔ مثال: Who does not love freedom? → Everyone loves freedom۔ Is there any doubt about it? → There is no doubt about it۔ عام معلوماتی سوال کو بغیر اضافی معلومات یا مقصد بدلے براہِ راست بیان میں تبدیل نہیں کیا جا سکتا۔ سوالیہ ترتیب کو عام statement ترتیب میں بدلیں اور tense و modal کا مفہوم برقرار رکھیں۔",
+          "sindhi": "Interrogative جملو سوال پڇي ٿو ۽ آخر ۾ question mark اچي ٿو. Assertive يا Declarative جملو بيان ڏئي ٿو ۽ عام طور full stop تي ختم ٿئي ٿو. Rhetorical Question کي Assertive ۾ بدلائيندي ان جو لڪل مطلب بيان ڪريو ۽ هاڪاري يا منفي مفهوم برقرار رکو. مثال: Who does not love freedom? → Everyone loves freedom. Is there any doubt about it? → There is no doubt about it. عام معلوماتي سوال کي اضافي ڄاڻ يا مقصد بدلائڻ کان سواءِ سڌو بيان ۾ بدلائي نٿو سگهجي. سوال واري ترتيب کي عام statement ترتيب ۾ آڻيو ۽ tense ۽ modal جو مطلب برقرار رکو."
+        },
+        {
+          "title": "3. Interchange of Exclamatory and Assertive Sentences",
+          "english": "An exclamatory sentence expresses a strong feeling such as joy, sorrow, surprise, admiration or regret. It often begins with What or How and ends with an exclamation mark. An assertive sentence expresses the same feeling in a normal statement. Common patterns: 'What a/an + adjective + singular countable noun!' → 'It is/was a very + adjective + noun.'; 'How + adjective/adverb + subject + verb!' → 'Subject + verb + very + adjective/adverb.'; 'Alas!' → 'It is very sad that ...'; 'Hurrah!' → 'We are very glad that ...'. Choose the tense and pronouns according to the context. Exclamatory words do not always have a single fixed assertive equivalent; express the actual emotion accurately.",
+          "urdu": "Exclamatory جملہ خوشی، غم، حیرت، تعریف یا افسوس جیسے شدید جذبات ظاہر کرتا ہے۔ یہ اکثر What یا How سے شروع ہوتا ہے اور آخر میں exclamation mark آتا ہے۔ Assertive جملے میں وہی جذبہ عام بیان کے ذریعے ظاہر کیا جاتا ہے۔ عام ساختیں: What a/an + adjective + singular noun! → It is/was a very + adjective + noun؛ How + adjective/adverb + subject + verb! → Subject + verb + very + adjective/adverb؛ Alas! → It is very sad that ...؛ Hurrah! → We are very glad that ...۔ سیاق کے مطابق tense اور pronoun منتخب کریں۔ ہر جذباتی لفظ کا ایک ہی مقررہ متبادل نہیں ہوتا؛ اصل جذبہ درست طور پر بیان کریں۔",
+          "sindhi": "Exclamatory جملو خوشي، ڏک، حيرت، ساراهه يا افسوس جهڙا شديد جذبا ظاهر ڪري ٿو. اهو اڪثر What يا How سان شروع ٿئي ٿو ۽ آخر ۾ exclamation mark اچي ٿو. Assertive جملي ۾ ساڳيو جذبو عام بيان سان ظاهر ڪيو وڃي ٿو. عام بناوتون: What a/an + adjective + singular noun! → It is/was a very + adjective + noun؛ How + adjective/adverb + subject + verb! → Subject + verb + very + adjective/adverb؛ Alas! → It is very sad that ...؛ Hurrah! → We are very glad that ...۔ حوالي موجب tense ۽ pronoun چونڊيو. هر جذباتي لفظ جو هڪ مقرر متبادل ناهي؛ اصل جذبو صحيح نموني بيان ڪريو."
+        },
+        {
+          "title": "4. Interchange of One Part of Speech for Another",
+          "english": "This transformation changes the grammatical category of a word or phrase while preserving the idea. The most common changes are noun ↔ verb, adjective ↔ noun, adjective ↔ adverb, and verb ↔ noun (often a gerund or an abstract noun). Examples: 'He is a careful driver' → 'He drives carefully' (adjective careful → adverb carefully); 'She made a decision' → 'She decided' (noun decision → verb decided); 'His kindness pleased us' → 'He was kind to us' (noun kindness → adjective kind); 'The arrival of the train was delayed' → 'The train arrived late' (noun arrival → verb arrived). You may need to change articles, prepositions, auxiliaries or word order. Keep the tense, voice, number, and logical meaning as close as possible. Some words have several meanings or do not have a natural equivalent in another part of speech, so use a suitable dictionary form rather than inventing a word.",
+          "urdu": "اس تبدیلی میں لفظ یا phrase کی grammatical category بدلی جاتی ہے، مگر خیال برقرار رکھا جاتا ہے۔ عام تبدیلیاں Noun ↔ Verb، Adjective ↔ Noun، Adjective ↔ Adverb اور Verb ↔ Noun (Gerund یا Abstract Noun) ہیں۔ مثال: He is a careful driver → He drives carefully؛ یہاں careful صفت سے carefully متعلقِ فعل بنا۔ She made a decision → She decided؛ decision اسم سے decided فعل بنا۔ His kindness pleased us → He was kind to us؛ kindness اسم سے kind صفت بنا۔ اس تبدیلی میں article، preposition، auxiliary یا word order بھی بدل سکتا ہے۔ Tense، voice، number اور بنیادی معنی حتی الامکان برقرار رکھیں۔ ہر لفظ کا دوسرے part of speech میں فطری متبادل نہیں ہوتا، اس لیے درست لفظ استعمال کریں۔",
+          "sindhi": "هن تبديليءَ ۾ لفظ يا phrase جو grammatical category بدلجي ٿو، پر خيال برقرار رکبو آهي. عام تبديليون Noun ↔ Verb، Adjective ↔ Noun، Adjective ↔ Adverb ۽ Verb ↔ Noun (Gerund يا Abstract Noun) آهن. مثال: He is a careful driver → He drives carefully؛ هتي careful صفت مان carefully ظرف بڻيو. She made a decision → She decided؛ decision اسم مان decided فعل بڻيو. His kindness pleased us → He was kind to us؛ kindness اسم مان kind صفت بڻيو. هن تبديليءَ ۾ article، preposition، auxiliary يا لفظن جي ترتيب به بدلجي سگهي ٿي. Tense، voice، number ۽ بنيادي مطلب ممڪن حد تائين ساڳيو رکو. هر لفظ جو ٻئي part of speech ۾ فطري متبادل ناهي."
+        }
+      ],
+      "examples": [
+        [
+          "Only Ali can solve this problem.",
+          "None but Ali can solve this problem.",
+          "Affirmative with only (person) → negative with none but; the meaning is restricted to Ali.",
+          "صرف علی یہ مسئلہ حل کر سکتا ہے۔",
+          "رڳو علي هي مسئلو حل ڪري سگهي ٿو۔"
+        ],
+        [
+          "Only a fool would believe that story.",
+          "No one but a fool would believe that story.",
+          "Only + person changes to no one but; keep would and the meaning.",
+          "صرف کوئی بےوقوف اس کہانی پر یقین کرے گا۔",
+          "رڳو ڪو بيوقوف ان ڪهاڻيءَ تي يقين ڪندو۔"
+        ],
+        [
+          "Everyone respects an honest person.",
+          "There is no one who does not respect an honest person.",
+          "Affirmative universal statement → negative construction with no one ... does not; meaning remains universal.",
+          "ہر شخص ایماندار انسان کی عزت کرتا ہے۔",
+          "هر ماڻهو ايماندار انسان جي عزت ڪري ٿو۔"
+        ],
+        [
+          "He is always punctual.",
+          "He is never late.",
+          "Always punctual is expressed with the opposite adjective late and never; same general meaning.",
+          "وہ ہمیشہ وقت کا پابند ہے۔",
+          "هو هميشه وقت جو پابند آهي۔"
+        ],
+        [
+          "As soon as the bell rang, the students left.",
+          "No sooner had the bell rung than the students left.",
+          "As soon as → no sooner ... than; past perfect inversion is used after no sooner.",
+          "جیسے ہی گھنٹی بجی، طلبہ چلے گئے۔",
+          "جيئن ئي گهنٽي وڳي، شاگرد هليا ويا۔"
+        ],
+        [
+          "The box is too heavy for me to lift.",
+          "The box is so heavy that I cannot lift it.",
+          "Too ... to → so ... that + cannot; the inability is made explicit.",
+          "ڈبہ میرے لیے اٹھانے کو بہت بھاری ہے۔",
+          "دٻو منهنجي کڻڻ لاءِ تمام ڳرو آهي۔"
+        ],
+        [
+          "Who does not wish to be happy?",
+          "Everyone wishes to be happy.",
+          "Rhetorical question → assertive universal statement; the question implies everyone wishes for happiness.",
+          "کون خوش رہنا نہیں چاہتا؟ ہر شخص خوش رہنا چاہتا ہے۔",
+          "ڪير خوش رهڻ نٿو چاهي؟ هر ماڻهو خوش رهڻ چاهي ٿو۔"
+        ],
+        [
+          "Is there any use in crying over spilt milk?",
+          "There is no use in crying over spilt milk.",
+          "Rhetorical question → negative assertive statement; preserve the implied answer.",
+          "گزرے ہوئے نقصان پر رونے کا کوئی فائدہ نہیں ہے۔",
+          "گذريل نقصان تي روئڻ جو ڪو فائدو ناهي۔"
+        ],
+        [
+          "Can anyone deny the importance of education?",
+          "No one can deny the importance of education.",
+          "Rhetorical question implies that nobody can deny it; modal can is retained.",
+          "کوئی تعلیم کی اہمیت سے انکار نہیں کر سکتا۔",
+          "ڪو به تعليم جي اهميت کان انڪار نٿو ڪري سگهي۔"
+        ],
+        [
+          "Who can tolerate such injustice?",
+          "No one can tolerate such injustice.",
+          "The rhetorical question expresses that nobody can tolerate it.",
+          "ایسا ظلم کون برداشت کر سکتا ہے؟ کوئی بھی نہیں۔",
+          "اهڙو ظلم ڪير برداشت ڪري سگهي ٿو؟ ڪو به نه۔"
+        ],
+        [
+          "What a beautiful garden it is!",
+          "It is a very beautiful garden.",
+          "What a + adjective + noun changes to it is a very + adjective + noun.",
+          "یہ کتنا خوبصورت باغ ہے!",
+          "هي ڪيترو نه سهڻو باغ آهي!"
+        ],
+        [
+          "How wisely she speaks!",
+          "She speaks very wisely.",
+          "How + adverb changes to subject + verb + very + adverb.",
+          "وہ کتنی دانائی سے بات کرتی ہے!",
+          "هوءَ ڪيتري دانائيءَ سان ڳالهائي ٿي!"
+        ],
+        [
+          "Alas! We have lost the match.",
+          "It is very sad that we have lost the match.",
+          "Alas expresses sorrow; the assertive form states the sadness directly.",
+          "افسوس! ہم میچ ہار گئے ہیں۔",
+          "افسوس! اسان ميچ هارائي ويٺا آهيون۔"
+        ],
+        [
+          "Hurrah! Our team has won the trophy!",
+          "We are very glad that our team has won the trophy.",
+          "Hurrah expresses joy; the assertive sentence names that feeling.",
+          "واہ! ہماری ٹیم ٹرافی جیت گئی ہے!",
+          "واهه! اسان جي ٽيم ٽرافي کٽي ورتي آهي!"
+        ],
+        [
+          "What a foolish mistake he made!",
+          "He made a very foolish mistake.",
+          "Exclamatory what-phrase becomes an ordinary statement with very.",
+          "اس نے کتنی احمقانہ غلطی کی!",
+          "هن ڪيتري نه بيوقوفيءَ واري غلطي ڪئي!"
+        ],
+        [
+          "He is a careful driver.",
+          "He drives carefully.",
+          "Adjective careful (describing driver) changes to adverb carefully (describing drives).",
+          "وہ محتاط ڈرائیور ہے۔",
+          "هو احتياط سان گاڏي هلائيندڙ آهي۔"
+        ],
+        [
+          "She made a decision quickly.",
+          "She decided quickly.",
+          "The noun decision changes to the verb decided; quickly remains an adverb.",
+          "اس نے جلدی فیصلہ کیا۔",
+          "هن جلدي فيصلو ڪيو۔"
+        ],
+        [
+          "His kindness pleased everyone.",
+          "Everyone was pleased because he was kind.",
+          "The noun kindness changes to the adjective kind; sentence structure is adjusted to preserve the idea.",
+          "اس کی مہربانی نے سب کو خوش کیا۔",
+          "هن جي مهربانيءَ سڀني کي خوش ڪيو۔"
+        ],
+        [
+          "The arrival of the train was delayed.",
+          "The train arrived late.",
+          "The noun arrival changes to the verb arrived; late expresses the time of arrival.",
+          "ٹرین کی آمد میں تاخیر ہوئی۔",
+          "ٽرين جي اچڻ ۾ دير ٿي۔"
+        ],
+        [
+          "She gave a correct answer.",
+          "She answered correctly.",
+          "The adjective correct changes to the adverb correctly; noun phrase a correct answer becomes the verb answered.",
+          "اس نے درست جواب دیا۔",
+          "هن صحيح جواب ڏنو۔"
+        ]
+      ],
+      "exercises": [
+        {
+          "title": "Exercise A — Affirmative and Negative Transformation",
+          "instructions": "Change each sentence into the opposite form without changing its essential meaning.",
+          "questions": [
+            "1. Only a brave person can do this.",
+            "2. Everyone loves peace.",
+            "3. He is always polite.",
+            "4. As soon as the teacher entered, the class became silent.",
+            "5. The tea is too hot for me to drink."
+          ],
+          "answers": [
+            "1. None but a brave person can do this.",
+            "2. There is no one who does not love peace.",
+            "3. He is never impolite.",
+            "4. No sooner had the teacher entered than the class became silent.",
+            "5. The tea is so hot that I cannot drink it."
+          ]
+        },
+        {
+          "title": "Exercise B — Interrogative and Assertive Transformation",
+          "instructions": "Rewrite each rhetorical question as an assertive statement.",
+          "questions": [
+            "1. Who does not want success?",
+            "2. Can anyone forget a mother's love?",
+            "3. Is there any benefit in telling a lie?",
+            "4. Who can deny that time is precious?",
+            "5. Is this not a wonderful opportunity?"
+          ],
+          "answers": [
+            "1. Everyone wants success.",
+            "2. No one can forget a mother's love.",
+            "3. There is no benefit in telling a lie.",
+            "4. No one can deny that time is precious.",
+            "5. This is a wonderful opportunity."
+          ]
+        },
+        {
+          "title": "Exercise C — Exclamatory and Assertive Transformation",
+          "instructions": "Change the exclamatory sentences into assertive sentences. Preserve the emotion.",
+          "questions": [
+            "1. What a lovely day it is!",
+            "2. How beautifully the child sings!",
+            "3. Alas! The old man is dead.",
+            "4. Hurrah! We have passed the examination!",
+            "5. What a terrible storm it was!"
+          ],
+          "answers": [
+            "1. It is a very lovely day.",
+            "2. The child sings very beautifully.",
+            "3. It is very sad that the old man is dead.",
+            "4. We are very glad that we have passed the examination.",
+            "5. It was a very terrible storm."
+          ]
+        },
+        {
+          "title": "Exercise D — Change One Part of Speech into Another",
+          "instructions": "Rewrite each sentence using the indicated part of speech while preserving the meaning.",
+          "questions": [
+            "1. He is a slow worker. (Use an adverb.)",
+            "2. She gave a reply. (Use a verb.)",
+            "3. His success made us happy. (Use the adjective successful.)",
+            "4. The explanation was clear. (Use the adverb clearly.)",
+            "5. They made a decision to leave. (Use the verb decide.)"
+          ],
+          "answers": [
+            "1. He works slowly.",
+            "2. She replied.",
+            "3. He was successful, and this made us happy. (A natural recast; preserve the intended relation.)",
+            "4. The explanation was given clearly. (Or: He explained it clearly, if the context identifies the explainer.)",
+            "5. They decided to leave."
+          ]
+        },
+        {
+          "title": "Exercise E — Identify the transformation rule",
+          "instructions": "Name the type of transformation and explain the grammatical change.",
+          "questions": [
+            "1. What a clever boy he is! → He is a very clever boy.",
+            "2. Only Sara knew the answer. → No one but Sara knew the answer.",
+            "3. Who can question his honesty? → No one can question his honesty.",
+            "4. She is a beautiful singer. → She sings beautifully.",
+            "5. The performance gave us pleasure. → The performance pleased us."
+          ],
+          "answers": [
+            "1. Exclamatory → assertive; What a ... becomes a very ... statement.",
+            "2. Affirmative → negative; only + person becomes no one but.",
+            "3. Interrogative rhetorical → assertive; implied universal negative answer is stated.",
+            "4. Adjective → adverb; beautiful modifies singer, beautifully modifies sings.",
+            "5. Noun → verb; pleasure changes to pleased, with sentence structure adjusted."
+          ]
+        }
+      ],
+      "watchFor": "Transformation must preserve meaning, tense and logical emphasis. Interrogative-to-assertive conversion is straightforward mainly for rhetorical questions, not ordinary information questions. Avoid double negatives, awkward word formations and changing the facts. Some textbook transformations are approximate equivalents; check the context."
+    }
+  ]
+}
 };
 
 
