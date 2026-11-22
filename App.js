@@ -37,7 +37,7 @@ function Action({ title, onPress, secondary = false }) {
 function Header({ eyebrow, title, subtitle }) {
   return <View style={styles.header}><Text style={styles.eyebrow}>{eyebrow}</Text><Text style={styles.headerTitle}>{title}</Text>{subtitle ? <Text style={styles.headerSub}>{subtitle}</Text> : null}</View>;
 }
-const fullCourseQuestions = lessons.flatMap(lesson => lesson.quiz.map(question => ({ ...question, lessonTitle: lesson.title, lessonId: lesson.id })));
+const fullCourseQuestions = lessons.flatMap(lesson => (lesson.quiz || []).map(question => ({ ...question, lessonTitle: lesson.title, lessonId: lesson.id })));
 
 function buildTopicQuestions(lesson) {
   const questions = (lesson.quiz || []).slice(0, 5).map(question => ({ ...question }));
@@ -543,7 +543,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       <Text style={styles.sectionTitle}>Understand the sentence</Text>
       {selected.breakdown.map((line, i) => <View key={i} style={styles.breakRow}><View style={{ flex: 1 }}><Text style={styles.breakWord}>{line[0]}</Text><Text style={styles.breakKind}>{line[1]}</Text></View><Text style={styles.breakUrdu}>{line[2]}</Text></View>)}
       {sindhiTranslations[selected.id] ? <View style={{ backgroundColor: "#EFF8F5", borderRadius: 14, borderWidth: 1, borderColor: "#D7ECE5", padding: 15, marginTop: 4, marginBottom: 14 }}><Text style={styles.panelLabel}>BREAKDOWN — SINDHI EXPLANATION</Text><Text style={{ color: "#23866D", fontSize: 15, lineHeight: 26, textAlign: "right", marginTop: 8 }}>{sindhiTranslations[selected.id]}</Text></View> : null}
-      {topicDetails[selected.id] ? <View style={{ marginTop: 24, gap: 12 }}>
+      {topicDetails[selected.id]?.overview ? <View style={{ marginTop: 24, gap: 12 }}>
         <Text style={styles.sectionTitle}>Explore this topic further</Text>
         <View style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 8 }}>
           <Text style={styles.panelLabel}>MORE TO UNDERSTAND</Text>
@@ -616,7 +616,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: muted, fontSize: 12, lineHeight: 19 }}>Active: Modal + base verb (V1). Passive: Modal + be + past participle (V3).</Text>
         </View> : null}
       </View> : null}
-      {selected.id === "nouns" && topicDetails.nouns.nounTypes ? <View style={{ marginTop: 24, gap: 14 }}>
+      {selected.id === "nouns" && topicDetails.nouns?.nounTypes?.length ? <View style={{ marginTop: 24, gap: 14 }}>
         <Text style={styles.sectionTitle}>Kinds of Nouns — اسم کی اقسام</Text>
         {topicDetails.nouns.nounTypes.map((item, index) => <View key={item.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 10 }}>
           <Text style={{ color: navy, fontSize: 18, fontWeight: "800" }}>{index + 1}. {item.title}</Text>
@@ -660,7 +660,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           </View>
         </View>)}
       </View> : null}
-      {selected.id === "the-sentence" && topicDetails["the-sentence"].bilingualSections ? <View style={{ marginTop: 24, gap: 14 }}>
+      {selected.id === "the-sentence" && topicDetails["the-sentence"]?.bilingualSections?.length ? <View style={{ marginTop: 24, gap: 14 }}>
         <Text style={styles.sectionTitle}>Chapter 1 — The Sentence</Text>
         {topicDetails["the-sentence"].bilingualSections.map((section, index) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 10 }}>
           <Text style={{ color: navy, fontSize: 18, fontWeight: "800" }}>{index + 1}. {section.title}</Text>
