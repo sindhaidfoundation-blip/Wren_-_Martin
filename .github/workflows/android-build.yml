@@ -46,6 +46,9 @@ jobs:
       - name: Check Expo project configuration
         run: npx expo-doctor
 
+      - name: Validate native configuration
+        run: npm run check:config
+
       - name: Generate native Android project
         run: npx expo prebuild --platform android --no-install
 
