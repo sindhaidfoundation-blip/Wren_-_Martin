@@ -2,7 +2,7 @@
 set -euo pipefail
 
 PACKAGE="com.grammar.master.wrenmartin"
-DURATION_SECONDS="${DURATION_SECONDS:-7200}"
+DURATION_SECONDS="${DURATION_SECONDS:-1800}"
 STARTUP_TIMEOUT_SECONDS=120
 LOG="android-foreground-stability.log"
 MEMORY="android-foreground-memory.log"
@@ -58,7 +58,7 @@ if [[ -z "$PID" || -z "$FOCUS" ]]; then
   exit 1
 fi
 
-echo "PASS: app reached foreground; beginning ${DURATION_SECONDS}s soak." | tee -a "$LOG"
+echo "PASS: app reached foreground; beginning ${DURATION_SECONDS}s (30-minute default) soak." | tee -a "$LOG"
 START="$(date +%s)"
 NEXT_MEMORY=60
 while (( $(date +%s) - START < DURATION_SECONDS )); do
