@@ -86,6 +86,45 @@ export const topicDetails = {
           ["Monday", "پیر", "سومر"],
           ["January", "جنوری", "جنوري"]
         ]
+      },
+      {
+        title: "Collective Noun",
+        english: "A collective noun names a group of people, animals or things considered as one unit.",
+        urdu: "Collective noun ایسے گروہ کا نام ہے جس میں لوگ، جانور یا چیزیں شامل ہوں اور انہیں ایک اکائی سمجھا جائے۔",
+        sindhi: "Collective noun اهڙي ٽولي يا ميڙ جو نالو آهي، جنهن ۾ ماڻهو، جانور يا شيون شامل هجن ۽ انهن کي هڪ گڏيل ايڪو سمجهيو وڃي.",
+        examples: [
+          ["team", "ٹیم — کھلاڑیوں کا گروہ", "ٽيم — رانديگرن جو ٽولو"],
+          ["family", "خاندان — گھر کے افراد کا گروہ", "خاندان — گهر جي ڀاتين جو ٽولو"],
+          ["flock", "پرندوں کا غول", "پکين جو ولر"],
+          ["herd", "مویشیوں کا ریوڑ", "ڍورن جو ڌڻ"],
+          ["bunch", "چابیوں کا گچھا", "چاٻين جو ڇڳو"]
+        ]
+      },
+      {
+        title: "Countable Noun",
+        english: "A countable noun names something that can be counted. It has singular and plural forms and can be used with a or an in the singular.",
+        urdu: "Countable noun ایسی چیز یا شخص کا نام ہے جسے گنا جا سکتا ہے۔ اس کی واحد اور جمع دونوں صورتیں ہوتی ہیں، اور واحد میں اس سے پہلے a یا an آ سکتا ہے۔",
+        sindhi: "Countable noun اهڙي شيءِ يا ماڻهوءَ جو نالو آهي، جنهن کي ڳڻي سگهجي ٿو. ان جو واحد ۽ جمع هوندو آهي، ۽ واحد صورت ۾ ان کان اڳ a يا an اچي سگهي ٿو.",
+        examples: [
+          ["one apple → three apples", "ایک سیب → تین سیب", "هڪ صوف → ٽي صوف"],
+          ["one book → two books", "ایک کتاب → دو کتابیں", "هڪ ڪتاب → ٻه ڪتاب"],
+          ["one chair → four chairs", "ایک کرسی → چار کرسیاں", "هڪ ڪرسي → چار ڪرسيون"],
+          ["one student → ten students", "ایک طالب علم → دس طالب علم", "هڪ شاگرد → ڏهه شاگرد"],
+          ["one egg → six eggs", "ایک انڈا → چھ انڈے", "هڪ آنو → ڇهه آنا"]
+        ]
+      },
+      {
+        title: "Uncountable Noun",
+        english: "An uncountable noun names something that is not usually counted separately. It often refers to a substance, material or abstract idea. We do not normally make it plural; we measure it using words such as a glass of, a piece of or some.",
+        urdu: "Uncountable noun ایسی چیز یا مادّے کا نام ہے جسے عام طور پر الگ الگ گنا نہیں جاتا۔ اسے عموماً جمع نہیں بناتے بلکہ مقدار بتانے کے لیے ایک گلاس، ایک ٹکڑا یا کچھ جیسے الفاظ استعمال کرتے ہیں۔",
+        sindhi: "Uncountable noun اهڙي شيءِ يا مادي جو نالو آهي، جنهن کي عام طور الڳ الڳ ڳڻبو ناهي. عام طور ان جي جمع نه ٺاهبي آهي؛ مقدار ٻڌائڻ لاءِ هڪ گلاس، هڪ ٽڪرو يا ڪجهه جهڙا لفظ استعمال ٿيندا آهن.",
+        examples: [
+          ["water — a glass of water", "پانی — ایک گلاس پانی", "پاڻي — هڪ گلاس پاڻي"],
+          ["milk — two bottles of milk", "دودھ — دودھ کی دو بوتلیں", "کير — کير جون ٻه بوتلون"],
+          ["sugar — a spoonful of sugar", "چینی — ایک چمچ چینی", "کنڊ — کنڊ جو هڪ چمچو"],
+          ["rice — a bowl of rice", "چاول — ایک پیالہ چاول", "چانور — چانورن جو هڪ پيالو"],
+          ["information — a piece of information", "معلومات — ایک اطلاع / معلومات کا ایک حصہ", "معلومات — هڪ ڄاڻ / معلومات جو هڪ حصو"]
+        ]
       }
     ],
   },
