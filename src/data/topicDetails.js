@@ -3142,3 +3142,59 @@ const furtherTopicExamples = {
 for (const [topicId, examples] of Object.entries(furtherTopicExamples)) {
   if (topicDetails[topicId]) topicDetails[topicId].examples.push(...examples);
 }
+
+
+// Dedicated Past Tense lesson: four forms, trilingual explanations and ten explained examples.
+topicDetails["past-tense"] = {
+  overview: "Past tense places an action, event or state before the present. English commonly teaches four past forms. The form depends on whether the action is completed, was in progress, happened before another past event, or continued for a period up to a past point.",
+  watchFor: "Do not use did with a past-form verb: say 'Did she go?' not 'Did she went?'. Use was with I/he/she/it and were with you/we/they in Past Continuous. After had, use the past participle (V3), not V2.",
+  examples: ["I finished my homework yesterday. (Simple Past)", "We were having dinner at eight. (Past Continuous)", "The train had left before we arrived. (Past Perfect)", "She had been studying for two hours. (Past Perfect Continuous)"],
+  overviewUrdu: "Past Tense حال سے پہلے ہونے والے کام، واقعے یا حالت کو ظاہر کرتا ہے۔ اس کی چار عام صورتیں ہیں: Simple Past مکمل ماضی کا کام، Past Continuous ماضی کے کسی وقت جاری کام، Past Perfect ماضی کے دوسرے کام سے پہلے مکمل ہونے والا کام، اور Past Perfect Continuous ماضی کے کسی وقت تک کام کے جاری رہنے کی مدت ظاہر کرتا ہے۔",
+  overviewSindhi: "Past Tense هاڻوڪي وقت کان اڳ ٿيل ڪم، واقعي يا حالت کي ظاهر ڪري ٿو. ان جون چار عام صورتون آهن: Simple Past مڪمل ٿيل ماضيءَ جو ڪم، Past Continuous ماضيءَ جي ڪنهن وقت جاري ڪم، Past Perfect ٻئي ماضيءَ واري ڪم کان اڳ مڪمل ٿيل ڪم، ۽ Past Perfect Continuous ماضيءَ جي ڪنهن وقت تائين ڪم جي جاري رهڻ جو عرصو ظاهر ڪري ٿو.",
+  watchForUrdu: "Did کے بعد ہمیشہ فعل کی بنیادی شکل (V1) استعمال کریں: 'Did she go?' درست ہے، 'Did she went?' غلط ہے۔ Past Continuous میں I/he/she/it کے ساتھ was اور you/we/they کے ساتھ were آتا ہے۔ Had کے بعد فعل کا تیسرا روپ (V3) استعمال کریں۔",
+  watchForSindhi: "Did کان پوءِ هميشه فعل جو بنيادي روپ (V1) استعمال ڪريو: 'Did she go?' صحيح آهي، 'Did she went?' غلط آهي. Past Continuous ۾ I/he/she/it سان was ۽ you/we/they سان were ايندو آهي. Had کان پوءِ فعل جو ٽيون روپ (V3) استعمال ڪريو.",
+  specialSectionsTitle: "THE FOUR FORMS OF PAST TENSE — EXPLANATION AND 10 EXAMPLES",
+  specialSections: [
+    {
+      title: "1. Simple Past",
+      english: "Form: subject + V2. Use it for an action completed at a definite or understood time in the past, and for past habits. Regular verbs usually add -ed (work → worked); irregular verbs change in different ways (go → went, see → saw). In negatives and questions, use did + V1: 'She did not go' and 'Did she go?'.",
+      urdu: "ساخت: فاعل + فعل کا دوسرا روپ (V2)۔ اسے ماضی میں مکمل ہونے والے کام اور ماضی کی عادت کے لیے استعمال کرتے ہیں۔ باقاعدہ فعل کے ساتھ عموماً -ed لگتا ہے، جبکہ بے قاعدہ افعال کی شکل بدل جاتی ہے۔ نفی اور سوال میں did کے بعد فعل کی بنیادی شکل (V1) آتی ہے۔",
+      sindhi: "ساخت: فاعل + فعل جو ٻيو روپ (V2). هي ماضيءَ ۾ مڪمل ٿيل ڪم ۽ ماضيءَ جي عادت لاءِ استعمال ٿئي ٿو. باقاعده فعل سان عام طور -ed لڳندو آهي، جڏهن ته بي قاعده فعل جي صورت بدلجي ٿي. ناڪاري جملي ۽ سوال ۾ did کان پوءِ فعل جو بنيادي روپ (V1) ايندو آهي.",
+      examples: [
+        ["I visited my grandmother yesterday.", "میں کل اپنی دادی سے ملنے گیا۔", "مان ڪالهه پنهنجي ڏاڏيءَ سان ملڻ ويس.", "Visited is V2. Yesterday identifies a finished time in the past."],
+        ["She bought a new bag last week.", "اس نے گزشتہ ہفتے نیا بیگ خریدا۔", "هن گذريل هفتي نئون ٿيلهو خريد ڪيو.", "Bought is the irregular past form of buy. The purchase was completed last week."],
+        ["They played football after school.", "انہوں نے اسکول کے بعد فٹ بال کھیلی۔", "انهن اسڪول کان پوءِ فٽبال کيڏي.", "Played is the regular past form of play, formed by adding -ed. It describes a completed past activity."]
+      ]
+    },
+    {
+      title: "2. Past Continuous",
+      english: "Form: subject + was/were + verb-ing. Use it for an action in progress at a particular time in the past, for background description, or for a longer action interrupted by a shorter event. Use was with I/he/she/it and were with you/we/they.",
+      urdu: "ساخت: فاعل + was/were + فعل-ing۔ اسے ماضی کے کسی خاص وقت پر جاری کام، پس منظر بیان کرنے، یا ایسے طویل کام کے لیے استعمال کرتے ہیں جس کے دوران کوئی مختصر واقعہ پیش آیا۔ I/he/she/it کے ساتھ was اور you/we/they کے ساتھ were آتا ہے۔",
+      sindhi: "ساخت: فاعل + was/were + فعل-ing. هي ماضيءَ جي ڪنهن خاص وقت تي جاري ڪم، پسمنظر بيان ڪرڻ، يا اهڙي ڊگهي ڪم لاءِ استعمال ٿئي ٿو جنهن دوران ڪو ننڍو واقعو پيش آيو. I/he/she/it سان was ۽ you/we/they سان were ايندو آهي.",
+      examples: [
+        ["I was reading at nine last night.", "میں گزشتہ رات نو بجے پڑھ رہا تھا۔", "مان گذريل رات نائين وڳي پڙهي رهيو هوس.", "Was reading uses was + verb-ing. It shows an action in progress at nine last night."],
+        ["The children were playing when it started to rain.", "جب بارش شروع ہوئی تو بچے کھیل رہے تھے۔", "جڏهن مينهن شروع ٿيو ته ٻار راند ڪري رهيا هئا.", "Were playing is the longer action in progress; started is the shorter event that interrupted it."]
+      ]
+    },
+    {
+      title: "3. Past Perfect",
+      english: "Form: subject + had + past participle (V3). Use it to show that an action was completed before another past action or before a stated past time. Had is used with all subjects. The later past event is often written in Simple Past.",
+      urdu: "ساخت: فاعل + had + فعل کا تیسرا روپ (V3)۔ اسے اس کام کے لیے استعمال کرتے ہیں جو ماضی کے کسی دوسرے کام یا مقررہ ماضی کے وقت سے پہلے مکمل ہو چکا ہو۔ Had تمام فاعلوں کے ساتھ استعمال ہوتا ہے۔ بعد میں ہونے والا واقعہ عموماً Simple Past میں آتا ہے۔",
+      sindhi: "ساخت: فاعل + had + فعل جو ٽيون روپ (V3). هي اهڙي ڪم لاءِ استعمال ٿئي ٿو جيڪو ماضيءَ جي ٻئي ڪم يا مقرر ماضيءَ جي وقت کان اڳ مڪمل ٿي چڪو هجي. Had سڀني فاعلن سان استعمال ٿئي ٿو. پوءِ وارو واقعو عام طور Simple Past ۾ ايندو آهي.",
+      examples: [
+        ["The train had left before we reached the station.", "ہمارے اسٹیشن پہنچنے سے پہلے ٹرین جا چکی تھی۔", "اسان جي اسٽيشن تي پهچڻ کان اڳ ٽرين وڃي چڪي هئي.", "Had left is Past Perfect and shows the train departed first. Reached is the later Simple Past event."],
+        ["She had finished her work by noon.", "وہ دوپہر تک اپنا کام مکمل کر چکی تھی۔", "هوءَ منجهند تائين پنهنجو ڪم مڪمل ڪري چڪي هئي.", "Had finished (had + V3) shows the work was already complete by the past deadline, noon."]
+      ]
+    },
+    {
+      title: "4. Past Perfect Continuous",
+      english: "Form: subject + had been + verb-ing. Use it to emphasize how long an action had continued before a particular past time or event. It is often used with for (duration) and since (starting point).",
+      urdu: "ساخت: فاعل + had been + فعل-ing۔ اسے ماضی کے کسی خاص وقت یا واقعے سے پہلے کسی کام کے جاری رہنے کی مدت پر زور دینے کے لیے استعمال کرتے ہیں۔ مدت کے لیے for اور آغاز کے وقت کے لیے since استعمال ہو سکتا ہے۔",
+      sindhi: "ساخت: فاعل + had been + فعل-ing. هي ماضيءَ جي ڪنهن خاص وقت يا واقعي کان اڳ ڪم جي جاري رهڻ جي مدت تي زور ڏيڻ لاءِ استعمال ٿئي ٿو. مدت لاءِ for ۽ شروعاتي وقت لاءِ since استعمال ٿي سگهي ٿو.",
+      examples: [
+        ["He had been working for three hours when I called.", "جب میں نے فون کیا تو وہ تین گھنٹوں سے کام کر رہا تھا۔", "جڏهن مون فون ڪيو ته هو ٽن ڪلاڪن کان ڪم ڪري رهيو هو.", "Had been working emphasizes the three-hour duration before the later past event, I called."],
+        ["They had been travelling since dawn before they stopped for lunch.", "دوپہر کے کھانے کے لیے رکنے سے پہلے وہ صبح سویرے سے سفر کر رہے تھے۔", "منجهند جي ماني لاءِ بيهڻ کان اڳ اهي صبح کان سفر ڪري رهيا هئا.", "Had been travelling shows an activity that began at dawn and continued up to the past stopping point."]
+      ]
+    }
+  ]
+};
