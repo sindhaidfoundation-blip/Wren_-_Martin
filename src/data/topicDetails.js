@@ -2705,7 +2705,7 @@ export const topicDetails = {
           ["build", "built", "built"], ["buy", "bought", "bought"], ["catch", "caught", "caught"], ["choose", "chose", "chosen"], ["come", "came", "come"],
           ["cut", "cut", "cut"], ["do", "did", "done"], ["draw", "drew", "drawn"], ["drink", "drank", "drunk"], ["drive", "drove", "driven"],
           ["eat", "ate", "eaten"], ["fall", "fell", "fallen"], ["feel", "felt", "felt"], ["find", "found", "found"], ["fly", "flew", "flown"],
-          ["forget", "forgot", "forgotten"], ["get", "got", "got/gotten"], ["give", "gave", "given"], ["go", "went", "gone"], [" have", "had", "had"],
+          ["forget", "forgot", "forgotten"], ["get", "got", "got/gotten"], ["give", "gave", "given"], ["go", "went", "gone"], ["have", "had", "had"],
           ["hear", "heard", "heard"], ["keep", "kept", "kept"], ["know", "knew", "known"], ["leave", "left", "left"], ["make", "made", "made"],
           ["meet", "met", "met"], ["read", "read", "read"], ["ride", "rode", "ridden"], ["ring", "rang", "rung"], ["run", "ran", "run"],
           ["say", "said", "said"], ["see", "saw", "seen"], ["sing", "sang", "sung"], ["speak", "spoke", "spoken"], ["write", "wrote", "written"]
