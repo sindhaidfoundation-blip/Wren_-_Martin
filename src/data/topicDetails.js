@@ -1726,6 +1726,7 @@ export const topicDetails = {
           ["Few people dare to challenge such a powerful leader.", "بہت کم لوگ ایسے طاقتور رہنما کو چیلنج کرنے کی ہمت کرتے ہیں۔", "تمام ٿورا ماڻهو اهڙي طاقتور اڳواڻ کي چئلينج ڪرڻ جي همت ڪن ٿا.", "Dare to means to have enough courage to challenge someone."]
         ]
       }
+    ],
   },
   "adjectives": {
     overview: "An adjective is a word that describes or gives more information about a noun or pronoun. It can tell us about quality, size, age, colour, shape, origin or quantity. Adjectives are commonly used attributively (before a noun) or predicatively (after a linking verb).",
