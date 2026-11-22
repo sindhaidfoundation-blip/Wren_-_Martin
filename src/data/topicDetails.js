@@ -14048,6 +14048,267 @@ topicDetails["past-tense"] = {
     }
   ]
 }
+  "figures-of-speech": {
+    "overview": "Figures of speech are special uses of language that make writing and speaking more vivid, persuasive, emotional, memorable or humorous. They may create comparisons, contrasts, exaggerations, indirect meanings, sound-based wordplay or carefully arranged ideas. Learn each figure by its definition, purpose and examples, and pay attention to the difference between similar terms.",
+    "watchFor": "Identify what the expression is doing, not merely the words it contains. A single sentence may contain more than one figure of speech. Some classifications vary between traditional grammar books and modern rhetoric; the notes below explain common school-level usage and point out overlaps.",
+    "examples": [
+      "“Her eyes are stars.” — Metaphor",
+      "“The wind whispered.” — Personification",
+      "“I have told you a million times.” — Hyperbole",
+      "“All hands on deck.” — Synecdoche"
+    ],
+    "specialSectionsTitle": "FIGURES OF SPEECH",
+    "specialSections": [
+      {
+        "title": "1. Simile",
+        "english": "A simile is a figure of speech in which one thing is directly compared with another because they share a quality. It commonly uses “like” or “as”. The comparison is explicit, not literal. Examples: “Her face shines like the sun”; “He is as brave as a lion”; “The child slept like a log.” Explanation: the comparison helps readers imagine a quality vividly. Do not confuse a simile with a metaphor: a simile says one thing is like another, while a metaphor says it is another.",
+        "urdu": "تشبیہ میں ایک چیز کو مشترک خوبی کی وجہ سے دوسری چیز کے مانند بتایا جاتا ہے۔ عموماً like یا as استعمال ہوتا ہے۔ مثال: “He is as brave as a lion.” یعنی وہ شیر کی طرح بہادر ہے۔",
+        "sindhi": "تشبيهه ۾ هڪ شيءِ کي گڏيل خوبيءَ سبب ٻي شيءِ جهڙو چيو ويندو آهي. عام طور like يا as استعمال ٿيندو آهي. مثال: “He is as brave as a lion.” يعني هو شينهن وانگر بهادر آهي۔",
+        "examples": [
+          "as cold as ice",
+          "The moon looked like a silver plate.",
+          "She sings like a nightingale."
+        ]
+      },
+      {
+        "title": "2. Metaphor",
+        "english": "A metaphor is an implied comparison in which one thing is spoken of as if it were another, without using “like” or “as”. It transfers qualities from one thing to another. Examples: “Time is a thief” (time steals moments); “The classroom was a zoo” (it was noisy and disorderly); “He has a heart of stone” (he is unfeeling). A metaphor is not meant literally.",
+        "urdu": "استعارے میں ایک چیز کو براہِ راست دوسری چیز کہا جاتا ہے، مگر like یا as استعمال نہیں ہوتا۔ مثال: “Time is a thief.” یعنی وقت چور کی طرح ہمارے لمحات لے جاتا ہے۔",
+        "sindhi": "استعاري ۾ هڪ شيءِ کي سڌو ٻي شيءِ چيو ويندو آهي، پر like يا as استعمال نه ٿيندو آهي. مثال: “Time is a thief.” يعني وقت اسان جا لمحا کسي وٺندو آهي۔",
+        "examples": [
+          "Life is a journey.",
+          "The news was a thunderbolt.",
+          "Her voice is music to my ears."
+        ]
+      },
+      {
+        "title": "3. Personification",
+        "english": "Personification gives human qualities, feelings, speech or actions to animals, objects, ideas or forces of nature. Examples: “The wind whispered through the trees”; “The sun smiled at us”; “Opportunity knocked at the door.” Wind, sun and opportunity are described as if they were people. It makes descriptions lively and imaginative.",
+        "urdu": "تشخیص میں بے جان چیزوں، قدرتی قوتوں یا خیالات کو انسانی صفات یا اعمال دیے جاتے ہیں۔ مثال: “The wind whispered.” یعنی ہوا سرگوشی کرنے لگی۔",
+        "sindhi": "تشخيص ۾ بي جان شين، قدرتي قوتن يا خيالن کي انساني خوبيون يا عمل ڏنا ويندا آهن. مثال: “The wind whispered.” يعني هوا سرگوشيون ڪيون۔",
+        "examples": [
+          "The flowers danced in the breeze.",
+          "The angry storm attacked the coast.",
+          "The old house groaned."
+        ]
+      },
+      {
+        "title": "4. Apostrophe",
+        "english": "Apostrophe is a figure of speech in which a speaker directly addresses an absent person, a dead person, an abstract idea, or a thing as if it could hear and respond. It is not the punctuation mark used for possession or contractions. Examples: “O Death, where is thy sting?”; “O Liberty, what crimes are committed in thy name!”; “Twinkle, little star, how I wonder what you are!”",
+        "urdu": "اسلوبِ خطاب میں غیر حاضر، فوت شدہ شخص، غیر مجسم خیال یا بے جان چیز کو یوں مخاطب کیا جاتا ہے جیسے وہ سن سکتی ہو۔ یہاں Apostrophe ادبی صنعت ہے، رموزِ اوقاف والا apostrophe نہیں۔",
+        "sindhi": "ادبي خطاب ۾ غير حاضر يا فوت ٿيل شخص، تجريدي خيال يا بي جان شيءِ کي ائين سڏيو ويندو آهي ڄڻ اها ٻڌي سگهي. هيءَ ادبي صنعت آهي، اوقاف واري apostrophe نه۔",
+        "examples": [
+          "O Moon, guide me through the night.",
+          "O Justice, where have you gone?",
+          "Dear Sleep, come to me."
+        ]
+      },
+      {
+        "title": "5. Hyperbole",
+        "english": "Hyperbole is deliberate and obvious exaggeration used for emphasis, humour or strong emotion. It is not intended to be taken literally. Examples: “I have told you a thousand times”; “This bag weighs a ton”; “I am so hungry I could eat a horse.” The exaggeration makes the feeling or situation more forceful.",
+        "urdu": "مبالغہ کسی بات کو زور دینے، مزاح یا جذبہ ظاہر کرنے کے لیے جان بوجھ کر بہت بڑھا چڑھا کر بیان کرنا ہے۔ مثال: “I have told you a thousand times.”",
+        "sindhi": "مبالغي ۾ زور، مزاح يا جذبو ڏيکارڻ لاءِ ڳالهه کي ڄاڻي واڻي تمام وڌائي بيان ڪيو ويندو آهي. مثال: “I have told you a thousand times.”",
+        "examples": [
+          "The whole town came to see him.",
+          "I waited forever.",
+          "Her smile was a mile wide."
+        ]
+      },
+      {
+        "title": "6. Euphemism",
+        "english": "A euphemism is a mild, polite or indirect expression used instead of one that may sound harsh, unpleasant, embarrassing or offensive. Examples: “passed away” for “died”; “let go” for “dismissed from a job”; “senior citizen” for “old person.” Euphemisms can show tact, but may also hide an unpleasant truth.",
+        "urdu": "حسنِ تعبیر میں سخت، ناگوار یا شرمندگی پیدا کرنے والے لفظ کی جگہ نرم اور مؤدبانہ لفظ استعمال کیا جاتا ہے۔ مثال: died کے بجائے passed away۔",
+        "sindhi": "حسنِ بيان ۾ سخت يا اڻ وڻندڙ لفظ بدران نرم ۽ ادب وارو لفظ استعمال ٿيندو آهي. مثال: died بدران passed away۔",
+        "examples": [
+          "He is between jobs. (unemployed)",
+          "The company is downsizing. (reducing staff)",
+          "She is no longer with us. (has died)"
+        ]
+      },
+      {
+        "title": "7. Antithesis",
+        "english": "Antithesis places two contrasting ideas in a balanced grammatical structure to emphasize their difference. Examples: “To err is human; to forgive, divine”; “Speech is silver, but silence is gold”; “Many are called, but few are chosen.” Look for a clear contrast presented in parallel or balanced wording.",
+        "urdu": "تضاد میں دو مخالف خیالات کو متوازن یا متوازی انداز میں ساتھ رکھا جاتا ہے تاکہ فرق نمایاں ہو۔ مثال: “Speech is silver, but silence is gold.”",
+        "sindhi": "تضاد ۾ ٻن ابتڙ خيالن کي متوازن يا هڪجهڙي جوڙجڪ ۾ گڏ رکيو ويندو آهي ته جيئن فرق چٽو ٿئي. مثال: “Speech is silver, but silence is gold.”",
+        "examples": [
+          "United we stand, divided we fall.",
+          "It was the best of times, it was the worst of times.",
+          "Give every man thy ear, but few thy voice."
+        ]
+      },
+      {
+        "title": "8. Oxymoron",
+        "english": "An oxymoron combines two words or ideas that appear contradictory, creating a striking expression. Examples: “deafening silence”, “bittersweet memory”, “living dead”, and “open secret”. It is usually a short, compact contrast within a phrase; antithesis generally contrasts larger ideas or clauses.",
+        "urdu": "متناقض الفاظ میں دو بظاہر ایک دوسرے کے مخالف الفاظ کو ملا کر خاص تاثر پیدا کیا جاتا ہے۔ مثال: “deafening silence” یعنی ایسی خاموشی جو بہت نمایاں ہو۔",
+        "sindhi": "متضاد لفظن جي ميلاپ ۾ ٻه بظاهر ابتڙ لفظ گڏ ڪري خاص اثر پيدا ڪيو ويندو آهي. مثال: “deafening silence” يعني انتهائي نمايان خاموشي۔",
+        "examples": [
+          "cruel kindness",
+          "organized chaos",
+          "seriously funny"
+        ]
+      },
+      {
+        "title": "9. Epigram",
+        "english": "An epigram is a brief, clever and memorable statement, often expressing a surprising truth, a paradox or a witty observation. Examples: “The child is father of the man” (Wordsworth); “I can resist everything except temptation” (Oscar Wilde). An epigram is valued for its concise wording and pointed meaning.",
+        "urdu": "لطیفہ آمیز یا حکیمانہ مختصر قول کو epigram کہتے ہیں۔ اس میں کم الفاظ میں چبھتی ہوئی، حیران کن یا یاد رہ جانے والی بات کہی جاتی ہے۔",
+        "sindhi": "مختصر، چالاڪ ۽ ياد رهندڙ قول کي epigram چيو ويندو آهي. ٿورن لفظن ۾ حيرت انگيز يا گهري ڳالهه بيان ٿيندي آهي۔",
+        "examples": [
+          "Fools rush in where angels fear to tread.",
+          "The more we learn, the less we know.",
+          "Experience is the name everyone gives to their mistakes."
+        ]
+      },
+      {
+        "title": "10. Irony",
+        "english": "Irony is a contrast between appearance and reality, expectation and outcome, or the literal words and the intended meaning. In verbal irony, a speaker may say the opposite of what is meant; in situational irony, the result is unexpectedly contrary to what is expected. Example: saying “What lovely weather!” during a violent storm is verbal irony. A fire station burning down is situational irony. Irony is not simply any coincidence.",
+        "urdu": "طنز یا irony میں ظاہر اور حقیقت، توقع اور نتیجے، یا کہے گئے الفاظ اور اصل مطلب میں فرق ہوتا ہے۔ مثال: طوفانی بارش میں کہنا “What lovely weather!” لفظی طنز ہے۔",
+        "sindhi": "طنز يا irony ۾ ظاهر ۽ حقيقت، اميد ۽ نتيجي، يا لفظن ۽ اصل مطلب ۾ فرق هوندو آهي. طوفان دوران “What lovely weather!” چوڻ لفظي طنز آهي۔",
+        "examples": [
+          "A traffic police officer receives a speeding ticket.",
+          "The dentist has a terrible toothache.",
+          "“Brilliant work!” said after a careless mistake (sarcastically)."
+        ]
+      },
+      {
+        "title": "11. Pun",
+        "english": "A pun is a play on words that uses a word with more than one meaning or words with similar sounds to create humour or a clever effect. Examples: “A bicycle cannot stand on its own because it is two-tired” (two tyres / too tired); “A boiled egg every morning is hard to beat.” The humour depends on the double meaning or sound similarity.",
+        "urdu": "توریہ یا لفظی کھیل میں ایک لفظ کے دو معنی یا ملتی جلتی آواز والے الفاظ سے مزاح یا ذہانت پیدا کی جاتی ہے۔ مثال: “two-tired” میں two tyres اور too tired کا صوتی کھیل ہے۔",
+        "sindhi": "لفظي راند ۾ هڪ لفظ جا ٻه مطلب يا هڪجهڙي آواز وارا لفظ استعمال ڪري مزاح پيدا ڪيو ويندو آهي. مثال: “two-tired” ۾ two tyres ۽ too tired جو آواز وارو ميلاپ آهي۔",
+        "examples": [
+          "The calendar’s days are numbered.",
+          "A boiled egg is hard to beat.",
+          "The fisherman was hooked on his work."
+        ]
+      },
+      {
+        "title": "12. Metonymy",
+        "english": "Metonymy replaces the name of something with the name of something closely associated with it. Examples: “The Crown” for the monarchy; “The White House” for the US President or administration; “The pen is mightier than the sword” where pen suggests writing and ideas, and sword suggests military force. The substitute has a close real-world association with the thing meant.",
+        "urdu": "مجازِ مرسل میں کسی چیز کا نام اس سے قریبی تعلق رکھنے والی چیز کے نام سے بدل دیا جاتا ہے۔ مثال: “The Crown” سے بادشاہت یا شاہی اقتدار مراد ہو سکتا ہے۔",
+        "sindhi": "مجاز مرسل ۾ ڪنهن شيءِ جو نالو ان سان ويجهي لاڳاپي واري شيءِ جي نالي سان بدلائبو آهي. مثال: “The Crown” مان بادشاهي اقتدار مراد ٿي سگهي ٿو۔",
+        "examples": [
+          "The press questioned the minister. (journalists)",
+          "The kettle is boiling. (the water in it)",
+          "Hollywood loves a sequel. (the film industry)"
+        ]
+      },
+      {
+        "title": "13. Synecdoche",
+        "english": "Synecdoche uses a part to represent the whole, or the whole to represent a part. Examples: “All hands on deck” (hands means sailors); “Nice wheels!” (wheels means a car); “England won the match” (England means the national team). It is often taught as a special kind of metonymy, but its defining feature is a part–whole relationship.",
+        "urdu": "جزو بول کر کل یا کل بول کر جزو مراد لینا synecdoche ہے۔ مثال: “All hands on deck” میں hands سے مراد ملاح ہیں۔",
+        "sindhi": "جزو مان ڪل يا ڪل مان جزو مراد وٺڻ synecdoche آهي. مثال: “All hands on deck” ۾ hands مان ملاح مراد آهن۔",
+        "examples": [
+          "We need more boots on the ground. (soldiers)",
+          "The classroom was full of young faces. (people)",
+          "The law arrived at the door. (a police officer or authority, by context)"
+        ]
+      },
+      {
+        "title": "14. Transferred Epithet",
+        "english": "A transferred epithet is an adjective grammatically attached to a noun that it does not logically describe; the quality really belongs to a person or another implied noun. Examples: “a sleepless night” (the person, not the night, cannot sleep); “a happy day” may be literal, but “a careless piece of work” transfers carelessness from the worker to the work. The transfer creates a compact, expressive description.",
+        "urdu": "صفت کو اس اسم کے ساتھ لگانا جس کی اصل خوبی وہ نہیں بلکہ کسی متعلقہ شخص یا چیز کی ہو، transferred epithet کہلاتا ہے۔ مثال: “a sleepless night” میں حقیقتاً انسان نہیں سویا، رات نہیں۔",
+        "sindhi": "صفت کي اهڙي اسم سان ڳنڍڻ جنهن جي اصل خوبي اها نه هجي پر ڪنهن لاڳاپيل شخص جي هجي، transferred epithet آهي. مثال: “a sleepless night” ۾ حقيقت ۾ ماڻهو نه ستو، رات نه۔",
+        "examples": [
+          "They spent a restless night. (the people were restless)",
+          "He passed a happy day. (he was happy)",
+          "She walked along the lonely road. (the walker feels lonely, by context)"
+        ]
+      },
+      {
+        "title": "15. Litotes",
+        "english": "Litotes is deliberate understatement made by denying the opposite of what is meant. It often uses a negative expression to make a positive point. Examples: “ not bad” meaning fairly good; “He is no fool” meaning he is intelligent; “It is not uncommon” meaning it is fairly common. Litotes is usually restrained and may sound modest, ironic or emphatic.",
+        "urdu": "کم بیانی میں کسی بات کو اس کے مخالف کی نفی کے ذریعے بیان کیا جاتا ہے۔ مثال: “not bad” سے مراد اچھا یا مناسب ہے؛ “no fool” سے مراد سمجھ دار ہے۔",
+        "sindhi": "گهٽائي بيان ڪرڻ ۾ ابتڙ ڳالهه جي نفي وسيلي اصل مطلب ظاهر ڪبو آهي. مثال: “not bad” مان سٺو يا مناسب مراد آهي؛ “no fool” مان سمجهدار مراد آهي۔",
+        "examples": [
+          "That was no small achievement. (a great achievement)",
+          "She is not without talent. (she has talent)",
+          "The result was not unexpected. (it was expected)"
+        ]
+      },
+      {
+        "title": "16. Interrogation",
+        "english": "Interrogation, in traditional rhetoric, is the use of a question as a forceful means of expression, often to challenge, emphasize or awaken thought rather than simply to obtain information. It may overlap with rhetorical question. Example: “Who can deny the value of honesty?” The expected answer is obvious, and the question strengthens the statement. In ordinary grammar, interrogation can simply mean asking a question; context determines the literary use.",
+        "urdu": "علمِ بیان میں interrogation ایسا سوالیہ انداز ہے جو صرف جواب لینے کے بجائے زور، چیلنج یا غور و فکر پیدا کرنے کے لیے استعمال ہو۔ مثال: “Who can deny the value of honesty?”",
+        "sindhi": "بيان جي علم ۾ interrogation اهڙو سوال آهي جيڪو رڳو جواب وٺڻ بدران زور، چئلينج يا سوچ پيدا ڪري. مثال: “Who can deny the value of honesty?”",
+        "examples": [
+          "How could I forget your kindness?",
+          "Who does not wish to be happy?",
+          "Can we remain silent in the face of injustice?"
+        ]
+      },
+      {
+        "title": "17. Rhetorical Question",
+        "english": "A rhetorical question is asked for effect, emphasis or persuasion, not because the speaker expects an answer. The answer is usually obvious or deliberately left for the audience to consider. Examples: “Isn’t life precious?”; “What is the use of wealth without health?”; “How many times must I tell you?” Distinction: a genuine question seeks information; a rhetorical question makes a point.",
+        "urdu": "سوالِ بلاغی ایسا سوال ہے جس کا مقصد جواب حاصل کرنا نہیں بلکہ بات پر زور دینا یا سامع کو سوچنے پر مجبور کرنا ہے۔ مثال: “Isn’t life precious?”",
+        "sindhi": "بلاغي سوال اهو سوال آهي جنهن جو مقصد جواب وٺڻ نه پر ڳالهه تي زور ڏيڻ يا ٻڌندڙ کي سوچڻ تي مجبور ڪرڻ آهي. مثال: “Isn’t life precious?”",
+        "examples": [
+          "Who would choose misery over happiness?",
+          "Can money buy true friendship?",
+          "Are we not all responsible for our actions?"
+        ]
+      },
+      {
+        "title": "18. Exclamation",
+        "english": "Exclamation is an expressive figure or rhetorical form that conveys strong feeling such as joy, grief, surprise, admiration or anger. It often uses an exclamatory sentence or interjection. Examples: “What a beautiful sight!”; “Alas! We have lost our way”; “How wonderful this is!” The exclamation mark is punctuation; the figure is the emotional expression itself.",
+        "urdu": "ندائیہ یا تعجبیہ انداز میں خوشی، غم، حیرت، تعریف یا غصے کا شدید اظہار کیا جاتا ہے۔ مثال: “What a beautiful sight!”",
+        "sindhi": "تعجب يا جذباتي انداز ۾ خوشي، ڏک، حيرت، ساراهه يا ڪاوڙ جو زورائتو اظهار ٿيندو آهي. مثال: “What a beautiful sight!”",
+        "examples": [
+          "Alas! The old tree has fallen!",
+          "How brightly the stars shine!",
+          "O wonderful day!"
+        ]
+      },
+      {
+        "title": "19. Climax",
+        "english": "Climax is the arrangement of words, phrases or ideas in an order of increasing importance, intensity or emotional force. Each step becomes stronger than the previous one. Examples: “He came, he saw, he conquered”; “I searched the house, the town, the whole country”; “For want of a nail, the shoe was lost; for want of a shoe, the horse was lost...” The effect is to build tension or emphasis.",
+        "urdu": "ترتیبِ عروج میں الفاظ یا خیالات کو بڑھتی ہوئی اہمیت یا شدت کے ساتھ رکھا جاتا ہے۔ مثال: “He came, he saw, he conquered.”",
+        "sindhi": "ترتيبِ عروج ۾ لفظن يا خيالن کي وڌندڙ اهميت يا شدت سان رکبو آهي. مثال: “He came, he saw, he conquered.”",
+        "examples": [
+          "He lost his home, his hope, his life.",
+          "I want peace, justice, and lasting freedom.",
+          "She whispered, spoke, then shouted."
+        ]
+      },
+      {
+        "title": "20. Anticlimax",
+        "english": "Anticlimax is a sudden fall from an important, serious or elevated idea to something trivial, ordinary or ridiculous. It may create humour or disappointment. Examples: “He lost his family, his fortune, and his fountain pen”; “The kingdom was lost, and all for a misplaced button.” Distinction: climax rises in force; anticlimax deliberately drops in force.",
+        "urdu": "ترتیبِ نزول میں بلند یا سنجیدہ بات کے بعد اچانک معمولی یا غیر اہم بات آتی ہے، جس سے مزاح یا مایوسی پیدا ہو سکتی ہے۔",
+        "sindhi": "ترتيبِ زوال ۾ وڏي يا سنجيده ڳالهه کان پوءِ اوچتو معمولي ڳالهه اچي ٿي، جنهن سان مزاح يا مايوسي پيدا ٿي سگهي ٿي۔",
+        "examples": [
+          "She was famous, admired, and short of bus fare.",
+          "He fought for his country, his family, and his lunch.",
+          "The speech promised freedom, prosperity, and free parking."
+        ]
+      },
+      {
+        "title": "21. Comparison and Revision — Identify the Figure of Speech",
+        "english": "Quick distinctions: a simile uses like/as; a metaphor makes a direct implied comparison; personification gives human qualities to non-human things; apostrophe directly addresses an absent person or an idea; hyperbole exaggerates; euphemism softens; antithesis balances contrasting ideas; oxymoron joins contradictory words; epigram is a concise witty saying; irony contrasts words or outcome with reality; pun plays on meanings or sounds; metonymy substitutes something closely associated; synecdoche uses part for whole or whole for part; transferred epithet shifts an adjective to a related noun; litotes affirms by denying the opposite; rhetorical questions seek effect rather than information; climax rises in intensity; anticlimax drops suddenly. Note: some traditional textbooks use “interrogation” broadly for forceful rhetorical questioning, while modern terminology often groups it with rhetorical questions. “Exclamation” is a broad expressive form and may overlap with other figures. Spelling: Simile (not “smile”); Synecdoche (not “synechdoche”).",
+        "urdu": "یاد رکھنے کے لیے: Simile میں like/as، Metaphor میں براہِ راست تشبیہ، Personification میں غیر انسانی چیز کو انسانی وصف، Apostrophe میں غیر حاضر یا بے جان مخاطَب، Hyperbole میں مبالغہ، Euphemism میں نرم لفظ، Antithesis میں متضاد خیالات، Oxymoron میں متضاد الفاظ، Pun میں لفظی کھیل، Metonymy میں قریبی تعلق کا نام، Synecdoche میں جزو و کل، Litotes میں نفی کے ذریعے اثبات، Climax میں شدت کا بڑھنا اور Anticlimax میں اچانک کمی ہوتی ہے۔ درست املا Simile اور Synecdoche ہے۔",
+        "sindhi": "ياد رکڻ لاءِ: Simile ۾ like/as، Metaphor ۾ سڌي تشبيه، Personification ۾ غير انساني شيءِ کي انساني خوبي، Apostrophe ۾ غير حاضر يا بي جان مخاطب، Hyperbole ۾ مبالغو، Euphemism ۾ نرم لفظ، Antithesis ۾ ابتڙ خيال، Oxymoron ۾ ابتڙ لفظ، Pun ۾ لفظي راند، Metonymy ۾ لاڳاپيل نالو، Synecdoche ۾ جزو ۽ ڪل، Litotes ۾ نفي وسيلي اثبات، Climax ۾ شدت وڌڻ ۽ Anticlimax ۾ اوچتو گهٽجڻ شامل آهن. صحيح اسپيلنگ Simile ۽ Synecdoche آهن۔",
+        "examples": [
+          "“as busy as a bee” — Simile",
+          "“The world is a stage” — Metaphor",
+          "“The leaves danced” — Personification",
+          "“O Hope, stay with me!” — Apostrophe",
+          "“I have a mountain of work” — Hyperbole",
+          "“passed away” — Euphemism",
+          "“Speech is silver, silence is gold” — Antithesis",
+          "“sweet sorrow” — Oxymoron",
+          "“A witty, memorable one-line saying” — Epigram",
+          "“Lovely weather!” during a storm — Irony",
+          "“A bicycle is two-tired” — Pun",
+          "“The Crown” for royal authority — Metonymy",
+          "“All hands” for all workers — Synecdoche",
+          "“a sleepless night” — Transferred epithet",
+          "“He is no fool” — Litotes",
+          "“Who can deny it?” — Interrogation / rhetorical use",
+          "“Isn’t kindness wonderful?” — Rhetorical question",
+          "“What a glorious day!” — Exclamation",
+          "“He came, he saw, he conquered” — Climax",
+          "“He lost his kingdom and his pencil” — Anticlimax"
+        ]
+      }
+    ]
+  },
 };
 
 
