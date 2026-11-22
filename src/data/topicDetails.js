@@ -2796,9 +2796,59 @@ export const topicDetails = {
     ]
   },
   "prepositions": {
-    overview: "Prepositions show relationships such as place, time, direction, cause and method. They usually begin a prepositional phrase containing a noun or pronoun.",
-    watchFor: "Many prepositions are fixed by common usage or the word they follow: interested in, depend on, good at. Learn these combinations as phrases.",
-    examples: ["The keys are under the chair. (place)", "We arrived at noon. (time)", "She is interested in science."]
+    overview: "A preposition is a word placed before a noun, pronoun or noun phrase to show its relationship with another word in the sentence. It can express place, time, direction, movement, cause, purpose, manner, instrument, possession or other relationships. The noun or pronoun after a preposition is called its object. The preposition and its object (with any modifiers) form a prepositional phrase.",
+    watchFor: "A preposition normally has an object: 'under the table', 'after lunch'. Do not confuse a preposition with an adverb: 'He went inside' (inside has no object, so it is an adverb); 'He went inside the house' (inside has the object 'the house', so it is a preposition). Many prepositions are fixed by usage or by the word they follow: interested in, depend on, good at.",
+    examples: ["The keys are under the chair. (place)", "We arrived at noon. (time)", "She walked towards the station. (direction)", "He cut the bread with a knife. (instrument)", "She is interested in science. (relationship)"],
+    specialSectionsTitle: "DEFINITION AND EXPLANATION OF PREPOSITION — حرفِ جار / حرفِ اضافت",
+    specialSections: [
+      {
+        title: "Preposition — Definition, Explanation and Examples",
+        english: "A preposition is a word that usually comes before a noun, pronoun or noun phrase and shows how that word is connected to another part of the sentence. It tells us where or when something happens, where someone or something moves, or what relationship exists between people, objects and ideas. In 'The book is on the table', the word 'on' is a preposition. It connects 'the book' with 'the table' and tells us the book's position. The noun or pronoun governed by a preposition is called the object of the preposition. A preposition together with its object and any modifiers forms a prepositional phrase: 'under the old bridge'. A prepositional phrase can function as an adjective (The boy in the blue shirt is my brother) or an adverb (We waited at the station).",
+        urdu: "Preposition (حرفِ جار / حرفِ اضافت) ایسا لفظ ہے جو عموماً اسم، ضمیر یا اسم کے مجموعے سے پہلے آ کر اسے جملے کے کسی دوسرے لفظ سے جوڑتا ہے۔ یہ جگہ، وقت، سمت، حرکت، سبب، مقصد، طریقہ یا تعلق ظاہر کرتا ہے۔ مثال: 'The book is on the table' میں on حرفِ جار ہے۔ یہ کتاب اور میز کے درمیان جگہ کا تعلق ظاہر کرتا ہے۔ Preposition کے بعد آنے والے اسم یا ضمیر کو اس کا object کہتے ہیں۔ Preposition اور اس کے object کو ملا کر prepositional phrase بنتا ہے، جیسے 'under the old bridge'۔ یہ phrase صفت یا Adverb کا کام بھی کر سکتا ہے۔",
+        sindhi: "Preposition (حرفِ جار) اهڙو لفظ آهي جيڪو عام طور اسم، ضمير يا اسم جي جملي کان اڳ اچي ان کي جملي جي ٻئي لفظ سان ڳنڍي ٿو. اهو جاءِ، وقت، رخ، حرڪت، سبب، مقصد، طريقو يا لاڳاپو ظاهر ڪري ٿو. مثال: 'The book is on the table' ۾ on حرفِ جار آهي. اهو ڪتاب ۽ ميز جي وچ ۾ جاءِ جو لاڳاپو ڏيکاري ٿو. Preposition کان پوءِ ايندڙ اسم يا ضمير ان جو object سڏبو آهي. Preposition ۽ ان جي object کي گڏائي prepositional phrase چئبو آهي، مثال 'under the old bridge'. اهو phrase صفت يا Adverb جو ڪم به ڪري سگهي ٿو.",
+        subsections: [
+          {
+            title: "How a Preposition Works — جملے میں کردار",
+            english: "A preposition links its object to another word and explains their relationship. Identify it by asking questions such as where?, when?, in which direction?, by what means? or for what reason? The object is usually a noun, pronoun or noun phrase. A prepositional phrase may give extra information about a noun or a verb.",
+            urdu: "Preposition اپنے object کو جملے کے دوسرے لفظ سے جوڑتا ہے اور دونوں کے درمیان تعلق واضح کرتا ہے۔ اسے پہچاننے کے لیے سوال کریں: کہاں؟ کب؟ کس سمت؟ کس ذریعے سے؟ یا کس وجہ سے؟ اس کا object عموماً اسم، ضمیر یا اسم کا مجموعہ ہوتا ہے۔ Prepositional phrase کسی اسم یا فعل کے بارے میں اضافی معلومات دے سکتا ہے۔",
+            sindhi: "Preposition پنهنجي object کي جملي جي ٻئي لفظ سان ڳنڍي ٿو ۽ ٻنهي جو لاڳاپو واضح ڪري ٿو. ان کي سڃاڻڻ لاءِ سوال ڪريو: ڪٿي؟ ڪڏهن؟ ڪهڙي طرف؟ ڪهڙي وسيلي سان؟ يا ڪهڙي سبب؟ ان جو object عام طور اسم، ضمير يا اسم جو مجموعو هوندو آهي. Prepositional phrase اسم يا فعل بابت وڌيڪ ڄاڻ ڏئي سگهي ٿو.",
+            examples: [
+              ["The cat is under the table.", "بلی میز کے نیچے ہے۔", "ٻلي ميز جي هيٺان آهي.", "Under connects the cat's position with the table; the table is its object."],
+              ["We will meet after lunch.", "ہم دوپہر کے کھانے کے بعد ملیں گے۔", "اسين منجهند جي ماني کان پوءِ ملنداسين.", "After shows the time relationship; lunch is its object."],
+              ["The children walked towards the park.", "بچے پارک کی طرف چلے۔", "ٻار پارڪ ڏانهن هليا.", "Towards shows direction; the park is its object."],
+              ["She wrote the letter with a pen.", "اس نے قلم سے خط لکھا۔", "هن قلم سان خط لکيو.", "With shows the instrument used; a pen is its object."],
+              ["The house near the river is old.", "دریا کے قریب گھر پرانا ہے۔", "درياهه جي ويجهو گهر پراڻو آهي.", "Near connects the house with the river and describes which house."]
+            ]
+          },
+          {
+            title: "Object of a Preposition and Prepositional Phrase",
+            english: "The object of a preposition is the noun, pronoun or noun phrase that follows it and completes its meaning: 'with her', 'at the station', 'during the long summer'. A prepositional phrase consists of the preposition, its object and any words describing that object. It can describe a noun (the man with a red umbrella) or add information to a verb (They waited at the gate). A pronoun used as the object normally takes the objective form: 'between you and me', not 'between you and I'.",
+            urdu: "Preposition کا object وہ اسم، ضمیر یا اسم کا مجموعہ ہے جو اس کے بعد آ کر معنی مکمل کرتا ہے: 'with her'، 'at the station'۔ Prepositional phrase میں حرفِ جار، اس کا object اور object کی وضاحت کرنے والے الفاظ شامل ہوتے ہیں۔ یہ کسی اسم کی وضاحت کر سکتا ہے، جیسے 'the man with a red umbrella'، یا فعل کے بارے میں معلومات دے سکتا ہے، جیسے 'They waited at the gate'۔ ضمیر object کے طور پر آئے تو objective form استعمال ہوتی ہے: 'between you and me' درست ہے، 'between you and I' نہیں۔",
+            sindhi: "Preposition جو object اهو اسم، ضمير يا اسم جو مجموعو آهي جيڪو ان کان پوءِ اچي ان جي معنيٰ مڪمل ڪري ٿو: 'with her'، 'at the station'. Prepositional phrase ۾ حرفِ جار، ان جو object ۽ object جي وضاحت ڪندڙ لفظ شامل هوندا آهن. اهو اسم جي وضاحت ڪري سگهي ٿو، مثال 'the man with a red umbrella'، يا فعل بابت ڄاڻ ڏئي سگهي ٿو، مثال 'They waited at the gate'. ضمير object طور اچي ته objective صورت استعمال ڪريو: 'between you and me' صحيح آهي، 'between you and I' نه.",
+            examples: [
+              ["The keys are on the shelf.", "چابیاں شیلف پر ہیں۔", "چاٻيون شيلف تي آهن.", "On is the preposition; the shelf is its object; on the shelf is the phrase."],
+              ["The girl with long hair is my cousin.", "لمبے بالوں والی لڑکی میری کزن ہے۔", "ڊگهن وارن واري ڇوڪري منهنجي سوٽ آهي.", "With long hair describes the noun girl."],
+              ["They waited at the bus stop.", "وہ بس اسٹاپ پر انتظار کرتے رہے۔", "اهي بس اسٽاپ تي انتظار ڪندا رهيا.", "At the bus stop adds place information to waited."],
+              ["This gift is for him.", "یہ تحفہ اس کے لیے ہے۔", "هي تحفو هن لاءِ آهي.", "Him is the object pronoun after for."],
+              ["The secret is between you and me.", "یہ راز تمہارے اور میرے درمیان ہے۔", "اهو راز تنهنجي ۽ منهنجي وچ ۾ آهي.", "Me is the objective pronoun used as the object of between."]
+            ]
+          },
+          {
+            title: "Preposition or Adverb? — فرق پہچانیں",
+            english: "Some words can work either as prepositions or as adverbs. When the word has an object, it is a preposition: 'She went inside the house' (inside + the house). When it has no object and modifies the verb, it is an adverb: 'She went inside'. Always examine how the word is used in its sentence rather than memorising the word alone.",
+            urdu: "کچھ الفاظ کبھی Preposition اور کبھی Adverb ہوتے ہیں۔ جب اس لفظ کے بعد object آئے تو وہ Preposition ہوتا ہے: 'She went inside the house'۔ جب اس کے بعد object نہ ہو اور وہ فعل کی وضاحت کرے تو Adverb ہوتا ہے: 'She went inside'۔ صرف لفظ یاد کرنے کے بجائے جملے میں اس کا استعمال دیکھیں۔",
+            sindhi: "ڪجهه لفظ ڪڏهن Preposition ۽ ڪڏهن Adverb طور ڪم ڪن ٿا. جڏهن ان لفظ کان پوءِ object اچي ته اهو Preposition هوندو آهي: 'She went inside the house'. جڏهن ان کان پوءِ object نه هجي ۽ اهو فعل جي وضاحت ڪري ته Adverb هوندو آهي: 'She went inside'. رڳو لفظ ياد ڪرڻ بدران جملي ۾ ان جو استعمال ڏسو.",
+            examples: [
+              ["He stood outside the building. (Preposition)", "وہ عمارت کے باہر کھڑا تھا۔", "هو عمارت جي ٻاهران بيٺو هو.", "Outside has the object the building."],
+              ["He stood outside. (Adverb)", "وہ باہر کھڑا تھا۔", "هو ٻاهر بيٺو هو.", "Outside has no object and modifies stood."],
+              ["They walked past the school. (Preposition)", "وہ اسکول کے پاس سے گزرے۔", "اهي اسڪول وٽان لنگهي ويا.", "Past has the object the school."],
+              ["The days went past quickly. (Adverb use)", "دن تیزی سے گزر گئے۔", "ڏينهن تيزيءَ سان گذري ويا.", "Past has no object here and describes the passing action."],
+              ["Please come in. (Adverb)", "براہِ کرم اندر آئیں۔", "مهرباني ڪري اندر اچو.", "In has no object in this sentence."]
+            ]
+          }
+        ]
+      }
+    ]
   },
   "voice": {
     overview: "Voice changes the focus of a clause. Active voice puts the doer in subject position; passive voice makes the receiver or result the focus, using a form of be plus a past participle.",
