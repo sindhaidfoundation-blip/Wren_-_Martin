@@ -1304,7 +1304,7 @@ export const topicDetails = {
           ["I would rather stay at home tonight.", "میں آج رات گھر پر رہنا زیادہ پسند کروں گا۔", "مان اڄ رات گهر ۾ رهڻ وڌيڪ پسند ڪندس.", "Would rather expresses preference."],
           ["She would not listen to our advice.", "وہ ہماری نصیحت نہیں سنتی تھی۔", "هوءَ اسان جي صلاح نه ٻڌندي هئي.", "Would not can describe repeated refusal or unwillingness in the past."],
           ["If I were you, I would apologise.", "اگر میں آپ کی جگہ ہوتا تو معافی مانگتا۔", "جيڪڏهن مان توهان جي جاءِ تي هجان ها ته معافي وٺان ها.", "Would introduces the result in a hypothetical conditional sentence."],
-          ["I wish I would see him more often.", "کاش میں اسے زیادہ بار دیکھ پاتا۔", "ڪاش مان هن کي وڌيڪ ڀيرا ڏسي سگهان.", "This sentence is not the natural standard form for a simple wish about one's own ability; prefer 'I wish I could see him more often.' This example illustrates a common error to avoid."],
+          ["I wish you would listen to me.", "کاش تم میری بات سنو۔", "ڪاش تون منهنجي ڳالهه ٻڌين.", "Would after wish expresses a desire for another person's behaviour or willingness to change."],
           ["If they had left earlier, they would have caught the train.", "اگر وہ پہلے روانہ ہو جاتے تو ٹرین پکڑ لیتے۔", "جيڪڏهن اهي اڳ روانا ٿين ها ته ٽرين پڪڙي وٺن ها.", "Would have caught is a third-conditional result: would have + V3."]
         ]
       }
