@@ -7,8 +7,88 @@ export const topicDetails = {
   "nouns": {
     overview: "Nouns name people, places, objects, qualities and ideas. They can act as subjects, objects or complements, and many have singular and plural forms.",
     watchFor: "A noun is not always a physical thing. Words such as honesty, freedom and childhood name ideas or qualities.",
-    examples: ["Honesty matters. (idea)", "The children visited the museum. (people and place)"]
-  },
+    examples: ["Honesty matters. (idea)", "The children visited the museum. (people and place)"],
+    nounTypes: [
+      {
+        title: "Gender of Nouns",
+        english: "Gender tells whether a noun refers to a male, female, either sex, or a non-living thing. The four traditional types are masculine, feminine, common and neuter.",
+        urdu: "اسم کی جنس بتاتی ہے کہ لفظ نر، مادہ، دونوں میں سے کسی ایک، یا بے جان چیز کے لیے ہے۔ روایتی طور پر اس کی چار اقسام ہیں: مذکر، مؤنث، مشترک اور غیر ذی روح۔",
+        sindhi: "اسم جي جنس مان خبر پوي ٿي ته لفظ نر، مادي، ٻنهي مان ڪنهن هڪ، يا بي جان شيءِ لاءِ آهي. روايتي طور جنس جا چار قسم آهن: مذڪر، مؤنث، گڏيل ۽ غير جاندار.",
+        examples: [
+          ["boy — masculine / girl — feminine", "لڑکا مذکر ہے، لڑکی مؤنث ہے۔", "ڇوڪرو مذڪر آهي، ڇوڪري مؤنث آهي."],
+          ["king — masculine / queen — feminine", "بادشاہ مذکر ہے، ملکہ مؤنث ہے۔", "بادشاهه مذڪر آهي، راڻي مؤنث آهي."],
+          ["father — masculine / mother — feminine", "والد مذکر ہیں، والدہ مؤنث ہیں۔", "پيءُ مذڪر آهي، ماءُ مؤنث آهي."],
+          ["teacher — common gender", "Teacher مرد یا عورت دونوں کے لیے آ سکتا ہے۔", "Teacher مرد يا عورت ٻنهي لاءِ استعمال ٿي سگهي ٿو."],
+          ["book — neuter gender", "کتاب بے جان چیز ہے، اس لیے neuter ہے۔", "ڪتاب بي جان شيءِ آهي، تنهنڪري neuter آهي."]
+        ]
+      },
+      {
+        title: "Common Noun",
+        english: "A common noun is a general name for a person, place, animal or thing. It does not name one particular person or place.",
+        urdu: "Common noun کسی شخص، جگہ، جانور یا چیز کا عام نام ہوتا ہے، کسی ایک خاص نام کو ظاہر نہیں کرتا۔",
+        sindhi: "Common noun ڪنهن ماڻهو، هنڌ، جانور يا شيءِ جو عام نالو آهي؛ اهو ڪنهن هڪ خاص نالي کي ظاهر نٿو ڪري.",
+        examples: [
+          ["boy", "لڑکا", "ڇوڪرو"],
+          ["city", "شہر", "شهر"],
+          ["teacher", "استاد", "استاد"],
+          ["river", "دریا", "درياهه"],
+          ["book", "کتاب", "ڪتاب"]
+        ]
+      },
+      {
+        title: "Abstract Noun",
+        english: "An abstract noun names an idea, quality, feeling or state that we cannot normally see or touch.",
+        urdu: "Abstract noun کسی خیال، خوبی، احساس یا کیفیت کا نام ہے جسے ہم عام طور پر دیکھ یا چھو نہیں سکتے۔",
+        sindhi: "Abstract noun ڪنهن خيال، خوبي، احساس يا حالت جو نالو آهي، جنهن کي اسين عام طور ڏسي يا ڇهي نٿا سگهون.",
+        examples: [
+          ["honesty", "ایمانداری", "ايمانداري"],
+          ["bravery", "بہادری", "بهادري"],
+          ["love", "محبت", "محبت"],
+          ["happiness", "خوشی", "خوشي"],
+          ["freedom", "آزادی", "آزادي"]
+        ]
+      },
+      {
+        title: "Number of Nouns",
+        english: "Number tells whether a noun refers to one person or thing (singular) or more than one (plural).",
+        urdu: "Noun کا Number بتاتا ہے کہ اسم ایک شخص یا چیز کے لیے ہے (واحد) یا ایک سے زیادہ کے لیے (جمع)۔",
+        sindhi: "اسم جو Number ٻڌائي ٿو ته اسم هڪ ماڻهو يا شيءِ لاءِ آهي (واحد) يا هڪ کان وڌيڪ لاءِ (جمع).",
+        examples: [
+          ["book → books", "ایک کتاب → کئی کتابیں", "هڪ ڪتاب → ڪيترائي ڪتاب"],
+          ["child → children", "ایک بچہ → کئی بچے", "هڪ ٻار → ڪيترائي ٻار"],
+          ["man → men", "ایک مرد → کئی مرد", "هڪ مرد → ڪيترائي مرد"],
+          ["city → cities", "ایک شہر → کئی شہر", "هڪ شهر → ڪيترائي شهر"],
+          ["box → boxes", "ایک ڈبہ → کئی ڈبے", "هڪ دٻو → ڪيترائي دٻا"]
+        ]
+      },
+      {
+        title: "Material Noun",
+        english: "A material noun names a substance or material from which things are made.",
+        urdu: "Material noun کسی ایسے مادّے یا مواد کا نام ہے جس سے چیزیں بنائی جاتی ہیں۔",
+        sindhi: "Material noun اهڙي مادي يا شيءِ جو نالو آهي، جنهن مان ٻيون شيون ٺاهيون وڃن ٿيون.",
+        examples: [
+          ["gold", "سونا", "سون"],
+          ["silver", "چاندی", "چاندي"],
+          ["wood", "لکڑی", "ڪاٺ"],
+          ["cotton", "روئی", "ڪپهه"],
+          ["iron", "لوہا", "لوهه"]
+        ]
+      },
+      {
+        title: "Proper Noun",
+        english: "A proper noun is the special name of a particular person, place, day, month or organisation. It begins with a capital letter in English.",
+        urdu: "Proper noun کسی خاص شخص، جگہ، دن، مہینے یا ادارے کا مخصوص نام ہے۔ انگریزی میں اس کا پہلا حرف Capital ہوتا ہے۔",
+        sindhi: "Proper noun ڪنهن خاص ماڻهو، هنڌ، ڏينهن، مهيني يا اداري جو مخصوص نالو آهي. انگريزي ۾ ان جو پهريون اکر وڏو (Capital) لکبو آهي.",
+        examples: [
+          ["Ali", "علی", "علي"],
+          ["Karachi", "کراچی", "ڪراچي"],
+          ["Pakistan", "پاکستان", "پاڪستان"],
+          ["Monday", "پیر", "سومر"],
+          ["January", "جنوری", "جنوري"]
+        ]
+      }
+    ],
+  }
   "pronouns": {
     overview: "Pronouns replace nouns or noun phrases and help avoid repetition. Their form can change according to person, number, gender and grammatical case.",
     watchFor: "Make sure a pronoun clearly refers to the noun it replaces, and use subject forms for subjects and object forms after verbs or prepositions.",
