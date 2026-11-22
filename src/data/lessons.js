@@ -5676,7 +5676,7 @@ export const lessons = [
       }
     ],
     "practicePrompt": "Write a short message to new students explaining how they should use an English grammar course. Include its purpose, study advice and an encouraging closing."
-  }
+  },
   {
     id: "past-tense",
     title: "Past Tense",
