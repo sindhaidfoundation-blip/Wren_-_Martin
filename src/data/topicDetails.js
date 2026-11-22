@@ -721,6 +721,99 @@ export const topicDetails = {
           ["Which chapter should we read?", "ہمیں کون سا باب پڑھنا چاہیے؟", "اسان کي ڪهڙو باب پڙهڻ گهرجي؟"]
         ]
       }
+      },
+      {
+        title: "Comparison of Adjectives",
+        english: "Adjectives have three degrees of comparison: positive, comparative and superlative. The positive degree describes a quality without comparing. The comparative degree compares two people or things. The superlative degree shows the highest or lowest degree among three or more. Regular short adjectives usually take -er and -est; longer adjectives commonly use more and most.",
+        urdu: "Adjectives کے تین درجے ہوتے ہیں: Positive، Comparative اور Superlative۔ Positive صرف خوبی بتاتا ہے، Comparative دو افراد یا چیزوں کا موازنہ کرتا ہے، جبکہ Superlative تین یا زیادہ میں سب سے اعلیٰ یا کم درجے کو ظاہر کرتا ہے۔ چھوٹی صفات کے ساتھ عموماً -er اور -est، جبکہ لمبی صفات کے ساتھ more اور most استعمال ہوتے ہیں۔",
+        sindhi: "Adjectives جا ٽي درجا آهن: Positive، Comparative ۽ Superlative. Positive رڳو خوبي ٻڌائي ٿو، Comparative ٻن ماڻهن يا شين جو مقابلو ڪري ٿو، جڏهن ته Superlative ٽن يا وڌيڪ مان سڀ کان وڌيڪ يا گهٽ درجو ڏيکاري ٿو. ننڍين صفتن سان عام طور -er ۽ -est، جڏهن ته ڊگهين صفتن سان more ۽ most استعمال ٿيندا آهن.",
+        examples: [
+          ["Ali is tall; Ahmed is taller; Bilal is the tallest.", "علی لمبا ہے؛ احمد زیادہ لمبا ہے؛ بلال سب سے لمبا ہے۔", "علي ڊگهو آهي؛ احمد وڌيڪ ڊگهو آهي؛ بلال سڀ کان ڊگهو آهي."],
+          ["This bag is light; that bag is lighter; this is the lightest.", "یہ بیگ ہلکا ہے؛ وہ زیادہ ہلکا ہے؛ یہ سب سے ہلکا ہے۔", "هي ٿيلهو هلڪو آهي؛ اهو وڌيڪ هلڪو آهي؛ هي سڀ کان هلڪو آهي."],
+          ["Sara is kind; Hina is kinder; Ayesha is the kindest.", "سارہ مہربان ہے؛ حنا زیادہ مہربان ہے؛ عائشہ سب سے مہربان ہے۔", "سارا مهربان آهي؛ حنا وڌيڪ مهربان آهي؛ عائشه سڀ کان مهربان آهي."],
+          ["This road is wide; that road is wider; this is the widest.", "یہ سڑک چوڑی ہے؛ وہ زیادہ چوڑی ہے؛ یہ سب سے چوڑی ہے۔", "هي رستو ويڪرو آهي؛ اهو وڌيڪ ويڪرو آهي؛ هي سڀ کان ويڪرو آهي."],
+          ["The test is difficult; this test is more difficult; that is the most difficult.", "امتحان مشکل ہے؛ یہ زیادہ مشکل ہے؛ وہ سب سے زیادہ مشکل ہے۔", "امتحان ڏکيو آهي؛ هي وڌيڪ ڏکيو آهي؛ اهو سڀ کان ڏکيو آهي."],
+          ["This story is interesting; that one is more interesting; this is the most interesting.", "یہ کہانی دلچسپ ہے؛ وہ زیادہ دلچسپ ہے؛ یہ سب سے دلچسپ ہے۔", "هي ڪهاڻي دلچسپ آهي؛ اها وڌيڪ دلچسپ آهي؛ هي سڀ کان دلچسپ آهي."],
+          ["Today is good; yesterday was better; Sunday was the best.", "آج اچھا ہے؛ کل بہتر تھا؛ اتوار سب سے اچھا تھا۔", "اڄ سٺو آهي؛ ڪالهه بهتر هو؛ آچر سڀ کان بهتر هو."],
+          ["This road is bad; that road is worse; this is the worst.", "یہ راستہ خراب ہے؛ وہ زیادہ خراب ہے؛ یہ سب سے خراب ہے۔", "هي رستو خراب آهي؛ اهو وڌيڪ خراب آهي؛ هي سڀ کان خراب آهي."],
+          ["This box is big; that box is bigger; this is the biggest.", "یہ ڈبہ بڑا ہے؛ وہ زیادہ بڑا ہے؛ یہ سب سے بڑا ہے۔", "هي دٻو وڏو آهي؛ اهو وڌيڪ وڏو آهي؛ هي سڀ کان وڏو آهي."],
+          ["This is a beautiful garden; that is more beautiful; this is the most beautiful.", "یہ خوبصورت باغ ہے؛ وہ زیادہ خوبصورت ہے؛ یہ سب سے خوبصورت ہے۔", "هي سهڻو باغ آهي؛ اهو وڌيڪ سهڻو آهي؛ هي سڀ کان سهڻو آهي."]
+        ]
+      },
+      {
+        title: "Degrees of Comparison",
+        english: "The three degrees express different levels of the same quality. Positive is the basic form (small); comparative compares two (smaller than); superlative compares one with a whole group (the smallest). Use than after a comparative when naming the second item. The is normally used before a superlative adjective.",
+        urdu: "تینوں درجات ایک ہی خوبی کی مختلف سطحیں ظاہر کرتے ہیں۔ Positive بنیادی شکل ہے (small)، Comparative دو کا موازنہ کرتا ہے (smaller than)، اور Superlative پورے گروہ میں سب سے زیادہ خوبی بتاتا ہے (the smallest)۔ دوسرے فرد یا چیز کا نام بتاتے وقت Comparative کے بعد than آتا ہے، جبکہ Superlative سے پہلے عموماً the استعمال ہوتا ہے۔",
+        sindhi: "ٽيئي درجا ساڳئي خوبي جون مختلف سطحون ظاهر ڪن ٿا. Positive بنيادي صورت آهي (small)، Comparative ٻن جو مقابلو ڪري ٿو (smaller than)، ۽ Superlative سڄي گروهه مان سڀ کان وڌيڪ خوبي ڏيکاري ٿو (the smallest). ٻئي ماڻهو يا شيءِ جو نالو ڏيڻ وقت Comparative کان پوءِ than اچي ٿو، جڏهن ته Superlative کان اڳ عام طور the استعمال ٿئي ٿو.",
+        examples: [
+          ["A cat is small; a mouse is smaller; an ant is the smallest.", "بلی چھوٹی ہے؛ چوہا اس سے چھوٹا ہے؛ چیونٹی سب سے چھوٹی ہے۔", "ٻلي ننڍي آهي؛ ڪوئو وڌيڪ ننڍو آهي؛ ڪِول سڀ کان ننڍي آهي."],
+          ["This rope is long; that rope is longer; this is the longest.", "یہ رسی لمبی ہے؛ وہ زیادہ لمبی ہے؛ یہ سب سے لمبی ہے۔", "هي رسي ڊگهي آهي؛ اها وڌيڪ ڊگهي آهي؛ هي سڀ کان ڊگهي آهي."],
+          ["My cup is clean; yours is cleaner; hers is the cleanest.", "میرا کپ صاف ہے؛ تمہارا زیادہ صاف ہے؛ اس کا سب سے صاف ہے۔", "منهنجو ڪوپ صاف آهي؛ تنهنجو وڌيڪ صاف آهي؛ هن جو سڀ کان صاف آهي."],
+          ["This exercise is easy; that is easier; this is the easiest.", "یہ مشق آسان ہے؛ وہ زیادہ آسان ہے؛ یہ سب سے آسان ہے۔", "هي مشق آسان آهي؛ اها وڌيڪ آسان آهي؛ هي سڀ کان آسان آهي."],
+          ["This chair is comfortable; that is more comfortable; this is the most comfortable.", "یہ کرسی آرام دہ ہے؛ وہ زیادہ آرام دہ ہے؛ یہ سب سے آرام دہ ہے۔", "هي ڪرسي آرامده آهي؛ اها وڌيڪ آرامده آهي؛ هي سڀ کان آرامده آهي."],
+          ["Hamza is young; Umar is younger; Zain is the youngest.", "حمزہ جوان ہے؛ عمر زیادہ جوان ہے؛ زین سب سے کم عمر ہے۔", "حمزه جوان آهي؛ عمر وڌيڪ جوان آهي؛ زين سڀ کان ننڍي عمر وارو آهي."],
+          ["This fruit is sweet; that is sweeter; this is the sweetest.", "یہ پھل میٹھا ہے؛ وہ زیادہ میٹھا ہے؛ یہ سب سے میٹھا ہے۔", "هي ميوو مٺو آهي؛ اهو وڌيڪ مٺو آهي؛ هي سڀ کان مٺو آهي."],
+          ["This room is spacious; that is more spacious; this is the most spacious.", "یہ کمرہ کشادہ ہے؛ وہ زیادہ کشادہ ہے؛ یہ سب سے کشادہ ہے۔", "هي ڪمرو ڪشادو آهي؛ اهو وڌيڪ ڪشادو آهي؛ هي سڀ کان ڪشادو آهي."],
+          ["This answer is accurate; that is more accurate; this is the most accurate.", "یہ جواب درست ہے؛ وہ زیادہ درست ہے؛ یہ سب سے زیادہ درست ہے۔", "هي جواب صحيح آهي؛ اهو وڌيڪ صحيح آهي؛ هي سڀ کان وڌيڪ صحيح آهي."],
+          ["This is a good plan; that is a better plan; this is the best plan.", "یہ اچھا منصوبہ ہے؛ وہ بہتر منصوبہ ہے؛ یہ بہترین منصوبہ ہے۔", "هي سٺو منصوبو آهي؛ اهو بهتر منصوبو آهي؛ هي بهترين منصوبو آهي."]
+        ]
+      },
+      {
+        title: "Positive Degree",
+        english: "The positive degree is the basic form of an adjective. It describes a person or thing without showing that it is more or less than another. Examples: tall, clever, beautiful. Equality can be expressed with as + adjective + as; inequality with not as/so + adjective + as.",
+        urdu: "Positive Degree صفت کی بنیادی شکل ہے۔ یہ کسی شخص یا چیز کی خوبی بتاتی ہے لیکن کسی دوسرے سے زیادہ یا کم ہونے کا موازنہ نہیں کرتی۔ برابری کے لیے as + adjective + as اور عدم برابری کے لیے not as/so + adjective + as استعمال کیا جا سکتا ہے۔",
+        sindhi: "Positive Degree صفت جي بنيادي صورت آهي. اها ڪنهن ماڻهو يا شيءِ جي خوبي ٻڌائي ٿي، پر ٻئي سان وڌيڪ يا گهٽ هجڻ جو مقابلو نٿي ڪري. برابري لاءِ as + adjective + as ۽ اڻ برابري لاءِ not as/so + adjective + as استعمال ڪري سگهجي ٿو.",
+        examples: [
+          ["The room is clean.", "کمرہ صاف ہے۔", "ڪمرو صاف آهي."],
+          ["This flower is beautiful.", "یہ پھول خوبصورت ہے۔", "هي گل سهڻو آهي."],
+          ["The boy is intelligent.", "لڑکا ذہین ہے۔", "ڇوڪرو هوشيار آهي."],
+          ["My bag is heavy.", "میرا بیگ بھاری ہے۔", "منهنجو ٿيلهو ڳرو آهي."],
+          ["The water is cold.", "پانی ٹھنڈا ہے۔", "پاڻي ٿڌو آهي."],
+          ["This road is wide.", "یہ سڑک چوڑی ہے۔", "هي رستو ويڪرو آهي."],
+          ["The lesson is easy.", "سبق آسان ہے۔", "سبق آسان آهي."],
+          ["She is as tall as her sister.", "وہ اپنی بہن جتنی لمبی ہے۔", "هوءَ پنهنجي ڀيڻ جيتري ڊگهي آهي."],
+          ["This box is not as large as that one.", "یہ ڈبہ اس ڈبے جتنا بڑا نہیں ہے۔", "هي دٻو ان دٻي جيترو وڏو ناهي."],
+          ["The garden is green.", "باغ ہرا بھرا ہے۔", "باغ سائو آهي."]
+        ]
+      },
+      {
+        title: "Comparative Degree",
+        english: "The comparative degree compares two people, animals or things. For many short adjectives, add -er (tall → taller, small → smaller). For adjectives ending in -e, add -r (large → larger); for consonant + y, change y to -ier (happy → happier); some short vowel-consonant forms double the final consonant (big → bigger). Use more before many longer adjectives (more beautiful, more careful). Than commonly follows when the second item is stated.",
+        urdu: "Comparative Degree دو افراد، جانوروں یا چیزوں کا موازنہ کرتی ہے۔ کئی چھوٹی صفات کے آخر میں -er لگتا ہے (tall → taller)۔ -e پر ختم ہونے والی صفت میں -r، consonant + y میں y بدل کر -ier، اور بعض مختصر vowel + consonant الفاظ میں آخری حرف دگنا ہوتا ہے (big → bigger)۔ کئی لمبی صفات سے پہلے more آتا ہے (more beautiful)۔ دوسرے فریق کا ذکر ہو تو عموماً than استعمال ہوتا ہے۔",
+        sindhi: "Comparative Degree ٻن ماڻهن، جانورن يا شين جو مقابلو ڪري ٿي. ڪيترين ننڍين صفتن جي آخر ۾ -er لڳندو آهي (tall → taller). -e تي ختم ٿيندڙ صفت ۾ -r، consonant + y ۾ y بدلجي -ier ٿيندو آهي، ۽ ڪجهه ننڍن vowel + consonant لفظن ۾ آخري اکر ٻيڻو ٿيندو آهي (big → bigger). ڪيترين ڊگهين صفتن کان اڳ more ايندو آهي (more beautiful). ٻئي ڌر جو ذڪر هجي ته عام طور than استعمال ٿيندو آهي.",
+        examples: [
+          ["Ali is taller than Hamza.", "علی حمزہ سے زیادہ لمبا ہے۔", "علي حمزه کان وڌيڪ ڊگهو آهي."],
+          ["This box is smaller than that box.", "یہ ڈبہ اس ڈبے سے چھوٹا ہے۔", "هي دٻو ان دٻي کان ننڍو آهي."],
+          ["Today is hotter than yesterday.", "آج کل سے زیادہ گرم ہے۔", "اڄ ڪالهه کان وڌيڪ گرم آهي."],
+          ["My new bag is lighter than the old one.", "میرا نیا بیگ پرانے بیگ سے ہلکا ہے۔", "منهنجو نئون ٿيلهو پراڻي ٿيلهي کان هلڪو آهي."],
+          ["Sara is happier than before.", "سارہ پہلے سے زیادہ خوش ہے۔", "سارا اڳ کان وڌيڪ خوش آهي."],
+          ["This building is larger than our school.", "یہ عمارت ہمارے اسکول سے بڑی ہے۔", "هي عمارت اسان جي اسڪول کان وڏي آهي."],
+          ["This book is more interesting than that one.", "یہ کتاب اس کتاب سے زیادہ دلچسپ ہے۔", "هي ڪتاب ان ڪتاب کان وڌيڪ دلچسپ آهي."],
+          ["The blue dress is more beautiful than the red one.", "نیلا لباس سرخ لباس سے زیادہ خوبصورت ہے۔", "نيرو لباس ڳاڙهي لباس کان وڌيڪ سهڻو آهي."],
+          ["This method is more useful than the old method.", "یہ طریقہ پرانے طریقے سے زیادہ مفید ہے۔", "هي طريقو پراڻي طريقي کان وڌيڪ فائديمند آهي."],
+          ["A train is faster than a bus.", "ٹرین بس سے زیادہ تیز ہے۔", "ريل بس کان وڌيڪ تيز آهي."]
+        ]
+      },
+      {
+        title: "Superlative Degree",
+        english: "The superlative degree expresses the highest or lowest degree of a quality among three or more people or things. Many short adjectives take -est (tall → tallest); adjectives ending in -e take -st (large → largest); consonant + y changes to -iest (happy → happiest); some short vowel-consonant forms double the final consonant (big → biggest). Use most before many longer adjectives (most beautiful, most useful). The is normally placed before the superlative.",
+        urdu: "Superlative Degree تین یا زیادہ افراد یا چیزوں میں کسی خوبی کی سب سے اعلیٰ یا کم ترین سطح ظاہر کرتی ہے۔ کئی چھوٹی صفات کے آخر میں -est، -e پر ختم ہونے والی صفت میں -st، consonant + y میں -iest، اور بعض مختصر الفاظ میں آخری حرف دگنا ہو کر -est لگتا ہے۔ کئی لمبی صفات سے پہلے most آتا ہے۔ Superlative سے پہلے عموماً the استعمال ہوتا ہے۔",
+        sindhi: "Superlative Degree ٽن يا وڌيڪ ماڻهن يا شين مان ڪنهن خوبي جي سڀ کان وڏي يا گهٽ سطح ظاهر ڪري ٿي. ڪيترين ننڍين صفتن جي آخر ۾ -est، -e تي ختم ٿيندڙ صفت ۾ -st، consonant + y ۾ -iest، ۽ ڪجهه ننڍن لفظن ۾ آخري اکر ٻيڻو ڪري -est لڳندو آهي. ڪيترين ڊگهي صفتن کان اڳ most ايندو آهي. Superlative کان اڳ عام طور the استعمال ٿيندو آهي.",
+        examples: [
+          ["Bilal is the tallest boy in the class.", "بلال جماعت کا سب سے لمبا لڑکا ہے۔", "بلال ڪلاس جو سڀ کان ڊگهو ڇوڪرو آهي."],
+          ["This is the smallest room in the house.", "یہ گھر کا سب سے چھوٹا کمرہ ہے۔", "هي گهر جو سڀ کان ننڍو ڪمرو آهي."],
+          ["August is the hottest month here.", "اگست یہاں سب سے گرم مہینہ ہے۔", "آگسٽ هتي سڀ کان گرم مهينو آهي."],
+          ["She is the happiest child in the family.", "وہ خاندان کی سب سے خوش بچی ہے۔", "هوءَ خاندان جي سڀ کان خوش ٻار آهي."],
+          ["This is the largest park in the city.", "یہ شہر کا سب سے بڑا پارک ہے۔", "هي شهر جو سڀ کان وڏو پارڪ آهي."],
+          ["Mount Everest is the highest mountain above sea level.", "ماؤنٹ ایورسٹ سطحِ سمندر سے بلند ترین پہاڑ ہے۔", "مائونٽ ايورسٽ سمنڊ جي سطح کان سڀ کان اوچو جبل آهي."],
+          ["This is the most beautiful garden in town.", "یہ شہر کا سب سے خوبصورت باغ ہے۔", "هي شهر جو سڀ کان سهڻو باغ آهي."],
+          ["That was the most difficult question in the test.", "وہ امتحان کا سب سے مشکل سوال تھا۔", "اهو امتحان جو سڀ کان ڏکيو سوال هو."],
+          ["This is the most useful book in the library.", "یہ لائبریری کی سب سے مفید کتاب ہے۔", "هي لائبريري جو سڀ کان فائديمند ڪتاب آهي."],
+          ["She is the best player on our team.", "وہ ہماری ٹیم کی بہترین کھلاڑی ہے۔", "هوءَ اسان جي ٽيم جي بهترين رانديگرياڻي آهي."]
+        ]
+      }
+    ]
+  },
   "tenses": {
     overview: "English tense and aspect work together to show when an event happens and whether it is complete, continuing or connected to another time. The three broad time references are present, past and future.",
     watchFor: "Choose a form based on meaning and context, not only on time words. Present perfect, for example, often connects a past event to the present.",
