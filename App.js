@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as Print from "expo-print";
 import * as Sharing from "expo-sharing";
@@ -103,6 +103,19 @@ function buildAdditionalTopicQuestions(lesson, lessonIndex) {
   return questions.filter(Boolean);
 }
 
+function shuffleQuestionOptions(question) {
+  const options = question.options.map((option, index) => ({ option, correct: index === question.answer }));
+  for (let index = options.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [options[index], options[swapIndex]] = [options[swapIndex], options[index]];
+  }
+  return {
+    ...question,
+    options: options.map(item => item.option),
+    answer: options.findIndex(item => item.correct)
+  };
+}
+
 function buildTenTopicQuestions(lesson) {
   const questions = buildTopicQuestions(lesson);
   const otherLessons = lessons.filter(item => item.id !== lesson.id);
@@ -131,6 +144,7 @@ export default function App() {
   const [completed, setCompleted] = useState([]);
   const [stats, setStats] = useState({ quizzesTaken: 0, questionsAnsweredCorrectly: 0, dailySessions: 0, lastPracticeDate: null, dailyPracticeDates: [], quizHistory: [], wrongAnswers: [] });
   const [storageReady, setStorageReady] = useState(false);
+  const progressWriteQueue = useRef(Promise.resolve());
   const [quiz, setQuiz] = useState(null);
   const [answers, setAnswers] = useState({});
   const [dailyDone, setDailyDone] = useState(false);
@@ -229,10 +243,15 @@ export default function App() {
       totalQuestions: quiz.length,
       certificateId: examCertificateId
     } : null;
+    // Serialize snapshots so a slower older write cannot overwrite newer progress.
     // Keep the learner name in memory only; never persist it with learning progress.
-    AsyncStorage.setItem(STORAGE_KEY, JSON.stringify({ completed, stats, examSession })).catch(error => {
-      console.warn("Could not save learning progress.", error);
-    });
+    const snapshot = JSON.stringify({ completed, stats, examSession });
+    progressWriteQueue.current = progressWriteQueue.current
+      .catch(() => undefined)
+      .then(() => AsyncStorage.setItem(STORAGE_KEY, snapshot))
+      .catch(error => {
+        console.warn("Could not save learning progress.", error);
+      });
   }, [completed, stats, storageReady, isExam, examDeadline, showResult, quiz, answers, examCertificateId]);
   const filteredLessons = useMemo(() => {
     const query = lessonSearch.trim().toLocaleLowerCase();
@@ -263,7 +282,8 @@ export default function App() {
     setExamDeadline(null);
     setExamExpired(false);
     setSelected(item);
-    setQuiz([...buildTenTopicQuestions(item), ...buildAdditionalTopicQuestions(item, lessons.findIndex(lesson => lesson.id === item.id))]);
+    const topicQuestions = [...buildTenTopicQuestions(item), ...buildAdditionalTopicQuestions(item, lessons.findIndex(lesson => lesson.id === item.id))];
+    setQuiz(topicQuestions.map(shuffleQuestionOptions));
     setAnswers({});
     setShowResult(false);
     setQuizRecorded(false);
