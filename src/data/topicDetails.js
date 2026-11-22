@@ -1965,9 +1965,74 @@ export const topicDetails = {
 }]
   },
   "active-passive-voice": {
-    overview: "The passive is formed with the appropriate tense of be plus the past participle. It is useful when the action or receiver is more important than the person doing it.",
-    watchFor: "The object of an active sentence usually becomes the passive subject. Keep the original tense and check that the verb can take an object.",
-    examples: ["Active: Someone has cleaned the room.", "Passive: The room has been cleaned."]
+    overview: "Active voice makes the subject the doer of the action. Passive voice makes the receiver of the action the subject. The passive is formed with the appropriate form of be + past participle (V3); with a modal, use modal + be + V3.",
+    watchFor: "Keep the tense when changing voice. Only verbs that take an object normally form a personal passive. Do not use a base verb after a modal in the passive: write “must be completed,” not “must completed.”",
+    examples: ["Active: The teacher explains the lesson.", "Passive: The lesson is explained by the teacher."],
+    specialSectionsTitle: "ACTIVE AND PASSIVE VOICE — DETAILED LESSON",
+    specialSections: [
+      {
+        title: "Meaning, structure and use of Active Voice",
+        english: "In the active voice, the subject performs the action expressed by the verb. The usual pattern is Subject + Verb + Object (S + V + O): “The students completed the project.” The students are the doers, completed is the verb, and the project receives the action. Active voice is direct, clear and often shorter. It is commonly used when the doer is known, important or needs emphasis. The subject may be a person, an animal, an organisation or a thing that causes an action. Active voice can be used in different tenses and with modal verbs: “She writes a letter,” “She wrote a letter,” and “She can write a letter.” The verb form changes according to tense, aspect and modality, but the subject remains the performer. An active sentence does not always need an expressed object; however, only a transitive verb with a suitable object can normally be changed into the ordinary passive voice.",
+        urdu: "Active Voice میں فاعل خود فعل انجام دیتا ہے۔ اس کی عام ترتیب Subject + Verb + Object ہوتی ہے۔ مثال: “The students completed the project.” یہاں students کام کرنے والے ہیں، completed فعل ہے اور project وہ چیز ہے جس پر عمل ہوا۔ Active Voice بات کو براہِ راست، واضح اور عموماً مختصر بناتا ہے۔ جب کام کرنے والا شخص یا چیز معلوم ہو، اہم ہو یا اس پر زور دینا مقصود ہو تو Active Voice استعمال کیا جاتا ہے۔ فاعل انسان، جانور، ادارہ یا کوئی چیز بھی ہو سکتی ہے۔ Active Voice مختلف زمانوں اور modal verbs کے ساتھ آتا ہے، مثلاً “She writes a letter” اور “She can write a letter”۔ فعل کی شکل tense، aspect اور modality کے مطابق بدلتی ہے، لیکن فاعل عمل کرنے والا رہتا ہے۔ ہر active sentence کو passive نہیں بنایا جا سکتا؛ عام طور پر ایسا transitive verb ضروری ہے جس کا object موجود ہو۔",
+        sindhi: "Active Voice ۾ فاعل پاڻ فعل ڪري ٿو. ان جي عام بناوت Subject + Verb + Object آهي. مثال: “The students completed the project.” هتي students ڪم ڪندڙ آهن، completed فعل آهي ۽ project اهو آهي جنهن تي عمل ٿيو. Active Voice ڳالهه کي سڌو، صاف ۽ اڪثر مختصر بڻائي ٿو. جڏهن ڪم ڪندڙ شخص يا شيءِ معلوم، اهم هجي يا ان تي زور ڏيڻو هجي ته Active Voice استعمال ڪجي ٿو. فاعل انسان، جانور، ادارو يا شيءِ ٿي سگهي ٿو. Active Voice مختلف زمانن ۽ modal verbs سان استعمال ٿئي ٿو، جيئن “She writes a letter” ۽ “She can write a letter”. فعل جي صورت tense، aspect ۽ modality موجب بدلجي ٿي، پر فاعل عمل ڪندڙ رهي ٿو. هر active sentence کي passive نٿو بڻائي سگهجي؛ عام طور اهڙو transitive verb ۽ ان جو object ضروري آهي.",
+        examples: [
+          ["The teacher teaches English.", "استاد انگریزی پڑھاتا ہے۔", "استاد انگريزي پڙهائي ٿو."],
+          ["Sara is writing a letter.", "سارہ خط لکھ رہی ہے۔", "سارا خط لکي رهي آهي."],
+          ["The boys played cricket.", "لڑکوں نے کرکٹ کھیلی۔", "ڇوڪرن ڪرڪيٽ کيڏي."],
+          ["The mechanic has repaired the car.", "مکینک گاڑی ٹھیک کر چکا ہے۔", "مڪينڪ گاڏي ٺيڪ ڪري ڇڏي آهي."],
+          ["They will announce the result.", "وہ نتیجے کا اعلان کریں گے۔", "اهي نتيجي جو اعلان ڪندا."],
+          ["You must follow the rules.", "آپ کو قواعد کی پابندی کرنی چاہیے۔", "توهان کي قاعدن تي عمل ڪرڻ گهرجي."],
+          ["The chef cooked dinner.", "باورچی نے رات کا کھانا پکایا۔", "باورچي رات جي ماني تيار ڪئي."],
+          ["The police caught the thief.", "پولیس نے چور کو پکڑ لیا۔", "پوليس چور کي پڪڙي ورتو."],
+          ["My mother waters the plants.", "میری والدہ پودوں کو پانی دیتی ہیں۔", "منهنجي ماءُ ٻوٽن کي پاڻي ڏئي ٿي."],
+          ["The team can solve this problem.", "ٹیم یہ مسئلہ حل کر سکتی ہے۔", "ٽيم هي مسئلو حل ڪري سگهي ٿي."]
+        ]
+      },
+      {
+        title: "Meaning, structure and use of Passive Voice",
+        english: "In the passive voice, the subject receives the action rather than performs it. The object of an active sentence usually becomes the subject of the passive sentence. The basic pattern is Object of active sentence + suitable form of be + past participle (V3) + (by + doer): “The project was completed by the students.” The project is now the grammatical subject, although the students performed the action. The by-phrase is optional and is omitted when the doer is unknown, unimportant, obvious or deliberately not mentioned: “My wallet was stolen.” Passive voice is useful in reports, news, scientific writing and formal communication when the action or result matters more than the doer. The form of be carries the tense and agreement; the main verb remains in its past participle form. For example, present simple: is cleaned; past simple: was cleaned; present perfect: has been cleaned; future: will be cleaned. Do not confuse the past participle with the simple past form where they differ: write/wrote/written, take/took/taken.",
+        urdu: "Passive Voice میں فاعل عمل کرنے کے بجائے عمل کا اثر قبول کرتا ہے۔ Active جملے کا object عموماً Passive جملے کا subject بن جاتا ہے۔ بنیادی ساخت یہ ہے: Active جملے کا Object + فعل be کی مناسب صورت + فعل کی تیسری شکل (V3) + (by + کام کرنے والا)۔ مثال: “The project was completed by the students.” اب project گرامر کے لحاظ سے subject ہے، اگرچہ کام students نے کیا۔ By والا فقرہ ضروری نہیں؛ اگر کام کرنے والا نامعلوم، غیر اہم، واضح یا جان بوجھ کر پوشیدہ رکھا جائے تو اسے چھوڑ دیتے ہیں، جیسے “My wallet was stolen.” Passive Voice خبروں، رپورٹس، سائنسی تحریر اور رسمی گفتگو میں مفید ہے، جب کام یا نتیجہ کرنے والے سے زیادہ اہم ہو۔ Be کی صورت tense اور subject کے مطابق بدلتی ہے، جبکہ اصل فعل ہمیشہ V3 میں رہتا ہے۔ مثالیں: is cleaned، was cleaned، has been cleaned، will be cleaned۔ Past participle کو simple past نہ سمجھیں؛ مثلاً write/wrote/written اور take/took/taken۔",
+        sindhi: "Passive Voice ۾ subject عمل ڪندڙ نه هوندو، پر عمل جو اثر قبول ڪندڙ هوندو آهي. Active جملي جو object عام طور Passive جملي جو subject بڻجي ٿو. بنيادي بناوت آهي: Active جملي جو Object + be جو مناسب روپ + فعل جو ٽيون روپ (V3) + (by + عمل ڪندڙ). مثال: “The project was completed by the students.” هاڻي project گرامر موجب subject آهي، جيتوڻيڪ ڪم شاگردن ڪيو. By وارو حصو لازمي ناهي؛ جيڪڏهن ڪم ڪندڙ نامعلوم، غير اهم، ظاهر يا ڄاڻي واڻي نه ٻڌائڻو هجي ته ان کي ڇڏي سگهجي ٿو، جيئن “My wallet was stolen.” Passive Voice خبرن، رپورٽن، سائنسي لکڻين ۽ رسمي گفتگو ۾ ڪم اچي ٿو، جڏهن عمل يا نتيجو ڪندڙ کان وڌيڪ اهم هجي. Be جو روپ tense ۽ subject موجب بدلجي ٿو، پر اصل فعل هميشه V3 ۾ رهي ٿو. مثال: is cleaned، was cleaned، has been cleaned، will be cleaned. Past participle کي simple past سان نه ملايو؛ جيئن write/wrote/written ۽ take/took/taken.",
+        examples: [
+          ["English is taught by the teacher.", "انگریزی استاد کے ذریعے پڑھائی جاتی ہے۔", "انگريزي استاد پاران پڙهائي وڃي ٿي."],
+          ["A letter is being written by Sara.", "سارہ کی طرف سے خط لکھا جا رہا ہے۔", "سارا پاران خط لکيو پيو وڃي."],
+          ["Cricket was played by the boys.", "لڑکوں کے ذریعے کرکٹ کھیلی گئی۔", "ڇوڪرن پاران ڪرڪيٽ کيڏي وئي."],
+          ["The car has been repaired by the mechanic.", "مکینک کے ذریعے گاڑی ٹھیک کی جا چکی ہے۔", "مڪينڪ پاران گاڏي ٺيڪ ڪئي وئي آهي."],
+          ["The result will be announced by them.", "نتیجے کا اعلان ان کی طرف سے کیا جائے گا۔", "نتيجي جو اعلان انهن پاران ڪيو ويندو."],
+          ["The rules must be followed.", "قواعد کی پابندی لازمی ہے۔", "قاعدن تي عمل ڪرڻ لازمي آهي."],
+          ["Dinner was cooked by the chef.", "باورچی کے ذریعے رات کا کھانا پکایا گیا۔", "باورچي پاران رات جي ماني تيار ڪئي وئي."],
+          ["The thief was caught by the police.", "چور پولیس کے ذریعے پکڑا گیا۔", "چور پوليس پاران پڪڙيو ويو."],
+          ["The plants are watered by my mother.", "پودوں کو میری والدہ پانی دیتی ہیں۔", "ٻوٽن کي منهنجي ماءُ پاڻي ڏئي ٿي."],
+          ["This problem can be solved by the team.", "یہ مسئلہ ٹیم کے ذریعے حل کیا جا سکتا ہے۔", "هي مسئلو ٽيم پاران حل ڪري سگهجي ٿو."]
+        ]
+      },
+      {
+        title: "Rules for changing Active into Passive",
+        english: "1. Find the object of the active verb; it normally becomes the passive subject. 2. Use the correct tense of be, agreeing with the new subject. 3. Change the main verb to its past participle (V3). 4. Add “by + agent” only when the doer is useful to mention. 5. Keep time expressions, manner and place phrases in their appropriate positions. 6. Keep the tense and meaning unchanged. 7. With two objects, either object may sometimes become the passive subject: “They gave me a prize” → “I was given a prize” or “A prize was given to me.” 8. Intransitive verbs such as arrive, sleep and happen do not normally form a personal passive because they have no direct object. Some verbs allow special prepositional passives, but learners should first master the ordinary object-based pattern.",
+        urdu: "Active کو Passive میں بدلنے کے قواعد: 1۔ Active فعل کا object تلاش کریں؛ عموماً یہی Passive کا subject بنتا ہے۔ 2۔ نئے subject کے مطابق be کی درست tense والی صورت لگائیں۔ 3۔ اصل فعل کو V3 میں تبدیل کریں۔ 4۔ By + کام کرنے والا صرف اس وقت لگائیں جب اس کا ذکر ضروری ہو۔ 5۔ وقت، جگہ اور طریقۂ کار کے الفاظ مناسب جگہ پر رکھیں۔ 6۔ جملے کا زمانہ اور مفہوم تبدیل نہ کریں۔ 7۔ دو objects والے جملے میں بعض اوقات دونوں میں سے کوئی ایک passive subject بن سکتا ہے: “They gave me a prize” سے “I was given a prize” یا “A prize was given to me” بن سکتا ہے۔ 8۔ Arrive، sleep اور happen جیسے لازم افعال عموماً عام passive نہیں بناتے کیونکہ ان کا direct object نہیں ہوتا۔",
+        sindhi: "Active کي Passive ۾ بدلائڻ جا قاعدا: 1. Active فعل جو object ڳوليو؛ اهو عام طور Passive جو subject بڻجي ٿو. 2. نئين subject سان ٺهڪندڙ be جو صحيح tense استعمال ڪريو. 3. اصل فعل کي V3 ۾ بدلايو. 4. By + عمل ڪندڙ تڏهن شامل ڪريو جڏهن ان جو ذڪر ضروري هجي. 5. وقت، جاءِ ۽ طريقي جا لفظ مناسب هنڌ تي رکو. 6. جملي جو زمانو ۽ مطلب ساڳيو رکو. 7. ٻن objects واري جملي ۾ ڪڏهن ٻنهي مان ڪو هڪ passive subject بڻجي سگهي ٿو: “They gave me a prize” مان “I was given a prize” يا “A prize was given to me” ٺهي سگهي ٿو. 8. Arrive، sleep ۽ happen جهڙا لازم فعل عام طور سڌو Passive نٿا بڻجن، ڇاڪاڻ ته انهن جو direct object نه هوندو آهي."
+      },
+      {
+        title: "Modal + Base Verb: Active and Passive Voice",
+        english: "After a modal auxiliary (can, could, may, might, shall, should, will, would, must), use the base form of the main verb in the active voice: modal + V1. To make it passive, use modal + be + V3. “The team can complete the task” becomes “The task can be completed by the team.” The modal does not change; be is inserted after the modal, and the main verb changes to its past participle. Ought to follows the same passive pattern with to: ought to be + V3. The semi-modal have to uses have to be + V3. Do not write “can completed” or “must completed”; the passive requires be before V3.",
+        urdu: "Modal auxiliary جیسے can، could، may، might، shall، should، will، would اور must کے بعد Active Voice میں اصل فعل کی پہلی شکل (V1/base form) آتی ہے: modal + V1۔ Passive بنانے کے لیے modal کے بعد be اور پھر فعل کی تیسری شکل (V3) لگاتے ہیں: modal + be + V3۔ مثال: “The team can complete the task” کا Passive “The task can be completed by the team” ہے۔ Modal تبدیل نہیں ہوتا؛ اس کے بعد be آتا ہے اور اصل فعل V3 میں بدل جاتا ہے۔ Ought to کے ساتھ ساخت ought to be + V3 ہے۔ Have to کے ساتھ have to be + V3 استعمال ہوتا ہے۔ “Can completed” یا “must completed” غلط ہیں؛ Passive میں V3 سے پہلے be ضروری ہے۔",
+        sindhi: "Modal auxiliary جهڙوڪ can، could، may، might، shall، should، will، would ۽ must کان پوءِ Active Voice ۾ اصل فعل جو پهريون روپ (V1/base form) ايندو آهي: modal + V1. Passive ٺاهڻ لاءِ modal کان پوءِ be ۽ پوءِ فعل جو ٽيون روپ (V3) استعمال ڪبو آهي: modal + be + V3. مثال: “The team can complete the task” جو Passive “The task can be completed by the team” ٿيندو. Modal ساڳيو رهندو؛ ان کان پوءِ be ايندو ۽ اصل فعل V3 ۾ بدلجندو. Ought to سان ought to be + V3 ۽ have to سان have to be + V3 استعمال ٿيندو. “Can completed” يا “must completed” غلط آهن؛ Passive ۾ V3 کان اڳ be ضروري آهي."
+      }
+    ],
+    voiceTableTitle: "MODAL + BASE FORM — ACTIVE AND PASSIVE",
+    voiceTable: [
+      ["Modal", "Active: Modal + V1", "Passive: Modal + be + V3"],
+      ["Can", "They can repair the road.", "The road can be repaired."],
+      ["Could", "She could solve the puzzle.", "The puzzle could be solved."],
+      ["May", "You may use this room.", "This room may be used."],
+      ["Might", "They might postpone the match.", "The match might be postponed."],
+      ["Shall", "We shall complete the work.", "The work shall be completed."],
+      ["Should", "You should obey the rules.", "The rules should be obeyed."],
+      ["Will", "The manager will sign the letter.", "The letter will be signed."],
+      ["Would", "They would accept the proposal.", "The proposal would be accepted."],
+      ["Must", "Students must submit the forms.", "The forms must be submitted."],
+      ["Ought to", "We ought to respect elders.", "Elders ought to be respected."]
+    ]
   },
   "mood": {
     overview: "Mood expresses how a speaker presents an action: as a fact, a command, a possibility, a wish or a condition. English uses indicative, imperative and subjunctive patterns.",
