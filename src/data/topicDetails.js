@@ -811,6 +811,24 @@ export const topicDetails = {
           ["This is the most useful book in the library.", "یہ لائبریری کی سب سے مفید کتاب ہے۔", "هي لائبريري جو سڀ کان فائديمند ڪتاب آهي."],
           ["She is the best player on our team.", "وہ ہماری ٹیم کی بہترین کھلاڑی ہے۔", "هوءَ اسان جي ٽيم جي بهترين رانديگرياڻي آهي."]
         ]
+      },
+      {
+        title: "Irregular Comparison of Adjectives",
+        english: "Some adjectives do not form their comparative and superlative degrees by simply adding -er and -est or by using more and most. Their forms change irregularly and should be memorised. The table gives ten commonly taught irregular or special comparison patterns. Far and old have more than one accepted form, with different uses in some contexts.",
+        urdu: "کچھ صفات کے Comparative اور Superlative درجے بنانے کے لیے صرف -er اور -est نہیں لگاتے اور نہ ہی more اور most استعمال کرتے ہیں؛ ان کی شکل بدل جاتی ہے۔ ایسی شکلیں یاد رکھنی چاہییں۔ نیچے دس عام irregular یا خاص تقابلی صورتیں دی گئی ہیں۔ Far اور old کی ایک سے زیادہ درست صورتیں بھی استعمال ہوتی ہیں۔",
+        sindhi: "ڪجهه صفتن جا Comparative ۽ Superlative درجا ٺاهڻ لاءِ رڳو -er ۽ -est نٿا لڳايا وڃن ۽ نه ئي more ۽ most استعمال ٿيندا آهن؛ انهن جي صورت بدلجي ويندي آهي. اهڙيون صورتون ياد رکڻ گهرجن. هيٺ ڏهه عام irregular يا خاص تقابلي صورتون ڏنل آهن. Far ۽ old جون هڪ کان وڌيڪ صحيح صورتون به استعمال ٿين ٿيون.",
+        examples: [
+          ["good — better — best", "اچھا — بہتر — سب سے اچھا", "سٺو — بهتر — سڀ کان سٺو"],
+          ["bad — worse — worst", "برا — بدتر — سب سے برا", "خراب — وڌيڪ خراب — سڀ کان خراب"],
+          ["much — more — most (uncountable nouns)", "زیادہ مقدار — مزید — سب سے زیادہ مقدار", "گهڻي مقدار — وڌيڪ — سڀ کان گهڻي مقدار"],
+          ["many — more — most (countable nouns)", "زیادہ تعداد — مزید — سب سے زیادہ تعداد", "گهڻا — وڌيڪ — سڀ کان گهڻا"],
+          ["little — less — least (amount)", "تھوڑی مقدار — کم — سب سے کم", "ٿوري مقدار — گهٽ — سڀ کان گهٽ"],
+          ["far — farther — farthest (distance)", "دور — زیادہ دور — سب سے دور", "پري — وڌيڪ پري — سڀ کان پري"],
+          ["far — further — furthest (additional or figurative distance)", "مزید / آگے — مزید آگے — سب سے آگے", "وڌيڪ / اڳتي — وڌيڪ اڳتي — سڀ کان اڳتي"],
+          ["well — better — best (adverb; also adjective meaning healthy)", "اچھی طرح / تندرست — زیادہ بہتر — سب سے بہتر", "چڱيءَ طرح / صحتمند — وڌيڪ بهتر — سڀ کان بهتر"],
+          ["ill — worse — worst", "بیمار — زیادہ بیمار / بدتر — سب سے زیادہ بیمار / بدترین", "بيمار — وڌيڪ بيمار / خراب — سڀ کان وڌيڪ بيمار / خراب"],
+          ["old — older — oldest (elder / eldest mainly for family relationships)", "پرانا / عمر رسیدہ — زیادہ پرانا — سب سے پرانا (رشتوں میں elder / eldest)", "پراڻو / وڏي عمر وارو — وڌيڪ پراڻو — سڀ کان پراڻو (رشتن لاءِ elder / eldest)"]
+        ]
       }
     ]
   },
