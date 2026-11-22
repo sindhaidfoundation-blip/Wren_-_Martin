@@ -1081,7 +1081,9 @@ export const topicDetails = {
           ["I used the little time available to revise.", "میں نے دستیاب تھوڑا سا سارا وقت دہرائی کے لیے استعمال کیا۔", "مون موجود ٿورو سڄو وقت ورجاءَ لاءِ استعمال ڪيو."],
           ["A little knowledge is a dangerous thing.", "تھوڑا سا علم خطرناک چیز ہے۔", "ٿوري ڄاڻ ڪڏهن خطرناڪ ٿي سگهي ٿي."]
         ]
-      } },
+      }
+    ]
+  },
   "tenses": {
     overview: "English tense and aspect work together to show when an event happens and whether it is complete, continuing or connected to another time. The three broad time references are present, past and future.",
     watchFor: "Choose a form based on meaning and context, not only on time words. Present perfect, for example, often connects a past event to the present.",
