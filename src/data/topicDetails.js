@@ -10588,7 +10588,7 @@ topicDetails["past-tense"] = {
         ]
       }
     ]
-  }
+  },
   "idioms": {
   "title": "Idioms and Phrasal Verbs — Explanation and Usage (A–W)",
   "english": "An idiom is an established expression whose meaning is not simply the sum of the literal meanings of its words. This lesson includes both idiomatic expressions and common phrasal verbs formed with the verbs listed below. A phrasal verb consists of a verb and one or more particles; some combinations are literal, while others have a special idiomatic meaning. Learn each expression as a complete unit, with its meaning, grammatical pattern and context. Each entry gives an explanation, an example sentence, and Urdu and Sindhi translations. Where an expression has several meanings, the explanation identifies the meaning illustrated by the example and may mention another common sense.",
