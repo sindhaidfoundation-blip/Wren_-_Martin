@@ -5741,10 +5741,390 @@ export const topicDetails = {
     examples: ["The list of names is on the desk.", "The players are ready.", "Each student has a book."]
   },
   "punctuation": {
-    overview: "Punctuation marks organise writing and guide the reader through pauses, sentence boundaries, quotations and extra information.",
-    watchFor: "A comma alone cannot normally join two independent clauses. Use a full stop, semicolon or comma plus a coordinating conjunction.",
-    examples: ["After dinner, we went for a walk.", "I called her, but she did not answer.", "“Are you ready?” he asked."]
-  },
+  "overview": "Punctuation is the system of marks used in writing to make meaning clear, show the structure of sentences, indicate pauses and separate ideas. Correct punctuation helps readers understand exactly how words and clauses are related. The principal marks include the full stop, comma, semicolon, colon, question mark, exclamation mark, apostrophe, quotation marks, brackets, dash and hyphen.",
+  "watchFor": "Do not use a comma by itself to join two complete sentences (a comma splice). Use a full stop, a semicolon, or a comma with a coordinating conjunction. A full stop normally ends a statement; a question mark ends a direct question, not an indirect one.",
+  "examples": [
+    "The lesson is easy to understand. (full stop)",
+    "After the rain, the children went outside. (comma after an introductory phrase)",
+    "I wanted to go, but I was busy. (comma before a coordinating conjunction joining two independent clauses)",
+    "She asked, “Are you ready?” (question mark inside the quotation because the quoted words are a question)"
+  ],
+  "specialSectionsTitle": "Punctuation — Complete Rules, Detailed Examples and Exercises",
+  "specialSections": [
+    {
+      "title": "Meaning, Purpose and General Rules of Punctuation",
+      "english": "Punctuation consists of conventional signs used in writing to divide sentences, separate words and phrases, show relationships between clauses, and indicate questions, strong feelings, quotations or omitted material. Punctuation is not merely a record of pauses in speech: it also expresses grammatical structure and meaning. A change in punctuation can change the meaning of a sentence. For example, “Let us eat, Grandma.” addresses Grandma; “Let us eat Grandma.” gives a very different and unintended meaning. Use punctuation consistently and follow the style required by your school or publisher.",
+      "urdu": "Punctuation تحریر میں استعمال ہونے والی علامات کا نظام ہے۔ یہ جملوں کو الگ کرتا، الفاظ اور فقروں کی ترتیب واضح کرتا، clauses کے تعلق کو ظاہر کرتا اور سوال، جذبات، اقتباس یا حذف شدہ الفاظ کی نشاندہی کرتا ہے۔ رموزِ اوقاف صرف بولنے کے وقفوں کی علامت نہیں بلکہ جملے کی نحوی ساخت اور مفہوم بھی واضح کرتے ہیں۔ مثال: “Let us eat, Grandma.” میں دادی/نانی کو مخاطب کیا گیا ہے، جبکہ “Let us eat Grandma.” کا مطلب بالکل مختلف اور غیر ارادی ہو سکتا ہے۔",
+      "sindhi": "Punctuation لکڻ ۾ استعمال ٿيندڙ نشانين جو نظام آهي. اهي جملن کي جدا ڪن ٿا، لفظن ۽ فقرن جي ترتيب واضح ڪن ٿا، clauses جو لاڳاپو ڏيکارين ٿا ۽ سوال، جذبا، اقتباس يا ڇڏيل لفظ ظاهر ڪن ٿا. رموزِ اوقاف رڳو ڳالهائڻ جي وقفي لاءِ نه، پر جملي جي گرامري بناوت ۽ معنيٰ واضح ڪرڻ لاءِ به آهن. مثال: “Let us eat, Grandma.” ۾ ڏاڏي کي مخاطب ڪيو ويو آهي، جڏهن ته “Let us eat Grandma.” جي معنيٰ بلڪل مختلف ٿي وڃي ٿي."
+    },
+    {
+      "title": "1. Full Stop (.) — Uses and Detailed Explanation",
+      "english": "A full stop, also called a period in American English, is used chiefly to mark the end of a declarative sentence or a statement. It tells the reader that the sentence is complete. (1) Statements: “The earth moves round the sun.” (2) Negative statements: “He does not waste his time.” (3) Polite or ordinary commands are generally ended by a full stop: “Please close the door.” A forceful command may take an exclamation mark. (4) Indirect questions take a full stop because they are statements, not direct questions: “She asked where I lived.” Compare the direct question: “Where do you live?” (5) Full stops are used after many abbreviations, such as “Dr.”, “Mr.” and “etc.” in styles that punctuate these forms; some modern styles omit the stop in certain abbreviations. (6) In lists written as complete sentences, each sentence takes its own full stop. Do not normally put a full stop after a heading or title unless it is a complete sentence or the chosen style requires it. Do not place two full stops at the end of one sentence. In standard British practice, a full stop usually goes outside closing quotation marks unless it belongs to the quoted material; American practice commonly places it inside. Follow one style consistently.",
+      "urdu": "Full Stop (.) کو American English میں Period بھی کہتے ہیں۔ یہ بنیادی طور پر خبریہ جملے یا مکمل بیان کے آخر میں لگایا جاتا ہے۔ (1) مثبت بیان: The earth moves round the sun. (زمین سورج کے گرد گھومتی ہے۔) (2) منفی بیان: He does not waste his time. (وہ اپنا وقت ضائع نہیں کرتا۔) (3) عام حکم یا درخواست: Please close the door. (براہِ کرم دروازہ بند کریں۔) زور دار حکم میں علامتِ تعجب بھی آ سکتی ہے۔ (4) Indirect question کے آخر میں Full Stop آتا ہے کیونکہ وہ بیان ہوتا ہے، براہِ راست سوال نہیں: She asked where I lived. اس کے برعکس براہِ راست سوال Where do you live? کے آخر میں Question Mark آئے گا۔ (5) Dr., Mr. اور etc. جیسی بعض اختصاری صورتوں کے بعد انگریزی کے بعض اسالیب میں Full Stop لگتا ہے؛ جدید اسلوب میں کچھ اختصارات کے بعد یہ نہیں لگایا جاتا۔ عنوان کے بعد عموماً Full Stop نہیں لگاتے، الا یہ کہ عنوان مکمل جملہ ہو یا مقررہ اسلوب ایسا چاہے۔ ایک ہی جملے کے آخر میں دو Full Stops نہ لگائیں۔",
+      "sindhi": "Full Stop (.) کي American English ۾ Period به چيو ويندو آهي. اهو عام طور بيان ڪندڙ مڪمل جملي جي آخر ۾ لڳندو آهي. (1) بيان: The earth moves round the sun. (زمين سج جي چوڌاري ڦري ٿي.) (2) ناڪاري بيان: He does not waste his time. (هو پنهنجو وقت ضايع نٿو ڪري.) (3) عام حڪم يا درخواست: Please close the door. (مهرباني ڪري دروازو بند ڪريو.) زور واري حڪم لاءِ عجب جي نشاني به اچي سگهي ٿي. (4) Indirect question جي آخر ۾ Full Stop ايندو آهي، ڇاڪاڻ ته اهو بيان آهي: She asked where I lived. سڌي سوال Where do you live? جي آخر ۾ Question Mark ايندو. (5) Dr., Mr. ۽ etc. جهڙن مختصر لفظن کان پوءِ ڪجهه اسلوبن ۾ Full Stop لڳندو آهي. عنوان جي آخر ۾ عام طور Full Stop نه لڳايو ويندو آهي. هڪ ئي جملي جي آخر ۾ ٻه Full Stops نه لڳايو.",
+      "examples": [
+        [
+          "The sun rises in the east.",
+          "Full stop ends a complete statement.",
+          "سورج مشرق سے طلوع ہوتا ہے۔",
+          "سج اوڀر کان اڀري ٿو۔"
+        ],
+        [
+          "She did not attend the meeting.",
+          "Full stop ends a negative statement.",
+          "وہ اجلاس میں شریک نہیں ہوئی۔",
+          "هوءَ گڏجاڻيءَ ۾ شامل نه ٿي۔"
+        ],
+        [
+          "Please keep your books on the desk.",
+          "A polite instruction normally ends with a full stop.",
+          "براہِ کرم اپنی کتابیں میز پر رکھیں۔",
+          "مهرباني ڪري پنهنجا ڪتاب ميز تي رکو۔"
+        ],
+        [
+          "I know what you mean.",
+          "A statement, even if it contains an embedded question-like idea, ends with a full stop.",
+          "میں جانتا ہوں کہ آپ کا مطلب کیا ہے۔",
+          "مان ڄاڻان ٿو ته توهان جو مطلب ڇا آهي۔"
+        ],
+        [
+          "He asked whether the train had arrived.",
+          "This is an indirect question, so use a full stop.",
+          "اس نے پوچھا کہ کیا ٹرین آ چکی تھی۔",
+          "هن پڇيو ته ڇا ريل گاڏي پهچي چڪي هئي۔"
+        ],
+        [
+          "Dr. Ahmed teaches English.",
+          "A full stop may be used in the abbreviation Dr. according to the chosen style; the sentence also ends with a full stop.",
+          "ڈاکٹر احمد انگریزی پڑھاتے ہیں۔",
+          "ڊاڪٽر احمد انگريزي پڙهائيندو آهي۔"
+        ],
+        [
+          "The examination begins at nine.",
+          "Do not add a question mark because this is a statement.",
+          "امتحان نو بجے شروع ہوتا ہے۔",
+          "امتحان نائين وڳي شروع ٿئي ٿو۔"
+        ]
+      ]
+    },
+    {
+      "title": "2. Comma (,) — Uses and Detailed Explanation",
+      "english": "A comma marks a short grammatical separation within a sentence. It is weaker than a full stop and should not be used merely wherever a speaker pauses. (1) Items in a series: “We bought apples, oranges, bananas and grapes.” A comma before the final and (the Oxford comma) is optional in many styles, but use it when it prevents ambiguity or when your style guide requires it. (2) After introductory words, phrases or clauses: “However, we continued.” “After the lesson, the students went home.” “When the rain stopped, we went out.” (3) Before a coordinating conjunction (and, but, or, nor, for, so, yet) joining two independent clauses: “I called him, but he did not answer.” Do not automatically insert a comma when the conjunction joins only words or phrases: “She bought pens and pencils.” (4) To set off a non-essential relative clause or extra information: “My brother, who lives in Lahore, is a doctor.” Essential information is not separated: “The boy who won the race is my cousin.” (5) Around a name or direct address: “Sara, please open the window.” (6) In direct speech, after a reporting clause or before a following reporting clause, according to sentence structure: “She said, ‘I am ready.’” (7) Between coordinate adjectives when each independently describes the noun: “It was a long, tiring journey.” Do not usually separate cumulative adjectives: “three large wooden boxes.” (8) In dates, addresses and some numbers according to the style used: “On May 5, 2025, we met.” In British date order, “5 May 2025” normally needs no comma. (9) To mark a contrast or a mild interruption: “The answer, however, is not simple.” (10) A comma may follow a short introductory participial phrase: “Having finished her work, she went home.” Avoid a comma splice: “I was tired, I went to bed” is incorrect as two independent clauses joined by only a comma. Correct it as “I was tired, so I went to bed” or “I was tired. I went to bed.”",
+      "urdu": "Comma (,) جملے کے اندر مختصر نحوی وقفہ یا علیحدگی ظاہر کرتا ہے۔ اسے صرف وہاں نہ لگائیں جہاں بولتے وقت سانس یا وقفہ آتا ہے۔ (1) فہرست میں چیزوں کو جدا کرنے کے لیے: We bought apples, oranges, bananas and grapes. آخری and سے پہلے comma (Oxford comma) بعض اسالیب میں اختیاری ہے؛ ابہام دور کرنے کے لیے استعمال کریں۔ (2) ابتدائی لفظ، فقرے یا clause کے بعد: However, we continued. / After the lesson, the students went home. (3) and, but, or, nor, for, so, yet جیسے coordinating conjunction سے جڑے دو مکمل جملوں کے درمیان: I called him, but he did not answer. لیکن صرف الفاظ یا فقروں کو جوڑتے وقت عموماً comma نہیں آتا: pens and pencils۔ (4) اضافی اور غیر ضروری معلومات والے relative clause کے گرد: My brother, who lives in Lahore, is a doctor. ضروری شناختی معلومات کو comma سے الگ نہیں کرتے: The boy who won the race is my cousin. (5) کسی کو نام لے کر مخاطب کرنے میں: Sara, please open the window. (6) Direct speech میں reporting clause کے بعد: She said, “I am ready.” (7) برابر درجے کی دو صفات کے درمیان: a long, tiring journey۔ (8) تاریخ، پتے اور بعض اعداد میں مقررہ اسلوب کے مطابق۔ (9) however جیسے درمیانی الفاظ کے دونوں طرف یا جملے میں contrast ظاہر کرنے کے لیے۔ اہم غلطی: دو مکمل جملوں کو صرف comma سے نہ جوڑیں۔ “I was tired, I went to bed” غلط ہے۔ درست: “I was tired, so I went to bed.” یا دو الگ جملے بنائیں۔",
+      "sindhi": "Comma (,) جملي اندر ننڍو گرامري وقفو يا جدائي ڏيکاري ٿو. ان کي رڳو ڳالهائڻ وقت ساهه کڻڻ يا وقفي جي بنياد تي نه لڳايو. (1) فهرست ۾ شين کي جدا ڪرڻ لاءِ: We bought apples, oranges, bananas and grapes. آخري and کان اڳ comma (Oxford comma) ڪيترن اسلوبن ۾ اختياري آهي؛ ابهام ختم ڪرڻ لاءِ استعمال ڪريو. (2) شروعاتي لفظ، فقري يا clause کان پوءِ: However, we continued. / After the lesson, the students went home. (3) and، but، or، nor، for، so، yet سان ڳنڍيل ٻن مڪمل جملن جي وچ ۾: I called him, but he did not answer. پر رڳو لفظن يا فقرن کي ڳنڍڻ وقت عام طور comma نه ايندو: pens and pencils. (4) اضافي ڄاڻ ڏيندڙ non-essential relative clause جي ٻنهي پاسن تي: My brother, who lives in Lahore, is a doctor. ضروري سڃاڻپ واري ڄاڻ کي comma سان جدا نه ڪريو: The boy who won the race is my cousin. (5) ڪنهن کي نالي سان سڏڻ وقت: Sara, please open the window. (6) Direct speech ۾ reporting clause کان پوءِ. (7) برابر درجي وارن صفتن جي وچ ۾: a long, tiring journey. (8) تاريخ، پتي ۽ ڪجهه انگن ۾ مقرر اسلوب موجب. (9) however جهڙن وچ وارن لفظن جي چوڌاري يا ابتڙ ڳالهه ڏيکارڻ لاءِ. اهم غلطي: ٻن مڪمل جملن کي رڳو comma سان نه ڳنڍيو. “I was tired, I went to bed” غلط آهي؛ “I was tired, so I went to bed” درست آهي.",
+      "examples": [
+        [
+          "We need bread, milk, eggs and butter.",
+          "Commas separate items in a series. The comma before and is optional in many styles.",
+          "ہمیں ڈبل روٹی، دودھ، انڈے اور مکھن چاہیے۔",
+          "اسان کي ڊبل روٽي، کير، آنا ۽ مکڻ گهرجي۔"
+        ],
+        [
+          "After the match, the players thanked the crowd.",
+          "A comma follows an introductory phrase.",
+          "میچ کے بعد کھلاڑیوں نے تماشائیوں کا شکریہ ادا کیا۔",
+          "ميچ کان پوءِ رانديگرن تماشائين جا ٿورا مڃيا۔"
+        ],
+        [
+          "If you work hard, you will succeed.",
+          "A comma separates an introductory dependent clause from the main clause.",
+          "اگر تم محنت کرو گے تو کامیاب ہو جاؤ گے۔",
+          "جيڪڏهن تون محنت ڪندين ته ڪامياب ٿيندين۔"
+        ],
+        [
+          "I wanted to help, but I had no time.",
+          "A comma precedes but because it joins two independent clauses.",
+          "میں مدد کرنا چاہتا تھا، لیکن میرے پاس وقت نہیں تھا۔",
+          "مان مدد ڪرڻ چاهيان پيو، پر مون وٽ وقت نه هو۔"
+        ],
+        [
+          "My aunt, who lives in Hyderabad, is a teacher.",
+          "The who-clause adds extra, non-essential information; commas set it off.",
+          "میری خالہ، جو حیدرآباد میں رہتی ہیں، استاد ہیں۔",
+          "منهنجي ماسي، جيڪا حيدرآباد ۾ رهي ٿي، استاد آهي۔"
+        ],
+        [
+          "The student who came first received a medal.",
+          "The relative clause identifies which student; no commas are used.",
+          "جو طالب علم اول آیا اسے تمغہ ملا۔",
+          "جيڪو شاگرد پهريون آيو، ان کي تمغو مليو۔"
+        ],
+        [
+          "Ali, please bring your notebook.",
+          "The comma marks direct address.",
+          "علی، براہِ کرم اپنی کاپی لے آؤ۔",
+          "علي، مهرباني ڪري پنهنجي ڪاپي کڻي اچ۔"
+        ],
+        [
+          "She said, “I shall return tomorrow.”",
+          "The comma introduces direct speech; punctuation inside the quotation follows the quoted sentence.",
+          "اس نے کہا، ”میں کل واپس آؤں گی۔“",
+          "هن چيو، ”مان سڀاڻي واپس اينديس.“"
+        ],
+        [
+          "It was a cold, windy evening.",
+          "The adjectives are coordinate; a comma is suitable between them.",
+          "وہ ایک سرد، ہوا دار شام تھی۔",
+          "اها ٿڌي، هوا واري شام هئي۔"
+        ],
+        [
+          "I was tired, so I went to bed.",
+          "The comma plus so correctly joins two independent clauses.",
+          "میں تھکا ہوا تھا، اس لیے سو گیا۔",
+          "مان ٿڪل هئس، تنهنڪري سمهي پيس۔"
+        ]
+      ]
+    },
+    {
+      "title": "3. Semicolon (;) and Colon (:) ",
+      "english": "A semicolon is stronger than a comma but weaker than a full stop. (1) It joins two closely related independent clauses without a coordinating conjunction: “The road was blocked; we took another route.” (2) It may be used before a conjunctive adverb such as however, therefore or consequently when joining independent clauses: “It was getting late; therefore, we returned home.” (3) It separates items in a complicated list when the items themselves contain commas: “The guests came from Karachi, Pakistan; Delhi, India; and London, England.” A colon introduces an explanation, example, quotation or list after a complete introductory clause: “Bring these items: a pen, a ruler and a notebook.” It can also introduce an explanation: “She had one aim: to succeed.” Do not normally put a colon directly after a verb or preposition when it separates it from its complement: avoid “The items are: pens and books.” Prefer “The items are pens and books” or “Bring these items: pens and books.”",
+      "urdu": "Semicolon (;) comma سے زیادہ مضبوط اور full stop سے کم مضبوط وقفہ ہے۔ یہ (1) دو قریبی مفہوم رکھنے والے مکمل جملوں کو conjunction کے بغیر جوڑ سکتا ہے: The road was blocked; we took another route. (2) however، therefore اور consequently جیسے linking adverbs سے پہلے آ سکتا ہے: It was getting late; therefore, we returned home. (3) ایسی فہرست میں چیزیں جدا کرتا ہے جس کے ہر حصے میں پہلے ہی comma موجود ہو۔ Colon (:) مکمل تعارفی جملے کے بعد فہرست، وضاحت، مثال یا اقتباس متعارف کراتا ہے: Bring these items: a pen, a ruler and a notebook. یہ وضاحت بھی متعارف کرا سکتا ہے: She had one aim: to succeed. فعل یا حرفِ جار اور اس کے مفعول کے درمیان بلا ضرورت colon نہ لگائیں۔",
+      "sindhi": "Semicolon (;) comma کان وڌيڪ ۽ full stop کان گهٽ وقفو ڏيکاري ٿو. اهو (1) ويجهي معنيٰ وارن ٻن مڪمل جملن کي conjunction کان سواءِ ڳنڍي سگهي ٿو: The road was blocked; we took another route. (2) however، therefore ۽ consequently جهڙن linking adverbs کان اڳ اچي سگهي ٿو. (3) اهڙي فهرست جي حصن کي جدا ڪري ٿو، جن ۾ اڳ ئي comma موجود هجي. Colon (:) مڪمل تعارفي جملي کان پوءِ فهرست، وضاحت، مثال يا اقتباس شروع ڪري ٿو: Bring these items: a pen, a ruler and a notebook. وضاحت لاءِ به استعمال ٿئي ٿو: She had one aim: to succeed. فعل ۽ ان جي مفعول جي وچ ۾ بنا ضرورت colon نه لڳايو.",
+      "examples": [
+        [
+          "The weather was poor; the match continued.",
+          "A semicolon joins two closely related independent clauses.",
+          "موسم خراب تھا؛ پھر بھی میچ جاری رہا۔",
+          "موسم خراب هو؛ تنهن هوندي به ميچ جاري رهيو۔"
+        ],
+        [
+          "He was unwell; therefore, he stayed at home.",
+          "A semicolon comes before the conjunctive adverb; a comma follows therefore.",
+          "وہ بیمار تھا؛ اس لیے گھر پر رہا۔",
+          "هو بيمار هو؛ تنهنڪري گهر ۾ رهيو۔"
+        ],
+        [
+          "The speakers came from Lahore, Pakistan; Dhaka, Bangladesh; and London, England.",
+          "Semicolons separate list items that already contain commas.",
+          "مقررین لاہور، پاکستان؛ ڈھاکہ، بنگلہ دیش؛ اور لندن، انگلینڈ سے آئے۔",
+          "مقرر لاهور، پاڪستان؛ ڍاڪا، بنگلاديش؛ ۽ لنڊن، انگلينڊ مان آيا۔"
+        ],
+        [
+          "You need three things: patience, practice and confidence.",
+          "A colon introduces a list after a complete clause.",
+          "آپ کو تین چیزوں کی ضرورت ہے: صبر، مشق اور اعتماد۔",
+          "توهان کي ٽن شين جي ضرورت آهي: صبر، مشق ۽ اعتماد۔"
+        ],
+        [
+          "There was only one solution: start again.",
+          "A colon introduces an explanation.",
+          "صرف ایک ہی حل تھا: دوبارہ شروع کرنا۔",
+          "رڳو هڪ حل هو: ٻيهر شروع ڪرڻ۔"
+        ]
+      ]
+    },
+    {
+      "title": "4. Question Mark (?) and Exclamation Mark (!)",
+      "english": "A question mark is placed at the end of a direct question: “Where are you going?” It is not normally used after an indirect question: “He asked where I was going.” A question mark may appear inside quotation marks when the quoted words themselves form a question: She asked, “Are you ready?” An exclamation mark expresses strong feeling, surprise, excitement, pain or a forceful command: “What a wonderful idea!” “Stop!” Use it sparingly in formal writing. Do not add a question mark to a polite request merely because it is phrased with could or would if it functions as a request: “Could you open the window, please?” is conventionally punctuated as a question because it has interrogative form; “Please open the window.” is a statement-like request.",
+      "urdu": "Question Mark (?) براہِ راست سوال کے آخر میں لگتا ہے: Where are you going? Indirect question کے آخر میں عموماً Full Stop آتا ہے: He asked where I was going. اگر اقتباس کے اندر سوال ہو تو سوالیہ نشان اقتباس کے اندر آئے گا۔ Exclamation Mark (!) شدید جذبہ، حیرت، خوشی، درد یا زور دار حکم ظاہر کرتا ہے: What a wonderful idea! / Stop! رسمی تحریر میں اسے ضرورت کے مطابق استعمال کریں، ہر جملے کے بعد نہیں۔",
+      "sindhi": "Question Mark (?) سڌي سوال جي آخر ۾ لڳندو آهي: Where are you going? اڻ سڌي سوال جي آخر ۾ عام طور Full Stop ايندو آهي: He asked where I was going. جيڪڏهن اقتباس اندر سوال هجي ته سوال جي نشاني اقتباس اندر ايندي. Exclamation Mark (!) شديد جذبو، حيرت، خوشي، سور يا زور وارو حڪم ظاهر ڪري ٿو: What a wonderful idea! / Stop! رسمي لکڻيءَ ۾ ان جو مناسب استعمال ڪريو.",
+      "examples": [
+        [
+          "When will the train arrive?",
+          "A direct question takes a question mark.",
+          "ٹرین کب پہنچے گی؟",
+          "ريل گاڏي ڪڏهن پهچندي؟"
+        ],
+        [
+          "She asked when the train would arrive.",
+          "An indirect question ends with a full stop, not a question mark.",
+          "اس نے پوچھا کہ ٹرین کب پہنچے گی۔",
+          "هن پڇيو ته ريل گاڏي ڪڏهن پهچندي۔"
+        ],
+        [
+          "What a beautiful painting!",
+          "An exclamation mark expresses strong admiration.",
+          "کتنی خوبصورت تصویر ہے!",
+          "ڪهڙي نه سهڻي تصوير آهي!"
+        ],
+        [
+          "Watch out!",
+          "An exclamation mark makes the warning forceful.",
+          "خبردار!",
+          "خبردار!"
+        ],
+        [
+          "Could you help me, please?",
+          "A polite request in interrogative form takes a question mark.",
+          "کیا آپ میری مدد کر سکتے ہیں؟",
+          "ڇا توهان منهنجي مدد ڪري سگهو ٿا؟"
+        ]
+      ]
+    },
+    {
+      "title": "5. Apostrophe (') — Possession and Contractions",
+      "english": "An apostrophe has two main uses. (1) Possession: add ’s to most singular nouns: “the girl's bag”, “James's book” (some style guides prefer James’). For regular plural nouns ending in s, add only an apostrophe: “the students' books”. For irregular plural nouns not ending in s, add ’s: “the children's toys”. For joint possession, use the apostrophe on the final name only: “Ali and Sara's house” (one shared house); for separate possession, use it on both: “Ali's and Sara's bags”. (2) Contractions: an apostrophe marks omitted letters: “do not” → “don't”; “it is” → “it's”; “they are” → “they're”. Do not confuse “it's” (it is/it has) with “its” (possessive determiner). Do not use an apostrophe to form ordinary plurals: “apple's” is wrong when you mean more than one apple; write “apples”.",
+      "urdu": "Apostrophe (') کے دو اہم استعمال ہیں۔ (1) ملکیت: عام واحد اسم کے ساتھ ’s لگائیں: the girl's bag۔ s پر ختم ہونے والی باقاعدہ جمع کے ساتھ صرف apostrophe لگائیں: the students' books۔ ایسی بے قاعدہ جمع جو s پر ختم نہ ہو، اس کے ساتھ ’s لگائیں: the children's toys۔ (2) مختصر صورتیں: حذف شدہ حروف ظاہر کرنے کے لیے: do not → don't؛ it is → it's۔ “it's” کا مطلب it is یا it has ہے، جبکہ “its” ملکیت ظاہر کرتا ہے۔ عام جمع بنانے کے لیے apostrophe نہ لگائیں: apples درست ہے، apple's نہیں۔",
+      "sindhi": "Apostrophe (') جا ٻه اهم استعمال آهن. (1) ملڪيت: عام واحد اسم سان ’s لڳايو: the girl's bag. s تي ختم ٿيندڙ باقاعده جمع سان رڳو apostrophe لڳايو: the students' books. اهڙي بيقاعده جمع جيڪا s تي ختم نه ٿئي، ان سان ’s لڳايو: the children's toys. (2) مختصر صورتون: ڇڏيل اکر ڏيکارڻ لاءِ: do not → don't؛ it is → it's. “it's” جي معنيٰ it is يا it has آهي، جڏهن ته “its” ملڪيت ڏيکاري ٿو. عام جمع ٺاهڻ لاءِ apostrophe نه لڳايو: apples درست آهي، apple's غلط آهي.",
+      "examples": [
+        [
+          "The girl's bicycle is new.",
+          "’s marks possession by one girl.",
+          "لڑکی کی سائیکل نئی ہے۔",
+          "ڇوڪريءَ جي سائيڪل نئين آهي۔"
+        ],
+        [
+          "The teachers' room is upstairs.",
+          "The apostrophe follows the s of a regular plural noun.",
+          "اساتذہ کا کمرہ اوپر ہے۔",
+          "استادن جو ڪمرو مٿي آهي۔"
+        ],
+        [
+          "The children's books are on the shelf.",
+          "An irregular plural not ending in s takes ’s.",
+          "بچوں کی کتابیں شیلف پر ہیں۔",
+          "ٻارن جا ڪتاب شيلف تي آهن۔"
+        ],
+        [
+          "It's raining, but the dog is in its kennel.",
+          "It's = it is; its = belonging to it.",
+          "بارش ہو رہی ہے، لیکن کتا اپنے کینل میں ہے۔",
+          "مينهن پئجي رهيو آهي، پر ڪتو پنهنجي جاءِ ۾ آهي۔"
+        ],
+        [
+          "We bought three apples.",
+          "Do not use an apostrophe to make an ordinary plural.",
+          "ہم نے تین سیب خریدے۔",
+          "اسان ٽي صوف خريد ڪيا۔"
+        ]
+      ]
+    },
+    {
+      "title": "6. Quotation Marks (“ ” / ‘ ’) and Direct Speech",
+      "english": "Quotation marks enclose the exact words spoken or written by someone, or the title of a short work in styles that use quotation marks for titles. Double quotation marks are common in American English; British English often uses single quotation marks as the primary style, with the other type inside a quotation. Example: “I am ready,” she said. When a quotation is interrupted by a reporting clause, punctuate each part carefully: “I am ready,” she said, “to begin.” A question mark or exclamation mark belongs inside the quotation marks if it is part of the quoted words: He asked, “Where are you going?” If the whole sentence is a question but the quoted words are not, the question mark may be outside: Did she really say, “I am leaving”? Use quotation marks for direct quotations, not merely to add emphasis; italics or rephrasing may be better for emphasis.",
+      "urdu": "Quotation Marks (“ ” یا ‘ ’) کسی کے عین کہے یا لکھے ہوئے الفاظ کو ظاہر کرتے ہیں۔ American English میں عموماً double quotation marks اور British English میں اکثر single quotation marks بنیادی انداز کے طور پر استعمال ہوتے ہیں۔ مثال: “I am ready,” she said. اگر اقتباس کے اندر سوال یا تعجب ہو تو متعلقہ نشان اقتباس کے اندر آئے گا: He asked, “Where are you going?” اگر پورا جملہ سوال ہو لیکن اقتباس خود سوال نہ ہو تو سوالیہ نشان باہر آ سکتا ہے۔ اقتباسی علامات کو صرف زور دینے کے لیے بے جا استعمال نہ کریں۔",
+      "sindhi": "Quotation Marks (“ ” يا ‘ ’) ڪنهن جي چيل يا لکيل اصل لفظن کي ظاهر ڪن ٿا. American English ۾ عام طور double quotation marks ۽ British English ۾ اڪثر single quotation marks بنيادي انداز طور استعمال ٿين ٿا. مثال: “I am ready,” she said. جيڪڏهن اقتباس اندر سوال يا عجب هجي ته لاڳاپيل نشاني اقتباس اندر ايندي: He asked, “Where are you going?” جيڪڏهن سڄو جملو سوال هجي پر اقتباس پاڻ سوال نه هجي ته سوال جي نشاني ٻاهر اچي سگهي ٿي.",
+      "examples": [
+        [
+          "The teacher said, “Honesty is the best policy.”",
+          "The quotation marks enclose the exact words spoken.",
+          "استاد نے کہا، ”ایمانداری بہترین حکمتِ عملی ہے۔“",
+          "استاد چيو، ”ايمانداري بهترين اصول آهي.“"
+        ],
+        [
+          "“Please sit down,” said the teacher.",
+          "The comma separates the quoted words from the reporting clause.",
+          "”براہِ کرم بیٹھ جائیں،“ استاد نے کہا۔",
+          "”مهرباني ڪري ويهو،“ استاد چيو."
+        ],
+        [
+          "Mina asked, “Have you finished your work?”",
+          "The question mark is inside because the quoted words are a question.",
+          "مینا نے پوچھا، ”کیا تم نے اپنا کام مکمل کر لیا؟“",
+          "مينا پڇيو، ”ڇا تو پنهنجو ڪم پورو ڪيو آهي؟“"
+        ],
+        [
+          "Did he say, “I will return tomorrow”?",
+          "The whole sentence is a question; the quotation itself is a statement, so the question mark is outside in this style.",
+          "کیا اس نے کہا، ”میں کل واپس آؤں گا“؟",
+          "ڇا هن چيو، ”مان سڀاڻي واپس ايندس“؟"
+        ]
+      ]
+    },
+    {
+      "title": "7. Hyphen (-), Dash (— / –), Brackets ( ) and Ellipsis (…) ",
+      "english": "A hyphen (-) joins parts of some compound words or prevents ambiguity: “well-known writer”, “a ten-year-old child”, “mother-in-law”. Do not use a hyphen automatically in every compound; spelling conventions vary and dictionaries or a style guide should be followed. A dash is longer and marks a break, interruption or explanatory addition: “One thing was certain—we had to act.” An en dash (–) commonly shows a range: “pages 10–15”; an em dash (—) marks a stronger break or parenthetical comment in many styles. Brackets (parentheses) enclose additional information that is not essential to the main sentence: “The meeting (which had been postponed twice) began at noon.” Square brackets may be used inside quotations to add an editorial clarification. An ellipsis (…) indicates omitted words in a quotation or a trailing-off thought: “I thought I had told you…” Use it sparingly and do not use it as a substitute for ordinary punctuation.",
+      "urdu": "Hyphen (-) بعض مرکب الفاظ کے حصوں کو جوڑتا ہے یا ابہام دور کرتا ہے: well-known writer، ten-year-old child۔ ہر مرکب لفظ میں خود سے hyphen نہ لگائیں؛ املا کے مستند اصول دیکھیں۔ Dash (—) جملے میں اچانک وقفہ، مداخلت یا اضافی وضاحت ظاہر کرتا ہے۔ En dash (–) عموماً حد یا سلسلہ ظاہر کرتا ہے، جیسے pages 10–15۔ Brackets ( ) اضافی معلومات کو گھیرتے ہیں: The meeting (which had been postponed twice) began at noon. Ellipsis (…) اقتباس سے حذف شدہ الفاظ یا ادھوری رہ جانے والی بات ظاہر کرتا ہے۔ اسے ضرورت کے مطابق استعمال کریں۔",
+      "sindhi": "Hyphen (-) ڪجهه مرڪب لفظن جا حصا ڳنڍي ٿو يا ابهام ختم ڪري ٿو: well-known writer، ten-year-old child. هر مرڪب لفظ ۾ پاڻمرادو hyphen نه لڳايو؛ صحيح املا جا اصول ڏسو. Dash (—) جملي ۾ اوچتو وقفو يا اضافي وضاحت ڏيکاري ٿو. En dash (–) عام طور حد ڏيکاري ٿو، جيئن pages 10–15. Brackets ( ) اضافي ڄاڻ کي قوسين ۾ بند ڪن ٿا: The meeting (which had been postponed twice) began at noon. Ellipsis (…) اقتباس مان ڇڏيل لفظ يا اڌوري ڳالهه ڏيکاري ٿو. ان جو مناسب استعمال ڪريو.",
+      "examples": [
+        [
+          "She is a well-known author.",
+          "The hyphen joins the words in a compound modifier before a noun.",
+          "وہ ایک مشہور مصنفہ ہے۔",
+          "هوءَ مشهور ليکڪا آهي۔"
+        ],
+        [
+          "It was a difficult decision—we had little time.",
+          "The dash marks a strong break and adds an explanation.",
+          "یہ ایک مشکل فیصلہ تھا—ہمارے پاس وقت کم تھا۔",
+          "اهو ڏکيو فيصلو هو—اسان وٽ وقت گهٽ هو۔"
+        ],
+        [
+          "Read pages 12–18 before class.",
+          "The en dash marks a range of page numbers.",
+          "کلاس سے پہلے صفحات 12 تا 18 پڑھیں۔",
+          "ڪلاس کان اڳ صفحا 12 کان 18 پڙهو۔"
+        ],
+        [
+          "The principal (who was visiting the school) spoke to us.",
+          "Brackets enclose extra, non-essential information.",
+          "پرنسپل (جو اسکول کے دورے پر تھے) نے ہم سے بات کی۔",
+          "پرنسپال (جيڪو اسڪول جي دوري تي هو) اسان سان ڳالهايو۔"
+        ],
+        [
+          "“I wanted to explain, but…”",
+          "An ellipsis shows that the speaker's thought trails off.",
+          "”میں وضاحت کرنا چاہتا تھا، لیکن۔۔۔“",
+          "”مان وضاحت ڪرڻ چاهيان پيو، پر۔۔۔“"
+        ]
+      ]
+    },
+    {
+      "title": "8. Common Punctuation Errors and How to Correct Them",
+      "english": "(1) Comma splice: “The bell rang, the students left.” Correct: “The bell rang, and the students left” or “The bell rang; the students left.” (2) Missing comma after an introductory clause: “When the lesson ended the pupils went home.” Clearer: “When the lesson ended, the pupils went home.” (3) Unnecessary comma between subject and verb: “The boy in the blue shirt, is my brother.” Correct: “The boy in the blue shirt is my brother.” (4) Confusing its and it's: “The dog wagged it's tail.” Correct: “The dog wagged its tail.” (5) Apostrophe in a plural: “The apple's are ripe.” Correct: “The apples are ripe.” (6) Question mark after an indirect question: “I wonder where he is?” In standard sentence structure, write “I wonder where he is.” (7) Missing punctuation around direct address: “Come here Ali.” Better: “Come here, Ali.” (8) Using multiple exclamation marks in formal writing: “This is wonderful!!!” Prefer “This is wonderful!”",
+      "urdu": "عام غلطیاں: (1) دو مکمل جملوں کو صرف comma سے جوڑنا غلط ہے؛ comma کے ساتھ conjunction، semicolon یا full stop استعمال کریں۔ (2) ابتدائی dependent clause کے بعد اکثر comma ضروری ہوتا ہے: When the lesson ended, the pupils went home. (3) Subject اور verb کے درمیان بلا وجہ comma نہ لگائیں۔ (4) its ملکیت ہے، جبکہ it's کا مطلب it is یا it has ہے۔ (5) عام جمع بنانے کے لیے apostrophe نہ لگائیں: apples۔ (6) Indirect question کے آخر میں عموماً full stop آتا ہے۔ (7) مخاطب کے نام کو comma سے الگ کریں: Come here, Ali. (8) رسمی تحریر میں کئی exclamation marks سے گریز کریں۔",
+      "sindhi": "عام غلطيون: (1) ٻن مڪمل جملن کي رڳو comma سان ڳنڍڻ غلط آهي؛ conjunction سان comma، semicolon يا full stop استعمال ڪريو. (2) شروعاتي dependent clause کان پوءِ اڪثر comma ضروري هوندو آهي. (3) Subject ۽ verb جي وچ ۾ بنا ضرورت comma نه لڳايو. (4) its ملڪيت ڏيکاري ٿو، جڏهن ته it's جي معنيٰ it is يا it has آهي. (5) عام جمع لاءِ apostrophe نه لڳايو: apples. (6) اڻ سڌي سوال جي آخر ۾ عام طور full stop ايندو آهي. (7) مخاطب جي نالي کي comma سان جدا ڪريو: Come here, Ali. (8) رسمي لکڻيءَ ۾ ڪيترائي exclamation marks استعمال نه ڪريو.",
+      "examples": [
+        [
+          "Incorrect: I was hungry, I made a sandwich.",
+          "Correct: I was hungry, so I made a sandwich. Or: I was hungry; I made a sandwich.",
+          "غلط: میں بھوکا تھا، میں نے سینڈوچ بنایا۔ درست: میں بھوکا تھا، اس لیے میں نے سینڈوچ بنایا۔",
+          "غلط: مان بکايل هئس، مون سينڊوچ ٺاهيو. درست: مان بکايل هئس، تنهنڪري مون سينڊوچ ٺاهيو."
+        ],
+        [
+          "Incorrect: The girl with the red bag, is my sister.",
+          "Correct: The girl with the red bag is my sister.",
+          "غلط: سرخ بیگ والی لڑکی، میری بہن ہے۔ درست: سرخ بیگ والی لڑکی میری بہن ہے۔",
+          "غلط: ڳاڙهي ٿيلهي واري ڇوڪري، منهنجي ڀيڻ آهي. درست: ڳاڙهي ٿيلهي واري ڇوڪري منهنجي ڀيڻ آهي."
+        ],
+        [
+          "Incorrect: I don't know where is he.",
+          "Correct: I don't know where he is.",
+          "غلط: مجھے نہیں معلوم وہ کہاں ہے؟ درست: مجھے نہیں معلوم کہ وہ کہاں ہے۔",
+          "غلط: مون کي خبر ناهي ته هو ڪٿي آهي؟ درست: مون کي خبر ناهي ته هو ڪٿي آهي."
+        ],
+        [
+          "Incorrect: The cat hurt it's paw.",
+          "Correct: The cat hurt its paw.",
+          "غلط: بلی نے اپنے پنجے کو زخمی کر لیا۔ درست املا: its paw۔",
+          "غلط: ٻلي پنهنجو پنجو زخمي ڪيو. درست صورت: its paw."
+        ]
+      ]
+    },
+    {
+      "title": "9. Practice Exercises — Identify, Insert and Correct Punctuation",
+      "english": "Exercise A — Insert full stops or question marks where required: (1) The train is late (2) Where is your brother (3) She asked why I was absent (4) Please open the window (5) Have you completed the work. Exercise B — Insert commas where necessary: (1) After lunch we went for a walk. (2) My brother who lives in Sukkur is a doctor. (3) I bought pens pencils rulers and books. (4) Sara please wait here. (5) I wanted to call you but my phone was dead. Exercise C — Correct the punctuation: (1) Its a lovely day isnt it (2) The teacher said honesty is the best policy. (3) I was late I missed the bus. (4) The boys bag is on the chair. (5) I wonder where she went? Exercise D — Name the punctuation mark used in each sentence: (1) What a surprise! (2) We need: flour, sugar and eggs. (3) The meeting (which was short) ended early. (4) “Be careful,” she said.",
+      "urdu": "مشق A — جہاں ضرورت ہو Full Stop یا Question Mark لگائیں۔ مشق B — درست جگہوں پر Commas لگائیں۔ مشق C — جملوں کی رموزِ اوقاف کی غلطیاں درست کریں۔ مشق D — ہر جملے میں استعمال ہونے والی علامت کا نام بتائیں۔",
+      "sindhi": "مشق A — جتي ضرورت هجي اتي Full Stop يا Question Mark لڳايو. مشق B — صحيح هنڌن تي Commas لڳايو. مشق C — جملن جي رموزِ اوقاف جون غلطيون درست ڪريو. مشق D — هر جملي ۾ استعمال ٿيل نشاني جو نالو ٻڌايو.",
+      "examples": [
+        [
+          "Answer key — Exercise A",
+          "1. The train is late. 2. Where is your brother? 3. She asked why I was absent. 4. Please open the window. 5. Have you completed the work?",
+          "جوابات: 1۔ The train is late. 2۔ Where is your brother? 3۔ She asked why I was absent. 4۔ Please open the window. 5۔ Have you completed the work?",
+          "جواب: 1. The train is late. 2. Where is your brother? 3. She asked why I was absent. 4. Please open the window. 5. Have you completed the work?"
+        ],
+        [
+          "Answer key — Exercise B",
+          "1. After lunch, we went for a walk. 2. My brother, who lives in Sukkur, is a doctor. (if this is extra information; no commas if it identifies which brother) 3. I bought pens, pencils, rulers and books. 4. Sara, please wait here. 5. I wanted to call you, but my phone was dead.",
+          "جوابات: 1۔ After lunch, we went for a walk. 2۔ My brother, who lives in Sukkur, is a doctor. (اگر یہ اضافی معلومات ہو) 3۔ I bought pens, pencils, rulers and books. 4۔ Sara, please wait here. 5۔ I wanted to call you, but my phone was dead.",
+          "جواب: 1. After lunch, we went for a walk. 2. My brother, who lives in Sukkur, is a doctor. (جيڪڏهن اها اضافي ڄاڻ هجي) 3. I bought pens, pencils, rulers and books. 4. Sara, please wait here. 5. I wanted to call you, but my phone was dead."
+        ],
+        [
+          "Answer key — Exercise C",
+          "1. It's a lovely day, isn't it? 2. The teacher said, “Honesty is the best policy.” 3. I was late, so I missed the bus. 4. The boy's bag is on the chair. 5. I wonder where she went.",
+          "جوابات: 1۔ It's a lovely day, isn't it? 2۔ The teacher said, ”Honesty is the best policy.“ 3۔ I was late, so I missed the bus. 4۔ The boy's bag is on the chair. 5۔ I wonder where she went.",
+          "جواب: 1. It's a lovely day, isn't it? 2. The teacher said, “Honesty is the best policy.” 3. I was late, so I missed the bus. 4. The boy's bag is on the chair. 5. I wonder where she went."
+        ],
+        [
+          "Answer key — Exercise D",
+          "1. Exclamation mark. 2. Colon. 3. Parentheses/brackets. 4. Quotation marks and comma.",
+          "جوابات: 1۔ علامتِ تعجب۔ 2۔ Colon۔ 3۔ قوسین۔ 4۔ Quotation Marks اور comma۔",
+          "جواب: 1. عجب جي نشاني. 2. Colon. 3. قوسين. 4. Quotation Marks ۽ comma."
+        ]
+      ]
+    }
+  ]
+},
   "countable-uncountable": {
     overview: "Countable nouns have singular and plural forms and can be counted individually. Uncountable nouns refer to substances, concepts or categories not normally counted as separate units.",
     watchFor: "Use many and few with countable plurals; use much and little with uncountable nouns. Use a unit phrase to count an uncountable item.",
