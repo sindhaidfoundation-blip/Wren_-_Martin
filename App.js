@@ -557,6 +557,34 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={styles.panelLabel}>MORE EXAMPLES</Text>
           {topicDetails[selected.id].examples.map((example, index) => <Text key={index} style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{index + 1}. {example}</Text>)}
         </View>
+        {topicDetails[selected.id].overviewUrdu ? <View style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 8 }}>
+          <Text style={styles.panelLabel}>اردو میں مزید وضاحت</Text>
+          <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{topicDetails[selected.id].overviewUrdu}</Text>
+          <Text style={styles.panelLabel}>سنڌي ۾ وڌيڪ وضاحت</Text>
+          <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{topicDetails[selected.id].overviewSindhi}</Text>
+        </View> : null}
+        {topicDetails[selected.id].watchForUrdu ? <View style={{ backgroundColor: "#FFF8E9", borderRadius: 16, borderWidth: 1, borderColor: "#F1E2BE", padding: 16, gap: 8 }}>
+          <Text style={styles.panelLabel}>عام غلطی سے بچیں — عام غلطي کان بچو</Text>
+          <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{topicDetails[selected.id].watchForUrdu}</Text>
+          <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{topicDetails[selected.id].watchForSindhi}</Text>
+        </View> : null}
+        {topicDetails[selected.id].specialSections ? <View style={{ gap: 12 }}>
+          <Text style={styles.sectionTitle}>{topicDetails[selected.id].specialSectionsTitle || "DETAILED NOTES"}</Text>
+          {topicDetails[selected.id].specialSections.map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 9 }}>
+            <Text style={{ color: navy, fontSize: 17, fontWeight: "800" }}>{sectionIndex + 1}. {section.title}</Text>
+            <Text style={styles.panelLabel}>ENGLISH EXPLANATION</Text>
+            <Text style={{ color: ink, fontSize: 14, lineHeight: 23 }}>{section.english}</Text>
+            <Text style={styles.panelLabel}>اردو میں وضاحت</Text>
+            <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{section.urdu}</Text>
+            <Text style={styles.panelLabel}>سنڌي ۾ وضاحت</Text>
+            <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{section.sindhi}</Text>
+            {section.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E8EAF0", paddingTop: 8, gap: 4 }}>
+              <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
+              <Text style={{ color: muted, fontSize: 13, lineHeight: 23, textAlign: "right" }}>اردو: {example[1]}</Text>
+              <Text style={{ color: green, fontSize: 13, lineHeight: 23, textAlign: "right" }}>سنڌي: {example[2]}</Text>
+            </View>)}
+          </View>)}
+        </View> : null}
       </View> : null}
       {selected.id === "nouns" && topicDetails.nouns.nounTypes ? <View style={{ marginTop: 24, gap: 14 }}>
         <Text style={styles.sectionTitle}>Kinds of Nouns — اسم کی اقسام</Text>
