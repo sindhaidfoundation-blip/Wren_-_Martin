@@ -9341,7 +9341,353 @@ topicDetails["past-tense"] = {
       ],
       "watchFor": "Transformation must preserve meaning, tense and logical emphasis. Interrogative-to-assertive conversion is straightforward mainly for rhetorical questions, not ordinary information questions. Avoid double negatives, awkward word formations and changing the facts. Some textbook transformations are approximate equivalents; check the context."
     }
-  ]
+  ,
+[
+  {
+    "title": "Interchange of Affirmative and Negative Sentences — Detailed Rules and Examples",
+    "english": "An affirmative sentence states that something is so; a negative sentence denies it. Interchange means changing affirmative form into negative form, or negative into affirmative, without changing the essential meaning. A simple method is to use an opposite word with a negative prefix or a suitable negative expression: 'He is honest' → 'He is not dishonest.' Other common patterns include 'only' → 'none but' (for persons), 'everyone' → 'there is no one who ... not', 'always' → 'never ... not' where grammatically appropriate, and 'too ... to' → 'so ... that ... cannot'. Avoid adding a negative that changes the meaning. Double negatives are generally incorrect in standard English. The best transformation depends on the sentence's exact meaning and context.",
+    "urdu": "Affirmative Sentence کسی بات کی تصدیق کرتا ہے، جبکہ Negative Sentence اس کی نفی کرتا ہے۔ Interchange میں بنیادی مفہوم برقرار رکھتے ہوئے مثبت جملے کو منفی یا منفی کو مثبت بنایا جاتا ہے۔ ایک طریقہ متضاد لفظ کے ساتھ not استعمال کرنا ہے: He is honest → He is not dishonest۔ دوسرے عام طریقوں میں صرف (Only) کے لیے None but، Everyone کے لیے There is no one who ... not، اور Too ... to کے لیے So ... that ... cannot استعمال کرنا شامل ہے۔ ایسی نفی نہ لگائیں جس سے معنی بدل جائیں۔ معیاری انگریزی میں عموماً دو منفی الفاظ ایک ساتھ غلط ہوتے ہیں۔",
+    "sindhi": "Affirmative Sentence ڪنهن ڳالهه جي تصديق ڪري ٿو، جڏهن ته Negative Sentence انڪار ڪري ٿو. Interchange ۾ بنيادي مطلب برقرار رکندي مثبت جملي کي منفي يا منفي کي مثبت بڻائجي ٿو. هڪ طريقو ابتڙ لفظ سان not استعمال ڪرڻ آهي: He is honest → He is not dishonest. ٻين نمونن ۾ Only لاءِ None but، Everyone لاءِ There is no one who ... not، ۽ Too ... to لاءِ So ... that ... cannot شامل آهن. اهڙي نفي نه لڳايو جنهن سان مطلب بدلجي وڃي. معياري انگريزيءَ ۾ عام طور ٻه منفي لفظ گڏ استعمال ڪرڻ غلط آهي.",
+    "subsections": [
+      {
+        "title": "Main transformation patterns",
+        "english": "1. Opposite adjective: He is kind → He is not unkind. 2. Only + person → None but: Only Ali knew the answer → None but Ali knew the answer. 3. Only + thing/condition needs care; 'nothing but' can mean only a thing: He wants only peace → He wants nothing but peace. 4. Everyone/all → There is no ... who does not: Everyone loves freedom → There is no one who does not love freedom. 5. Too ... to → so ... that ... cannot: The bag is too heavy to lift → The bag is so heavy that I cannot lift it. 6. As soon as → No sooner ... than: As soon as he arrived, it began to rain → No sooner had he arrived than it began to rain. These are meaning-preserving patterns, not mechanical substitutions; adjust tense and pronouns.",
+        "urdu": "اہم طریقے: 1۔ متضاد صفت: He is kind → He is not unkind۔ 2۔ شخص کے ساتھ Only → None but: Only Ali knew the answer → None but Ali knew the answer۔ 3۔ چیز کے لیے Nothing but استعمال ہو سکتا ہے۔ 4۔ Everyone/All → There is no ... who does not۔ 5۔ Too ... to → so ... that ... cannot۔ 6۔ As soon as → No sooner ... than۔ یہ محض لفظی تبدیلی نہیں؛ زمانہ، ضمیر اور مفہوم درست رکھیں۔",
+        "sindhi": "اهم طريقا: 1. ابتڙ صفت: He is kind → He is not unkind. 2. شخص سان Only → None but. 3. شيءِ لاءِ Nothing but استعمال ٿي سگهي ٿو. 4. Everyone/All → There is no ... who does not. 5. Too ... to → so ... that ... cannot. 6. As soon as → No sooner ... than. اهي رڳو لفظ مٽائڻ جا اصول ناهن؛ زمانو، ضمير ۽ مطلب صحيح رکو."
+      }
+    ],
+    "examples": [
+      [
+        "He is honest.",
+        "He is not dishonest.",
+        "وہ ایماندار ہے۔",
+        "وہ بے ایمان نہیں ہے۔",
+        "An opposite adjective with not keeps the intended positive sense."
+      ],
+      [
+        "She is brave.",
+        "She is not cowardly.",
+        "وہ بہادر ہے۔",
+        "وہ بزدل نہیں ہے۔",
+        "Brave and cowardly are opposites."
+      ],
+      [
+        "Only Sara passed the test.",
+        "None but Sara passed the test.",
+        "صرف سارہ امتحان میں کامیاب ہوئی۔",
+        "سارہ کان سواءِ ٻيو ڪو امتحان ۾ ڪامياب نه ٿيو۔",
+        "None but means no one except; use it for people."
+      ],
+      [
+        "Only the truth matters.",
+        "Nothing but the truth matters.",
+        "صرف سچ اہمیت رکھتا ہے۔",
+        "رڳو سچ اهميت رکي ٿو۔",
+        "Nothing but can express 'only' with a thing."
+      ],
+      [
+        "Everyone admires courage.",
+        "There is no one who does not admire courage.",
+        "ہر شخص بہادری کو سراہتا ہے۔",
+        "ڪو به اهڙو ناهي جيڪو بهادريءَ کي ساراهي نه۔",
+        "The negative structure expresses the same general statement."
+      ],
+      [
+        "He is too weak to walk.",
+        "He is so weak that he cannot walk.",
+        "وہ اتنا کمزور ہے کہ چل نہیں سکتا۔",
+        "هو ايترو ڪمزور آهي جو هلي نٿو سگهي۔",
+        "Too ... to changes to so ... that + cannot."
+      ],
+      [
+        "As soon as the bell rang, the students left.",
+        "No sooner had the bell rung than the students left.",
+        "جیسے ہی گھنٹی بجی، طلبہ چلے گئے۔",
+        "گهنٽي وڄندي ئي شاگرد هليا ويا۔",
+        "Use past perfect inversion after No sooner, followed by than."
+      ],
+      [
+        "No one dislikes kindness.",
+        "Everyone likes kindness.",
+        "کوئی بھی مہربانی کو ناپسند نہیں کرتا۔",
+        "ڪو به مهرباني کي ناپسند نٿو ڪري۔",
+        "Remove the negative while preserving the universal meaning."
+      ],
+      [
+        "He never tells a lie.",
+        "He always tells the truth.",
+        "وہ کبھی جھوٹ نہیں بولتا۔",
+        "هو ڪڏهن به ڪوڙ نٿو ڳالهائي۔",
+        "Never tells a lie and always tells the truth are equivalent in ordinary context."
+      ],
+      [
+        "This question is not difficult.",
+        "This question is easy.",
+        "یہ سوال مشکل نہیں ہے۔",
+        "هي سوال ڏکيو ناهي۔",
+        "Use the natural opposite adjective; the two statements are equivalent in this context."
+      ]
+    ]
+  },
+  {
+    "title": "Interchange of Interrogative and Assertive Sentences — Detailed Rules and Examples",
+    "english": "An interrogative sentence asks a question and ends with a question mark. An assertive (declarative) sentence makes a statement and normally ends with a full stop. Transformation changes the question into a statement or the statement into a question while preserving the speaker's intended meaning. Rhetorical questions are often changed into emphatic statements: 'Who does not love freedom?' → 'Everyone loves freedom.' Yes/no questions may become statements with 'I wonder whether/if' when the purpose is to report uncertainty, but this can change the communicative force. In school transformation exercises, common patterns include 'Who does not ...?' → 'Everyone ...', 'Is there anyone who ...?' → 'No one ...', and emphatic questions such as 'Can anyone deny ...?' → 'No one can deny ...'. Keep tense, person and meaning consistent.",
+    "urdu": "Interrogative Sentence سوال پوچھتا ہے اور آخر میں question mark لگتا ہے۔ Assertive یا Declarative Sentence بیان دیتا ہے اور عموماً full stop پر ختم ہوتا ہے۔ تبدیلی کرتے وقت سوال کو بیان یا بیان کو سوال میں بدلیں، مگر اصل مفہوم برقرار رکھیں۔ Rhetorical Question کو اکثر زور دار بیان میں بدلا جاتا ہے: Who does not love freedom? → Everyone loves freedom۔ عام طریقوں میں Who does not ...? → Everyone ...، Is there anyone who ...? → No one ...، اور Can anyone deny ...? → No one can deny ... شامل ہیں۔ زمانہ، شخص اور معنی درست رکھیں۔",
+    "sindhi": "Interrogative Sentence سوال پڇي ٿو ۽ آخر ۾ question mark اچي ٿو. Assertive يا Declarative Sentence بيان ڏئي ٿو ۽ عام طور full stop تي ختم ٿئي ٿو. تبديلي وقت سوال کي بيان يا بيان کي سوال ۾ بدلايو، پر اصل مطلب برقرار رکو. Rhetorical Question کي اڪثر زورائتي بيان ۾ بدلايو ويندو آهي: Who does not love freedom? → Everyone loves freedom. عام نمونا: Who does not ...? → Everyone ...؛ Is there anyone who ...? → No one ...؛ Can anyone deny ...? → No one can deny ... . زمانو، شخص ۽ مطلب صحيح رکو.",
+    "subsections": [
+      {
+        "title": "Rules and cautions",
+        "english": "A question that expects an obvious answer is rhetorical; transform its implied answer, not its literal question form. 'Who can deny the truth?' means nobody can deny it. A genuine information question such as 'Where does he live?' cannot be converted into a single equivalent assertive sentence without supplying information; it can be reported as 'I do not know where he lives' or 'Tell me where he lives', but the meaning is not identical. In reverse transformation, an emphatic statement may become a rhetorical question. Do not use question word order inside an indirect question: 'I know where he lives', not 'I know where does he live'.",
+        "urdu": "جس سوال کا جواب واضح ہو وہ Rhetorical Question ہوتا ہے؛ اسے لفظی سوال کے بجائے اس کے پوشیدہ جواب میں بدلیں۔ Who can deny the truth? کا مطلب ہے کوئی بھی سچائی سے انکار نہیں کر سکتا۔ حقیقی معلوماتی سوال، مثلاً Where does he live؟ کو معلومات دیے بغیر ایک بالکل مساوی بیان میں نہیں بدلا جا سکتا؛ اسے I do not know where he lives کے طور پر بیان کیا جا سکتا ہے، مگر مفہوم مختلف ہوگا۔ Indirect Question میں سوال والی ترتیب استعمال نہ کریں: I know where he lives۔",
+        "sindhi": "جنهن سوال جو جواب صاف هجي، اهو Rhetorical Question آهي؛ ان کي لفظي سوال بدران ان جي لڪل جواب ۾ بدلايو. Who can deny the truth? جو مطلب آهي ڪو به سچ کان انڪار نٿو ڪري سگهي. حقيقي معلوماتي سوال، مثال Where does he live؟ کي ڄاڻ ڏيڻ کان سواءِ ساڳئي مطلب واري بيان ۾ نٿو بدلائي سگهجي. ان کي I do not know where he lives طور بيان ڪري سگهجي ٿو، پر مطلب ساڳيو نه رهندو. Indirect Question ۾ سوال واري لفظن جي ترتيب نه رکو: I know where he lives."
+      }
+    ],
+    "examples": [
+      [
+        "Who does not love freedom?",
+        "Everyone loves freedom.",
+        "آزادی سے کون محبت نہیں کرتا؟",
+        "ہر شخص آزادی سے محبت کرتا ہے۔",
+        "A rhetorical question implies that everybody loves freedom."
+      ],
+      [
+        "Who can deny the value of education?",
+        "No one can deny the value of education.",
+        "تعلیم کی اہمیت سے کون انکار کر سکتا ہے؟",
+        "کوئی بھی تعلیم کی اہمیت سے انکار نہیں کر سکتا۔",
+        "The question expects the answer 'no one'."
+      ],
+      [
+        "Is there anyone who does not want peace?",
+        "Everyone wants peace.",
+        "کیا کوئی ایسا ہے جو امن نہیں چاہتا؟",
+        "ہر شخص امن چاہتا ہے۔",
+        "The rhetorical question is changed into its implied assertion."
+      ],
+      [
+        "Can anyone forget the kindness of a true friend?",
+        "No one can forget the kindness of a true friend.",
+        "کیا کوئی سچے دوست کی مہربانی بھول سکتا ہے؟",
+        "کوئی سچے دوست کی مہربانی نہیں بھول سکتا۔",
+        "Can anyone...? is rhetorical and implies no one can."
+      ],
+      [
+        "Why should we waste our time?",
+        "We should not waste our time.",
+        "ہمیں اپنا وقت کیوں ضائع کرنا چاہیے؟",
+        "ہمیں اپنا وقت ضائع نہیں کرنا چاہیے۔",
+        "The rhetorical why-question expresses a negative recommendation."
+      ],
+      [
+        "Is honesty not the best policy?",
+        "Honesty is the best policy.",
+        "کیا دیانت داری بہترین اصول نہیں ہے؟",
+        "دیانت داری بہترین اصول ہے۔",
+        "The question seeks agreement with the positive statement."
+      ],
+      [
+        "Who does not know the sun rises in the east?",
+        "Everyone knows that the sun rises in the east.",
+        "کون نہیں جانتا کہ سورج مشرق سے نکلتا ہے؟",
+        "ہر شخص جانتا ہے کہ سورج مشرق سے نکلتا ہے۔",
+        "Who does not know...? expresses a universal assertion."
+      ],
+      [
+        "Can we ever repay our parents?",
+        "We can never fully repay our parents.",
+        "کیا ہم کبھی اپنے والدین کا احسان چکا سکتے ہیں؟",
+        "ہم اپنے والدین کا احسان کبھی پوری طرح نہیں چکا سکتے۔",
+        "The rhetorical question implies inability to repay fully."
+      ],
+      [
+        "Is he not a brave soldier?",
+        "He is certainly a brave soldier.",
+        "کیا وہ بہادر سپاہی نہیں ہے؟",
+        "وہ یقیناً ایک بہادر سپاہی ہے۔",
+        "A question used to confirm praise becomes an emphatic assertion."
+      ],
+      [
+        "Who would like to suffer?",
+        "No one would like to suffer.",
+        "کون تکلیف اٹھانا چاہے گا؟",
+        "کوئی بھی تکلیف اٹھانا نہیں چاہے گا۔",
+        "The rhetorical question implies that nobody wants suffering."
+      ]
+    ]
+  },
+  {
+    "title": "Interchange of Exclamatory and Assertive Sentences — Detailed Rules and Examples",
+    "english": "An exclamatory sentence expresses strong feeling such as joy, sorrow, surprise, admiration or regret. It commonly begins with What or How and ends with an exclamation mark. An assertive sentence states the same idea without the exclamatory form. To transform an exclamatory sentence into an assertive one, remove the exclamatory structure and express the feeling with suitable words such as very, greatly, indeed or it is a matter of. 'What a beautiful day!' → 'It is a very beautiful day.' 'How foolish I was!' → 'I was very foolish.' Preserve the degree of emotion and the original tense. In reverse transformation, use What + a/an + adjective + singular countable noun, What + adjective + plural/uncountable noun, or How + adjective/adverb + subject + verb.",
+    "urdu": "Exclamatory Sentence خوشی، غم، حیرت، تعریف یا افسوس جیسے شدید جذبات ظاہر کرتا ہے۔ یہ اکثر What یا How سے شروع ہوتا ہے اور آخر میں exclamation mark آتا ہے۔ Assertive Sentence اسی خیال کو عام بیانیہ انداز میں بیان کرتا ہے۔ تبدیلی کے لیے What/How کی ساخت ختم کرکے very، greatly، indeed یا it is a matter of جیسے الفاظ استعمال کریں۔ What a beautiful day! → It is a very beautiful day۔ How foolish I was! → I was very foolish۔ اصل زمانہ اور جذبے کی شدت برقرار رکھیں۔",
+    "sindhi": "Exclamatory Sentence خوشي، ڏک، حيرت، ساراهه يا افسوس جهڙا شديد جذبا ظاهر ڪري ٿو. اهو اڪثر What يا How سان شروع ٿئي ٿو ۽ آخر ۾ exclamation mark اچي ٿو. Assertive Sentence ساڳيو خيال عام بيانيه انداز ۾ ٻڌائي ٿو. تبديلي لاءِ What/How واري جوڙجڪ ختم ڪري very، greatly، indeed يا it is a matter of جهڙا لفظ استعمال ڪريو. What a beautiful day! → It is a very beautiful day. How foolish I was! → I was very foolish. اصل زمانو ۽ جذبي جي شدت برقرار رکو.",
+    "subsections": [
+      {
+        "title": "Common patterns",
+        "english": "1. What a/an + adjective + singular noun! → It is a very + adjective + noun. 2. What + adjective + plural/uncountable noun! → The ... is/are very ... . 3. How + adjective/adverb + subject + verb! → Subject + verb + very ... . 4. Alas! → It is very sad that ... / I am very sorry that ... . 5. Hurrah! → We are very glad that ... . 6. If only ...! → I wish ... . Choose the assertive wording that preserves the actual emotion; not every exclamation can be converted by inserting very.",
+        "urdu": "عام ساختیں: 1۔ What a/an + adjective + واحد اسم! → It is a very ... ۔ 2۔ What + adjective + جمع/ناقابلِ شمار اسم! → The ... is/are very ... ۔ 3۔ How + adjective/adverb + subject + verb! → Subject + verb + very ... ۔ 4۔ Alas! → It is very sad that ... ۔ 5۔ Hurrah! → We are very glad that ... ۔ 6۔ If only ...! → I wish ... ۔ ایسا بیان منتخب کریں جو اصل جذبہ برقرار رکھے؛ ہر جملے میں صرف very لگانا کافی نہیں۔",
+        "sindhi": "عام جوڙجڪون: 1. What a/an + adjective + واحد اسم! → It is a very ... . 2. What + adjective + جمع/اڻ ڳڻپ لائق اسم! → The ... is/are very ... . 3. How + adjective/adverb + subject + verb! → Subject + verb + very ... . 4. Alas! → It is very sad that ... . 5. Hurrah! → We are very glad that ... . 6. If only ...! → I wish ... . اهڙو بيان چونڊيو جيڪو اصل جذبو برقرار رکي؛ هر جملي ۾ رڳو very لڳائڻ ڪافي ناهي."
+      }
+    ],
+    "examples": [
+      [
+        "What a beautiful flower it is!",
+        "It is a very beautiful flower.",
+        "یہ کتنا خوبصورت پھول ہے!",
+        "هي ڪيترو نه سهڻو گل آهي!",
+        "What a + adjective + singular noun changes to It is a very ... ."
+      ],
+      [
+        "How clever the boy is!",
+        "The boy is very clever.",
+        "لڑکا کتنا ذہین ہے!",
+        "ڇوڪرو ڪيترو هوشيار آهي!",
+        "How + adjective changes to a statement with very."
+      ],
+      [
+        "What a terrible storm it was!",
+        "It was a very terrible storm.",
+        "کتنا خوفناک طوفان تھا!",
+        "ڪيترو نه خوفناڪ طوفان هو!",
+        "Keep the past tense was."
+      ],
+      [
+        "How brightly the stars shine!",
+        "The stars shine very brightly.",
+        "ستارے کتنی چمک سے چمکتے ہیں!",
+        "تارا ڪيتري روشنيءَ سان چمڪن ٿا!",
+        "How modifies the adverb brightly; retain the adverb in the statement."
+      ],
+      [
+        "Alas! He has lost his only son.",
+        "It is very sad that he has lost his only son.",
+        "افسوس! اس نے اپنا اکلوتا بیٹا کھو دیا ہے۔",
+        "افسوس! هن پنهنجو اڪيلو پٽ وڃائي ڇڏيو آهي.",
+        "Alas expresses sorrow; state the sadness directly."
+      ],
+      [
+        "Hurrah! We have won the match.",
+        "We are very glad that we have won the match.",
+        "واہ! ہم میچ جیت گئے ہیں۔",
+        "واهه! اسان ميچ کٽي ورتو آهي.",
+        "Hurrah expresses joy; convert it into a statement of happiness."
+      ],
+      [
+        "What a lovely evening it is!",
+        "It is a very lovely evening.",
+        "کتنی حسین شام ہے!",
+        "ڪيتري نه سهڻي شام آهي!",
+        "What a ... becomes It is a very ... ."
+      ],
+      [
+        "How foolish I was!",
+        "I was very foolish.",
+        "میں کتنا بے وقوف تھا!",
+        "مان ڪيترو نه بيوقوف هوس!",
+        "Keep first-person subject and past tense."
+      ],
+      [
+        "What an enormous building that is!",
+        "That is a very enormous building.",
+        "وہ کتنی بڑی عمارت ہے!",
+        "اها ڪيتري وڏي عمارت آهي!",
+        "Convert the exclamatory noun phrase to a statement. A more natural wording is 'That is an enormous building.'"
+      ],
+      [
+        "If only I were rich!",
+        "I wish I were rich.",
+        "کاش میں امیر ہوتا!",
+        "ڪاش مان امير هجان ها!",
+        "If only expresses a wish; I wish preserves the meaning."
+      ]
+    ]
+  },
+  {
+    "title": "Interchange of One Part of Speech for Another — Detailed Rules and Examples",
+    "english": "This transformation changes the grammatical form of a word or phrase while keeping the meaning of the sentence as close as possible. A noun may be changed into a verb, adjective or adverb; an adjective may be changed into a noun or adverb; and a verb may be changed into a noun. The sentence structure often needs to change as well. For example, 'He is a careful driver' (adjective) can become 'He drives carefully' (adverb). 'She made a decision' (noun) can become 'She decided' (verb). Choose the correct derived form and adjust articles, prepositions, auxiliaries, tense and word order. Not every word has a direct one-word equivalent, so a phrase may be necessary. Meaning and natural English take priority over a mechanical word-for-word conversion.",
+    "urdu": "اس تبدیلی میں لفظ یا فقرے کی Part of Speech بدلی جاتی ہے، مگر جملے کا مفہوم حتی الامکان برقرار رکھا جاتا ہے۔ Noun کو Verb، Adjective یا Adverb میں؛ Adjective کو Noun یا Adverb میں؛ اور Verb کو Noun میں بدلا جا سکتا ہے۔ جملے کی ساخت بھی بدل سکتی ہے۔ مثال: He is a careful driver → He drives carefully۔ She made a decision → She decided۔ درست مشتق لفظ منتخب کریں اور Articles، Prepositions، معاون افعال، زمانہ اور ترتیب درست کریں۔ ہر لفظ کا براہِ راست ایک لفظی متبادل نہیں ہوتا؛ کبھی فقرہ درکار ہوتا ہے۔",
+    "sindhi": "هن تبديليءَ ۾ لفظ يا فقري جي Part of Speech بدلي ويندي آهي، پر جملي جو مطلب جيترو ممڪن هجي برقرار رکبو آهي. Noun کي Verb، Adjective يا Adverb ۾؛ Adjective کي Noun يا Adverb ۾؛ ۽ Verb کي Noun ۾ بدلائي سگهجي ٿو. جملي جي جوڙجڪ به بدلجي سگهي ٿي. مثال: He is a careful driver → He drives carefully. She made a decision → She decided. صحيح مشتق لفظ چونڊيو ۽ Articles، Prepositions، مددگار فعلن، زماني ۽ لفظن جي ترتيب کي درست ڪريو. هر لفظ جو سڌو هڪ لفظي متبادل ناهي؛ ڪڏهن فقرو استعمال ڪرڻو پوندو.",
+    "subsections": [
+      {
+        "title": "Common word-class changes",
+        "english": "Noun → Verb: His arrival was sudden → He arrived suddenly (also changes adjective/adverb as needed). Noun → Adjective: The beauty of the scene amazed us → The beautiful scene amazed us. Adjective → Noun: He is honest → He has honesty. Adjective → Adverb: She is careful → She acts carefully. Verb → Noun: They decided quickly → They made a quick decision. Adverb → Adjective: He behaved kindly → He was kind. These examples may require small grammatical adjustments. Watch for changes in meaning: 'economic' and 'economical', for instance, are not interchangeable.",
+        "urdu": "عام تبدیلیاں: Noun → Verb، Noun → Adjective، Adjective → Noun، Adjective → Adverb، Verb → Noun اور Adverb → Adjective۔ مثالیں: The beautiful scene amazed us؛ He has honesty؛ She acts carefully؛ They made a quick decision؛ He was kind۔ ان تبدیلیوں میں معمولی نحوی ردوبدل ضروری ہو سکتا ہے۔ معنی کے فرق کا خیال رکھیں؛ مثلاً economic اور economical ایک دوسرے کے متبادل نہیں۔",
+        "sindhi": "عام تبديليون: Noun → Verb، Noun → Adjective، Adjective → Noun، Adjective → Adverb، Verb → Noun ۽ Adverb → Adjective. مثال: The beautiful scene amazed us؛ He has honesty؛ She acts carefully؛ They made a quick decision؛ He was kind. انهن تبديلين ۾ ٿوري گرامري تبديلي ضروري ٿي سگهي ٿي. معنيٰ جو فرق ذهن ۾ رکو؛ مثال طور economic ۽ economical هڪ ٻئي جا متبادل ناهن."
+      }
+    ],
+    "examples": [
+      [
+        "He is a careful driver.",
+        "He drives carefully.",
+        "وہ محتاط ڈرائیور ہے۔",
+        "هو احتياط سان گاڏي هلائي ٿو۔",
+        "Adjective careful changes to adverb carefully."
+      ],
+      [
+        "She made a decision.",
+        "She decided.",
+        "اس نے فیصلہ کیا۔",
+        "هن فيصلو ڪيو۔",
+        "Noun decision changes to verb decided."
+      ],
+      [
+        "The beauty of the garden impressed us.",
+        "The beautiful garden impressed us.",
+        "باغ کی خوبصورتی نے ہمیں متاثر کیا۔",
+        "باغ جي خوبصورتي اسان کي متاثر ڪيو۔",
+        "Noun beauty changes to adjective beautiful."
+      ],
+      [
+        "He spoke in a loud voice.",
+        "He spoke loudly.",
+        "اس نے بلند آواز میں بات کی۔",
+        "هن وڏي آواز سان ڳالهايو۔",
+        "Noun phrase in a loud voice changes to adverb loudly."
+      ],
+      [
+        "Her kindness pleased everyone.",
+        "She was kind to everyone.",
+        "اس کی مہربانی نے سب کو خوش کیا۔",
+        "هن جي مهرباني سڀني کي خوش ڪيو۔",
+        "Noun kindness changes to adjective kind; the sentence is restructured."
+      ],
+      [
+        "The child gave a quick reply.",
+        "The child replied quickly.",
+        "بچے نے جلد جواب دیا۔",
+        "ٻار جلدي جواب ڏنو۔",
+        "Adjective quick changes to adverb quickly; noun reply changes to verb replied."
+      ],
+      [
+        "They made an announcement.",
+        "They announced it.",
+        "انہوں نے اعلان کیا۔",
+        "انهن اعلان ڪيو۔",
+        "Noun announcement changes to verb announced."
+      ],
+      [
+        "He is an honest man.",
+        "He is a man of honesty.",
+        "وہ ایک ایماندار آدمی ہے۔",
+        "هو ايماندار ماڻهو آهي۔",
+        "Adjective honest changes to noun honesty in a prepositional phrase."
+      ],
+      [
+        "The soldiers fought bravely.",
+        "The soldiers showed bravery in the fight.",
+        "سپاہیوں نے بہادری سے جنگ کی۔",
+        "سپاهين جنگ ۾ بهادري ڏيکاري۔",
+        "Adverb bravely changes to noun bravery."
+      ],
+      [
+        "She gave a careful explanation.",
+        "She explained carefully.",
+        "اس نے احتیاط سے وضاحت کی۔",
+        "هن احتياط سان وضاحت ڪئي۔",
+        "Adjective careful and noun explanation change to adverb carefully and verb explained."
+      ]
+    ]
+  }
+]]
 }
 };
 
