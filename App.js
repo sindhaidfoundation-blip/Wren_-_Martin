@@ -4,7 +4,6 @@ import * as Print from "expo-print";
 import * as Sharing from "expo-sharing";
 import { Alert, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 import AdBanner from "./src/components/AdBanner";
-import initializeAds from "./src/services/ads";
 import { lessons, dailyQuestions, sindhiTranslations } from "./src/data/lessons";
 import { topicDetails } from "./src/data/topicDetails";
 
@@ -139,9 +138,6 @@ function buildTenTopicQuestions(lesson) {
 }
 
 export default function App() {
-  useEffect(() => {
-    initializeAds();
-  }, []);
   const [tab, setTab] = useState("Home");
   const [quizReturnTab, setQuizReturnTab] = useState("Lesson");
   const [selected, setSelected] = useState(null);
