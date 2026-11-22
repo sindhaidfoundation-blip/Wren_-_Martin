@@ -12970,464 +12970,802 @@ topicDetails["past-tense"] = {
     ]
   },
   "formation-of-words": {
-    "overview": "Words are formed in English mainly by using simple (primary) words, combining two or more words to make compounds, and adding prefixes or suffixes to make derivatives. This lesson explains primary words, compound words, compound nouns by their grammatical patterns, compound adjectives, and primary derivatives.",
-    "watchFor": "Do not confuse a compound with a derivative: a compound joins two or more word bases (toothbrush), while a derivative adds an affix to a base (kindness, unhappy). The spelling of compounds may be closed, hyphenated or open, and usage can vary; consult a current British English dictionary for uncertain forms.",
-    "examples": [
-      "Primary word: book; compound: bookshop; derivative: bookish.",
-      "Compound noun: bus driver (noun + noun); compound adjective: well-known; derivative: kindness (-ness added to kind)."
-    ],
-    "specialSectionsTitle": "THE FORMATION OF WORDS",
-    "specialSections": [
-      {
-        "title": "1. Formation of Words — Introduction",
-        "english": "Word formation is the process by which new words are made from existing words or word-parts. English uses several processes. (1) Primary or simple words are basic words that are not formed by adding an affix to another English word: book, hand, kind, move. (2) Compound words are formed by joining two or more complete words or bases: bedroom, toothpaste, bus stop, mother-in-law. (3) Derivatives are formed by adding a prefix or suffix to a base: unhappy (un- + happy), kindness (kind + -ness), teacher (teach + -er). Other processes, such as conversion (to email from the noun email), clipping (exam from examination) and blending (smog from smoke + fog), also occur, but the main focus here is primary words, compounds and primary derivatives. A word's origin may be historically complex; 'primary' here describes its role as a basic base in the lesson, not necessarily its ultimate historical origin.",
-        "urdu": "Word formation سے مراد موجودہ الفاظ یا لفظی حصوں سے نئے الفاظ بنانا ہے۔ انگریزی میں بنیادی طریقے یہ ہیں: (1) Primary یا simple words ایسے بنیادی الفاظ ہیں جو کسی دوسرے انگریزی لفظ کے ساتھ prefix یا suffix لگا کر نہیں بنائے گئے، مثلاً book، hand، kind، move۔ (2) Compound words دو یا زیادہ مکمل الفاظ یا bases کو ملا کر بنتے ہیں، مثلاً bedroom، toothpaste، bus stop، mother-in-law۔ (3) Derivatives کسی بنیادی لفظ کے ساتھ prefix یا suffix لگانے سے بنتے ہیں، مثلاً unhappy (un- + happy)، kindness (kind + -ness)، teacher (teach + -er)۔ Conversion، clipping اور blending جیسے دوسرے طریقے بھی موجود ہیں، مگر اس سبق میں بنیادی توجہ primary words، compounds اور primary derivatives پر ہے۔ یہاں primary کا مطلب سبق میں بنیادی لفظ ہونا ہے، یہ دعویٰ نہیں کہ اس لفظ کی تاریخی اصل بھی لازماً سادہ ہے۔",
-        "sindhi": "Word formation مان مراد موجود لفظن يا لفظي حصن مان نوان لفظ ٺاهڻ آهي. انگريزيءَ ۾ اهم طريقا هي آهن: (1) Primary يا simple words بنيادي لفظ آهن، جن ۾ ڪنهن ٻئي انگريزي لفظ سان prefix يا suffix شامل ڪري لفظ نه ٺاهيو ويو هجي، مثال book، hand، kind، move. (2) Compound words ٻن يا وڌيڪ مڪمل لفظن يا بنيادن کي ملائي ٺهن ٿا، مثال bedroom، toothpaste، bus stop، mother-in-law. (3) Derivatives بنيادي لفظ سان prefix يا suffix ملائڻ سان ٺهن ٿا، مثال unhappy، kindness، teacher. Conversion، clipping ۽ blending جهڙا ٻيا طريقا به آهن، پر هن سبق ۾ بنيادي ڌيان primary words، compounds ۽ primary derivatives تي آهي. هتي primary مان مراد هن سبق ۾ بنيادي لفظ آهي، تاريخي اصل لازمي طور سادي هجڻ نه.",
-        "examples": [
-          [
-            "book (primary) → bookshop (compound) → bookish (derivative)",
-            "کتاب؛ کتابوں کی دکان؛ کتابی",
-            "ڪتاب؛ ڪتابن جو دڪان؛ ڪتابي",
-            "The examples illustrate three different ways words are built."
-          ],
-          [
-            "happy (primary base) → unhappy (prefix derivative) → happiness (suffix derivative)",
-            "خوش؛ ناخوش؛ خوشی",
-            "خوش؛ ناخوش؛ خوشي",
-            "A prefix comes before the base; a suffix comes after it."
-          ],
-          [
-            "tooth + brush → toothbrush; kind + -ness → kindness",
-            "دانت + برش → ٹوتھ برش؛ مہربان + ness → مہربانی",
-            "ڏند + برش → ٽوٿ برش؛ مهربان + ness → مهرباني",
-            "A compound combines bases; a derivative adds an affix."
-          ]
+  "overview": "Words are formed in English mainly by using simple (primary) words, combining two or more words to make compounds, and adding prefixes or suffixes to make derivatives. This lesson explains primary words, compound words, compound nouns by their grammatical patterns, compound adjectives, and primary derivatives. The expanded lesson also covers secondary derivatives, English, Latin and Greek prefixes, and English, Latin and Greek suffixes classified by the parts of speech they form.",
+  "watchFor": "Do not confuse a compound with a derivative: a compound joins two or more word bases (toothbrush), while a derivative adds an affix to a base (kindness, unhappy). The spelling of compounds may be closed, hyphenated or open, and usage can vary; consult a current British English dictionary for uncertain forms.",
+  "examples": [
+    "Primary word: book; compound: bookshop; derivative: bookish.",
+    "Compound noun: bus driver (noun + noun); compound adjective: well-known; derivative: kindness (-ness added to kind)."
+  ],
+  "specialSectionsTitle": "THE FORMATION OF WORDS",
+  "specialSections": [
+    {
+      "title": "1. Formation of Words — Introduction",
+      "english": "Word formation is the process by which new words are made from existing words or word-parts. English uses several processes. (1) Primary or simple words are basic words that are not formed by adding an affix to another English word: book, hand, kind, move. (2) Compound words are formed by joining two or more complete words or bases: bedroom, toothpaste, bus stop, mother-in-law. (3) Derivatives are formed by adding a prefix or suffix to a base: unhappy (un- + happy), kindness (kind + -ness), teacher (teach + -er). Other processes, such as conversion (to email from the noun email), clipping (exam from examination) and blending (smog from smoke + fog), also occur, but the main focus here is primary words, compounds and primary derivatives. A word's origin may be historically complex; 'primary' here describes its role as a basic base in the lesson, not necessarily its ultimate historical origin.",
+      "urdu": "Word formation سے مراد موجودہ الفاظ یا لفظی حصوں سے نئے الفاظ بنانا ہے۔ انگریزی میں بنیادی طریقے یہ ہیں: (1) Primary یا simple words ایسے بنیادی الفاظ ہیں جو کسی دوسرے انگریزی لفظ کے ساتھ prefix یا suffix لگا کر نہیں بنائے گئے، مثلاً book، hand، kind، move۔ (2) Compound words دو یا زیادہ مکمل الفاظ یا bases کو ملا کر بنتے ہیں، مثلاً bedroom، toothpaste، bus stop، mother-in-law۔ (3) Derivatives کسی بنیادی لفظ کے ساتھ prefix یا suffix لگانے سے بنتے ہیں، مثلاً unhappy (un- + happy)، kindness (kind + -ness)، teacher (teach + -er)۔ Conversion، clipping اور blending جیسے دوسرے طریقے بھی موجود ہیں، مگر اس سبق میں بنیادی توجہ primary words، compounds اور primary derivatives پر ہے۔ یہاں primary کا مطلب سبق میں بنیادی لفظ ہونا ہے، یہ دعویٰ نہیں کہ اس لفظ کی تاریخی اصل بھی لازماً سادہ ہے۔",
+      "sindhi": "Word formation مان مراد موجود لفظن يا لفظي حصن مان نوان لفظ ٺاهڻ آهي. انگريزيءَ ۾ اهم طريقا هي آهن: (1) Primary يا simple words بنيادي لفظ آهن، جن ۾ ڪنهن ٻئي انگريزي لفظ سان prefix يا suffix شامل ڪري لفظ نه ٺاهيو ويو هجي، مثال book، hand، kind، move. (2) Compound words ٻن يا وڌيڪ مڪمل لفظن يا بنيادن کي ملائي ٺهن ٿا، مثال bedroom، toothpaste، bus stop، mother-in-law. (3) Derivatives بنيادي لفظ سان prefix يا suffix ملائڻ سان ٺهن ٿا، مثال unhappy، kindness، teacher. Conversion، clipping ۽ blending جهڙا ٻيا طريقا به آهن، پر هن سبق ۾ بنيادي ڌيان primary words، compounds ۽ primary derivatives تي آهي. هتي primary مان مراد هن سبق ۾ بنيادي لفظ آهي، تاريخي اصل لازمي طور سادي هجڻ نه.",
+      "examples": [
+        [
+          "book (primary) → bookshop (compound) → bookish (derivative)",
+          "کتاب؛ کتابوں کی دکان؛ کتابی",
+          "ڪتاب؛ ڪتابن جو دڪان؛ ڪتابي",
+          "The examples illustrate three different ways words are built."
+        ],
+        [
+          "happy (primary base) → unhappy (prefix derivative) → happiness (suffix derivative)",
+          "خوش؛ ناخوش؛ خوشی",
+          "خوش؛ ناخوش؛ خوشي",
+          "A prefix comes before the base; a suffix comes after it."
+        ],
+        [
+          "tooth + brush → toothbrush; kind + -ness → kindness",
+          "دانت + برش → ٹوتھ برش؛ مہربان + ness → مہربانی",
+          "ڏند + برش → ٽوٿ برش؛ مهربان + ness → مهرباني",
+          "A compound combines bases; a derivative adds an affix."
         ]
-      },
-      {
-        "title": "2. Primary Words (Simple or Basic Words)",
-        "english": "A primary word is treated as a basic word from which other words may be formed. It is not analysed in this lesson as a compound or as a word made by adding a productive prefix or suffix. Examples include man, woman, boy, girl, book, house, sun, rain, black, kind, quick, teach, write, sing and play. Primary words can belong to different parts of speech: nouns (book, child), verbs (write, sing), adjectives (kind, black) and other classes. They can serve as bases for compounds and derivatives: book → bookcase / bookish; sun → sunlight / sunny; kind → unkind / kindness; teach → teacher / teaching. A primary word may itself have an old or borrowed historical structure; the term simply identifies it as a base for the present word-building exercise.",
-        "urdu": "Primary word وہ بنیادی لفظ ہے جس سے مزید الفاظ بنائے جا سکتے ہیں۔ اس سبق میں اسے compound یا کسی عام prefix یا suffix سے بنے لفظ کے طور پر تقسیم نہیں کیا جاتا۔ مثالیں: man، woman، boy، girl، book، house، sun، rain، black، kind، quick، teach، write، sing اور play۔ Primary words مختلف parts of speech ہو سکتے ہیں: nouns (book، child)، verbs (write، sing)، adjectives (kind، black) وغیرہ۔ ان سے compounds اور derivatives بن سکتے ہیں: book → bookcase / bookish؛ sun → sunlight / sunny؛ kind → unkind / kindness؛ teach → teacher / teaching۔ کسی لفظ کی تاریخی اصل پیچیدہ ہو سکتی ہے؛ یہاں اسے موجودہ لفظ سازی میں base کے طور پر لیا گیا ہے۔",
-        "sindhi": "Primary word اهو بنيادي لفظ آهي، جنهن مان وڌيڪ لفظ ٺاهي سگهجن ٿا. هن سبق ۾ ان کي compound يا عام prefix/suffix سان ٺهيل لفظ طور ورهايو نٿو وڃي. مثال: man، woman، boy، girl، book، house، sun، rain، black، kind، quick، teach، write، sing ۽ play. Primary words مختلف parts of speech ٿي سگهن ٿا: noun (book)، verb (write)، adjective (kind) وغيره. انهن مان compound ۽ derivative ٺهي سگهن ٿا: book → bookcase/bookish؛ sun → sunlight/sunny؛ kind → unkind/kindness؛ teach → teacher/teaching. لفظ جي تاريخي اصل پيچيده به ٿي سگهي ٿي؛ هتي ان کي موجوده لفظ سازيءَ جو بنياد سمجهيو ويو آهي.",
-        "examples": [
-          [
-            "book → bookcase (compound); bookish (derivative)",
-            "کتاب → کتابوں کی الماری؛ کتابی",
-            "ڪتاب → ڪتابن جي الماري؛ ڪتابي",
-            "Book is the primary base."
-          ],
-          [
-            "sun → sunlight (compound); sunny (derivative)",
-            "سورج → دھوپ؛ دھوپ والا",
-            "سج → سج جي روشني؛ اُس وارو",
-            "The same base can form a compound or a derivative."
-          ],
-          [
-            "teach → teacher; write → writer; sing → singer",
-            "پڑھانا → استاد؛ لکھنا → لکھنے والا؛ گانا → گلوکار",
-            "پڙهائڻ → استاد؛ لکڻ → ليکڪ؛ ڳائڻ → ڳائڻو",
-            "The suffix -er forms a person noun from many verbs."
-          ]
+      ]
+    },
+    {
+      "title": "2. Primary Words (Simple or Basic Words)",
+      "english": "A primary word is treated as a basic word from which other words may be formed. It is not analysed in this lesson as a compound or as a word made by adding a productive prefix or suffix. Examples include man, woman, boy, girl, book, house, sun, rain, black, kind, quick, teach, write, sing and play. Primary words can belong to different parts of speech: nouns (book, child), verbs (write, sing), adjectives (kind, black) and other classes. They can serve as bases for compounds and derivatives: book → bookcase / bookish; sun → sunlight / sunny; kind → unkind / kindness; teach → teacher / teaching. A primary word may itself have an old or borrowed historical structure; the term simply identifies it as a base for the present word-building exercise.",
+      "urdu": "Primary word وہ بنیادی لفظ ہے جس سے مزید الفاظ بنائے جا سکتے ہیں۔ اس سبق میں اسے compound یا کسی عام prefix یا suffix سے بنے لفظ کے طور پر تقسیم نہیں کیا جاتا۔ مثالیں: man، woman، boy، girl، book، house، sun، rain، black، kind، quick، teach، write، sing اور play۔ Primary words مختلف parts of speech ہو سکتے ہیں: nouns (book، child)، verbs (write، sing)، adjectives (kind، black) وغیرہ۔ ان سے compounds اور derivatives بن سکتے ہیں: book → bookcase / bookish؛ sun → sunlight / sunny؛ kind → unkind / kindness؛ teach → teacher / teaching۔ کسی لفظ کی تاریخی اصل پیچیدہ ہو سکتی ہے؛ یہاں اسے موجودہ لفظ سازی میں base کے طور پر لیا گیا ہے۔",
+      "sindhi": "Primary word اهو بنيادي لفظ آهي، جنهن مان وڌيڪ لفظ ٺاهي سگهجن ٿا. هن سبق ۾ ان کي compound يا عام prefix/suffix سان ٺهيل لفظ طور ورهايو نٿو وڃي. مثال: man، woman، boy، girl، book، house، sun، rain، black، kind، quick، teach، write، sing ۽ play. Primary words مختلف parts of speech ٿي سگهن ٿا: noun (book)، verb (write)، adjective (kind) وغيره. انهن مان compound ۽ derivative ٺهي سگهن ٿا: book → bookcase/bookish؛ sun → sunlight/sunny؛ kind → unkind/kindness؛ teach → teacher/teaching. لفظ جي تاريخي اصل پيچيده به ٿي سگهي ٿي؛ هتي ان کي موجوده لفظ سازيءَ جو بنياد سمجهيو ويو آهي.",
+      "examples": [
+        [
+          "book → bookcase (compound); bookish (derivative)",
+          "کتاب → کتابوں کی الماری؛ کتابی",
+          "ڪتاب → ڪتابن جي الماري؛ ڪتابي",
+          "Book is the primary base."
+        ],
+        [
+          "sun → sunlight (compound); sunny (derivative)",
+          "سورج → دھوپ؛ دھوپ والا",
+          "سج → سج جي روشني؛ اُس وارو",
+          "The same base can form a compound or a derivative."
+        ],
+        [
+          "teach → teacher; write → writer; sing → singer",
+          "پڑھانا → استاد؛ لکھنا → لکھنے والا؛ گانا → گلوکار",
+          "پڙهائڻ → استاد؛ لکڻ → ليکڪ؛ ڳائڻ → ڳائڻو",
+          "The suffix -er forms a person noun from many verbs."
         ]
-      },
-      {
-        "title": "3. Compound Words — Meaning and Forms",
-        "english": "A compound word is made by combining two or more words or bases to create a unit with a particular meaning or grammatical function. Examples: toothbrush (tooth + brush), bedroom (bed + room), rainfall (rain + fall), bus stop (bus + stop), swimming pool (swimming + pool), and mother-in-law. Compounds may be written as (a) closed compounds, with no space: notebook, classroom, football; (b) open compounds, with a space: post office, bus stop, swimming pool; or (c) hyphenated compounds: mother-in-law, passer-by, well-being. The spelling is conventional and can change over time. A space does not automatically mean the expression is not a compound. The meaning may be literal (teacup) or specialised/idiomatic (butterfly, hot dog). In pronunciation, many compounds have stronger stress on the first element, but this is not an absolute test.",
-        "urdu": "Compound word دو یا زیادہ الفاظ یا bases کو ملا کر بنتا ہے اور ایک مخصوص معنی یا گرامری کام انجام دیتا ہے۔ مثالیں: toothbrush (tooth + brush)، bedroom (bed + room)، rainfall (rain + fall)، bus stop، swimming pool اور mother-in-law۔ Compounds تین صورتوں میں لکھے جا سکتے ہیں: (a) Closed: بغیر space، مثلاً notebook، classroom، football؛ (b) Open: space کے ساتھ، مثلاً post office، bus stop، swimming pool؛ (c) Hyphenated: hyphen کے ساتھ، مثلاً mother-in-law، passer-by، well-being۔ املا رواج کے مطابق ہوتا ہے اور وقت کے ساتھ بدل بھی سکتا ہے۔ دو الفاظ کے درمیان space ہونے سے یہ لازم نہیں کہ ترکیب compound نہ ہو۔ معنی لفظی بھی ہو سکتا ہے اور مخصوص یا محاوراتی بھی، جیسے butterfly اور hot dog۔",
-        "sindhi": "Compound word ٻن يا وڌيڪ لفظن يا بنيادن کي ملائي ٺهندو آهي ۽ هڪ خاص معنيٰ يا گرامري ڪم ڏيندو آهي. مثال: toothbrush، bedroom، rainfall، bus stop، swimming pool ۽ mother-in-law. Compound ٽن صورتن ۾ لکجي سگهي ٿو: (a) Closed، بغير خالي جاءِ: notebook، classroom؛ (b) Open، وچ ۾ خالي جاءِ: post office، bus stop؛ (c) Hyphenated، hyphen سان: mother-in-law، passer-by. لکڻي رواج موجب هوندي آهي ۽ وقت سان بدلجي سگهي ٿي. Space هجڻ سان اهو لازمي ناهي ته ترڪيب compound نه هجي. ڪڏهن معنيٰ سڌي ۽ ڪڏهن خاص يا محاوري واري هوندي آهي، جيئن butterfly ۽ hot dog.",
-        "examples": [
-          [
-            "tooth + brush → toothbrush (closed compound)",
-            "دانت + برش → ٹوتھ برش",
-            "ڏند + برش → ٽوٿ برش",
-            "The two bases form one closed written word."
-          ],
-          [
-            "bus + stop → bus stop (open compound)",
-            "بس + اسٹاپ → بس اسٹاپ",
-            "بس + اسٽاپ → بس اسٽاپ",
-            "The compound is conventionally written as two words."
-          ],
-          [
-            "mother + in + law → mother-in-law (hyphenated compound)",
-            "ساس یا سسر؛ رشتے کا لفظ",
-            "سَسُ يا سُهرو؛ رشتي جو لفظ",
-            "The hyphens are part of the conventional spelling."
-          ]
+      ]
+    },
+    {
+      "title": "3. Compound Words — Meaning and Forms",
+      "english": "A compound word is made by combining two or more words or bases to create a unit with a particular meaning or grammatical function. Examples: toothbrush (tooth + brush), bedroom (bed + room), rainfall (rain + fall), bus stop (bus + stop), swimming pool (swimming + pool), and mother-in-law. Compounds may be written as (a) closed compounds, with no space: notebook, classroom, football; (b) open compounds, with a space: post office, bus stop, swimming pool; or (c) hyphenated compounds: mother-in-law, passer-by, well-being. The spelling is conventional and can change over time. A space does not automatically mean the expression is not a compound. The meaning may be literal (teacup) or specialised/idiomatic (butterfly, hot dog). In pronunciation, many compounds have stronger stress on the first element, but this is not an absolute test.",
+      "urdu": "Compound word دو یا زیادہ الفاظ یا bases کو ملا کر بنتا ہے اور ایک مخصوص معنی یا گرامری کام انجام دیتا ہے۔ مثالیں: toothbrush (tooth + brush)، bedroom (bed + room)، rainfall (rain + fall)، bus stop، swimming pool اور mother-in-law۔ Compounds تین صورتوں میں لکھے جا سکتے ہیں: (a) Closed: بغیر space، مثلاً notebook، classroom، football؛ (b) Open: space کے ساتھ، مثلاً post office، bus stop، swimming pool؛ (c) Hyphenated: hyphen کے ساتھ، مثلاً mother-in-law، passer-by، well-being۔ املا رواج کے مطابق ہوتا ہے اور وقت کے ساتھ بدل بھی سکتا ہے۔ دو الفاظ کے درمیان space ہونے سے یہ لازم نہیں کہ ترکیب compound نہ ہو۔ معنی لفظی بھی ہو سکتا ہے اور مخصوص یا محاوراتی بھی، جیسے butterfly اور hot dog۔",
+      "sindhi": "Compound word ٻن يا وڌيڪ لفظن يا بنيادن کي ملائي ٺهندو آهي ۽ هڪ خاص معنيٰ يا گرامري ڪم ڏيندو آهي. مثال: toothbrush، bedroom، rainfall، bus stop، swimming pool ۽ mother-in-law. Compound ٽن صورتن ۾ لکجي سگهي ٿو: (a) Closed، بغير خالي جاءِ: notebook، classroom؛ (b) Open، وچ ۾ خالي جاءِ: post office، bus stop؛ (c) Hyphenated، hyphen سان: mother-in-law، passer-by. لکڻي رواج موجب هوندي آهي ۽ وقت سان بدلجي سگهي ٿي. Space هجڻ سان اهو لازمي ناهي ته ترڪيب compound نه هجي. ڪڏهن معنيٰ سڌي ۽ ڪڏهن خاص يا محاوري واري هوندي آهي، جيئن butterfly ۽ hot dog.",
+      "examples": [
+        [
+          "tooth + brush → toothbrush (closed compound)",
+          "دانت + برش → ٹوتھ برش",
+          "ڏند + برش → ٽوٿ برش",
+          "The two bases form one closed written word."
+        ],
+        [
+          "bus + stop → bus stop (open compound)",
+          "بس + اسٹاپ → بس اسٹاپ",
+          "بس + اسٽاپ → بس اسٽاپ",
+          "The compound is conventionally written as two words."
+        ],
+        [
+          "mother + in + law → mother-in-law (hyphenated compound)",
+          "ساس یا سسر؛ رشتے کا لفظ",
+          "سَسُ يا سُهرو؛ رشتي جو لفظ",
+          "The hyphens are part of the conventional spelling."
         ]
-      },
-      {
-        "title": "4. Compound Nouns — Noun + Noun",
-        "english": "A noun + noun compound joins one noun to another. The first noun commonly tells the type, purpose, material, location or subject of the second noun; the second noun is usually the head and names the thing. Examples: schoolbag (a bag for school), bus driver (a driver of a bus), coffee cup (a cup for coffee), kitchen table (a table in a kitchen), stone wall (a wall made of stone), and bookshop (a shop selling books). The first noun is often singular even when it refers to a plural idea: shoe shop, not usually shoes shop; car park, not cars park. There are established exceptions such as sports car and clothes shop. Pluralise the head noun in most compounds: bus drivers, schoolbags, toothbrushes; but some compounds have irregular patterns, such as mothers-in-law, where the main noun is pluralised.",
-        "urdu": "Noun + noun compound میں ایک اسم دوسرے اسم کے ساتھ ملتا ہے۔ پہلا اسم عموماً دوسرے اسم کی قسم، مقصد، مادہ، جگہ یا موضوع بتاتا ہے؛ دوسرا اسم عموماً مرکزی اسم ہوتا ہے۔ مثالیں: schoolbag (اسکول کا بیگ)، bus driver (بس کا ڈرائیور)، coffee cup (کافی کا کپ)، kitchen table (باورچی خانے کی میز)، stone wall (پتھر کی دیوار)، bookshop (کتابوں کی دکان)۔ پہلا اسم اکثر singular رہتا ہے، خواہ معنی جمع کا ہو: shoe shop، car park؛ مگر sports car اور clothes shop جیسے مستند استثنا ہیں۔ زیادہ تر compounds میں مرکزی اسم جمع ہوتا ہے: bus drivers، schoolbags، toothbrushes۔ بعض میں mothers-in-law کی طرح مرکزی اسم جمع کیا جاتا ہے۔",
-        "sindhi": "Noun + noun compound ۾ هڪ اسم ٻئي اسم سان ملي ٿو. پهريون اسم عام طور قسم، مقصد، مواد، جاءِ يا موضوع ٻڌائي ٿو؛ ٻيو اسم اڪثر بنيادي اسم هوندو آهي. مثال: schoolbag، bus driver، coffee cup، kitchen table، stone wall، bookshop. پهريون اسم گهڻو ڪري واحد صورت ۾ رهي ٿو: shoe shop، car park؛ پر sports car ۽ clothes shop جهڙا رائج استثنا آهن. گهڻن compounds ۾ ٻيو/بنيادي اسم جمع ٿيندو آهي: bus drivers، schoolbags، toothbrushes. ڪجهه ۾ mothers-in-law وانگر بنيادي اسم جمع ٿيندو آهي.",
-        "examples": [
-          [
-            "school + bag → schoolbag; bus + driver → bus driver",
-            "اسکول + بیگ → اسکول بیگ؛ بس + ڈرائیور → بس ڈرائیور",
-            "اسڪول + ٿيلهو → اسڪول بيگ؛ بس + ڊرائيور → بس ڊرائيور",
-            "The first noun specifies the kind or purpose of the second."
-          ],
-          [
-            "coffee + cup → coffee cup; kitchen + table → kitchen table",
-            "کافی کا کپ؛ باورچی خانے کی میز",
-            "ڪافيءَ جو ڪوپ؛ رڌڻي جي ميز",
-            "The first noun gives the use or location."
-          ],
-          [
-            "one bus driver → two bus drivers; one mother-in-law → two mothers-in-law",
-            "ایک بس ڈرائیور → دو بس ڈرائیور؛ ایک ساس → دو ساسیں",
-            "هڪ بس ڊرائيور → ٻه بس ڊرائيور؛ هڪ سَسُ → ٻه سَسون",
-            "Pluralise the head element; hyphenated compounds may place the plural on the head."
-          ]
+      ]
+    },
+    {
+      "title": "4. Compound Nouns — Noun + Noun",
+      "english": "A noun + noun compound joins one noun to another. The first noun commonly tells the type, purpose, material, location or subject of the second noun; the second noun is usually the head and names the thing. Examples: schoolbag (a bag for school), bus driver (a driver of a bus), coffee cup (a cup for coffee), kitchen table (a table in a kitchen), stone wall (a wall made of stone), and bookshop (a shop selling books). The first noun is often singular even when it refers to a plural idea: shoe shop, not usually shoes shop; car park, not cars park. There are established exceptions such as sports car and clothes shop. Pluralise the head noun in most compounds: bus drivers, schoolbags, toothbrushes; but some compounds have irregular patterns, such as mothers-in-law, where the main noun is pluralised.",
+      "urdu": "Noun + noun compound میں ایک اسم دوسرے اسم کے ساتھ ملتا ہے۔ پہلا اسم عموماً دوسرے اسم کی قسم، مقصد، مادہ، جگہ یا موضوع بتاتا ہے؛ دوسرا اسم عموماً مرکزی اسم ہوتا ہے۔ مثالیں: schoolbag (اسکول کا بیگ)، bus driver (بس کا ڈرائیور)، coffee cup (کافی کا کپ)، kitchen table (باورچی خانے کی میز)، stone wall (پتھر کی دیوار)، bookshop (کتابوں کی دکان)۔ پہلا اسم اکثر singular رہتا ہے، خواہ معنی جمع کا ہو: shoe shop، car park؛ مگر sports car اور clothes shop جیسے مستند استثنا ہیں۔ زیادہ تر compounds میں مرکزی اسم جمع ہوتا ہے: bus drivers، schoolbags، toothbrushes۔ بعض میں mothers-in-law کی طرح مرکزی اسم جمع کیا جاتا ہے۔",
+      "sindhi": "Noun + noun compound ۾ هڪ اسم ٻئي اسم سان ملي ٿو. پهريون اسم عام طور قسم، مقصد، مواد، جاءِ يا موضوع ٻڌائي ٿو؛ ٻيو اسم اڪثر بنيادي اسم هوندو آهي. مثال: schoolbag، bus driver، coffee cup، kitchen table، stone wall، bookshop. پهريون اسم گهڻو ڪري واحد صورت ۾ رهي ٿو: shoe shop، car park؛ پر sports car ۽ clothes shop جهڙا رائج استثنا آهن. گهڻن compounds ۾ ٻيو/بنيادي اسم جمع ٿيندو آهي: bus drivers، schoolbags، toothbrushes. ڪجهه ۾ mothers-in-law وانگر بنيادي اسم جمع ٿيندو آهي.",
+      "examples": [
+        [
+          "school + bag → schoolbag; bus + driver → bus driver",
+          "اسکول + بیگ → اسکول بیگ؛ بس + ڈرائیور → بس ڈرائیور",
+          "اسڪول + ٿيلهو → اسڪول بيگ؛ بس + ڊرائيور → بس ڊرائيور",
+          "The first noun specifies the kind or purpose of the second."
+        ],
+        [
+          "coffee + cup → coffee cup; kitchen + table → kitchen table",
+          "کافی کا کپ؛ باورچی خانے کی میز",
+          "ڪافيءَ جو ڪوپ؛ رڌڻي جي ميز",
+          "The first noun gives the use or location."
+        ],
+        [
+          "one bus driver → two bus drivers; one mother-in-law → two mothers-in-law",
+          "ایک بس ڈرائیور → دو بس ڈرائیور؛ ایک ساس → دو ساسیں",
+          "هڪ بس ڊرائيور → ٻه بس ڊرائيور؛ هڪ سَسُ → ٻه سَسون",
+          "Pluralise the head element; hyphenated compounds may place the plural on the head."
         ]
-      },
-      {
-        "title": "5. Compound Nouns — Adjective + Noun",
-        "english": "An adjective + noun compound combines an adjective with a noun. The adjective describes or limits the noun, and together they name a person, object, place or concept. Examples: blackbird (a particular kind of bird), greenhouse (a glass building for growing plants; not simply a house that is green), shorthand, bluebell, highway, and software (historically formed from soft + ware). Some are closed, some open, and some hyphenated according to convention. Do not assume every adjective followed by a noun is a compound: a red car is usually an ordinary adjective phrase, whereas a blackbird is a lexical compound with a recognised meaning.",
-        "urdu": "Adjective + noun compound میں صفت اور اسم مل کر کسی شخص، چیز، جگہ یا تصور کا نام بناتے ہیں۔ صفت اسم کی وضاحت یا تخصیص کرتی ہے۔ مثالیں: blackbird (ایک خاص قسم کا پرندہ)، greenhouse (پودے اگانے کی شیشے کی عمارت؛ صرف سبز رنگ کا گھر نہیں)، shorthand، bluebell، highway اور software۔ کچھ compounds بند، کچھ الگ اور کچھ hyphen کے ساتھ لکھے جاتے ہیں۔ ہر adjective + noun کو compound نہ سمجھیں: red car عام صفتی ترکیب ہے، جبکہ blackbird ایک مستقل معنی رکھنے والا compound ہے۔",
-        "sindhi": "Adjective + noun compound ۾ صفت ۽ اسم ملي ڪنهن ماڻهو، شيءِ، جاءِ يا تصور جو نالو ٺاهين ٿا. صفت اسم جي وضاحت ڪري ٿي. مثال: blackbird، greenhouse، shorthand، bluebell، highway ۽ software. ڪي گڏ، ڪي الڳ ۽ ڪي hyphen سان لکجن ٿا. هر صفت + اسم کي compound نه سمجهو: red car عام صفت وارو فقرو آهي، جڏهن ته blackbird هڪ مقرر معنيٰ وارو compound آهي.",
-        "examples": [
-          [
-            "black + bird → blackbird",
-            "ایک خاص قسم کا پرندہ",
-            "هڪ خاص قسم جو پکي",
-            "The whole compound names a recognised kind of bird."
-          ],
-          [
-            "green + house → greenhouse",
-            "پودے اگانے کا شیشہ گھر",
-            "ٻوٽا پوکڻ جو شيشي وارو گهر",
-            "The compound has a specialised meaning."
-          ],
-          [
-            "blue + bell → bluebell",
-            "نیلی گھنٹی نما پھول",
-            "نيري گهنٽي جهڙو گل",
-            "The combination names a particular flower."
-          ]
+      ]
+    },
+    {
+      "title": "5. Compound Nouns — Adjective + Noun",
+      "english": "An adjective + noun compound combines an adjective with a noun. The adjective describes or limits the noun, and together they name a person, object, place or concept. Examples: blackbird (a particular kind of bird), greenhouse (a glass building for growing plants; not simply a house that is green), shorthand, bluebell, highway, and software (historically formed from soft + ware). Some are closed, some open, and some hyphenated according to convention. Do not assume every adjective followed by a noun is a compound: a red car is usually an ordinary adjective phrase, whereas a blackbird is a lexical compound with a recognised meaning.",
+      "urdu": "Adjective + noun compound میں صفت اور اسم مل کر کسی شخص، چیز، جگہ یا تصور کا نام بناتے ہیں۔ صفت اسم کی وضاحت یا تخصیص کرتی ہے۔ مثالیں: blackbird (ایک خاص قسم کا پرندہ)، greenhouse (پودے اگانے کی شیشے کی عمارت؛ صرف سبز رنگ کا گھر نہیں)، shorthand، bluebell، highway اور software۔ کچھ compounds بند، کچھ الگ اور کچھ hyphen کے ساتھ لکھے جاتے ہیں۔ ہر adjective + noun کو compound نہ سمجھیں: red car عام صفتی ترکیب ہے، جبکہ blackbird ایک مستقل معنی رکھنے والا compound ہے۔",
+      "sindhi": "Adjective + noun compound ۾ صفت ۽ اسم ملي ڪنهن ماڻهو، شيءِ، جاءِ يا تصور جو نالو ٺاهين ٿا. صفت اسم جي وضاحت ڪري ٿي. مثال: blackbird، greenhouse، shorthand، bluebell، highway ۽ software. ڪي گڏ، ڪي الڳ ۽ ڪي hyphen سان لکجن ٿا. هر صفت + اسم کي compound نه سمجهو: red car عام صفت وارو فقرو آهي، جڏهن ته blackbird هڪ مقرر معنيٰ وارو compound آهي.",
+      "examples": [
+        [
+          "black + bird → blackbird",
+          "ایک خاص قسم کا پرندہ",
+          "هڪ خاص قسم جو پکي",
+          "The whole compound names a recognised kind of bird."
+        ],
+        [
+          "green + house → greenhouse",
+          "پودے اگانے کا شیشہ گھر",
+          "ٻوٽا پوکڻ جو شيشي وارو گهر",
+          "The compound has a specialised meaning."
+        ],
+        [
+          "blue + bell → bluebell",
+          "نیلی گھنٹی نما پھول",
+          "نيري گهنٽي جهڙو گل",
+          "The combination names a particular flower."
         ]
-      },
-      {
-        "title": "6. Compound Nouns — Verb + Noun",
-        "english": "A verb + noun compound combines a verb base with a noun. The noun often names the object or target of the action, or the combination names a person or thing associated with that action. Examples include pickpocket (one who picks pockets), scarecrow (a figure that scares crows), breakfast (historically break + fast), and telltale (something that tells or reveals). Some forms are historically established and their meanings cannot always be predicted from the parts. In modern compounds, the verb element may appear in a form that is no longer used as a normal finite verb. Learn each word's established meaning and spelling.",
-        "urdu": "Verb + noun compound میں فعل کی بنیاد اور اسم ملتے ہیں۔ اسم اکثر عمل کے ہدف یا مفعول کو ظاہر کرتا ہے، یا پوری ترکیب اس عمل سے متعلق شخص یا چیز کا نام بنتی ہے۔ مثالیں: pickpocket (جیب کترا)، scarecrow (پرندوں کو ڈرانے کا پتلا)، breakfast (تاریخی طور پر break + fast) اور telltale (راز ظاہر کرنے والی چیز یا علامت)۔ بعض الفاظ تاریخی طور پر بنے ہیں، اس لیے ان کا مطلب ہمیشہ الگ الگ حصوں سے واضح نہیں ہوتا۔ ہر لفظ کا رائج معنی اور املا یاد کریں۔",
-        "sindhi": "Verb + noun compound ۾ فعل جي بنياد ۽ اسم گڏ ٿين ٿا. اسم اڪثر عمل جو هدف يا مفعول ڏيکاري ٿو، يا مڪمل لفظ ان عمل سان لاڳاپيل ماڻهو يا شيءِ جو نالو بڻجي ٿو. مثال: pickpocket، scarecrow، breakfast ۽ telltale. ڪجهه لفظ تاريخي طور ٺهيل آهن، تنهنڪري انهن جي معنيٰ هميشه حصن مان سڌي طرح نٿي سمجهي سگهجي. هر لفظ جي رائج معنيٰ ۽ لکڻي ياد ڪريو.",
-        "examples": [
-          [
-            "pick + pocket → pickpocket",
-            "جیب + کاٹنا → جیب کترا",
-            "کيسي + ڪٽڻ → کيسي ڪترو",
-            "The compound names a person who steals from pockets."
-          ],
-          [
-            "scare + crow → scarecrow",
-            "ڈرانا + کوا → کوؤں کو ڈرانے کا پتلا",
-            "ڊيڄارڻ + ڪانءُ → ڪانئن کي ڊيڄارڻ وارو پتلو",
-            "The verb indicates the action; the noun indicates its target."
-          ],
-          [
-            "tell + tale → telltale",
-            "بتانا + بات → راز ظاہر کرنے والی علامت",
-            "ٻڌائڻ + ڳالهه → راز ظاهر ڪندڙ نشاني",
-            "The whole word has an established meaning."
-          ]
+      ]
+    },
+    {
+      "title": "6. Compound Nouns — Verb + Noun",
+      "english": "A verb + noun compound combines a verb base with a noun. The noun often names the object or target of the action, or the combination names a person or thing associated with that action. Examples include pickpocket (one who picks pockets), scarecrow (a figure that scares crows), breakfast (historically break + fast), and telltale (something that tells or reveals). Some forms are historically established and their meanings cannot always be predicted from the parts. In modern compounds, the verb element may appear in a form that is no longer used as a normal finite verb. Learn each word's established meaning and spelling.",
+      "urdu": "Verb + noun compound میں فعل کی بنیاد اور اسم ملتے ہیں۔ اسم اکثر عمل کے ہدف یا مفعول کو ظاہر کرتا ہے، یا پوری ترکیب اس عمل سے متعلق شخص یا چیز کا نام بنتی ہے۔ مثالیں: pickpocket (جیب کترا)، scarecrow (پرندوں کو ڈرانے کا پتلا)، breakfast (تاریخی طور پر break + fast) اور telltale (راز ظاہر کرنے والی چیز یا علامت)۔ بعض الفاظ تاریخی طور پر بنے ہیں، اس لیے ان کا مطلب ہمیشہ الگ الگ حصوں سے واضح نہیں ہوتا۔ ہر لفظ کا رائج معنی اور املا یاد کریں۔",
+      "sindhi": "Verb + noun compound ۾ فعل جي بنياد ۽ اسم گڏ ٿين ٿا. اسم اڪثر عمل جو هدف يا مفعول ڏيکاري ٿو، يا مڪمل لفظ ان عمل سان لاڳاپيل ماڻهو يا شيءِ جو نالو بڻجي ٿو. مثال: pickpocket، scarecrow، breakfast ۽ telltale. ڪجهه لفظ تاريخي طور ٺهيل آهن، تنهنڪري انهن جي معنيٰ هميشه حصن مان سڌي طرح نٿي سمجهي سگهجي. هر لفظ جي رائج معنيٰ ۽ لکڻي ياد ڪريو.",
+      "examples": [
+        [
+          "pick + pocket → pickpocket",
+          "جیب + کاٹنا → جیب کترا",
+          "کيسي + ڪٽڻ → کيسي ڪترو",
+          "The compound names a person who steals from pockets."
+        ],
+        [
+          "scare + crow → scarecrow",
+          "ڈرانا + کوا → کوؤں کو ڈرانے کا پتلا",
+          "ڊيڄارڻ + ڪانءُ → ڪانئن کي ڊيڄارڻ وارو پتلو",
+          "The verb indicates the action; the noun indicates its target."
+        ],
+        [
+          "tell + tale → telltale",
+          "بتانا + بات → راز ظاہر کرنے والی علامت",
+          "ٻڌائڻ + ڳالهه → راز ظاهر ڪندڙ نشاني",
+          "The whole word has an established meaning."
         ]
-      },
-      {
-        "title": "7. Compound Nouns — Gerund + Noun",
-        "english": "A gerund is an -ing form of a verb used as a noun or noun-like modifier. A gerund + noun compound uses this -ing form before a noun, often naming an activity, purpose or function. Examples: swimming pool (a pool for swimming), dining room (a room for dining), washing machine (a machine for washing), frying pan (a pan for frying), and reading lamp (a lamp used for reading). In these examples the -ing word tells what the following noun is used for. Distinguish a compound noun such as swimming pool from a progressive verb phrase such as is swimming: the first names a thing; the second describes an action.",
-        "urdu": "Gerund فعل کی -ing صورت ہے جو اسم یا اسم جیسا کام کرتی ہے۔ Gerund + noun compound میں یہ -ing صورت اسم سے پہلے آتی ہے اور عموماً سرگرمی، مقصد یا استعمال بتاتی ہے۔ مثالیں: swimming pool (تیرنے کا تالاب)، dining room (کھانے کا کمرہ)، washing machine (کپڑے دھونے کی مشین)، frying pan (تلنے کا پین)، reading lamp (پڑھنے کا لیمپ)۔ یہاں -ing والا لفظ بتاتا ہے کہ بعد والا اسم کس کام کے لیے ہے۔ swimming pool ایک چیز کا نام ہے، جبکہ is swimming فعل کا زمانہ ظاہر کرتا ہے۔",
-        "sindhi": "Gerund فعل جي -ing صورت آهي، جيڪا اسم جهڙو ڪم ڪري ٿي. Gerund + noun compound ۾ -ing صورت اسم کان اڳ اچي سرگرمي، مقصد يا استعمال ٻڌائي ٿي. مثال: swimming pool، dining room، washing machine، frying pan، reading lamp. هتي -ing وارو لفظ ٻڌائي ٿو ته پٺيان ايندڙ شيءِ ڪهڙي ڪم لاءِ آهي. swimming pool شيءِ جو نالو آهي، جڏهن ته is swimming عمل ڏيکاري ٿو.",
-        "examples": [
-          [
-            "swimming + pool → swimming pool",
-            "تیرنے + تالاب → سوئمنگ پول",
-            "ترڻ + تلاءُ → ترڻ جو تلاءُ",
-            "The pool is intended for swimming."
-          ],
-          [
-            "washing + machine → washing machine",
-            "دھونے + مشین → واشنگ مشین",
-            "ڌوئڻ + مشين → ڌوئڻ واري مشين",
-            "The -ing form describes the machine's function."
-          ],
-          [
-            "dining + room → dining room",
-            "کھانے + کمرہ → کھانے کا کمرہ",
-            "ماني کائڻ + ڪمرو → ماني کائڻ جو ڪمرو",
-            "The first element names the activity."
-          ]
+      ]
+    },
+    {
+      "title": "7. Compound Nouns — Gerund + Noun",
+      "english": "A gerund is an -ing form of a verb used as a noun or noun-like modifier. A gerund + noun compound uses this -ing form before a noun, often naming an activity, purpose or function. Examples: swimming pool (a pool for swimming), dining room (a room for dining), washing machine (a machine for washing), frying pan (a pan for frying), and reading lamp (a lamp used for reading). In these examples the -ing word tells what the following noun is used for. Distinguish a compound noun such as swimming pool from a progressive verb phrase such as is swimming: the first names a thing; the second describes an action.",
+      "urdu": "Gerund فعل کی -ing صورت ہے جو اسم یا اسم جیسا کام کرتی ہے۔ Gerund + noun compound میں یہ -ing صورت اسم سے پہلے آتی ہے اور عموماً سرگرمی، مقصد یا استعمال بتاتی ہے۔ مثالیں: swimming pool (تیرنے کا تالاب)، dining room (کھانے کا کمرہ)، washing machine (کپڑے دھونے کی مشین)، frying pan (تلنے کا پین)، reading lamp (پڑھنے کا لیمپ)۔ یہاں -ing والا لفظ بتاتا ہے کہ بعد والا اسم کس کام کے لیے ہے۔ swimming pool ایک چیز کا نام ہے، جبکہ is swimming فعل کا زمانہ ظاہر کرتا ہے۔",
+      "sindhi": "Gerund فعل جي -ing صورت آهي، جيڪا اسم جهڙو ڪم ڪري ٿي. Gerund + noun compound ۾ -ing صورت اسم کان اڳ اچي سرگرمي، مقصد يا استعمال ٻڌائي ٿي. مثال: swimming pool، dining room، washing machine، frying pan، reading lamp. هتي -ing وارو لفظ ٻڌائي ٿو ته پٺيان ايندڙ شيءِ ڪهڙي ڪم لاءِ آهي. swimming pool شيءِ جو نالو آهي، جڏهن ته is swimming عمل ڏيکاري ٿو.",
+      "examples": [
+        [
+          "swimming + pool → swimming pool",
+          "تیرنے + تالاب → سوئمنگ پول",
+          "ترڻ + تلاءُ → ترڻ جو تلاءُ",
+          "The pool is intended for swimming."
+        ],
+        [
+          "washing + machine → washing machine",
+          "دھونے + مشین → واشنگ مشین",
+          "ڌوئڻ + مشين → ڌوئڻ واري مشين",
+          "The -ing form describes the machine's function."
+        ],
+        [
+          "dining + room → dining room",
+          "کھانے + کمرہ → کھانے کا کمرہ",
+          "ماني کائڻ + ڪمرو → ماني کائڻ جو ڪمرو",
+          "The first element names the activity."
         ]
-      },
-      {
-        "title": "8. Compound Nouns — Adverb or Preposition + Noun",
-        "english": "An adverb or preposition may combine with a noun to form a compound noun. Examples with adverb-like first elements include income (in + come, historically a verb-related formation), outbuilding (a building outside or separate from the main building), and upshot (the final result). Preposition + noun patterns include underworld, underground, bystander (by + stander, a person standing nearby), and onlooker (one who looks on). These examples are not all equally transparent in modern grammar: some first elements are historically prepositions or adverbs, and some compounds have become fixed vocabulary items. Study them as established compound nouns rather than assuming every similar phrase is a compound.",
-        "urdu": "کبھی adverb یا preposition کسی اسم کے ساتھ مل کر compound noun بناتا ہے۔ Adverb جیسے پہلے حصے کی مثالیں outbuilding (مرکزی عمارت سے الگ یا باہر کی عمارت) اور upshot (آخری نتیجہ) ہیں۔ Preposition + noun کی مثالیں underworld، underground، bystander (قریب کھڑا دیکھنے والا) اور onlooker (تماشائی) ہیں۔ ان الفاظ کی جدید گرامری ساخت ہر جگہ یکساں طور پر واضح نہیں؛ بعض کے پہلے حصے تاریخی طور پر adverb یا preposition تھے اور بعض مستقل لغوی الفاظ بن چکے ہیں۔ انہیں رائج compound nouns کے طور پر سیکھیں۔",
-        "sindhi": "ڪڏهن adverb يا preposition اسم سان ملي compound noun ٺاهي ٿو. مثال طور outbuilding (مکيه عمارت کان ٻاهر يا الڳ عمارت)، upshot (آخري نتيجو)، underworld، underground، bystander (ويجهو بيٺل ڏسندڙ) ۽ onlooker (تماشائي). انهن سڀني لفظن جي جديد گرامري بناوت هڪجهڙي صاف ناهي؛ ڪي تاريخي طور ٺهيل آهن ۽ ڪي مقرر لغوي لفظ بڻجي ويا آهن. انهن کي رائج compound nouns طور سکڻ گهرجي.",
-        "examples": [
-          [
-            "out + building → outbuilding",
-            "باہر + عمارت → بیرونی عمارت",
-            "ٻاهر + عمارت → ٻاهرين عمارت",
-            "The first element indicates position in relation to the main building."
-          ],
-          [
-            "under + world → underworld",
-            "زیر + دنیا → جرائم کی دنیا / عالمِ ارواح",
-            "هيٺ + دنيا → ڏوهاري دنيا / ارواحن جي دنيا",
-            "The compound has a specialised meaning."
-          ],
-          [
-            "on + looker → onlooker",
-            "دیکھنے والا؛ تماشائی",
-            "ڏسندڙ؛ تماشائي",
-            "The compound names a person who watches an event."
-          ]
+      ]
+    },
+    {
+      "title": "8. Compound Nouns — Adverb or Preposition + Noun",
+      "english": "An adverb or preposition may combine with a noun to form a compound noun. Examples with adverb-like first elements include income (in + come, historically a verb-related formation), outbuilding (a building outside or separate from the main building), and upshot (the final result). Preposition + noun patterns include underworld, underground, bystander (by + stander, a person standing nearby), and onlooker (one who looks on). These examples are not all equally transparent in modern grammar: some first elements are historically prepositions or adverbs, and some compounds have become fixed vocabulary items. Study them as established compound nouns rather than assuming every similar phrase is a compound.",
+      "urdu": "کبھی adverb یا preposition کسی اسم کے ساتھ مل کر compound noun بناتا ہے۔ Adverb جیسے پہلے حصے کی مثالیں outbuilding (مرکزی عمارت سے الگ یا باہر کی عمارت) اور upshot (آخری نتیجہ) ہیں۔ Preposition + noun کی مثالیں underworld، underground، bystander (قریب کھڑا دیکھنے والا) اور onlooker (تماشائی) ہیں۔ ان الفاظ کی جدید گرامری ساخت ہر جگہ یکساں طور پر واضح نہیں؛ بعض کے پہلے حصے تاریخی طور پر adverb یا preposition تھے اور بعض مستقل لغوی الفاظ بن چکے ہیں۔ انہیں رائج compound nouns کے طور پر سیکھیں۔",
+      "sindhi": "ڪڏهن adverb يا preposition اسم سان ملي compound noun ٺاهي ٿو. مثال طور outbuilding (مکيه عمارت کان ٻاهر يا الڳ عمارت)، upshot (آخري نتيجو)، underworld، underground، bystander (ويجهو بيٺل ڏسندڙ) ۽ onlooker (تماشائي). انهن سڀني لفظن جي جديد گرامري بناوت هڪجهڙي صاف ناهي؛ ڪي تاريخي طور ٺهيل آهن ۽ ڪي مقرر لغوي لفظ بڻجي ويا آهن. انهن کي رائج compound nouns طور سکڻ گهرجي.",
+      "examples": [
+        [
+          "out + building → outbuilding",
+          "باہر + عمارت → بیرونی عمارت",
+          "ٻاهر + عمارت → ٻاهرين عمارت",
+          "The first element indicates position in relation to the main building."
+        ],
+        [
+          "under + world → underworld",
+          "زیر + دنیا → جرائم کی دنیا / عالمِ ارواح",
+          "هيٺ + دنيا → ڏوهاري دنيا / ارواحن جي دنيا",
+          "The compound has a specialised meaning."
+        ],
+        [
+          "on + looker → onlooker",
+          "دیکھنے والا؛ تماشائی",
+          "ڏسندڙ؛ تماشائي",
+          "The compound names a person who watches an event."
         ]
-      },
-      {
-        "title": "9. Compound Nouns — Verb + Adverb",
-        "english": "Some compound nouns combine a verb base with an adverb or an adverb-like particle. Examples include take-off (the act of an aircraft leaving the ground), breakdown (a failure or collapse), drawback (a disadvantage), and lookout (a place or person keeping watch). The written form may be closed or hyphenated, depending on the word and dictionary convention. Notice the grammatical difference between a compound noun and a phrasal verb: take off is a verb phrase in 'The plane will take off'; take-off is a noun in 'The take-off was smooth'. Breakdown is a noun, while break down is a verb phrase: 'The car may break down.'",
-        "urdu": "کچھ compound nouns فعل کی بنیاد اور adverb یا adverb جیسے particle کو ملا کر بنتے ہیں۔ مثالیں: take-off (ہوائی جہاز کا اڑان بھرنا)، breakdown (خرابی یا ٹوٹ پھوٹ)، drawback (نقصان یا خامی) اور lookout (نگرانی کی جگہ یا نگہبان)۔ املا لفظ کے رواج کے مطابق بند یا hyphen کے ساتھ ہو سکتا ہے۔ Compound noun اور phrasal verb میں فرق یاد رکھیں: 'The plane will take off' میں take off فعل ہے، جبکہ 'The take-off was smooth' میں take-off اسم ہے۔ اسی طرح breakdown اسم ہے اور break down فعل کی ترکیب ہے۔",
-        "sindhi": "ڪجهه compound nouns فعل جي بنياد ۽ adverb يا particle کي ملائي ٺهن ٿا. مثال: take-off (هوائي جهاز جو اڏامڻ)، breakdown (خرابي يا ٽٽڻ)، drawback (نقصان) ۽ lookout (نگرانيءَ جي جاءِ يا نگهبان). لکڻي لفظ جي رواج موجب گڏ يا hyphen سان ٿي سگهي ٿي. Compound noun ۽ phrasal verb ۾ فرق ڪريو: 'The plane will take off' ۾ take off فعل آهي، پر 'The take-off was smooth' ۾ take-off اسم آهي. breakdown اسم آهي، جڏهن ته break down فعل وارو فقرو آهي.",
-        "examples": [
-          [
-            "take off (verb) → take-off (noun)",
-            "جہاز اڑان بھرے گا؛ اڑان ہموار تھی",
-            "جهاز اڏامندو؛ اڏام هموار هئي",
-            "The hyphenated form is the noun; the two-word form is the verb."
-          ],
-          [
-            "break down (verb) → breakdown (noun)",
-            "گاڑی خراب ہو سکتی ہے؛ خرابی",
-            "گاڏي خراب ٿي سگهي ٿي؛ خرابي",
-            "The noun is usually written as one word."
-          ],
-          [
-            "look out (verb phrase) → lookout (noun)",
-            "خبردار رہو؛ نگرانی کرنے والا",
-            "خبردار رهو؛ نگراني ڪندڙ",
-            "The compound noun names a person or place."
-          ]
+      ]
+    },
+    {
+      "title": "9. Compound Nouns — Verb + Adverb",
+      "english": "Some compound nouns combine a verb base with an adverb or an adverb-like particle. Examples include take-off (the act of an aircraft leaving the ground), breakdown (a failure or collapse), drawback (a disadvantage), and lookout (a place or person keeping watch). The written form may be closed or hyphenated, depending on the word and dictionary convention. Notice the grammatical difference between a compound noun and a phrasal verb: take off is a verb phrase in 'The plane will take off'; take-off is a noun in 'The take-off was smooth'. Breakdown is a noun, while break down is a verb phrase: 'The car may break down.'",
+      "urdu": "کچھ compound nouns فعل کی بنیاد اور adverb یا adverb جیسے particle کو ملا کر بنتے ہیں۔ مثالیں: take-off (ہوائی جہاز کا اڑان بھرنا)، breakdown (خرابی یا ٹوٹ پھوٹ)، drawback (نقصان یا خامی) اور lookout (نگرانی کی جگہ یا نگہبان)۔ املا لفظ کے رواج کے مطابق بند یا hyphen کے ساتھ ہو سکتا ہے۔ Compound noun اور phrasal verb میں فرق یاد رکھیں: 'The plane will take off' میں take off فعل ہے، جبکہ 'The take-off was smooth' میں take-off اسم ہے۔ اسی طرح breakdown اسم ہے اور break down فعل کی ترکیب ہے۔",
+      "sindhi": "ڪجهه compound nouns فعل جي بنياد ۽ adverb يا particle کي ملائي ٺهن ٿا. مثال: take-off (هوائي جهاز جو اڏامڻ)، breakdown (خرابي يا ٽٽڻ)، drawback (نقصان) ۽ lookout (نگرانيءَ جي جاءِ يا نگهبان). لکڻي لفظ جي رواج موجب گڏ يا hyphen سان ٿي سگهي ٿي. Compound noun ۽ phrasal verb ۾ فرق ڪريو: 'The plane will take off' ۾ take off فعل آهي، پر 'The take-off was smooth' ۾ take-off اسم آهي. breakdown اسم آهي، جڏهن ته break down فعل وارو فقرو آهي.",
+      "examples": [
+        [
+          "take off (verb) → take-off (noun)",
+          "جہاز اڑان بھرے گا؛ اڑان ہموار تھی",
+          "جهاز اڏامندو؛ اڏام هموار هئي",
+          "The hyphenated form is the noun; the two-word form is the verb."
+        ],
+        [
+          "break down (verb) → breakdown (noun)",
+          "گاڑی خراب ہو سکتی ہے؛ خرابی",
+          "گاڏي خراب ٿي سگهي ٿي؛ خرابي",
+          "The noun is usually written as one word."
+        ],
+        [
+          "look out (verb phrase) → lookout (noun)",
+          "خبردار رہو؛ نگرانی کرنے والا",
+          "خبردار رهو؛ نگراني ڪندڙ",
+          "The compound noun names a person or place."
         ]
-      },
-      {
-        "title": "10. Compound Nouns — Adverb + Verb",
-        "english": "Some compound nouns combine an adverb or adverb-like particle with a verb-derived element. Examples include income (in + come, meaning money received), outcome (out + come, meaning result), and upturn (up + turn, meaning an improvement or upward change). These are established nouns; their meanings are often specialised and cannot always be worked out by translating each part separately. They are usually written as one word. Compare the noun outcome with the verb phrase come out: 'The outcome was unexpected' versus 'The truth may come out.'",
-        "urdu": "کچھ compound nouns adverb یا adverb جیسے پہلے حصے کو فعل سے بنے دوسرے حصے کے ساتھ ملا کر بنتے ہیں۔ مثالیں: income (آمدنی)، outcome (نتیجہ) اور upturn (بہتری یا اوپر کی طرف تبدیلی)۔ یہ مستقل اسم ہیں؛ ان کے معنی ہمیشہ ہر حصے کا الگ ترجمہ کرنے سے نہیں نکلتے۔ عموماً ایک لفظ لکھے جاتے ہیں۔ outcome اسم ہے، جبکہ come out فعل کی ترکیب ہے: 'The outcome was unexpected' اور 'The truth may come out.'",
-        "sindhi": "ڪجهه compound nouns ۾ adverb يا adverb جهڙو پهريون حصو فعل مان ٺهيل ٻئي حصي سان ملي ٿو. مثال: income (آمدني)، outcome (نتيجو) ۽ upturn (بهتري يا مٿي واري تبديلي). اهي مقرر اسم آهن؛ انهن جي معنيٰ هر حصي جي الڳ ترجمي مان هميشه نٿي نڪري. عام طور هڪ لفظ لکجن ٿا. outcome اسم آهي، جڏهن ته come out فعل وارو فقرو آهي.",
-        "examples": [
-          [
-            "in + come → income",
-            "آمدنی",
-            "آمدني",
-            "The established noun means money received."
-          ],
-          [
-            "out + come → outcome",
-            "نتیجہ",
-            "نتيجو",
-            "The compound noun means the result of an action or process."
-          ],
-          [
-            "up + turn → upturn",
-            "بہتری؛ اضافہ",
-            "بهتري؛ واڌارو",
-            "The compound names an upward change or improvement."
-          ]
+      ]
+    },
+    {
+      "title": "10. Compound Nouns — Adverb + Verb",
+      "english": "Some compound nouns combine an adverb or adverb-like particle with a verb-derived element. Examples include income (in + come, meaning money received), outcome (out + come, meaning result), and upturn (up + turn, meaning an improvement or upward change). These are established nouns; their meanings are often specialised and cannot always be worked out by translating each part separately. They are usually written as one word. Compare the noun outcome with the verb phrase come out: 'The outcome was unexpected' versus 'The truth may come out.'",
+      "urdu": "کچھ compound nouns adverb یا adverb جیسے پہلے حصے کو فعل سے بنے دوسرے حصے کے ساتھ ملا کر بنتے ہیں۔ مثالیں: income (آمدنی)، outcome (نتیجہ) اور upturn (بہتری یا اوپر کی طرف تبدیلی)۔ یہ مستقل اسم ہیں؛ ان کے معنی ہمیشہ ہر حصے کا الگ ترجمہ کرنے سے نہیں نکلتے۔ عموماً ایک لفظ لکھے جاتے ہیں۔ outcome اسم ہے، جبکہ come out فعل کی ترکیب ہے: 'The outcome was unexpected' اور 'The truth may come out.'",
+      "sindhi": "ڪجهه compound nouns ۾ adverb يا adverb جهڙو پهريون حصو فعل مان ٺهيل ٻئي حصي سان ملي ٿو. مثال: income (آمدني)، outcome (نتيجو) ۽ upturn (بهتري يا مٿي واري تبديلي). اهي مقرر اسم آهن؛ انهن جي معنيٰ هر حصي جي الڳ ترجمي مان هميشه نٿي نڪري. عام طور هڪ لفظ لکجن ٿا. outcome اسم آهي، جڏهن ته come out فعل وارو فقرو آهي.",
+      "examples": [
+        [
+          "in + come → income",
+          "آمدنی",
+          "آمدني",
+          "The established noun means money received."
+        ],
+        [
+          "out + come → outcome",
+          "نتیجہ",
+          "نتيجو",
+          "The compound noun means the result of an action or process."
+        ],
+        [
+          "up + turn → upturn",
+          "بہتری؛ اضافہ",
+          "بهتري؛ واڌارو",
+          "The compound names an upward change or improvement."
         ]
-      },
-      {
-        "title": "11. Compound Adjectives",
-        "english": "A compound adjective is made from two or more words that work together to describe a noun. Common patterns include adjective + noun + -ed (blue-eyed, kind-hearted), adjective + participle (good-looking, easy-going), adverb + participle (well-known, badly-damaged), noun + adjective (snow-white, world-famous), noun + present participle (English-speaking, record-breaking), noun + past participle (hand-made, sun-dried), and number + noun (a ten-year-old child, a five-minute break). Many compound adjectives are hyphenated before a noun to make the relationship clear: a well-known author, a five-year-old child. When the expression follows the noun, the hyphen is often omitted in some constructions: the author is well known; the child is five years old. Do not hyphenate an -ly adverb + adjective or participle: a highly respected teacher. Usage varies, so follow a consistent style guide.",
-        "urdu": "Compound adjective دو یا زیادہ الفاظ سے بنتی ہے جو مل کر کسی اسم کی صفت بیان کرتے ہیں۔ عام ساختیں: adjective + noun + -ed (blue-eyed، kind-hearted)، adjective + participle (good-looking، easy-going)، adverb + participle (well-known، badly-damaged)، noun + adjective (snow-white، world-famous)، noun + present participle (English-speaking، record-breaking)، noun + past participle (hand-made، sun-dried)، اور number + noun (a ten-year-old child، a five-minute break)۔ اسم سے پہلے وضاحت کے لیے اکثر hyphen لگایا جاتا ہے: a well-known author۔ بعض صورتوں میں اسم کے بعد hyphen نہیں ہوتا: the author is well known؛ the child is five years old۔ -ly adverb کے بعد عموماً hyphen نہیں لگاتے: a highly respected teacher۔ ایک معتبر style guide کی پابندی کریں۔",
-        "sindhi": "Compound adjective ٻن يا وڌيڪ لفظن مان ٺهي ٿي، جيڪي گڏجي اسم جي صفت ٻڌائين ٿا. عام بناوتون: adjective + noun + -ed (blue-eyed)، adjective + participle (good-looking)، adverb + participle (well-known)، noun + adjective (world-famous)، noun + present participle (English-speaking)، noun + past participle (hand-made)، ۽ number + noun (a ten-year-old child). اسم کان اڳ وضاحت لاءِ اڪثر hyphen لڳائبو آهي: a well-known author. اسم کان پوءِ ڪجهه صورتن ۾ hyphen نه هوندو: the author is well known. -ly adverb کان پوءِ عام طور hyphen نه لڳائبو: a highly respected teacher. هڪ معتبر style guide تي عمل ڪريو.",
-        "examples": [
-          [
-            "well + known → a well-known writer",
-            "مشہور مصنف",
-            "مشهور ليکڪ",
-            "Adverb + past participle; hyphenated before the noun."
-          ],
-          [
-            "blue + eyed → a blue-eyed child",
-            "نیلی آنکھوں والا بچہ",
-            "نيري اکين وارو ٻار",
-            "Adjective + noun-derived -ed form."
-          ],
-          [
-            "five + minute → a five-minute break",
-            "پانچ منٹ کا وقفہ",
-            "پنج منٽن جو وقفو",
-            "The number + singular unit forms one compound modifier."
-          ],
-          [
-            "The writer is well known; a highly respected writer",
-            "مصنف مشہور ہے؛ نہایت قابلِ احترام مصنف",
-            "ليکڪ مشهور آهي؛ تمام گهڻو عزت وارو ليکڪ",
-            "No hyphen is normally used after the noun in well known; do not hyphenate -ly adverbs."
-          ]
+      ]
+    },
+    {
+      "title": "11. Compound Adjectives",
+      "english": "A compound adjective is made from two or more words that work together to describe a noun. Common patterns include adjective + noun + -ed (blue-eyed, kind-hearted), adjective + participle (good-looking, easy-going), adverb + participle (well-known, badly-damaged), noun + adjective (snow-white, world-famous), noun + present participle (English-speaking, record-breaking), noun + past participle (hand-made, sun-dried), and number + noun (a ten-year-old child, a five-minute break). Many compound adjectives are hyphenated before a noun to make the relationship clear: a well-known author, a five-year-old child. When the expression follows the noun, the hyphen is often omitted in some constructions: the author is well known; the child is five years old. Do not hyphenate an -ly adverb + adjective or participle: a highly respected teacher. Usage varies, so follow a consistent style guide.",
+      "urdu": "Compound adjective دو یا زیادہ الفاظ سے بنتی ہے جو مل کر کسی اسم کی صفت بیان کرتے ہیں۔ عام ساختیں: adjective + noun + -ed (blue-eyed، kind-hearted)، adjective + participle (good-looking، easy-going)، adverb + participle (well-known، badly-damaged)، noun + adjective (snow-white، world-famous)، noun + present participle (English-speaking، record-breaking)، noun + past participle (hand-made، sun-dried)، اور number + noun (a ten-year-old child، a five-minute break)۔ اسم سے پہلے وضاحت کے لیے اکثر hyphen لگایا جاتا ہے: a well-known author۔ بعض صورتوں میں اسم کے بعد hyphen نہیں ہوتا: the author is well known؛ the child is five years old۔ -ly adverb کے بعد عموماً hyphen نہیں لگاتے: a highly respected teacher۔ ایک معتبر style guide کی پابندی کریں۔",
+      "sindhi": "Compound adjective ٻن يا وڌيڪ لفظن مان ٺهي ٿي، جيڪي گڏجي اسم جي صفت ٻڌائين ٿا. عام بناوتون: adjective + noun + -ed (blue-eyed)، adjective + participle (good-looking)، adverb + participle (well-known)، noun + adjective (world-famous)، noun + present participle (English-speaking)، noun + past participle (hand-made)، ۽ number + noun (a ten-year-old child). اسم کان اڳ وضاحت لاءِ اڪثر hyphen لڳائبو آهي: a well-known author. اسم کان پوءِ ڪجهه صورتن ۾ hyphen نه هوندو: the author is well known. -ly adverb کان پوءِ عام طور hyphen نه لڳائبو: a highly respected teacher. هڪ معتبر style guide تي عمل ڪريو.",
+      "examples": [
+        [
+          "well + known → a well-known writer",
+          "مشہور مصنف",
+          "مشهور ليکڪ",
+          "Adverb + past participle; hyphenated before the noun."
+        ],
+        [
+          "blue + eyed → a blue-eyed child",
+          "نیلی آنکھوں والا بچہ",
+          "نيري اکين وارو ٻار",
+          "Adjective + noun-derived -ed form."
+        ],
+        [
+          "five + minute → a five-minute break",
+          "پانچ منٹ کا وقفہ",
+          "پنج منٽن جو وقفو",
+          "The number + singular unit forms one compound modifier."
+        ],
+        [
+          "The writer is well known; a highly respected writer",
+          "مصنف مشہور ہے؛ نہایت قابلِ احترام مصنف",
+          "ليکڪ مشهور آهي؛ تمام گهڻو عزت وارو ليکڪ",
+          "No hyphen is normally used after the noun in well known; do not hyphenate -ly adverbs."
         ]
-      },
-      {
-        "title": "12. Primary Derivatives — Prefixes and Suffixes",
-        "english": "A derivative is formed from a base by adding an affix. A prefix is placed before the base and usually changes its meaning: un- + kind → unkind; re- + write → rewrite; dis- + agree → disagree; mis- + understand → misunderstand; pre- + view → preview. A suffix is placed after the base and may change the meaning or the part of speech: kind + -ness → kindness (adjective to noun); teach + -er → teacher (verb to noun); quick + -ly → quickly (adjective to adverb); hope + -ful → hopeful (noun/verb base to adjective); care + -less → careless. A primary derivative in this lesson is a derivative formed directly from a primary/base word, rather than from another already-derived form. The term is used in the traditional school-grammar sense; modern morphology may classify particular word families in more detailed ways.",
-        "urdu": "Derivative کسی بنیادی لفظ کے ساتھ affix لگانے سے بنتا ہے۔ Prefix لفظ سے پہلے آتا ہے اور عموماً معنی بدلتا ہے: un- + kind → unkind؛ re- + write → rewrite؛ dis- + agree → disagree؛ mis- + understand → misunderstand؛ pre- + view → preview۔ Suffix لفظ کے بعد آتا ہے اور معنی یا part of speech بدل سکتا ہے: kind + -ness → kindness (adjective سے noun)؛ teach + -er → teacher (verb سے noun)؛ quick + -ly → quickly (adjective سے adverb)؛ hope + -ful → hopeful؛ care + -less → careless۔ اس سبق میں primary derivative وہ ہے جو براہِ راست primary/base word سے بنے، نہ کہ پہلے سے derivative لفظ سے۔ یہ روایتی اسکولی گرامر کی اصطلاح ہے؛ جدید لسانیات میں لفظی خاندان کی درجہ بندی مزید تفصیلی ہو سکتی ہے۔",
-        "sindhi": "Derivative بنيادي لفظ سان affix ملائڻ سان ٺهي ٿو. Prefix لفظ کان اڳ اچي ۽ عام طور معنيٰ بدلائي ٿو: unkind، rewrite، disagree، misunderstand، preview. Suffix لفظ کان پوءِ اچي ۽ معنيٰ يا part of speech بدلائي سگهي ٿو: kindness (adjective مان noun)، teacher (verb مان noun)، quickly (adjective مان adverb)، hopeful، careless. هن سبق ۾ primary derivative اهو آهي جيڪو سڌو primary/base word مان ٺهي، نه ته اڳ ۾ ٺهيل derivative مان. هي روايتي اسڪولي گرامر جي اصطلاح آهي؛ جديد لسانيات ۾ لفظي خاندان کي وڌيڪ تفصيل سان ورهايو ويندو آهي.",
-        "examples": [
-          [
-            "un- + kind → unkind; re- + write → rewrite",
-            "مہربان → نامہربان؛ دوبارہ لکھنا",
-            "مهربان → نامهربان؛ ٻيهر لکڻ",
-            "A prefix is added before the base."
-          ],
-          [
-            "kind + -ness → kindness; dark + -ness → darkness",
-            "مہربان → مہربانی؛ اندھیرا → تاریکی",
-            "مهربان → مهرباني؛ اونداهو → اونداهي",
-            "A suffix is added after the base to form a noun."
-          ],
-          [
-            "teach + -er → teacher; quick + -ly → quickly",
-            "پڑھانا → استاد؛ تیز → تیزی سے",
-            "پڙهائڻ → استاد؛ تيز → تيزيءَ سان",
-            "Suffixes can change the grammatical class."
-          ]
+      ]
+    },
+    {
+      "title": "12. Primary Derivatives — Prefixes and Suffixes",
+      "english": "A derivative is formed from a base by adding an affix. A prefix is placed before the base and usually changes its meaning: un- + kind → unkind; re- + write → rewrite; dis- + agree → disagree; mis- + understand → misunderstand; pre- + view → preview. A suffix is placed after the base and may change the meaning or the part of speech: kind + -ness → kindness (adjective to noun); teach + -er → teacher (verb to noun); quick + -ly → quickly (adjective to adverb); hope + -ful → hopeful (noun/verb base to adjective); care + -less → careless. A primary derivative in this lesson is a derivative formed directly from a primary/base word, rather than from another already-derived form. The term is used in the traditional school-grammar sense; modern morphology may classify particular word families in more detailed ways.",
+      "urdu": "Derivative کسی بنیادی لفظ کے ساتھ affix لگانے سے بنتا ہے۔ Prefix لفظ سے پہلے آتا ہے اور عموماً معنی بدلتا ہے: un- + kind → unkind؛ re- + write → rewrite؛ dis- + agree → disagree؛ mis- + understand → misunderstand؛ pre- + view → preview۔ Suffix لفظ کے بعد آتا ہے اور معنی یا part of speech بدل سکتا ہے: kind + -ness → kindness (adjective سے noun)؛ teach + -er → teacher (verb سے noun)؛ quick + -ly → quickly (adjective سے adverb)؛ hope + -ful → hopeful؛ care + -less → careless۔ اس سبق میں primary derivative وہ ہے جو براہِ راست primary/base word سے بنے، نہ کہ پہلے سے derivative لفظ سے۔ یہ روایتی اسکولی گرامر کی اصطلاح ہے؛ جدید لسانیات میں لفظی خاندان کی درجہ بندی مزید تفصیلی ہو سکتی ہے۔",
+      "sindhi": "Derivative بنيادي لفظ سان affix ملائڻ سان ٺهي ٿو. Prefix لفظ کان اڳ اچي ۽ عام طور معنيٰ بدلائي ٿو: unkind، rewrite، disagree، misunderstand، preview. Suffix لفظ کان پوءِ اچي ۽ معنيٰ يا part of speech بدلائي سگهي ٿو: kindness (adjective مان noun)، teacher (verb مان noun)، quickly (adjective مان adverb)، hopeful، careless. هن سبق ۾ primary derivative اهو آهي جيڪو سڌو primary/base word مان ٺهي، نه ته اڳ ۾ ٺهيل derivative مان. هي روايتي اسڪولي گرامر جي اصطلاح آهي؛ جديد لسانيات ۾ لفظي خاندان کي وڌيڪ تفصيل سان ورهايو ويندو آهي.",
+      "examples": [
+        [
+          "un- + kind → unkind; re- + write → rewrite",
+          "مہربان → نامہربان؛ دوبارہ لکھنا",
+          "مهربان → نامهربان؛ ٻيهر لکڻ",
+          "A prefix is added before the base."
+        ],
+        [
+          "kind + -ness → kindness; dark + -ness → darkness",
+          "مہربان → مہربانی؛ اندھیرا → تاریکی",
+          "مهربان → مهرباني؛ اونداهو → اونداهي",
+          "A suffix is added after the base to form a noun."
+        ],
+        [
+          "teach + -er → teacher; quick + -ly → quickly",
+          "پڑھانا → استاد؛ تیز → تیزی سے",
+          "پڙهائڻ → استاد؛ تيز → تيزيءَ سان",
+          "Suffixes can change the grammatical class."
         ]
-      },
-      {
-        "title": "13. Common Prefixes and Their Meanings",
-        "english": "Prefixes are added to the beginning of a base. Common negative or reversing prefixes include un- (unhappy, unfair), in- (incorrect), im- (impossible), il- (illegal), ir- (irregular), dis- (dislike, disagree), and non- (non-fiction). Other useful prefixes include re- (again: rewrite), pre- (before: preview), mis- (wrongly: misunderstand), over- (too much: overcook), under- (too little/below: underpaid), inter- (between: international), sub- (under: submarine), anti- (against: anti-war), and co- (together: co-operate/cooperate). The form of some prefixes changes to fit the following sound or conventional spelling. Prefixes do not always produce a simple opposite; check the meaning of the whole word.",
-        "urdu": "Prefix بنیادی لفظ کے شروع میں لگتا ہے۔ نفی یا الٹ معنی دینے والے عام prefixes: un- (unhappy، unfair)، in- (incorrect)، im- (impossible)، il- (illegal)، ir- (irregular)، dis- (dislike، disagree) اور non- (non-fiction)۔ دوسرے اہم prefixes: re- (دوبارہ: rewrite)، pre- (پہلے: preview)، mis- (غلط طور پر: misunderstand)، over- (ضرورت سے زیادہ: overcook)، under- (کم: underpaid)، inter- (درمیان: international)، sub- (نیچے: submarine)، anti- (مخالف: anti-war) اور co- (مل کر: cooperate)۔ بعض prefixes کی شکل اگلی آواز یا رائج املا کے مطابق بدلتی ہے۔ Prefix لگانے سے ہر بار سادہ متضاد معنی نہیں بنتا؛ پورے لفظ کا مطلب دیکھیں۔",
-        "sindhi": "Prefix بنيادي لفظ جي شروع ۾ لڳندو آهي. نفي يا ابتڙ معنيٰ وارا prefix: un-، in-، im-، il-، ir-، dis- ۽ non-. ٻيا عام prefix: re- (ٻيهر)، pre- (اڳ)، mis- (غلط نموني)، over- (حد کان وڌيڪ)، under- (گهٽ)، inter- (وچ ۾)، sub- (هيٺ)، anti- (مخالف) ۽ co- (گڏجي). ڪجهه prefixes جي صورت ايندڙ آواز يا رائج لکڻي موجب بدلجي ٿي. Prefix لڳائڻ سان هميشه سادو ابتڙ مطلب نٿو ٺهي؛ مڪمل لفظ جي معنيٰ ڏسو.",
-        "examples": [
-          [
-            "un + fair → unfair; im + possible → impossible",
-            "غیر منصفانہ؛ ناممکن",
-            "ناانصافي؛ ناممڪن",
-            "The negative prefix changes the meaning."
-          ],
-          [
-            "re + write → rewrite; pre + view → preview",
-            "دوبارہ لکھنا؛ پیشگی منظر",
-            "ٻيهر لکڻ؛ اڳواٽ جائزو",
-            "re- means again; pre- means before."
-          ],
-          [
-            "mis + understand → misunderstand; over + cook → overcook",
-            "غلط سمجھنا؛ زیادہ پکانا",
-            "غلط سمجهڻ؛ گهڻو پچائڻ",
-            "Prefixes can indicate error or excess."
-          ]
+      ]
+    },
+    {
+      "title": "13. Common Prefixes and Their Meanings",
+      "english": "Prefixes are added to the beginning of a base. Common negative or reversing prefixes include un- (unhappy, unfair), in- (incorrect), im- (impossible), il- (illegal), ir- (irregular), dis- (dislike, disagree), and non- (non-fiction). Other useful prefixes include re- (again: rewrite), pre- (before: preview), mis- (wrongly: misunderstand), over- (too much: overcook), under- (too little/below: underpaid), inter- (between: international), sub- (under: submarine), anti- (against: anti-war), and co- (together: co-operate/cooperate). The form of some prefixes changes to fit the following sound or conventional spelling. Prefixes do not always produce a simple opposite; check the meaning of the whole word.",
+      "urdu": "Prefix بنیادی لفظ کے شروع میں لگتا ہے۔ نفی یا الٹ معنی دینے والے عام prefixes: un- (unhappy، unfair)، in- (incorrect)، im- (impossible)، il- (illegal)، ir- (irregular)، dis- (dislike، disagree) اور non- (non-fiction)۔ دوسرے اہم prefixes: re- (دوبارہ: rewrite)، pre- (پہلے: preview)، mis- (غلط طور پر: misunderstand)، over- (ضرورت سے زیادہ: overcook)، under- (کم: underpaid)، inter- (درمیان: international)، sub- (نیچے: submarine)، anti- (مخالف: anti-war) اور co- (مل کر: cooperate)۔ بعض prefixes کی شکل اگلی آواز یا رائج املا کے مطابق بدلتی ہے۔ Prefix لگانے سے ہر بار سادہ متضاد معنی نہیں بنتا؛ پورے لفظ کا مطلب دیکھیں۔",
+      "sindhi": "Prefix بنيادي لفظ جي شروع ۾ لڳندو آهي. نفي يا ابتڙ معنيٰ وارا prefix: un-، in-، im-، il-، ir-، dis- ۽ non-. ٻيا عام prefix: re- (ٻيهر)، pre- (اڳ)، mis- (غلط نموني)، over- (حد کان وڌيڪ)، under- (گهٽ)، inter- (وچ ۾)، sub- (هيٺ)، anti- (مخالف) ۽ co- (گڏجي). ڪجهه prefixes جي صورت ايندڙ آواز يا رائج لکڻي موجب بدلجي ٿي. Prefix لڳائڻ سان هميشه سادو ابتڙ مطلب نٿو ٺهي؛ مڪمل لفظ جي معنيٰ ڏسو.",
+      "examples": [
+        [
+          "un + fair → unfair; im + possible → impossible",
+          "غیر منصفانہ؛ ناممکن",
+          "ناانصافي؛ ناممڪن",
+          "The negative prefix changes the meaning."
+        ],
+        [
+          "re + write → rewrite; pre + view → preview",
+          "دوبارہ لکھنا؛ پیشگی منظر",
+          "ٻيهر لکڻ؛ اڳواٽ جائزو",
+          "re- means again; pre- means before."
+        ],
+        [
+          "mis + understand → misunderstand; over + cook → overcook",
+          "غلط سمجھنا؛ زیادہ پکانا",
+          "غلط سمجهڻ؛ گهڻو پچائڻ",
+          "Prefixes can indicate error or excess."
         ]
-      },
-      {
-        "title": "14. Common Suffixes and Their Word-Building Functions",
-        "english": "Suffixes are added to the end of a base. Noun-forming suffixes include -ness (kindness), -ment (movement), -tion/-sion (education, decision), -er/-or (teacher, actor), and -ity (activity). Adjective-forming suffixes include -ful (careful), -less (careless), -able/-ible (readable, visible), -ous (dangerous), -al (national), and -ish (childish). Adverb-forming -ly gives quickly and carefully. Verb-forming suffixes include -ise/-ize (modernise/modernize) and -en (widen, strengthen). Some suffixes have more than one function, and not every base accepts every suffix. Spelling may change when a suffix is added: happy → happiness, decide → decision, create → creation, rely → reliable. Learn the complete derived word and its spelling.",
-        "urdu": "Suffix بنیادی لفظ کے آخر میں لگتا ہے۔ اسم بنانے والے suffixes: -ness (kindness)، -ment (movement)، -tion/-sion (education، decision)، -er/-or (teacher، actor) اور -ity (activity)۔ صفت بنانے والے: -ful (careful)، -less (careless)، -able/-ible (readable، visible)، -ous (dangerous)، -al (national)، -ish (childish)۔ -ly سے adverb بنتا ہے: quickly، carefully۔ فعل بنانے والے suffixes میں -ise/-ize (modernise/modernize) اور -en (widen، strengthen) شامل ہیں۔ ہر suffix ہر لفظ کے ساتھ نہیں لگ سکتا، اور املا بدل سکتا ہے: happy → happiness، decide → decision، create → creation، rely → reliable۔ مکمل لفظ یاد کریں۔",
-        "sindhi": "Suffix بنيادي لفظ جي پڇاڙيءَ ۾ لڳندو آهي. اسم ٺاهيندڙ suffix: -ness، -ment، -tion/-sion، -er/-or ۽ -ity. صفت ٺاهيندڙ: -ful، -less، -able/-ible، -ous، -al ۽ -ish. -ly سان adverb ٺهي ٿو: quickly، carefully. فعل ٺاهيندڙ suffix ۾ -ise/-ize ۽ -en شامل آهن. هر suffix هر بنياد سان نٿو لڳي ۽ لکڻي بدلجي سگهي ٿي: happy → happiness، decide → decision، create → creation، rely → reliable. مڪمل لفظ ياد ڪريو.",
-        "examples": [
-          [
-            "kind + -ness → kindness; move + -ment → movement",
-            "مہربانی؛ حرکت",
-            "مهرباني؛ حرڪت",
-            "These suffixes commonly form nouns."
-          ],
-          [
-            "care + -ful → careful; care + -less → careless",
-            "محتاط؛ لاپرواہ",
-            "خيال ڪندڙ؛ بي پرواهه",
-            "The suffixes create adjectives with contrasting meanings."
-          ],
-          [
-            "quick + -ly → quickly; widen → wide + -en",
-            "تیز → تیزی سے؛ چوڑا کرنا",
-            "تيز → تيزيءَ سان؛ ويڪرو ڪرڻ",
-            "Suffixes may form adverbs or verbs."
-          ]
+      ]
+    },
+    {
+      "title": "14. Common Suffixes and Their Word-Building Functions",
+      "english": "Suffixes are added to the end of a base. Noun-forming suffixes include -ness (kindness), -ment (movement), -tion/-sion (education, decision), -er/-or (teacher, actor), and -ity (activity). Adjective-forming suffixes include -ful (careful), -less (careless), -able/-ible (readable, visible), -ous (dangerous), -al (national), and -ish (childish). Adverb-forming -ly gives quickly and carefully. Verb-forming suffixes include -ise/-ize (modernise/modernize) and -en (widen, strengthen). Some suffixes have more than one function, and not every base accepts every suffix. Spelling may change when a suffix is added: happy → happiness, decide → decision, create → creation, rely → reliable. Learn the complete derived word and its spelling.",
+      "urdu": "Suffix بنیادی لفظ کے آخر میں لگتا ہے۔ اسم بنانے والے suffixes: -ness (kindness)، -ment (movement)، -tion/-sion (education، decision)، -er/-or (teacher، actor) اور -ity (activity)۔ صفت بنانے والے: -ful (careful)، -less (careless)، -able/-ible (readable، visible)، -ous (dangerous)، -al (national)، -ish (childish)۔ -ly سے adverb بنتا ہے: quickly، carefully۔ فعل بنانے والے suffixes میں -ise/-ize (modernise/modernize) اور -en (widen، strengthen) شامل ہیں۔ ہر suffix ہر لفظ کے ساتھ نہیں لگ سکتا، اور املا بدل سکتا ہے: happy → happiness، decide → decision، create → creation، rely → reliable۔ مکمل لفظ یاد کریں۔",
+      "sindhi": "Suffix بنيادي لفظ جي پڇاڙيءَ ۾ لڳندو آهي. اسم ٺاهيندڙ suffix: -ness، -ment، -tion/-sion، -er/-or ۽ -ity. صفت ٺاهيندڙ: -ful، -less، -able/-ible، -ous، -al ۽ -ish. -ly سان adverb ٺهي ٿو: quickly، carefully. فعل ٺاهيندڙ suffix ۾ -ise/-ize ۽ -en شامل آهن. هر suffix هر بنياد سان نٿو لڳي ۽ لکڻي بدلجي سگهي ٿي: happy → happiness، decide → decision، create → creation، rely → reliable. مڪمل لفظ ياد ڪريو.",
+      "examples": [
+        [
+          "kind + -ness → kindness; move + -ment → movement",
+          "مہربانی؛ حرکت",
+          "مهرباني؛ حرڪت",
+          "These suffixes commonly form nouns."
+        ],
+        [
+          "care + -ful → careful; care + -less → careless",
+          "محتاط؛ لاپرواہ",
+          "خيال ڪندڙ؛ بي پرواهه",
+          "The suffixes create adjectives with contrasting meanings."
+        ],
+        [
+          "quick + -ly → quickly; widen → wide + -en",
+          "تیز → تیزی سے؛ چوڑا کرنا",
+          "تيز → تيزيءَ سان؛ ويڪرو ڪرڻ",
+          "Suffixes may form adverbs or verbs."
         ]
-      },
-      {
-        "title": "15. Primary Derivatives and Further Derivatives — Word Families",
-        "english": "A primary derivative is formed directly from a base word: kind → kindness; kind → unkind; teach → teacher; quick → quickly; use → useful. A further derivative can be formed from an already-derived word: kind → unkind → unkindness; nation → national → international; care → careful → carefully; agree → agreement → disagreement. This shows how words grow into families. Identify the immediate base of each new word: unkindness is formed from unkind + -ness, although unkind itself comes from un- + kind. Avoid calling every word in a family a primary derivative; distinguish direct formation from later formation.",
-        "urdu": "Primary derivative براہِ راست بنیادی لفظ سے بنتا ہے: kind → kindness؛ kind → unkind؛ teach → teacher؛ quick → quickly؛ use → useful۔ مزید derivative پہلے سے بنے ہوئے لفظ سے بن سکتا ہے: kind → unkind → unkindness؛ nation → national → international؛ care → careful → carefully؛ agree → agreement → disagreement۔ اس طرح word families بنتے ہیں۔ ہر نئے لفظ کا فوری base پہچانیں: unkindness، unkind + -ness سے بنا ہے، جبکہ unkind خود un- + kind سے بنا۔ ہر لفظ کو primary derivative نہ کہیں؛ براہِ راست اور بعد کی تشکیل میں فرق کریں۔",
-        "sindhi": "Primary derivative سڌو بنيادي لفظ مان ٺهي ٿو: kind → kindness، unkind؛ teach → teacher؛ quick → quickly. وڌيڪ derivative اڳ ۾ ٺهيل لفظ مان ٺهي سگهي ٿو: kind → unkind → unkindness؛ nation → national → international؛ care → careful → carefully. اهڙيءَ طرح لفظي خاندان ٺهن ٿا. هر نئين لفظ جو ويجهو بنياد سڃاڻو: unkindness، unkind + -ness مان ٺهي ٿو، جڏهن ته unkind پاڻ un- + kind مان ٺهيل آهي. سڌي ۽ پوءِ واري لفظ سازيءَ ۾ فرق رکو.",
-        "examples": [
-          [
-            "kind → kindness (direct); kind → unkind → unkindness (step by step)",
-            "مہربان → مہربانی؛ نامہربان → نامہربانی",
-            "مهربان → مهرباني؛ نامهربان → نامهرباني",
-            "Unkindness is a later derivative formed from unkind."
-          ],
-          [
-            "care → careful → carefully",
-            "خیال → محتاط → احتیاط سے",
-            "خيال → خيال ڪندڙ → خيال سان",
-            "Each step adds another suffix."
-          ],
-          [
-            "nation → national → international",
-            "قوم → قومی → بین الاقوامی",
-            "قوم → قومي → بين الاقوامي",
-            "A prefix may be added to an already-derived base."
-          ]
+      ]
+    },
+    {
+      "title": "15. Primary Derivatives and Further Derivatives — Word Families",
+      "english": "A primary derivative is formed directly from a base word: kind → kindness; kind → unkind; teach → teacher; quick → quickly; use → useful. A further derivative can be formed from an already-derived word: kind → unkind → unkindness; nation → national → international; care → careful → carefully; agree → agreement → disagreement. This shows how words grow into families. Identify the immediate base of each new word: unkindness is formed from unkind + -ness, although unkind itself comes from un- + kind. Avoid calling every word in a family a primary derivative; distinguish direct formation from later formation.",
+      "urdu": "Primary derivative براہِ راست بنیادی لفظ سے بنتا ہے: kind → kindness؛ kind → unkind؛ teach → teacher؛ quick → quickly؛ use → useful۔ مزید derivative پہلے سے بنے ہوئے لفظ سے بن سکتا ہے: kind → unkind → unkindness؛ nation → national → international؛ care → careful → carefully؛ agree → agreement → disagreement۔ اس طرح word families بنتے ہیں۔ ہر نئے لفظ کا فوری base پہچانیں: unkindness، unkind + -ness سے بنا ہے، جبکہ unkind خود un- + kind سے بنا۔ ہر لفظ کو primary derivative نہ کہیں؛ براہِ راست اور بعد کی تشکیل میں فرق کریں۔",
+      "sindhi": "Primary derivative سڌو بنيادي لفظ مان ٺهي ٿو: kind → kindness، unkind؛ teach → teacher؛ quick → quickly. وڌيڪ derivative اڳ ۾ ٺهيل لفظ مان ٺهي سگهي ٿو: kind → unkind → unkindness؛ nation → national → international؛ care → careful → carefully. اهڙيءَ طرح لفظي خاندان ٺهن ٿا. هر نئين لفظ جو ويجهو بنياد سڃاڻو: unkindness، unkind + -ness مان ٺهي ٿو، جڏهن ته unkind پاڻ un- + kind مان ٺهيل آهي. سڌي ۽ پوءِ واري لفظ سازيءَ ۾ فرق رکو.",
+      "examples": [
+        [
+          "kind → kindness (direct); kind → unkind → unkindness (step by step)",
+          "مہربان → مہربانی؛ نامہربان → نامہربانی",
+          "مهربان → مهرباني؛ نامهربان → نامهرباني",
+          "Unkindness is a later derivative formed from unkind."
+        ],
+        [
+          "care → careful → carefully",
+          "خیال → محتاط → احتیاط سے",
+          "خيال → خيال ڪندڙ → خيال سان",
+          "Each step adds another suffix."
+        ],
+        [
+          "nation → national → international",
+          "قوم → قومی → بین الاقوامی",
+          "قوم → قومي → بين الاقوامي",
+          "A prefix may be added to an already-derived base."
         ]
-      },
-      {
-        "title": "16. How to Distinguish Compounds from Derivatives",
-        "english": "A compound contains two or more lexical bases: classroom (class + room), sunlight (sun + light), washing machine (washing + machine), and well-being (well + being). A derivative contains a base plus an affix: classroom is not made with a prefix or suffix, while kindness is kind + -ness and unhappy is un- + happy. Some words contain both processes: footballer = football (compound) + -er (suffix); greenhouse-like = greenhouse (compound) + -like (suffix). Do not mistake an ordinary phrase for a compound: a large house is usually an adjective + noun phrase, not a compound noun. A dictionary, established meaning, stress and spelling convention can help, but no single test works for every word.",
-        "urdu": "Compound میں دو یا زیادہ lexical bases ہوتے ہیں: classroom (class + room)، sunlight (sun + light)، washing machine اور well-being۔ Derivative میں base کے ساتھ affix ہوتا ہے: kindness = kind + -ness اور unhappy = un- + happy۔ بعض الفاظ میں دونوں طریقے شامل ہوتے ہیں: footballer = football (compound) + -er (suffix)؛ greenhouse-like = greenhouse + -like۔ عام phrase کو compound نہ سمجھیں: a large house عموماً adjective + noun phrase ہے، compound noun نہیں۔ لغت، مستقل معنی، stress اور املا مدد دے سکتے ہیں، مگر کوئی ایک آزمائش ہر لفظ پر لاگو نہیں ہوتی۔",
-        "sindhi": "Compound ۾ ٻه يا وڌيڪ lexical بنياد هوندا آهن: classroom، sunlight، washing machine ۽ well-being. Derivative ۾ بنياد سان affix هوندو آهي: kindness = kind + -ness ۽ unhappy = un- + happy. ڪجهه لفظن ۾ ٻئي طريقا گڏ هوندا آهن: footballer = football + -er. عام فقري کي compound نه سمجهو: a large house عام adjective + noun phrase آهي. لغت، مقرر معنيٰ، زور ۽ لکڻي مدد ڪن ٿا، پر هڪڙو ئي امتحان هر لفظ لاءِ ڪافي ناهي.",
-        "examples": [
-          [
-            "class + room → classroom (compound); kind + -ness → kindness (derivative)",
-            "کلاس روم؛ مہربانی",
-            "ڪلاس روم؛ مهرباني",
-            "A compound joins bases; a derivative adds an affix."
-          ],
-          [
-            "football + -er → footballer (compound plus suffix)",
-            "فٹبال کھیلنے والا",
-            "فٽبال کيڏندڙ",
-            "A word can be built by more than one process."
-          ],
-          [
-            "a large house (phrase) versus greenhouse (compound)",
-            "ایک بڑا گھر؛ پودے اگانے کا شیشہ گھر",
-            "هڪ وڏو گهر؛ ٻوٽا پوکڻ جو شيشي وارو گهر",
-            "An ordinary adjective phrase is not automatically a compound."
-          ]
+      ]
+    },
+    {
+      "title": "16. How to Distinguish Compounds from Derivatives",
+      "english": "A compound contains two or more lexical bases: classroom (class + room), sunlight (sun + light), washing machine (washing + machine), and well-being (well + being). A derivative contains a base plus an affix: classroom is not made with a prefix or suffix, while kindness is kind + -ness and unhappy is un- + happy. Some words contain both processes: footballer = football (compound) + -er (suffix); greenhouse-like = greenhouse (compound) + -like (suffix). Do not mistake an ordinary phrase for a compound: a large house is usually an adjective + noun phrase, not a compound noun. A dictionary, established meaning, stress and spelling convention can help, but no single test works for every word.",
+      "urdu": "Compound میں دو یا زیادہ lexical bases ہوتے ہیں: classroom (class + room)، sunlight (sun + light)، washing machine اور well-being۔ Derivative میں base کے ساتھ affix ہوتا ہے: kindness = kind + -ness اور unhappy = un- + happy۔ بعض الفاظ میں دونوں طریقے شامل ہوتے ہیں: footballer = football (compound) + -er (suffix)؛ greenhouse-like = greenhouse + -like۔ عام phrase کو compound نہ سمجھیں: a large house عموماً adjective + noun phrase ہے، compound noun نہیں۔ لغت، مستقل معنی، stress اور املا مدد دے سکتے ہیں، مگر کوئی ایک آزمائش ہر لفظ پر لاگو نہیں ہوتی۔",
+      "sindhi": "Compound ۾ ٻه يا وڌيڪ lexical بنياد هوندا آهن: classroom، sunlight، washing machine ۽ well-being. Derivative ۾ بنياد سان affix هوندو آهي: kindness = kind + -ness ۽ unhappy = un- + happy. ڪجهه لفظن ۾ ٻئي طريقا گڏ هوندا آهن: footballer = football + -er. عام فقري کي compound نه سمجهو: a large house عام adjective + noun phrase آهي. لغت، مقرر معنيٰ، زور ۽ لکڻي مدد ڪن ٿا، پر هڪڙو ئي امتحان هر لفظ لاءِ ڪافي ناهي.",
+      "examples": [
+        [
+          "class + room → classroom (compound); kind + -ness → kindness (derivative)",
+          "کلاس روم؛ مہربانی",
+          "ڪلاس روم؛ مهرباني",
+          "A compound joins bases; a derivative adds an affix."
+        ],
+        [
+          "football + -er → footballer (compound plus suffix)",
+          "فٹبال کھیلنے والا",
+          "فٽبال کيڏندڙ",
+          "A word can be built by more than one process."
+        ],
+        [
+          "a large house (phrase) versus greenhouse (compound)",
+          "ایک بڑا گھر؛ پودے اگانے کا شیشہ گھر",
+          "هڪ وڏو گهر؛ ٻوٽا پوکڻ جو شيشي وارو گهر",
+          "An ordinary adjective phrase is not automatically a compound."
         ]
-      },
-      {
-        "title": "17. Practice Exercises with Answers",
-        "english": "A. Identify each as a primary word, compound or derivative: book, toothbrush, kindness, unhappy, bus stop, teacher, sunlight, bedroom. B. Name the pattern in each compound noun: bus driver, blackbird, washing machine, pickpocket, onlooker, take-off, outcome. C. Form a compound adjective: (well + known) writer; (five + year) child; (blue + eyed) girl. D. Add a prefix or suffix: kind (+ -ness); agree (dis-); write (re-); care (+ -ful); happy (+ un-); quick (+ -ly). E. Explain the difference between breakdown and break down, and between a swimming pool and is swimming. Answers: A. book = primary; toothbrush = compound; kindness = derivative; unhappy = derivative; bus stop = compound; teacher = derivative; sunlight = compound; bedroom = compound. B. bus driver = noun + noun; blackbird = adjective + noun; washing machine = gerund + noun; pickpocket = verb + noun; onlooker = preposition/particle + agent noun; take-off = verb + adverb/particle; outcome = adverb/particle + verb-derived element. C. well-known writer; five-year-old child; blue-eyed girl. D. kindness; disagree; rewrite; careful; unhappy; quickly. E. breakdown is a noun, break down is a verb phrase; swimming pool names a thing, is swimming is a verb phrase.",
-        "urdu": "A. ہر لفظ کو primary، compound یا derivative قرار دیں: book، toothbrush، kindness، unhappy، bus stop، teacher، sunlight، bedroom۔ B. compound noun کی ساخت بتائیں: bus driver، blackbird، washing machine، pickpocket، onlooker، take-off، outcome۔ C. compound adjective بنائیں: well + known writer؛ five + year child؛ blue + eyed girl۔ D. prefix یا suffix لگائیں: kind (+ -ness)، agree (dis-)، write (re-)، care (+ -ful)، happy (+ un-)، quick (+ -ly)۔ E. breakdown اور break down، نیز swimming pool اور is swimming میں فرق بتائیں۔ جوابات: A. book primary؛ toothbrush compound؛ kindness derivative؛ unhappy derivative؛ bus stop compound؛ teacher derivative؛ sunlight compound؛ bedroom compound۔ B. bus driver noun + noun؛ blackbird adjective + noun؛ washing machine gerund + noun؛ pickpocket verb + noun؛ onlooker preposition/particle + agent noun؛ take-off verb + adverb/particle؛ outcome adverb/particle + verb-derived element۔ C. well-known writer؛ five-year-old child؛ blue-eyed girl۔ D. kindness؛ disagree؛ rewrite؛ careful؛ unhappy؛ quickly۔ E. breakdown اسم ہے اور break down فعل کی ترکیب؛ swimming pool چیز کا نام ہے اور is swimming فعل کی ترکیب ہے۔",
-        "sindhi": "A. هر لفظ کي primary، compound يا derivative سڃاڻو: book، toothbrush، kindness، unhappy، bus stop، teacher، sunlight، bedroom. B. compound noun جي بناوت ٻڌايو: bus driver، blackbird، washing machine، pickpocket، onlooker، take-off، outcome. C. compound adjective ٺاهيو: well-known writer؛ five-year-old child؛ blue-eyed girl. D. prefix يا suffix لڳايو: kindness، disagree، rewrite، careful، unhappy، quickly. E. breakdown ۽ break down، ۽ swimming pool ۽ is swimming ۾ فرق ٻڌايو. جواب: A. book primary؛ toothbrush compound؛ kindness derivative؛ unhappy derivative؛ bus stop compound؛ teacher derivative؛ sunlight compound؛ bedroom compound. B. bus driver noun + noun؛ blackbird adjective + noun؛ washing machine gerund + noun؛ pickpocket verb + noun؛ onlooker preposition/particle + agent noun؛ take-off verb + adverb/particle؛ outcome adverb/particle + verb-derived element. C. well-known writer؛ five-year-old child؛ blue-eyed girl. D. kindness؛ disagree؛ rewrite؛ careful؛ unhappy؛ quickly. E. breakdown اسم ۽ break down فعل وارو فقرو؛ swimming pool شيءِ جو نالو ۽ is swimming فعل وارو فقرو آهي.",
-        "examples": [
-          [
-            "Primary: book; Compound: toothbrush; Derivative: kindness",
-            "بنیادی: book؛ مرکب: toothbrush؛ مشتق: kindness",
-            "بنيادي: book؛ مرڪب: toothbrush؛ اشتقاقي: kindness",
-            "Identify the formation process, not merely the number of syllables."
-          ],
-          [
-            "Noun + noun: bus driver; Gerund + noun: washing machine",
-            "اسم + اسم؛ gerund + اسم",
-            "اسم + اسم؛ gerund + اسم",
-            "Look at the grammatical role of each element."
-          ],
-          [
-            "well-known writer; five-year-old child; blue-eyed girl",
-            "مشہور مصنف؛ پانچ سالہ بچہ؛ نیلی آنکھوں والی لڑکی",
-            "مشهور ليکڪ؛ پنجن سالن جو ٻار؛ نيري اکين واري ڇوڪري",
-            "Hyphens make the combined adjective clear before a noun."
-          ]
+      ]
+    },
+    {
+      "title": "17. Practice Exercises with Answers",
+      "english": "A. Identify each as a primary word, compound or derivative: book, toothbrush, kindness, unhappy, bus stop, teacher, sunlight, bedroom. B. Name the pattern in each compound noun: bus driver, blackbird, washing machine, pickpocket, onlooker, take-off, outcome. C. Form a compound adjective: (well + known) writer; (five + year) child; (blue + eyed) girl. D. Add a prefix or suffix: kind (+ -ness); agree (dis-); write (re-); care (+ -ful); happy (+ un-); quick (+ -ly). E. Explain the difference between breakdown and break down, and between a swimming pool and is swimming. Answers: A. book = primary; toothbrush = compound; kindness = derivative; unhappy = derivative; bus stop = compound; teacher = derivative; sunlight = compound; bedroom = compound. B. bus driver = noun + noun; blackbird = adjective + noun; washing machine = gerund + noun; pickpocket = verb + noun; onlooker = preposition/particle + agent noun; take-off = verb + adverb/particle; outcome = adverb/particle + verb-derived element. C. well-known writer; five-year-old child; blue-eyed girl. D. kindness; disagree; rewrite; careful; unhappy; quickly. E. breakdown is a noun, break down is a verb phrase; swimming pool names a thing, is swimming is a verb phrase.",
+      "urdu": "A. ہر لفظ کو primary، compound یا derivative قرار دیں: book، toothbrush، kindness، unhappy، bus stop، teacher، sunlight، bedroom۔ B. compound noun کی ساخت بتائیں: bus driver، blackbird، washing machine، pickpocket، onlooker، take-off، outcome۔ C. compound adjective بنائیں: well + known writer؛ five + year child؛ blue + eyed girl۔ D. prefix یا suffix لگائیں: kind (+ -ness)، agree (dis-)، write (re-)، care (+ -ful)، happy (+ un-)، quick (+ -ly)۔ E. breakdown اور break down، نیز swimming pool اور is swimming میں فرق بتائیں۔ جوابات: A. book primary؛ toothbrush compound؛ kindness derivative؛ unhappy derivative؛ bus stop compound؛ teacher derivative؛ sunlight compound؛ bedroom compound۔ B. bus driver noun + noun؛ blackbird adjective + noun؛ washing machine gerund + noun؛ pickpocket verb + noun؛ onlooker preposition/particle + agent noun؛ take-off verb + adverb/particle؛ outcome adverb/particle + verb-derived element۔ C. well-known writer؛ five-year-old child؛ blue-eyed girl۔ D. kindness؛ disagree؛ rewrite؛ careful؛ unhappy؛ quickly۔ E. breakdown اسم ہے اور break down فعل کی ترکیب؛ swimming pool چیز کا نام ہے اور is swimming فعل کی ترکیب ہے۔",
+      "sindhi": "A. هر لفظ کي primary، compound يا derivative سڃاڻو: book، toothbrush، kindness، unhappy، bus stop، teacher، sunlight، bedroom. B. compound noun جي بناوت ٻڌايو: bus driver، blackbird، washing machine، pickpocket، onlooker، take-off، outcome. C. compound adjective ٺاهيو: well-known writer؛ five-year-old child؛ blue-eyed girl. D. prefix يا suffix لڳايو: kindness، disagree، rewrite، careful، unhappy، quickly. E. breakdown ۽ break down، ۽ swimming pool ۽ is swimming ۾ فرق ٻڌايو. جواب: A. book primary؛ toothbrush compound؛ kindness derivative؛ unhappy derivative؛ bus stop compound؛ teacher derivative؛ sunlight compound؛ bedroom compound. B. bus driver noun + noun؛ blackbird adjective + noun؛ washing machine gerund + noun؛ pickpocket verb + noun؛ onlooker preposition/particle + agent noun؛ take-off verb + adverb/particle؛ outcome adverb/particle + verb-derived element. C. well-known writer؛ five-year-old child؛ blue-eyed girl. D. kindness؛ disagree؛ rewrite؛ careful؛ unhappy؛ quickly. E. breakdown اسم ۽ break down فعل وارو فقرو؛ swimming pool شيءِ جو نالو ۽ is swimming فعل وارو فقرو آهي.",
+      "examples": [
+        [
+          "Primary: book; Compound: toothbrush; Derivative: kindness",
+          "بنیادی: book؛ مرکب: toothbrush؛ مشتق: kindness",
+          "بنيادي: book؛ مرڪب: toothbrush؛ اشتقاقي: kindness",
+          "Identify the formation process, not merely the number of syllables."
+        ],
+        [
+          "Noun + noun: bus driver; Gerund + noun: washing machine",
+          "اسم + اسم؛ gerund + اسم",
+          "اسم + اسم؛ gerund + اسم",
+          "Look at the grammatical role of each element."
+        ],
+        [
+          "well-known writer; five-year-old child; blue-eyed girl",
+          "مشہور مصنف؛ پانچ سالہ بچہ؛ نیلی آنکھوں والی لڑکی",
+          "مشهور ليکڪ؛ پنجن سالن جو ٻار؛ نيري اکين واري ڇوڪري",
+          "Hyphens make the combined adjective clear before a noun."
         ]
-      }
-    ]
-  }
+      ]
+    },
+    {
+      "title": "18. Secondary Derivatives",
+      "english": "A secondary derivative is formed from a word that is already derived, rather than directly from the original primary base. It is therefore a later step in a word family. Examples: beauty → beautiful → beautifully; nation → national → nationalise/nationalize; nation → national → international; care → careful → carefully; use → useful → uselessness; friend → friendly → friendliness. In beautiful, -ful is added to beauty; in beautifully, -ly is added to beautiful. In international, inter- is added to national, which is related to nation. Always identify the immediate base: friendliness = friendly + -ness, not simply friend + -ness. A word may contain several affixes, and spelling or pronunciation can change as the word develops.",
+      "urdu": "Secondary derivative وہ لفظ ہے جو کسی پہلے سے مشتق لفظ سے مزید prefix یا suffix لگا کر بنتا ہے، نہ کہ براہِ راست اصل بنیادی لفظ سے۔ مثالیں: beauty → beautiful → beautifully؛ nation → national → international؛ care → careful → carefully؛ friend → friendly → friendliness۔ beautiful میں beauty کے ساتھ -ful لگا ہے، پھر beautifully میں beautiful کے ساتھ -ly۔ ہر لفظ کا فوری base پہچانیں: friendliness = friendly + -ness۔ ایک لفظ میں کئی affixes ہو سکتے ہیں اور املا یا تلفظ بھی بدل سکتا ہے۔",
+      "sindhi": "Secondary derivative اهو لفظ آهي جيڪو اڳ ۾ ٺهيل derivative مان وڌيڪ prefix يا suffix لڳائڻ سان ٺهي ٿو. مثال: beauty → beautiful → beautifully؛ nation → national → international؛ care → careful → carefully؛ friend → friendly → friendliness. beautifully، beautiful + -ly مان ٺهي ٿو. هر لفظ جو ويجهو بنياد سڃاڻو: friendliness = friendly + -ness. هڪ لفظ ۾ ڪيترائي affixes ٿي سگهن ٿا ۽ لکڻي يا اچار به بدلجي سگهي ٿو.",
+      "examples": [
+        [
+          "beauty → beautiful → beautifully",
+          "حسن → خوبصورت → خوبصورتی سے",
+          "حسن → سهڻو → سهڻي نموني",
+          "Each stage adds an affix to the immediately preceding word."
+        ],
+        [
+          "friend → friendly → friendliness",
+          "دوست → دوستانہ → دوستانہ پن",
+          "دوست → دوستاڻو → دوستاڻائپ",
+          "Friendliness is formed from friendly + -ness."
+        ],
+        [
+          "nation → national → international",
+          "قوم → قومی → بین الاقوامی",
+          "قوم → قومي → بين الاقوامي",
+          "The prefix inter- is added to an already-derived form."
+        ]
+      ]
+    },
+    {
+      "title": "19. English Prefixes",
+      "english": "English prefixes are native or long-established English word beginnings added before a base. They commonly express negation, reversal, repetition, time, degree, position or relationship. un-: unhappy, untie (not/reverse); dis-: disagree, disconnect (opposite/remove); mis-: misread, misunderstand (wrongly); re-: rewrite, rebuild (again); over-: overcook, overwork (too much); under-: underpay, undercook (too little/below); out-: outnumber, outgrow (exceed); fore-: foretell, forecast (before); be-: befriend, belittle (make/cause or provide with); en-/em-: enable, encircle, empower (cause to be/put into). Prefixes normally do not require a hyphen: unhappy, rewrite, overcook. Use a hyphen where it prevents confusion, before a proper name or where a dictionary/style guide requires it: ex-president, re-enter (to distinguish from reenter in some styles). A prefix does not always create a perfectly opposite meaning; learn the whole word.",
+      "urdu": "English prefixes وہ ابتدائی حصے ہیں جو بنیادی لفظ سے پہلے لگتے ہیں۔ یہ نفی، الٹ عمل، تکرار، وقت، مقدار یا تعلق ظاہر کر سکتے ہیں۔ un-: unhappy، untie؛ dis-: disagree، disconnect؛ mis-: misread، misunderstand؛ re-: rewrite، rebuild؛ over-: overcook، overwork؛ under-: underpay، undercook؛ out-: outnumber، outgrow؛ fore-: foretell، forecast؛ be-: befriend، belittle؛ en-/em-: enable، encircle، empower۔ عام طور پر hyphen نہیں لگتا، مگر وضاحت، proper name یا لغوی رواج کے لیے لگ سکتا ہے، مثلاً ex-president، re-enter۔ ہر prefix ہمیشہ مکمل متضاد معنی نہیں دیتا۔",
+      "sindhi": "English prefixes بنيادي لفظ کان اڳ لڳن ٿا ۽ نفي، ابتڙ عمل، ٻيهر ٿيڻ، وقت، مقدار يا لاڳاپو ظاهر ڪن ٿا. un-، dis-، mis-، re-، over-، under-، out-، fore-، be- ۽ en-/em- جا مثال: unhappy، disagree، misread، rewrite، overcook، underpay، outnumber، forecast، befriend، enable. عام طور hyphen نه لڳندو، پر وضاحت يا رائج قاعدي موجب لڳي سگهي ٿو، مثال ex-president ۽ re-enter. Prefix هر ڀيري مڪمل ابتڙ معنيٰ نٿو ڏئي.",
+      "examples": [
+        [
+          "un + tie → untie; re + build → rebuild",
+          "کھولنا؛ دوبارہ تعمیر کرنا",
+          "کولڻ؛ ٻيهر ٺاهڻ",
+          "un- reverses an action; re- means again."
+        ],
+        [
+          "mis + understand → misunderstand; over + cook → overcook",
+          "غلط سمجھنا؛ حد سے زیادہ پکانا",
+          "غلط سمجهڻ؛ حد کان وڌيڪ پچائڻ",
+          "mis- indicates error; over- indicates excess."
+        ],
+        [
+          "under + pay → underpay; out + number → outnumber",
+          "کم اجرت دینا؛ تعداد میں زیادہ ہونا",
+          "گهٽ اجرت ڏيڻ؛ تعداد ۾ وڌيڪ هجڻ",
+          "under- indicates insufficiency; out- can indicate exceeding."
+        ]
+      ]
+    },
+    {
+      "title": "20. Latin Prefixes",
+      "english": "Many English words use prefixes borrowed from Latin. Common Latin prefixes include ab-/abs- (away/from: abnormal, absent); ad- (to/towards: admit, advance); ante- (before: anteroom, antecedent); circum- (around: circumference, circumnavigate); contra-/counter- (against: contradict, counteract); de- (down/away/reversal: decrease, defrost); dis-/dif- (apart/not: divide, differ); ex- (out/former: export, ex-president); extra- (beyond: extraordinary); in-/im-/il-/ir- (in/not: import, inactive, impossible, illegal, irregular); inter- (between: interact, international); intra- (within: intranet); intro- (inward: introduce); post- (after: postwar); pre- (before: predict, preview); pro- (for/forward: promote, pro-European); sub- (under: submarine, substandard); super- (above/beyond: superior, superhuman); trans- (across: transport, transform); ultra- (beyond: ultraviolet). Some forms assimilate to the first sound of the base: ad- appears as ac- in accept, af- in affect, ag- in aggravate, and as other forms in related words. Do not assume every similar-looking beginning is a productive prefix in modern English; check the word's meaning and dictionary entry.",
+      "urdu": "انگریزی کے بہت سے الفاظ میں لاطینی اصل کے prefixes استعمال ہوتے ہیں۔ عام مثالیں: ab-/abs- (دور: absent)، ad- (کی طرف: advance)، ante- (پہلے: antecedent)، circum- (اردگرد: circumference)، contra-/counter- (مخالف: contradict)، de- (کم/الٹ: decrease، defrost)، ex- (باہر/سابق: export، ex-president)، extra- (حد سے باہر: extraordinary)، in-/im-/il-/ir- (اندر یا نفی: import، impossible، illegal، irregular)، inter- (درمیان: international)، intra- (اندر: intranet)، post- (بعد: postwar)، pre- (پہلے: preview)، sub- (نیچے: submarine)، super- (اوپر: superhuman)، trans- (پار: transport)، ultra- (حد سے آگے: ultraviolet)۔ بعض prefixes اگلی آواز کے مطابق شکل بدلتے ہیں، مثلاً ad- سے accept میں ac- اور affect میں af-۔ ہر ملتے جلتے ابتدائی حروف کو لازماً prefix نہ سمجھیں؛ لغت سے تصدیق کریں۔",
+      "sindhi": "انگريزيءَ جي ڪيترن لفظن ۾ لاطيني اصل جا prefixes آهن. مثال: ab-/abs- (پري)، ad- (ڏانهن)، ante- (اڳ)، circum- (چوڌاري)، contra-/counter- (مخالف)، de- (هيٺ/ابتڙ)، ex- (ٻاهر/اڳوڻو)، extra- (حد کان ٻاهر)، in-/im-/il-/ir- (اندر يا نفي)، inter- (وچ ۾)، intra- (اندر)، post- (پوءِ)، pre- (اڳ)، sub- (هيٺ)، super- (مٿي)، trans- (پار) ۽ ultra- (حد کان اڳتي). ڪجهه صورتون ايندڙ آواز موجب بدلجن ٿيون، جيئن ad- مان accept ۾ ac- ۽ affect ۾ af-. هر مشابهت رکندڙ شروعات کي prefix نه سمجهو؛ لغت ڏسو.",
+      "examples": [
+        [
+          "circum + navigate → circumnavigate",
+          "دنیا کے گرد سفر کرنا",
+          "دنيا جي چوڌاري سفر ڪرڻ",
+          "circum- means around."
+        ],
+        [
+          "inter + national → international; trans + port → transport",
+          "بین الاقوامی؛ نقل و حمل کرنا",
+          "بين الاقوامي؛ کڻي وڃڻ",
+          "inter- means between; trans- means across."
+        ],
+        [
+          "sub + marine → submarine; pre + view → preview",
+          "آبدوز؛ پیشگی منظر",
+          "آبدوز؛ اڳواٽ جائزو",
+          "sub- means under; pre- means before."
+        ]
+      ]
+    },
+    {
+      "title": "21. Greek Prefixes",
+      "english": "Greek-derived prefixes are especially common in scientific, medical and academic vocabulary. Common examples: a-/an- (not/without: amoral, anaerobic); anti- (against: antibiotic, anti-social); auto- (self: autobiography, automatic); bio- (life: biology, biodegradable); chrono- (time: chronology); hyper- (over/excessive: hypertension, hyperactive); hypo- (under/low: hypodermic, hypothermia); micro- (small: microscope, micro-organism); macro- (large: macroeconomics); mono- (one: monologue); poly- (many: polygon); pan- (all: panorama, pan-African); neo- (new: neoclassical); paleo- (ancient: palaeontology); tele- (far: telephone, television); photo- (light: photograph); phon- (sound: phonetics); pseudo- (false: pseudonym); syn-/sym- (together: synthesis, sympathy); meta- (beyond/change/about: metaphysics, metadata). Greek elements often combine with other Greek or Latin elements in technical words. Their spelling and hyphenation follow established usage; for example, microorganism is often closed, while anti-inflammatory is commonly hyphenated.",
+      "urdu": "یونانی اصل کے prefixes خاص طور پر سائنس، طب اور تعلیمی اصطلاحات میں عام ہیں۔ a-/an- (بغیر: anaerobic)، anti- (مخالف: antibiotic)، auto- (خود: autobiography)، bio- (زندگی: biology)، chrono- (وقت: chronology)، hyper- (زیادہ: hyperactive)، hypo- (کم: hypothermia)، micro- (چھوٹا: microscope)، macro- (بڑا: macroeconomics)، mono- (ایک: monologue)، poly- (بہت سے: polygon)، pan- (تمام: panorama)، neo- (نیا: neoclassical)، paleo- (قدیم: palaeontology)، tele- (دور: telephone)، photo- (روشنی: photograph)، phon- (آواز: phonetics)، pseudo- (جھوٹا: pseudonym)، syn-/sym- (اکٹھا: synthesis، sympathy) اور meta- (ماورا/تبدیلی: metadata)۔ یہ عناصر اکثر سائنسی الفاظ میں ملتے ہیں۔ املا اور hyphen لغوی رواج کے مطابق استعمال کریں۔",
+      "sindhi": "يوناني اصل جا prefixes خاص طور سائنس، طب ۽ تعليمي اصطلاحن ۾ عام آهن. مثال: a-/an- (بغير)، anti- (مخالف)، auto- (پاڻ)، bio- (زندگي)، chrono- (وقت)، hyper- (حد کان وڌيڪ)، hypo- (گهٽ)، micro- (ننڍو)، macro- (وڏو)، mono- (هڪ)، poly- (گهڻا)، pan- (سڀ)، neo- (نئون)، paleo- (قديم)، tele- (پري)، photo- (روشني)، phon- (آواز)، pseudo- (ڪوڙو)، syn-/sym- (گڏ) ۽ meta- (تبديلي/ماورا). اهي عنصر سائنسي لفظن ۾ گڏ ٿين ٿا. لکڻي ۽ hyphen رائج لغوي صورت موجب رکو.",
+      "examples": [
+        [
+          "bio + logy → biology; micro + scope → microscope",
+          "حیاتیات؛ خوردبین",
+          "حياتيات؛ خوردبين",
+          "bio- relates to life; micro- means small."
+        ],
+        [
+          "hyper + active → hyperactive; hypo + thermia → hypothermia",
+          "حد سے زیادہ فعال؛ جسم کا درجۂ حرارت کم ہونا",
+          "حد کان وڌيڪ سرگرم؛ جسم جو گرمي پد گهٽ ٿيڻ",
+          "hyper- indicates excess; hypo- indicates below/low."
+        ],
+        [
+          "auto + biography → autobiography; tele + phone → telephone",
+          "خود نوشت؛ ٹیلی فون",
+          "آتم ڪهاڻي؛ ٽيليفون",
+          "auto- means self; tele- means far."
+        ]
+      ]
+    },
+    {
+      "title": "22. English Suffixes — Nouns",
+      "english": "English noun-forming suffixes create nouns for people, actions, states, qualities, results or instruments. -er/-or: person who does an action (teacher, actor); -ist: person with a belief, skill or occupation (artist, scientist); -ian: person associated with a place or profession (musician, librarian); -ess: traditionally feminine person noun (actress, hostess; usage is now often avoided where a neutral form exists); -ness: state or quality (kindness, darkness); -ment: action/result/state (movement, enjoyment); -ing: action or activity (reading, swimming); -hood: state or period (childhood, brotherhood); -ship: state, skill or relationship (friendship, leadership); -dom: state/domain (freedom, kingdom); -ity/-ty: quality or condition (activity, safety); -ance/-ence: state or process (importance, difference); -tion/-sion/-ation: action or result (education, decision, preparation); -al: action/result (arrival, refusal); -ure: result/state (failure, departure); -age: result/collection/charge (breakage, baggage, postage); -ery/-ry: place/activity/collection (bakery, bravery); -let: small example (booklet); -ling: young/small person or thing (duckling); -ism: system or doctrine (realism); -ist: adherent/specialist (capitalist); -cy: state/quality (accuracy). Not every suffix can be attached freely to every base; many words have fixed spellings and stress patterns.",
+      "urdu": "English میں noun بنانے والے suffixes شخص، عمل، حالت، خوبی، نتیجہ یا آلہ ظاہر کرتے ہیں۔ -er/-or: کام کرنے والا (teacher، actor)؛ -ist: ماہر یا نظریے کا پیرو (artist، scientist)؛ -ian: پیشے یا جگہ سے تعلق رکھنے والا (musician، librarian)؛ -ness: کیفیت (kindness، darkness)؛ -ment: عمل یا نتیجہ (movement، enjoyment)؛ -ing: سرگرمی (reading، swimming)؛ -hood: حالت یا دور (childhood)؛ -ship: تعلق یا مہارت (friendship، leadership)؛ -dom: حالت یا دائرہ (freedom، kingdom)؛ -ity/-ty: خوبی یا حالت (activity، safety)؛ -ance/-ence: حالت یا عمل (importance، difference)؛ -tion/-sion/-ation: عمل یا نتیجہ (education، decision، preparation)؛ -al: نتیجہ (arrival)؛ -ure: حالت یا نتیجہ (failure)؛ -age: نتیجہ یا مجموعہ (breakage، baggage)؛ -ery/-ry: جگہ یا سرگرمی (bakery، bravery)؛ -let: چھوٹی چیز (booklet)؛ -ling: چھوٹا یا کم عمر (duckling)؛ -ism: نظام یا نظریہ (realism)؛ -cy: کیفیت (accuracy)۔ ہر suffix ہر base کے ساتھ نہیں لگتا؛ رائج املا یاد کریں۔",
+      "sindhi": "English ۾ noun ٺاهيندڙ suffix ماڻهو، عمل، حالت، خوبي، نتيجو يا اوزار ظاهر ڪن ٿا. -er/-or (teacher، actor)، -ist (artist)، -ian (musician)، -ness (kindness)، -ment (movement)، -ing (reading)، -hood (childhood)، -ship (friendship)، -dom (freedom)، -ity/-ty (activity، safety)، -ance/-ence (importance، difference)، -tion/-sion (education، decision)، -al (arrival)، -ure (failure)، -age (breakage)، -ery/-ry (bakery)، -let (booklet)، -ling (duckling)، -ism (realism) ۽ -cy (accuracy). اهي ماڻهو، عمل، حالت، خوبي يا نتيجو ٻڌائين ٿا. هر suffix هر بنياد سان نٿو لڳي؛ رائج لکڻي ياد ڪريو.",
+      "examples": [
+        [
+          "teach + -er → teacher; act + -or → actor",
+          "پڑھانا → استاد؛ اداکاری کرنا → اداکار",
+          "پڙهائڻ → استاد؛ اداڪاري ڪرڻ → اداڪار",
+          "-er and -or often name a person who performs an action."
+        ],
+        [
+          "kind + -ness → kindness; friend + -ship → friendship",
+          "مہربانی؛ دوستی",
+          "مهرباني؛ دوستي",
+          "-ness and -ship form abstract nouns."
+        ],
+        [
+          "educate + -ion → education; differ + -ence → difference",
+          "تعلیم؛ فرق",
+          "تعليم؛ فرق",
+          "Some suffixes require a spelling change in the base."
+        ]
+      ]
+    },
+    {
+      "title": "23. English Suffixes — Adjectives",
+      "english": "English adjective-forming suffixes describe qualities, states, origins or possibilities. -able/-ible: can be (readable, visible); -al/-ial: relating to (natural, cultural, financial); -ful: full of (careful, useful); -less: without (careless, homeless); -ous/-ious: having a quality (dangerous, curious); -ic/-ical: relating to (historic, musical); -ish: somewhat/like or associated with (greenish, childish); -y: characterised by (rainy, cloudy); -ly: having the nature of (friendly, lively); -en: made of (wooden, golden); -ary: relating to (ordinary, secondary); -ant/-ent: having a quality or performing a role (important, different); -some: causing or characterised by (troublesome, handsome); -like: similar to (childlike, lifelike). Note that -ly can also form adverbs, but friendly and lovely are adjectives. Some pairs differ in meaning: childlike often suggests innocence, while childish often suggests immaturity.",
+      "urdu": "English میں adjective بنانے والے suffixes خوبی، حالت، اصل یا امکان بیان کرتے ہیں۔ -able/-ible: جس کے قابل ہو (readable، visible)؛ -al/-ial: متعلقہ (natural، cultural)؛ -ful: سے بھرا (careful، useful)؛ -less: بغیر (careless، homeless)؛ -ous/-ious: صفت رکھنے والا (dangerous، curious)؛ -ic/-ical: متعلقہ (historic، musical)؛ -ish: کسی حد تک یا جیسا (greenish، childish)؛ -y: خصوصیت رکھنے والا (rainy، cloudy)؛ -ly: جیسا (friendly، lively)؛ -en: کسی مادے کا بنا (wooden، golden)؛ -ary: متعلقہ (ordinary، secondary)؛ -ant/-ent: صفت رکھنے والا (important، different)؛ -some: کیفیت پیدا کرنے والا (troublesome)؛ -like: جیسا (childlike)۔ یاد رکھیں friendly اور lovely adjectives ہیں، adverbs نہیں۔ childlike اور childish کے معنی بھی مختلف ہو سکتے ہیں۔",
+      "sindhi": "English ۾ adjective ٺاهيندڙ suffix خوبي، حالت، اصل يا امڪان ٻڌائين ٿا. -able/-ible (readable)، -al/-ial (natural)، -ful (useful)، -less (careless)، -ous/-ious (dangerous)، -ic/-ical (musical)، -ish (greenish)، -y (rainy)، -ly (friendly)، -en (wooden)، -ary (ordinary)، -ant/-ent (important)، -some (troublesome) ۽ -like (childlike). ياد رکو ته friendly ۽ lovely صفتون آهن، adverb نه. childlike ۽ childish جي معنائن ۾ به فرق ٿي سگهي ٿو.",
+      "examples": [
+        [
+          "care + -ful → careful; care + -less → careless",
+          "محتاط؛ لاپرواہ",
+          "خيال ڪندڙ؛ بي پرواهه",
+          "-ful and -less can express contrasting qualities."
+        ],
+        [
+          "read + -able → readable; danger + -ous → dangerous",
+          "قابلِ مطالعہ؛ خطرناک",
+          "پڙهڻ جوڳو؛ خطرناڪ",
+          "-able expresses possibility; -ous expresses a quality."
+        ],
+        [
+          "friend + -ly → friendly; wood + -en → wooden",
+          "دوستانہ؛ لکڑی کا بنا",
+          "دوستاڻو؛ ڪاٺ جو ٺهيل",
+          "These suffixes form adjectives."
+        ]
+      ]
+    },
+    {
+      "title": "24. English Suffixes — Adverbs",
+      "english": "The most productive English adverb-forming suffix is -ly, usually added to an adjective: quick → quickly, careful → carefully, happy → happily, gentle → gently. Spelling changes include y → i before -ly (happy → happily), and dropping final e in some words (true → truly, due → duly). Other adverbial endings include -ward/-wards (backward/backwards, homeward/homewards), -wise (clockwise, lengthwise, otherwise), and -ways (sideways, lengthways). Not every word ending in -ly is an adverb: friendly, costly, lively and lonely are adjectives. Also, not every adverb ends in -ly: fast, hard, late, well and often are adverbs. Avoid confusing hard (with effort) and hardly (almost not), or late (not early) and lately (recently).",
+      "urdu": "English میں adverb بنانے کا سب سے عام suffix -ly ہے، جو عموماً adjective کے ساتھ لگتا ہے: quick → quickly، careful → carefully، happy → happily، gentle → gently۔ بعض املا کی تبدیلیاں ہوتی ہیں: y بدل کر i (happy → happily)، اور بعض الفاظ میں آخری e حذف (true → truly)۔ دوسرے endings: -ward/-wards (backwards)، -wise (clockwise، otherwise)، -ways (sideways)۔ ہر -ly والا لفظ adverb نہیں؛ friendly، costly، lively اور lonely adjectives ہیں۔ ہر adverb بھی -ly پر ختم نہیں ہوتا: fast، hard، late، well۔ hard/hardly اور late/lately کے معنی الگ ہیں۔",
+      "sindhi": "English ۾ adverb ٺاهڻ لاءِ سڀ کان عام suffix -ly آهي: quick → quickly، careful → carefully، happy → happily. ڪڏهن y بدلجي i ٿئي ٿو ۽ ڪڏهن آخري e ختم ٿئي ٿو: true → truly. ٻيا endings -ward/-wards، -wise ۽ -ways آهن، مثال backwards، clockwise ۽ sideways. هر -ly وارو لفظ adverb ناهي؛ friendly، costly ۽ lively صفتون آهن. هر adverb به -ly تي ختم نٿو ٿئي: fast، hard، late، well. hard ۽ hardly، late ۽ lately جون معنائون مختلف آهن.",
+      "examples": [
+        [
+          "quick → quickly; happy → happily",
+          "تیز → تیزی سے؛ خوش → خوشی سے",
+          "تيز → تيزيءَ سان؛ خوش → خوشيءَ سان",
+          "-ly commonly forms adverbs from adjectives."
+        ],
+        [
+          "true → truly; gentle → gently",
+          "سچا → سچ مچ؛ نرم → نرمی سے",
+          "سچو → سچ پچ؛ نرم → نرميءَ سان",
+          "Spelling may change before the suffix."
+        ],
+        [
+          "clock + -wise → clockwise; side + -ways → sideways",
+          "گھڑی کی سمت؛ پہلو کی طرف",
+          "گهڙيءَ جي رخ ۾؛ پاسي ڏانهن",
+          "-wise and -ways form adverbs of manner or direction."
+        ]
+      ]
+    },
+    {
+      "title": "25. English Suffixes — Verbs",
+      "english": "English verb-forming suffixes include -ise/-ize, -ify, -en and -ate. -ise/-ize forms verbs meaning make, become or treat in a particular way: modernise/modernize, organise/organize, realise/realize. British English commonly uses -ise in many words, but -ize is also accepted by major British dictionaries and publishers; be consistent with the chosen house style. -ify means make or cause to become: simplify, clarify, beautify, solidify. -en often means make or become: widen, strengthen, deepen, shorten. -ate appears in verbs such as activate, motivate, educate and regulate. These suffixes do not attach freely to every adjective or noun; many forms are established vocabulary. Some verbs have spelling changes: beauty → beautify, simple → simplify, strong → strengthen.",
+      "urdu": "English میں verb بنانے والے اہم suffixes -ise/-ize، -ify، -en اور -ate ہیں۔ -ise/-ize کسی چیز کو بنانا، بدلنا یا کسی انداز سے عمل کرنا ظاہر کرتا ہے: modernise/modernize، organise/organize، realise/realize۔ British English میں کئی الفاظ کے لیے -ise عام ہے، مگر بڑے برطانوی لغات اور ناشرین -ize کو بھی قبول کرتے ہیں؛ ایک ہی طرز برقرار رکھیں۔ -ify کا مطلب بنانا یا تبدیل کرنا ہے: simplify، clarify، beautify۔ -en: widen، strengthen، deepen، shorten۔ -ate: activate، motivate، educate، regulate۔ ہر suffix ہر لفظ کے ساتھ نہیں لگتا۔",
+      "sindhi": "English ۾ verb ٺاهيندڙ اهم suffix -ise/-ize، -ify، -en ۽ -ate آهن. -ise/-ize ڪنهن شيءِ کي بڻائڻ يا بدلائڻ ڏيکاري ٿو: modernise/modernize، organise/organize. British English ۾ -ise عام آهي، پر ڪيترائي معتبر برطانوي لغت -ize کي به قبول ڪن ٿا؛ هڪ ئي انداز اختيار ڪريو. -ify: simplify، clarify، beautify؛ -en: widen، strengthen، deepen؛ -ate: activate، motivate، educate. هر suffix هر لفظ سان نٿو لڳي.",
+      "examples": [
+        [
+          "modern + -ise → modernise; organ + -ise → organise",
+          "جدید بنانا؛ منظم کرنا",
+          "جديد بڻائڻ؛ منظم ڪرڻ",
+          "-ise/-ize commonly forms verbs."
+        ],
+        [
+          "simple → simplify; beauty → beautify",
+          "سادہ بنانا؛ خوبصورت بنانا",
+          "سولو ڪرڻ؛ سهڻو بڻائڻ",
+          "-ify can involve a spelling change."
+        ],
+        [
+          "wide → widen; strong → strengthen",
+          "چوڑا کرنا؛ مضبوط کرنا",
+          "ويڪرو ڪرڻ؛ مضبوط ڪرڻ",
+          "-en often means make or become."
+        ]
+      ]
+    },
+    {
+      "title": "26. Latin Suffixes — Nouns",
+      "english": "A number of English noun suffixes come from Latin, often through French. -tion/-sion/-ation: action, process or result (creation, division, preparation); -ity/-ty: state or quality (activity, equality, loyalty); -ance/-ence: state or action (importance, existence, dependence); -ment: result or process (development, agreement; historically from French/Latin sources); -al: action or result (arrival, refusal); -ure: act, result or state (closure, exposure); -age: action, result or collection (marriage, passage, percentage); -ary: place, person or collection in certain words (aviary, dictionary); -orium/-orium-related forms: place or instrument (auditorium, crematorium); -or/-ator: person or agent (actor, operator); -tude: state or quality (attitude, magnitude); -ice: state or quality (justice, service). These endings often involve changes to the base: decide → decision, permit → permission, active → activity, equal → equality. Learn the full spelling, not only the suffix.",
+      "urdu": "انگریزی کے کئی noun suffixes لاطینی یا فرانسیسی کے ذریعے آئے ہیں۔ -tion/-sion/-ation: عمل یا نتیجہ (creation، division، preparation)؛ -ity/-ty: حالت یا خوبی (activity، equality)؛ -ance/-ence: حالت یا عمل (importance، existence)؛ -ment: نتیجہ یا عمل (development، agreement)؛ -al: نتیجہ (arrival، refusal)؛ -ure: عمل یا حالت (closure، exposure)؛ -age: عمل یا مجموعہ (marriage، passage)؛ -ary: جگہ یا متعلقہ اسم (aviary، dictionary)؛ -orium: جگہ (auditorium)؛ -or/-ator: کام کرنے والا (actor، operator)؛ -tude: حالت (attitude، magnitude)؛ -ice: حالت یا خوبی (justice، service)۔ اکثر base کا املا بھی بدلتا ہے: decide → decision، permit → permission، active → activity، equal → equality۔",
+      "sindhi": "English جا ڪيترائي noun suffix لاطيني يا فرينچ وسيلي آيا آهن. -tion/-sion/-ation (creation، division)، -ity/-ty (activity، equality)، -ance/-ence (importance، existence)، -ment (development)، -al (arrival)، -ure (closure)، -age (marriage)، -ary (dictionary)، -orium (auditorium)، -or/-ator (actor، operator)، -tude (attitude) ۽ -ice (justice). اهي عمل، نتيجو، حالت، خوبي، جاءِ يا ڪم ڪندڙ شخص ظاهر ڪن ٿا. اڪثر بنيادي لفظ جي لکڻي بدلجي ٿي: decide → decision، permit → permission، active → activity.",
+      "examples": [
+        [
+          "create → creation; divide → division",
+          "تخلیق؛ تقسیم",
+          "تخليق؛ ورهاست",
+          "-tion and -sion form nouns; the base may change."
+        ],
+        [
+          "active → activity; equal → equality",
+          "سرگرمی؛ مساوات",
+          "سرگرمي؛ برابري",
+          "-ity often forms abstract nouns."
+        ],
+        [
+          "operate → operator; attend → attendance",
+          "آپریٹر؛ حاضری",
+          "هلائيندڙ؛ حاضري",
+          "-or names an agent; -ance names a state or action."
+        ]
+      ]
+    },
+    {
+      "title": "27. Latin Suffixes — Adjectives",
+      "english": "Latin-derived adjective suffixes are common in formal and academic English. -al/-ial: relating to (natural, cultural, financial, editorial); -ary: relating to or connected with (ordinary, military, temporary); -ous/-ious: full of or characterised by (dangerous, curious, victorious); -ive: having a tendency or function (active, creative, defensive); -ent/-ant: having a quality or performing a role (dependent, different, important, relevant); -able/-ible: capable of or suitable for (acceptable, visible, flexible); -ory: relating to or serving for (compulsory, introductory); -ate: having a specified quality or form in certain adjectives (fortunate, separate); -aceous: having the nature of or resembling (herbaceous). Some suffixes have multiple origins and functions. Spelling changes are common: courage → courageous, create → creative, access → accessible, expense → expensive. Do not assume the same suffix always has the same meaning in every word.",
+      "urdu": "لاطینی اصل کے adjective suffixes رسمی اور تعلیمی انگریزی میں عام ہیں۔ -al/-ial: متعلقہ (natural، cultural، financial)؛ -ary: متعلقہ (ordinary، military، temporary)؛ -ous/-ious: خوبی رکھنے والا (dangerous، curious)؛ -ive: رجحان یا کام رکھنے والا (active، creative)؛ -ent/-ant: کیفیت یا کردار (dependent، important)؛ -able/-ible: قابل یا ممکن (acceptable، visible)؛ -ory: متعلقہ یا مقصد کے لیے (compulsory، introductory)؛ -ate: بعض صفات میں مخصوص کیفیت (fortunate، separate)؛ -aceous: مشابہ یا نوعیت رکھنے والا (herbaceous)۔ املا بدل سکتا ہے: courage → courageous، create → creative، access → accessible، expense → expensive۔ ہر لفظ میں suffix کا مطلب ایک جیسا فرض نہ کریں۔",
+      "sindhi": "لاطيني اصل جا adjective suffix رسمي ۽ تعليمي انگريزيءَ ۾ عام آهن. -al/-ial (natural، cultural)، -ary (ordinary)، -ous/-ious (dangerous)، -ive (creative)، -ent/-ant (important)، -able/-ible (visible)، -ory (compulsory)، -ate (fortunate) ۽ -aceous (herbaceous). اهي لاڳاپو، خوبي، صلاحيت يا نوعيت ظاهر ڪن ٿا. لکڻي بدلجي سگهي ٿي: courage → courageous، create → creative، access → accessible. هر لفظ ۾ suffix جي معنيٰ ساڳي نه هوندي.",
+      "examples": [
+        [
+          "nature → natural; culture → cultural",
+          "فطرتی؛ ثقافتی",
+          "قدرتي؛ ثقافتي",
+          "-al forms adjectives meaning related to."
+        ],
+        [
+          "create → creative; defend → defensive",
+          "تخلیقی؛ دفاعی",
+          "تخليقي؛ دفاعي",
+          "-ive forms adjectives."
+        ],
+        [
+          "accept → acceptable; access → accessible",
+          "قابلِ قبول؛ قابلِ رسائی",
+          "قبولڻ جوڳو؛ رسائي لائق",
+          "-able/-ible indicate possibility or suitability."
+        ]
+      ]
+    },
+    {
+      "title": "28. Latin Suffixes — Verbs",
+      "english": "Latin-derived verb-forming endings entered English through Latin and French and are especially common in formal vocabulary. -ate: activate, communicate, separate, demonstrate; -ify (from Latin -ficare, often through French): classify, identify, certify, intensify; -ise/-ize (from Greek/Latin-related formations transmitted through French and other languages): organise/organize, fertilise/fertilize, legalise/legalize. These suffixes often mean make, cause, render or perform an action, but the meaning depends on the whole word. Many verbs have related nouns and adjectives: active → activate → activation; identity → identify → identification; legal → legalise → legalisation. In British English, -ise is widely used, while -ize is also an accepted variant in many British reference works; follow one spelling policy consistently. Not every verb ending in -ate, -ify or -ise is transparently formed in modern English.",
+      "urdu": "لاطینی اصل یا لاطینی/فرانسیسی راستے سے آنے والے verb endings رسمی الفاظ میں عام ہیں۔ -ate: activate، communicate، separate، demonstrate؛ -ify: classify، identify، certify، intensify؛ -ise/-ize: organise/organize، fertilise/fertilize، legalise/legalize۔ یہ اکثر بنانا، سبب بننا یا عمل انجام دینا ظاہر کرتے ہیں، مگر اصل معنی پورے لفظ پر منحصر ہے۔ متعلقہ word families: active → activate → activation؛ identity → identify → identification؛ legal → legalise → legalisation۔ British English میں -ise عام ہے، لیکن -ize بھی کئی برطانوی مراجع میں درست variant ہے؛ ایک املا پالیسی مستقل رکھیں۔",
+      "sindhi": "لاطيني يا لاطيني/فرينچ رستي آيل verb endings رسمي لفظن ۾ عام آهن. -ate: activate، communicate، separate؛ -ify: classify، identify، certify؛ -ise/-ize: organise/organize، legalise/legalize. اهي اڪثر بڻائڻ، سبب ٿيڻ يا عمل ڪرڻ جو مطلب ڏين ٿا، پر مڪمل معنيٰ لفظ تي دارومدار رکي ٿي. لفظي خاندان: active → activate → activation؛ identity → identify → identification؛ legal → legalise → legalisation. British English ۾ -ise عام آهي، پر -ize به ڪيترن برطانوي حوالن ۾ قبوليل صورت آهي؛ هڪ انداز مسلسل رکو.",
+      "examples": [
+        [
+          "active → activate → activation",
+          "فعال → فعال کرنا → فعالیت",
+          "سرگرم → سرگرم ڪرڻ → سرگرمي",
+          "The verb and noun belong to the same word family."
+        ],
+        [
+          "identity → identify → identification",
+          "شناخت → شناخت کرنا → شناخت",
+          "سڃاڻپ → سڃاڻڻ → سڃاڻپ",
+          "-ify forms a verb; -ation forms a related noun."
+        ],
+        [
+          "legal → legalise/legalize → legalisation/legalization",
+          "قانونی → قانونی بنانا → قانونی حیثیت دینا",
+          "قانوني → قانوني بڻائڻ → قانوني حيثيت ڏيڻ",
+          "Both -ise and -ize spellings are found; use a consistent British style."
+        ]
+      ]
+    },
+    {
+      "title": "29. Greek Suffixes",
+      "english": "Greek-derived suffixes are widely used in science, medicine, technology and academic vocabulary. -logy: study or science of (biology, geology); -graphy: writing, recording or description (geography, photography); -gram: something written or recorded (telegram, electrocardiogram); -meter: instrument for measuring (thermometer, barometer); -metry: process or science of measurement (geometry, symmetry); -scope: instrument for viewing (microscope, telescope); -scopy: examination by viewing (endoscopy); -phobia: fear or strong aversion (arachnophobia, claustrophobia); -phile: lover or enthusiast (bibliophile); -philia: attraction or affinity (Anglophilia); -phobia/-phobic and -phile/-philic can also form adjectives; -itis: inflammation (arthritis, bronchitis); -osis: condition or process, especially in medical terms (diagnosis, fibrosis); -ectomy: surgical removal (appendectomy); -ology-related -ologist: specialist in a field (biologist, geologist); -cracy: rule or government (democracy, bureaucracy); -crat: person exercising rule (democrat, bureaucrat); -archy: rule or system (monarchy, anarchy); -arch: ruler or chief (monarch, patriarch); -oid: resembling or shaped like (asteroid, humanoid); -ous/-ic appear in many Greek-derived adjectives (economic, heroic). Greek combining forms are not always ordinary suffixes in modern grammar; they are often called combining forms or bound roots. Learn their meaning and use them as parts of established words rather than attaching them freely.",
+      "urdu": "یونانی اصل کے suffixes سائنس، طب، ٹیکنالوجی اور تعلیمی اصطلاحات میں عام ہیں۔ -logy: علم یا مطالعہ (biology، geology)؛ -graphy: تحریر یا ریکارڈ (geography، photography)؛ -gram: لکھی یا ریکارڈ شدہ چیز (telegram)؛ -meter: پیمائش کا آلہ (thermometer)؛ -metry: پیمائش کا علم یا عمل (geometry)؛ -scope: دیکھنے کا آلہ (microscope)؛ -scopy: معائنہ (endoscopy)؛ -phobia: خوف (claustrophobia)؛ -phile: شوقین (bibliophile)؛ -philia: رغبت (Anglophilia)؛ -itis: سوزش (arthritis)؛ -osis: حالت یا عمل (diagnosis، fibrosis)؛ -ectomy: جراحی سے نکالنا (appendectomy)؛ -ologist: کسی علم کا ماہر (biologist)؛ -cracy: حکومت یا نظام (democracy)؛ -crat: حکمران یا نظام سے وابستہ شخص (democrat)؛ -archy: حکمرانی یا نظام (monarchy)؛ -arch: سربراہ (monarch)؛ -oid: مشابہ شکل (asteroid، humanoid)۔ بہت سے یونانی عناصر عام suffix کے بجائے combining forms یا bound roots کہلاتے ہیں؛ انہیں مستند الفاظ میں پہچان کر سیکھیں، ہر base کے ساتھ آزادانہ نہ لگائیں۔",
+      "sindhi": "يوناني اصل جا suffix سائنس، طب، ٽيڪنالاجي ۽ تعليمي اصطلاحن ۾ گهڻا آهن. -logy (biology)، -graphy (geography)، -gram (telegram)، -meter (thermometer)، -metry (geometry)، -scope (microscope)، -scopy (endoscopy)، -phobia (claustrophobia)، -phile (bibliophile)، -philia (Anglophilia)، -itis (arthritis)، -osis (diagnosis)، -ectomy (appendectomy)، -ologist (biologist)، -cracy (democracy)، -crat (democrat)، -archy (monarchy)، -arch (monarch) ۽ -oid (asteroid). اهي علم، اوزار، ماپ، خوف، شوق، طبي حالت، حڪومت يا مشابهت ظاهر ڪن ٿا. ڪيترائي يوناني عنصر عام suffix نه پر combining forms يا bound roots آهن؛ انهن کي قائم ٿيل لفظن ۾ سڃاڻو.",
+      "examples": [
+        [
+          "bio + logy → biology; geo + graphy → geography",
+          "حیاتیات؛ جغرافیہ",
+          "حياتيات؛ جاگرافي",
+          "-logy names a field of study; -graphy relates to recording or description."
+        ],
+        [
+          "micro + scope → microscope; thermo + meter → thermometer",
+          "خوردبین؛ درجۂ حرارت ناپنے کا آلہ",
+          "خوردبين؛ گرمي پد ماپڻ جو اوزار",
+          "-scope is for viewing; -meter is for measuring."
+        ],
+        [
+          "dem + cracy → democracy; append + ectomy → appendectomy",
+          "جمہوریت؛ اپنڈکس نکالنے کا آپریشن",
+          "جمهوريت؛ اپينڊڪس ڪڍڻ جو آپريشن",
+          "Greek-derived elements occur in political and medical terms."
+        ]
+      ]
+    },
+    {
+      "title": "30. Review — Prefixes and Suffixes: Classification and Practice",
+      "english": "Classify the word-building element in each example and state whether it is a prefix or suffix: unhappy, rewrite, microscope, biology, kindness, readable, quickly, activate, decision, international, friendship, democracy. Then identify the immediate base in: beautifully, unkindness, nationalisation, carelessness. Answers: un- = English prefix; re- = English prefix; micro- = Greek prefix; bio- = Greek combining form/prefix-like element; -ness = English noun suffix; -able = English adjective suffix (historically from French/Latin); -ly = English adverb suffix; -ate = verb-forming suffix of Latin origin; -sion = Latin-derived noun suffix; inter- = Latin prefix; -ship = English noun suffix; -cracy = Greek suffix/combining form. Immediate bases: beautifully ← beautiful; unkindness ← unkind; nationalisation ← nationalise (with -ation); carelessness ← careless. Remember that etymological origin and present-day grammatical function are not always identical. Some elements are better described as combining forms than as ordinary affixes.",
+      "urdu": "ہر مثال میں prefix یا suffix پہچانیں اور اس کی قسم بتائیں: unhappy، rewrite، microscope، biology، kindness، readable، quickly، activate، decision، international، friendship، democracy۔ پھر ان الفاظ کا فوری base بتائیں: beautifully، unkindness، nationalisation، carelessness۔ جوابات: un- انگریزی prefix؛ re- انگریزی prefix؛ micro- یونانی prefix؛ bio- یونانی combining form؛ -ness انگریزی noun suffix؛ -able صفت بنانے والا suffix؛ -ly adverb suffix؛ -ate لاطینی اصل کا verb suffix؛ -sion لاطینی اصل کا noun suffix؛ inter- لاطینی prefix؛ -ship انگریزی noun suffix؛ -cracy یونانی suffix/combining form۔ فوری bases: beautifully ← beautiful؛ unkindness ← unkind؛ nationalisation ← nationalise؛ carelessness ← careless۔ یاد رکھیں کہ تاریخی اصل اور آج کا گرامری کام ہمیشہ ایک جیسے نہیں ہوتے۔",
+      "sindhi": "هر مثال ۾ prefix يا suffix سڃاڻو: unhappy، rewrite، microscope، biology، kindness، readable، quickly، activate، decision، international، friendship، democracy. پوءِ فوري بنياد ٻڌايو: beautifully، unkindness، nationalisation، carelessness. جواب: un- انگريزي prefix؛ re- انگريزي prefix؛ micro- يوناني prefix؛ bio- يوناني combining form؛ -ness انگريزي noun suffix؛ -able adjective suffix؛ -ly adverb suffix؛ -ate لاطيني اصل جو verb suffix؛ -sion لاطيني اصل جو noun suffix؛ inter- لاطيني prefix؛ -ship انگريزي noun suffix؛ -cracy يوناني suffix/combining form. فوري بنياد: beautifully ← beautiful؛ unkindness ← unkind؛ nationalisation ← nationalise؛ carelessness ← careless. تاريخي اصل ۽ موجوده گرامري ڪم ۾ هميشه هڪجهڙائي ناهي.",
+      "examples": [
+        [
+          "unhappy; rewrite; international",
+          "ناخوش؛ دوبارہ لکھنا؛ بین الاقوامی",
+          "ناخوش؛ ٻيهر لکڻ؛ بين الاقوامي",
+          "Identify prefixes and their language origin."
+        ],
+        [
+          "kindness; quickly; decision",
+          "مہربانی؛ تیزی سے؛ فیصلہ",
+          "مهرباني؛ تيزيءَ سان؛ فيصلو",
+          "Identify suffixes and the word class formed."
+        ],
+        [
+          "beautifully ← beautiful; unkindness ← unkind",
+          "خوبصورتی سے ← خوبصورت؛ نامہربانی ← نامہربان",
+          "سهڻي نموني ← سهڻو؛ نامهرباني ← نامهربان",
+          "The immediate base is the word to which the final affix is added."
+        ]
+      ]
+    }
+  ]
+}
 };
 
 
