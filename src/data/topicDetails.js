@@ -478,9 +478,52 @@ export const topicDetails = {
     examples: ["They have finished the work.", "The soup tastes delicious."]
   },
   "adjectives": {
-    overview: "Adjectives describe nouns and pronouns by giving information about quality, size, age, colour, origin or quantity. They can appear before a noun or after a linking verb.",
-    watchFor: "Do not confuse adjectives with adverbs: an adjective describes a noun, while an adverb commonly describes a verb, adjective or another adverb.",
-    examples: ["It was a difficult question.", "The question seems difficult."]
+    overview: "An adjective is a word that describes or gives more information about a noun or pronoun. It can tell us about quality, size, age, colour, shape, origin or quantity. Adjectives are commonly used attributively (before a noun) or predicatively (after a linking verb).",
+    watchFor: "An adjective describes a noun or pronoun; an adverb commonly describes a verb, adjective or another adverb. The same adjective can be attributive in one sentence and predicative in another.",
+    examples: ["It was a difficult question. (attributive: before the noun)", "The question seems difficult. (predicative: after a linking verb)"],
+    overviewUrdu: "Adjective (صفت) وہ لفظ ہے جو اسم یا ضمیر کی خوبی، حالت، رنگ، جسامت، عمر، شکل، اصل یا تعداد کے بارے میں بتاتا ہے۔ صفت اسم سے پہلے بھی آ سکتی ہے (Attributive) اور linking verb کے بعد بھی (Predicative)۔",
+    overviewSindhi: "Adjective (صفت) اهو لفظ آهي جيڪو اسم يا ضمير جي خوبي، حالت، رنگ، ماپ، عمر، شڪل، اصل يا تعداد بابت ڄاڻ ڏئي ٿو. صفت اسم کان اڳ به اچي سگهي ٿي (Attributive) ۽ linking verb کان پوءِ به (Predicative)۔",
+    watchForUrdu: "صفت اسم یا ضمیر کی وضاحت کرتی ہے، جبکہ Adverb عموماً فعل، صفت یا دوسرے Adverb کی وضاحت کرتا ہے۔ ایک ہی صفت ایک جملے میں Attributive اور دوسرے میں Predicative ہو سکتی ہے۔",
+    watchForSindhi: "صفت اسم يا ضمير جي وضاحت ڪري ٿي، جڏهن ته Adverb عام طور فعل، صفت يا ٻئي Adverb جي وضاحت ڪري ٿو. ساڳي صفت هڪ جملي ۾ Attributive ۽ ٻئي ۾ Predicative ٿي سگهي ٿي.",
+    specialSectionsTitle: "ATTRIBUTIVE & PREDICATIVE ADJECTIVES — صفت جا استعمال",
+    specialSections: [
+      {
+        title: "Attributive Adjectives",
+        english: "An adjective is used attributively when it comes directly before the noun it describes. It forms part of the noun phrase and tells us which kind, what size, what colour or what quality the noun has. Example: a beautiful flower — beautiful describes the noun flower. The usual pattern is adjective + noun.",
+        urdu: "جب صفت اپنے اسم سے پہلے آ کر اس کی خوبی، رنگ، جسامت یا حالت بتائے تو اسے Attributive استعمال کہتے ہیں۔ یہ اسم کے فقرے کا حصہ ہوتی ہے۔ مثال: a beautiful flower میں beautiful، flower کی صفت ہے۔ عام ترتیب صفت + اسم ہوتی ہے۔",
+        sindhi: "جڏهن صفت پنهنجي اسم کان اڳ اچي ان جي خوبي، رنگ، ماپ يا حالت ٻڌائي ته ان کي Attributive استعمال چئبو آهي. اها اسم واري فقري جو حصو هوندي آهي. مثال: a beautiful flower ۾ beautiful، flower جي صفت آهي. عام ترتيب صفت + اسم آهي.",
+        examples: [
+          ["She bought a beautiful dress.", "اس نے ایک خوبصورت لباس خریدا۔", "هن هڪ سهڻو لباس خريد ڪيو."],
+          ["The clever student answered correctly.", "ذہین طالب علم نے درست جواب دیا۔", "هوشيار شاگرد صحيح جواب ڏنو."],
+          ["We live in a small house.", "ہم ایک چھوٹے گھر میں رہتے ہیں۔", "اسان هڪ ننڍڙي گهر ۾ رهون ٿا."],
+          ["He drives a red car.", "وہ ایک سرخ گاڑی چلاتا ہے۔", "هو هڪ ڳاڙهي گاڏي هلائي ٿو."],
+          ["I read an interesting book.", "میں نے ایک دلچسپ کتاب پڑھی۔", "مون هڪ دلچسپ ڪتاب پڙهيو."],
+          ["They planted tall trees.", "انہوں نے لمبے درخت لگائے۔", "انهن ڊگها وڻ پوکيا."],
+          ["She wore a silk scarf.", "اس نے ریشم کا دوپٹہ پہنا۔", "هن ريشم جو اسڪارف پاتو."],
+          ["We watched a wonderful film.", "ہم نے ایک شاندار فلم دیکھی۔", "اسان هڪ شاندار فلم ڏٺي."],
+          ["The old bridge needs repair.", "پرانے پل کو مرمت کی ضرورت ہے۔", "پراڻي پل کي مرمت جي ضرورت آهي."],
+          ["He ate three ripe mangoes.", "اس نے تین پکے ہوئے آم کھائے۔", "هن ٽي پڪا انب کاڌا."]
+        ]
+      },
+      {
+        title: "Predicative Adjectives",
+        english: "An adjective is used predicatively when it comes after a linking verb and describes the subject (or, in some patterns, the object). Common linking verbs include be (am, is, are, was, were), seem, become, look, feel, sound, smell and taste. Example: The flower is beautiful — beautiful describes the subject flower after is. The adjective is part of the predicate.",
+        urdu: "جب صفت linking verb کے بعد آ کر فاعل یا بعض جملوں میں مفعول کی حالت یا خوبی بتائے تو اسے Predicative استعمال کہتے ہیں۔ عام linking verbs میں is, am, are, was, were, seem, become, look, feel, sound, smell اور taste شامل ہیں۔ مثال: The flower is beautiful میں beautiful، flower کی کیفیت بتاتا ہے۔",
+        sindhi: "جڏهن صفت linking verb کان پوءِ اچي فاعل يا ڪجهه جملن ۾ مفعول جي حالت يا خوبي ٻڌائي ته ان کي Predicative استعمال چئبو آهي. عام linking verbs ۾ is, am, are, was, were, seem, become, look, feel, sound, smell ۽ taste شامل آهن. مثال: The flower is beautiful ۾ beautiful، flower جي حالت ٻڌائي ٿو.",
+        examples: [
+          ["The sky is blue.", "آسمان نیلا ہے۔", "آسمان نيرو آهي."],
+          ["The children are happy.", "بچے خوش ہیں۔", "ٻار خوش آهن."],
+          ["This soup tastes delicious.", "یہ سوپ مزیدار ہے۔", "هي سوپ مزيدار آهي."],
+          ["The room looks clean.", "کمرہ صاف دکھائی دیتا ہے۔", "ڪمرو صاف نظر اچي ٿو."],
+          ["My grandfather is old.", "میرے دادا بزرگ ہیں۔", "منهنجو ڏاڏو پوڙهو آهي."],
+          ["The weather became cold.", "موسم سرد ہو گیا۔", "موسم ٿڌو ٿي ويو."],
+          ["Your idea sounds interesting.", "آپ کا خیال دلچسپ لگتا ہے۔", "توهان جو خيال دلچسپ لڳي ٿو."],
+          ["The flowers smell sweet.", "پھولوں کی خوشبو میٹھی ہے۔", "گلن جي خوشبو مٺي آهي."],
+          ["I feel tired today.", "میں آج تھکا ہوا محسوس کرتا ہوں۔", "مان اڄ ٿڪل محسوس ڪريان ٿو."],
+          ["The students seem ready.", "طلبہ تیار معلوم ہوتے ہیں۔", "شاگرد تيار نظر اچن ٿا."]
+        ]
+      }
+    ]
   },
   "tenses": {
     overview: "English tense and aspect work together to show when an event happens and whether it is complete, continuing or connected to another time. The three broad time references are present, past and future.",
