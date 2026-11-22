@@ -5692,7 +5692,11 @@ export const lessons = [
       ["Past Perfect", "Subject + had + V3", "ماضی کے دوسرے کام سے پہلے مکمل کام؛ مثال: She had written."],
       ["Past Perfect Continuous", "Subject + had been + V-ing", "ماضی کے کسی وقت تک جاری رہنے والا کام؛ مثال: She had been writing."]
     ],
-
+    quiz: [
+      { q: "Which sentence is in the Simple Past tense?", options: ["She writes every day.", "She wrote yesterday.", "She is writing now.", "She will write tomorrow."], answer: 1, why: "Wrote is the past form (V2) and describes a completed past action." },
+      { q: "Choose the Past Continuous form.", options: ["They played.", "They had played.", "They were playing.", "They will play."], answer: 2, why: "Past Continuous uses was/were + verb-ing." },
+      { q: "Which sentence uses the Past Perfect tense?", options: ["I had finished before noon.", "I finish at noon.", "I was finishing at noon.", "I will finish at noon."], answer: 0, why: "Past Perfect uses had + past participle (V3)." }
+    ],
   },
 ]; 
 
