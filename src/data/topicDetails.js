@@ -88,7 +88,58 @@ export const topicDetails = {
         ]
       }
     ],
-  }
+  },
+  "the-sentence": {
+    overview: "A sentence is a group of words that makes complete sense. We use words in groups when we speak or write.",
+    watchFor: "A group of words is not a sentence unless it gives a complete thought. Begin a sentence with a capital letter and use suitable end punctuation.",
+    examples: ["Little Jack Horner sat in a corner.", "The sun rises in the east.", "Where do you live?", "Please help me.", "What a beautiful day!"],
+    bilingualSections: [
+      {
+        title: "What is a Sentence?",
+        english: "When we speak or write, we use words. We generally use these words in groups. A group of words that makes complete sense is called a sentence.",
+        urdu: "جب ہم بولتے یا لکھتے ہیں تو الفاظ استعمال کرتے ہیں۔ عموماً ہم الفاظ کو گروہوں کی صورت میں استعمال کرتے ہیں۔ الفاظ کا ایسا مجموعہ جو مکمل مطلب دے، Sentence یعنی جملہ کہلاتا ہے۔",
+        sindhi: "جڏهن اسين ڳالهايون يا لکون ٿا ته لفظ استعمال ڪريون ٿا. عام طور لفظن کي گڏ ڪري استعمال ڪندا آهيون. لفظن جو اهڙو مجموعو جيڪو پورو مطلب ڏئي، ان کي Sentence يعني جملو چئبو آهي۔",
+        examples: [
+          ["Little Jack Horner sat in a corner.", "لٹل جیک ہارنر ایک کونے میں بیٹھا۔", "لٽل جيڪ هورنر هڪ ڪنڊ ۾ ويٺو."],
+          ["The boy is playing.", "لڑکا کھیل رہا ہے۔", "ڇوڪرو راند ڪري رهيو آهي."],
+          ["Birds fly in the sky.", "پرندے آسمان میں اڑتے ہیں۔", "پکي آسمان ۾ اڏامن ٿا."],
+          ["My mother is kind.", "میری والدہ مہربان ہیں۔", "منهنجي امڙ مهربان آهي."],
+          ["We learn English.", "ہم انگریزی سیکھتے ہیں۔", "اسين انگريزي سکون ٿا."]
+        ]
+      },
+      {
+        title: "Kinds of Sentences",
+        english: "The textbook describes four kinds: Declarative or Assertive sentences make statements; Interrogative sentences ask questions; Imperative sentences express commands, requests or entreaties; Exclamatory sentences express strong feelings.",
+        urdu: "کتاب کے مطابق جملوں کی چار اقسام ہیں: Declarative یا Assertive جملہ بیان دیتا ہے؛ Interrogative سوال پوچھتا ہے؛ Imperative حکم، درخواست یا التجا ظاہر کرتا ہے؛ Exclamatory شدید جذبات ظاہر کرتا ہے۔",
+        sindhi: "ڪتاب موجب جملن جا چار قسم آهن: Declarative يا Assertive جملو بيان ڏئي ٿو؛ Interrogative سوال پڇي ٿو؛ Imperative حڪم، درخواست يا التجا ظاهر ڪري ٿو؛ Exclamatory شديد احساس ظاهر ڪري ٿو۔",
+        examples: [
+          ["Humpty Dumpty sat on a wall. — Declarative / Assertive", "ہمپٹی ڈمپٹی دیوار پر بیٹھا تھا۔ — خبریہ", "همپٽي ڊمپٽي ڀت تي ويٺو هو. — بياني"],
+          ["Where do you live? — Interrogative", "آپ کہاں رہتے ہیں؟ — سوالیہ", "توهان ڪٿي رهو ٿا؟ — سوالي"],
+          ["Be quiet. — Imperative (command)", "خاموش رہو۔ — حکمیہ", "ماٺ ڪريو. — حڪمي"],
+          ["Have mercy upon us. — Imperative (request / entreaty)", "ہم پر رحم کریں۔ — درخواست / التجا", "اسان تي رحم ڪريو. — درخواست / التجا"],
+          ["How cold the night is! — Exclamatory", "رات کتنی سرد ہے! — فجائیہ", "رات ڪيتري ٿڌي آهي! — عجب وارو"]
+        ]
+      },
+      {
+        title: "Subject and Predicate",
+        english: "Every sentence has two parts. The Subject names the person or thing we are speaking about. The Predicate says something about that subject.",
+        urdu: "ہر جملے کے دو حصے ہوتے ہیں۔ Subject وہ حصہ ہے جس میں اس شخص یا چیز کا نام آتا ہے جس کے بارے میں بات ہو رہی ہو۔ Predicate وہ حصہ ہے جو Subject کے بارے میں کچھ بتاتا ہے۔",
+        sindhi: "هر جملي جا ٻه حصا هوندا آهن. Subject اهو حصو آهي جنهن ۾ ان ماڻهو يا شيءِ جو نالو اچي ٿو جنهن بابت ڳالهائجي ٿو. Predicate اهو حصو آهي جيڪو Subject بابت ڪجهه ٻڌائي ٿو۔",
+        examples: [
+          ["The boy | is playing.", "لڑکا | کھیل رہا ہے۔ (The boy = Subject، is playing = Predicate)", "ڇوڪرو | راند ڪري رهيو آهي. (The boy = Subject، is playing = Predicate)"],
+          ["Ali | reads a book.", "علی | کتاب پڑھتا ہے۔", "علي | ڪتاب پڙهي ٿو."],
+          ["The sun | shines brightly.", "سورج | تیز چمکتا ہے۔", "سج | تيز چمڪي ٿو."],
+          ["My mother | cooks food.", "میری والدہ | کھانا پکاتی ہیں۔", "منهنجي امڙ | کاڌو پچائي ٿي."],
+          ["The children | are happy.", "بچے | خوش ہیں۔", "ٻار | خوش آهن."]
+        ]
+      }
+    ]
+  },
+  "subject-predicate": {
+    overview: "A sentence has two main parts: the Subject and the Predicate.",
+    watchFor: "The subject is who or what the sentence is about; the predicate tells what the subject does or what is said about it.",
+    examples: ["Ali reads a book. (Subject: Ali; Predicate: reads a book.)", "The birds are singing. (Subject: The birds; Predicate: are singing.)"]
+  },
   "pronouns": {
     overview: "Pronouns replace nouns or noun phrases and help avoid repetition. Their form can change according to person, number, gender and grammatical case.",
     watchFor: "Make sure a pronoun clearly refers to the noun it replaces, and use subject forms for subjects and object forms after verbs or prepositions.",
