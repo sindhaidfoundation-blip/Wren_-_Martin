@@ -126,6 +126,60 @@ export const topicDetails = {
           ["man → men", "ایک مرد → کئی مرد", "هڪ مرد → ڪيترائي مرد"],
           ["city → cities", "ایک شہر → کئی شہر", "هڪ شهر → ڪيترائي شهر"],
           ["box → boxes", "ایک ڈبہ → کئی ڈبے", "هڪ دٻو → ڪيترائي دٻا"]
+        ],
+        specialSections: [
+          {
+            title: "Some nouns have two plural forms with different meanings",
+            english: "Some nouns have two plural forms. Each plural has a different meaning. Choose the form according to what you want to say.",
+            urdu: "کچھ اسموں کی جمع بنانے کی دو صورتیں ہوتی ہیں، اور دونوں کے معنی مختلف ہوتے ہیں۔ درست معنی کے مطابق جمع استعمال کریں۔",
+            sindhi: "ڪجهه اسمن جا جمع جا ٻه روپ هوندا آهن ۽ ٻنهي جا مطلب مختلف هوندا آهن. پنهنجي مطلب موجب صحيح جمع استعمال ڪريو.",
+            examples: [
+              ["brother → brothers (sons of the same parent); brethren (members of a society or community)", "Brothers: ایک ہی والدین کے بیٹے؛ Brethren: کسی جماعت یا برادری کے ارکان۔", "Brothers: ساڳين والدين جا پٽ؛ Brethren: ڪنهن جماعت يا برادري جا ميمبر."],
+              ["cloth → cloths (kinds or pieces of cloth); clothes (garments)", "Cloths: کپڑے کی قسمیں یا ٹکڑے؛ Clothes: پہننے کے کپڑے۔", "Cloths: ڪپڙي جا قسم يا ٽڪرا؛ Clothes: پائڻ وارا ڪپڙا."],
+              ["die → dies (stamps for coining); dice (small cubes used in games)", "Dies: سکے بنانے کے سانچے؛ Dice: کھیل میں استعمال ہونے والے چھوٹے مکعب۔", "Dies: سڪا ٺاهڻ جا ٺپا؛ Dice: راند ۾ استعمال ٿيندڙ ننڍڙا پاسا."],
+              ["index → indexes (tables of contents); indices (signs used in algebra)", "Indexes: کتابوں کے فہرستِ مضامین؛ Indices: الجبرا میں استعمال ہونے والی علامتیں۔", "Indexes: ڪتابن جون فهرستون؛ Indices: الجبرا ۾ استعمال ٿيندڙ نشانيون."],
+              ["penny → pennies (number of coins); pence (amount in value)", "Pennies: سکوں کی تعداد؛ Pence: رقم یا مالیت۔", "Pennies: سڪن جو تعداد؛ Pence: رقم يا قدر."]
+            ]
+          },
+          {
+            title: "Some nouns have two meanings in singular but only one in plural",
+            english: "Some nouns can have two meanings in the singular form, but their plural form refers to only one of those meanings.",
+            urdu: "کچھ اسم واحد میں دو مختلف معنی رکھتے ہیں، لیکن ان کی جمع صرف ایک معنی کے لیے استعمال ہوتی ہے۔",
+            sindhi: "ڪجهه اسم واحد ۾ ٻه مختلف مطلب ڏيندا آهن، پر انهن جو جمع رڳو هڪ مطلب لاءِ استعمال ٿيندو آهي.",
+            examples: [
+              ["light → lights (lamps)", "Light کے معنی روشنی یا چراغ ہو سکتے ہیں؛ Lights سے مراد چراغ ہیں۔", "Light جا مطلب روشني يا ڏيئو ٿي سگهن ٿا؛ Lights مان مراد ڏيئا آهن."],
+              ["people → peoples (nations)", "People سے مراد لوگ؛ Peoples سے مراد قومیں۔", "People مان مراد ماڻهو؛ Peoples مان مراد قومون."],
+              ["powder → powders (doses of medicine)", "Powder کے معنی گرد یا دوا کا سفوف؛ Powders سے مراد دوا کی خوراکیں۔", "Powder جا مطلب مٽي يا دوا جو پائوڊر؛ Powders مان مراد دوا جون خوراڪون."],
+              ["practice → practices (habits)", "Practice کے معنی عادت یا پیشہ ورانہ مشق؛ Practices سے مراد عادتیں۔", "Practice جا مطلب عادت يا پيشي جي مشق؛ Practices مان مراد عادتون."]
+            ]
+          },
+          {
+            title: "Some nouns have one meaning in singular and two in plural",
+            english: "Some nouns have one meaning in the singular but their plural form can express two different meanings.",
+            urdu: "کچھ اسم واحد میں ایک معنی دیتے ہیں، لیکن جمع میں ان کے دو مختلف معنی ہو سکتے ہیں۔",
+            sindhi: "ڪجهه اسم واحد ۾ هڪ مطلب ڏيندا آهن، پر جمع ۾ انهن جا ٻه مختلف مطلب ٿي سگهن ٿا.",
+            examples: [
+              ["colour → colours (1) hues; (2) a regiment's flag", "Colour: رنگ یا hue؛ Colours: رنگوں کے شیڈز یا کسی فوجی دستے کا پرچم۔", "Colour: رنگ يا ڇانوَ؛ Colours: رنگن جا قسم يا فوجي دستي جو جهنڊو."],
+              ["custom → customs (1) habits; (2) duties levied on imports", "Custom: رواج؛ Customs: عادتیں یا درآمدات پر محصول۔", "Custom: رواج؛ Customs: عادتون يا درآمد تي محصول."],
+              ["effect → effects (1) results; (2) property or belongings", "Effect: نتیجہ؛ Effects: نتائج یا ذاتی سامان۔", "Effect: نتيجو؛ Effects: نتيجا يا ذاتي سامان."],
+              ["manner → manners (1) methods; (2) correct behaviour", "Manner: طریقہ؛ Manners: طریقے یا اچھا برتاؤ۔", "Manner: طريقو؛ Manners: طريقا يا سٺو ورتاءُ."],
+              ["moral → morals (1) moral lessons; (2) conduct", "Moral: اخلاقی سبق؛ Morals: اخلاقی اسباق یا کردار۔", "Moral: اخلاقي سبق؛ Morals: اخلاقي سبق يا ڪردار."],
+              ["number → numbers (1) quantities; (2) verses", "Number: تعداد؛ Numbers: مقداریں یا اشعار۔", "Number: تعداد؛ Numbers: مقدارون يا شعر."],
+              ["pain → pains (1) sufferings; (2) care or exertion", "Pain: تکلیف؛ Pains: تکلیفیں یا محنت و کوشش۔", "Pain: تڪليف؛ Pains: تڪليفون يا محنت ۽ ڪوشش."],
+              ["premise → premises (1) propositions; (2) buildings", "Premise: مقدمہ یا تجویز؛ Premises: قضیے یا عمارت/احاطہ۔", "Premise: دليل يا تجويز؛ Premises: دليلون يا عمارت/احاطو."]
+            ]
+          },
+          {
+            title: "Plural forms borrowed from other languages",
+            english: "Some nouns borrowed from Italian, French and Hebrew have traditional plural forms. The textbook also gives common English alternatives for some words.",
+            urdu: "اطالوی، فرانسیسی اور عبرانی زبانوں سے آئے ہوئے کچھ اسموں کی روایتی جمع مختلف ہوتی ہے۔ کتاب بعض الفاظ کی عام انگریزی جمع بھی دیتی ہے۔",
+            sindhi: "اطالوي، فرانسيسي ۽ عبراني ٻولين مان آيل ڪجهه اسمن جا روايتي جمع الڳ هوندا آهن. ڪتاب ڪجهه لفظن جا عام انگريزي جمع به ڏئي ٿي.",
+            examples: [
+              ["bandit → banditti (or bandits)", "ڈاکو → banditti یا عام جمع bandits۔", "ڌاڙيل → banditti يا عام جمع bandits."],
+              ["madam → mesdames; monsieur → messieurs", "Madam کی جمع Mesdames؛ Monsieur کی جمع Messieurs۔", "Madam جو جمع Mesdames؛ Monsieur جو جمع Messieurs."],
+              ["cherub → cherubim (or cherubs); seraph → seraphim (or seraphs)", "Cherub کی جمع Cherubim یا Cherubs؛ Seraph کی جمع Seraphim یا Seraphs۔", "Cherub جو جمع Cherubim يا Cherubs؛ Seraph جو جمع Seraphim يا Seraphs."]
+            ]
+          }
         ]
       },
       {
