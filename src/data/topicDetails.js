@@ -2228,7 +2228,6 @@ export const topicDetails = {
           ["The unknown often makes people curious.", "نامعلوم چیزیں اکثر لوگوں میں تجسس پیدا کرتی ہیں۔", "اڻڄاتل شيون اڪثر ماڻهن ۾ تجسس پيدا ڪن ٿيون."],
           ["We should hope for the best.", "ہمیں بہترین کی امید رکھنی چاہیے۔", "اسان کي بهترين جي اميد رکڻ گهرجي."]
         ]
-      }
       },
       {
         title: "Position of Adjectives",
@@ -2257,7 +2256,6 @@ export const topicDetails = {
           ["The concerned parents contacted the school.", "پریشان والدین نے اسکول سے رابطہ کیا۔", "پريشان والدين اسڪول سان رابطو ڪيو."],
           ["The people concerned will receive a letter.", "متعلقہ لوگوں کو ایک خط ملے گا۔", "لاڳاپيل ماڻهن کي هڪ خط ملندو."]
         ]
-      }
       },
       {
         title: "The Correct Use of Some and Any",
@@ -2312,7 +2310,6 @@ export const topicDetails = {
           ["I used the little time available to revise.", "میں نے دستیاب تھوڑا سا سارا وقت دہرائی کے لیے استعمال کیا۔", "مون موجود ٿورو سڄو وقت ورجاءَ لاءِ استعمال ڪيو."],
           ["A little knowledge is a dangerous thing.", "تھوڑا سا علم خطرناک چیز ہے۔", "ٿوري ڄاڻ ڪڏهن خطرناڪ ٿي سگهي ٿي."]
         ]
-      }
       },
       {
         title: "The Correct Use of Few, A Few and The Few",
