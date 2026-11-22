@@ -11,7 +11,7 @@ if (!fs.existsSync("App.js")) errors.push("App.js is missing.");
 if (pkg.main !== "node_modules/expo/AppEntry.js") {
   errors.push('package.json "main" must point to node_modules/expo/AppEntry.js.');
 }
-const expoMajor = Number(String(pkg.dependencies.expo || "").match(/\\d+/)?.[0]);
+const expoMajor = Number(String(pkg.dependencies.expo || "").match(/\d+/)?.[0]);
 if (!Number.isFinite(expoMajor) || expoMajor < 55) {
   errors.push("react-native-google-mobile-ads v17 requires the New Architecture; use Expo SDK 55 or later.");
 }
