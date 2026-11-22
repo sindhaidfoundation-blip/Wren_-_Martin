@@ -830,8 +830,108 @@ export const topicDetails = {
           ["old — older — oldest (elder / eldest mainly for family relationships)", "پرانا / عمر رسیدہ — زیادہ پرانا — سب سے پرانا (رشتوں میں elder / eldest)", "پراڻو / وڏي عمر وارو — وڌيڪ پراڻو — سڀ کان پراڻو (رشتن لاءِ elder / eldest)"]
         ]
       }
-    ]
-  },
+      },
+      {
+        title: "More Adjective Comparisons — Practice List",
+        english: "The following adjectives from the textbook exercise are compared here. Short adjectives commonly take -er and -est. Longer adjectives generally use more and most. Some forms are irregular: ill and bad become worse and worst; little becomes less and least; few becomes fewer and fewest. A few adjectives have spelling changes such as y changing to i before -er or -est.",
+        urdu: "کتاب کی مشق میں دی گئی صفات کی تقابلی صورتیں درج ذیل ہیں۔ چھوٹی صفات کے ساتھ عموماً -er اور -est لگتا ہے، جبکہ لمبی صفات کے ساتھ more اور most آتا ہے۔ کچھ صفات بے قاعدہ ہیں: ill اور bad کی صورت worse اور worst، little کی less اور least، اور few کی fewer اور fewest ہوتی ہے۔ بعض الفاظ میں -er یا -est لگاتے وقت y بدل کر i ہو جاتا ہے۔",
+        sindhi: "ڪتاب جي مشق ۾ ڏنل صفتن جون تقابلي صورتون هيٺ ڏجن ٿيون. ننڍين صفتن سان عام طور -er ۽ -est لڳندو آهي، جڏهن ته ڊگهين صفتن سان more ۽ most ايندو آهي. ڪجهه صفتون بي قاعده آهن: ill ۽ bad جون صورتون worse ۽ worst، little جون less ۽ least، ۽ few جون fewer ۽ fewest ٿين ٿيون. ڪجهه لفظن ۾ -er يا -est لڳائڻ وقت y بدلجي i ٿي ويندو آهي.",
+        examples: [
+          ["black — blacker — blackest", "سیاہ — زیادہ سیاہ — سب سے زیادہ سیاہ", "ڪارو — وڌيڪ ڪارو — سڀ کان ڪارو"],
+          ["excellent — more excellent — most excellent", "عمدہ — زیادہ عمدہ — سب سے عمدہ", "شاندار — وڌيڪ شاندار — سڀ کان شاندار"],
+          ["ill — worse — worst", "بیمار — زیادہ بیمار / بدتر — سب سے زیادہ بیمار / بدترین", "بيمار — وڌيڪ بيمار / خراب — سڀ کان وڌيڪ بيمار / خراب"],
+          ["gloomy — gloomier — gloomiest", "اداس — زیادہ اداس — سب سے زیادہ اداس", "اداس — وڌيڪ اداس — سڀ کان وڌيڪ اداس"],
+          ["mad — madder — maddest", "غصے میں / دیوانہ — زیادہ غصے میں — سب سے زیادہ غصے میں", "ڪاوڙيل / چريو — وڌيڪ ڪاوڙيل — سڀ کان وڌيڪ ڪاوڙيل"],
+          ["safe — safer — safest", "محفوظ — زیادہ محفوظ — سب سے محفوظ", "محفوظ — وڌيڪ محفوظ — سڀ کان محفوظ"],
+          ["bad — worse — worst", "برا — بدتر — سب سے برا", "خراب — وڌيڪ خراب — سڀ کان خراب"],
+          ["unjust — more unjust — most unjust", "ناانصاف — زیادہ ناانصاف — سب سے زیادہ ناانصاف", "ناانصاف — وڌيڪ ناانصاف — سڀ کان وڌيڪ ناانصاف"],
+          ["gay — gayer — gayest", "خوش / شاد — زیادہ خوش — سب سے زیادہ خوش", "خوش — وڌيڪ خوش — سڀ کان وڌيڪ خوش"],
+          ["able — abler — ablest (also: more able — most able)", "قابل — زیادہ قابل — سب سے زیادہ قابل", "قابل — وڌيڪ قابل — سڀ کان وڌيڪ قابل"],
+          ["dry — drier — driest", "خشک — زیادہ خشک — سب سے زیادہ خشک", "سڪل — وڌيڪ سڪل — سڀ کان وڌيڪ سڪل"],
+          ["timid — more timid — most timid", "ڈرپوک — زیادہ ڈرپوک — سب سے زیادہ ڈرپوک", "ڊڄڻو — وڌيڪ ڊڄڻو — سڀ کان وڌيڪ ڊڄڻو"],
+          ["ugly — uglier — ugliest", "بدصورت — زیادہ بدصورت — سب سے بدصورت", "بدصورت — وڌيڪ بدصورت — سڀ کان بدصورت"],
+          ["true — truer — truest", "سچا — زیادہ سچا — سب سے سچا", "سچو — وڌيڪ سچو — سڀ کان سچو"],
+          ["severe — more severe — most severe", "سخت — زیادہ سخت — سب سے زیادہ سخت", "سخت — وڌيڪ سخت — سڀ کان وڌيڪ سخت"],
+          ["agreeable — more agreeable — most agreeable", "خوشگوار — زیادہ خوشگوار — سب سے زیادہ خوشگوار", "وڻندڙ — وڌيڪ وڻندڙ — سڀ کان وڌيڪ وڻندڙ"],
+          ["difficult — more difficult — most difficult", "مشکل — زیادہ مشکل — سب سے زیادہ مشکل", "ڏکيو — وڌيڪ ڏکيو — سڀ کان ڏکيو"],
+          ["little — less — least", "تھوڑا — کم — سب سے کم", "ٿورو — گهٽ — سڀ کان گهٽ"],
+          ["few — fewer — fewest", "چند — کم تعداد — سب سے کم تعداد", "ٿورا — گهٽ — سڀ کان گهٽ"],
+          ["numerous — more numerous — most numerous", "کثیر — زیادہ کثیر — سب سے زیادہ کثیر", "گهڻا — وڌيڪ گهڻا — سڀ کان گهڻا"],
+          ["merry — merrier — merriest", "خوش مزاج — زیادہ خوش مزاج — سب سے زیادہ خوش مزاج", "خوش مزاج — وڌيڪ خوش مزاج — سڀ کان وڌيڪ خوش مزاج"]
+        ]
+      },
+      {
+        title: "Special Differences: Later, Latter, Latest, Last",
+        english: "Later and latest refer to time. Latter and last refer to position or order. Later is the comparative form of late when speaking about time; latest means most recent. Latter identifies the second of two people or things already mentioned; last identifies the final one in a sequence. Do not confuse these meanings.",
+        urdu: "Later اور latest وقت کے لیے استعمال ہوتے ہیں۔ Latter اور last ترتیب یا مقام کے لیے آتے ہیں۔ وقت کے لحاظ سے later کا مطلب بعد میں اور latest کا مطلب تازہ ترین ہے۔ Latter پہلے ذکر کی گئی دو چیزوں میں دوسری چیز کو ظاہر کرتا ہے، جبکہ last سلسلے کی آخری چیز بتاتا ہے۔",
+        sindhi: "Later ۽ latest وقت لاءِ استعمال ٿيندا آهن. Latter ۽ last ترتيب يا جاءِ لاءِ ايندا آهن. وقت جي لحاظ کان later جو مطلب پوءِ ۽ latest جو مطلب تازو ترين آهي. Latter اڳ ذڪر ڪيل ٻن شين مان ٻي شيءِ ڏيکاري ٿو، جڏهن ته last سلسلي جي آخري شيءِ ٻڌائي ٿو.",
+        examples: [
+          ["He arrived later than I expected.", "وہ میری توقع سے دیر سے پہنچا۔", "هو منهنجي اميد کان دير سان پهتو."],
+          ["Have you heard the latest news?", "کیا آپ نے تازہ ترین خبر سنی ہے؟", "ڇا توهان تازي خبر ٻڌي آهي؟"],
+          ["The latter chapters are more interesting.", "بعد کے دو ابواب زیادہ دلچسپ ہیں۔", "پوئين باب وڌيڪ دلچسپ آهن."],
+          ["The last chapter is difficult.", "آخری باب مشکل ہے۔", "آخري باب ڏکيو آهي."],
+          ["We will discuss this at a later time.", "ہم اس پر بعد میں بات کریں گے۔", "اسان ان بابت پوءِ ڳالهائينداسين."],
+          ["This is the latest edition of the book.", "یہ کتاب کا تازہ ترین ایڈیشن ہے۔", "هي ڪتاب جو تازو ترين ڇاپو آهي."],
+          ["Of tea and coffee, I prefer the latter.", "چائے اور کافی میں سے میں دوسری چیز یعنی کافی پسند کرتا ہوں۔", "چانهه ۽ ڪافي مان مون کي ٻي شيءِ، يعني ڪافي، پسند آهي."],
+          ["He was the last person to leave.", "وہ سب سے آخر میں جانے والا شخص تھا۔", "هو سڀ کان آخر ۾ وڃڻ وارو ماڻهو هو."],
+          ["The meeting started later than planned.", "اجلاس منصوبے سے دیر سے شروع ہوا۔", "گڏجاڻي رٿابندي کان دير سان شروع ٿي."],
+          ["The latest reports are available online.", "تازہ ترین رپورٹیں آن لائن دستیاب ہیں۔", "تازيون رپورٽون آن لائن موجود آهن."]
+        ]
+      },
+      {
+        title: "Special Differences: Elder, Older, Eldest, Oldest",
+        english: "Elder and eldest are traditionally used mainly for people in the same family and normally come before a noun (my elder brother; her eldest daughter). Elder is not normally followed by than. Older and oldest can describe people, animals and things, and older is used with than (He is older than me).",
+        urdu: "Elder اور eldest روایتی طور پر زیادہ تر ایک ہی خاندان کے افراد کے لیے استعمال ہوتے ہیں اور عموماً اسم سے پہلے آتے ہیں، جیسے my elder brother اور her eldest daughter۔ Elder کے بعد عموماً than نہیں آتا۔ Older اور oldest افراد، جانوروں اور چیزوں سب کے لیے استعمال ہو سکتے ہیں، اور older کے ساتھ than آ سکتا ہے۔",
+        sindhi: "Elder ۽ eldest روايتي طور گهڻو ڪري ساڳئي خاندان جي ماڻهن لاءِ استعمال ٿيندا آهن ۽ عام طور اسم کان اڳ ايندا آهن، جيئن my elder brother ۽ her eldest daughter. Elder کان پوءِ عام طور than نٿو اچي. Older ۽ oldest ماڻهو، جانور ۽ شيون سڀني لاءِ استعمال ٿي سگهن ٿا، ۽ older سان than اچي سگهي ٿو.",
+        examples: [
+          ["John is my elder brother.", "جان میرا بڑا بھائی ہے۔", "جان منهنجو وڏو ڀاءُ آهي."],
+          ["Tom is my eldest son.", "ٹام میرا سب سے بڑا بیٹا ہے۔", "ٽام منهنجو سڀ کان وڏو پٽ آهي."],
+          ["He is older than his sister.", "وہ اپنی بہن سے بڑا ہے۔", "هو پنهنجي ڀيڻ کان وڏو آهي."],
+          ["Rama is the oldest boy in the group.", "راما گروپ کا سب سے بڑا لڑکا ہے۔", "راما گروهه جو سڀ کان وڏو ڇوڪرو آهي."],
+          ["This is the oldest temple in the city.", "یہ شہر کا سب سے قدیم مندر ہے۔", "هي شهر جو سڀ کان پراڻو مندر آهي."],
+          ["My elder sister is a teacher.", "میری بڑی بہن استاد ہے۔", "منهنجي وڏي ڀيڻ استاد آهي."],
+          ["Her eldest child studies medicine.", "اس کا سب سے بڑا بچہ طب پڑھتا ہے۔", "سندس سڀ کان وڏو ٻار طب پڙهي ٿو."],
+          ["This building is older than that one.", "یہ عمارت اس عمارت سے پرانی ہے۔", "هي عمارت ان عمارت کان پراڻي آهي."],
+          ["Which is the oldest tree in the park?", "پارک کا سب سے پرانا درخت کون سا ہے؟", "پارڪ جو سڀ کان پراڻو وڻ ڪهڙو آهي؟"],
+          ["My older cousin lives nearby.", "میرا بڑا کزن قریب رہتا ہے۔", "منهنجو وڏو سوٽ ويجهو رهي ٿو."]
+        ]
+      },
+      {
+        title: "Special Differences: Farther and Further",
+        english: "Both farther and further can refer to a greater distance. In traditional usage, farther is preferred for physical distance. Further is commonly used to mean additional or more, as in further information or further discussion. Further can also refer to figurative distance.",
+        urdu: "Farther اور further دونوں زیادہ فاصلے کے لیے آ سکتے ہیں۔ روایتی استعمال میں جسمانی فاصلے کے لیے farther کو ترجیح دی جاتی ہے۔ Further کا مطلب اضافی یا مزید بھی ہوتا ہے، جیسے further information یعنی مزید معلومات۔ Further مجازی فاصلے کے لیے بھی استعمال ہو سکتا ہے۔",
+        sindhi: "Farther ۽ further ٻئي وڌيڪ فاصلي لاءِ استعمال ٿي سگهن ٿا. روايتي استعمال ۾ حقيقي فاصلي لاءِ farther کي ترجيح ڏني ويندي آهي. Further جو مطلب اضافي يا وڌيڪ به آهي، جيئن further information يعني وڌيڪ ڄاڻ. Further مجازي فاصلي لاءِ به اچي سگهي ٿو.",
+        examples: [
+          ["Karachi is farther from Lahore than Hyderabad is.", "کراچی، حیدرآباد کے مقابلے میں لاہور سے زیادہ دور ہے۔", "ڪراچي، حيدرآباد جي ڀيٽ ۾ لاهور کان وڌيڪ پري آهي."],
+          ["The school is farther down the road.", "اسکول سڑک پر مزید آگے ہے۔", "اسڪول رستي تي وڌيڪ اڳتي آهي."],
+          ["We need further information.", "ہمیں مزید معلومات درکار ہیں۔", "اسان کي وڌيڪ ڄاڻ گهرجي."],
+          ["After this, he made no further remarks.", "اس کے بعد اس نے مزید کوئی تبصرہ نہیں کیا۔", "ان کان پوءِ هن وڌيڪ ڪو تبصرو نه ڪيو."],
+          ["I cannot walk any farther.", "میں مزید دور نہیں چل سکتا۔", "مان وڌيڪ پري هلي نٿو سگهان."],
+          ["Further study is necessary.", "مزید مطالعہ ضروری ہے۔", "وڌيڪ پڙهائي ضروري آهي."],
+          ["The village is farther away than the town.", "گاؤں قصبے سے زیادہ دور ہے۔", "ڳوٺ شهر کان وڌيڪ پري آهي."],
+          ["We will discuss this further tomorrow.", "ہم کل اس پر مزید بات کریں گے۔", "اسان سڀاڻي هن بابت وڌيڪ ڳالهائينداسين."],
+          ["There is no further delay.", "اب مزید تاخیر نہیں ہے۔", "هاڻي وڌيڪ دير ناهي."],
+          ["The farthest station is near the border.", "سب سے دور اسٹیشن سرحد کے قریب ہے۔", "سڀ کان پري اسٽيشن سرحد جي ويجهو آهي."]
+        ]
+      },
+      {
+        title: "Special Differences: Nearest and Next",
+        english: "Nearest means closest in physical distance. Next refers to the one immediately following in order, time or sequence, or the one beside something in expressions such as next to. Nearest is a superlative form of near; next is not simply interchangeable with nearest.",
+        urdu: "Nearest کا مطلب جسمانی فاصلے کے لحاظ سے سب سے قریب ہے۔ Next ترتیب، وقت یا سلسلے میں فوراً بعد آنے والی چیز یا شخص کے لیے استعمال ہوتا ہے۔ Next to کا مطلب کسی چیز کے ساتھ یا برابر میں ہے۔ Nearest، near کی Superlative صورت ہے؛ next اس کا متبادل نہیں۔",
+        sindhi: "Nearest جو مطلب حقيقي فاصلي ۾ سڀ کان ويجهو آهي. Next ترتيب، وقت يا سلسلي ۾ فوراً پوءِ ايندڙ شيءِ يا ماڻهو لاءِ استعمال ٿيندو آهي. Next to جو مطلب ڪنهن شيءِ جي ڀرسان آهي. Nearest، near جي Superlative صورت آهي؛ next ان جو سڌو متبادل ناهي.",
+        examples: [
+          ["Where is the nearest bus stop?", "قریب ترین بس اسٹاپ کہاں ہے؟", "سڀ کان ويجهو بس اسٽاپ ڪٿي آهي؟"],
+          ["This is the nearest shop to my house.", "یہ میرے گھر کے قریب ترین دکان ہے۔", "هي منهنجي گهر جي سڀ کان ويجهي دڪان آهي."],
+          ["The nearest hospital is five kilometres away.", "قریب ترین اسپتال پانچ کلومیٹر دور ہے۔", "سڀ کان ويجهي اسپتال پنج ڪلوميٽر پري آهي."],
+          ["Karim's shop is next to the post office.", "کریم کی دکان ڈاک خانے کے ساتھ ہے۔", "ڪريم جو دڪان پوسٽ آفيس جي ڀرسان آهي."],
+          ["My uncle lives in the next house.", "میرے چچا اگلے گھر میں رہتے ہیں۔", "منهنجو چاچو ڀر واري گهر ۾ رهي ٿو."],
+          ["What is the next lesson?", "اگلا سبق کون سا ہے؟", "اڳيون سبق ڪهڙو آهي؟"],
+          ["She was the next person in the queue.", "وہ قطار میں اگلی شخص تھی۔", "هوءَ قطار ۾ ايندڙ ماڻهو هئي."],
+          ["The nearest phone box is across the street.", "قریب ترین فون بوتھ سڑک کے پار ہے۔", "سڀ کان ويجهو فون بوٿ رستي جي ٻئي پاسي آهي."],
+          ["We caught the next train.", "ہم نے اگلی ٹرین پکڑی۔", "اسان ايندڙ ريل پڪڙي."],
+          ["Which is the nearest route to the station?", "اسٹیشن جانے کا قریب ترین راستہ کون سا ہے؟", "اسٽيشن ڏانهن سڀ کان ويجهو رستو ڪهڙو آهي؟"]
+        ]
+      } },
   "tenses": {
     overview: "English tense and aspect work together to show when an event happens and whether it is complete, continuing or connected to another time. The three broad time references are present, past and future.",
     watchFor: "Choose a form based on meaning and context, not only on time words. Present perfect, for example, often connects a past event to the present.",
