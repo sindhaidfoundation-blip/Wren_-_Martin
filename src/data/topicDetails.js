@@ -12766,7 +12766,7 @@ topicDetails["past-tense"] = {
       ]
     }
   ]
-},,
+},
   "spelling-rules": {
     "overview": "English spelling follows patterns rather than one perfectly regular system. When a suffix is added, the final letter or syllable of the base word may stay the same, disappear, change, or double. This lesson explains final-consonant doubling, silent-e and y changes, common suffixes, British English spellings, and important exceptions.",
     "watchFor": "First identify the base word, its final letters, vowel sound, syllable count and stress. Do not double a consonant merely because a word ends in one consonant: doubling depends on the spelling pattern and, in longer words, stress. British and American variants are not interchangeable within one piece of writing; follow one variety consistently.",
