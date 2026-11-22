@@ -5678,6 +5678,22 @@ export const lessons = [
     "practicePrompt": "Write a short message to new students explaining how they should use an English grammar course. Include its purpose, study advice and an encouraging closing."
   }
   {
+    id: "future-tense",
+    title: "Future Tense",
+    subtitle: "Four forms of future time with detailed explanations and 40 examples",
+    urdu: "Future Tense ایسے کاموں، واقعات یا حالتوں کو ظاہر کرتا ہے جو موجودہ وقت کے بعد ہوں گے۔ اس کی چار بنیادی صورتیں ہیں: Simple Future، Future Continuous، Future Perfect اور Future Perfect Continuous۔",
+    level: "Intermediate",
+    duration: "20 min",
+    rule: "Future tense describes actions or states after the present. Its four commonly taught forms are Simple Future, Future Continuous, Future Perfect and Future Perfect Continuous.",
+    example: "I will study. / I will be studying. / I will have studied. / I will have been studying.",
+    breakdown: [
+      ["Simple Future", "Subject + will + V1", "مستقبل میں ہونے والا کام؛ مثال: She will write."],
+      ["Future Continuous", "Subject + will be + V-ing", "مستقبل کے کسی وقت جاری کام؛ مثال: She will be writing."],
+      ["Future Perfect", "Subject + will have + V3", "مستقبل کے مقررہ وقت سے پہلے مکمل کام؛ مثال: She will have written."],
+      ["Future Perfect Continuous", "Subject + will have been + V-ing", "مستقبل کے کسی وقت تک جاری رہنے والے کام کی مدت؛ مثال: She will have been writing."]
+    ]
+  },
+  {
     id: "past-tense",
     title: "Past Tense",
     subtitle: "The four forms of past time with explanations and examples",
@@ -5704,6 +5720,7 @@ export const sindhiTranslations = {
   "pronouns": "Pronoun اهو لفظ آهي جيڪو noun جي بدران ڪم اچي ٿو، جيئن هڪ ئي نالو بار بار ورجائڻو نه پوي.",
   "verbs": "Verb ڪنهن ڪم، عمل يا حالت کي ظاهر ڪري ٿو. مثال: write، play، is ۽ seem.",
   "adjectives": "Adjective، noun يا pronoun جي خوبي، حالت، تعداد يا مقدار بيان ڪري ٿو.",
+  "future-tense": "Future Tense اهڙن ڪمن، واقعن يا حالتن کي ظاهر ڪري ٿو جيڪي هاڻوڪي وقت کان پوءِ ٿيندا. ان جون چار بنيادي صورتون آهن: Simple Future، Future Continuous، Future Perfect ۽ Future Perfect Continuous.",
   "tenses": "Tense مان خبر پوي ٿي ته ڪو ڪم حال، ماضي يا مستقبل ۾ ٿئي ٿو. هر زماني جا وڌيڪ قسم به هوندا آهن.",
   "articles": "A ۽ An اڻڄاتل يا غير مخصوص شيءِ لاءِ، جڏهن ته The ڪنهن خاص يا اڳ ڄاتل شيءِ لاءِ استعمال ٿيندو آهي.",
   "prepositions": "Preposition، noun يا pronoun جو جملي جي ٻين لفظن سان لاڳاپو ڏيکاري ٿو، جيئن in، on، at ۽ under.",
