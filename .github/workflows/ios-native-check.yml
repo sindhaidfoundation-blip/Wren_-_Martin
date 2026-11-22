@@ -18,7 +18,7 @@ permissions:
 jobs:
   ios-simulator-build:
     name: Prebuild and compile iOS app
-    runs-on: macos-15
+    runs-on: macos-26
     timeout-minutes: 60
     steps:
       - name: Check out repository
