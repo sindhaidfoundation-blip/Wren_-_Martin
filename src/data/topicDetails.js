@@ -5825,7 +5825,142 @@ topicDetails["past-tense"] = {
         ["They had been travelling since dawn before they stopped for lunch.", "دوپہر کے کھانے کے لیے رکنے سے پہلے وہ صبح سویرے سے سفر کر رہے تھے۔", "منجهند جي ماني لاءِ بيهڻ کان اڳ اهي صبح کان سفر ڪري رهيا هئا.", "Had been travelling shows an activity that began at dawn and continued up to the past stopping point."]
       ]
     }
-  ]
+  ],
+  "composition": {
+    "overview": "Composition teaches learners to construct, examine and combine sentences. This section introduces analysis, transformation and synthesis, beginning with the grammatical analysis of simple sentences.",
+    "watchFor": "Do not confuse a long simple sentence with a complex sentence. A simple sentence may contain many phrases and modifiers, but it has only one independent clause and no subordinate clause. Distinguish objects from complements and finite verbs from non-finite verb forms.",
+    "examples": [
+      "The girl opened the window. (one independent clause: simple sentence)",
+      "Because it was cold, the girl closed the window. (a subordinate clause makes this a complex sentence)"
+    ],
+    "specialSectionsTitle": "Analysis, Transformation and Synthesis",
+    "specialSections": [
+      {
+        "title": "Analysis, Transformation and Synthesis — Introduction",
+        "english": "Composition is the arrangement of words and sentences to express ideas clearly and correctly. Analysis means breaking a sentence into grammatical parts and explaining each part's function. Transformation means changing a sentence's grammatical form while preserving its essential meaning, for example affirmative to negative or active to passive. Synthesis means combining two or more short sentences into one sentence by using a conjunction, participle, infinitive, phrase or appositive. These three skills help learners understand sentence structure and express ideas accurately in different forms.",
+        "urdu": "Composition الفاظ اور جملوں کو واضح اور درست انداز میں ترتیب دینے کا نام ہے۔ Analysis میں جملے کو نحوی حصوں میں تقسیم کرکے ہر حصے کا کام سمجھایا جاتا ہے۔ Transformation میں بنیادی مفہوم برقرار رکھتے ہوئے جملے کی صورت بدلی جاتی ہے، مثلاً مثبت کو منفی یا Active کو Passive بنانا۔ Synthesis میں دو یا زیادہ چھوٹے جملوں کو حرفِ عطف، Participle، Infinitive، Phrase یا Appositive کے ذریعے ایک جملے میں ملایا جاتا ہے۔ یہ تینوں مہارتیں جملے کی ساخت سمجھنے اور خیالات کو درست انداز میں بیان کرنے میں مدد دیتی ہیں۔",
+        "sindhi": "Composition لفظن ۽ جملن کي صاف ۽ صحيح نموني ترتيب ڏيڻ جو نالو آهي. Analysis ۾ جملي کي گرامري حصن ۾ ورهائي هر حصي جو ڪم سمجهائبو آهي. Transformation ۾ بنيادي معنيٰ برقرار رکندي جملي جي صورت تبديل ڪبي آهي، مثال طور مثبت کي منفي يا Active کي Passive ڪرڻ. Synthesis ۾ ٻن يا وڌيڪ ننڍن جملن کي حرفِ عطف، Participle، Infinitive، Phrase يا Appositive سان هڪ جملي ۾ گڏ ڪبو آهي. اهي ٽيئي صلاحيتون جملي جي بناوت سمجهڻ ۽ خيالن کي صحيح نموني ظاهر ڪرڻ ۾ مدد ڪن ٿيون.",
+        "subsections": [
+          {
+            "title": "1. Analysis",
+            "english": "Analysis is the grammatical examination of a sentence. Identify its subject and predicate, finite verb, object or complement, and the phrases and modifiers. Explain the function of each part and how it relates to the rest of the sentence.",
+            "urdu": "Analysis جملے کا نحوی جائزہ ہے۔ Subject، Predicate، Finite Verb، Object یا Complement، اور Phrases و Modifiers کی نشاندہی کریں۔ ہر حصے کا کام اور جملے کے باقی حصوں سے اس کا تعلق واضح کریں۔",
+            "sindhi": "Analysis جملي جو گرامري جائزو آهي. Subject، Predicate، Finite Verb، Object يا Complement ۽ Phrases توڙي Modifiers سڃاڻو. هر حصي جو ڪم ۽ جملي جي ٻين حصن سان ان جو لاڳاپو بيان ڪريو."
+          },
+          {
+            "title": "2. Transformation",
+            "english": "Transformation rewrites a sentence in another grammatical form without changing its essential meaning. Common exercises include affirmative/negative, assertive/interrogative, exclamatory/assertive, active/passive and simple/complex/compound forms. A transformation is valid only if the meaning remains substantially the same and the new sentence is grammatically correct.",
+            "urdu": "Transformation میں جملے کا بنیادی مفہوم برقرار رکھتے ہوئے اسے دوسری نحوی صورت میں لکھا جاتا ہے۔ عام مشقوں میں مثبت/منفی، خبریہ/سوالیہ، فجائیہ/خبریہ، Active/Passive اور Simple/Complex/Compound کی تبدیلی شامل ہے۔ درست تبدیلی وہ ہے جس میں مفہوم برقرار رہے اور نیا جملہ قواعد کے مطابق ہو۔",
+            "sindhi": "Transformation ۾ جملي جي بنيادي معنيٰ برقرار رکندي ان کي ٻي گرامري صورت ۾ لکبو آهي. عام مشقن ۾ مثبت/منفي، بيانيه/سواليه، تعجبي/بيانيه، Active/Passive ۽ Simple/Complex/Compound ۾ تبديلي شامل آهي. صحيح تبديلي اها آهي جنهن ۾ مطلب برقرار رهي ۽ نئون جملو گرامر موجب هجي."
+          },
+          {
+            "title": "3. Synthesis",
+            "english": "Synthesis combines two or more short sentences into one clear sentence without losing essential information. It may use coordinating or subordinating conjunctions, participles, infinitives, prepositional phrases or appositives. Select the construction that clearly expresses the relationship between the ideas and avoids unnecessary repetition.",
+            "urdu": "Synthesis دو یا زیادہ چھوٹے جملوں کو بنیادی معلومات برقرار رکھتے ہوئے ایک واضح جملے میں ملانے کا عمل ہے۔ اس میں Coordinating یا Subordinating conjunctions، Participles، Infinitives، Prepositional phrases یا Appositives استعمال ہو سکتے ہیں۔ ایسی ترکیب منتخب کریں جو خیالات کا تعلق واضح کرے اور غیر ضروری تکرار سے بچے۔",
+            "sindhi": "Synthesis ٻن يا وڌيڪ ننڍن جملن کي بنيادي ڄاڻ برقرار رکندي هڪ صاف جملي ۾ گڏ ڪرڻ جو عمل آهي. ان ۾ Coordinating يا Subordinating conjunctions، Participles، Infinitives، Prepositional phrases يا Appositives استعمال ٿي سگهن ٿا. اهڙي ترڪيب چونڊيو جيڪا خيالن جو لاڳاپو واضح ڪري ۽ غيرضروري ورجاءُ کان بچائي."
+          }
+        ]
+      },
+      {
+        "title": "Analysis of Simple Sentences — Definition and Detailed Explanation",
+        "english": "A simple sentence contains one independent clause and expresses a complete thought. It has one main finite verb or verb phrase and no subordinate clause. It may contain a long or compound subject, a compound predicate, objects, complements and several phrases; these do not make it complex or compound unless another clause is present. In traditional school grammar, analysis of a simple sentence means identifying the subject and predicate and explaining the grammatical function of every important word or phrase.",
+        "urdu": "Simple Sentence ایسا جملہ ہے جس میں ایک Independent Clause ہوتا ہے اور جو مکمل خیال ظاہر کرتا ہے۔ اس میں ایک بنیادی Finite Verb یا Verb Phrase ہوتا ہے اور کوئی Subordinate Clause نہیں ہوتا۔ اس میں طویل یا Compound Subject، Compound Predicate، Objects، Complements اور کئی Phrases ہو سکتے ہیں؛ یہ چیزیں اسے Complex یا Compound نہیں بناتیں جب تک دوسرا Clause موجود نہ ہو۔ روایتی قواعد میں Simple Sentence کا Analysis کرنے کا مطلب Subject اور Predicate کی نشاندہی کرکے اہم الفاظ اور فقروں کا نحوی کام بیان کرنا ہے۔",
+        "sindhi": "Simple Sentence اهو جملو آهي جنهن ۾ هڪ Independent Clause هوندو آهي ۽ جيڪو مڪمل خيال ظاهر ڪندو آهي. ان ۾ هڪ مکيه Finite Verb يا Verb Phrase هوندو آهي ۽ ڪو Subordinate Clause نه هوندو آهي. ان ۾ ڊگهو يا Compound Subject، Compound Predicate، Objects، Complements ۽ ڪيترائي Phrases ٿي سگهن ٿا؛ اهي ان کي Complex يا Compound نٿا بڻائين جيستائين ٻيو Clause موجود نه هجي. روايتي گرامر ۾ Simple Sentence جو Analysis ڪرڻ جو مطلب Subject ۽ Predicate سڃاڻڻ ۽ اهم لفظن ۽ فقرن جو گرامري ڪم بيان ڪرڻ آهي۔",
+        "subsections": [
+          {
+            "title": "A. Subject and Predicate",
+            "english": "The subject tells whom or what the sentence is about. The predicate says something about the subject and normally contains the verb. The complete subject includes its modifiers; the complete predicate includes the verb and all words that complete or modify it. The simple subject is the main noun or pronoun, and the simple predicate is the main verb or verb phrase.",
+            "urdu": "Subject بتاتا ہے کہ جملہ کس شخص یا چیز کے بارے میں ہے۔ Predicate، Subject کے بارے میں کچھ بیان کرتا ہے اور عموماً اس میں فعل شامل ہوتا ہے۔ Complete Subject میں اس کے modifiers شامل ہوتے ہیں، جبکہ Complete Predicate میں فعل اور اسے مکمل یا واضح کرنے والے الفاظ شامل ہوتے ہیں۔ Simple Subject بنیادی اسم یا ضمیر اور Simple Predicate بنیادی فعل یا فعلی ترکیب ہے۔",
+            "sindhi": "Subject ٻڌائي ٿو ته جملو ڪنهن ماڻهو يا شيءِ بابت آهي. Predicate، Subject بابت ڳالهه ڪري ٿو ۽ عام طور فعل تي مشتمل هوندو آهي. Complete Subject ۾ ان جا modifiers شامل هوندا آهن، جڏهن ته Complete Predicate ۾ فعل ۽ ان کي مڪمل ڪندڙ لفظ هوندا آهن. Simple Subject مکيه اسم يا ضمير ۽ Simple Predicate مکيه فعل يا فعلي ترڪيب آهي."
+          },
+          {
+            "title": "B. Objects, Complements and Modifiers",
+            "english": "A direct object receives the action of a transitive verb (She opened the door). An indirect object tells to whom or for whom something is done (She gave me a pen). A subject complement follows a linking verb and describes or renames the subject (He is tired; Sara became a doctor). An object complement describes or renames the object (They elected him captain). Modifiers add information about time, place, manner, reason or description. A phrase is a group of related words that does not contain its own subject–finite-verb combination.",
+            "urdu": "Direct Object متعدی فعل کے عمل کو وصول کرتا ہے (She opened the door)۔ Indirect Object بتاتا ہے کہ کام کس کو یا کس کے لیے کیا گیا (She gave me a pen)۔ Subject Complement، Linking Verb کے بعد آ کر Subject کی وضاحت یا نام بدلتا ہے (He is tired؛ Sara became a doctor)۔ Object Complement، Object کی وضاحت کرتا ہے (They elected him captain)۔ Modifiers وقت، جگہ، طریقہ، وجہ یا وصف کی معلومات دیتے ہیں۔ Phrase متعلقہ الفاظ کا مجموعہ ہے جس میں اپنا Subject اور Finite Verb کا جوڑا نہیں ہوتا۔",
+            "sindhi": "Direct Object، transitive verb جي عمل کي وصول ڪري ٿو (She opened the door). Indirect Object ٻڌائي ٿو ته ڪم ڪنهن کي يا ڪنهن لاءِ ٿيو (She gave me a pen). Subject Complement، Linking Verb کان پوءِ اچي Subject جي وضاحت ڪري ٿو (He is tired؛ Sara became a doctor). Object Complement، Object جي وضاحت ڪري ٿو (They elected him captain). Modifiers وقت، هنڌ، طريقي، سبب يا وصف بابت ڄاڻ ڏين ٿا. Phrase لاڳاپيل لفظن جو مجموعو آهي جنهن ۾ پنهنجو Subject ۽ Finite Verb جو جوڙو نه هوندو آهي."
+          },
+          {
+            "title": "C. Steps for Analysis",
+            "english": "1. Read the sentence and understand its meaning. 2. Find the finite verb or verb phrase. 3. Ask who or what performs the action or is described; identify the subject. 4. Separate the predicate. 5. Identify any object or complement. 6. Find phrases and modifiers and state what they modify. 7. Confirm that there is only one independent clause and no subordinate clause. 8. Present the analysis clearly in the order of subject, predicate, verb, object/complement and modifiers.",
+            "urdu": "1۔ جملہ پڑھ کر مفہوم سمجھیں۔ 2۔ Finite Verb یا Verb Phrase تلاش کریں۔ 3۔ پوچھیں کام کون کرتا ہے یا کس کے بارے میں بات ہے؛ Subject پہچانیں۔ 4۔ Predicate الگ کریں۔ 5۔ Object یا Complement تلاش کریں۔ 6۔ Phrases اور Modifiers بتائیں اور واضح کریں کہ وہ کس کی وضاحت کرتے ہیں۔ 7۔ تصدیق کریں کہ صرف ایک Independent Clause ہے اور کوئی Subordinate Clause نہیں۔ 8۔ تجزیہ Subject، Predicate، Verb، Object/Complement اور Modifiers کی ترتیب سے لکھیں۔",
+            "sindhi": "1. جملو پڙهي مطلب سمجهو. 2. Finite Verb يا Verb Phrase ڳوليو. 3. پڇو ته ڪم ڪير ڪري ٿو يا ڪنهن بابت ڳالهه آهي؛ Subject سڃاڻو. 4. Predicate الڳ ڪريو. 5. Object يا Complement ڳوليو. 6. Phrases ۽ Modifiers سڃاڻي ٻڌايو ته اهي ڪهڙي لفظ جي وضاحت ڪن ٿا. 7. پڪ ڪريو ته رڳو هڪ Independent Clause آهي ۽ ڪو Subordinate Clause ناهي. 8. تجزيو Subject، Predicate، Verb، Object/Complement ۽ Modifiers جي ترتيب سان لکو."
+          }
+        ],
+        "examples": [
+          [
+            "The sun rises in the east.",
+            "Subject: The sun (simple subject: sun). Predicate: rises in the east. Verb: rises. Adverbial phrase of place: in the east.",
+            "سورج مشرق سے طلوع ہوتا ہے۔",
+            "سج اوڀر کان اڀري ٿو۔",
+            "This is simple because it has one independent clause. In the east is a prepositional phrase modifying rises."
+          ],
+          [
+            "The little boy kicked the ball.",
+            "Subject: The little boy (simple subject: boy; little modifies boy). Predicate: kicked the ball. Verb: kicked. Direct object: the ball.",
+            "چھوٹے لڑکے نے گیند کو لات ماری۔",
+            "ننڍڙي ڇوڪري بال کي لت هنئي۔",
+            "Kicked is a transitive verb; the ball receives its action."
+          ],
+          [
+            "My elder sister is a doctor.",
+            "Subject: My elder sister. Predicate: is a doctor. Linking verb: is. Subject complement: a doctor.",
+            "میری بڑی بہن ڈاکٹر ہے۔",
+            "منهنجي وڏي ڀيڻ ڊاڪٽر آهي۔",
+            "A doctor renames the subject after the linking verb; it is a subject complement, not an object."
+          ],
+          [
+            "The children played happily in the garden.",
+            "Subject: The children. Predicate: played happily in the garden. Verb: played. Adverb of manner: happily. Adverbial phrase of place: in the garden.",
+            "بچوں نے باغ میں خوشی سے کھیلا۔",
+            "ٻارن باغ ۾ خوشيءَ سان کيڏيو۔",
+            "Happily tells how they played; in the garden tells where. Both modify the verb."
+          ],
+          [
+            "Our teacher gave us useful advice.",
+            "Subject: Our teacher. Predicate: gave us useful advice. Verb: gave. Indirect object: us. Direct object: useful advice.",
+            "ہمارے استاد نے ہمیں مفید مشورہ دیا۔",
+            "اسان جي استاد اسان کي ڪارائتو مشورو ڏنو۔",
+            "Us tells to whom the advice was given; useful advice is what was given."
+          ],
+          [
+            "The brave soldier fought courageously.",
+            "Subject: The brave soldier. Predicate: fought courageously. Verb: fought. Adverb: courageously.",
+            "بہادر سپاہی نے دلیری سے جنگ کی۔",
+            "بهادر سپاهيءَ بهادريءَ سان جنگ ڪئي۔",
+            "Brave modifies soldier; courageously modifies fought."
+          ],
+          [
+            "The sky became dark before sunset.",
+            "Subject: The sky. Predicate: became dark before sunset. Linking verb: became. Subject complement: dark. Adverbial phrase of time: before sunset.",
+            "غروبِ آفتاب سے پہلے آسمان تاریک ہو گیا۔",
+            "سج لهڻ کان اڳ آسمان اونداهو ٿي ويو۔",
+            "Dark describes the subject; before sunset tells when."
+          ],
+          [
+            "A cup of hot tea stood on the table.",
+            "Subject: A cup of hot tea (simple subject: cup; of hot tea modifies cup). Predicate: stood on the table. Verb: stood. Adverbial phrase: on the table.",
+            "گرم چائے کا ایک کپ میز پر رکھا تھا۔",
+            "گرم چانهه جو ڪوپ ميز تي رکيل هو۔",
+            "Of hot tea is part of the subject noun phrase; on the table tells where it stood."
+          ],
+          [
+            "The committee elected Sara captain.",
+            "Subject: The committee. Predicate: elected Sara captain. Verb: elected. Direct object: Sara. Object complement: captain.",
+            "کمیٹی نے سارہ کو کپتان منتخب کیا۔",
+            "ڪميٽي سارا کي ڪپتان چونڊيو۔",
+            "Sara receives the action; captain identifies Sara and is an object complement."
+          ],
+          [
+            "Walking along the river, the tourists admired the scenery.",
+            "Subject: the tourists. Predicate: walking along the river, admired the scenery. Main finite verb: admired. Direct object: the scenery. Participial phrase: walking along the river.",
+            "دریا کے کنارے چلتے ہوئے سیاحوں نے قدرتی منظر کی تعریف کی۔",
+            "درياهه جي ڪناري هلندي سياحن قدرتي نظاري جي ساراهه ڪئي۔",
+            "Walking is non-finite and forms a participial phrase; the sentence still has one finite clause."
+          ]
+        ]
+      }
+    ]
+  }
 };
 
 
