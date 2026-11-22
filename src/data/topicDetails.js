@@ -7599,7 +7599,264 @@ topicDetails["past-tense"] = {
           ]
         ]
       }
+    ,
+{
+  "title": "Analysis of Complex Sentences (Clause Analysis) — Full Explanation, Examples and Exercises",
+  "english": "A complex sentence contains one independent (main) clause and at least one dependent (subordinate) clause. The main clause expresses the principal idea and can stand alone as a complete sentence. A subordinate clause depends on the main clause and performs a grammatical function within the sentence. Clause analysis means identifying each clause, finding its subject and finite verb, deciding whether it is main or subordinate, classifying each subordinate clause, and explaining its function. A sentence may contain several subordinate clauses, including a clause embedded inside another clause. Sentence length does not determine sentence type; the number and relationship of clauses do.",
+  "urdu": "Complex Sentence میں ایک Independent یا Main Clause اور کم از کم ایک Dependent یا Subordinate Clause ہوتا ہے۔ Main Clause بنیادی خیال بیان کرتا ہے اور اکیلا مکمل جملہ بن سکتا ہے۔ Subordinate Clause مرکزی جملے پر منحصر ہوتا ہے اور جملے میں ایک نحوی کام انجام دیتا ہے۔ Clause Analysis میں ہر clause کی شناخت، اس کے Subject اور Finite Verb کی نشاندہی، اسے Main یا Subordinate قرار دینا، تابع clause کی قسم اور اس کا نحوی کام بتانا شامل ہے۔ ایک جملے میں کئی تابع clauses بھی ہو سکتے ہیں، حتیٰ کہ ایک clause کے اندر دوسرا clause بھی آ سکتا ہے۔ جملے کی طوالت نہیں بلکہ clauses کی تعداد اور باہمی تعلق اس کی قسم طے کرتے ہیں۔",
+  "sindhi": "Complex Sentence ۾ هڪ Independent يا Main Clause ۽ گهٽ ۾ گهٽ هڪ Dependent يا Subordinate Clause هوندو آهي. Main Clause بنيادي خيال ٻڌائي ٿو ۽ اڪيلو مڪمل جملو ٿي سگهي ٿو. Subordinate Clause مکيه جملي تي دارومدار رکي ٿو ۽ جملي ۾ گرامري ڪم ڪري ٿو. Clause Analysis ۾ هر clause سڃاڻڻ، ان جو Subject ۽ Finite Verb ڳولڻ، ان کي Main يا Subordinate قرار ڏيڻ، تابع clause جو قسم ۽ ان جو گرامري ڪم ٻڌائڻ شامل آهي. هڪ جملي ۾ ڪيترائي تابع clauses به ٿي سگهن ٿا، ايتري قدر جو هڪ clause اندر ٻيو clause به اچي سگهي ٿو. جملي جي ڊيگهه نه، پر clauses جو تعداد ۽ لاڳاپو ان جي قسم جو فيصلو ڪن ٿا.",
+  "subsections": [
+    {
+      "title": "1. Clause, subject, finite verb and phrase",
+      "english": "A clause is a group of words built around a verb and normally containing its own subject. A finite verb shows tense or agrees with its subject: she works, they worked, he is reading. A verb phrase such as has been working is one finite verb phrase, not three clauses. Non-finite forms such as to work, working and written do not by themselves make a finite clause. A phrase such as in the morning has no subject–finite-verb combination, so it is not a clause. To find clauses, locate the finite verb phrases first, then identify the subjects connected with them.",
+      "urdu": "Clause الفاظ کا ایسا مجموعہ ہے جو فعل کے گرد بنتا ہے اور عموماً اس کا اپنا Subject ہوتا ہے۔ Finite Verb زمانہ ظاہر کرتا ہے یا Subject کے مطابق بدلتا ہے: she works، they worked، he is reading۔ Has been working ایک ہی Verb Phrase ہے، تین clauses نہیں۔ To work، working اور written جیسے Non-finite forms اکیلے finite clause نہیں بناتے۔ In the morning ایک phrase ہے کیونکہ اس میں اپنا Subject اور Finite Verb نہیں۔ Clauses تلاش کرنے کے لیے پہلے finite verb phrases اور پھر ان کے Subjects تلاش کریں۔",
+      "sindhi": "Clause لفظن جو اهڙو مجموعو آهي جيڪو فعل جي چوڌاري ٺهي ٿو ۽ عام طور ان جو پنهنجو Subject هوندو آهي. Finite Verb زمانو ڏيکاري ٿو يا Subject موجب بدلجي ٿو: she works، they worked، he is reading. Has been working هڪ ئي Verb Phrase آهي، ٽي clauses نه. To work، working ۽ written جهڙا Non-finite forms اڪيلا finite clause نٿا ٺاهين. In the morning هڪ phrase آهي، ڇو ته ان ۾ پنهنجو Subject ۽ Finite Verb ناهي. Clauses ڳولڻ لاءِ پهرين finite verb phrases ۽ پوءِ انهن جا Subjects ڳوليو."
+    },
+    {
+      "title": "2. Main clause and subordinate clause",
+      "english": "The main clause can stand alone: The children went inside. The subordinate clause cannot normally stand alone: because it was raining. Together they form a complex sentence: The children went inside because it was raining. The subordinate clause may come before or after the main clause. When it opens the sentence, a comma normally follows it: Because it was raining, the children went inside. When it follows the main clause, a comma is usually unnecessary.",
+      "urdu": "Main Clause اکیلا مکمل جملہ بن سکتا ہے: The children went inside۔ Subordinate Clause عموماً اکیلا مکمل جملہ نہیں بن سکتا: because it was raining۔ دونوں مل کر Complex Sentence بناتے ہیں: The children went inside because it was raining۔ تابع clause پہلے یا بعد میں آ سکتا ہے۔ اگر شروع میں آئے تو عموماً اس کے بعد comma لگتا ہے: Because it was raining, the children went inside۔ اگر آخر میں آئے تو عام طور پر comma نہیں لگتا۔",
+      "sindhi": "Main Clause اڪيلو مڪمل جملو ٿي سگهي ٿو: The children went inside. Subordinate Clause عام طور اڪيلو مڪمل جملو نٿو ٿي سگهي: because it was raining. ٻئي گڏجي Complex Sentence ٺاهين ٿا: The children went inside because it was raining. تابع clause پهرين يا پوءِ اچي سگهي ٿو. جيڪڏهن شروع ۾ اچي ته عام طور ان کان پوءِ ڪاما ڏبي: Because it was raining, the children went inside. جيڪڏهن آخر ۾ اچي ته عام طور ڪاما نه ڏبي."
+    },
+    {
+      "title": "3. Three principal types of subordinate clauses",
+      "english": "(A) Noun clause: does the work of a noun. It may be the subject, direct object, subject complement or object of a preposition. Common markers: that, what, whatever, who, whoever, whether, if, why, how, when and where. Example: What she said surprised me. (B) Adjective/relative clause: describes a noun or pronoun. Common markers: who, whom, whose, which, that, where and when. Example: The woman who lives next door is a doctor. (C) Adverb clause: modifies a verb, adjective, adverb or whole main clause, expressing time, place, reason, purpose, condition, result, comparison or concession. Example: We stayed inside because it was raining. Classify by function, not merely by the introductory word.",
+      "urdu": "(A) Noun Clause: اسم کا کام کرتا ہے؛ Subject، Direct Object، Subject Complement یا Preposition کا Object بن سکتا ہے۔ عام الفاظ that, what, who, whether, why, how, when اور where ہیں۔ مثال: What she said surprised me۔ (B) Adjective/Relative Clause: اسم یا ضمیر کی وضاحت کرتا ہے۔ عام الفاظ who, whom, whose, which, that, where اور when ہیں۔ مثال: The woman who lives next door is a doctor۔ (C) Adverb Clause: فعل، صفت، متعلقِ فعل یا پورے مرکزی جملے کی وضاحت کرتا ہے اور وقت، جگہ، وجہ، مقصد، شرط، نتیجہ، موازنہ یا رعایت ظاہر کرتا ہے۔ مثال: We stayed inside because it was raining۔ قسم کا فیصلہ clause کے کام سے کریں، صرف ابتدائی لفظ سے نہیں۔",
+      "sindhi": "(A) Noun Clause: اسم جو ڪم ڪري ٿو؛ Subject، Direct Object، Subject Complement يا Preposition جو Object ٿي سگهي ٿو. عام لفظ that، what، who، whether، why، how، when ۽ where آهن. مثال: What she said surprised me. (B) Adjective/Relative Clause: اسم يا ضمير جي وضاحت ڪري ٿو. عام لفظ who، whom، whose، which، that، where ۽ when آهن. مثال: The woman who lives next door is a doctor. (C) Adverb Clause: فعل، صفت، ظرف يا سڄي مکيه جملي جي وضاحت ڪري ٿو ۽ وقت، هنڌ، سبب، مقصد، شرط، نتيجو، مقابلو يا رعايت ڏيکاري ٿو. مثال: We stayed inside because it was raining. قسم جو فيصلو clause جي ڪم مان ڪريو، رڳو شروعاتي لفظ مان نه."
+    },
+    {
+      "title": "4. Step-by-step method of clause analysis",
+      "english": "1. Read the complete sentence for meaning. 2. Underline every finite verb or finite verb phrase. 3. Find the subject of each finite verb. 4. Group each subject and verb with its related words to identify the clauses. 5. Identify the main clause that can stand alone. 6. Mark each subordinate clause and its introductory word. 7. Classify it as noun, adjective/relative or adverb. 8. State its exact function: subject, object, complement, noun modifier or adverbial of time/reason/condition, etc. 9. If a subordinate clause contains another subordinate clause, show the nesting. 10. Check punctuation and ensure every clause is analysed.",
+      "urdu": "Clause Analysis کے مراحل: 1۔ پورا جملہ پڑھ کر مفہوم سمجھیں۔ 2۔ ہر Finite Verb یا Verb Phrase نشان زد کریں۔ 3۔ ہر فعل کا Subject تلاش کریں۔ 4۔ Subject، فعل اور متعلقہ الفاظ کو ملا کر clauses بنائیں۔ 5۔ Main Clause تلاش کریں جو اکیلا مکمل جملہ بن سکتا ہے۔ 6۔ ہر Subordinate Clause اور اس کے ابتدائی لفظ کو نشان زد کریں۔ 7۔ اسے Noun، Adjective/Relative یا Adverb Clause قرار دیں۔ 8۔ اس کا درست کام بتائیں: Subject، Object، Complement، اسم کی وضاحت یا وقت/وجہ/شرط کا متعلقِ فعل وغیرہ۔ 9۔ اگر تابع clause کے اندر دوسرا clause ہو تو اس کی ترتیب واضح کریں۔ 10۔ punctuation دیکھیں اور تمام clauses کا تجزیہ مکمل کریں۔",
+      "sindhi": "Clause Analysis جا مرحلا: 1. پورو جملو پڙهي مطلب سمجهو. 2. هر Finite Verb يا Verb Phrase نشان لڳايو. 3. هر فعل جو Subject ڳوليو. 4. Subject، فعل ۽ لاڳاپيل لفظ گڏ ڪري clauses سڃاڻو. 5. Main Clause ڳوليو جيڪو اڪيلو مڪمل جملو ٿي سگهي. 6. هر Subordinate Clause ۽ ان جو شروعاتي لفظ نشان لڳايو. 7. ان کي Noun، Adjective/Relative يا Adverb Clause قرار ڏيو. 8. ان جو صحيح ڪم ٻڌايو: Subject، Object، Complement، اسم جي وضاحت يا وقت/سبب/شرط جو ظرف وغيره. 9. جيڪڏهن تابع clause اندر ٻيو clause هجي ته ان جي ترتيب واضح ڪريو. 10. punctuation ڏسو ۽ سڀني clauses جو تجزيو مڪمل ڪريو."
+    },
+    {
+      "title": "5. How to distinguish similar-looking clauses",
+      "english": "The word where illustrates why function matters. In 'I know where he lives', where he lives is a noun clause and the object of know. In 'I visited the town where he lives', where he lives is an adjective/relative clause describing town. Likewise, that introduces a noun clause in 'I believe that she is right', but a relative clause in 'The answer that she gave was correct'. Ask what the whole clause does in the sentence. Noun clauses occupy noun positions; adjective clauses sit beside and describe nouns; adverb clauses modify an action or the whole statement.",
+      "urdu": "Where سے شروع ہونے والے clauses کی قسم ان کے کام سے پہچانیں۔ I know where he lives میں where he lives، Noun Clause اور know کا Object ہے۔ I visited the town where he lives میں یہی clause، town کی وضاحت کرتا ہے، اس لیے Adjective/Relative Clause ہے۔ اسی طرح I believe that she is right میں that ایک Noun Clause شروع کرتا ہے، جبکہ The answer that she gave was correct میں Relative Clause شروع کرتا ہے۔ دیکھیں کہ پورا clause جملے میں کیا کام کر رہا ہے۔",
+      "sindhi": "Where سان شروع ٿيندڙ clauses جو قسم انهن جي ڪم مان سڃاڻو. I know where he lives ۾ where he lives، Noun Clause ۽ know جو Object آهي. I visited the town where he lives ۾ اهو clause، town جي وضاحت ڪري ٿو، تنهنڪري Adjective/Relative Clause آهي. ساڳيءَ طرح I believe that she is right ۾ that، Noun Clause شروع ڪري ٿو، جڏهن ته The answer that she gave was correct ۾ Relative Clause شروع ڪري ٿو. ڏسو ته پورو clause جملي ۾ ڪهڙو ڪم ڪري ٿو."
+    },
+    {
+      "title": "6. Punctuation and common examination errors",
+      "english": "Use a comma after an introductory adverb clause: Although it was late, we continued. Do not normally use commas around an essential relative clause: The student who won the prize is my cousin. Use commas around a non-defining relative clause that adds extra information: My uncle, who lives in Lahore, is visiting. A compound sentence joins independent clauses; a complex sentence joins a main clause with at least one subordinate clause. Avoid fragments such as 'When the lesson ended.' Attach the subordinate clause to a main clause. Do not count auxiliary verbs in one verb phrase as separate clauses. Do not classify by the first word alone. In indirect questions use statement word order: I know where she lives, not I know where does she live.",
+      "urdu": "شروع میں آنے والے Adverb Clause کے بعد comma لگائیں: Although it was late, we continued۔ ضروری Relative Clause کے گرد عموماً comma نہیں لگتا: The student who won the prize is my cousin۔ اضافی معلومات دینے والے Non-defining Relative Clause کے گرد commas لگتے ہیں: My uncle, who lives in Lahore, is visiting۔ Compound Sentence میں Independent Clauses ملتے ہیں، جبکہ Complex Sentence میں Main Clause کے ساتھ کم از کم ایک Subordinate Clause ہوتا ہے۔ When the lesson ended ایک نامکمل fragment ہے؛ اسے Main Clause کے ساتھ ملائیں۔ ایک Verb Phrase کے معاون افعال کو الگ clauses نہ گنیں۔ Indirect Question میں statement word order رکھیں: I know where she lives۔",
+      "sindhi": "شروع ۾ ايندڙ Adverb Clause کان پوءِ ڪاما ڏيو: Although it was late, we continued. ضروري Relative Clause جي چوڌاري عام طور ڪاما نه ڏيو: The student who won the prize is my cousin. اضافي ڄاڻ ڏيندڙ Non-defining Relative Clause جي چوڌاري ڪاما ڏيو: My uncle, who lives in Lahore, is visiting. Compound Sentence ۾ Independent Clauses گڏ ٿين ٿا، جڏهن ته Complex Sentence ۾ Main Clause سان گهٽ ۾ گهٽ هڪ Subordinate Clause هوندو آهي. When the lesson ended اڌورو fragment آهي؛ ان کي Main Clause سان ڳنڍيو. هڪ Verb Phrase جا مددگار فعل الڳ clauses نه ڳڻيو. Indirect Question ۾ statement word order رکو: I know where she lives."
+    },
+    {
+      "title": "7. Detailed Exercise — Identify and classify all clauses",
+      "english": "For every sentence, mark the main clause and all subordinate clauses. Classify each subordinate clause as noun, adjective or adverb; state its function; and identify its subject and finite verb.",
+      "urdu": "ہر جملے میں Main Clause اور تمام Subordinate Clauses نشان زد کریں۔ ہر تابع clause کو Noun، Adjective یا Adverb قرار دیں، اس کا کام اور Subject و Finite Verb بتائیں۔",
+      "sindhi": "هر جملي ۾ Main Clause ۽ سڀ Subordinate Clauses نشان لڳايو. هر تابع clause کي Noun، Adjective يا Adverb قرار ڏيو، ان جو ڪم ۽ Subject توڙي Finite Verb ٻڌايو.",
+      "questions": [
+        "1. I think that he is telling the truth.",
+        "2. The woman who teaches us English is absent today.",
+        "3. We stayed at home because the weather was bad.",
+        "4. Whoever arrives first should open the classroom.",
+        "5. The village where my father was born is beautiful.",
+        "6. If you read carefully, you will understand the passage.",
+        "7. She explained why she had missed the bus.",
+        "8. Although he is rich, he lives simply.",
+        "9. The book that you recommended is interesting because its story is unusual.",
+        "10. When the examination ended, the students who had finished early left the hall."
+      ],
+      "answers": [
+        "1. Main: I think. Noun clause: that he is telling the truth — object of think; subject he, finite verb phrase is telling.",
+        "2. Main frame: The woman ... is absent today. Adjective clause: who teaches us English — modifies woman; subject who, verb teaches.",
+        "3. Main: We stayed at home. Adverb clause: because the weather was bad — reason; subject weather, verb was.",
+        "4. Noun clause: Whoever arrives first — subject of should open; within it whoever is subject and arrives is finite verb.",
+        "5. Main frame: The village ... is beautiful. Adjective clause: where my father was born — modifies village; subject father, verb was born.",
+        "6. Main: you will understand the passage. Adverb clause: If you read carefully — condition; subject you, verb read.",
+        "7. Main: She explained. Noun clause: why she had missed the bus — object; subject she, verb phrase had missed.",
+        "8. Main: he lives simply. Adverb clause: Although he is rich — concession; subject he, verb is.",
+        "9. Main frame: The book ... is interesting. Adjective clause: that you recommended — modifies book; subject you, verb recommended. Adverb clause: because its story is unusual — reason; subject story, verb is.",
+        "10. Main frame: the students ... left the hall. Adverb clause: When the examination ended — time; subject examination, verb ended. Adjective clause: who had finished early — modifies students; subject who, verb phrase had finished."
+      ]
+    },
+    {
+      "title": "8. Detailed Exercise — Complete the analysis",
+      "english": "Fill in the missing information for each sentence: main clause, subordinate clause, clause type and grammatical function.",
+      "urdu": "ہر جملے کے لیے خالی معلومات مکمل کریں: Main Clause، Subordinate Clause، clause کی قسم اور نحوی کام۔",
+      "sindhi": "هر جملي لاءِ خالي ڄاڻ مڪمل ڪريو: Main Clause، Subordinate Clause، clause جو قسم ۽ گرامري ڪم.",
+      "questions": [
+        "1. I remember what you promised.",
+        "2. The house that stands on the hill belongs to my aunt.",
+        "3. We cancelled the picnic because it was raining.",
+        "4. Whoever solves the riddle will receive a prize.",
+        "5. Tell me when the train leaves."
+      ],
+      "answers": [
+        "1. Main: I remember. Subordinate: what you promised — noun clause, direct object of remember.",
+        "2. Main frame: The house ... belongs to my aunt. Subordinate: that stands on the hill — adjective clause modifying house.",
+        "3. Main: We cancelled the picnic. Subordinate: because it was raining — adverb clause of reason.",
+        "4. Subordinate: Whoever solves the riddle — noun clause, subject of will receive; main predicate: will receive a prize.",
+        "5. Main: Tell me. Subordinate: when the train leaves — noun clause, direct object of tell (the thing you are asked to tell)."
+      ]
+    },
+    {
+      "title": "9. Detailed Exercise — Correct the errors",
+      "english": "Rewrite each sentence correctly and explain the clause-related error.",
+      "urdu": "ہر جملے کو درست کرکے دوبارہ لکھیں اور clause سے متعلق غلطی کی وضاحت کریں۔",
+      "sindhi": "هر جملي کي صحيح ڪري ٻيهر لکو ۽ clause سان لاڳاپيل غلطي سمجهايو.",
+      "questions": [
+        "1. Because the bus was late.",
+        "2. I know where does she live.",
+        "3. Although he was tired, but he continued working.",
+        "4. The man which helped me was kind.",
+        "5. I visited the school which my mother teaches."
+      ],
+      "answers": [
+        "1. Because the bus was late, I missed the meeting. (The original is a subordinate-clause fragment; attach a main clause.)",
+        "2. I know where she lives. (An indirect question uses statement word order.)",
+        "3. Although he was tired, he continued working. (Do not use although and but together in this structure.)",
+        "4. The man who helped me was kind. (Use who for a person as the subject of the relative clause.)",
+        "5. I visited the school where my mother teaches. (Where expresses the place in which she teaches; alternatively, 'the school at which my mother teaches'.)"
+      ]
+    }
+  ],
+  "examples": [
+    [
+      "I know that she is honest.",
+      "Main clause: I know. Subordinate clause: that she is honest — Noun Clause, direct object of know. Subject: she; finite verb: is.",
+      "میں جانتا ہوں کہ وہ ایماندار ہے۔",
+      "مان ڄاڻان ٿو ته هوءَ ايماندار آهي.",
+      "The clause answers 'what do I know?' and functions as the object."
+    ],
+    [
+      "What he said surprised everyone.",
+      "Subordinate clause: What he said — Noun Clause, subject of surprised. Inside it: subject he; finite verb said. Main predicate: surprised everyone.",
+      "اس نے جو کہا اس نے سب کو حیران کر دیا۔",
+      "هن جيڪو چيو، تنهن سڀني کي حيران ڪري ڇڏيو.",
+      "The entire noun clause is the subject of the main verb."
+    ],
+    [
+      "The girl who won the prize is my sister.",
+      "Main clause frame: The girl ... is my sister. Subordinate clause: who won the prize — Adjective Clause modifying girl. Subject: who; finite verb: won.",
+      "وہ لڑکی جس نے انعام جیتا میری بہن ہے۔",
+      "اها ڇوڪري جنهن انعام کٽيو، منهنجي ڀيڻ آهي.",
+      "The relative clause identifies which girl."
+    ],
+    [
+      "I will wait until you return.",
+      "Main: I will wait. Subordinate: until you return — Adverb Clause of Time modifying wait. Subject: you; finite verb: return.",
+      "میں انتظار کروں گا جب تک تم واپس نہیں آتے۔",
+      "مان انتظار ڪندس جيستائين تون واپس نه اچين.",
+      "It answers 'until when?'."
+    ],
+    [
+      "Because the road was blocked, we took another route.",
+      "Subordinate: Because the road was blocked — Adverb Clause of Reason. Main: we took another route. Subordinate subject: road; finite verb: was.",
+      "چونکہ راستہ بند تھا، ہم نے دوسرا راستہ اختیار کیا۔",
+      "ڇو ته رستو بند هو، تنهنڪري اسان ٻيو رستو ورتو.",
+      "The introductory reason clause is followed by a comma."
+    ],
+    [
+      "The book that you lent me is useful.",
+      "Main frame: The book ... is useful. Subordinate: that you lent me — Adjective Clause modifying book. Subject: you; finite verb: lent; me is indirect object.",
+      "وہ کتاب جو تم نے مجھے دی تھی مفید ہے۔",
+      "اهو ڪتاب جيڪو تو مون کي ڏنو هو، ڪارائتو آهي.",
+      "That refers to book and introduces an identifying relative clause."
+    ],
+    [
+      "If you practise daily, you will improve.",
+      "Main: you will improve. Subordinate: If you practise daily — Adverb Clause of Condition. Subject: you; finite verb: practise.",
+      "اگر تم روزانہ مشق کرو گے تو تم بہتر ہو جاؤ گے۔",
+      "جيڪڏهن تون روزانو مشق ڪندين ته بهتر ٿيندين.",
+      "A real future condition uses present simple in the if-clause."
+    ],
+    [
+      "I cannot understand why he left early.",
+      "Main: I cannot understand. Subordinate: why he left early — Noun Clause, object of understand. Subject: he; finite verb: left.",
+      "میں نہیں سمجھ سکتا کہ وہ جلدی کیوں چلا گیا۔",
+      "مان سمجهي نٿو سگهان ته هو سوير ڇو هليو ويو.",
+      "This is an indirect question, so use statement word order."
+    ],
+    [
+      "The place where we first met has changed.",
+      "Main frame: The place ... has changed. Subordinate: where we first met — Adjective Clause modifying place. Subject: we; finite verb: met.",
+      "وہ جگہ جہاں ہم پہلی بار ملے تھے بدل گئی ہے۔",
+      "اها جاءِ جتي اسين پهريون ڀيرو مليا هئاسين، بدلجي وئي آهي.",
+      "Where introduces a relative clause describing place."
+    ],
+    [
+      "Although she was nervous, she gave an excellent speech.",
+      "Subordinate: Although she was nervous — Adverb Clause of Concession. Main: she gave an excellent speech. Subordinate subject: she; finite verb: was.",
+      "اگرچہ وہ گھبرائی ہوئی تھی، اس نے بہترین تقریر کی۔",
+      "جيتوڻيڪ هوءَ گهٻرايل هئي، هن بهترين تقرير ڪئي.",
+      "The concession clause admits a difficulty despite which the main action happened."
+    ],
+    [
+      "The teacher praised the student who had completed the project.",
+      "Main: The teacher praised the student. Subordinate: who had completed the project — Adjective Clause modifying student. Subject: who; finite verb phrase: had completed.",
+      "استاد نے اس طالب علم کی تعریف کی جس نے منصوبہ مکمل کر لیا تھا۔",
+      "استاد ان شاگرد جي ساراهه ڪئي جنهن منصوبو مڪمل ڪيو هو.",
+      "The relative clause identifies the student."
+    ],
+    [
+      "I believe that the team will win because it has practised well.",
+      "Outer main: I believe. Noun Clause: that the team will win because it has practised well — object of believe. Embedded main idea: the team will win. Embedded adverb clause: because it has practised well — reason. Subjects/verbs: team/will win; it/has practised.",
+      "مجھے یقین ہے کہ ٹیم جیتے گی کیونکہ اس نے اچھی مشق کی ہے۔",
+      "مون کي يقين آهي ته ٽيم کٽيندي، ڇاڪاڻ⁠تہ هن سٺي مشق ڪئي آهي.",
+      "This is a nested structure: an object noun clause contains a reason adverb clause."
+    ],
+    [
+      "Whoever works sincerely will achieve success.",
+      "Subordinate: Whoever works sincerely — Noun Clause functioning as subject. Inside it: whoever is subject; works is finite verb. Main predicate: will achieve success.",
+      "جو شخص خلوص سے محنت کرے گا وہ کامیابی حاصل کرے گا۔",
+      "جيڪو به سچائيءَ سان محنت ڪندو، سو ڪاميابي حاصل ڪندو.",
+      "Whoever introduces a free-relative noun clause that acts as subject."
+    ],
+    [
+      "This is the house which my grandfather built.",
+      "Main: This is the house. Subordinate: which my grandfather built — Adjective Clause modifying house. Subject: my grandfather; finite verb: built; which is the object of built.",
+      "یہ وہ گھر ہے جو میرے دادا نے بنایا تھا۔",
+      "هي اهو گهر آهي جيڪو منهنجي ڏاڏي ٺاهيو هو.",
+      "Which refers to house and functions as the object inside the relative clause."
+    ],
+    [
+      "We left early so that we could catch the first bus.",
+      "Main: We left early. Subordinate: so that we could catch the first bus — Adverb Clause of Purpose. Subject: we; finite verb phrase: could catch.",
+      "ہم جلدی روانہ ہوئے تاکہ پہلی بس پکڑ سکیں۔",
+      "اسين سوير روانا ٿياسين ته جيئن پهرين بس پڪڙي سگهون.",
+      "The purpose clause tells the intention behind leaving early."
+    ],
+    [
+      "The man whose car was stolen reported the theft.",
+      "Main frame: The man ... reported the theft. Subordinate: whose car was stolen — Adjective Clause modifying man. Subject: whose car; finite verb phrase: was stolen.",
+      "وہ شخص جس کی گاڑی چوری ہوئی تھی اس نے چوری کی اطلاع دی۔",
+      "اهو ماڻهو جنهن جي گاڏي چوري ٿي هئي، هن چوري جي رپورٽ ڪئي.",
+      "Whose indicates possession and modifies man through a relative clause."
+    ],
+    [
+      "She asked whether the shop was open.",
+      "Main: She asked. Subordinate: whether the shop was open — Noun Clause, object of asked. Subject: shop; finite verb: was.",
+      "اس نے پوچھا کہ آیا دکان کھلی تھی۔",
+      "هن پڇيو ته ڇا دڪان کليل هو.",
+      "Whether introduces an indirect yes/no question."
+    ],
+    [
+      "When the guests arrived, the food that my mother had prepared was served.",
+      "Adverb Clause: When the guests arrived — time. Main frame: the food ... was served. Adjective Clause: that my mother had prepared — modifies food. Clause subjects/verbs: guests/arrived; mother/had prepared.",
+      "جب مہمان پہنچے تو وہ کھانا پیش کیا گیا جو میری والدہ نے تیار کیا تھا۔",
+      "جڏهن مهمان پهتا ته اهو کاڌو پيش ڪيو ويو جيڪو منهنجي امڙ تيار ڪيو هو.",
+      "There are two subordinate clauses: a time clause and a relative clause inside the subject phrase."
+    ],
+    [
+      "I know the reason why he resigned.",
+      "Main: I know the reason. Subordinate: why he resigned — relative/adjective clause specifying reason. Subject: he; finite verb: resigned.",
+      "میں وہ وجہ جانتا ہوں جس کی بنا پر اس نے استعفیٰ دیا۔",
+      "مان اهو سبب ڄاڻان ٿو جنهن ڪري هن استعيفو ڏنو.",
+      "The clause modifies the noun reason. Compare 'I know why he resigned', where the clause is a noun clause object."
+    ],
+    [
+      "No one knows where the missing keys are.",
+      "Main: No one knows. Subordinate: where the missing keys are — Noun Clause, object of knows. Subject: missing keys; finite verb: are.",
+      "کوئی نہیں جانتا کہ گم شدہ چابیاں کہاں ہیں۔",
+      "ڪنهن کي به خبر ناهي ته گم ٿيل چاٻيون ڪٿي آهن.",
+      "It answers 'what does no one know?' and is therefore a noun clause."
     ]
+  ],
+  "subsectionsExtra": "Exercises"
+}]
   }
 };
 
