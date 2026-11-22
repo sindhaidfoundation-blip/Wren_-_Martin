@@ -4519,6 +4519,41 @@ export const topicDetails = {
     overview: "A phrase is a group of words that works as a unit but does not contain a complete subject–finite-verb combination. A clause contains a subject and a verb; it may be independent or dependent.",
     watchFor: "A dependent clause cannot normally stand alone as a complete sentence. Look for both a subject and a verb when identifying a clause.",
     examples: ["under the old bridge (phrase)", "when the bell rang (dependent clause)", "The bell rang. (independent clause)"]
+,
+    specialSectionsTitle: "Types of Phrases",
+    specialSections: [
+      {
+        title: "Adjective Phrases — Definition, Explanation and Exercises",
+        english: "An adjective phrase is a group of words that does the work of an adjective: it describes or gives more information about a noun or pronoun. It answers questions such as what kind?, which one?, or how many? An adjective phrase does not contain its own complete subject–finite-verb clause. Examples: (1) The girl with long hair is my cousin. The phrase with long hair describes girl. (2) We need a box large enough for these books. The phrase large enough for these books describes box. (3) The road covered with snow is dangerous. The phrase covered with snow describes road. An adjective phrase may be formed in several ways: (a) prepositional phrase: a man of great courage; (b) participial phrase: students waiting outside; (c) infinitive phrase: a book to read; (d) adjective with modifiers or complements: very proud of her work. Position: it often comes immediately after the noun it describes, but it may also appear before a noun or after a linking verb when it describes the subject. Compare: a useful book (single adjective) and a book of great use (adjective phrase). Do not confuse an adjective phrase with an adverb phrase: an adjective phrase describes a noun or pronoun, while an adverb phrase modifies a verb, adjective or adverb.",
+        urdu: "Adjective Phrase الفاظ کا ایسا مجموعہ ہے جو صفت کا کام کرتا ہے اور کسی اسم یا ضمیر کی خوبی، حالت یا شناخت کے بارے میں مزید معلومات دیتا ہے۔ یہ سوالات کا جواب دے سکتا ہے: کیسا؟ کون سا؟ کتنے؟ مثال: The girl with long hair is my cousin. یہاں with long hair، girl کی وضاحت کرتا ہے۔ Adjective Phrase مختلف صورتوں میں بن سکتا ہے: (1) حرفِ جار والا فقرہ: a man of great courage یعنی بہت بہادر آدمی؛ (2) Participle والا فقرہ: students waiting outside یعنی باہر انتظار کرنے والے طلبہ؛ (3) Infinitive والا فقرہ: a book to read یعنی پڑھنے کے لیے کتاب؛ (4) صفت کے ساتھ اضافی الفاظ: very proud of her work یعنی اپنے کام پر بہت فخر کرنے والی۔ یہ اکثر اس اسم کے فوراً بعد آتا ہے جس کی وضاحت کرتا ہے، لیکن کبھی اسم سے پہلے یا Linking Verb کے بعد بھی آ سکتا ہے۔ یاد رکھیں: Adjective Phrase اسم یا ضمیر کی وضاحت کرتا ہے، جبکہ Adverb Phrase فعل، صفت یا دوسرے متعلقِ فعل کی وضاحت کرتا ہے۔",
+        sindhi: "Adjective Phrase لفظن جو اهڙو مجموعو آهي جيڪو صفت جو ڪم ڪري ٿو ۽ ڪنهن اسم يا ضمير جي خوبي، حالت يا سڃاڻپ بابت وڌيڪ ڄاڻ ڏئي ٿو. اهو سوالن جا جواب ڏئي سگهي ٿو: ڪهڙو؟ ڪهڙي قسم جو؟ ڪيترا؟ مثال: The girl with long hair is my cousin. هتي with long hair، girl جي وضاحت ڪري ٿو. Adjective Phrase مختلف نمونن سان ٺهي سگهي ٿو: (1) حرفِ جر وارو فقرو: a man of great courage يعني وڏي بهادري وارو ماڻهو؛ (2) Participle وارو فقرو: students waiting outside يعني ٻاهر انتظار ڪندڙ شاگرد؛ (3) Infinitive phrase: a book to read يعني پڙهڻ لاءِ ڪتاب؛ (4) صفت سان اضافي لفظ: very proud of her work يعني پنهنجي ڪم تي تمام گهڻو فخر ڪندڙ. اهو اڪثر ان اسم کان پوءِ ايندو آهي جنهن جي وضاحت ڪري ٿو، پر ڪڏهن اسم کان اڳ يا Linking Verb کان پوءِ به اچي سگهي ٿو. ياد رکو: Adjective Phrase اسم يا ضمير جي وضاحت ڪري ٿو، جڏهن ته Adverb Phrase فعل، صفت يا ٻئي ظرف جي وضاحت ڪري ٿو۔",
+        subsections: [
+          {
+            title: "Examples and Identification",
+            english: "In each sentence, the adjective phrase is shown in bold and the noun it describes is named.",
+            urdu: "ہر جملے میں Adjective Phrase نمایاں کیا گیا ہے اور اس اسم کی نشاندہی کی گئی ہے جس کی یہ وضاحت کرتا ہے۔",
+            sindhi: "هر جملي ۾ Adjective Phrase نمايان ڪيو ويو آهي ۽ اهو اسم ٻڌايو ويو آهي جنهن جي اها وضاحت ڪري ٿو.",
+            examples: [
+              ["The house near the river belongs to my uncle.", "Adjective phrase: near the river. It describes house.", "دریا کے قریب گھر میرے چچا کا ہے۔", "درياهه جي ويجهو گهر منهنجي چاچي جو آهي۔"],
+              ["The boy wearing a blue shirt is my brother.", "Adjective phrase: wearing a blue shirt. It describes boy; it is a participial phrase.", "نیلی قمیص پہننے والا لڑکا میرا بھائی ہے۔", "نيري قميص پائيندڙ ڇوڪرو منهنجو ڀاءُ آهي۔"],
+              ["She bought a basket full of apples.", "Adjective phrase: full of apples. It describes basket.", "اس نے سیبوں سے بھری ہوئی ٹوکری خریدی۔", "هن صوفن سان ڀريل ٽوڪري خريد ڪئي۔"],
+              ["I have some letters to answer.", "Adjective phrase: to answer. It describes letters and tells what is to be done with them.", "میرے پاس جواب دینے کے لیے کچھ خطوط ہیں۔", "مون وٽ جواب ڏيڻ لاءِ ڪجهه خط آهن۔"],
+              ["The woman proud of her son smiled.", "Adjective phrase: proud of her son. It describes woman.", "اپنے بیٹے پر فخر کرنے والی عورت مسکرائی۔", "پنهنجي پٽ تي فخر ڪندڙ عورت مُرڪي۔"]
+            ]
+          },
+          {
+            title: "Practice Exercises",
+            english: "Exercise A — Underline the adjective phrase in each sentence and write the noun it describes: 1. The man in the black coat is our principal. 2. The children excited about the trip cheered. 3. We saw a bird with bright feathers. 4. She needs a chair to sit on. 5. The road full of potholes is unsafe. Exercise B — Choose whether the bold phrase is an adjective phrase or an adverb phrase: 1. The players in the field are tired. 2. The players practised in the field. 3. A person rich in experience can guide us. 4. He spoke with great confidence.",
+            urdu: "مشق A — ہر جملے میں Adjective Phrase کے نیچے لکیر کھینچیں اور وہ اسم لکھیں جس کی یہ وضاحت کرتا ہے: 1۔ The man in the black coat is our principal. 2۔ The children excited about the trip cheered. 3۔ We saw a bird with bright feathers. 4۔ She needs a chair to sit on. 5۔ The road full of potholes is unsafe. مشق B — فیصلہ کریں کہ نمایاں فقرہ Adjective Phrase ہے یا Adverb Phrase: 1۔ The players in the field are tired. 2۔ The players practised in the field. 3۔ A person rich in experience can guide us. 4۔ He spoke with great confidence.",
+            sindhi: "مشق A — هر جملي ۾ Adjective Phrase هيٺ ليڪ ڪڍو ۽ اهو اسم لکو جنهن جي اها وضاحت ڪري ٿو: 1. The man in the black coat is our principal. 2. The children excited about the trip cheered. 3. We saw a bird with bright feathers. 4. She needs a chair to sit on. 5. The road full of potholes is unsafe. مشق B — فيصلو ڪريو ته نمايان فقرو Adjective Phrase آهي يا Adverb Phrase: 1. The players in the field are tired. 2. The players practised in the field. 3. A person rich in experience can guide us. 4. He spoke with great confidence.",
+            examples: [
+              ["Answer key — Exercise A", "1. in the black coat — man; 2. excited about the trip — children; 3. with bright feathers — bird; 4. to sit on — chair; 5. full of potholes — road.", "جوابات: 1۔ in the black coat — man؛ 2۔ excited about the trip — children؛ 3۔ with bright feathers — bird؛ 4۔ to sit on — chair؛ 5۔ full of potholes — road۔", "جواب: 1. in the black coat — man؛ 2. excited about the trip — children؛ 3. with bright feathers — bird؛ 4. to sit on — chair؛ 5. full of potholes — road۔"],
+              ["Answer key — Exercise B", "1. Adjective phrase (describes players); 2. Adverb phrase (tells where they practised); 3. Adjective phrase (describes person); 4. Adverb phrase (tells how he spoke).", "جوابات: 1۔ Adjective Phrase (players کی وضاحت)؛ 2۔ Adverb Phrase (مشق کرنے کی جگہ)؛ 3۔ Adjective Phrase (person کی وضاحت)؛ 4۔ Adverb Phrase (بولنے کا طریقہ)۔", "جواب: 1. Adjective Phrase (players جي وضاحت)؛ 2. Adverb Phrase (مشق ڪرڻ جي جاءِ)؛ 3. Adjective Phrase (person جي وضاحت)؛ 4. Adverb Phrase (ڳالهائڻ جو طريقو)۔"]
+            ]
+          }
+        ]
+      }
+    ]
   },
   "conditionals": {
     overview: "Conditional sentences link a condition with a result. Common patterns include zero conditional for general truths, first for real possibilities, second for imagined situations and third for unreal past situations.",
