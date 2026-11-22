@@ -4,7 +4,7 @@ import * as Print from "expo-print";
 import * as Sharing from "expo-sharing";
 import { Alert, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 import AdBanner from "./src/components/AdBanner";
-import mobileAds from "react-native-google-mobile-ads";
+import initializeAds from "./src/services/ads";
 import { lessons, dailyQuestions, sindhiTranslations } from "./src/data/lessons";
 import { topicDetails } from "./src/data/topicDetails";
 
@@ -140,7 +140,7 @@ function buildTenTopicQuestions(lesson) {
 
 export default function App() {
   useEffect(() => {
-    mobileAds().initialize().catch(error => console.warn("AdMob initialization failed:", error));
+    initializeAds();
   }, []);
   const [tab, setTab] = useState("Home");
   const [quizReturnTab, setQuizReturnTab] = useState("Lesson");
