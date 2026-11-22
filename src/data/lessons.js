@@ -5680,6 +5680,8 @@ export const lessons = [
 ];
 
 export const sindhiTranslations = {
+  "the-sentence": "Sentence لفظن جو اهڙو مجموعو آهي جيڪو پورو مطلب ڏئي. جملن جا چار قسم آهن: بياني، سوالي، حڪمي ۽ عجب وارا. هر جملي جا ٻه حصا Subject ۽ Predicate هوندا آهن.",
+  "subject-predicate": "Subject اهو حصو آهي جنهن بابت ڳالهائجي ٿو. Predicate اهو حصو آهي جيڪو Subject بابت ڪجهه ٻڌائي ٿو.",
   "parts-of-speech": "انگريزي ٻوليءَ ۾ هر لفظ جو پنهنجو خاص ڪم هوندو آهي. ان ڪم جي بنياد تي لفظن کي مختلف قسمن ۾ ورهايو ويندو آهي.",
   "nouns": "Noun ڪنهن ماڻهو، هنڌ، شيءِ يا خيال جو نالو آهي. مثال: Ali، Karachi، book ۽ honesty.",
   "pronouns": "Pronoun اهو لفظ آهي جيڪو noun جي بدران ڪم اچي ٿو، جيئن هڪ ئي نالو بار بار ورجائڻو نه پوي.",
