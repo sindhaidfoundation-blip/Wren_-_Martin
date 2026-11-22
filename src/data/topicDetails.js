@@ -2711,8 +2711,20 @@ export const topicDetails = {
           ["remember", "remembered", "remembered"], ["start", "started", "started"], ["stop", "stopped", "stopped"], ["study", "studied", "studied"], ["talk", "talked", "talked"],
           ["travel", "travelled", "travelled"], ["try", "tried", "tried"], ["use", "used", "used"], ["visit", "visited", "visited"], ["wait", "waited", "waited"],
           ["walk", "walked", "walked"], ["want", "wanted", "wanted"], ["watch", "watched", "watched"], ["work", "worked", "worked"], ["wash", "washed", "washed"]
+        ]        ],
+        examples: [
+          ["I accept your invitation.", "میں آپ کی دعوت قبول کرتا ہوں۔", "مان توهان جي دعوت قبول ڪريان ٿو.", "Accept is V1, used here in the simple present."],
+          ["She accepted the invitation yesterday.", "اس نے کل دعوت قبول کی۔", "هن ڪالهه دعوت قبول ڪئي.", "Accepted is V2, showing a completed action at a past time."],
+          ["They have accepted our proposal.", "انہوں نے ہماری تجویز قبول کر لی ہے۔", "انهن اسان جي تجويز قبول ڪئي آهي.", "Accepted is V3 after have; it forms the present perfect."],
+          ["He studies English every evening.", "وہ ہر شام انگریزی پڑھتا ہے۔", "هو هر شام انگريزي پڙهي ٿو.", "Studies is the third-person singular present form; the base form is study."],
+          ["He studied English last night.", "اس نے گزشتہ رات انگریزی پڑھی۔", "هن گذريل رات انگريزي پڙهي.", "Studied is V2. The final consonant + y spelling rule changes y to i before -ed."],
+          ["He has studied English for three years.", "وہ تین سال سے انگریزی پڑھ رہا ہے۔", "هو ٽن سالن کان انگريزي پڙهي رهيو آهي.", "Studied is V3 after has. The same form is used for V2 and V3 in regular verbs."],
+          ["The workers stopped the machine.", "مزدوروں نے مشین روک دی۔", "مزدورن مشين روڪي ڇڏي.", "Stopped is V2; the final consonant is doubled before -ed."],
+          ["The machine has stopped working.", "مشین نے کام کرنا بند کر دیا ہے۔", "مشين ڪم ڪرڻ بند ڪيو آهي.", "Stopped is V3 after has. Notice the same V2 and V3 form."],
+          ["We played cricket on Sunday.", "ہم نے اتوار کو کرکٹ کھیلی۔", "اسان آچر تي ڪرڪيٽ کيڏي.", "Played is V2. Because play ends in vowel + y, only -ed is added."],
+          ["The room was cleaned by Sara.", "کمرہ سارہ نے صاف کیا تھا۔", "ڪمرو سارا صاف ڪيو هو.", "Cleaned is V3 after was and forms a passive sentence."]
         ]
-      },
+      },},
       {
         title: "4. Forty Irregular Verbs — Base Form, Past Tense and Past Participle",
         english: "The following are 40 common irregular verbs. Their V2 and V3 forms do not follow the regular -ed pattern. Learn all three forms together. Some verbs have three different forms, while others repeat one or more forms. The list uses common standard forms; a few verbs have accepted spelling or regional variants.",
@@ -2727,8 +2739,20 @@ export const topicDetails = {
           ["hear", "heard", "heard"], ["keep", "kept", "kept"], ["know", "knew", "known"], ["leave", "left", "left"], ["make", "made", "made"],
           ["meet", "met", "met"], ["read", "read", "read"], ["ride", "rode", "ridden"], ["ring", "rang", "rung"], ["run", "ran", "run"],
           ["say", "said", "said"], ["see", "saw", "seen"], ["sing", "sang", "sung"], ["speak", "spoke", "spoken"], ["write", "wrote", "written"]
+        ]        ],
+        examples: [
+          ["I go to school every day.", "میں ہر روز اسکول جاتا ہوں۔", "مان هر روز اسڪول وڃان ٿو.", "Go is V1, the base form used with I in the simple present."],
+          ["I went to school yesterday.", "میں کل اسکول گیا۔", "مان ڪالهه اسڪول ويس.", "Went is V2, the irregular simple past form of go."],
+          ["I have gone to school.", "میں اسکول جا چکا ہوں۔", "مان اسڪول وڃي چڪو آهيان.", "Gone is V3, used after have in the present perfect."],
+          ["She writes a story every month.", "وہ ہر ماہ ایک کہانی لکھتی ہے۔", "هوءَ هر مهيني هڪ ڪهاڻي لکي ٿي.", "Write is the base form; writes is its third-person singular present form."],
+          ["She wrote a story yesterday.", "اس نے کل ایک کہانی لکھی۔", "هن ڪالهه هڪ ڪهاڻي لکي.", "Wrote is V2, used for a completed past action."],
+          ["She has written three stories.", "وہ تین کہانیاں لکھ چکی ہے۔", "هوءَ ٽي ڪهاڻيون لکي چڪي آهي.", "Written is V3, used after has."],
+          ["They eat breakfast at seven.", "وہ سات بجے ناشتہ کرتے ہیں۔", "اهي ستين وڳي ناشتو ڪن ٿا.", "Eat is V1, the base form."],
+          ["They ate breakfast early yesterday.", "انہوں نے کل جلدی ناشتہ کیا۔", "انهن ڪالهه سوير ناشتو ڪيو.", "Ate is V2, the irregular past form of eat."],
+          ["They have eaten breakfast already.", "وہ پہلے ہی ناشتہ کر چکے ہیں۔", "اهي اڳ ئي ناشتو ڪري چڪا آهن.", "Eaten is V3, used after have."],
+          ["The window was broken by the storm.", "طوفان سے کھڑکی ٹوٹ گئی تھی۔", "طوفان سبب دري ڀڄي پئي هئي.", "Broken is V3, used with was to form the passive voice."]
         ]
-      },
+      },},
       {
         title: "5. How to Use V1, V2 and V3 in Sentences",
         english: "V1 (base form) is used after modal verbs (can go, should write), after do/does/did in questions and negatives (Did you see?), with to in an infinitive (to learn), and in the simple present except third-person singular (I work; she works). V2 (simple past) is used for a completed past action (They visited us yesterday). V3 (past participle) is used after have/has/had in perfect tenses (I have finished; she had gone) and with be in passive voice (The work was completed). Remember: do not use V2 after did, and do not use V2 instead of V3 after have/has/had.",
