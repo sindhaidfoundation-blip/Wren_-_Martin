@@ -1971,7 +1971,6 @@ export const topicDetails = {
           ["Whose shoes are these?", "یہ جوتے کس کے ہیں؟", "هي جوتا ڪنهن جا آهن؟"],
           ["Which chapter should we read?", "ہمیں کون سا باب پڑھنا چاہیے؟", "اسان کي ڪهڙو باب پڙهڻ گهرجي؟"]
         ]
-      }
       },
       {
         title: "Comparison of Adjectives",
