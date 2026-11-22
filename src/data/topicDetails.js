@@ -10593,7 +10593,401 @@ topicDetails["past-tense"] = {
           "Answer key: 1 Pattern 1; 2 Pattern 2; 3 Pattern 3; 4 Pattern 4; 5 Pattern 5; 6 Pattern 6; 7 Pattern 7; 8 Pattern 8; 9 Pattern 9; 10 Pattern 10."
         ]
       }
-    ]
+    ,
+      {
+        "title": "Sentence Structures — The Ten Verb Patterns (Complete Tables and Explanation)",
+        "english": "A clause is organised around a subject and a verb. The subject (S) is what the clause is about; the verb (V) expresses an action, event or state; the object (O) is affected by the action; a complement (C) identifies or describes the subject or object; and an adverbial (A) adds information such as place, time, manner or direction. These ten patterns are a practical teaching framework. Some grammar books classify infinitive, -ing and that-clauses separately, but their function in the clause remains the key.",
+        "urdu": "Clause کی ساخت Subject اور Verb کے گرد بنتی ہے۔ Subject وہ ہے جس کے بارے میں بات ہو؛ Verb عمل یا حالت ظاہر کرتا ہے؛ Object فعل کا اثر قبول کرتا ہے؛ Complement، Subject یا Object کی شناخت یا وضاحت کرتا ہے؛ اور Adverbial جگہ، وقت، طریقہ یا سمت بتاتا ہے۔ یہ دس نمونے تدریسی رہنمائی کے لیے ہیں۔ مختلف کتابوں میں Infinitive، -ing اور that-clause کی درجہ بندی مختلف ہو سکتی ہے، مگر ان کا نحوی کام بنیادی اہمیت رکھتا ہے۔",
+        "sindhi": "Clause جي بناوت Subject ۽ Verb جي چوڌاري ٺهندي آهي. Subject اهو آهي جنهن بابت ڳالهائجي؛ Verb عمل يا حالت ڏيکاري ٿو؛ Object فعل جو اثر قبول ڪري ٿو؛ Complement، Subject يا Object جي سڃاڻپ يا وضاحت ڪري ٿو؛ ۽ Adverbial جاءِ، وقت، طريقي يا رخ جي ڄاڻ ڏئي ٿو. هي ڏهه نمونا سکيا لاءِ آهن. مختلف ڪتابن ۾ Infinitive، -ing ۽ that-clause جي درجي بندي مختلف ٿي سگهي ٿي، پر انهن جو گرامري ڪم اهم آهي.",
+        "tables": [
+          {
+            "headers": [
+              "Symbol",
+              "Meaning",
+              "Function",
+              "Example"
+            ],
+            "rows": [
+              [
+                "S",
+                "Subject",
+                "Who/what the clause is about",
+                "The children play."
+              ],
+              [
+                "V",
+                "Verb",
+                "Action, event or state",
+                "Birds fly."
+              ],
+              [
+                "DO",
+                "Direct Object",
+                "Receives the action",
+                "She opened the door."
+              ],
+              [
+                "IO",
+                "Indirect Object",
+                "Recipient/beneficiary",
+                "He gave me a book."
+              ],
+              [
+                "SC",
+                "Subject Complement",
+                "Describes/renames subject",
+                "He is tired."
+              ],
+              [
+                "OC",
+                "Object Complement",
+                "Describes/renames object",
+                "They elected her chairperson."
+              ],
+              [
+                "A",
+                "Adverbial",
+                "Time/place/manner/direction",
+                "We met yesterday."
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Pattern",
+              "Structure",
+              "Example",
+              "Identification"
+            ],
+            "rows": [
+              [
+                "1",
+                "S + V",
+                "Birds fly.",
+                "No object or complement"
+              ],
+              [
+                "2",
+                "S + V + SC",
+                "Mina is happy.",
+                "Subject description"
+              ],
+              [
+                "3",
+                "S + V + A",
+                "The guests are here.",
+                "Adverbial completes meaning"
+              ],
+              [
+                "4",
+                "S + V + DO",
+                "Ali kicked the ball.",
+                "Direct object"
+              ],
+              [
+                "5",
+                "S + V + IO + DO",
+                "Sara gave me a pen.",
+                "Recipient + thing"
+              ],
+              [
+                "6",
+                "S + V + DO + OC",
+                "They made him captain.",
+                "Object description/name"
+              ],
+              [
+                "7",
+                "S + V + DO + A",
+                "She put keys on the desk.",
+                "Object + place"
+              ],
+              [
+                "8",
+                "S + V + to-infinitive",
+                "We decided to leave.",
+                "Infinitive clause"
+              ],
+              [
+                "9",
+                "S + V + -ing clause",
+                "He enjoys reading.",
+                "-ing clause"
+              ],
+              [
+                "10",
+                "S + V + that-clause",
+                "I know that she is honest.",
+                "That-clause"
+              ]
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "title": "How to identify the elements",
+            "english": "S is usually a noun phrase or pronoun. V is the finite verb or verb phrase. DO answers whom/what after a transitive verb. IO answers to whom/for whom. SC follows a linking verb and refers back to S. OC refers to DO. A gives circumstances such as where, when or how. A phrase after a verb is not automatically an object.",
+            "urdu": "S عموماً اسم یا ضمیر کا فقرہ ہوتا ہے۔ V فعل ہے۔ DO، فعل کے بعد کس کو/کیا کا جواب دیتا ہے۔ IO، کس کے لیے/کس کو کا جواب دیتا ہے۔ SC، Linking Verb کے بعد Subject کی وضاحت کرتا ہے۔ OC، Object کی وضاحت کرتا ہے۔ A جگہ، وقت یا طریقہ بتاتا ہے۔ فعل کے بعد آنے والا ہر فقرہ Object نہیں ہوتا۔",
+            "sindhi": "S عام طور اسم يا ضمير جو فقره هوندو آهي. V فعل آهي. DO، فعل کان پوءِ ڪنهن کي/ڇا جو جواب ڏئي ٿو. IO، ڪنهن لاءِ/ڪنهن کي جو جواب ڏئي ٿو. SC، Linking Verb کان پوءِ Subject جي وضاحت ڪري ٿو. OC، Object جي وضاحت ڪري ٿو. A جاءِ، وقت يا طريقو ٻڌائي ٿو. فعل کان پوءِ ايندڙ هر فقره Object نه هوندو آهي.",
+            "tables": [
+              {
+                "headers": [
+                  "Element",
+                  "Question/test",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "Subject",
+                    "Who/what is the clause about?",
+                    "The girl smiled."
+                  ],
+                  [
+                    "Direct object",
+                    "Verb + whom/what?",
+                    "She opened the door."
+                  ],
+                  [
+                    "Indirect object",
+                    "To/for whom?",
+                    "He sent Ali a letter."
+                  ],
+                  [
+                    "Subject complement",
+                    "What is the subject like/what is it?",
+                    "The sky became dark."
+                  ],
+                  [
+                    "Object complement",
+                    "What is the object called/like?",
+                    "They painted it red."
+                  ],
+                  [
+                    "Adverbial",
+                    "Where/when/how?",
+                    "She waited outside."
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Pattern 1 — S + V",
+            "english": "Subject + intransitive verb. The verb does not take a direct object. Optional adverbials may add time or manner.",
+            "urdu": "اس ساخت میں Subject اور Verb کے بعد آنے والا جزو مخصوص نحوی کام کرتا ہے۔ جملے میں ہر لفظ کا کام پہچانیں؛ صرف ترتیب دیکھ کر Object یا Complement کا فیصلہ نہ کریں۔",
+            "sindhi": "هن بناوت ۾ Subject ۽ Verb کان پوءِ ايندڙ جزو خاص گرامري ڪم ڪندو آهي. جملي ۾ هر لفظ جو ڪم سڃاڻو؛ رڳو ترتيب ڏسي Object يا Complement جو فيصلو نه ڪريو.",
+            "examples": [
+              "Birds fly. (S: Birds; V: fly.)",
+              "The child slept peacefully. (A: peacefully.)"
+            ]
+          },
+          {
+            "title": "Pattern 2 — S + V + SC",
+            "english": "A linking verb connects the subject to a subject complement, which describes or renames the subject. Common linking verbs: be, become, seem, appear, feel, look, sound, remain.",
+            "urdu": "اس ساخت میں Subject اور Verb کے بعد آنے والا جزو مخصوص نحوی کام کرتا ہے۔ جملے میں ہر لفظ کا کام پہچانیں؛ صرف ترتیب دیکھ کر Object یا Complement کا فیصلہ نہ کریں۔",
+            "sindhi": "هن بناوت ۾ Subject ۽ Verb کان پوءِ ايندڙ جزو خاص گرامري ڪم ڪندو آهي. جملي ۾ هر لفظ جو ڪم سڃاڻو؛ رڳو ترتيب ڏسي Object يا Complement جو فيصلو نه ڪريو.",
+            "examples": [
+              "Mina is happy. (SC: happy.)",
+              "Sara became a doctor. (SC: a doctor.)"
+            ]
+          },
+          {
+            "title": "Pattern 3 — S + V + A",
+            "english": "The verb is completed by an adverbial, commonly one of place, position or destination. This adverbial is not an object.",
+            "urdu": "اس ساخت میں Subject اور Verb کے بعد آنے والا جزو مخصوص نحوی کام کرتا ہے۔ جملے میں ہر لفظ کا کام پہچانیں؛ صرف ترتیب دیکھ کر Object یا Complement کا فیصلہ نہ کریں۔",
+            "sindhi": "هن بناوت ۾ Subject ۽ Verb کان پوءِ ايندڙ جزو خاص گرامري ڪم ڪندو آهي. جملي ۾ هر لفظ جو ڪم سڃاڻو؛ رڳو ترتيب ڏسي Object يا Complement جو فيصلو نه ڪريو.",
+            "examples": [
+              "The guests are upstairs.",
+              "My uncle lives in Karachi.",
+              "The meeting is at noon."
+            ]
+          },
+          {
+            "title": "Pattern 4 — S + V + DO",
+            "english": "A transitive verb takes a direct object that receives or is affected by the action. Ask whom? or what? after the verb.",
+            "urdu": "اس ساخت میں Subject اور Verb کے بعد آنے والا جزو مخصوص نحوی کام کرتا ہے۔ جملے میں ہر لفظ کا کام پہچانیں؛ صرف ترتیب دیکھ کر Object یا Complement کا فیصلہ نہ کریں۔",
+            "sindhi": "هن بناوت ۾ Subject ۽ Verb کان پوءِ ايندڙ جزو خاص گرامري ڪم ڪندو آهي. جملي ۾ هر لفظ جو ڪم سڃاڻو؛ رڳو ترتيب ڏسي Object يا Complement جو فيصلو نه ڪريو.",
+            "examples": [
+              "Ali kicked the ball. (DO: the ball.)",
+              "The teacher praised Ahmed. (DO: Ahmed.)"
+            ]
+          },
+          {
+            "title": "Pattern 5 — S + V + IO + DO",
+            "english": "The indirect object names the recipient or beneficiary; the direct object names the thing given, sent, shown or taught. Often rewritten with to/for.",
+            "urdu": "اس ساخت میں Subject اور Verb کے بعد آنے والا جزو مخصوص نحوی کام کرتا ہے۔ جملے میں ہر لفظ کا کام پہچانیں؛ صرف ترتیب دیکھ کر Object یا Complement کا فیصلہ نہ کریں۔",
+            "sindhi": "هن بناوت ۾ Subject ۽ Verb کان پوءِ ايندڙ جزو خاص گرامري ڪم ڪندو آهي. جملي ۾ هر لفظ جو ڪم سڃاڻو؛ رڳو ترتيب ڏسي Object يا Complement جو فيصلو نه ڪريو.",
+            "examples": [
+              "Sara gave me a pen.",
+              "Sara gave a pen to me.",
+              "He bought his mother flowers."
+            ]
+          },
+          {
+            "title": "Pattern 6 — S + V + DO + OC",
+            "english": "The object complement identifies, renames or describes the direct object. It may be a noun or adjective.",
+            "urdu": "اس ساخت میں Subject اور Verb کے بعد آنے والا جزو مخصوص نحوی کام کرتا ہے۔ جملے میں ہر لفظ کا کام پہچانیں؛ صرف ترتیب دیکھ کر Object یا Complement کا فیصلہ نہ کریں۔",
+            "sindhi": "هن بناوت ۾ Subject ۽ Verb کان پوءِ ايندڙ جزو خاص گرامري ڪم ڪندو آهي. جملي ۾ هر لفظ جو ڪم سڃاڻو؛ رڳو ترتيب ڏسي Object يا Complement جو فيصلو نه ڪريو.",
+            "examples": [
+              "They elected Sara captain. (DO: Sara; OC: captain.)",
+              "The news made him happy. (OC: happy.)"
+            ]
+          },
+          {
+            "title": "Pattern 7 — S + V + DO + A",
+            "english": "The verb takes a direct object and an adverbial, often a required place or destination phrase. The object tells what is moved/placed; the adverbial tells where.",
+            "urdu": "اس ساخت میں Subject اور Verb کے بعد آنے والا جزو مخصوص نحوی کام کرتا ہے۔ جملے میں ہر لفظ کا کام پہچانیں؛ صرف ترتیب دیکھ کر Object یا Complement کا فیصلہ نہ کریں۔",
+            "sindhi": "هن بناوت ۾ Subject ۽ Verb کان پوءِ ايندڙ جزو خاص گرامري ڪم ڪندو آهي. جملي ۾ هر لفظ جو ڪم سڃاڻو؛ رڳو ترتيب ڏسي Object يا Complement جو فيصلو نه ڪريو.",
+            "examples": [
+              "She put the keys on the table.",
+              "They kept the children indoors.",
+              "Place the vase near the window."
+            ]
+          },
+          {
+            "title": "Pattern 8 — S + V + to-infinitive",
+            "english": "Some verbs take a to-infinitive clause as their complement. Common verbs: want, hope, plan, decide, promise, refuse, agree, expect.",
+            "urdu": "اس ساخت میں Subject اور Verb کے بعد آنے والا جزو مخصوص نحوی کام کرتا ہے۔ جملے میں ہر لفظ کا کام پہچانیں؛ صرف ترتیب دیکھ کر Object یا Complement کا فیصلہ نہ کریں۔",
+            "sindhi": "هن بناوت ۾ Subject ۽ Verb کان پوءِ ايندڙ جزو خاص گرامري ڪم ڪندو آهي. جملي ۾ هر لفظ جو ڪم سڃاڻو؛ رڳو ترتيب ڏسي Object يا Complement جو فيصلو نه ڪريو.",
+            "examples": [
+              "We decided to leave.",
+              "He hopes to succeed.",
+              "They refused to answer."
+            ]
+          },
+          {
+            "title": "Pattern 9 — S + V + -ing clause",
+            "english": "Some verbs take an -ing clause naming an activity. Common verbs: enjoy, avoid, finish, consider, suggest, admit, deny, mind, practise.",
+            "urdu": "اس ساخت میں Subject اور Verb کے بعد آنے والا جزو مخصوص نحوی کام کرتا ہے۔ جملے میں ہر لفظ کا کام پہچانیں؛ صرف ترتیب دیکھ کر Object یا Complement کا فیصلہ نہ کریں۔",
+            "sindhi": "هن بناوت ۾ Subject ۽ Verb کان پوءِ ايندڙ جزو خاص گرامري ڪم ڪندو آهي. جملي ۾ هر لفظ جو ڪم سڃاڻو؛ رڳو ترتيب ڏسي Object يا Complement جو فيصلو نه ڪريو.",
+            "examples": [
+              "She enjoys painting.",
+              "He avoided answering.",
+              "They finished cleaning."
+            ]
+          },
+          {
+            "title": "Pattern 10 — S + V + that-clause",
+            "english": "A that-clause completes verbs of thinking, knowing, saying, reporting or feeling. In informal English, that is often omitted.",
+            "urdu": "اس ساخت میں Subject اور Verb کے بعد آنے والا جزو مخصوص نحوی کام کرتا ہے۔ جملے میں ہر لفظ کا کام پہچانیں؛ صرف ترتیب دیکھ کر Object یا Complement کا فیصلہ نہ کریں۔",
+            "sindhi": "هن بناوت ۾ Subject ۽ Verb کان پوءِ ايندڙ جزو خاص گرامري ڪم ڪندو آهي. جملي ۾ هر لفظ جو ڪم سڃاڻو؛ رڳو ترتيب ڏسي Object يا Complement جو فيصلو نه ڪريو.",
+            "examples": [
+              "I believe that he is honest.",
+              "She said (that) the train was late.",
+              "We know that the earth moves."
+            ]
+          },
+          {
+            "title": "Verb patterns — important distinctions and common mistakes",
+            "english": "Linking verbs take subject complements, not direct objects: 'She seems tired', not 'She seems tiredness'. Verbs such as put usually need a place phrase: 'Put the bag on the chair'. Enjoy is followed by an -ing clause; decide is normally followed by a to-infinitive. Some verbs allow both forms with a change in meaning: 'remember to lock' means remember the task; 'remember locking' means recall doing it. A that-clause has its own subject and finite verb.",
+            "urdu": "Linking Verbs کے بعد Subject Complement آتا ہے، Direct Object نہیں۔ put کے بعد عموماً جگہ بتانے والا فقرہ ضروری ہے۔ enjoy کے بعد -ing جبکہ decide کے بعد عموماً to-infinitive آتا ہے۔ بعض افعال دونوں صورتیں لیتے ہیں مگر معنی بدل جاتا ہے: remember to lock یعنی تالا لگانا یاد رکھنا؛ remember locking یعنی تالا لگانے کا واقعہ یاد ہونا۔ that-clause کا اپنا Subject اور Finite Verb ہوتا ہے۔",
+            "sindhi": "Linking Verbs کان پوءِ Subject Complement ايندو آهي، Direct Object نه. put کان پوءِ عام طور جاءِ وارو فقره ضروري هوندو آهي. enjoy کان پوءِ -ing ۽ decide کان پوءِ عام طور to-infinitive ايندو آهي. ڪي فعل ٻئي صورتون وٺن ٿا پر مطلب بدلجي ٿو. that-clause جو پنهنجو Subject ۽ Finite Verb هوندو آهي.",
+            "tables": [
+              {
+                "headers": [
+                  "Incorrect",
+                  "Correct",
+                  "Rule"
+                ],
+                "rows": [
+                  [
+                    "She seems tiredness.",
+                    "She seems tired.",
+                    "Linking verb + subject complement"
+                  ],
+                  [
+                    "He put the book.",
+                    "He put the book on the desk.",
+                    "Put + object + place adverbial"
+                  ],
+                  [
+                    "I enjoy to read.",
+                    "I enjoy reading.",
+                    "Enjoy + -ing clause"
+                  ],
+                  [
+                    "They decided going.",
+                    "They decided to go.",
+                    "Decide + to-infinitive"
+                  ],
+                  [
+                    "They made happily.",
+                    "They made him happy.",
+                    "Make + object + object complement"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Practice — identify all ten patterns",
+            "english": "Identify S, V and the remaining elements, then name the pattern. Imperatives have an understood subject 'you'.",
+            "urdu": "S، V اور باقی اجزاء کی نشاندہی کریں، پھر Pattern لکھیں۔ حکم کے جملے میں Subject 'you' سمجھا جاتا ہے۔",
+            "sindhi": "S، V ۽ باقي جزا سڃاڻو، پوءِ Pattern لکو. حڪمي جملي ۾ Subject 'you' سمجهيو ويندو آهي.",
+            "tables": [
+              {
+                "headers": [
+                  "No.",
+                  "Sentence",
+                  "Answer"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "The baby smiled.",
+                    "Pattern 1 — S + V"
+                  ],
+                  [
+                    "2",
+                    "My sister is a nurse.",
+                    "Pattern 2 — S + V + SC"
+                  ],
+                  [
+                    "3",
+                    "The children are outside.",
+                    "Pattern 3 — S + V + A"
+                  ],
+                  [
+                    "4",
+                    "The dog chased the ball.",
+                    "Pattern 4 — S + V + DO"
+                  ],
+                  [
+                    "5",
+                    "Father gave me a watch.",
+                    "Pattern 5 — S + V + IO + DO"
+                  ],
+                  [
+                    "6",
+                    "They painted the door red.",
+                    "Pattern 6 — S + V + DO + OC"
+                  ],
+                  [
+                    "7",
+                    "Put your shoes near the door.",
+                    "Pattern 7 — (You) + V + DO + A"
+                  ],
+                  [
+                    "8",
+                    "We hope to win.",
+                    "Pattern 8 — S + V + infinitive"
+                  ],
+                  [
+                    "9",
+                    "She dislikes waiting.",
+                    "Pattern 9 — S + V + -ing clause"
+                  ],
+                  [
+                    "10",
+                    "I heard that the shop was closed.",
+                    "Pattern 10 — S + V + that-clause"
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      }]
   }
   "idioms": {
   "title": "Idioms and Phrasal Verbs — Explanation and Usage (A–W)",
