@@ -10,12 +10,14 @@ LOG="android-api-${API_LEVEL}-launch.log"
 adb_retry() {
   local attempt
   for attempt in $(seq 1 8); do
-    if adb "$@"; then return 0; fi
+    if timeout 20s adb "$@"; then return 0; fi
     echo "ADB command failed (attempt ${attempt}/8): adb $*" >&2
+    # Reset the host daemon as well as reconnecting the emulator transport.
+    # This handles the runner-side "Unable to connect to adb daemon :5037" case.
+    adb kill-server >/dev/null 2>&1 || true
+    sleep 1
+    adb start-server >/dev/null 2>&1 || true
     adb reconnect offline >/dev/null 2>&1 || true
-    if (( attempt == 3 || attempt == 6 )); then
-      adb start-server >/dev/null 2>&1 || true
-    fi
     sleep 3
   done
   echo "ADB command did not recover after 8 attempts: adb $*" >&2
@@ -35,6 +37,7 @@ capture_log() {
 }
 trap capture_log EXIT
 
+adb_retry start-server
 adb_retry wait-for-device
 BOOTED=false
 for attempt in $(seq 1 90); do
