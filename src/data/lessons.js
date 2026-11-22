@@ -6,8 +6,9 @@ export const lessons = [
     urdu: "Sentence الفاظ کا ایسا مجموعہ ہے جو مکمل مطلب دے۔ جملے کی چار اقسام ہیں: خبریہ، سوالیہ، حکمیہ اور فجائیہ۔ ہر جملے کے دو حصے Subject اور Predicate ہوتے ہیں۔",
     level: "Beginner",
     duration: "12 min",
-    rule: "A sentence is a group of words that makes complete sense.",
+    rule: "A sentence is a group of words arranged to express a complete thought. It usually begins with a capital letter and ends with a full stop, question mark, or exclamation mark.",
     example: "Little Jack Horner sat in a corner.",
+    extraExamples: ["The sun rises in the east.", "Where are you going?", "Please open the window.", "What a beautiful flower!"],
     breakdown: [["Little Jack Horner", "Subject", "جس شخص کے بارے میں بات ہو رہی ہے"], ["sat in a corner", "Predicate", "Subject کے بارے میں بتایا گیا ہے"]],
     quiz: [
       { q: "What is a sentence?", options: ["A single letter", "A group of words that makes complete sense", "Any random words", "A punctuation mark"], answer: 1, why: "A sentence is a group of words that makes complete sense." },
@@ -38,8 +39,9 @@ export const lessons = [
     urdu: "انگریزی زبان میں ہر لفظ اپنا ایک خاص کام کرتا ہے۔ لفظ کے اسی کام کے مطابق اسے مختلف اقسام میں تقسیم کیا جاتا ہے۔",
     level: "Beginner",
     duration: "8 min",
-    rule: "A part of speech is a category of words based on the work they do in a sentence.",
+    rule: "A part of speech is a class or category of words grouped by the job each word does in a sentence. The main parts of speech are noun, pronoun, verb, adjective, adverb, preposition, conjunction, and interjection.",
     example: "The clever student reads a book.",
+    extraExamples: ["Ali plays cricket. (Ali = noun; plays = verb)", "She is very kind. (She = pronoun; kind = adjective)", "The bird sings sweetly. (sweetly = adverb)", "The book is on the table. (on = preposition)", "I was tired, but I finished my work. (but = conjunction)", "Wow! That is wonderful. (Wow = interjection)"],
     breakdown: [
       ["The", "Article", "اسم سے پہلے آتا ہے"],
       ["clever", "Adjective", "اسم کی خوبی بتاتا ہے"],
