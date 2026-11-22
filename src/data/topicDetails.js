@@ -1100,7 +1100,9 @@ export const topicDetails = {
           ["The few guests remaining were welcomed.", "باقی رہ جانے والے چند مہمانوں کا استقبال کیا گیا۔", "باقي رهيل ٿورن مهمانن جي آجيان ڪئي وئي."],
           ["We should value the few chances we get.", "ہمیں ملنے والے چند مواقع کی قدر کرنی چاہیے۔", "اسان کي ملندڙ ٿورن موقعن جي قدر ڪرڻ گهرجي."]
         ]
-      } },
+      }
+    ]
+  },
   "tenses": {
     overview: "English tense and aspect work together to show when an event happens and whether it is complete, continuing or connected to another time. The three broad time references are present, past and future.",
     watchFor: "Choose a form based on meaning and context, not only on time words. Present perfect, for example, often connects a past event to the present.",
