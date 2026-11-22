@@ -332,6 +332,24 @@ export const topicDetails = {
         ]
       },
       {
+        title: "Nouns in Apposition",
+        english: "A noun in apposition is a noun or noun phrase placed beside another noun to explain, identify or give more information about it. Both nouns refer to the same person or thing. Example: My friend, Ali, is a doctor. Ali explains who my friend is.",
+        urdu: "Noun in Apposition ایسا اسم یا اسم کا فقرہ ہوتا ہے جو دوسرے اسم کے ساتھ آ کر اس کی وضاحت، شناخت یا مزید معلومات دیتا ہے۔ دونوں اسم ایک ہی شخص یا چیز کے لیے استعمال ہوتے ہیں۔ مثال: میرا دوست، علی، ڈاکٹر ہے۔ یہاں علی، میرے دوست کی وضاحت کرتا ہے۔",
+        sindhi: "Noun in Apposition اهڙو اسم يا اسمي فقرو آهي جيڪو ٻئي اسم جي ڀرسان اچي ان جي وضاحت، سڃاڻپ يا وڌيڪ ڄاڻ ڏئي ٿو. ٻئي اسم ساڳئي ماڻهو يا شيءِ لاءِ هوندا آهن. مثال: منهنجو دوست، علي، ڊاڪٽر آهي. هتي علي، منهنجي دوست جي سڃاڻپ ڪرائي ٿو.",
+        examples: [
+          ["My friend, Ali, is a doctor.", "میرا دوست، علی، ڈاکٹر ہے۔", "منهنجو دوست، علي، ڊاڪٽر آهي."],
+          ["Mr. Ahmed, our teacher, is very kind.", "مسٹر احمد، ہمارے استاد، بہت مہربان ہیں۔", "مسٽر احمد، اسان جو استاد، تمام مهربان آهي."],
+          ["Karachi, the largest city of Pakistan, is near the sea.", "کراچی، پاکستان کا سب سے بڑا شہر، سمندر کے قریب ہے۔", "ڪراچي، پاڪستان جو سڀ کان وڏو شهر، سمنڊ جي ويجهو آهي."],
+          ["Quaid-e-Azam, the founder of Pakistan, is remembered with respect.", "قائداعظم، پاکستان کے بانی، کو احترام سے یاد کیا جاتا ہے۔", "قائداعظم، پاڪستان جو باني، عزت سان ياد ڪيو وڃي ٿو."],
+          ["My brother, a skilled player, won the match.", "میرا بھائی، ایک ماہر کھلاڑی، میچ جیت گیا۔", "منهنجو ڀاءُ، هڪ ماهر رانديگر، مقابلو کٽي ويو."],
+          ["Lahore, a historic city, attracts many visitors.", "لاہور، ایک تاریخی شہر، بہت سے سیاحوں کو اپنی طرف متوجہ کرتا ہے۔", "لاهور، هڪ تاريخي شهر، ڪيترن ئي سياحن کي پاڻ ڏانهن ڇڪي ٿو."],
+          ["Sara, my cousin, lives in Hyderabad.", "سارہ، میری کزن، حیدرآباد میں رہتی ہے۔", "سارا، منهنجي سئوٽ، حيدرآباد ۾ رهي ٿي."],
+          ["The poet Iqbal wrote inspiring poetry.", "شاعر اقبال نے حوصلہ افزا شاعری لکھی۔", "شاعر اقبال اتساهيندڙ شاعري لکي."],
+          ["Mr. Khan, the principal of our school, addressed the students.", "مسٹر خان، ہمارے اسکول کے پرنسپل، نے طلبہ سے خطاب کیا۔", "مسٽر خان، اسان جي اسڪول جو پرنسپال، شاگردن کي خطاب ڪيو."],
+          ["The river Indus flows through Pakistan.", "دریا سندھ پاکستان میں بہتا ہے۔", "سنڌو درياهه پاڪستان مان وهي ٿو."]
+        ]
+      },
+      {
         title: "Material Noun",
         english: "A material noun names a substance or material from which things are made.",
         urdu: "Material noun کسی ایسے مادّے یا مواد کا نام ہے جس سے چیزیں بنائی جاتی ہیں۔",
