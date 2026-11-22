@@ -2180,7 +2180,6 @@ export const topicDetails = {
           ["We caught the next train.", "ہم نے اگلی ٹرین پکڑی۔", "اسان ايندڙ ريل پڪڙي."],
           ["Which is the nearest route to the station?", "اسٹیشن جانے کا قریب ترین راستہ کون سا ہے؟", "اسٽيشن ڏانهن سڀ کان ويجهو رستو ڪهڙو آهي؟"]
         ]
-      }
       },
       {
         title: "Interchange of the Degrees of Comparison",
