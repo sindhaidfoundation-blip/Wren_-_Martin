@@ -76,15 +76,30 @@ export const topicDetails = {
       },
       {
         title: "Common Noun",
-        english: "A common noun is a general name for a person, place, animal or thing. It does not name one particular person or place.",
-        urdu: "Common noun کسی شخص، جگہ، جانور یا چیز کا عام نام ہوتا ہے، کسی ایک خاص نام کو ظاہر نہیں کرتا۔",
-        sindhi: "Common noun ڪنهن ماڻهو، هنڌ، جانور يا شيءِ جو عام نالو آهي؛ اهو ڪنهن هڪ خاص نالي کي ظاهر نٿو ڪري.",
+        english: "A common noun is a general name for a person, place, animal or thing. It is not the special name of one particular person or place. Common nouns can be singular (one) or plural (more than one).",
+        urdu: "Common noun کسی شخص، جگہ، جانور یا چیز کا عام نام ہوتا ہے، کسی ایک خاص شخص یا جگہ کا مخصوص نام نہیں۔ Common noun واحد بھی ہو سکتا ہے، یعنی ایک، اور جمع بھی، یعنی ایک سے زیادہ۔",
+        sindhi: "Common noun ڪنهن ماڻهو، هنڌ، جانور يا شيءِ جو عام نالو آهي؛ اهو ڪنهن هڪ خاص ماڻهو يا هنڌ جو مخصوص نالو ناهي. Common noun واحد به ٿي سگهي ٿو، يعني هڪ، ۽ جمع به، يعني هڪ کان وڌيڪ.",
         examples: [
-          ["boy", "لڑکا", "ڇوڪرو"],
-          ["city", "شہر", "شهر"],
-          ["teacher", "استاد", "استاد"],
-          ["river", "دریا", "درياهه"],
-          ["book", "کتاب", "ڪتاب"]
+          ["boy → boys", "لڑکا → لڑکے", "ڇوڪرو → ڇوڪرا"],
+          ["girl → girls", "لڑکی → لڑکیاں", "ڇوڪري → ڇوڪريون"],
+          ["teacher → teachers", "استاد → اساتذہ", "استاد → استاد"],
+          ["student → students", "طالب علم → طالب علم", "شاگرد → شاگرد"],
+          ["book → books", "کتاب → کتابیں", "ڪتاب → ڪتاب"],
+          ["pen → pens", "قلم → قلم", "قلم → قلم"],
+          ["chair → chairs", "کرسی → کرسیاں", "ڪرسي → ڪرسيون"],
+          ["table → tables", "میز → میزیں", "ميز → ميزون"],
+          ["car → cars", "گاڑی → گاڑیاں", "گاڏي → گاڏيون"],
+          ["bus → buses", "بس → بسیں", "بس → بسون"],
+          ["city → cities", "شہر → شہر", "شهر → شهر"],
+          ["village → villages", "گاؤں → گاؤں", "ڳوٺ → ڳوٺ"],
+          ["river → rivers", "دریا → دریا", "درياهه → درياهه"],
+          ["tree → trees", "درخت → درخت", "وڻ → وڻ"],
+          ["flower → flowers", "پھول → پھول", "گل → گل"],
+          ["dog → dogs", "کتا → کتے", "ڪتو → ڪتا"],
+          ["cat → cats", "بلی → بلیاں", "ٻلي → ٻليون"],
+          ["bird → birds", "پرندہ → پرندے", "پکي → پکي"],
+          [" apple → apples", "سیب → سیب", "صوف → صوف"],
+          ["box → boxes", "ڈبہ → ڈبے", "دٻو → دٻا"]
         ]
       },
       {
