@@ -22,7 +22,8 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#101C3A"
       },
-      "allowBackup": false
+      "allowBackup": false,
+      "versionCode": 2
     },
     "plugins": [
       [
