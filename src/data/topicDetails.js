@@ -14242,7 +14242,7 @@ topicDetails["past-tense"] = {
       ]
     }
   ]
-}
+},
   "figures-of-speech": {
     "overview": "Figures of speech are special uses of language that make writing and speaking more vivid, persuasive, emotional, memorable or humorous. They may create comparisons, contrasts, exaggerations, indirect meanings, sound-based wordplay or carefully arranged ideas. Learn each figure by its definition, purpose and examples, and pay attention to the difference between similar terms.",
     "watchFor": "Identify what the expression is doing, not merely the words it contains. A single sentence may contain more than one figure of speech. Some classifications vary between traditional grammar books and modern rhetoric; the notes below explain common school-level usage and point out overlaps.",
