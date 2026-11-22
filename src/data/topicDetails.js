@@ -7894,7 +7894,7 @@ export const topicDetails = {
           ["We played cricket on Sunday.", "ہم نے اتوار کو کرکٹ کھیلی۔", "اسان آچر تي ڪرڪيٽ کيڏي.", "Played is V2. Because play ends in vowel + y, only -ed is added."],
           ["The room was cleaned by Sara.", "کمرہ سارہ نے صاف کیا تھا۔", "ڪمرو سارا صاف ڪيو هو.", "Cleaned is V3 after was and forms a passive sentence."]
         ]
-      },},
+      },
       {
         title: "4. Forty Irregular Verbs — Base Form, Past Tense and Past Participle",
         english: "The following are 40 common irregular verbs. Their V2 and V3 forms do not follow the regular -ed pattern. Learn all three forms together. Some verbs have three different forms, while others repeat one or more forms. The list uses common standard forms; a few verbs have accepted spelling or regional variants.",
@@ -7922,7 +7922,7 @@ export const topicDetails = {
           ["They have eaten breakfast already.", "وہ پہلے ہی ناشتہ کر چکے ہیں۔", "اهي اڳ ئي ناشتو ڪري چڪا آهن.", "Eaten is V3, used after have."],
           ["The window was broken by the storm.", "طوفان سے کھڑکی ٹوٹ گئی تھی۔", "طوفان سبب دري ڀڄي پئي هئي.", "Broken is V3, used with was to form the passive voice."]
         ]
-      },},
+      },
       {
         title: "5. How to Use V1, V2 and V3 in Sentences",
         english: "V1 (base form) is used after modal verbs (can go, should write), after do/does/did in questions and negatives (Did you see?), with to in an infinitive (to learn), and in the simple present except third-person singular (I work; she works). V2 (simple past) is used for a completed past action (They visited us yesterday). V3 (past participle) is used after have/has/had in perfect tenses (I have finished; she had gone) and with be in passive voice (The work was completed). Remember: do not use V2 after did, and do not use V2 instead of V3 after have/has/had.",
