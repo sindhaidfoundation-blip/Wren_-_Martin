@@ -268,6 +268,70 @@ export const topicDetails = {
         ]
       },
       {
+        title: "The Noun Case",
+        english: "The possessive case shows ownership, relationship or association. It is commonly formed with an apostrophe (') and, in many cases, -'s or an apostrophe after the plural -s.",
+        urdu: "Possessive Case ملکیت، تعلق یا نسبت ظاہر کرتا ہے۔ اسے عموماً apostrophe (') اور اکثر -'s کے ذریعے بنایا جاتا ہے۔ جمع کے ایسے اسم جن کے آخر میں پہلے ہی s ہو، ان کے بعد صرف apostrophe لگاتے ہیں۔",
+        sindhi: "Possessive Case ملڪيت، لاڳاپو يا واسطو ظاهر ڪري ٿو. اهو عام طور apostrophe (') ۽ گهڻن حالتن ۾ -'s سان ٺاهبو آهي. جمع جي انهن اسمن کان پوءِ، جن جي آخر ۾ اڳ ئي s هجي، رڳو apostrophe لڳائبي آهي.",
+        specialSections: [
+          {
+            title: "Formation of the Possessive Case — 20 examples",
+            english: "For a singular noun, usually add -'s: the boy's book. For a regular plural ending in -s, add only an apostrophe: the girls' school. For an irregular plural not ending in -s, add -'s: children's toys. Names ending in s may take -'s or an apostrophe according to the style followed.",
+            urdu: "واحد اسم کے ساتھ عموماً -'s لگاتے ہیں: the boy's book۔ s پر ختم ہونے والی عام جمع کے ساتھ صرف apostrophe لگاتے ہیں: the girls' school۔ ایسی بے قاعدہ جمع جو s پر ختم نہ ہو، اس کے ساتھ -'s لگاتے ہیں: children's toys۔ s پر ختم ہونے والے ناموں میں رائج اسلوب کے مطابق -'s یا صرف apostrophe استعمال ہو سکتی ہے۔",
+            sindhi: "واحد اسم سان عام طور -'s لڳائبو آهي: the boy's book. s تي ختم ٿيندڙ عام جمع سان رڳو apostrophe لڳائبي آهي: the girls' school. اهڙي بي قاعدي جمع جيڪا s تي ختم نه ٿئي، ان سان -'s لڳائبو آهي: children's toys. s تي ختم ٿيندڙ نالن سان اختيار ڪيل لکڻيءَ جي طريقي موجب -'s يا رڳو apostrophe اچي سگهي ٿي.",
+            examples: [
+              ["the boy's bag — The boy's bag is blue.", "لڑکے کا بستہ نیلا ہے۔", "ڇوڪري جو ٿيلهو نيرو آهي."],
+              ["the girl's doll — The girl's doll is beautiful.", "لڑکی کی گڑیا خوبصورت ہے۔", "ڇوڪري جي گڏي سهڻي آهي."],
+              ["the teacher's desk — The teacher's desk is clean.", "استاد کی میز صاف ہے۔", "استاد جي ميز صاف آهي."],
+              ["Ali's bicycle — Ali's bicycle is new.", "علی کی سائیکل نئی ہے۔", "علي جي سائيڪل نئين آهي."],
+              ["Sara's notebook — Sara's notebook is on the table.", "سارہ کی کاپی میز پر ہے۔", "سارا جي ڪاپي ميز تي آهي."],
+              ["the dog's tail — The dog's tail is long.", "کتے کی دم لمبی ہے۔", "ڪتي جي پڇ ڊگهي آهي."],
+              ["the cat's milk — The cat's milk is in a bowl.", "بلی کا دودھ پیالے میں ہے۔", "ٻلي جو کير پيالي ۾ آهي."],
+              ["the mother's advice — The mother's advice was helpful.", "ماں کا مشورہ فائدہ مند تھا۔", "ماءُ جو مشورو فائديمند هو."],
+              ["the children's toys — The children's toys are colourful.", "بچوں کے کھلونے رنگین ہیں۔", "ٻارن جا رانديڪا رنگين آهن."],
+              ["the men's shoes — The men's shoes are outside.", "مردوں کے جوتے باہر ہیں۔", "مردن جا جوتا ٻاهر آهن."],
+              ["the women's room — The women's room is upstairs.", "عورتوں کا کمرہ اوپر ہے۔", "عورتن جو ڪمرو مٿي آهي."],
+              ["the students' books — The students' books are ready.", "طلبہ کی کتابیں تیار ہیں۔", "شاگردن جا ڪتاب تيار آهن."],
+              ["the girls' hostel — The girls' hostel is near the college.", "لڑکیوں کا ہاسٹل کالج کے قریب ہے۔", "ڇوڪرين جو هاسٽل ڪاليج جي ويجهو آهي."],
+              ["the players' uniforms — The players' uniforms are clean.", "کھلاڑیوں کی وردیاں صاف ہیں۔", "رانديگرن جا يونيفارم صاف آهن."],
+              ["the workers' tools — The workers' tools are in the box.", "مزدوروں کے اوزار ڈبے میں ہیں۔", "مزدورن جا اوزار دٻي ۾ آهن."],
+              ["James's house — James's house is large.", "جیمز کا گھر بڑا ہے۔", "جيمس جو گهر وڏو آهي."],
+              ["Charles's car — Charles's car is black.", "چارلس کی گاڑی کالی ہے۔", "چارلس جي گاڏي ڪاري آهي."],
+              ["a day's work — A day's work is enough for today.", "ایک دن کا کام آج کے لیے کافی ہے۔", "هڪ ڏينهن جو ڪم اڄ لاءِ ڪافي آهي."],
+              ["two weeks' holiday — We had two weeks' holiday.", "ہم نے دو ہفتوں کی چھٹی کی۔", "اسان ٻه هفتا موڪل ڪئي."],
+              ["the sun's rays — The sun's rays are warm.", "سورج کی کرنیں گرم ہیں۔", "سج جون ڪرڻون گرم آهن."]
+            ]
+          },
+          {
+            title: "Use of the Possessive Case — 20 examples",
+            english: "The possessive case is used to show ownership, relationships, parts of a living being, time or duration, and association. It is especially common with people and animals.",
+            urdu: "Possessive Case ملکیت، رشتے، جاندار کے اعضا، وقت یا مدت اور تعلق ظاہر کرنے کے لیے استعمال ہوتا ہے۔ یہ خاص طور پر انسانوں اور جانوروں کے ساتھ عام ہے۔",
+            sindhi: "Possessive Case ملڪيت، رشتن، جاندار جي عضون، وقت يا مُدي ۽ لاڳاپي کي ظاهر ڪرڻ لاءِ استعمال ٿيندو آهي. اهو خاص طور ماڻهن ۽ جانورن سان عام آهي.",
+            examples: [
+              ["This is Ahmed's pencil.", "یہ احمد کی پنسل ہے۔", "هي احمد جي پينسل آهي."],
+              ["That is my father's car.", "وہ میرے والد کی گاڑی ہے۔", "اها منهنجي پيءُ جي گاڏي آهي."],
+              ["Ayesha's mother is a doctor.", "عائشہ کی والدہ ڈاکٹر ہیں۔", "عائشه جي ماءُ ڊاڪٽر آهي."],
+              ["The baby's eyes are bright.", "بچے کی آنکھیں چمکدار ہیں۔", "ٻار جون اکيون چمڪندڙ آهن."],
+              ["The horse's legs are strong.", "گھوڑے کی ٹانگیں مضبوط ہیں۔", "گهوڙي جون ٽنگون مضبوط آهن."],
+              ["The bird's nest is in the tree.", "پرندے کا گھونسلہ درخت میں ہے۔", "پکيءَ جو آکيرو وڻ ۾ آهي."],
+              ["The teacher's explanation was clear.", "استاد کی وضاحت واضح تھی۔", "استاد جي وضاحت صاف هئي."],
+              ["The doctor's clinic is nearby.", "ڈاکٹر کا کلینک قریب ہے۔", "ڊاڪٽر جو ڪلينڪ ويجهو آهي."],
+              ["My friend's house is near the school.", "میرے دوست کا گھر اسکول کے قریب ہے۔", "منهنجي دوست جو گهر اسڪول جي ويجهو آهي."],
+              ["The children's playground is large.", "بچوں کا کھیل کا میدان بڑا ہے۔", "ٻارن جي راند جو ميدان وڏو آهي."],
+              ["The students' results were excellent.", "طلبہ کے نتائج شاندار تھے۔", "شاگردن جا نتيجا شاندار هئا."],
+              ["The company's office is in Karachi.", "کمپنی کا دفتر کراچی میں ہے۔", "ڪمپنيءَ جو دفتر ڪراچيءَ ۾ آهي."],
+              ["The city's roads are busy.", "شہر کی سڑکیں مصروف ہیں۔", "شهر جا رستا مصروف آهن."],
+              ["We enjoyed a summer's day.", "ہم نے گرمیوں کے ایک دن سے لطف اٹھایا۔", "اسان اونهاري جي هڪ ڏينهن جو مزو ورتو."],
+              ["I need a week's rest.", "مجھے ایک ہفتے کے آرام کی ضرورت ہے۔", "مون کي هڪ هفتي جي آرام جي ضرورت آهي."],
+              ["Today's lesson is easy.", "آج کا سبق آسان ہے۔", "اڄ جو سبق آسان آهي."],
+              ["Yesterday's match was exciting.", "کل کا میچ دلچسپ تھا۔", "ڪالهه جو مقابلو دلچسپ هو."],
+              ["The earth's surface contains water and land.", "زمین کی سطح پر پانی اور خشکی ہے۔", "ڌرتيءَ جي مٿاڇري تي پاڻي ۽ خشڪي آهي."],
+              ["The river's banks are green.", "دریا کے کنارے سرسبز ہیں۔", "درياهه جا ڪنارا ساوا آهن."],
+              ["The team's victory made the fans happy.", "ٹیم کی فتح نے مداحوں کو خوش کر دیا۔", "ٽيم جي ڪاميابي مداحن کي خوش ڪري ڇڏيو."]
+            ]
+          }
+        ]
+      },
+      {
         title: "Material Noun",
         english: "A material noun names a substance or material from which things are made.",
         urdu: "Material noun کسی ایسے مادّے یا مواد کا نام ہے جس سے چیزیں بنائی جاتی ہیں۔",
