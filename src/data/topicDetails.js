@@ -876,7 +876,84 @@ export const topicDetails = {
   "verbs": {
     overview: "Verbs express actions, events and states. A verb phrase may include a main verb and helping verbs that show tense, aspect, voice or mood.",
     watchFor: "Some verbs describe states rather than visible actions, such as know, belong, seem and believe.",
-    examples: ["They have finished the work.", "The soup tastes delicious."]
+    examples: ["They have finished the work.", "The soup tastes delicious."],
+    specialSectionsTitle: "TRANSITIVE & INTRANSITIVE VERBS — فعل متعدي ۽ لازم",
+    specialSections: [
+      {
+        title: "Transitive and Intransitive Verbs — 30 Detailed Examples",
+        english: "A transitive verb is an action verb that takes a direct object. The direct object receives the action and answers “whom?” or “what?” after the verb: “Mina opened the door.” Opened what? The door. Therefore, opened is transitive.\n\nAn intransitive verb does not take a direct object. The action or state is complete without a direct object: “The child laughed.” Laughed what? There is no direct object. An intransitive verb may still be followed by an adverb or a prepositional phrase, as in “The child laughed loudly” or “The guests arrived at noon.” These phrases do not become direct objects.\n\nTo identify the verb type, first find the verb, then ask “what?” or “whom?” If the sentence has a direct object answering that question, the verb is transitive in that use. If it has no direct object, it is intransitive in that use. Some verbs can be transitive in one sentence and intransitive in another; the classification depends on how the verb is used, not only on the verb itself. A linking verb such as seem or become is generally neither transitive nor intransitive in this object-based classification.",
+        urdu: "Transitive verb (فعل متعدی) وہ فعل ہے جسے اپنا مطلب مکمل کرنے کے لیے direct object (مفعولِ مستقیم) درکار ہوتا ہے۔ مفعول فعل کا اثر قبول کرتا ہے اور فعل کے بعد “کس کو؟” یا “کیا؟” پوچھنے سے ملتا ہے۔ مثال: “Mina opened the door.” یعنی مینا نے دروازہ کھولا۔ کیا کھولا؟ دروازہ۔ اس لیے opened متعدی فعل ہے۔\n\nIntransitive verb (فعل لازم) ایسا فعل ہے جس کے ساتھ direct object نہیں ہوتا۔ فعل کا مطلب مفعول کے بغیر مکمل ہو جاتا ہے: “The child laughed.” یعنی بچہ ہنسا۔ کیا ہنسا؟ یہاں کوئی direct object نہیں۔ لازم فعل کے بعد adverb یا prepositional phrase آ سکتا ہے، جیسے “The child laughed loudly” یا “The guests arrived at noon”؛ یہ فقرے direct object نہیں ہیں۔\n\nفعل کی قسم معلوم کرنے کے لیے پہلے فعل تلاش کریں، پھر اس کے بعد “کیا؟” یا “کس کو؟” پوچھیں۔ اگر جواب direct object ہو تو اس استعمال میں فعل متعدی ہے۔ اگر direct object نہ ہو تو اس استعمال میں فعل لازم ہے۔ بعض افعال ایک جملے میں متعدی اور دوسرے میں لازم ہو سکتے ہیں؛ فیصلہ جملے میں ان کے استعمال سے ہوتا ہے، صرف لفظ سے نہیں۔ seem یا become جیسے linking verbs عموماً اس object-based تقسیم میں نہ متعدی ہوتے ہیں نہ لازم۔",
+        sindhi: "Transitive verb (فعل متعدي) اهو فعل آهي جنهن جي معنيٰ مڪمل ٿيڻ لاءِ direct object (سڌو مفعول) گهربل هوندو آهي. مفعول فعل جو اثر قبول ڪندو آهي ۽ فعل کان پوءِ “ڪنهن کي؟” يا “ڇا؟” پڇڻ سان ملي ٿو. مثال: “Mina opened the door.” يعني مينا دروازو کوليو. ڇا کوليو؟ دروازو. تنهنڪري opened متعدي فعل آهي.\n\nIntransitive verb (فعل لازم) اهڙو فعل آهي جنهن سان direct object نه هوندو آهي. فعل جي معنيٰ مفعول کان سواءِ مڪمل هوندي آهي: “The child laughed.” يعني ٻار کليو. ڇا کليو؟ هتي ڪو direct object ڪونهي. لازم فعل کان پوءِ adverb يا prepositional phrase اچي سگهي ٿو، جيئن “The child laughed loudly” يا “The guests arrived at noon”؛ اهي فقره direct object ناهن.\n\nفعل جو قسم سڃاڻڻ لاءِ پهرين فعل ڳوليو، پوءِ ان کان پوءِ “ڇا؟” يا “ڪنهن کي؟” پڇو. جيڪڏهن جواب direct object هجي ته ان استعمال ۾ فعل متعدي آهي. جيڪڏهن direct object نه هجي ته ان استعمال ۾ فعل لازم آهي. ڪي فعل هڪ جملي ۾ متعدي ۽ ٻئي ۾ لازم ٿي سگهن ٿا؛ فيصلو جملي ۾ انهن جي استعمال مان ٿيندو، رڳو لفظ مان نه. seem يا become جهڙا linking verbs عام طور هن object-based ورهاست ۾ نه متعدي هوندا آهن نه لازم.",
+        examples: [
+          ["The boy kicked the ball. (Transitive: kicked what? the ball.)", "لڑکے نے گیند کو لات ماری۔", "ڇوڪري بال کي لت هنئي."],
+          ["The baby slept peacefully. (Intransitive: no object.)", "بچہ سکون سے سویا۔", "ٻار سڪون سان ستو."],
+          ["Sara opened the window. (Transitive: opened what? the window.)", "سارہ نے کھڑکی کھولی۔", "ساره دري کولي."],
+          ["The sun rises in the east. (Intransitive: no object.)", "سورج مشرق سے طلوع ہوتا ہے۔", "سج اوڀر کان اڀري ٿو."],
+          ["The chef prepared dinner. (Transitive: prepared what? dinner.)", "باورچی نے رات کا کھانا تیار کیا۔", "باورچي رات جي ماني تيار ڪئي."],
+          ["The birds are singing. (Intransitive: no object.)", "پرندے گا رہے ہیں۔", "پکي ڳائي رهيا آهن."],
+          ["Ali bought a new bicycle. (Transitive: bought what? a bicycle.)", "علی نے نئی سائیکل خریدی۔", "علي نئين سائيڪل خريد ڪئي."],
+          ["The old man laughed loudly. (Intransitive: no object.)", "بوڑھا آدمی زور سے ہنسا۔", "پوڙهو ماڻهو وڏي آواز سان کليو."],
+          ["The teacher explained the lesson. (Transitive: explained what? the lesson.)", "استاد نے سبق سمجھایا۔", "استاد سبق سمجهايو."],
+          ["The river flows through the valley. (Intransitive: no direct object.)", "دریا وادی میں سے گزرتا ہے۔", "ندي ماٿريءَ مان وهي ٿي."],
+          ["They repaired the broken chair. (Transitive: repaired what? the chair.)", "انہوں نے ٹوٹی ہوئی کرسی ٹھیک کی۔", "انهن ٽٽل ڪرسيءَ جي مرمت ڪئي."],
+          ["The audience applauded enthusiastically. (Intransitive: no object.)", "تماشائیوں نے جوش سے تالیاں بجائیں۔", "تماشائين جوش سان تاڙيون وڄايون."],
+          ["My sister writes short stories. (Transitive: writes what? stories.)", "میری بہن مختصر کہانیاں لکھتی ہے۔", "منهنجي ڀيڻ مختصر ڪهاڻيون لکي ٿي."],
+          ["The train arrived late. (Intransitive: no object.)", "ٹرین دیر سے پہنچی۔", "ريل گاڏي دير سان پهتي."],
+          ["The gardener watered the plants. (Transitive: watered what? the plants.)", "مالی نے پودوں کو پانی دیا۔", "مالهي ٻوٽن کي پاڻي ڏنو."],
+          ["The children played outside. (Intransitive: no direct object.)", "بچے باہر کھیلے۔", "ٻار ٻاهر کيڏيا."],
+          ["He solved the difficult puzzle. (Transitive: solved what? the puzzle.)", "اس نے مشکل پہیلی حل کی۔", "هن ڏکيو ڳجهارت حل ڪيو."],
+          ["The horse galloped across the field. (Intransitive: no object.)", "گھوڑا میدان میں تیزی سے دوڑا۔", "گهوڙو ميدان ۾ تيزيءَ سان ڊوڙيو."],
+          ["The company launched a new product. (Transitive: launched what? a product.)", "کمپنی نے نئی مصنوعات متعارف کرائی۔", "ڪمپني نئين شيءِ مارڪيٽ ۾ آندي."],
+          ["The guests laughed at the joke. (Intransitive: no direct object; at the joke is a prepositional phrase.)", "مہمان لطیفے پر ہنسے۔", "مهمان مذاق تي کليا."],
+          ["The police caught the thief. (Transitive: caught whom? the thief.)", "پولیس نے چور کو پکڑ لیا۔", "پوليس چور کي پڪڙي ورتو."],
+          ["The flowers bloomed in spring. (Intransitive: no object.)", "بہار میں پھول کھلے۔", "بهار ۾ گل ٽڙيا."],
+          ["She carried the heavy suitcase. (Transitive: carried what? the suitcase.)", "اس نے بھاری سوٹ کیس اٹھایا۔", "هن ڳرو سوٽ ڪيس کنيو."],
+          ["The little boy cried all night. (Intransitive: no object.)", "چھوٹا لڑکا ساری رات روتا رہا۔", "ننڍڙو ڇوڪرو سڄي رات رنو."],
+          ["We discussed the new plan. (Transitive: discussed what? the plan.)", "ہم نے نئے منصوبے پر گفتگو کی۔", "اسان نئين منصوبي تي بحث ڪيو."],
+          ["The leaves fell from the tree. (Intransitive: no object.)", "پتے درخت سے گر گئے۔", "پن وڻ تان ڪريا."],
+          ["The mechanic fixed my car. (Transitive: fixed what? my car.)", "مکینک نے میری گاڑی ٹھیک کی۔", "مڪينڪ منهنجي گاڏي ٺيڪ ڪئي."],
+          ["The guests stayed overnight. (Intransitive: no direct object.)", "مہمان رات بھر ٹھہرے۔", "مهمان سڄي رات ترسيا."],
+          ["The nurse checked the patient’s temperature. (Transitive: checked what? the temperature.)", "نرس نے مریض کا درجۂ حرارت چیک کیا۔", "نرس مريض جو گرمي پد چيڪ ڪيو."],
+          ["The little stream disappeared. (Intransitive: no object.)", "چھوٹی ندی غائب ہو گئی۔", "ننڍي نهر گم ٿي وئي."]
+        ]
+      },
+      {
+        title: "Use of Verbs Transitively — 10 Examples",
+        english: "A verb is used transitively when it acts upon a direct object. The object may be a noun, pronoun or noun phrase. To find it, ask “what?” or “whom?” after the verb. For example, in “She repaired the bicycle,” repaired what? The bicycle. The phrase “the bicycle” is the direct object.\n\nA transitive verb can also take an indirect object as well as a direct object: “He gave his sister a gift.” Here sister is the indirect object and gift is the direct object. A direct object is not the same as a prepositional phrase: in “They listened to music,” music is the object of the preposition to, not a direct object of listened; listen is normally intransitive in this construction.",
+        urdu: "فعل اس وقت متعدی استعمال ہوتا ہے جب اس کا اثر کسی direct object پر پڑتا ہے۔ مفعول اسم، ضمیر یا اسم کا فقرہ ہو سکتا ہے۔ اسے تلاش کرنے کے لیے فعل کے بعد “کیا؟” یا “کس کو؟” پوچھیں۔ مثال: “She repaired the bicycle.” یعنی اس نے سائیکل ٹھیک کی۔ کیا ٹھیک کی؟ سائیکل۔ اس لیے “the bicycle” direct object ہے۔\n\nمتعدی فعل کے ساتھ indirect object بھی آ سکتا ہے: “He gave his sister a gift.” یہاں sister بالواسطہ مفعول اور gift direct object ہے۔ Direct object اور حرفِ جار کے بعد آنے والا مفعول ایک چیز نہیں۔ “They listened to music” میں music حرفِ جار to کا مفعول ہے، listened کا direct object نہیں؛ اس ساخت میں listen عموماً لازم ہے۔",
+        sindhi: "فعل ان وقت متعدي استعمال ٿيندو آهي جڏهن ان جو اثر ڪنهن direct object تي پوي. مفعول اسم، ضمير يا اسم جو فقره ٿي سگهي ٿو. ان کي ڳولڻ لاءِ فعل کان پوءِ “ڇا؟” يا “ڪنهن کي؟” پڇو. مثال: “She repaired the bicycle.” يعني هن سائيڪل ٺيڪ ڪئي. ڇا ٺيڪ ڪيائين؟ سائيڪل. تنهنڪري “the bicycle” direct object آهي.\n\nمتعدي فعل سان indirect object به اچي سگهي ٿو: “He gave his sister a gift.” هتي sister اڻ سڌو مفعول ۽ gift direct object آهي. Direct object ۽ حرفِ جر کان پوءِ ايندڙ مفعول هڪجهڙا ناهن. “They listened to music” ۾ music حرفِ جر to جو مفعول آهي، listened جو direct object نه؛ هن جوڙجڪ ۾ listen عام طور لازم آهي.",
+        examples: [
+          ["She reads the newspaper every morning.", "وہ ہر صبح اخبار پڑھتی ہے۔", "هوءَ هر صبح اخبار پڙهي ٿي."],
+          ["The carpenter built a wooden table.", "بڑھئی نے لکڑی کی میز بنائی۔", "واڍي ڪاٺ جي ميز ٺاهي."],
+          ["Please close the door quietly.", "براہِ کرم دروازہ آہستہ سے بند کریں۔", "مهرباني ڪري دروازو آهستي بند ڪريو."],
+          ["The student answered the question correctly.", "طالب علم نے سوال کا درست جواب دیا۔", "شاگرد سوال جو صحيح جواب ڏنو."],
+          ["They planted five trees near the school.", "انہوں نے اسکول کے قریب پانچ درخت لگائے۔", "انهن اسڪول ڀرسان پنج وڻ پوکيا."],
+          ["My mother baked a chocolate cake.", "میری والدہ نے چاکلیٹ کا کیک بنایا۔", "منهنجي امڙ چاڪليٽ جو ڪيڪ ٺاهيو."],
+          ["The artist painted a beautiful landscape.", "فنکار نے خوبصورت منظر کی تصویر بنائی۔", "فنڪار سهڻو منظر رنگيو."],
+          ["We watched an educational documentary.", "ہم نے تعلیمی دستاویزی فلم دیکھی۔", "اسان تعليمي دستاويزي فلم ڏٺي."],
+          ["The dog chased the ball across the garden.", "کتے نے باغ میں گیند کا پیچھا کیا۔", "ڪتي باغ ۾ بال جو پيڇو ڪيو."],
+          ["He borrowed my grammar book.", "اس نے میری قواعد کی کتاب ادھار لی۔", "هن منهنجو گرامر جو ڪتاب اڌارو ورتو."]
+        ]
+      },
+      {
+        title: "Use of Verbs Intransitively — 10 Examples",
+        english: "A verb is used intransitively when it does not take a direct object. The sentence may be complete with the verb alone, or it may include an adverb or a prepositional phrase that adds information about time, place, manner or direction. For example, “The baby smiled” is complete; “The baby smiled happily” adds manner, but happily is not an object.\n\nDo not mistake every noun after a verb for a direct object. In “The guests arrived at the hotel,” hotel is the object of the preposition at, not a direct object of arrived. Many verbs can be used both transitively and intransitively depending on the sentence. Always examine the particular use.",
+        urdu: "فعل اس وقت لازم استعمال ہوتا ہے جب اس کے ساتھ direct object نہ ہو۔ فعل اکیلا بھی جملے کا مطلب مکمل کر سکتا ہے، یا اس کے ساتھ adverb یا prepositional phrase آ سکتا ہے جو وقت، جگہ، طریقہ یا سمت بتائے۔ مثال: “The baby smiled” یعنی بچہ مسکرایا۔ “The baby smiled happily” میں happily طریقہ بتاتا ہے، مفعول نہیں۔\n\nفعل کے بعد آنے والے ہر اسم کو direct object نہ سمجھیں۔ “The guests arrived at the hotel” میں hotel حرفِ جار at کا مفعول ہے، arrived کا direct object نہیں۔ بہت سے افعال جملے کے مطابق متعدی اور لازم دونوں طرح استعمال ہو سکتے ہیں۔ ہمیشہ جملے میں فعل کا مخصوص استعمال دیکھیں۔",
+        sindhi: "فعل ان وقت لازم استعمال ٿيندو آهي جڏهن ان سان direct object نه هجي. فعل اڪيلو به جملي جي معنيٰ مڪمل ڪري سگهي ٿو، يا ان سان adverb يا prepositional phrase اچي سگهي ٿو جيڪو وقت، جاءِ، طريقي يا رخ بابت وڌيڪ ڄاڻ ڏئي. مثال: “The baby smiled” يعني ٻار مرڪيو. “The baby smiled happily” ۾ happily طريقو ٻڌائي ٿو، مفعول نه آهي.\n\nفعل کان پوءِ ايندڙ هر اسم کي direct object نه سمجهو. “The guests arrived at the hotel” ۾ hotel حرفِ جر at جو مفعول آهي، arrived جو direct object نه. ڪيترائي فعل جملي جي حساب سان متعدي ۽ لازم ٻنهي قسمن ۾ استعمال ٿي سگهن ٿا. هميشه جملي ۾ فعل جو خاص استعمال ڏسو.",
+        examples: [
+          ["The little baby smiled.", "ننھا بچہ مسکرایا۔", "ننڍڙو ٻار مرڪيو."],
+          ["The old clock stopped suddenly.", "پرانی گھڑی اچانک رک گئی۔", "پراڻي گهڙي اوچتو بند ٿي وئي."],
+          ["The audience cheered loudly.", "سامعین نے زور سے خوشی کا اظہار کیا۔", "حاضرين وڏي آواز سان خوشيءَ جو اظهار ڪيو."],
+          ["My grandfather walks every evening.", "میرے دادا ہر شام چہل قدمی کرتے ہیں۔", "منهنجو ڏاڏو هر شام پنڌ ڪندو آهي."],
+          ["The sun sets behind the hills.", "سورج پہاڑیوں کے پیچھے غروب ہوتا ہے۔", "سج ٽڪرين جي پٺيان لهي ٿو."],
+          ["The students waited patiently.", "طلبہ نے صبر سے انتظار کیا۔", "شاگردن صبر سان انتظار ڪيو."],
+          ["The baby laughed happily.", "بچہ خوشی سے ہنسا۔", "ٻار خوشيءَ سان کليو."],
+          ["The leaves trembled in the wind.", "پتے ہوا میں کانپ رہے تھے۔", "پن هوا ۾ ڏڪي رهيا هئا."],
+          ["The guests departed after lunch.", "مہمان دوپہر کے کھانے کے بعد روانہ ہوئے۔", "مهمان منجهند جي مانيءَ کان پوءِ روانا ٿيا."],
+          ["The little bird flew away.", "چھوٹا پرندہ اڑ گیا۔", "ننڍڙو پکي اڏامي ويو."]
+        ]
+      }
+    ]
   },
   "adjectives": {
     overview: "An adjective is a word that describes or gives more information about a noun or pronoun. It can tell us about quality, size, age, colour, shape, origin or quantity. Adjectives are commonly used attributively (before a noun) or predicatively (after a linking verb).",
