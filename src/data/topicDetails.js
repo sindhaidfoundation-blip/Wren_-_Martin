@@ -2873,9 +2873,712 @@ export const topicDetails = {
     specialSections: [{"title":"Kinds and Forms of Adverbs — Detailed Guide","english":"An adverb is a word that modifies a verb, an adjective, another adverb, or sometimes a whole sentence. It answers questions such as how, when, where, how often, how far or to what degree. Examples: 'She spoke softly' (modifies spoke); 'very tall' (modifies tall); 'quite slowly' (modifies slowly); 'Fortunately, nobody was hurt' (comments on the whole sentence).","urdu":"Adverb (حال) ایسا لفظ ہے جو فعل، صفت، کسی دوسرے Adverb یا کبھی پورے جملے کی وضاحت کرتا ہے۔ یہ بتاتا ہے کہ کام کیسے، کب، کہاں، کتنی بار، کس حد تک یا کس شدت سے ہوا۔ مثال: 'She spoke softly' میں softly فعل spoke کی وضاحت کرتا ہے؛ 'very tall' میں very صفت tall کی شدت بتاتا ہے۔","sindhi":"Adverb (ظرف) اهڙو لفظ آهي جيڪو فعل، صفت، ٻئي Adverb يا ڪڏهن سڄي جملي جي وضاحت ڪري ٿو. اهو ٻڌائي ٿو ته ڪم ڪيئن، ڪڏهن، ڪٿي، ڪيترا ڀيرا يا ڪهڙي حد تائين ٿيو. مثال: 'She spoke softly' ۾ softly فعل spoke جي وضاحت ڪري ٿو؛ 'very tall' ۾ very صفت tall جي شدت ٻڌائي ٿو.","subsections":[{"title":"Kinds of Adverbs — قسم ۽ وضاحت","english":"Adverbs are commonly classified by the kind of information they add. The main school-grammar kinds are manner, place, time, frequency, degree, affirmation/negation, reason and interrogative/relative adverbs. Some grammar books group or name these categories differently.","urdu":"Adverbs کو اس معلومات کے مطابق مختلف اقسام میں تقسیم کیا جاتا ہے جو یہ جملے میں شامل کرتے ہیں۔ اہم اقسام manner، place، time، frequency، degree، affirmation/negation، reason اور interrogative/relative adverbs ہیں۔ مختلف گرامر کی کتابوں میں ان کے نام یا تقسیم میں معمولی فرق ہو سکتا ہے۔","sindhi":"Adverbs کي ان معلومات جي بنياد تي مختلف قسمن ۾ ورهايو ويندو آهي جيڪي اهي جملي ۾ شامل ڪن ٿا. اهم قسم manner، place، time، frequency، degree، affirmation/negation، reason ۽ interrogative/relative adverbs آهن. مختلف گرامر ڪتابن ۾ انهن جا نالا يا ورهاست ٿوري مختلف ٿي سگهي ٿي.","examples":[["Adverb of Manner — She answered politely.","اس نے شائستگی سے جواب دیا۔","هن ادب سان جواب ڏنو.","Tells how an action is done. Common examples: slowly, carefully, well, politely, easily."],["Adverb of Place — Please sit here.","براہِ کرم یہاں بیٹھیں۔","مهرباني ڪري هتي ويهو.","Tells where an action happens. Examples: here, there, outside, upstairs, everywhere."],["Adverb of Time — We will leave tomorrow.","ہم کل روانہ ہوں گے۔","اسين سڀاڻي روانا ٿينداسين.","Tells when an action happens. Examples: now, soon, yesterday, today, later."],["Adverb of Frequency — He often visits us.","وہ اکثر ہم سے ملنے آتا ہے۔","هو اڪثر اسان وٽ ايندو آهي.","Tells how often. Examples: always, usually, often, sometimes, rarely, never."],["Adverb of Degree — The tea is extremely hot.","چائے بہت زیادہ گرم ہے۔","چانهه تمام گهڻي گرم آهي.","Shows intensity or extent. Examples: very, too, quite, almost, enough, extremely."],["Adverb of Affirmation or Negation — She certainly knows the answer. / He did not agree.","وہ یقیناً جواب جانتی ہے۔ / وہ متفق نہیں ہوا۔","هوءَ يقيناً جواب ڄاڻي ٿي. / هن اتفاق نه ڪيو.","Confirms or denies a statement: certainly, surely, definitely; not, never."],["Adverb of Reason or Result — Therefore, we stayed at home.","لہٰذا ہم گھر پر رہے۔","تنهنڪري اسين گهر ۾ رهياسين.","Shows reason, consequence or result. Examples: therefore, hence, consequently; 'therefore' often links a conclusion."],["Interrogative Adverb — Where do you live?","آپ کہاں رہتے ہیں؟","توهان ڪٿي رهو ٿا؟","Used to ask questions: where, when, why, how."],["Relative Adverb — This is the house where I was born.","یہ وہ گھر ہے جہاں میں پیدا ہوا تھا۔","هي اهو گهر آهي جتي مان ڄائو هئس.","Introduces a clause and relates it to a noun: where, when, why."]]},{"title":"Forms of Adverbs — Formation and Comparison","english":"Many adverbs are formed from adjectives by adding -ly: quick → quickly, careful → carefully. Spelling changes include happy → happily (y becomes i), gentle → gently (drop e in many cases), and true → truly. Some adverbs have the same form as their adjectives: fast, hard, late, early, straight. Some are irregular: good → well; however, 'well' can also be an adjective meaning healthy. Adverbs of manner, place and time are generally not compared. Adverbs of degree are not usually compared either. Adverbs that describe gradable actions or qualities can have comparative and superlative forms: fast → faster → fastest; carefully → more carefully → most carefully; well → better → best; badly → worse → worst. Use more/most with many -ly adverbs. Do not use double comparison: 'more faster' is incorrect.","urdu":"بہت سے Adverbs صفت کے آخر میں -ly لگا کر بنتے ہیں: quick → quickly، careful → carefully۔ بعض الفاظ کی ہجے بدلتی ہے: happy → happily (y کی جگہ i)، gentle → gently، true → truly۔ کچھ الفاظ صفت اور Adverb دونوں صورتوں میں ایک جیسے رہتے ہیں، مثلاً fast، hard، late، early، straight۔ کچھ بے قاعدہ ہوتے ہیں: good → well۔ بعض Adverbs کے comparative اور superlative درجے بنتے ہیں: fast → faster → fastest؛ carefully → more carefully → most carefully؛ well → better → best؛ badly → worse → worst۔ بہت سے -ly والے Adverbs کے ساتھ more/most استعمال ہوتا ہے۔ دوہرا تقابل غلط ہے؛ 'more faster' درست نہیں۔","sindhi":"ڪيترائي Adverbs صفت جي پڇاڙيءَ ۾ -ly لڳائڻ سان ٺهن ٿا: quick → quickly، careful → carefully. ڪجهه لفظن جي هجي بدلجي ٿي: happy → happily (y جي جاءِ تي i)، gentle → gently، true → truly. ڪجهه لفظ صفت ۽ Adverb ٻنهي صورتن ۾ ساڳيا رهن ٿا، مثال fast، hard، late، early، straight. ڪجهه بيقاعده آهن: good → well. ڪجهه Adverbs جا comparative ۽ superlative درجا ٿين ٿا: fast → faster → fastest؛ carefully → more carefully → most carefully؛ well → better → best؛ badly → worse → worst. ڪيترن -ly وارن Adverbs سان more/most استعمال ٿيندو آهي. ٻٽو تقابلي روپ غلط آهي؛ 'more faster' درست ناهي.","examples":[["Adjective + -ly: careful → carefully; She drives carefully.","احتیاطی → احتیاط سے؛ وہ احتیاط سے گاڑی چلاتی ہے۔","careful → carefully؛ هوءَ احتياط سان گاڏي هلائي ٿي.","The -ly form commonly turns an adjective into an adverb of manner."],["Spelling change: happy → happily; The children played happily.","خوش → خوشی سے؛ بچوں نے خوشی سے کھیلا۔","happy → happily؛ ٻارن خوشيءَ سان کيڏيو.","When an adjective ends in consonant + y, y often changes to i before -ly."],["Same form: fast; He runs fast.","تیز؛ وہ تیز دوڑتا ہے۔","fast؛ هو تيز ڊوڙي ٿو.","Fast is both an adjective and an adverb; do not say 'fastly'."],["Irregular form: good → well; She sings well.","اچھا → اچھے طریقے سے؛ وہ اچھا گاتی ہے۔","good → well؛ هوءَ سٺو ڳائي ٿي.","Well is the adverb corresponding to the adjective good."],["Comparative: fast → faster; Ali runs faster than me.","تیز → زیادہ تیز؛ علی مجھ سے زیادہ تیز دوڑتا ہے۔","fast → faster؛ علي مون کان وڌيڪ تيز ڊوڙي ٿو.","Use the comparative form to compare two actions."],["Superlative: fast → fastest; Of all the runners, Sara runs fastest.","سب سے تیز؛ تمام دوڑنے والوں میں سارہ سب سے تیز دوڑتی ہے۔","fastest؛ سڀني ڊوڙندڙن مان سارا سڀ کان تيز ڊوڙي ٿي.","The superlative compares one with a whole group."],["More/most: carefully → more carefully → most carefully.","احتیاط سے → زیادہ احتیاط سے → سب سے زیادہ احتیاط سے۔","carefully → more carefully → most carefully.","Longer -ly adverbs usually take more and most."],["Irregular comparison: well → better → best; He works best in the morning.","اچھے طریقے سے → بہتر → سب سے بہتر؛ وہ صبح بہترین کام کرتا ہے۔","well → better → best؛ هو صبح جو سڀ کان بهتر ڪم ڪري ٿو.","Well has irregular comparative and superlative forms."],["Do not double-mark: 'She runs faster', not 'more faster'.","'She runs faster' درست ہے، 'more faster' غلط ہے۔","'She runs faster' صحيح آهي، 'more faster' غلط آهي.","Do not combine -er with more."],["Different meanings: hard = with effort; hardly = almost not. He works hard. / He hardly works.","hard کا مطلب محنت سے، hardly کا مطلب تقریباً نہیں۔","hard جو مطلب محنت سان، hardly جو مطلب لڳ ڀڳ نه آهي.","The -ly form can have a different meaning, not simply 'the adverb of hard'."]]},{"title":"Adverb Position and Common Errors","english":"Adverbs can appear in different positions depending on their type and the emphasis intended. Adverbs of frequency usually come before the main verb ('She often reads') but after the verb be ('She is often late'). Manner adverbs commonly come after the verb or its object ('He spoke softly'; 'She completed the task carefully'). Time and place adverbs often appear at the end, though they may be placed first for emphasis. Degree adverbs usually come before the adjective or adverb they modify ('very useful', 'quite slowly'). Avoid confusing adjectives and adverbs: 'She sings beautifully' (not beautiful); but after linking verbs such as look, feel, smell and taste, an adjective normally describes the subject: 'The soup tastes good.' Also distinguish 'hard' from 'hardly', 'late' from 'lately', and 'near' from 'nearly'.","urdu":"Adverb کی جگہ اس کی قسم اور جملے کے زور کے مطابق بدل سکتی ہے۔ Frequency کے Adverbs عام فعل سے پہلے آتے ہیں، جیسے 'She often reads'، لیکن فعل be کے بعد آتے ہیں، جیسے 'She is often late'۔ Manner کے Adverbs عموماً فعل یا مفعول کے بعد آتے ہیں۔ Time اور place کے Adverbs اکثر جملے کے آخر میں آتے ہیں۔ Degree کے Adverbs عموماً صفت یا دوسرے Adverb سے پہلے آتے ہیں۔ صفت اور Adverb میں فرق کریں: 'She sings beautifully' درست ہے؛ لیکن linking verb کے بعد عموماً صفت آتی ہے: 'The soup tastes good.' Hard/hardly، late/lately اور near/nearly کے معنی بھی الگ ہیں۔","sindhi":"Adverb جي جاءِ ان جي قسم ۽ جملي جي زور مطابق بدلجي سگهي ٿي. Frequency جا Adverbs عام فعل کان اڳ اچن ٿا، مثال 'She often reads'، پر فعل be کان پوءِ اچن ٿا، مثال 'She is often late'. Manner جا Adverbs عام طور فعل يا مفعول کان پوءِ اچن ٿا. Time ۽ place جا Adverbs اڪثر جملي جي آخر ۾ اچن ٿا. Degree جا Adverbs عام طور صفت يا ٻئي Adverb کان اڳ اچن ٿا. صفت ۽ Adverb ۾ فرق رکو: 'She sings beautifully' صحيح آهي؛ پر linking verb کان پوءِ عام طور صفت اچي ٿي: 'The soup tastes good.' Hard/hardly، late/lately ۽ near/nearly جا مطلب به مختلف آهن.","examples":[["She always arrives early.","وہ ہمیشہ جلد پہنچتی ہے۔","هوءَ هميشه سوير پهچي ٿي.","Frequency adverb always comes before the main verb arrives."],["He is never rude.","وہ کبھی بدتمیز نہیں ہوتا۔","هو ڪڏهن به بدتميزي نٿو ڪري.","With be, the frequency adverb usually follows the verb."],["The baby slept peacefully.","بچہ سکون سے سویا۔","ٻار سڪون سان ستو.","Manner adverb follows the verb."],["The soup tastes delicious.","سوپ مزیدار ذائقہ دیتا ہے۔","سوپ جو ذائقو مزيدار آهي.","A linking verb takes an adjective describing the subject."],["He works hard, but he hardly rests.","وہ سخت محنت کرتا ہے، لیکن تقریباً آرام نہیں کرتا۔","هو سخت محنت ڪري ٿو، پر لڳ ڀڳ آرام نٿو ڪري.","Hard means with effort; hardly means almost not."],{"title":"Formation of Adverbs — How Adverbs Are Formed (10 Examples)","english":"Adverbs are formed in several ways. The most common method is adding -ly to an adjective: quick → quickly. If an adjective ends in consonant + y, change y to i and add -ly: happy → happily. Many adjectives ending in -le drop the final e before -ly: gentle → gently; adjectives ending in -ic often take -ally: basic → basically. Some adverbs have the same form as their adjectives (fast, hard, late, early), while others are irregular (good → well). Remember that adding -ly can change the meaning: hard means with effort, whereas hardly means almost not. The following examples show the adjective, its adverb form, and the adverb used in a sentence.","urdu":"Adverbs کئی طریقوں سے بنتے ہیں۔ سب سے عام طریقہ صفت کے آخر میں -ly لگانا ہے: quick → quickly۔ اگر صفت consonant + y پر ختم ہو تو y کو i میں بدل کر -ly لگاتے ہیں: happy → happily۔ -le پر ختم ہونے والی کئی صفات میں آخری e گرا دیا جاتا ہے: gentle → gently؛ اور -ic پر ختم ہونے والی کئی صفات میں -ally آتا ہے: basic → basically۔ کچھ Adverbs کی شکل صفت جیسی ہی رہتی ہے، مثلاً fast، hard، late، early؛ جبکہ کچھ بے قاعدہ ہیں، مثلاً good → well۔ یاد رکھیں کہ -ly لگانے سے معنی بھی بدل سکتے ہیں: hard کا مطلب محنت سے، جبکہ hardly کا مطلب تقریباً نہیں ہے۔","sindhi":"Adverbs ڪيترن طريقن سان ٺهن ٿا. سڀ کان عام طريقو صفت جي پڇاڙيءَ ۾ -ly لڳائڻ آهي: quick → quickly. جيڪڏهن صفت consonant + y تي ختم ٿئي ته y کي i ۾ بدلائي -ly لڳائبو: happy → happily. -le تي ختم ٿيندڙ ڪيترين صفتن مان آخري e ڪڍبو آهي: gentle → gently؛ ۽ -ic تي ختم ٿيندڙ ڪيترن لفظن سان -ally لڳندو آهي: basic → basically. ڪجهه Adverbs جي صورت صفت جهڙي ئي هوندي آهي، مثال fast، hard، late، early؛ جڏهن ته ڪجهه بيقاعده آهن، مثال good → well. ياد رکو ته -ly لڳائڻ سان مطلب به بدلجي سگهي ٿو: hard جو مطلب محنت سان، جڏهن ته hardly جو مطلب لڳ ڀڳ نه آهي.","examples":[["quick → quickly: The horse ran quickly.","quick (تیز) → quickly (تیزی سے): گھوڑا تیزی سے دوڑا۔","quick → quickly: گهوڙو تيزيءَ سان ڊوڙيو.","Add -ly to most adjectives ending in -k or other ordinary consonants."],["careful → carefully: She handled the glass carefully.","careful → carefully: اس نے گلاس احتیاط سے پکڑا۔","careful → carefully: هن گلاس احتياط سان کنيو.","Add -ly to the adjective careful."],["happy → happily: The children played happily.","happy → happily: بچوں نے خوشی سے کھیلا۔","happy → happily: ٻارن خوشيءَ سان کيڏيو.","Change consonant + y to i and add -ly."],["easy → easily: He solved the puzzle easily.","easy → easily: اس نے پہیلی آسانی سے حل کی۔","easy → easily: هن ڳجهارت آسانيءَ سان حل ڪئي.","Change y to i before adding -ly."],["gentle → gently: Please close the door gently.","gentle → gently: براہِ کرم دروازہ نرمی سے بند کریں۔","gentle → gently: مهرباني ڪري دروازو آهستي بند ڪريو.","For many adjectives ending in -le, remove final e and add -y."],["true → truly: I truly appreciate your help.","true → truly: میں واقعی آپ کی مدد کی قدر کرتا ہوں۔","true → truly: مان واقعي تنهنجي مدد جي قدر ڪريان ٿو.","True becomes truly; it does not become 'truely'."],["basic → basically: The two plans are basically the same.","basic → basically: دونوں منصوبے بنیادی طور پر ایک جیسے ہیں۔","basic → basically: ٻئي منصوبا بنيادي طور ساڳيا آهن.","Many adjectives ending in -ic form adverbs with -ally."],["fast → fast: The athlete runs fast.","fast → fast: کھلاڑی تیز دوڑتا ہے۔","fast → fast: رانديگر تيز ڊوڙي ٿو.","Some adverbs have the same form as the adjective; 'fastly' is not standard."],["good → well: She speaks English well.","good → well: وہ اچھی انگریزی بولتی ہے۔","good → well: هوءَ سٺي انگريزي ڳالهائي ٿي.","Good is an adjective; well is its usual adverb form."],["hard → hard: They worked hard all day.","hard → hard: انہوں نے سارا دن سخت محنت کی۔","hard → hard: انهن سڄو ڏينهن سخت محنت ڪئي.","Hard is already an adverb; hardly has a different meaning ('almost not')."]]},{"title":"Comparison of Adverbs — Positive, Comparative and Superlative (10 Sets)","english":"Some adverbs can be compared to show the manner or degree of an action. The Positive Degree is the basic form and does not compare one action with another: 'Sara runs fast.' The Comparative Degree compares two actions or people; short adverbs often take -er, while many adverbs ending in -ly use more: 'Sara runs faster than Mina'; 'Ali speaks more clearly than Omar.' The Superlative Degree compares one action or person with all others in a group; short adverbs often take -est, while many -ly adverbs use most: 'Sara runs fastest of all'; 'Ali speaks most clearly.' Irregular forms include well → better → best, badly → worse → worst, and little → less → least. Use than with a comparative when naming the second item, and often use the with a superlative. The positive degree can also show equality with as ... as: 'He runs as fast as his brother.'","urdu":"کچھ Adverbs کے درجاتِ تقابل ہوتے ہیں جن سے کام کرنے کے انداز یا شدت کا موازنہ کیا جاتا ہے۔ Positive Degree بنیادی شکل ہے اور اس میں موازنہ نہیں ہوتا: 'Sara runs fast.' Comparative Degree دو افراد یا کاموں کا موازنہ کرتا ہے؛ چھوٹے Adverbs کے ساتھ عموماً -er اور بہت سے -ly والے Adverbs کے ساتھ more لگتا ہے: 'Sara runs faster than Mina'؛ 'Ali speaks more clearly than Omar.' Superlative Degree کسی ایک فرد یا کام کا گروہ کے تمام افراد سے موازنہ کرتا ہے؛ چھوٹے Adverbs کے ساتھ عموماً -est اور بہت سے -ly والے Adverbs کے ساتھ most آتا ہے۔ بے قاعدہ صورتیں: well → better → best، badly → worse → worst، little → less → least۔ Comparative کے ساتھ دوسرے فریق کا ذکر ہو تو than استعمال کریں، اور Superlative سے پہلے عموماً the آتا ہے۔ برابری کے لیے Positive Degree میں as ... as استعمال ہوتا ہے۔","sindhi":"ڪجهه Adverbs جا تقابلي درجا هوندا آهن، جن سان ڪم ڪرڻ جي طريقي يا شدت جو مقابلو ڪبو آهي. Positive Degree بنيادي صورت آهي ۽ ان ۾ مقابلو نه هوندو آهي: 'Sara runs fast.' Comparative Degree ٻن ماڻهن يا ڪمن جو مقابلو ڪري ٿو؛ ننڍن Adverbs سان عام طور -er ۽ ڪيترن -ly وارن Adverbs سان more لڳندو آهي: 'Sara runs faster than Mina'؛ 'Ali speaks more clearly than Omar.' Superlative Degree ڪنهن هڪ شخص يا ڪم جو گروهه جي سڀني سان مقابلو ڪري ٿو؛ ننڍن Adverbs سان عام طور -est ۽ ڪيترن -ly وارن سان most لڳندو آهي. بيقاعده صورتون: well → better → best، badly → worse → worst، little → less → least. Comparative سان ٻئي ڌر جو ذڪر هجي ته than استعمال ڪريو، ۽ Superlative کان اڳ اڪثر the ايندو آهي. برابري ڏيکارڻ لاءِ Positive Degree ۾ as ... as استعمال ٿيندو آهي.","examples":[["POSITIVE: Sara runs fast. | COMPARATIVE: Sara runs faster than Mina. | SUPERLATIVE: Sara runs the fastest of all.","مثبت: سارہ تیز دوڑتی ہے۔ | تقابلی: سارہ مینا سے زیادہ تیز دوڑتی ہے۔ | اعلیٰ: سارہ سب سے تیز دوڑتی ہے۔","Positive: سارا تيز ڊوڙي ٿي. | Comparative: سارا مينا کان وڌيڪ تيز ڊوڙي ٿي. | Superlative: سارا سڀني کان تيز ڊوڙي ٿي.","fast → faster → fastest. A short adverb takes -er and -est."],["POSITIVE: He works hard. | COMPARATIVE: He works harder than his brother. | SUPERLATIVE: He works the hardest in the family.","مثبت: وہ سخت محنت کرتا ہے۔ | تقابلی: وہ اپنے بھائی سے زیادہ محنت کرتا ہے۔ | اعلیٰ: وہ خاندان میں سب سے زیادہ محنت کرتا ہے۔","Positive: هو محنت ڪري ٿو. | Comparative: هو پنهنجي ڀاءُ کان وڌيڪ محنت ڪري ٿو. | Superlative: هو خاندان ۾ سڀ کان وڌيڪ محنت ڪري ٿو.","hard → harder → hardest."],["POSITIVE: Ayesha arrives early. | COMPARATIVE: Ayesha arrives earlier than Hina. | SUPERLATIVE: Ayesha arrives the earliest of all.","مثبت: عائشہ جلد پہنچتی ہے۔ | تقابلی: عائشہ حنا سے پہلے پہنچتی ہے۔ | اعلیٰ: عائشہ سب سے پہلے پہنچتی ہے۔","Positive: عائشه سوير پهچي ٿي. | Comparative: عائشه حنا کان اڳ پهچي ٿي. | Superlative: عائشه سڀني کان اڳ پهچي ٿي.","early → earlier → earliest. The y changes to i before -er and -est."],["POSITIVE: The train moved slowly. | COMPARATIVE: The train moved more slowly than the bus. | SUPERLATIVE: Of all the vehicles, the train moved the most slowly.","مثبت: ٹرین آہستہ چلی۔ | تقابلی: ٹرین بس سے زیادہ آہستہ چلی۔ | اعلیٰ: تمام گاڑیوں میں ٹرین سب سے آہستہ چلی۔","Positive: ريل آهستي هلي. | Comparative: ريل بس کان وڌيڪ آهستي هلي. | Superlative: سڀني گاڏين مان ريل سڀ کان آهستي هلي.","slowly → more slowly → most slowly. Most -ly adverbs use more and most."],["POSITIVE: She explains clearly. | COMPARATIVE: She explains more clearly than I do. | SUPERLATIVE: She explains the most clearly in the class.","مثبت: وہ واضح طور پر سمجھاتی ہے۔ | تقابلی: وہ مجھ سے زیادہ واضح طور پر سمجھاتی ہے۔ | اعلیٰ: وہ جماعت میں سب سے زیادہ واضح طور پر سمجھاتی ہے۔","Positive: هوءَ صاف نموني سمجهائي ٿي. | Comparative: هوءَ مون کان وڌيڪ صاف نموني سمجهائي ٿي. | Superlative: هوءَ ڪلاس ۾ سڀ کان صاف نموني سمجهائي ٿي.","clearly → more clearly → most clearly."],["POSITIVE: He speaks well. | COMPARATIVE: He speaks better than his friend. | SUPERLATIVE: He speaks the best of all the students.","مثبت: وہ اچھا بولتا ہے۔ | تقابلی: وہ اپنے دوست سے بہتر بولتا ہے۔ | اعلیٰ: تمام طلبہ میں وہ سب سے بہتر بولتا ہے۔","Positive: هو سٺو ڳالهائي ٿو. | Comparative: هو پنهنجي دوست کان بهتر ڳالهائي ٿو. | Superlative: سڀني شاگردن مان هو سڀ کان بهتر ڳالهائي ٿو.","Irregular forms: well → better → best."],["POSITIVE: The team played badly. | COMPARATIVE: The team played worse than yesterday. | SUPERLATIVE: The team played the worst in the tournament.","مثبت: ٹیم نے خراب کھیلا۔ | تقابلی: ٹیم نے کل سے زیادہ خراب کھیلا۔ | اعلیٰ: ٹیم نے ٹورنامنٹ میں سب سے خراب کھیلا۔","Positive: ٽيم خراب کيڏي. | Comparative: ٽيم ڪالهه کان وڌيڪ خراب کيڏي. | Superlative: ٽيم ٽورنامينٽ ۾ سڀ کان خراب کيڏي.","Irregular forms: badly → worse → worst."],["POSITIVE: Please come soon. | COMPARATIVE: Please come sooner next time. | SUPERLATIVE: Of all the guests, he came the soonest.","مثبت: براہِ کرم جلد آئیں۔ | تقابلی: اگلی بار اس سے بھی جلد آئیں۔ | اعلیٰ: تمام مہمانوں میں وہ سب سے پہلے آیا۔","Positive: مهرباني ڪري جلد اچو. | Comparative: ايندڙ ڀيري وڌيڪ جلد اچو. | Superlative: سڀني مهمانن مان هو سڀ کان اڳ آيو.","soon → sooner → soonest."],["POSITIVE: She travels far. | COMPARATIVE: She travels farther than I do. | SUPERLATIVE: She travels the farthest of us all.","مثبت: وہ دور سفر کرتی ہے۔ | تقابلی: وہ مجھ سے زیادہ دور سفر کرتی ہے۔ | اعلیٰ: ہم سب میں وہ سب سے دور سفر کرتی ہے۔","Positive: هوءَ پري سفر ڪري ٿي. | Comparative: هوءَ مون کان وڌيڪ پري سفر ڪري ٿي. | Superlative: اسان سڀني مان هوءَ سڀ کان پري سفر ڪري ٿي.","far → farther → farthest. Further/furthest are also used, especially for figurative or additional extent."],["POSITIVE: He visits us little. | COMPARATIVE: He visits us less often than before. | SUPERLATIVE: Of the three brothers, he visits us the least often.","مثبت: وہ ہم سے کم ملنے آتا ہے۔ | تقابلی: وہ پہلے سے بھی کم بار ملنے آتا ہے۔ | اعلیٰ: تینوں بھائیوں میں وہ سب سے کم بار ملنے آتا ہے۔","Positive: هو اسان وٽ ٿورو اچي ٿو. | Comparative: هو اڳ کان گهٽ ڀيرا اچي ٿو. | Superlative: ٽنهي ڀائرن مان هو سڀ کان گهٽ ڀيرا اچي ٿو.","little → less → least; with frequency, 'less often' and 'least often' are natural forms."]]}]}]},{"title":"Position of Adverbs — Detailed Explanation and Examples","english":"The position of an adverb is the place it occupies in a sentence. An adverb may appear at the beginning, in the middle or at the end. Its position depends on its type, the verb phrase and the emphasis intended. (1) Adverbs of frequency such as always, usually, often, sometimes, rarely and never generally come before the main verb: 'She often reads.' But they usually come after the verb be: 'She is often late.' With an auxiliary or modal, they normally come after the first auxiliary: 'He has never travelled abroad'; 'You should always speak politely.' (2) Adverbs of manner commonly come after the verb or after its object: 'The baby slept peacefully'; 'She completed the work carefully.' Do not normally separate a verb from its object by placing a manner adverb between them. (3) Adverbs of place and direction usually come after the verb or its object: 'The children are playing outside'; 'He went upstairs.' (4) Adverbs of time commonly come at the end, but can come at the beginning for emphasis: 'We will meet tomorrow'; 'Yesterday, I visited my uncle.' (5) Adverbs of degree usually come immediately before the adjective, adverb or word they modify: 'very beautiful', 'quite slowly', 'almost finished'. Enough usually comes after the adjective or adverb: 'old enough', 'quickly enough'. (6) Sentence adverbs such as fortunately, probably, perhaps and clearly may appear at the beginning or before the main verb, depending on meaning: 'Fortunately, nobody was hurt'; 'She will probably come.' (7) In questions, interrogative adverbs usually come at the beginning: 'Where do you live?' (8) When several adverbs occur together, a common neutral order is manner + place + time: 'She sang beautifully at the concert last night.' This is a useful tendency, not an unbreakable rule; clarity and emphasis can change the order. (9) In negative sentences, 'not' normally follows the first auxiliary: 'He has not finished.' The position of an adverb can change emphasis or meaning, so place it close to the word or idea it modifies.","urdu":"Adverb کی Position سے مراد جملے میں اس کی جگہ ہے۔ Adverb جملے کے شروع، درمیان یا آخر میں آ سکتا ہے۔ اس کی جگہ اس کی قسم، فعل کی ساخت اور مطلوبہ زور پر منحصر ہوتی ہے۔ (1) Frequency کے الفاظ مثلاً always، usually، often، sometimes، rarely اور never عام فعل سے پہلے آتے ہیں: 'She often reads.' لیکن فعل be کے بعد آتے ہیں: 'She is often late.' اگر معاون فعل یا modal موجود ہو تو عموماً پہلے معاون فعل کے بعد آتے ہیں: 'He has never travelled abroad'؛ 'You should always speak politely.' (2) Manner کے Adverbs عموماً فعل یا مفعول کے بعد آتے ہیں: 'The baby slept peacefully'؛ 'She completed the work carefully.' عام طور پر فعل اور اس کے مفعول کے درمیان manner adverb نہ رکھیں۔ (3) Place اور direction کے Adverbs عموماً فعل یا مفعول کے بعد آتے ہیں: 'The children are playing outside.' (4) Time کے Adverbs اکثر جملے کے آخر میں آتے ہیں، مگر زور دینے کے لیے شروع میں بھی آ سکتے ہیں: 'Yesterday, I visited my uncle.' (5) Degree کے Adverbs عموماً اس صفت یا Adverb سے فوراً پہلے آتے ہیں جس کی وضاحت کرتے ہیں: 'very beautiful'، 'quite slowly'۔ Enough عموماً صفت یا Adverb کے بعد آتا ہے: 'old enough'۔ (6) Fortunately، probably، perhaps جیسے sentence adverbs شروع میں یا فعل سے پہلے آ سکتے ہیں۔ (7) سوالیہ Adverbs عموماً سوال کے شروع میں آتے ہیں: 'Where do you live?' (8) اگر کئی Adverbs اکٹھے ہوں تو عام ترتیب manner + place + time ہوتی ہے: 'She sang beautifully at the concert last night.' یہ عمومی اصول ہے، سخت پابندی نہیں۔ (9) منفی جملے میں not عموماً پہلے معاون فعل کے بعد آتا ہے: 'He has not finished.' Adverb کو اس لفظ یا خیال کے قریب رکھیں جس کی وضاحت وہ کرتا ہے۔","sindhi":"Adverb جي Position مان مراد جملي ۾ ان جي جاءِ آهي. Adverb جملي جي شروع، وچ يا آخر ۾ اچي سگهي ٿو. ان جي جاءِ ان جي قسم، فعل جي بناوت ۽ زور ڏيڻ جي مقصد تي دارومدار رکي ٿي. (1) Frequency جا لفظ جهڙوڪ always، usually، often، sometimes، rarely ۽ never عام فعل کان اڳ اچن ٿا: 'She often reads.' پر فعل be کان پوءِ اچن ٿا: 'She is often late.' جيڪڏهن auxiliary يا modal هجي ته اهي عام طور پهرين auxiliary کان پوءِ اچن ٿا: 'He has never travelled abroad'؛ 'You should always speak politely.' (2) Manner جا Adverbs عام طور فعل يا مفعول کان پوءِ اچن ٿا: 'The baby slept peacefully'؛ 'She completed the work carefully.' عام طور فعل ۽ ان جي مفعول جي وچ ۾ manner adverb نه رکو. (3) Place ۽ direction جا Adverbs اڪثر فعل يا مفعول کان پوءِ اچن ٿا: 'The children are playing outside.' (4) Time جا Adverbs گهڻو ڪري جملي جي آخر ۾ اچن ٿا، پر زور ڏيڻ لاءِ شروع ۾ به اچي سگهن ٿا: 'Yesterday, I visited my uncle.' (5) Degree جا Adverbs عام طور ان صفت يا Adverb کان فوراً اڳ اچن ٿا جنهن جي وضاحت ڪن ٿا: 'very beautiful'، 'quite slowly'. Enough عام طور صفت يا Adverb کان پوءِ اچي ٿو: 'old enough'. (6) Fortunately، probably، perhaps جهڙا sentence adverbs جملي جي شروع ۾ يا فعل کان اڳ اچي سگهن ٿا. (7) سواليا Adverbs عام طور سوال جي شروع ۾ اچن ٿا: 'Where do you live?' (8) جڏهن ڪيترائي Adverbs گڏ اچن ته عام ترتيب manner + place + time هوندي آهي: 'She sang beautifully at the concert last night.' هي عام رواج آهي، سخت قانون نه آهي. (9) ناڪاري جملي ۾ not عام طور پهرين auxiliary کان پوءِ اچي ٿو: 'He has not finished.' Adverb کي ان لفظ يا خيال جي ويجهو رکو جنهن جي وضاحت اهو ڪري ٿو.","examples":[["Frequency before a main verb: She always drinks tea in the morning.","عام فعل سے پہلے: وہ صبح ہمیشہ چائے پیتی ہے۔","عام فعل کان اڳ: هوءَ صبح هميشه چانهه پيئي ٿي.","Always comes before the main verb drinks."],["Frequency after be: They are usually happy.","فعل be کے بعد: وہ عموماً خوش ہوتے ہیں۔","فعل be کان پوءِ: اهي عام طور خوش هوندا آهن.","Usually follows the verb are."],["After the first auxiliary: I have never seen snow.","پہلے معاون فعل کے بعد: میں نے کبھی برف نہیں دیکھی۔","پهرين auxiliary کان پوءِ: مون ڪڏهن به برف نه ڏٺي آهي.","Never comes after have, the first auxiliary."],["Manner after the verb: The child laughed loudly.","فعل کے بعد: بچہ زور سے ہنسا۔","فعل کان پوءِ: ٻار زور سان کليو.","Loudly tells how the child laughed."],["Manner after the object: She completed her homework carefully.","مفعول کے بعد: اس نے اپنا ہوم ورک احتیاط سے مکمل کیا۔","مفعول کان پوءِ: هن پنهنجو هوم ورڪ احتياط سان مڪمل ڪيو.","Carefully follows the object her homework."],["Place at the end: The boys are playing outside.","جگہ کا Adverb آخر میں: لڑکے باہر کھیل رہے ہیں۔","جاءِ وارو Adverb آخر ۾: ڇوڪرا ٻاهر کيڏي رهيا آهن.","Outside tells where they are playing."],["Time at the beginning: Yesterday, we visited the museum.","وقت کا Adverb شروع میں: کل ہم نے عجائب گھر دیکھا۔","وقت وارو Adverb شروع ۾: ڪالهه اسان عجائب گھر گهميو.","Yesterday is placed first to set the time and give emphasis."],["Degree before an adjective: The room is extremely cold.","صفت سے پہلے: کمرہ انتہائی ٹھنڈا ہے۔","صفت کان اڳ: ڪمرو تمام گهڻو ٿڌو آهي.","Extremely modifies the adjective cold."],["Enough after an adjective: The water is warm enough.","صفت کے بعد enough: پانی کافی گرم ہے۔","صفت کان پوءِ enough: پاڻي ڪافي گرم آهي.","Enough follows the adjective warm."],["Manner + place + time: She sang beautifully at the hall last night.","ترتیب: اس نے کل رات ہال میں خوبصورت انداز سے گایا۔","ترتيب: هن گذريل رات هال ۾ سهڻي نموني ڳايو.","A common order is manner (beautifully) + place (at the hall) + time (last night)."]]}]
   },
   "conjunctions": {
-    overview: "Conjunctions connect words, phrases or clauses. Coordinating conjunctions join equal units, while subordinating conjunctions introduce dependent clauses.",
-    watchFor: "Keep the structures balanced when using pairs such as either...or and neither...nor. Avoid joining two complete sentences with only a comma.",
-    examples: ["I wanted tea, but she chose coffee.", "We stayed inside because it was raining."]
+    overview: "Conjunctions connect words, phrases and clauses. They include coordinating and subordinating conjunctions; correlative conjunctions work in pairs, while compound conjunctions contain multiple words. They express addition, contrast, choice, inference, time, reason, purpose, result, condition, concession and comparison.",
+    watchFor: "Keep correlative pairs parallel (both…and, either…or). Use a comma after an introductory dependent clause. Do not normally use although and but together. In modern grammar, therefore and consequently are usually conjunctive adverbs, although traditional grammar groups them as illative connectors.",
+    examples: ["Both Ali and Sara attended the class.", "Although it was raining, we continued playing.", "If you practise daily, you will improve.", "She spoke slowly so that everyone could understand."],
+    specialSectionsTitle: "Conjunctions — Complete Detailed Guide",
+    specialSections: [
+    {
+        "title": "Conjunctions: Definition and Function",
+        "english": "A conjunction is a word or group of words that joins words, phrases, clauses or sentences. It shows the logical relationship between connected ideas, such as addition, contrast, choice, time, reason, purpose, result or condition. Urdu: حرفِ عطف الفاظ، فقروں اور جملوں کو ملاتا اور ان کے درمیان تعلق ظاہر کرتا ہے۔ Sindhi: حرفِ عطف لفظن، فقرن ۽ جملن کي ملائي انهن جو لاڳاپو ظاهر ڪري ٿو.",
+        "urdu": "اردو وضاحت: حرفِ عطف الفاظ، فقروں اور جملوں کو ملاتا اور ان کے درمیان تعلق ظاہر کرتا ہے۔",
+        "sindhi": "سنڌي وضاحت: حرفِ عطف لفظن، فقرن ۽ جملن کي ملائي انهن جو لاڳاپو ظاهر ڪري ٿو.",
+        "subsections": [
+            {
+                "title": "Conjunctions: Definition and Function — Examples and Explanation",
+                "english": "A conjunction is a word or group of words that joins words, phrases, clauses or sentences. It shows the logical relationship between connected ideas, such as addition, contrast, choice, time, reason, purpose, result or condition.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "Ali and Ahmed are classmates.",
+                        "علی اور احمد ہم جماعت ہیں۔",
+                        "علي ۽ احمد هم جماعت آهن۔",
+                        "And joins two nouns."
+                    ],
+                    [
+                        "She is tired but happy.",
+                        "وہ تھکی ہوئی ہے لیکن خوش ہے۔",
+                        "هوءَ ٿڪل آهي پر خوش آهي۔",
+                        "But joins contrasting descriptions."
+                    ],
+                    [
+                        "We stayed home because it was raining.",
+                        "ہم گھر رہے کیونکہ بارش ہو رہی تھی۔",
+                        "اسان گهر رهياسين، ڇاڪاڻ⁠تہ مينهن پئي پيو.",
+                        "Because introduces a reason."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Correlative Conjunctions",
+        "english": "Correlative conjunctions are paired conjunctions whose two parts work together to connect equal grammatical elements. Common pairs are both…and, either…or, neither…nor, not only…but also, whether…or, as…as, rather…than and no sooner…than. Keep the structures after each part grammatically parallel. Urdu: یہ حروفِ عطف جوڑوں میں کام کرتے ہیں۔ Sindhi: اهي حرفِ عطف جوڙن جي صورت ۾ ڪم ڪن ٿا.",
+        "urdu": "اردو وضاحت: یہ حروفِ عطف جوڑوں میں کام کرتے ہیں۔",
+        "sindhi": "سنڌي وضاحت: اهي حرفِ عطف جوڙن جي صورت ۾ ڪم ڪن ٿا.",
+        "subsections": [
+            {
+                "title": "Correlative Conjunctions — Examples and Explanation",
+                "english": "Correlative conjunctions are paired conjunctions whose two parts work together to connect equal grammatical elements. Common pairs are both…and, either…or, neither…nor, not only…but also, whether…or, as…as, rather…than and no sooner…than. Keep the structures after each part grammatically parallel.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "Both Sana and Hira passed the test.",
+                        "ثنا اور حرا دونوں امتحان میں کامیاب ہوئیں۔",
+                        "ثنا ۽ حرا ٻئي امتحان ۾ ڪامياب ٿيون۔",
+                        "Both…and adds two subjects."
+                    ],
+                    [
+                        "You can either walk or take a bus.",
+                        "تم یا پیدل جا سکتے ہو یا بس لے سکتے ہو۔",
+                        "تون يا پنڌ وڃي سگهين ٿو يا بس وٺي سگهين ٿو۔",
+                        "Either…or offers alternatives."
+                    ],
+                    [
+                        "Neither the teacher nor the students were late.",
+                        "نہ استاد دیر سے آیا نہ طلبہ۔",
+                        "نه استاد دير سان آيو نه شاگرد.",
+                        "Neither…nor rejects both alternatives."
+                    ],
+                    [
+                        "She is not only clever but also hardworking.",
+                        "وہ نہ صرف ذہین بلکہ محنتی بھی ہے۔",
+                        "هوءَ نه رڳو ذهين پر محنتي به آهي.",
+                        "Not only…but also adds emphasis."
+                    ],
+                    [
+                        "I do not know whether he will come or stay.",
+                        "مجھے معلوم نہیں کہ وہ آئے گا یا ٹھہرے گا۔",
+                        "مون کي خبر ناهي ته هو ايندو يا رهندو.",
+                        "Whether…or expresses uncertainty between alternatives."
+                    ],
+                    [
+                        "This bag is as expensive as that one.",
+                        "یہ بیگ اتنا ہی مہنگا ہے جتنا وہ۔",
+                        "هي ٿيلهو اوترو ئي مهانگو آهي جيترو اهو.",
+                        "As…as compares equal degree."
+                    ],
+                    [
+                        "I would rather read than watch television.",
+                        "میں ٹی وی دیکھنے کے بجائے پڑھنا پسند کروں گا۔",
+                        "مان ٽي وي ڏسڻ بدران پڙهڻ پسند ڪندس۔",
+                        "Rather…than expresses preference."
+                    ],
+                    [
+                        "No sooner had we arrived than it began to rain.",
+                        "ہم ابھی پہنچے ہی تھے کہ بارش شروع ہو گئی۔",
+                        "اسان اڃا پهتاسين ئي مس ته مينهن شروع ٿي ويو۔",
+                        "No sooner…than links two almost immediate events."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Compound Conjunctions",
+        "english": "A compound conjunction is a multi-word expression that functions as one conjunction. It may be called a conjunctional phrase. Examples include as soon as, as long as, even though, so that, in order that, provided that, as if, now that, in case and on condition that. Such expressions introduce clauses and show time, condition, contrast, purpose or manner. Urdu: مرکب حرفِ عطف کئی الفاظ سے مل کر بنتا ہے مگر ایک رابطے کا کام کرتا ہے۔ Sindhi: مرڪب حرفِ عطف ڪيترن لفظن مان ٺهي هڪ ڳنڍيندڙ ڪم ڪري ٿو.",
+        "urdu": "اردو وضاحت: مرکب حرفِ عطف کئی الفاظ سے مل کر بنتا ہے مگر ایک رابطے کا کام کرتا ہے۔",
+        "sindhi": "سنڌي وضاحت: مرڪب حرفِ عطف ڪيترن لفظن مان ٺهي هڪ ڳنڍيندڙ ڪم ڪري ٿو.",
+        "subsections": [
+            {
+                "title": "Compound Conjunctions — Examples and Explanation",
+                "english": "A compound conjunction is a multi-word expression that functions as one conjunction. It may be called a conjunctional phrase. Examples include as soon as, as long as, even though, so that, in order that, provided that, as if, now that, in case and on condition that. Such expressions introduce clauses and show time, condition, contrast, purpose or manner.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "As soon as the bell rang, the students left.",
+                        "جیسے ہی گھنٹی بجی، طلبہ چلے گئے۔",
+                        "جيئن ئي گهنٽي وڳي، شاگرد هليا ويا۔",
+                        "As soon as introduces an immediate time sequence."
+                    ],
+                    [
+                        "You may stay as long as you remain quiet.",
+                        "تم رہ سکتے ہو بشرطیکہ خاموش رہو۔",
+                        "تون رهي سگهين ٿو، جيستائين خاموش رهين۔",
+                        "As long as expresses a condition."
+                    ],
+                    [
+                        "Even though he was tired, he finished the work.",
+                        "اگرچہ وہ تھکا ہوا تھا، اس نے کام مکمل کیا۔",
+                        "جيتوڻيڪ هو ٿڪل هو، هن ڪم پورو ڪيو۔",
+                        "Even though expresses concession."
+                    ],
+                    [
+                        "She spoke slowly so that everyone could understand.",
+                        "اس نے آہستہ بات کی تاکہ سب سمجھ سکیں۔",
+                        "هن آهستي ڳالهايو ته جيئن سڀ سمجهي سگهن۔",
+                        "So that introduces purpose."
+                    ],
+                    [
+                        "Take an umbrella in case it rains.",
+                        "چھتری لے لو، کہیں بارش نہ ہو جائے۔",
+                        "ڇٽي کڻي وڃ، متان مينهن پوي۔",
+                        "In case introduces a precaution."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Classes of Conjunctions: Overview",
+        "english": "Conjunctions are commonly classified by grammatical function as coordinating or subordinating. Coordinating conjunctions join equal grammatical units. Traditional grammar divides their meanings into cumulative/copulative (addition), adversative (contrast), disjunctive/alternative (choice) and illative (inference or consequence). Subordinating conjunctions introduce dependent clauses, including clauses of time, cause, purpose, result, condition, concession and comparison. Correlative and compound describe the form or pattern, not a separate clause relationship. Urdu: بنیادی اقسام coordinating اور subordinating ہیں۔ Sindhi: بنيادي قسمون coordinating ۽ subordinating آهن.",
+        "urdu": "اردو وضاحت: بنیادی اقسام coordinating اور subordinating ہیں۔",
+        "sindhi": "سنڌي وضاحت: بنيادي قسمون coordinating ۽ subordinating آهن.",
+        "subsections": [
+            {
+                "title": "Classes of Conjunctions: Overview — Examples and Explanation",
+                "english": "Conjunctions are commonly classified by grammatical function as coordinating or subordinating. Coordinating conjunctions join equal grammatical units. Traditional grammar divides their meanings into cumulative/copulative (addition), adversative (contrast), disjunctive/alternative (choice) and illative (inference or consequence). Subordinating conjunctions introduce dependent clauses, including clauses of time, cause, purpose, result, condition, concession and comparison. Correlative and compound describe the form or pattern, not a separate clause relationship.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "Mina sang and Omar danced.",
+                        "مینا نے گایا اور عمر نے رقص کیا۔",
+                        "مينا ڳايو ۽ عمر نچيو۔",
+                        "And coordinates two equal clauses."
+                    ],
+                    [
+                        "We left when the meeting ended.",
+                        "جب اجلاس ختم ہوا تو ہم چلے گئے۔",
+                        "جڏهن گڏجاڻي ختم ٿي ته اسان هليا وياسين۔",
+                        "When introduces a dependent time clause."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Co-ordinating Conjunctions",
+        "english": "A coordinating conjunction joins words, phrases or clauses of equal grammatical rank. The common English coordinating conjunctions are for, and, nor, but, or, yet and so (FANBOYS). And adds; but and yet contrast; or offers a choice; nor adds a negative alternative; for gives a reason in a formal style; and so introduces a result. When it joins two independent clauses, a comma is normally used before it. Urdu: یہ برابر درجے کے الفاظ یا جملوں کو ملاتا ہے۔ Sindhi: اهو برابر درجي وارن لفظن يا جملن کي ملائي ٿو.",
+        "urdu": "اردو وضاحت: یہ برابر درجے کے الفاظ یا جملوں کو ملاتا ہے۔",
+        "sindhi": "سنڌي وضاحت: اهو برابر درجي وارن لفظن يا جملن کي ملائي ٿو.",
+        "subsections": [
+            {
+                "title": "Co-ordinating Conjunctions — Examples and Explanation",
+                "english": "A coordinating conjunction joins words, phrases or clauses of equal grammatical rank. The common English coordinating conjunctions are for, and, nor, but, or, yet and so (FANBOYS). And adds; but and yet contrast; or offers a choice; nor adds a negative alternative; for gives a reason in a formal style; and so introduces a result. When it joins two independent clauses, a comma is normally used before it.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "I bought apples and oranges.",
+                        "میں نے سیب اور مالٹے خریدے۔",
+                        "مون صوف ۽ نارنگيون خريد ڪيون۔",
+                        "And adds information."
+                    ],
+                    [
+                        "He is poor but honest.",
+                        "وہ غریب ہے لیکن ایماندار ہے۔",
+                        "هو غريب آهي پر ايماندار آهي۔",
+                        "But expresses contrast."
+                    ],
+                    [
+                        "Would you like tea or coffee?",
+                        "کیا آپ چائے یا کافی پسند کریں گے؟",
+                        "ڇا توکي چانهه يا ڪافي کپي؟",
+                        "Or presents a choice."
+                    ],
+                    [
+                        "She did not call, nor did she send a message.",
+                        "اس نے فون نہیں کیا، نہ پیغام بھیجا۔",
+                        "هن فون نه ڪيو، نه پيغام موڪليو۔",
+                        "Nor adds a negative alternative."
+                    ],
+                    [
+                        "I stayed indoors, for it was raining.",
+                        "میں اندر رہا کیونکہ بارش ہو رہی تھی۔",
+                        "مان اندر رهيس، ڇو ته مينهن پئي پيو۔",
+                        "For gives a reason."
+                    ],
+                    [
+                        "The road was blocked, so we took another route.",
+                        "راستہ بند تھا، اس لیے ہم نے دوسرا راستہ لیا۔",
+                        "رستو بند هو، تنهنڪري اسان ٻيو رستو ورتو۔",
+                        "So introduces a consequence."
+                    ],
+                    [
+                        "The task was difficult, yet she completed it.",
+                        "کام مشکل تھا، پھر بھی اس نے مکمل کیا۔",
+                        "ڪم ڏکيو هو، تنهن هوندي به هن پورو ڪيو۔",
+                        "Yet expresses unexpected contrast."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Cumulative or Copulative Conjunctions",
+        "english": "Cumulative or copulative conjunctions add one fact, person, action or idea to another. Common examples include and, also, as well as, both…and and not only…but also. They express addition rather than opposition or choice. Urdu: یہ ایک بات میں دوسری بات کا اضافہ کرتے ہیں۔ Sindhi: اهي هڪ ڳالهه ۾ ٻي ڳالهه جو اضافو ڪن ٿا.",
+        "urdu": "اردو وضاحت: یہ ایک بات میں دوسری بات کا اضافہ کرتے ہیں۔",
+        "sindhi": "سنڌي وضاحت: اهي هڪ ڳالهه ۾ ٻي ڳالهه جو اضافو ڪن ٿا.",
+        "subsections": [
+            {
+                "title": "Cumulative or Copulative Conjunctions — Examples and Explanation",
+                "english": "Cumulative or copulative conjunctions add one fact, person, action or idea to another. Common examples include and, also, as well as, both…and and not only…but also. They express addition rather than opposition or choice.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "Hamza reads and writes every day.",
+                        "حمزہ ہر روز پڑھتا اور لکھتا ہے۔",
+                        "حمزو هر روز پڙهي ٿو ۽ لکي ٿو۔",
+                        "And adds a second activity."
+                    ],
+                    [
+                        "She is intelligent as well as hardworking.",
+                        "وہ ذہین ہونے کے ساتھ محنتی بھی ہے۔",
+                        "هوءَ ذهين هجڻ سان گڏ محنتي به آهي۔",
+                        "As well as adds another quality."
+                    ],
+                    [
+                        "Both the captain and the coach attended.",
+                        "کپتان اور کوچ دونوں شریک ہوئے۔",
+                        "ڪپتان ۽ ڪوچ ٻئي شريڪ ٿيا۔",
+                        "Both…and adds two participants."
+                    ],
+                    [
+                        "He not only apologised but also corrected his mistake.",
+                        "اس نے نہ صرف معافی مانگی بلکہ غلطی بھی درست کی۔",
+                        "هن نه رڳو معافي ورتي پر غلطي به درست ڪئي۔",
+                        "Not only…but also adds emphasis."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Adversative Conjunctions",
+        "english": "Adversative conjunctions connect ideas that contrast with, limit or qualify one another. Common examples include but, yet, still, whereas and while. They show that the second idea differs from what might be expected from the first. Urdu: یہ متضاد یا مختلف خیالات کو ملاتے ہیں۔ Sindhi: اهي ابتڙ يا مختلف خيالن کي ملائين ٿا.",
+        "urdu": "اردو وضاحت: یہ متضاد یا مختلف خیالات کو ملاتے ہیں۔",
+        "sindhi": "سنڌي وضاحت: اهي ابتڙ يا مختلف خيالن کي ملائين ٿا.",
+        "subsections": [
+            {
+                "title": "Adversative Conjunctions — Examples and Explanation",
+                "english": "Adversative conjunctions connect ideas that contrast with, limit or qualify one another. Common examples include but, yet, still, whereas and while. They show that the second idea differs from what might be expected from the first.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "He is young but very responsible.",
+                        "وہ جوان ہے لیکن بہت ذمہ دار ہے۔",
+                        "هو جوان آهي پر تمام ذميوار آهي۔",
+                        "But contrasts two qualities."
+                    ],
+                    [
+                        "It was raining, yet the match continued.",
+                        "بارش ہو رہی تھی، پھر بھی میچ جاری رہا۔",
+                        "مينهن پئي پيو، تنهن هوندي به ميچ جاري رهيو۔",
+                        "Yet introduces an unexpected contrast."
+                    ],
+                    [
+                        "She is quiet, whereas her brother is talkative.",
+                        "وہ خاموش ہے جبکہ اس کا بھائی باتونی ہے۔",
+                        "هوءَ ماٺيڻي آهي، جڏهن ته سندس ڀاءُ ڳالهائو آهي۔",
+                        "Whereas contrasts two people."
+                    ],
+                    [
+                        "While I like tea, my sister prefers coffee.",
+                        "اگرچہ مجھے چائے پسند ہے، میری بہن کافی پسند کرتی ہے۔",
+                        "جيتوڻيڪ مون کي چانهه وڻي ٿي، منهنجي ڀيڻ ڪافي پسند ڪري ٿي۔",
+                        "While contrasts preferences."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Disjunctive or Alternative Conjunctions",
+        "english": "Disjunctive or alternative conjunctions present choices or different possibilities. Common examples are or, either…or, neither…nor and otherwise. They offer alternatives, state options or warn about another possible outcome. Urdu: یہ انتخاب یا متبادل امکانات ظاہر کرتے ہیں۔ Sindhi: اهي چونڊ يا متبادل امڪان ظاهر ڪن ٿا.",
+        "urdu": "اردو وضاحت: یہ انتخاب یا متبادل امکانات ظاہر کرتے ہیں۔",
+        "sindhi": "سنڌي وضاحت: اهي چونڊ يا متبادل امڪان ظاهر ڪن ٿا.",
+        "subsections": [
+            {
+                "title": "Disjunctive or Alternative Conjunctions — Examples and Explanation",
+                "english": "Disjunctive or alternative conjunctions present choices or different possibilities. Common examples are or, either…or, neither…nor and otherwise. They offer alternatives, state options or warn about another possible outcome.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "You may sit here or wait outside.",
+                        "تم یہاں بیٹھ سکتے ہو یا باہر انتظار کر سکتے ہو۔",
+                        "تون هتي ويهي سگهين ٿو يا ٻاهر انتظار ڪري سگهين ٿو۔",
+                        "Or offers alternatives."
+                    ],
+                    [
+                        "Either study carefully or ask your teacher for help.",
+                        "یا غور سے پڑھو یا استاد سے مدد مانگو۔",
+                        "يا ڌيان سان پڙهه يا استاد کان مدد وٺ۔",
+                        "Either…or presents two choices."
+                    ],
+                    [
+                        "Neither rain nor wind stopped the players.",
+                        "نہ بارش نہ ہوا کھلاڑیوں کو روک سکی۔",
+                        "نه مينهن نه هوا رانديگرن کي روڪي سگهي۔",
+                        "Neither…nor rejects both alternatives."
+                    ],
+                    [
+                        "Hurry up, otherwise you will miss the bus.",
+                        "جلدی کرو، ورنہ بس چھوٹ جائے گی۔",
+                        "جلدي ڪر، نه ته بس نڪري ويندي۔",
+                        "Otherwise introduces an alternative outcome."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Illative Conjunctions",
+        "english": "Illative conjunctions introduce an inference, conclusion or consequence drawn from the preceding statement. Traditional examples include therefore, consequently, hence, so and for this reason. In modern grammar, therefore, consequently and hence are more precisely called conjunctive adverbs or linking adverbials; punctuation matters: “It was late; therefore, we left.” Urdu: یہ پہلے بیان سے اخذ ہونے والا نتیجہ ظاہر کرتے ہیں۔ Sindhi: اهي اڳ بيان ڪيل ڳالهه مان نڪرندڙ نتيجو ظاهر ڪن ٿا.",
+        "urdu": "اردو وضاحت: یہ پہلے بیان سے اخذ ہونے والا نتیجہ ظاہر کرتے ہیں۔",
+        "sindhi": "سنڌي وضاحت: اهي اڳ بيان ڪيل ڳالهه مان نڪرندڙ نتيجو ظاهر ڪن ٿا.",
+        "subsections": [
+            {
+                "title": "Illative Conjunctions — Examples and Explanation",
+                "english": "Illative conjunctions introduce an inference, conclusion or consequence drawn from the preceding statement. Traditional examples include therefore, consequently, hence, so and for this reason. In modern grammar, therefore, consequently and hence are more precisely called conjunctive adverbs or linking adverbials; punctuation matters: “It was late; therefore, we left.”",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "He was ill; therefore, he stayed at home.",
+                        "وہ بیمار تھا؛ اس لیے گھر پر رہا۔",
+                        "هو بيمار هو؛ تنهنڪري گهر ۾ رهيو۔",
+                        "Therefore introduces a conclusion."
+                    ],
+                    [
+                        "The roads were flooded; consequently, school was closed.",
+                        "سڑکوں پر پانی تھا؛ نتیجتاً اسکول بند رہا۔",
+                        "رستن تي پاڻي هو؛ نتيجي طور اسڪول بند رهيو۔",
+                        "Consequently shows the result."
+                    ],
+                    [
+                        "She worked hard; hence, she succeeded.",
+                        "اس نے محنت کی؛ لہٰذا کامیاب ہوئی۔",
+                        "هن محنت ڪئي؛ تنهنڪري ڪامياب ٿي۔",
+                        "Hence introduces an inference."
+                    ],
+                    [
+                        "The shop was closed; for this reason, we returned.",
+                        "دکان بند تھی؛ اسی وجہ سے ہم واپس آگئے۔",
+                        "دڪان بند هو؛ انهيءَ سبب اسان موٽي آياسين۔",
+                        "For this reason states a conclusion."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Subordinating Conjunctions: Time",
+        "english": "Time conjunctions show when an action happens, how long it continues or the order of events. Common examples are when, whenever, while, before, after, until, since, once and as soon as. In future time clauses, English usually uses a present tense rather than will: “When I arrive, I will call.” Urdu: یہ وقت اور واقعات کی ترتیب بتاتے ہیں۔ Sindhi: اهي وقت ۽ واقعن جي ترتيب ٻڌائين ٿا.",
+        "urdu": "اردو وضاحت: یہ وقت اور واقعات کی ترتیب بتاتے ہیں۔",
+        "sindhi": "سنڌي وضاحت: اهي وقت ۽ واقعن جي ترتيب ٻڌائين ٿا.",
+        "subsections": [
+            {
+                "title": "Subordinating Conjunctions: Time — Examples and Explanation",
+                "english": "Time conjunctions show when an action happens, how long it continues or the order of events. Common examples are when, whenever, while, before, after, until, since, once and as soon as. In future time clauses, English usually uses a present tense rather than will: “When I arrive, I will call.”",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "Call me when you reach home.",
+                        "جب گھر پہنچو تو مجھے فون کرنا۔",
+                        "جڏهن گهر پهچين ته مون کي فون ڪجانءِ۔",
+                        "When identifies the time."
+                    ],
+                    [
+                        "I listened to music while I was studying.",
+                        "میں پڑھتے ہوئے موسیقی سنتا رہا۔",
+                        "مان پڙهندي موسيقي ٻڌندو رهيس۔",
+                        "While shows simultaneous actions."
+                    ],
+                    [
+                        "Wash your hands before you eat.",
+                        "کھانے سے پہلے ہاتھ دھوؤ۔",
+                        "کائڻ کان اڳ هٿ ڌوءِ۔",
+                        "Before shows an earlier action."
+                    ],
+                    [
+                        "We walked after the rain stopped.",
+                        "بارش رکنے کے بعد ہم چلے۔",
+                        "مينهن بند ٿيڻ کان پوءِ اسان هلياسين۔",
+                        "After shows sequence."
+                    ],
+                    [
+                        "Wait here until I return.",
+                        "یہاں انتظار کرو جب تک میں واپس نہ آؤں۔",
+                        "هتي انتظار ڪر جيستائين مان واپس نه اچان۔",
+                        "Until gives an endpoint."
+                    ],
+                    [
+                        "As soon as the bus arrived, everyone got on.",
+                        "جیسے ہی بس پہنچی، سب سوار ہوگئے۔",
+                        "جيئن ئي بس پهتي، سڀ سوار ٿيا۔",
+                        "As soon as means immediately after."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Subordinating Conjunctions: Cause or Reason",
+        "english": "Cause or reason conjunctions explain why an action or situation happens. Common examples are because, since, as and now that. Because usually gives a direct reason; since and as often introduce a reason treated as known or less emphasised. Since can also refer to a starting point in time, so use context to identify its meaning. Urdu: یہ کسی کام کی وجہ بتاتے ہیں۔ Sindhi: اهي ڪنهن ڪم جو سبب ٻڌائين ٿا.",
+        "urdu": "اردو وضاحت: یہ کسی کام کی وجہ بتاتے ہیں۔",
+        "sindhi": "سنڌي وضاحت: اهي ڪنهن ڪم جو سبب ٻڌائين ٿا.",
+        "subsections": [
+            {
+                "title": "Subordinating Conjunctions: Cause or Reason — Examples and Explanation",
+                "english": "Cause or reason conjunctions explain why an action or situation happens. Common examples are because, since, as and now that. Because usually gives a direct reason; since and as often introduce a reason treated as known or less emphasised. Since can also refer to a starting point in time, so use context to identify its meaning.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "We stayed indoors because it was hot.",
+                        "ہم اندر رہے کیونکہ گرمی تھی۔",
+                        "اسان اندر رهياسين، ڇاڪاڻ⁠تہ گرمي هئي۔",
+                        "Because gives a direct reason."
+                    ],
+                    [
+                        "Since you are ready, we can begin.",
+                        "چونکہ تم تیار ہو، ہم شروع کر سکتے ہیں۔",
+                        "جيئن ته تون تيار آهين، اسان شروع ڪري سگهون ٿا۔",
+                        "Since introduces an understood reason."
+                    ],
+                    [
+                        "As the road was blocked, we took another way.",
+                        "چونکہ راستہ بند تھا، ہم نے دوسرا راستہ لیا۔",
+                        "جيئن ته رستو بند هو، اسان ٻيو رستو ورتو۔",
+                        "As gives the reason."
+                    ],
+                    [
+                        "Now that the guests have arrived, dinner can be served.",
+                        "اب جبکہ مہمان آگئے ہیں، کھانا پیش کیا جا سکتا ہے۔",
+                        "هاڻي جڏهن مهمان اچي ويا آهن، ماني پيش ڪري سگهجي ٿي۔",
+                        "Now that gives a reason based on a new situation."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Subordinating Conjunctions: Purpose",
+        "english": "Purpose conjunctions explain the aim or intention behind an action. The common conjunctions are so that and in order that, often followed by can, could, may or might. Compare these with the infinitive “to”: in “I went out to buy milk,” to is an infinitive marker, not a conjunction. Urdu: یہ بتاتے ہیں کہ کوئی کام کس مقصد کے لیے کیا گیا۔ Sindhi: اهي ٻڌائين ٿا ته ڪم ڪهڙي مقصد لاءِ ڪيو ويو.",
+        "urdu": "اردو وضاحت: یہ بتاتے ہیں کہ کوئی کام کس مقصد کے لیے کیا گیا۔",
+        "sindhi": "سنڌي وضاحت: اهي ٻڌائين ٿا ته ڪم ڪهڙي مقصد لاءِ ڪيو ويو.",
+        "subsections": [
+            {
+                "title": "Subordinating Conjunctions: Purpose — Examples and Explanation",
+                "english": "Purpose conjunctions explain the aim or intention behind an action. The common conjunctions are so that and in order that, often followed by can, could, may or might. Compare these with the infinitive “to”: in “I went out to buy milk,” to is an infinitive marker, not a conjunction.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "Speak clearly so that everyone can hear you.",
+                        "صاف بولیں تاکہ سب سن سکیں۔",
+                        "صاف ڳالهايو ته جيئن سڀ ٻڌي سگهن۔",
+                        "So that introduces purpose."
+                    ],
+                    [
+                        "She saved money so that she could buy a laptop.",
+                        "اس نے پیسے بچائے تاکہ لیپ ٹاپ خرید سکے۔",
+                        "هن پئسا بچايا ته جيئن ليپ ٽاپ خريد ڪري سگهي۔",
+                        "The clause gives the aim of saving."
+                    ],
+                    [
+                        "The rule was repeated in order that all might understand.",
+                        "قاعدہ دہرایا گیا تاکہ سب سمجھ سکیں۔",
+                        "قاعدو ورجايو ويو ته جيئن سڀ سمجهي سگهن۔",
+                        "In order that is a formal purpose conjunction."
+                    ],
+                    [
+                        "He left early so that he would not miss the train.",
+                        "وہ جلدی نکلا تاکہ ٹرین نہ چھوٹے۔",
+                        "هو جلدي نڪتو ته جيئن ريل نه وڃائي۔",
+                        "The purpose is to avoid missing the train."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Subordinating Conjunctions: Result or Consequence",
+        "english": "Result clauses show the outcome of an action or situation. The patterns so…that and such…that introduce consequences. So is followed by an adjective or adverb (so tired that; so quickly that), while such is followed by a noun phrase (such a difficult task that). So that may express purpose or result depending on context. Urdu: یہ کسی عمل یا حالت کا نتیجہ ظاہر کرتے ہیں۔ Sindhi: اهي ڪنهن ڪم يا حالت جو نتيجو ظاهر ڪن ٿا.",
+        "urdu": "اردو وضاحت: یہ کسی عمل یا حالت کا نتیجہ ظاہر کرتے ہیں۔",
+        "sindhi": "سنڌي وضاحت: اهي ڪنهن ڪم يا حالت جو نتيجو ظاهر ڪن ٿا.",
+        "subsections": [
+            {
+                "title": "Subordinating Conjunctions: Result or Consequence — Examples and Explanation",
+                "english": "Result clauses show the outcome of an action or situation. The patterns so…that and such…that introduce consequences. So is followed by an adjective or adverb (so tired that; so quickly that), while such is followed by a noun phrase (such a difficult task that). So that may express purpose or result depending on context.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "He was so tired that he fell asleep.",
+                        "وہ اتنا تھکا تھا کہ سو گیا۔",
+                        "هو ايترو ٿڪل هو جو سمهي پيو۔",
+                        "So + adjective + that gives a consequence."
+                    ],
+                    [
+                        "It was such a difficult question that nobody answered.",
+                        "یہ اتنا مشکل سوال تھا کہ کسی نے جواب نہ دیا۔",
+                        "اهو ايترو ڏکيو سوال هو جو ڪنهن جواب نه ڏنو۔",
+                        "Such + noun phrase + that introduces the result."
+                    ],
+                    [
+                        "The child spoke so softly that I could hardly hear.",
+                        "بچے نے اتنی آہستہ بات کی کہ میں مشکل سے سن سکا۔",
+                        "ٻار ايترو آهستي ڳالهايو جو مان مشڪل سان ٻڌي سگهيس۔",
+                        "So + adverb + that expresses consequence."
+                    ],
+                    [
+                        "There was such heavy rain that the streets flooded.",
+                        "اتنی تیز بارش ہوئی کہ سڑکیں بھر گئیں۔",
+                        "ايترو تيز مينهن پيو جو گهٽيون پاڻيءَ سان ڀرجي ويون۔",
+                        "Such + adjective + noun + that gives the result."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Subordinating Conjunctions: Condition",
+        "english": "Condition conjunctions introduce a requirement or situation on which another action depends. Common examples are if, unless, provided that, providing that, as long as and on condition that. Unless usually means “if…not.” In a standard future conditional, use present tense after if or unless: “If it rains, we will stay home,” not “If it will rain.” Urdu: یہ ایسی شرط بتاتے ہیں جس پر دوسرا کام منحصر ہو۔ Sindhi: اهي اهڙي شرط ٻڌائين ٿا، جنهن تي ٻيو ڪم دارومدار رکي ٿو.",
+        "urdu": "اردو وضاحت: یہ ایسی شرط بتاتے ہیں جس پر دوسرا کام منحصر ہو۔",
+        "sindhi": "سنڌي وضاحت: اهي اهڙي شرط ٻڌائين ٿا، جنهن تي ٻيو ڪم دارومدار رکي ٿو.",
+        "subsections": [
+            {
+                "title": "Subordinating Conjunctions: Condition — Examples and Explanation",
+                "english": "Condition conjunctions introduce a requirement or situation on which another action depends. Common examples are if, unless, provided that, providing that, as long as and on condition that. Unless usually means “if…not.” In a standard future conditional, use present tense after if or unless: “If it rains, we will stay home,” not “If it will rain.”",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "If you study regularly, you will improve.",
+                        "اگر تم باقاعدگی سے پڑھو گے تو بہتر ہو گے۔",
+                        "جيڪڏهن تون باقاعدگيءَ سان پڙهندين ته بهتر ٿيندين۔",
+                        "If introduces a possible condition."
+                    ],
+                    [
+                        "Unless you hurry, you will miss the bus.",
+                        "اگر جلدی نہ کی تو بس چھوٹ جائے گی۔",
+                        "جيڪڏهن جلدي نه ڪندين ته بس نڪري ويندي۔",
+                        "Unless means if you do not hurry."
+                    ],
+                    [
+                        "You may borrow it provided that you return it tomorrow.",
+                        "تم اسے لے سکتے ہو بشرطیکہ کل واپس کرو۔",
+                        "تون اهو وٺي سگهين ٿو بشرطيڪه سڀاڻي واپس ڪرين۔",
+                        "Provided that states a necessary condition."
+                    ],
+                    [
+                        "As long as you follow the rules, you may stay.",
+                        "جب تک قواعد کی پابندی کرو گے، رہ سکتے ہو۔",
+                        "جيستائين قاعدن تي عمل ڪندين، رهي سگهين ٿو۔",
+                        "As long as expresses a continuing condition."
+                    ],
+                    [
+                        "If I had more time, I would learn Arabic.",
+                        "اگر میرے پاس وقت ہوتا تو عربی سیکھتا۔",
+                        "جيڪڏهن مون وٽ وقت هجي ها ته عربي سکان ها۔",
+                        "If introduces an unreal or imagined condition."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Subordinating Conjunctions: Concession",
+        "english": "Concession conjunctions introduce a fact that contrasts with the main clause but does not prevent it from being true. Common examples are although, though, even though, while and even if. Although and even though refer to a real contrast; even if refers to a possible or hypothetical situation. Avoid using although and but together in the same clause structure. Urdu: یہ ایسی بات ظاہر کرتے ہیں جس کے باوجود مرکزی بات درست رہتی ہے۔ Sindhi: اهي اهڙي ڳالهه ظاهر ڪن ٿا، جنهن جي باوجود بنيادي ڳالهه درست رهي ٿي.",
+        "urdu": "اردو وضاحت: یہ ایسی بات ظاہر کرتے ہیں جس کے باوجود مرکزی بات درست رہتی ہے۔",
+        "sindhi": "سنڌي وضاحت: اهي اهڙي ڳالهه ظاهر ڪن ٿا، جنهن جي باوجود بنيادي ڳالهه درست رهي ٿي.",
+        "subsections": [
+            {
+                "title": "Subordinating Conjunctions: Concession — Examples and Explanation",
+                "english": "Concession conjunctions introduce a fact that contrasts with the main clause but does not prevent it from being true. Common examples are although, though, even though, while and even if. Although and even though refer to a real contrast; even if refers to a possible or hypothetical situation. Avoid using although and but together in the same clause structure.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "Although it was cold, the children played outside.",
+                        "اگرچہ سردی تھی، بچے باہر کھیلتے رہے۔",
+                        "جيتوڻيڪ ٿڌ هئي، ٻار ٻاهر کيڏندا رهيا۔",
+                        "Although introduces a contrast."
+                    ],
+                    [
+                        "Even though he was tired, he finished the report.",
+                        "اگرچہ وہ تھکا تھا، اس نے رپورٹ مکمل کی۔",
+                        "جيتوڻيڪ هو ٿڪل هو، هن رپورٽ مڪمل ڪئي۔",
+                        "Even though emphasises the unexpected contrast."
+                    ],
+                    [
+                        "Though the task was difficult, she did not give up.",
+                        "اگرچہ کام مشکل تھا، اس نے ہمت نہ ہاری۔",
+                        "جيتوڻيڪ ڪم ڏکيو هو، هن همت نه هاري۔",
+                        "Though introduces concession."
+                    ],
+                    [
+                        "Even if it rains, we will continue.",
+                        "چاہے بارش ہو، ہم جاری رکھیں گے۔",
+                        "مينهن پوي تڏهن به، اسان جاري رکنداسين۔",
+                        "Even if describes a possible condition that will not change the decision."
+                    ],
+                    [
+                        "While I respect his view, I disagree.",
+                        "اگرچہ میں اس کی رائے کا احترام کرتا ہوں، میں متفق نہیں ہوں۔",
+                        "جيتوڻيڪ مان سندس راءِ جو احترام ڪريان ٿو، پر متفق ناهيان۔",
+                        "While contrasts two viewpoints."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Subordinating Conjunctions: Comparison",
+        "english": "Comparison conjunctions connect ideas to compare degree, equality, similarity or apparent behaviour. Common examples are than, as…as, not as…as, as if and as though. Than follows a comparative form; as…as expresses equality; not as…as expresses a lower degree; and as if/as though introduce an apparent or imagined comparison. Urdu: یہ برابری، فرق یا انداز کا موازنہ کرتے ہیں۔ Sindhi: اهي برابري، فرق يا انداز جي ڀيٽ ڪن ٿا.",
+        "urdu": "اردو وضاحت: یہ برابری، فرق یا انداز کا موازنہ کرتے ہیں۔",
+        "sindhi": "سنڌي وضاحت: اهي برابري، فرق يا انداز جي ڀيٽ ڪن ٿا.",
+        "subsections": [
+            {
+                "title": "Subordinating Conjunctions: Comparison — Examples and Explanation",
+                "english": "Comparison conjunctions connect ideas to compare degree, equality, similarity or apparent behaviour. Common examples are than, as…as, not as…as, as if and as though. Than follows a comparative form; as…as expresses equality; not as…as expresses a lower degree; and as if/as though introduce an apparent or imagined comparison.",
+                "urdu": "ہر مثال کے ساتھ اردو ترجمہ اور استعمال کی وضاحت دی گئی ہے۔",
+                "sindhi": "هر مثال سان سنڌي ترجمو ۽ استعمال جي وضاحت ڏنل آهي.",
+                "examples": [
+                    [
+                        "My sister is taller than I am.",
+                        "میری بہن مجھ سے لمبی ہے۔",
+                        "منهنجي ڀيڻ مون کان ڊگهي آهي۔",
+                        "Than follows a comparative adjective."
+                    ],
+                    [
+                        "He runs as fast as his brother does.",
+                        "وہ اپنے بھائی جتنی تیزی سے دوڑتا ہے۔",
+                        "هو پنهنجي ڀاءُ جيترو تيزيءَ سان ڊوڙي ٿو۔",
+                        "As…as expresses equality."
+                    ],
+                    [
+                        "This exercise is not as difficult as the last one.",
+                        "یہ مشق پچھلی مشق جتنی مشکل نہیں۔",
+                        "هي مشق اڳئين مشق جيتري ڏکي ناهي۔",
+                        "Not as…as expresses a lower degree."
+                    ],
+                    [
+                        "She talks as if she knows the answer.",
+                        "وہ ایسے بات کرتی ہے جیسے اسے جواب معلوم ہو۔",
+                        "هوءَ اهڙيءَ طرح ڳالهائي ٿي ڄڻ کيس جواب معلوم هجي۔",
+                        "As if introduces an apparent comparison."
+                    ],
+                    [
+                        "He looked as though he had seen a ghost.",
+                        "وہ ایسا لگ رہا تھا جیسے بھوت دیکھا ہو۔",
+                        "هو اهڙو لڳو ڄڻ ڀوت ڏٺو هجيس۔",
+                        "As though introduces an imagined appearance."
+                    ]
+                ]
+            }
+        ]
+    }
+]
   },
   "interjections": {
     overview: "Interjections are short expressions that communicate reactions or feelings. They are often separate from the grammar of the main sentence.",
