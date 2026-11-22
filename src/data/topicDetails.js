@@ -114,6 +114,91 @@ export const topicDetails = {
         ]
       },
       {
+        title: "How Plurals Are Formed",
+        english: "Most English nouns form their plural by adding -s or -es, but some follow spelling changes and some have irregular forms. Learn these common rules.",
+        urdu: "انگریزی میں زیادہ تر اسموں کی جمع بنانے کے لیے -s یا -es لگاتے ہیں، لیکن بعض الفاظ کے آخر میں تبدیلی ہوتی ہے اور کچھ کی جمع بے قاعدہ ہوتی ہے۔ درج ذیل عام قواعد یاد رکھیں۔",
+        sindhi: "انگريزيءَ ۾ گهڻن اسمن جي جمع ٺاهڻ لاءِ -s يا -es لڳائبو آهي، پر ڪجهه لفظن جي پڇاڙي بدلبي آهي ۽ ڪجهه جا جمع جا بي قاعدا روپ هوندا آهن. هي عام قاعدا ياد رکو.",
+        rules: [
+          {
+            title: "1. Add -s to most nouns",
+            english: "For most nouns, simply add -s.",
+            urdu: "زیادہ تر اسموں کے آخر میں صرف -s لگائیں۔",
+            sindhi: "گهڻن اسمن جي آخر ۾ صرف -s لڳايو.",
+            examples: "book → books; pen → pens; apple → apples"
+          },
+          {
+            title: "2. Add -es to s, ss, sh, ch, x and z endings",
+            english: "When a noun ends in -s, -ss, -sh, -ch, -x or usually -z, add -es. This makes the plural easier to pronounce.",
+            urdu: "جن اسموں کے آخر میں s، ss، sh، ch، x یا عموماً z ہو، ان کے آخر میں -es لگائیں۔",
+            sindhi: "جن اسمن جي پڇاڙي s، ss، sh، ch، x يا عام طور z سان ٿئي، انهن جي آخر ۾ -es لڳايو.",
+            examples: "bus → buses; class → classes; dish → dishes; watch → watches; box → boxes"
+          },
+          {
+            title: "3. Consonant + y: change y to -ies",
+            english: "If a noun ends in a consonant + y, change y to i and add -es.",
+            urdu: "اگر اسم کے آخر میں consonant کے بعد y آئے تو y کو i میں بدل کر -es لگائیں۔",
+            sindhi: "جيڪڏهن اسم جي آخر ۾ consonant کان پوءِ y اچي ته y کي i ۾ بدلائي -es لڳايو.",
+            examples: "city → cities; baby → babies; story → stories"
+          },
+          {
+            title: "4. Vowel + y: add -s only",
+            english: "If a vowel comes before the final y, do not change y; simply add -s.",
+            urdu: "اگر y سے پہلے vowel (a, e, i, o, u) ہو تو y تبدیل نہ کریں، صرف -s لگائیں۔",
+            sindhi: "جيڪڏهن آخري y کان اڳ vowel (a, e, i, o, u) هجي ته y نه بدلايو، صرف -s لڳايو.",
+            examples: "boy → boys; key → keys; toy → toys"
+          },
+          {
+            title: "5. Many nouns ending in -f or -fe change to -ves",
+            english: "Some nouns ending in -f or -fe change that ending to -ves. However, not all do; some simply take -s.",
+            urdu: "کچھ اسموں کے آخر میں -f یا -fe کو بدل کر -ves کر دیتے ہیں، لیکن یہ قاعدہ ہر لفظ پر لاگو نہیں ہوتا؛ کچھ میں صرف -s لگتا ہے۔",
+            sindhi: "ڪجهه اسمن جي آخر وارو -f يا -fe بدلائي -ves ڪيو ويندو آهي، پر اهو قاعدو سڀني لفظن لاءِ ناهي؛ ڪجهه ۾ صرف -s لڳندو آهي.",
+            examples: "leaf → leaves; knife → knives; wife → wives; roof → roofs; chief → chiefs"
+          },
+          {
+            title: "6. Some nouns ending in -o take -es; others take -s",
+            english: "Some nouns ending in -o take -es, while many take only -s. Learn common spellings.",
+            urdu: "o پر ختم ہونے والے کچھ اسموں میں -es اور کچھ میں صرف -s لگتا ہے۔ عام الفاظ کی املا یاد کریں۔",
+            sindhi: "o تي ختم ٿيندڙ ڪجهه اسمن ۾ -es ۽ ڪجهه ۾ صرف -s لڳندو آهي. عام لفظن جا روپ ياد ڪريو.",
+            examples: "tomato → tomatoes; potato → potatoes; hero → heroes; photo → photos; piano → pianos"
+          },
+          {
+            title: "7. Some plurals are irregular",
+            english: "Some nouns do not form their plurals by adding -s or -es. Their forms change and must be memorised.",
+            urdu: "کچھ اسموں کی جمع -s یا -es لگا کر نہیں بنتی بلکہ لفظ کی شکل بدل جاتی ہے۔ ان صورتوں کو یاد کرنا ضروری ہے۔",
+            sindhi: "ڪجهه اسمن جي جمع -s يا -es لڳائڻ سان نٿي ٺهي، پر لفظ جي صورت بدلجي وڃي ٿي. اهي صورتون ياد ڪرڻ گهرجن.",
+            examples: "man → men; woman → women; child → children; tooth → teeth; foot → feet"
+          },
+          {
+            title: "8. Some nouns have the same singular and plural form",
+            english: "A few nouns have the same form in both singular and plural. The sentence tells us whether one or more are meant.",
+            urdu: "کچھ اسموں کی واحد اور جمع کی شکل ایک جیسی رہتی ہے۔ جملے سے معلوم ہوتا ہے کہ ایک مراد ہے یا ایک سے زیادہ۔",
+            sindhi: "ڪجهه اسمن جي واحد ۽ جمع جي صورت ساڳي رهندي آهي. جملي مان خبر پوندي آهي ته هڪ مراد آهي يا هڪ کان وڌيڪ.",
+            examples: "one sheep → two sheep; one deer → five deer; one fish → ten fish (often)"
+          },
+          {
+            title: "9. Compound nouns",
+            english: "In many compound nouns, the main word takes the plural ending. Some compounds have special plural forms.",
+            urdu: "مرکب اسموں میں عموماً اصل یا اہم لفظ کو جمع بنایا جاتا ہے۔ کچھ مرکب الفاظ کی جمع خاص ہوتی ہے۔",
+            sindhi: "مرڪب اسمن ۾ عام طور مکيه لفظ کي جمع بڻائبو آهي. ڪجهه مرڪب لفظن جا جمع خاص هوندا آهن.",
+            examples: "mother-in-law → mothers-in-law; passer-by → passers-by; toothbrush → toothbrushes"
+          },
+          {
+            title: "10. Nouns from foreign languages",
+            english: "Some words borrowed from other languages keep traditional plural forms, though regular English plurals are also accepted for some words.",
+            urdu: "دوسری زبانوں سے آئے ہوئے کچھ الفاظ اپنی روایتی جمع برقرار رکھتے ہیں، اگرچہ بعض کے لیے عام انگریزی جمع بھی درست ہے۔",
+            sindhi: "ٻين ٻولين مان آيل ڪجهه لفظ پنهنجا روايتي جمع روپ برقرار رکن ٿا، جيتوڻيڪ ڪجهه لفظن لاءِ عام انگريزي جمع به قبول آهي.",
+            examples: "cactus → cacti / cactuses; fungus → fungi / funguses; criterion → criteria; phenomenon → phenomena"
+          }
+        ],
+        examples: [
+          ["book → books", "کتاب → کتابیں", "ڪتاب → ڪتاب"],
+          ["bus → buses", "بس → بسیں", "بس → بسون"],
+          ["city → cities", "شہر → شہر", "شهر → شهر"],
+          ["leaf → leaves", "پتا → پتے", "پن → پن"],
+          ["child → children", "بچہ → بچے", "ٻار → ٻار"]
+        ]
+      },
+      {
         title: "Material Noun",
         english: "A material noun names a substance or material from which things are made.",
         urdu: "Material noun کسی ایسے مادّے یا مواد کا نام ہے جس سے چیزیں بنائی جاتی ہیں۔",
