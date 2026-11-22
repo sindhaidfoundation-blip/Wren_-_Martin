@@ -13165,7 +13165,649 @@ topicDetails["past-tense"] = {
             "The -ise/-ize choice depends on the British style guide; both are found in British usage."
           ]
         ]
-      }
+      },
+    {
+      "title": "Sentence Structures and the Ten Main Verb Patterns",
+      "english": "A sentence pattern is the basic arrangement of the subject, verb and the words or phrases required to complete the verb's meaning. The symbols used here are S = Subject, V = Verb, O = Object, IO = Indirect Object, DO = Direct Object, SC = Subject Complement, OC = Object Complement and A = Adverbial. A complement completes or identifies the meaning of a subject or object; an adverbial adds information such as place, time, manner or direction. The ten patterns below are a practical school-grammar framework. Some verbs allow more than one pattern, and the correct pattern depends on the verb's meaning and the construction used.",
+      "urdu": "Sentence Pattern جملے میں Subject، Verb اور ان الفاظ یا فقروں کی بنیادی ترتیب ہے جو فعل کا مفہوم مکمل کرتے ہیں۔ علامات: S = Subject (فاعل)، V = Verb (فعل)، O = Object (مفعول)، IO = Indirect Object (بالواسطہ مفعول)، DO = Direct Object (براہِ راست مفعول)، SC = Subject Complement (فاعل کی تکمیل کرنے والا جزو)، OC = Object Complement (مفعول کی تکمیل کرنے والا جزو)، A = Adverbial (وقت، جگہ، طریقہ یا سمت بتانے والا جزو)۔ Complement معنی مکمل یا واضح کرتا ہے، جبکہ Adverbial اضافی معلومات دیتا ہے۔ یہ دس نمونے تدریسی مقصد کے لیے ہیں؛ بعض افعال مختلف معنوں میں ایک سے زیادہ ساختوں میں استعمال ہوتے ہیں۔",
+      "sindhi": "Sentence Pattern جملي ۾ Subject، Verb ۽ انهن لفظن يا فقرن جي بنيادي ترتيب آهي جيڪي فعل جو مطلب مڪمل ڪن ٿا. نشانيون: S = Subject (فاعل)، V = Verb (فعل)، O = Object (مفعول)، IO = Indirect Object (اڻ سڌو مفعول)، DO = Direct Object (سڌو مفعول)، SC = Subject Complement (فاعل جي وضاحت ڪندڙ جزو)، OC = Object Complement (مفعول جي وضاحت ڪندڙ جزو)، A = Adverbial (وقت، هنڌ، طريقي يا رخ بابت ڄاڻ ڏيندڙ جزو). Complement مطلب مڪمل يا واضح ڪري ٿو، جڏهن ته Adverbial اضافي ڄاڻ ڏئي ٿو. هي ڏهه نمونا تدريسي مقصد لاءِ آهن؛ ڪي فعل مختلف معنائن ۾ هڪ کان وڌيڪ نمونن ۾ اچي سگهن ٿا۔",
+      "subsections": [
+        {
+          "title": "Sentence Structure — Symbols and Core Elements",
+          "english": "Identify the finite verb first, then find the subject and ask what elements the verb requires. A subject is not always the doer: in The window broke, the subject receives the change of state. Objects are selected by transitive verbs. Linking verbs take subject complements, not direct objects. Adverbials are often movable or optional, although some verbs require a place or direction phrase.",
+          "urdu": "سب سے پہلے Finite Verb تلاش کریں، پھر Subject اور وہ اجزا معلوم کریں جن کی فعل کو ضرورت ہے۔ Subject ہمیشہ کام کرنے والا نہیں ہوتا؛ The window broke میں Subject تبدیلی سے متاثر ہوتا ہے۔ Transitive Verb مفعول لیتا ہے۔ Linking Verb کے بعد Subject Complement آتا ہے، Direct Object نہیں۔ Adverbial اکثر جگہ بدل سکتا ہے یا حذف ہو سکتا ہے، لیکن بعض افعال جگہ یا سمت کے فقرے کے بغیر نامکمل رہتے ہیں۔",
+          "sindhi": "سڀ کان پهرين Finite Verb ڳوليو، پوءِ Subject ۽ اهي جزا سڃاڻو جن جي فعل کي ضرورت آهي. Subject هميشه ڪم ڪندڙ نه هوندو؛ The window broke ۾ Subject تبديليءَ کان متاثر ٿئي ٿو. Transitive Verb مفعول وٺندو آهي. Linking Verb کان پوءِ Subject Complement ايندو آهي، Direct Object نه. Adverbial اڪثر جاءِ بدلائي يا ڪڍي سگهجي ٿو، پر ڪي فعل هنڌ يا رخ واري فقري کان سواءِ اڻپورا رهندا آهن.",
+          "examples": [
+            [
+              "Symbol",
+              "Full name",
+              "Function",
+              "Example",
+              "Identification"
+            ],
+            [
+              "S",
+              "Subject",
+              "Who/what the clause is about",
+              "The children laughed.",
+              "The children"
+            ],
+            [
+              "V",
+              "Verb",
+              "Action, event or state",
+              "The children laughed.",
+              "laughed"
+            ],
+            [
+              "O / DO",
+              "Object / Direct Object",
+              "Receives or is affected by the verb",
+              "Mina opened the door.",
+              "the door"
+            ],
+            [
+              "IO",
+              "Indirect Object",
+              "Recipient or beneficiary",
+              "Mina gave Ali a book.",
+              "Ali"
+            ],
+            [
+              "SC",
+              "Subject Complement",
+              "Identifies/describes the subject after a linking verb",
+              "Mina is clever.",
+              "clever"
+            ],
+            [
+              "OC",
+              "Object Complement",
+              "Identifies/describes the object",
+              "They named him captain.",
+              "captain"
+            ],
+            [
+              "A",
+              "Adverbial",
+              "Adds required/optional place, time, manner, direction etc.",
+              "She lives in Karachi.",
+              "in Karachi"
+            ]
+          ]
+        },
+        {
+          "title": "Pattern 1 — S + V (Subject + Intransitive Verb)",
+          "english": "This pattern contains a subject and an intransitive verb. The verb does not take a direct object. The sentence can be complete with these two elements. Time, place or manner adverbials may be added, but they are not part of the basic pattern.",
+          "urdu": "اس ساخت میں Subject اور Intransitive Verb ہوتا ہے۔ فعل Direct Object نہیں لیتا اور یہ دونوں اجزا مل کر مکمل جملہ بنا سکتے ہیں۔ وقت، جگہ یا طریقہ بتانے والے Adverbials شامل کیے جا سکتے ہیں، مگر بنیادی ساخت میں ضروری نہیں۔",
+          "sindhi": "هن نموني ۾ Subject ۽ Intransitive Verb هوندو آهي. فعل Direct Object نٿو وٺي ۽ اهي ٻئي جزا مڪمل جملو ٺاهي سگهن ٿا. وقت، هنڌ يا طريقي جا Adverbials وڌائي سگهجن ٿا، پر بنيادي نموني لاءِ ضروري ناهن.",
+          "examples": [
+            [
+              "Formula",
+              "Example",
+              "Analysis",
+              "Urdu meaning",
+              "Sindhi meaning"
+            ],
+            [
+              "S + V",
+              "Birds fly.",
+              "Birds = S; fly = V",
+              "پرندے اڑتے ہیں۔",
+              "پکي اڏامن ٿا."
+            ],
+            [
+              "S + V",
+              "The baby cried.",
+              "The baby = S; cried = V",
+              "بچہ رویا۔",
+              "ٻار روئيو."
+            ],
+            [
+              "S + V",
+              "The guests arrived.",
+              "The guests = S; arrived = V",
+              "مہمان پہنچ گئے۔",
+              "مهمان پهچي ويا."
+            ],
+            [
+              "S + V",
+              "The sun shines.",
+              "The sun = S; shines = V",
+              "سورج چمکتا ہے۔",
+              "سج چمڪي ٿو."
+            ]
+          ]
+        },
+        {
+          "title": "Pattern 2 — S + V + SC (Linking Verb + Subject Complement)",
+          "english": "A linking verb connects the subject to a subject complement. The complement may be a noun phrase that renames the subject or an adjective phrase that describes it. Common linking verbs include be, become, seem, appear, feel, look, remain and sound. The complement is not an object because it refers back to the subject.",
+          "urdu": "Linking Verb، Subject کو Subject Complement سے جوڑتا ہے۔ Complement اسم ہو سکتا ہے جو Subject کا دوسرا نام بتائے، یا صفت ہو سکتی ہے جو Subject کی کیفیت بیان کرے۔ عام Linking Verbs میں be، become، seem، appear، feel، look، remain اور sound شامل ہیں۔ یہ Object نہیں کیونکہ اس کا تعلق Subject سے ہوتا ہے۔",
+          "sindhi": "Linking Verb، Subject کي Subject Complement سان ڳنڍيندو آهي. Complement اسم ٿي سگهي ٿو جيڪو Subject جو ٻيو نالو ٻڌائي، يا صفت ٿي سگهي ٿي جيڪا Subject جي حالت بيان ڪري. عام Linking Verbs ۾ be، become، seem، appear، feel، look، remain ۽ sound شامل آهن. اهو Object نه آهي، ڇاڪاڻ⁠تہ اهو Subject بابت آهي.",
+          "examples": [
+            [
+              "Formula",
+              "Example",
+              "Analysis",
+              "Urdu meaning",
+              "Sindhi meaning"
+            ],
+            [
+              "S + V + SC",
+              "Sara is a doctor.",
+              "Sara = S; is = linking V; a doctor = SC",
+              "سارہ ڈاکٹر ہے۔",
+              "سارا ڊاڪٽر آهي."
+            ],
+            [
+              "S + V + SC",
+              "The soup tastes delicious.",
+              "The soup = S; tastes = linking V; delicious = SC",
+              "سوپ مزیدار لگتا ہے۔",
+              "سوپ مزيدار لڳي ٿو."
+            ],
+            [
+              "S + V + SC",
+              "He became angry.",
+              "He = S; became = linking V; angry = SC",
+              "وہ ناراض ہو گیا۔",
+              "هو ڪاوڙجي پيو."
+            ],
+            [
+              "S + V + SC",
+              "The room looks clean.",
+              "The room = S; looks = linking V; clean = SC",
+              "کمرہ صاف دکھائی دیتا ہے۔",
+              "ڪمرو صاف نظر اچي ٿو."
+            ]
+          ]
+        },
+        {
+          "title": "Pattern 3 — S + V + A (Verb + Required Adverbial)",
+          "english": "Some verbs require an adverbial to complete their meaning, especially verbs of position, residence or movement. The adverbial commonly expresses place or direction. Without it, the sentence may sound incomplete in the intended meaning: She lives… or He put the bag… The required adverbial is part of the pattern, not merely extra decoration.",
+          "urdu": "بعض افعال اپنا مفہوم مکمل کرنے کے لیے Adverbial کے محتاج ہوتے ہیں، خاص طور پر رہائش، مقام یا حرکت کے افعال۔ Adverbial عموماً جگہ یا سمت بتاتا ہے۔ مطلوبہ معنی میں اس کے بغیر جملہ نامکمل محسوس ہوتا ہے، مثلاً She lives… یا He put the bag…۔",
+          "sindhi": "ڪي فعل پنهنجو مطلب مڪمل ڪرڻ لاءِ Adverbial گهرن ٿا، خاص ڪري رهائش، جاءِ يا حرڪت وارا فعل. Adverbial عام طور هنڌ يا رخ ٻڌائي ٿو. گهربل مطلب ۾ ان کان سواءِ جملو اڻپورو لڳي ٿو، مثال She lives… يا He put the bag…۔",
+          "examples": [
+            [
+              "Formula",
+              "Example",
+              "Analysis",
+              "Urdu meaning",
+              "Sindhi meaning"
+            ],
+            [
+              "S + V + A",
+              "She lives in Karachi.",
+              "She = S; lives = V; in Karachi = A",
+              "وہ کراچی میں رہتی ہے۔",
+              "هوءَ ڪراچيءَ ۾ رهي ٿي."
+            ],
+            [
+              "S + V + A",
+              "The children are upstairs.",
+              "The children = S; are = V; upstairs = A",
+              "بچے اوپر ہیں۔",
+              "ٻار مٿي آهن."
+            ],
+            [
+              "S + V + A",
+              "The train went to Lahore.",
+              "The train = S; went = V; to Lahore = A",
+              "ٹرین لاہور گئی۔",
+              "ريل گاڏي لاهور وئي."
+            ],
+            [
+              "S + V + A",
+              "Please stay here.",
+              "(you) = S; stay = V; here = A",
+              "براہِ کرم یہاں ٹھہریں۔",
+              "مهرباني ڪري هتي ترسو."
+            ]
+          ]
+        },
+        {
+          "title": "Pattern 4 — S + V + O (Transitive Verb + Direct Object)",
+          "english": "A transitive verb takes a direct object. The object answers what? or whom? after the verb and completes the action. Many verbs can be transitive or intransitive depending on use: She reads (no expressed object) and She reads a novel (object).",
+          "urdu": "Transitive Verb کے بعد Direct Object آتا ہے۔ Object فعل کے بعد کیا؟ یا کسے؟ کا جواب دیتا ہے اور عمل کو مکمل کرتا ہے۔ کئی افعال استعمال کے مطابق Transitive یا Intransitive ہو سکتے ہیں: She reads میں مفعول ظاہر نہیں، جبکہ She reads a novel میں a novel مفعول ہے۔",
+          "sindhi": "Transitive Verb کان پوءِ Direct Object ايندو آهي. Object فعل کان پوءِ ڇا؟ يا ڪنهن کي؟ جو جواب ڏئي ٿو ۽ عمل مڪمل ڪري ٿو. ڪيترائي فعل استعمال موجب Transitive يا Intransitive ٿي سگهن ٿا: She reads ۾ مفعول ظاهر ناهي، پر She reads a novel ۾ a novel مفعول آهي.",
+          "examples": [
+            [
+              "Formula",
+              "Example",
+              "Analysis",
+              "Urdu meaning",
+              "Sindhi meaning"
+            ],
+            [
+              "S + V + O",
+              "Ali kicked the ball.",
+              "Ali = S; kicked = V; the ball = O",
+              "علی نے گیند کو لات ماری۔",
+              "علي بال کي لت هنئي."
+            ],
+            [
+              "S + V + O",
+              "I understand the lesson.",
+              "I = S; understand = V; the lesson = O",
+              "میں سبق سمجھتا ہوں۔",
+              "مان سبق سمجهان ٿو."
+            ],
+            [
+              "S + V + O",
+              "The cat caught a mouse.",
+              "The cat = S; caught = V; a mouse = O",
+              "بلی نے چوہا پکڑا۔",
+              "ٻلي ڪوئو پڪڙيو."
+            ],
+            [
+              "S + V + O",
+              "We respect our teachers.",
+              "We = S; respect = V; our teachers = O",
+              "ہم اپنے اساتذہ کا احترام کرتے ہیں۔",
+              "اسان پنهنجن استادن جي عزت ڪريون ٿا."
+            ]
+          ]
+        },
+        {
+          "title": "Pattern 5 — S + V + IO + DO (Two Objects)",
+          "english": "Some verbs take two objects: an indirect object, usually the recipient, and a direct object, the thing given, sent, shown or told. The usual order is IO before DO: She gave me a pen. The same meaning can often be expressed with to or for: She gave a pen to me. In that version, the prepositional phrase is not an indirect object in the same position.",
+          "urdu": "بعض افعال دو Objects لیتے ہیں: Indirect Object عموماً وصول کرنے والا شخص، اور Direct Object دی جانے والی چیز ہوتی ہے۔ عام ترتیب IO پھر DO ہے: She gave me a pen۔ یہی مفہوم to یا for کے ساتھ بھی آ سکتا ہے: She gave a pen to me۔ اس صورت میں prepositional phrase کی ساخت مختلف ہے۔",
+          "sindhi": "ڪي فعل ٻه Objects وٺندا آهن: Indirect Object عام طور وصول ڪندڙ ماڻهو ۽ Direct Object ڏنل، موڪليل يا ٻڌايل شيءِ هوندي آهي. عام ترتيب IO پوءِ DO آهي: She gave me a pen. ساڳيو مطلب to يا for سان به چئي سگهجي ٿو: She gave a pen to me. هن صورت ۾ prepositional phrase جي جوڙجڪ مختلف آهي.",
+          "examples": [
+            [
+              "Formula",
+              "Example",
+              "Analysis",
+              "Urdu meaning",
+              "Sindhi meaning"
+            ],
+            [
+              "S + V + IO + DO",
+              "She gave me a pen.",
+              "She = S; gave = V; me = IO; a pen = DO",
+              "اس نے مجھے قلم دیا۔",
+              "هن مون کي قلم ڏنو."
+            ],
+            [
+              "S + V + IO + DO",
+              "The teacher told us a story.",
+              "The teacher = S; told = V; us = IO; a story = DO",
+              "استاد نے ہمیں کہانی سنائی۔",
+              "استاد اسان کي ڪهاڻي ٻڌائي."
+            ],
+            [
+              "S + V + IO + DO",
+              "Father bought Sara a bicycle.",
+              "Father = S; bought = V; Sara = IO; a bicycle = DO",
+              "والد نے سارہ کے لیے سائیکل خریدی۔",
+              "پيءُ سارا لاءِ سائيڪل خريد ڪئي."
+            ],
+            [
+              "S + V + IO + DO",
+              "Send him the message.",
+              "(you) = S; send = V; him = IO; the message = DO",
+              "اسے پیغام بھیجو۔",
+              "هن کي پيغام موڪليو."
+            ]
+          ]
+        },
+        {
+          "title": "Pattern 6 — S + V + O + OC (Object Complement)",
+          "english": "The object complement follows the direct object and identifies it or describes the state/result attributed to it. It may be a noun, adjective or certain phrase. Verbs in this pattern include make, name, elect, appoint, call, consider and find. Do not mistake the object complement for a second object: in They elected Sara captain, captain renames Sara.",
+          "urdu": "Object Complement، Direct Object کے بعد آ کر اس کا نام بتاتا یا اس کی حالت/نتیجہ بیان کرتا ہے۔ یہ اسم یا صفت ہو سکتا ہے۔ اس ساخت کے افعال میں make، name، elect، appoint، call، consider اور find شامل ہیں۔ اسے دوسرا Object نہ سمجھیں: They elected Sara captain میں captain، Sara کا دوسرا نام/عہدہ بتاتا ہے۔",
+          "sindhi": "Object Complement، Direct Object کان پوءِ اچي ان جو نالو يا حالت/نتيجو ٻڌائي ٿو. اهو اسم يا صفت ٿي سگهي ٿو. هن نموني جا فعل make، name، elect، appoint، call، consider ۽ find آهن. ان کي ٻيو Object نه سمجهو: They elected Sara captain ۾ captain، Sara جو عهدو ٻڌائي ٿو.",
+          "examples": [
+            [
+              "Formula",
+              "Example",
+              "Analysis",
+              "Urdu meaning",
+              "Sindhi meaning"
+            ],
+            [
+              "S + V + O + OC",
+              "They elected Sara captain.",
+              "They = S; elected = V; Sara = O; captain = OC",
+              "انہوں نے سارہ کو کپتان منتخب کیا۔",
+              "انهن سارا کي ڪپتان چونڊيو."
+            ],
+            [
+              "S + V + O + OC",
+              "The news made him sad.",
+              "The news = S; made = V; him = O; sad = OC",
+              "خبر نے اسے اداس کر دیا۔",
+              "خبر کيس اداس ڪري ڇڏيو."
+            ],
+            [
+              "S + V + O + OC",
+              "We painted the door red.",
+              "We = S; painted = V; the door = O; red = OC",
+              "ہم نے دروازے کو سرخ رنگ دیا۔",
+              "اسان دروازي کي ڳاڙهو رنگ ڪيو."
+            ],
+            [
+              "S + V + O + OC",
+              "They call him a genius.",
+              "They = S; call = V; him = O; a genius = OC",
+              "وہ اسے ذہین انسان کہتے ہیں۔",
+              "اهي کيس ذهين چون ٿا."
+            ]
+          ]
+        },
+        {
+          "title": "Pattern 7 — S + V + O + A (Object + Required Adverbial)",
+          "english": "Some verbs require both an object and an adverbial, often showing where the object is placed or kept. The adverbial completes the verb–object relationship. Common examples use put, place, keep and lay. Put the books is incomplete when the intended meaning requires a location.",
+          "urdu": "بعض افعال کو Object کے ساتھ Adverbial بھی درکار ہوتا ہے، جو اکثر بتاتا ہے کہ چیز کہاں رکھی گئی۔ یہ Adverbial فعل اور Object کے تعلق کو مکمل کرتا ہے۔ put، place، keep اور lay اس کی مثالیں ہیں۔ مطلوبہ معنی میں Put the books نامکمل ہے جب تک جگہ نہ بتائی جائے۔",
+          "sindhi": "ڪي فعل Object سان گڏ Adverbial به گهرن ٿا، جيڪو اڪثر ٻڌائي ٿو ته شيءِ ڪٿي رکي وئي. اهو Adverbial فعل ۽ Object جو لاڳاپو مڪمل ڪري ٿو. put، place، keep ۽ lay مثال آهن. گهربل مطلب ۾ Put the books اڻپورو آهي جيستائين هنڌ نه ٻڌائجي.",
+          "examples": [
+            [
+              "Formula",
+              "Example",
+              "Analysis",
+              "Urdu meaning",
+              "Sindhi meaning"
+            ],
+            [
+              "S + V + O + A",
+              "She put the keys on the table.",
+              "She = S; put = V; the keys = O; on the table = A",
+              "اس نے چابیاں میز پر رکھ دیں۔",
+              "هن چاٻيون ميز تي رکيون."
+            ],
+            [
+              "S + V + O + A",
+              "Keep your shoes outside.",
+              "(you) = S; keep = V; your shoes = O; outside = A",
+              "اپنے جوتے باہر رکھیں۔",
+              "پنهنجا جوتا ٻاهر رکو."
+            ],
+            [
+              "S + V + O + A",
+              "He placed the vase near the window.",
+              "He = S; placed = V; the vase = O; near the window = A",
+              "اس نے گلدان کھڑکی کے قریب رکھا۔",
+              "هن گلدان دريءَ ڀرسان رکيو."
+            ],
+            [
+              "S + V + O + A",
+              "Lay the papers here.",
+              "(you) = S; lay = V; the papers = O; here = A",
+              "کاغذات یہاں رکھ دیں۔",
+              "ڪاغذ هتي رکو."
+            ]
+          ]
+        },
+        {
+          "title": "Pattern 8 — S + V + to-Infinitive (Verb + to + Base Form)",
+          "english": "Certain verbs are followed by a to-infinitive clause. Common verbs include want, hope, decide, plan, promise, refuse, agree, learn and seem. The infinitive expresses an intended, planned, hoped-for or reported action. In She wants to travel, wants is the finite verb and to travel is a non-finite infinitive clause.",
+          "urdu": "بعض افعال کے بعد to-infinitive آتا ہے۔ عام افعال میں want، hope، decide، plan، promise، refuse، agree، learn اور seem شامل ہیں۔ Infinitive کسی ارادے، منصوبے، امید یا عمل کو ظاہر کرتا ہے۔ She wants to travel میں wants، Finite Verb اور to travel، Non-finite Infinitive ہے۔",
+          "sindhi": "ڪجهه فعلن کان پوءِ to-infinitive ايندو آهي. عام فعل want، hope، decide، plan، promise، refuse، agree، learn ۽ seem آهن. Infinitive ارادو، منصوبو، اميد يا عمل ظاهر ڪري ٿو. She wants to travel ۾ wants، Finite Verb ۽ to travel، Non-finite Infinitive آهي.",
+          "examples": [
+            [
+              "Formula",
+              "Example",
+              "Analysis",
+              "Urdu meaning",
+              "Sindhi meaning"
+            ],
+            [
+              "S + V + to-infinitive",
+              "I want to learn English.",
+              "I = S; want = finite V; to learn = infinitive clause",
+              "میں انگریزی سیکھنا چاہتا ہوں۔",
+              "مان انگريزي سکڻ چاهيان ٿو."
+            ],
+            [
+              "S + V + to-infinitive",
+              "They decided to leave.",
+              "They = S; decided = V; to leave = infinitive",
+              "انہوں نے جانے کا فیصلہ کیا۔",
+              "انهن وڃڻ جو فيصلو ڪيو."
+            ],
+            [
+              "S + V + to-infinitive",
+              "She hopes to win.",
+              "She = S; hopes = V; to win = infinitive",
+              "وہ جیتنے کی امید رکھتی ہے۔",
+              "هوءَ کٽڻ جي اميد رکي ٿي."
+            ],
+            [
+              "S + V + to-infinitive",
+              "He refused to answer.",
+              "He = S; refused = V; to answer = infinitive",
+              "اس نے جواب دینے سے انکار کیا۔",
+              "هن جواب ڏيڻ کان انڪار ڪيو."
+            ]
+          ]
+        },
+        {
+          "title": "Pattern 9 — S + V + Bare Infinitive (Verb + Base Form)",
+          "english": "Some verbs are followed by an infinitive without to. This occurs after modal auxiliaries (can go, must study), and after certain verbs such as let and make; help may take either a bare or to-infinitive. With perception verbs such as see, hear and watch, a bare infinitive can describe the whole action: I saw him cross the road. Do not add to after a modal: She can swim, not She can to swim.",
+          "urdu": "بعض افعال کے بعد to کے بغیر Infinitive آتا ہے۔ یہ Modal Auxiliaries کے بعد ہوتا ہے (can go، must study) اور let، make جیسے افعال کے بعد بھی۔ help کے بعد دونوں صورتیں ممکن ہیں۔ see، hear اور watch جیسے افعال کے بعد Bare Infinitive مکمل عمل ظاہر کر سکتا ہے: I saw him cross the road۔ Modal کے بعد to نہ لگائیں: She can swim درست ہے، She can to swim غلط۔",
+          "sindhi": "ڪجهه فعلن کان پوءِ to کان سواءِ Infinitive ايندو آهي. اهو Modal Auxiliaries کان پوءِ ايندو آهي (can go، must study) ۽ let، make کان پوءِ به. help کان پوءِ ٻئي صورتون ممڪن آهن. see، hear ۽ watch کان پوءِ Bare Infinitive مڪمل عمل ڏيکاري سگهي ٿو: I saw him cross the road. Modal کان پوءِ to نه لڳايو: She can swim صحيح آهي، She can to swim غلط.",
+          "examples": [
+            [
+              "Formula",
+              "Example",
+              "Analysis",
+              "Urdu meaning",
+              "Sindhi meaning"
+            ],
+            [
+              "S + modal + bare infinitive",
+              "She can swim.",
+              "She = S; can = modal; swim = bare infinitive",
+              "وہ تیر سکتی ہے۔",
+              "هوءَ تري سگهي ٿي."
+            ],
+            [
+              "S + V + O + bare infinitive",
+              "The teacher made us work.",
+              "The teacher = S; made = V; us = O; work = bare infinitive",
+              "استاد نے ہم سے کام کروایا۔",
+              "استاد اسان کان ڪم ڪرايو."
+            ],
+            [
+              "S + V + O + bare infinitive",
+              "Let him speak.",
+              "(you) = understood S; let = V; him = O; speak = bare infinitive",
+              "اسے بولنے دیں۔",
+              "هن کي ڳالهائڻ ڏيو."
+            ],
+            [
+              "S + V + O + bare infinitive",
+              "I heard the baby cry.",
+              "I = S; heard = V; the baby = O; cry = bare infinitive",
+              "میں نے بچے کو روتے سنا۔",
+              "مون ٻار کي روئندي ٻڌو."
+            ]
+          ]
+        },
+        {
+          "title": "Pattern 10 — S + V + -ing / That-Clause (Verb + Clause Complement)",
+          "english": "Some verbs take a gerund (-ing form) as their complement; others take a that-clause, and some allow both with a change or no change in meaning. Gerund-taking verbs include enjoy, avoid, finish, suggest and mind. That-clause verbs include think, believe, know, say and explain. The -ing form here functions as a non-finite clause, not as the main finite verb.",
+          "urdu": "بعض افعال کے بعد Gerund (-ing form) آتا ہے، جبکہ بعض کے بعد that-clause آتا ہے؛ کچھ افعال دونوں ساختیں قبول کرتے ہیں۔ Gerund لینے والے افعال میں enjoy، avoid، finish، suggest اور mind شامل ہیں۔ That-clause لینے والے افعال میں think، believe، know، say اور explain شامل ہیں۔ یہاں -ing form ایک Non-finite clause ہے، مرکزی Finite Verb نہیں۔",
+          "sindhi": "ڪجهه فعلن کان پوءِ Gerund (-ing form) ايندو آهي، جڏهن ته ڪجهه کان پوءِ that-clause ايندو آهي؛ ڪي فعل ٻئي نمونا قبول ڪن ٿا. Gerund وٺندڙ فعلن ۾ enjoy، avoid، finish، suggest ۽ mind شامل آهن. That-clause وٺندڙ فعلن ۾ think، believe، know، say ۽ explain شامل آهن. هتي -ing form هڪ Non-finite clause آهي، مکيه Finite Verb نه.",
+          "examples": [
+            [
+              "Formula",
+              "Example",
+              "Analysis",
+              "Urdu meaning",
+              "Sindhi meaning"
+            ],
+            [
+              "S + V + gerund",
+              "He enjoys reading.",
+              "He = S; enjoys = V; reading = gerund clause",
+              "وہ پڑھنے سے لطف اندوز ہوتا ہے۔",
+              "هو پڙهڻ مان لطف وٺي ٿو."
+            ],
+            [
+              "S + V + gerund",
+              "They avoided making noise.",
+              "They = S; avoided = V; making noise = gerund clause",
+              "انہوں نے شور کرنے سے گریز کیا۔",
+              "انهن شور ڪرڻ کان پاسو ڪيو."
+            ],
+            [
+              "S + V + that-clause",
+              "I believe that she is honest.",
+              "I = S; believe = V; that she is honest = content clause",
+              "میں یقین کرتا ہوں کہ وہ ایماندار ہے۔",
+              "مان يقين ڪريان ٿو ته هوءَ ايماندار آهي."
+            ],
+            [
+              "S + V + that-clause",
+              "The doctor said that I should rest.",
+              "The doctor = S; said = V; that-clause = complement",
+              "ڈاکٹر نے کہا کہ مجھے آرام کرنا چاہیے۔",
+              "ڊاڪٽر چيو ته مون کي آرام ڪرڻ گهرجي."
+            ]
+          ]
+        },
+        {
+          "title": "How to Distinguish Objects, Complements and Adverbials",
+          "english": "Use meaning and grammar, not position alone. A direct object is selected by a transitive verb and can often become the subject of a passive sentence. A subject complement follows a linking verb and describes or renames the subject. An object complement describes or renames the object. An adverbial tells where, when, how or why; it may be optional or required by the verb. Compare: She became a teacher (SC), She met a teacher (O), She lives in Karachi (required A).",
+          "urdu": "Object، Complement اور Adverbial میں فرق صرف جگہ سے نہیں بلکہ معنی اور گرامر سے کریں۔ Direct Object متعدی فعل کے ساتھ آتا ہے اور اکثر Passive جملے کا Subject بن سکتا ہے۔ Subject Complement، Linking Verb کے بعد Subject کی وضاحت کرتا ہے۔ Object Complement، Object کی وضاحت کرتا ہے۔ Adverbial بتاتا ہے کہاں، کب، کیسے یا کیوں؛ یہ اختیاری یا فعل کے لیے ضروری ہو سکتا ہے۔",
+          "sindhi": "Object، Complement ۽ Adverbial ۾ فرق رڳو جاءِ مان نه، پر مطلب ۽ گرامر مان ڪريو. Direct Object متعدي فعل سان اچي ٿو ۽ اڪثر Passive جملي جو Subject بڻجي سگهي ٿو. Subject Complement، Linking Verb کان پوءِ Subject جي وضاحت ڪري ٿو. Object Complement، Object جي وضاحت ڪري ٿو. Adverbial ٻڌائي ٿو ڪٿي، ڪڏهن، ڪيئن يا ڇو؛ اهو اختياري يا فعل لاءِ ضروري ٿي سگهي ٿو.",
+          "examples": [
+            [
+              "Sentence",
+              "Element",
+              "Why?"
+            ],
+            [
+              "Sara became a doctor.",
+              "a doctor = SC",
+              "It identifies Sara after linking verb became."
+            ],
+            [
+              "Sara met a doctor.",
+              "a doctor = O",
+              "It receives the action of met."
+            ],
+            [
+              "They appointed Sara manager.",
+              "manager = OC",
+              "It renames the object Sara."
+            ],
+            [
+              "Sara lives in Karachi.",
+              "in Karachi = A",
+              "It supplies the required location for lives."
+            ],
+            [
+              "Sara spoke politely.",
+              "politely = optional A",
+              "It tells how she spoke."
+            ]
+          ]
+        },
+        {
+          "title": "Common Errors in Verb Patterns",
+          "english": "Do not use an object after an intransitive verb unless the verb is used transitively in that sense. Do not use an object after a linking verb where a subject complement is required. Do not confuse IO and DO. Do not omit required adverbials after verbs such as put. Use a gerund or infinitive according to the verb's pattern, and remember that modal auxiliaries take the bare infinitive.",
+          "urdu": "Intransitive Verb کے بعد Object نہ لگائیں، جب تک فعل اس معنی میں Transitive استعمال نہ ہو۔ Linking Verb کے بعد جہاں Subject Complement درکار ہو وہاں Object نہ سمجھیں۔ IO اور DO میں فرق رکھیں۔ put جیسے فعل کے بعد ضروری Adverbial نہ چھوڑیں۔ فعل کے مقررہ Pattern کے مطابق Gerund یا Infinitive استعمال کریں، اور یاد رکھیں کہ Modal Auxiliaries کے بعد Bare Infinitive آتا ہے۔",
+          "sindhi": "Intransitive Verb کان پوءِ Object نه لڳايو، جيستائين فعل ان معنيٰ ۾ Transitive استعمال نه ٿئي. Linking Verb کان پوءِ جتي Subject Complement گهربل هجي اتي ان کي Object نه سمجهو. IO ۽ DO ۾ فرق رکو. put جهڙي فعل کان پوءِ ضروري Adverbial نه ڇڏيو. فعل جي نموني موجب Gerund يا Infinitive استعمال ڪريو، ۽ ياد رکو ته Modal Auxiliaries کان پوءِ Bare Infinitive ايندو آهي.",
+          "examples": [
+            [
+              "Incorrect",
+              "Correct",
+              "Reason"
+            ],
+            [
+              "She is a doctor? (calling doctor an object)",
+              "She is a doctor.",
+              "a doctor is a subject complement."
+            ],
+            [
+              "He put the book.",
+              "He put the book on the desk.",
+              "put normally needs a location in this meaning."
+            ],
+            [
+              "She can to drive.",
+              "She can drive.",
+              "modal can takes a bare infinitive."
+            ],
+            [
+              "He enjoys to swim.",
+              "He enjoys swimming.",
+              "enjoy is normally followed by a gerund."
+            ],
+            [
+              "They elected captain Sara.",
+              "They elected Sara captain.",
+              "Sara is the object; captain is its complement."
+            ]
+          ]
+        },
+        {
+          "title": "Practice Exercise — Identify the Verb Pattern",
+          "english": "For each sentence, identify the subject, finite verb and the remaining elements. Then name the pattern. Remember that a clause complement such as a gerund or that-clause counts as the verb's complement, not as an ordinary noun object.",
+          "urdu": "ہر جملے میں Subject، Finite Verb اور باقی اجزا کی نشاندہی کریں، پھر Pattern کا نام لکھیں۔ یاد رکھیں کہ Gerund یا that-clause جیسا Clause Complement فعل کی تکمیل کرتا ہے؛ اسے عام اسم والے Object کے ساتھ خلط ملط نہ کریں۔",
+          "sindhi": "هر جملي ۾ Subject، Finite Verb ۽ باقي جزا سڃاڻو، پوءِ Pattern جو نالو لکو. ياد رکو ته Gerund يا that-clause جهڙو Clause Complement فعل جي معنيٰ مڪمل ڪري ٿو؛ ان کي عام اسم واري Object سان نه ملايو.",
+          "examples": [
+            [
+              "No.",
+              "Sentence",
+              "Answer"
+            ],
+            [
+              "1",
+              "The birds are singing.",
+              "Pattern 1: S + V"
+            ],
+            [
+              "2",
+              "My brother became a pilot.",
+              "Pattern 2: S + V + SC"
+            ],
+            [
+              "3",
+              "The children stayed at home.",
+              "Pattern 3: S + V + A"
+            ],
+            [
+              "4",
+              "She bought a new dress.",
+              "Pattern 4: S + V + O"
+            ],
+            [
+              "5",
+              "He sent his friend a letter.",
+              "Pattern 5: S + V + IO + DO"
+            ],
+            [
+              "6",
+              "They painted the wall blue.",
+              "Pattern 6: S + V + O + OC"
+            ],
+            [
+              "7",
+              "Put the milk in the fridge.",
+              "Pattern 7: S + V + O + A"
+            ],
+            [
+              "8",
+              "We hope to succeed.",
+              "Pattern 8: S + V + to-infinitive"
+            ],
+            [
+              "9",
+              "The guard let us enter.",
+              "Pattern 9: S + V + O + bare infinitive"
+            ],
+            [
+              "10",
+              "I dislike waiting.",
+              "Pattern 10: S + V + gerund"
+            ]
+          ]
+        }
+      ]
+    }
+
     ]
   },
   "formation-of-words": {
