@@ -931,7 +931,9 @@ export const topicDetails = {
           ["We caught the next train.", "ہم نے اگلی ٹرین پکڑی۔", "اسان ايندڙ ريل پڪڙي."],
           ["Which is the nearest route to the station?", "اسٹیشن جانے کا قریب ترین راستہ کون سا ہے؟", "اسٽيشن ڏانهن سڀ کان ويجهو رستو ڪهڙو آهي؟"]
         ]
-      } },
+      }
+    ]
+  },
   "tenses": {
     overview: "English tense and aspect work together to show when an event happens and whether it is complete, continuing or connected to another time. The three broad time references are present, past and future.",
     watchFor: "Choose a form based on meaning and context, not only on time words. Present perfect, for example, often connects a past event to the present.",
