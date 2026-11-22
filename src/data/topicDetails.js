@@ -12573,7 +12573,402 @@ topicDetails["past-tense"] = {
       ]
     }
   ]
-},
+},,
+  "spelling-rules": {
+    "overview": "English spelling follows patterns rather than one perfectly regular system. When a suffix is added, the final letter or syllable of the base word may stay the same, disappear, change, or double. This lesson explains final-consonant doubling, silent-e and y changes, common suffixes, British English spellings, and important exceptions.",
+    "watchFor": "First identify the base word, its final letters, vowel sound, syllable count and stress. Do not double a consonant merely because a word ends in one consonant: doubling depends on the spelling pattern and, in longer words, stress. British and American variants are not interchangeable within one piece of writing; follow one variety consistently.",
+    "examples": [
+      "hop → hopping, but hope → hoping (short vowel and silent-e rules differ)",
+      "travel → travelling (usual British spelling), but traveling (usual American spelling)"
+    ],
+    "specialSectionsTitle": "SPELLING RULES — FINAL CONSONANTS, SUFFIXES AND BRITISH ENGLISH",
+    "specialSections": [
+      {
+        "title": "1. What Is a Suffix? How Suffixes Affect Spelling",
+        "english": "A suffix is a letter or group of letters added to the end of a base word to form another word or grammatical form. Examples include -s/-es (books, wishes), -ed (walked), -ing (walking), -er/-est (smaller, smallest), -ly (quickly), -ness (kindness), -ful (helpful), -less (careless), -ment (payment) and -able (readable). When a suffix is added, the base word may remain unchanged or its spelling may change. Learn the base word and the suffix together. A suffix beginning with a vowel, such as -ing or -ed, often triggers changes that a suffix beginning with a consonant, such as -ness or -less, does not.",
+        "urdu": "Suffix وہ حرف یا حروف کا مجموعہ ہے جو کسی بنیادی لفظ کے آخر میں لگ کر نیا لفظ یا گرامری صورت بناتا ہے۔ مثالیں: -s/-es (books, wishes)، -ed (walked)، -ing (walking)، -er/-est (smaller, smallest)، -ly (quickly)، -ness (kindness)، -ful (helpful)، -less (careless)، -ment (payment) اور -able (readable)۔ Suffix لگانے سے بنیادی لفظ کی املا کبھی برقرار رہتی ہے اور کبھی بدل جاتی ہے۔ لفظ اور لاحقے کو ایک ساتھ سیکھیں۔",
+        "sindhi": "Suffix اهو اکر يا اکرن جو مجموعو آهي جيڪو بنيادي لفظ جي پڇاڙيءَ ۾ لڳي نئون لفظ يا گرامري صورت ٺاهي ٿو. مثال: -s/-es، -ed، -ing، -er/-est، -ly، -ness، -ful، -less، -ment ۽ -able. Suffix لڳائڻ وقت بنيادي لفظ جي لکڻي ڪڏهن ساڳي رهي ٿي ۽ ڪڏهن بدلجي ٿي. بنيادي لفظ ۽ لاحقي کي گڏ سکڻ گهرجي.",
+        "examples": [
+          [
+            "help + -ful → helpful; care + -less → careless",
+            "مددگار؛ لاپرواہ",
+            "مددگار؛ بي پرواهه",
+            "These suffixes are added without changing the base spelling."
+          ],
+          [
+            "teach + -er → teacher; kind + -ness → kindness",
+            "استاد؛ مہربانی",
+            "استاد؛ مهرباني",
+            "The base word remains unchanged."
+          ],
+          [
+            "hope + -ful → hopeful; hope + -less → hopeless",
+            "امیدوار؛ مایوس",
+            "اميد وارو؛ نااميد",
+            "The final silent e is retained before these consonant-starting suffixes."
+          ]
+        ]
+      },
+      {
+        "title": "2. Final Consonant Doubling — The Main Rule",
+        "english": "Double the final consonant before a vowel-starting suffix (especially -ing, -ed, -er or -est) when a one-syllable base word ends in one vowel letter followed by one consonant letter: CVC. The vowel is usually short. Examples: hop → hopping, hopped; plan → planning, planned; stop → stopping, stopped; rub → rubbing, rubbed; big → bigger, biggest. The final consonant is doubled to keep the preceding vowel short. Do not double w, x or y: snow → snowing, box → boxed, play → playing. Do not double when two consonant letters already follow the vowel: jump → jumping, help → helped.",
+        "urdu": "Vowel سے شروع ہونے والا suffix (خاص طور پر -ing، -ed، -er یا -est) لگاتے وقت ایک ہجائی لفظ کے آخری consonant کو دہرائیں، اگر لفظ کی آخری ساخت ایک vowel letter کے بعد ایک consonant letter ہو (CVC) اور vowel کی آواز مختصر ہو۔ مثالیں: hop → hopping، plan → planning، stop → stopping، rub → rubbing، big → bigger۔ w، x اور y کو اس اصول کے تحت نہیں دہرایا جاتا: snow → snowing، box → boxed، play → playing۔ اگر vowel کے بعد پہلے ہی دو consonants ہوں تو آخری حرف نہ دہرائیں: jump → jumping۔",
+        "sindhi": "Vowel سان شروع ٿيندڙ suffix، خاص ڪري -ing، -ed، -er يا -est لڳائڻ وقت هڪ اکر واري لفظ جو آخري consonant ٻيڻو ڪريو، جيڪڏهن آخر ۾ هڪ vowel letter کان پوءِ هڪ consonant letter هجي (CVC) ۽ vowel جو آواز ننڍو هجي. مثال: hop → hopping، stop → stopping، plan → planning. w، x ۽ y عام طور ٻيڻا نٿا ٿين: snow → snowing، box → boxed، play → playing. جيڪڏهن vowel کان پوءِ ٻه consonants اڳ ئي هجن ته آخري حرف نه ورجايو: jump → jumping.",
+        "examples": [
+          [
+            "hop → hopping → hopped",
+            "اچھلنا → اچھل رہا ہے → اچھلا",
+            "ٽپو ڏيڻ → ٽپو ڏئي رهيو آهي → ٽپو ڏنو",
+            "One short vowel letter followed by one final consonant: double p."
+          ],
+          [
+            "sit → sitting → sitter",
+            "بیٹھنا → بیٹھ رہا ہے → بیٹھنے والا",
+            "ويهڻ → ويهي رهيو آهي → ويهندڙ",
+            "The final t doubles before -ing and -er."
+          ],
+          [
+            "mix → mixing → mixed",
+            "ملانا → ملا رہا ہے → ملایا",
+            "ملائڻ → ملائي رهيو آهي → ملايو",
+            "Do not double final x."
+          ],
+          [
+            "rain → raining; jump → jumping",
+            "بارش ہونا → بارش ہو رہی ہے؛ کودنا → کود رہا ہے",
+            "مينهن وسڻ → مينهن وسي رهيو آهي؛ ٽپو ڏيڻ → ٽپو ڏئي رهيو آهي",
+            "No doubling when two consonant letters follow the vowel."
+          ]
+        ]
+      },
+      {
+        "title": "3. Final Consonants in Longer Words — Stress Matters",
+        "english": "In words of two or more syllables, double the final consonant before a vowel-starting suffix when the final syllable is stressed and ends in a single vowel letter plus a single consonant letter: begin → beginning, beginner; prefer → preferred, preferring; admit → admitted, admitting; occur → occurred, occurring. Do not normally double when the final syllable is unstressed: open → opening, opened; visit → visiting, visited; offer → offering, offered. Compare: reFER → preferred (stress on final syllable), but VISit → visited (stress is not on the final syllable). Accent and word formation can affect some cases, so consult a British dictionary for doubtful words.",
+        "urdu": "دو یا زیادہ ہجاؤں والے لفظ میں vowel سے شروع ہونے والا suffix لگاتے وقت آخری consonant تب دہرائیں جب آخری syllable پر زور ہو اور اس کے آخر میں ایک vowel letter کے بعد ایک consonant letter آئے: begin → beginning، prefer → preferred، admit → admitted، occur → occurred۔ اگر آخری syllable پر زور نہ ہو تو عموماً consonant نہیں دہرایا جاتا: open → opening، visit → visited، offer → offering۔",
+        "sindhi": "ٻن يا وڌيڪ syllables وارن لفظن ۾ vowel سان شروع ٿيندڙ suffix لڳائڻ وقت آخري consonant تڏهن ٻيڻو ڪريو جڏهن آخري syllable تي زور هجي ۽ ان جي پڇاڙي هڪ vowel letter ۽ هڪ consonant letter سان ٿئي: begin → beginning، prefer → preferred، admit → admitted. جيڪڏهن آخري syllable تي زور نه هجي ته عام طور حرف ٻيڻو نه ٿيندو: open → opening، visit → visited.",
+        "examples": [
+          [
+            "begin → beginning; prefer → preferring",
+            "شروع کرنا → شروع کر رہا ہے؛ ترجیح دینا → ترجیح دے رہا ہے",
+            "شروع ڪرڻ → شروع ڪري رهيو آهي؛ ترجيح ڏيڻ → ترجيح ڏئي رهيو آهي",
+            "The final syllable is stressed, so the final consonant doubles."
+          ],
+          [
+            "admit → admitted; occur → occurred",
+            "تسلیم کرنا → تسلیم کیا؛ واقع ہونا → واقع ہوا",
+            "قبول ڪرڻ → قبول ڪيو؛ واقع ٿيڻ → واقع ٿيو",
+            "The stressed final syllable triggers doubling."
+          ],
+          [
+            "open → opening; visit → visited",
+            "کھولنا → کھول رہا ہے؛ ملنے جانا → گیا",
+            "کولڻ → کولي رهيو آهي؛ گهمڻ وڃڻ → ويو",
+            "The final syllable is unstressed, so there is no doubling."
+          ]
+        ]
+      },
+      {
+        "title": "4. British English and American English — Final -L",
+        "english": "A major difference concerns many verbs ending in a single l after a vowel. In standard British English, the final l is usually doubled before suffixes such as -ed and -ing, even when the last syllable is not stressed: travel → travelled, travelling; cancel → cancelled, cancelling; label → labelled, labelling; model → modelled, modelling. American English usually keeps one l in these forms: traveled, traveling; canceled, canceling; labeled, labeling; modeled, modeling. Both spellings are standard in their respective varieties. Some words and derivatives have their own established spellings; use a British dictionary rather than applying this rule blindly.",
+        "urdu": "British English اور American English میں آخری -l کے بارے میں اہم فرق ہے۔ بہت سے ایسے افعال جن کے آخر میں vowel کے بعد ایک l ہو، British English میں -ed یا -ing لگانے سے پہلے l کو دگنا کرتے ہیں، چاہے آخری syllable پر زور نہ ہو: travel → travelled, travelling؛ cancel → cancelled, cancelling؛ label → labelled, labelling۔ American English میں عموماً ایک l رہتا ہے: traveled, traveling؛ canceled, canceling۔ دونوں اپنے اپنے معیار میں درست ہیں۔",
+        "sindhi": "British ۽ American English ۾ آخري -l بابت اهم فرق آهي. ڪيترن فعلن ۾ British English ۾ -ed يا -ing لڳائڻ کان اڳ l ٻيڻو ٿيندو آهي: travel → travelled، travelling؛ cancel → cancelled، cancelling؛ label → labelled، labelling. American English ۾ عام طور هڪ l رهندو آهي: traveled، traveling؛ canceled، canceling. ٻئي پنهنجي پنهنجي معياري قسم ۾ درست آهن.",
+        "examples": [
+          [
+            "British: travel → travelled → travelling",
+            "برطانوی املا: سفر کرنا → سفر کیا → سفر کر رہا ہے",
+            "برطانوي لکڻي: سفر ڪرڻ → سفر ڪيو → سفر ڪري رهيو آهي",
+            "Use double l in these common British forms."
+          ],
+          [
+            "American: travel → traveled → traveling",
+            "امریکی املا: سفر کرنا → سفر کیا → سفر کر رہا ہے",
+            "آمريڪي لکڻي: سفر ڪرڻ → سفر ڪيو → سفر ڪري رهيو آهي",
+            "American English normally uses one l."
+          ],
+          [
+            "British: cancel → cancelled; American: canceled",
+            "منسوخ کرنا → برطانوی cancelled، امریکی canceled",
+            "رد ڪرڻ → برطانوي cancelled، آمريڪي canceled",
+            "Do not mix varieties in one document."
+          ]
+        ]
+      },
+      {
+        "title": "5. Words Ending in Silent -e",
+        "english": "When a suffix begins with a vowel, the final silent e is usually dropped: make → making, made; write → writing, writer; hope → hoping; use → using; close → closing. Before a suffix beginning with a consonant, the e is usually kept: hope → hopeful, care → careful, use → useful, agree → agreement. There are exceptions and established forms: dye → dyeing (to distinguish it from dying, from die); singe → singeing (to distinguish it from singing). Keep the e in words where it protects a soft c or g sound before a suffix, as in notice → noticeable and courage → courageous, although individual derivatives vary.",
+        "urdu": "جب suffix vowel سے شروع ہو تو آخر کا خاموش e عموماً حذف ہو جاتا ہے: make → making، write → writing، hope → hoping، use → using۔ لیکن consonant سے شروع ہونے والے suffix سے پہلے e عموماً برقرار رہتا ہے: hope → hopeful، care → careful، use → useful۔ چند مستثنیٰ صورتیں بھی ہیں: dye → dyeing تاکہ dying سے فرق رہے؛ singe → singeing تاکہ singing سے فرق رہے۔",
+        "sindhi": "Suffix جيڪڏهن vowel سان شروع ٿئي ته آخر وارو خاموش e عام طور ختم ٿيندو آهي: make → making، write → writing، hope → hoping. پر consonant سان شروع ٿيندڙ suffix کان اڳ e عام طور برقرار رهندو آهي: hopeful، careful، useful. ڪجهه استثنا آهن: dye → dyeing ۽ singe → singeing، جيئن ٻين لفظن سان مونجهارو نه ٿئي.",
+        "examples": [
+          [
+            "write + -ing → writing; hope + -ing → hoping",
+            "لکھنا → لکھ رہا ہے؛ امید کرنا → امید کر رہا ہے",
+            "لکڻ → لکي رهيو آهي؛ اميد رکڻ → اميد رکي رهيو آهي",
+            "Drop silent e before a vowel-starting suffix."
+          ],
+          [
+            "care + -ful → careful; use + -ful → useful",
+            "احتیاط → محتاط؛ استعمال → مفید",
+            "خيال → خيال ڪندڙ؛ استعمال → ڪارائتو",
+            "Keep e before a consonant-starting suffix."
+          ],
+          [
+            "dye + -ing → dyeing; die + -ing → dying",
+            "رنگنا → رنگ رہا ہے؛ مرنا → مر رہا ہے",
+            "رنگڻ → رنگي رهيو آهي؛ مرڻ → مري رهيو آهي",
+            "Keep e in dyeing to distinguish the word from dying."
+          ]
+        ]
+      },
+      {
+        "title": "6. Words Ending in -y",
+        "english": "When a word ends in consonant + y, change y to i before many suffixes: happy → happier, happiest, happiness; easy → easily; beauty → beautiful; rely → reliable. But keep y before -ing: try → trying, study → studying. Also keep y when the suffix begins with i, to avoid ii: copy → copying, enjoy → enjoyable. When a word ends in vowel + y, keep y and add the suffix: play → played, playing, player; enjoy → enjoys, enjoyment; boy → boys. Remember: consonant + y commonly changes to i, but not before -ing.",
+        "urdu": "اگر لفظ consonant + y پر ختم ہو تو بہت سے suffixes سے پہلے y کو i میں بدل دیں: happy → happier، happiest، happiness؛ easy → easily؛ beauty → beautiful؛ rely → reliable۔ لیکن -ing سے پہلے y برقرار رہتا ہے: try → trying، study → studying۔ اگر y سے پہلے vowel ہو تو y برقرار رکھیں: play → played، playing؛ enjoy → enjoyment۔",
+        "sindhi": "لفظ consonant + y تي ختم ٿئي ته ڪيترن suffixes کان اڳ y کي i ۾ بدلايو: happy → happier، happiness؛ easy → easily. پر -ing کان اڳ y برقرار رکو: try → trying، study → studying. جيڪڏهن y کان اڳ vowel هجي ته y نه بدلايو: play → played، playing؛ enjoy → enjoyment.",
+        "examples": [
+          [
+            "happy → happiness; easy → easily",
+            "خوش → خوشی؛ آسان → آسانی سے",
+            "خوش → خوشي؛ آسان → آسانيءَ سان",
+            "Consonant + y changes to i before these suffixes."
+          ],
+          [
+            "study → studied, but studying",
+            "پڑھنا → پڑھا، لیکن پڑھ رہا ہے",
+            "پڙهڻ → پڙهيو، پر پڙهي رهيو آهي",
+            "Change y to i before -ed, but keep y before -ing."
+          ],
+          [
+            "play → played, playing, player",
+            "کھیلنا → کھیلا، کھیل رہا ہے، کھلاڑی",
+            "کيڏڻ → کيڏيو، کيڏي رهيو آهي، رانديگر",
+            "Vowel + y keeps the y."
+          ]
+        ]
+      },
+      {
+        "title": "7. Words Ending in -ie and -c",
+        "english": "For a verb ending in -ie, change -ie to -y before -ing: die → dying, lie → lying, tie → tying. This prevents an awkward sequence of vowels. For many words ending in -c, add k before a suffix beginning with e, i or y to keep the hard /k/ sound: panic → panicked, panicking; picnic → picnicked, picnicking; traffic → trafficked, trafficking. Do not add k when the suffix does not require it: panic → panicky is common. Check the dictionary for less familiar derivatives.",
+        "urdu": "جو فعل -ie پر ختم ہو، اس میں -ing لگاتے وقت -ie کو y میں بدل دیں: die → dying، lie → lying، tie → tying۔ -c پر ختم ہونے والے بہت سے الفاظ میں hard /k/ آواز برقرار رکھنے کے لیے e، i یا y سے شروع ہونے والے suffix سے پہلے k لگاتے ہیں: panic → panicked، panicking؛ picnic → picnicked۔",
+        "sindhi": "جيڪو فعل -ie تي ختم ٿئي، ان ۾ -ing لڳائڻ وقت -ie کي y ۾ بدلايو: die → dying، lie → lying، tie → tying. -c تي ختم ٿيندڙ ڪيترن لفظن ۾ سخت /k/ آواز برقرار رکڻ لاءِ e، i يا y سان شروع ٿيندڙ suffix کان اڳ k وڌايو: panic → panicked، panicking؛ picnic → picnicked.",
+        "examples": [
+          [
+            "lie → lying; die → dying",
+            "لیٹنا → لیٹ رہا ہے؛ مرنا → مر رہا ہے",
+            "ليٽڻ → ليٽي رهيو آهي؛ مرڻ → مري رهيو آهي",
+            "Change -ie to y before -ing."
+          ],
+          [
+            "panic → panicked → panicking",
+            "گھبراہٹ → گھبرا گیا → گھبرا رہا ہے",
+            "گهٻراهٽ → گهٻرائجي ويو → گهٻرائجي رهيو آهي",
+            "Add k before -ed and -ing to preserve the hard c sound."
+          ]
+        ]
+      },
+      {
+        "title": "8. Common Suffixes — Spelling and Meaning",
+        "english": "Learn the spelling pattern and meaning of each suffix. -s/-es commonly forms plurals or third-person singular verbs: cat → cats, watch → watches. -ed forms the regular past and past participle: clean → cleaned. -ing forms participles and gerunds: read → reading. -er/-est form many comparative and superlative adjectives: tall → taller → tallest. -ly often forms adverbs: quick → quickly; consonant + y changes to i (happy → happily), while true → truly drops e. -ness forms nouns: kind → kindness, happy → happiness. -ment forms nouns: develop → development, agree → agreement. -ful means full of or characterised by: hope → hopeful. -less means without: hope → hopeless. -able/-ible often mean capable of or suitable for: read → readable, access → accessible. -tion/-sion commonly form nouns: educate → education, decide → decision. These are tendencies, not universal rules; word families and dictionary spellings must be learned.",
+        "urdu": "ہر suffix کا املا اور مطلب یاد کریں۔ -s/-es جمع یا فعل کی third-person صورت بناتا ہے: cat → cats، watch → watches۔ -ed ماضی اور past participle بناتا ہے: clean → cleaned۔ -ing participle اور gerund بناتا ہے: read → reading۔ -er/-est تقابلی اور اعلیٰ درجے کی صفات بناتے ہیں: tall → taller → tallest۔ -ly اکثر adverb بناتا ہے: quick → quickly؛ happy → happily؛ true → truly۔ -ness اسم بناتا ہے: kind → kindness۔ -ment: develop → development۔ -ful کا مطلب بھرا ہوا یا حاملِ صفت، -less کا مطلب بغیر، -able/-ible کا مطلب قابل یا ممکن۔ -tion/-sion اکثر اسم بناتے ہیں: educate → education، decide → decision۔ یہ عمومی رجحانات ہیں، ہر لفظ پر لاگو ہونے والے قطعی اصول نہیں۔",
+        "sindhi": "هر suffix جي لکڻي ۽ معنيٰ سکڻ گهرجي. -s/-es جمع يا فعل جي ٽين شخص واري صورت ٺاهي ٿو؛ -ed ماضي ۽ past participle؛ -ing participle ۽ gerund؛ -er/-est تقابلي درجا؛ -ly گهڻو ڪري adverb؛ -ness ۽ -ment اسم؛ -ful جو مطلب ڀريل يا خاصيت وارو؛ -less جو مطلب بغير؛ -able/-ible جو مطلب قابل يا ممڪن؛ -tion/-sion گهڻو ڪري اسم ٺاهين ٿا. اهي عام لاڙا آهن، هر لفظ لاءِ قطعي قانون نه آهن؛ لفظن جا خاندان ۽ لغت وارا هجا به سکڻ گهرجن.",
+        "examples": [
+          [
+            "quick → quickly; happy → happily; true → truly",
+            "تیز → تیزی سے؛ خوش → خوشی سے؛ سچا → سچائی سے",
+            "تيز → تيزيءَ سان؛ خوش → خوشيءَ سان؛ سچو → سچائيءَ سان",
+            "The -ly suffix often forms an adverb; spelling may change."
+          ],
+          [
+            "kind → kindness; develop → development",
+            "مہربان → مہربانی؛ ترقی کرنا → ترقی",
+            "مهربان → مهرباني؛ ترقي ڪرڻ → ترقي",
+            "The suffixes -ness and -ment commonly form nouns."
+          ],
+          [
+            "hope → hopeful / hopeless; read → readable",
+            "امید → پُرامید / ناامید؛ پڑھنا → قابلِ مطالعہ",
+            "اميد → اميد وارو / نااميد؛ پڙهڻ → پڙهڻ لائق",
+            "The suffix changes meaning and often the word class."
+          ]
+        ]
+      },
+      {
+        "title": "9. Plurals and Third-Person Singular: -s and -es",
+        "english": "Add -s to most nouns and verbs: book → books; read → reads. Add -es after s, ss, sh, ch, x and usually z when needed for pronunciation: bus → buses, dish → dishes, watch → watches, box → boxes. For consonant + y, change y to i and add -es/-s: city → cities; try → tries. For vowel + y, keep y: boy → boys; play → plays. Some nouns ending in -f/-fe change to -ves (leaf → leaves, knife → knives), but many simply add -s (roof → roofs, chief → chiefs). Words ending in -o vary: tomatoes, potatoes, heroes, but photos and pianos. Learn exceptions individually.",
+        "urdu": "زیادہ تر اسموں اور افعال کے ساتھ -s لگائیں: book → books، read → reads۔ s، ss، sh، ch، x اور عموماً z کے بعد تلفظ کی سہولت کے لیے -es لگتا ہے: bus → buses، dish → dishes، watch → watches، box → boxes۔ consonant + y میں y بدل کر i اور -es/-s لگائیں: city → cities، try → tries۔ vowel + y میں y برقرار: boy → boys، play → plays۔ بعض -f/-fe الفاظ -ves بناتے ہیں، مگر roof → roofs اور chief → chiefs جیسے استثنا بھی ہیں۔ -o والے الفاظ کی جمع مختلف ہو سکتی ہے۔",
+        "sindhi": "گهڻن اسمن ۽ فعلن سان -s لڳايو: book → books، read → reads. s، ss، sh، ch، x ۽ عام طور z کان پوءِ -es لڳندو آهي: bus → buses، dish → dishes. consonant + y ۾ y بدلائي i ڪريو: city → cities؛ vowel + y ۾ y برقرار: boys، plays. ڪجهه -f/-fe لفظ -ves ٿين ٿا، پر roof → roofs ۽ chief → chiefs جهڙا استثنا آهن. -o وارن لفظن جا جمع مختلف ٿي سگهن ٿا.",
+        "examples": [
+          [
+            "bus → buses; box → boxes; dish → dishes",
+            "بسیں؛ ڈبے؛ پلیٹیں",
+            "بسون؛ دٻا؛ ٿانوَ",
+            "Add -es after these sibilant endings."
+          ],
+          [
+            "city → cities; boy → boys",
+            "شہر → شہر؛ لڑکا → لڑکے",
+            "شهر → شهر؛ ڇوڪرو → ڇوڪرا",
+            "Consonant + y changes; vowel + y does not."
+          ],
+          [
+            "leaf → leaves, but roof → roofs",
+            "پتا → پتے، لیکن چھت → چھتیں",
+            "پن → پن، پر ڇت → ڇتون",
+            "The f/fe to ves pattern has important exceptions."
+          ]
+        ]
+      },
+      {
+        "title": "10. British and American English — Common Spelling Differences",
+        "english": "British and American English often use different accepted spellings. Common British forms include colour, favour, honour, labour; American forms are color, favor, honor, labor. British forms often use -re (centre, theatre, metre), while American forms use -er (center, theater, meter). British words often use -ise/-isation (organise, organisation), while American forms usually use -ize/-ization (organize, organization). Note that -ize is also accepted in many British dictionaries and publications; -ise is not a universal British requirement. British forms commonly use -our and -re, but there are exceptions and proper names retain their official spelling.",
+        "urdu": "British اور American English میں کئی مستند املا مختلف ہیں۔ British: colour، favour، honour، labour؛ American: color، favor، honor، labor۔ British میں اکثر -re (centre، theatre، metre) جبکہ American میں -er (center، theater، meter) ہوتا ہے۔ British تحریر میں -ise/-isation عام ہیں، جبکہ American میں عموماً -ize/-ization: organise/organize، organisation/organization۔ تاہم -ize بھی بہت سے British dictionaries اور publications میں درست ہے؛ اس لیے -ise کو ہر صورت لازمی British قاعدہ نہ سمجھیں۔",
+        "sindhi": "British ۽ American English ۾ ڪيترائي مڃيل هِجي مختلف آهن. British: colour، favour، honour؛ American: color، favor، honor. British ۾ گهڻو ڪري -re (centre، theatre) ۽ American ۾ -er (center، theater) لکبو آهي. British لکڻيءَ ۾ -ise/-isation عام آهن، جڏهن ته American ۾ -ize/-ization عام آهن. پر -ize به ڪيترين British لغتن ۽ اشاعتن ۾ قبول ٿيل آهي؛ تنهنڪري -ise کي هر حالت ۾ لازمي قاعدو نه سمجهو.",
+        "examples": [
+          [
+            "British colour — American color; British favourite — American favorite",
+            "برطانوی colour، امریکی color؛ برطانوی favourite، امریکی favorite",
+            "برطانوي colour، آمريڪي color؛ برطانوي favourite، آمريڪي favorite",
+            "The British forms commonly retain u in -our words."
+          ],
+          [
+            "British centre — American center; British theatre — American theater",
+            "مرکز؛ تھیٹر",
+            "مرڪز؛ ٿيٽر",
+            "The -re/-er difference appears in many words, not all."
+          ],
+          [
+            "British organise / organise (also -ize accepted) — American organize",
+            "منظم کرنا",
+            "منظم ڪرڻ",
+            "Both -ise and -ize occur in British usage; follow the chosen dictionary or style guide."
+          ]
+        ]
+      },
+      {
+        "title": "11. More British Spellings — -ce/-se, -ll, and -ogue",
+        "english": "Some British and American word pairs differ in other ways: British defence, offence, licence (noun), practise (verb), catalogue, dialogue, programme; American defense, offense, license (noun and verb), practice (noun and verb), catalog, dialog, program. In British English, practice is the noun and practise is the verb; licence is the noun and license is the verb. American English uses practice and license for both noun and verb. Programme is usual in British English for broadcasts or events, while program is used for computers and is also increasingly common generally. British spellings are not completely uniform, so check the intended context.",
+        "urdu": "British اور American املا میں کچھ اور فرق بھی ہیں: British defence، offence، licence (اسم)، practise (فعل)، catalogue، dialogue، programme؛ American defense، offense، license (اسم و فعل)، practice (اسم و فعل)، catalog، dialog، program۔ British English میں practice اسم اور practise فعل ہے؛ licence اسم اور license فعل ہے۔ American English میں practice اور license دونوں صورتوں میں استعمال ہوتے ہیں۔ Programme عموماً British میں پروگرام یا نشریات کے لیے ہے، جبکہ کمپیوٹر کے لیے program استعمال ہوتا ہے۔",
+        "sindhi": "ٻيا فرق پڻ آهن: British defence، offence، licence (اسم)، practise (فعل)، catalogue، dialogue، programme؛ American defense، offense، license، practice، catalog، dialog، program. British English ۾ practice اسم ۽ practise فعل آهي؛ licence اسم ۽ license فعل. American English ۾ practice ۽ license ٻنهي ڪمن لاءِ استعمال ٿين ٿا. British ۾ نشريات يا تقريب لاءِ programme، پر ڪمپيوٽر لاءِ program لکبو آهي.",
+        "examples": [
+          [
+            "Noun: The driving licence is valid. / Verb: Please practise daily.",
+            "اسم: ڈرائیونگ لائسنس درست ہے۔ / فعل: روزانہ مشق کریں۔",
+            "اسم: ڊرائيونگ لائسنس صحيح آهي. / فعل: روز مشق ڪريو.",
+            "British English distinguishes licence (noun) and practise (verb)."
+          ],
+          [
+            "The theatre programme lists the plays.",
+            "تھیٹر کے پروگرام میں ڈراموں کی فہرست ہے۔",
+            "ٿيٽر جي پروگرام ۾ ڊرامن جي فهرست آهي.",
+            "Programme is common for an event or broadcast in British English."
+          ]
+        ]
+      },
+      {
+        "title": "12. Commonly Confused Spellings and Word Families",
+        "english": "Some spellings must be learned as word families because no single suffix rule predicts every form. Examples: pronunciation (not *pronounciation), separate (not *seperate), necessary (one c and two s), accommodation (double c and double m), beginning (double n), successful (double c and double s), immediately (double m), different (one f and two? The standard spelling has one f and two r? It is d-i-f-f-e-r-e-n-t: double f), and environment. Distinguish homophones and near-homophones: their/there/they're; your/you're; its/it's; whose/who's; affect/effect. Use a dictionary and proofread rather than relying only on sound.",
+        "urdu": "کچھ الفاظ کی املا پورے word family کے ساتھ یاد کرنی چاہیے کیونکہ کوئی ایک suffix rule ہر صورت کی پیش گوئی نہیں کرتا۔ مثالیں: pronunciation (pronounciation نہیں)، separate (seperate نہیں)، necessary (ایک c اور دو s)، accommodation (دو c اور دو m)، beginning (دو n)، successful (دو c اور دو s)، immediately (دو m)، different (دو f) اور environment۔ ہم آواز الفاظ میں فرق کریں: their/there/they're، your/you're، its/it's، whose/who's، affect/effect۔ صرف آواز پر انحصار نہ کریں؛ لغت دیکھیں اور تحریر کی جانچ کریں۔",
+        "sindhi": "ڪجهه لفظن جي لکڻي لفظي خاندان سان گڏ ياد ڪرڻ گهرجي، ڇاڪاڻ⁠تہ ڪو هڪ suffix قاعدو هر صورت نٿو ٻڌائي. مثال: pronunciation، separate، necessary، accommodation، beginning، successful، immediately، different ۽ environment. هڪجهڙي آواز وارن لفظن ۾ فرق ڪريو: their/there/they're، your/you're، its/it's، whose/who's، affect/effect. رڳو آواز تي ڀاڙڻ بدران لغت ڏسو ۽ لکڻي ٻيهر پڙهو.",
+        "examples": [
+          [
+            "necessary (not *neccessary); accommodation (double c and m)",
+            "ضروری؛ رہائش",
+            "ضروري؛ رهائش",
+            "Memorise the number and order of repeated letters."
+          ],
+          [
+            "their = belonging to them; there = in that place; they're = they are",
+            "ان کا؛ وہاں؛ وہ ہیں",
+            "انهن جو؛ اتي؛ اهي آهن",
+            "These words sound alike but have different meanings and grammar."
+          ],
+          [
+            "it's = it is / it has; its = belonging to it",
+            "یہ ہے؛ اس کا",
+            "اهو آهي؛ ان جو",
+            "The apostrophe marks a contraction, not ordinary possession."
+          ]
+        ]
+      },
+      {
+        "title": "13. Practical Method for Adding a Suffix",
+        "english": "Use this sequence whenever you add a suffix: (1) Write the base word. (2) Identify the suffix and whether it begins with a vowel or consonant. (3) Check the final letters: silent e, consonant + y, vowel + y, -ie, or final -c. (4) If the word ends in a possible CVC pattern, check whether its final syllable is stressed. (5) Apply the relevant British or American convention, especially for final -l and -our/-or. (6) Check exceptions in a reliable dictionary. Examples: stop + -ing → stopping; hope + -ing → hoping; happy + -ness → happiness; play + -ed → played; travel + -ed → travelled in British English, traveled in American English.",
+        "urdu": "Suffix لگاتے وقت یہ ترتیب اپنائیں: (1) بنیادی لفظ لکھیں۔ (2) suffix پہچانیں اور دیکھیں کہ وہ vowel سے شروع ہوتا ہے یا consonant سے۔ (3) آخری حروف دیکھیں: silent e، consonant + y، vowel + y، -ie یا آخری -c۔ (4) CVC صورت ہو تو آخری syllable کا stress دیکھیں۔ (5) British یا American املا کا اصول اپنائیں، خاص طور پر آخری -l اور -our/-or میں۔ (6) شک ہو تو معتبر لغت دیکھیں۔ مثالیں: stop + -ing → stopping؛ hope + -ing → hoping؛ happy + -ness → happiness؛ play + -ed → played؛ British travelled، American traveled۔",
+        "sindhi": "Suffix لڳائڻ وقت هي ترتيب اختيار ڪريو: (1) بنيادي لفظ لکو. (2) suffix سڃاڻو ۽ ڏسو ته اهو vowel يا consonant سان شروع ٿئي ٿو. (3) آخري اکر ڏسو: خاموش e، consonant + y، vowel + y، -ie يا آخري -c. (4) CVC صورت هجي ته آخري syllable جو زور ڏسو. (5) British يا American لکڻيءَ جو هڪ اصول اختيار ڪريو. (6) شڪ هجي ته معتبر لغت ڏسو. مثال: stop → stopping؛ hope → hoping؛ happy → happiness؛ play → played؛ British travelled، American traveled.",
+        "examples": [
+          [
+            "stop + -ed → stopped; jump + -ed → jumped",
+            "روکنا → روکا؛ کودنا → کودا",
+            "روڪڻ → روڪيو؛ ٽپو ڏيڻ → ٽپو ڏنو",
+            "Double after short vowel + one consonant, but not after two consonants."
+          ],
+          [
+            "make + -ing → making; agree + -ment → agreement",
+            "بنانا → بنا رہا ہے؛ متفق ہونا → معاہدہ",
+            "ٺاهڻ → ٺاهي رهيو آهي؛ راضي ٿيڻ → معاهدو",
+            "Drop silent e before vowel suffixes; usually keep it before consonant suffixes."
+          ],
+          [
+            "try + -ed → tried; try + -ing → trying",
+            "کوشش کرنا → کوشش کی؛ کوشش کر رہا ہے",
+            "ڪوشش ڪرڻ → ڪوشش ڪئي؛ ڪوشش ڪري رهيو آهي",
+            "Change y before -ed but keep y before -ing."
+          ]
+        ]
+      },
+      {
+        "title": "14. Common Spelling Mistakes — Correct and Incorrect Forms",
+        "english": "Avoid these frequent errors: stoping → stopping; begining → beginning; hopful → hopeful; makeing → making; studys → studies; happyness → happiness; truely → truly; lieing → lying; panic-ing → panicking; travel-ing → travelling (British) / traveling (American); colour (British) / color (American). Do not assume that every final consonant doubles, every final e disappears, or every British spelling is different from American spelling. The correct form depends on the word, suffix, stress and chosen variety.",
+        "urdu": "ان عام غلطیوں سے بچیں: stoping کے بجائے stopping؛ begining کے بجائے beginning؛ hopful کے بجائے hopeful؛ makeing کے بجائے making؛ studys کے بجائے studies؛ happyness کے بجائے happiness؛ truely کے بجائے truly؛ lieing کے بجائے lying؛ panic-ing کے بجائے panicking۔ British میں travelling اور American میں traveling لکھیں۔ ہر آخری consonant کو دگنا یا ہر e کو حذف نہ کریں؛ درست صورت لفظ، suffix، stress اور منتخب معیار پر منحصر ہے۔",
+        "sindhi": "هنن عام غلطين کان بچو: stoping بدران stopping؛ begining بدران beginning؛ hopful بدران hopeful؛ makeing بدران making؛ studys بدران studies؛ happyness بدران happiness؛ truely بدران truly؛ lieing بدران lying؛ panic-ing بدران panicking. British ۾ travelling ۽ American ۾ traveling لکبو آهي. هر آخري consonant ٻيڻو يا هر e ختم نه ڪريو.",
+        "examples": [
+          [
+            "Incorrect: stoping / Correct: stopping",
+            "غلط: stoping / درست: stopping",
+            "غلط: stoping / صحيح: stopping",
+            "The final p doubles."
+          ],
+          [
+            "Incorrect: makeing / Correct: making",
+            "غلط: makeing / درست: making",
+            "غلط: makeing / صحيح: making",
+            "Drop silent e before -ing."
+          ],
+          [
+            "Incorrect: happyness / Correct: happiness",
+            "غلط: happyness / درست: happiness",
+            "غلط: happyness / صحيح: happiness",
+            "Change consonant + y to i before -ness."
+          ]
+        ]
+      },
+      {
+        "title": "15. Practice Exercises with Answer Key",
+        "english": "Add the suffix in brackets and write the correct spelling: 1. run (-ing); 2. hope (-ed); 3. happy (-ness); 4. stop (-ed); 5. study (-ing); 6. prefer (-ed); 7. travel (-ing, British English); 8. lie (-ing); 9. panic (-ing); 10. quick (-ly). Then choose the British spelling: 11. color/colour; 12. center/centre; 13. traveled/travelled; 14. defense/defence; 15. organize/organise (both -ise and -ize are accepted in many British contexts; follow the chosen style guide).",
+        "urdu": "قوسین میں دیے گئے suffix لگا کر درست املا لکھیں: 1. run (-ing)؛ 2. hope (-ed)؛ 3. happy (-ness)؛ 4. stop (-ed)؛ 5. study (-ing)؛ 6. prefer (-ed)؛ 7. travel (-ing، British English)؛ 8. lie (-ing)؛ 9. panic (-ing)؛ 10. quick (-ly)۔ پھر British املا منتخب کریں: 11. color/colour؛ 12. center/centre؛ 13. traveled/travelled؛ 14. defense/defence؛ 15. organize/organise (دونوں صورتیں کئی British contexts میں درست ہیں؛ ایک style guide اختیار کریں)۔",
+        "sindhi": "قوسين ۾ ڏنل suffix لڳائي صحيح لکڻي لکو: 1. run (-ing)؛ 2. hope (-ed)؛ 3. happy (-ness)؛ 4. stop (-ed)؛ 5. study (-ing)؛ 6. prefer (-ed)؛ 7. travel (-ing، British English)؛ 8. lie (-ing)؛ 9. panic (-ing)؛ 10. quick (-ly). پوءِ British لکڻي چونڊيو: 11. color/colour؛ 12. center/centre؛ 13. traveled/travelled؛ 14. defense/defence؛ 15. organize/organise.",
+        "examples": [
+          [
+            "1–5: running; hoped; happiness; stopped; studying",
+            "جواب: running؛ hoped؛ happiness؛ stopped؛ studying",
+            "جواب: running؛ hoped؛ happiness؛ stopped؛ studying",
+            "Notice the doubling, silent-e and y rules."
+          ],
+          [
+            "6–10: preferred; travelling; lying; panicking; quickly",
+            "جواب: preferred؛ travelling؛ lying؛ panicking؛ quickly",
+            "جواب: preferred؛ travelling؛ lying؛ panicking؛ quickly",
+            "The stress rule, British -ll, -ie to -y and -c to -ck are tested."
+          ],
+          [
+            "11–15: colour; centre; travelled; defence; organise (or organize)",
+            "جواب: colour؛ centre؛ travelled؛ defence؛ organise (یا organize)",
+            "جواب: colour؛ centre؛ travelled؛ defence؛ organise (يا organize)",
+            "The -ise/-ize choice depends on the British style guide; both are found in British usage."
+          ]
+        ]
+      }
+    ]
+  }
 };
 
 
