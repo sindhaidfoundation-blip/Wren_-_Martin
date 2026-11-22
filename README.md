@@ -2,12 +2,18 @@
 
 A bilingual English grammar learning app with Urdu explanations, interactive lessons, quizzes, daily practice and progress tracking.
 
-## Run locally
+## Native development and builds
 
-1. Install Node.js (LTS) and Expo Go on your phone.
-2. Run `npm install`.
-3. Run `npx expo start`.
-4. Scan the QR code with Expo Go (Android) or the Camera app (iPhone).
+This project includes `react-native-google-mobile-ads`, which contains native code and is not supported by Expo Go. Use a native development build or a release build instead.
+
+- Install dependencies: `npm install`
+- Validate Expo and native configuration: `npm run check:config && npm run check:expo`
+- Generate Android native project: `npm run prebuild:android`
+- Build Android release APK: `npm run build:android:release`
+- Generate iOS native project on macOS: `npm run prebuild:ios`
+- Build/run iOS on macOS with Xcode: `npx expo run:ios`
+
+GitHub Actions validates both Expo bundles, builds Android APKs, runs an Android emulator launch smoke test, and compiles an iOS Simulator app. A signed iOS device IPA still requires Apple signing credentials.
 
 ## Project status
 
