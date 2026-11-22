@@ -3041,6 +3041,148 @@ export const topicDetails = {
       ]
     }
   ]
+},
+{
+  "title": "Interchange of the Degrees of Comparison — Complete Rules and Transformations",
+  "english": "Adjectives have three degrees of comparison: Positive, Comparative and Superlative. Interchange means rewriting a sentence in another degree without changing its essential meaning. The adjective form and sentence pattern change, but the comparison and the original sense must remain the same. The most common school-grammar transformations are: Positive ↔ Comparative ↔ Superlative; as ... as / not so ... as; no other / any other / all other; and one of the + superlative. Do not change the tense, the subject relationship or the intended meaning while transforming.",
+  "urdu": "Adjectives کے تین درجات ہیں: Positive، Comparative اور Superlative۔ Interchange سے مراد کسی جملے کو اس کا بنیادی مفہوم برقرار رکھتے ہوئے دوسرے درجے میں تبدیل کرنا ہے۔ صفت کی شکل اور جملے کی ساخت بدل سکتی ہے، لیکن موازنہ اور اصل معنی نہیں بدلنے چاہییں۔ اہم تبدیلیوں میں Positive ↔ Comparative ↔ Superlative، as ... as / not so ... as، no other / any other / all other، اور one of the + superlative شامل ہیں۔ تبدیلی کرتے وقت زمانہ، فاعلوں کا تعلق اور اصل مفہوم برقرار رکھیں۔",
+  "sindhi": "Adjectives جا ٽي درجا آهن: Positive، Comparative ۽ Superlative. Interchange جو مطلب آهي جملي جو بنيادي مطلب برقرار رکندي ان کي ٻئي درجي ۾ لکڻ. صفت جي صورت ۽ جملي جي جوڙجڪ بدلجي سگهي ٿي، پر مقابلي ۽ اصل معنيٰ ۾ تبديلي نه اچڻ گهرجي. اهم تبديليون Positive ↔ Comparative ↔ Superlative، as ... as / not so ... as، no other / any other / all other، ۽ one of the + superlative آهن. تبديلي وقت زمانو، فاعلن جو لاڳاپو ۽ اصل مطلب برقرار رکو.",
+  "subsections": [
+    {
+      "title": "1. Understanding the three degrees",
+      "english": "Positive: the basic adjective, with no -er/-est or more/most (tall, beautiful). Comparative: compares two people or things, usually with -er or more and often than (taller than, more beautiful than). Superlative: identifies the highest or lowest degree in a group of three or more, usually with the and -est or most (the tallest, the most beautiful). Irregular forms include good → better → best; bad → worse → worst; little → less → least; much/many → more → most; far → farther/further → farthest/furthest.",
+      "urdu": "Positive بنیادی صفت ہے، جیسے tall، beautiful۔ Comparative دو افراد یا چیزوں کا موازنہ کرتا ہے، جیسے taller than، more beautiful than۔ Superlative تین یا زیادہ میں سب سے اعلیٰ یا کم درجہ ظاہر کرتا ہے، جیسے the tallest، the most beautiful۔ بے قاعدہ صورتیں: good → better → best؛ bad → worse → worst؛ little → less → least؛ much/many → more → most؛ far → farther/further → farthest/furthest۔",
+      "sindhi": "Positive صفت جي بنيادي صورت آهي، جيئن tall، beautiful. Comparative ٻن ماڻهن يا شين جو مقابلو ڪري ٿو، جيئن taller than، more beautiful than. Superlative ٽن يا وڌيڪ مان سڀ کان وڌيڪ يا گهٽ درجو ڏيکاري ٿو، جيئن the tallest، the most beautiful. بيقاعده صورتون: good → better → best؛ bad → worse → worst؛ little → less → least؛ much/many → more → most؛ far → farther/further → farthest/furthest."
+    },
+    {
+      "title": "2. Positive to Comparative and Superlative: as ... as",
+      "english": "For an equal comparison, use as + positive adjective + as. Example: 'Karim is as tall as Rahim.' To express that one is not equal in degree, use not as/so + positive adjective + as: 'Karim is not as tall as Rahim.' The equivalent comparative is 'Rahim is taller than Karim.' The superlative form, when Karim and Rahim are being compared within a stated group of three, may be 'Rahim is the tallest of the three.' Keep the group clear: a superlative needs a group or context.",
+      "urdu": "برابری کے موازنے کے لیے as + Positive adjective + as استعمال کریں: Karim is as tall as Rahim۔ عدم برابری کے لیے not as/so + Positive adjective + as: Karim is not as tall as Rahim۔ اس کا Comparative متبادل ہے: Rahim is taller than Karim۔ اگر تین افراد کے گروہ میں موازنہ ہو تو Superlative ہو سکتا ہے: Rahim is the tallest of the three۔ Superlative کے لیے گروہ یا سیاق واضح ہونا چاہیے۔",
+      "sindhi": "برابريءَ جي مقابلي لاءِ as + Positive adjective + as استعمال ڪريو: Karim is as tall as Rahim. اڻبرابري لاءِ not as/so + Positive adjective + as: Karim is not as tall as Rahim. ان جو Comparative متبادل آهي: Rahim is taller than Karim. جيڪڏهن ٽن ماڻهن جي گروهه ۾ مقابلو هجي ته Superlative ٿي سگهي ٿو: Rahim is the tallest of the three. Superlative لاءِ گروهه يا حوالو واضح هجڻ گهرجي."
+    },
+    {
+      "title": "3. Positive with no other → Comparative → Superlative",
+      "english": "For a unique member of a group, use this pattern: Positive: 'No other + singular noun + is as + positive adjective + as X.' Comparative: 'X + is + comparative adjective + than any other + singular noun.' Superlative: 'X + is the + superlative adjective + singular group noun.' Example: 'No other city in the country is as large as Metroville.' → 'Metroville is larger than any other city in the country.' → 'Metroville is the largest city in the country.' Use any other, not any, when the subject is included in the same group being compared. The singular noun after any other is important.",
+      "urdu": "کسی گروہ میں ایک منفرد یا سب سے اعلیٰ فرد کے لیے یہ ساخت استعمال ہوتی ہے۔ Positive: No other + واحد اسم + is as + Positive adjective + as X۔ Comparative: X + is + Comparative adjective + than any other + واحد اسم۔ Superlative: X + is the + Superlative adjective + واحد گروہی اسم۔ مثال: No other city ... is as large as Metroville → Metroville is larger than any other city ... → Metroville is the largest city ...۔ جب X اسی گروہ میں شامل ہو تو any other کے بعد واحد اسم استعمال کریں۔",
+      "sindhi": "ڪنهن گروهه ۾ هڪ منفرد يا سڀ کان اعليٰ شيءِ لاءِ هي جوڙجڪ استعمال ٿئي ٿي. Positive: No other + واحد اسم + is as + Positive adjective + as X. Comparative: X + is + Comparative adjective + than any other + واحد اسم. Superlative: X + is the + Superlative adjective + واحد گروهي اسم. مثال: No other city ... is as large as Metroville → Metroville is larger than any other city ... → Metroville is the largest city ... . جڏهن X ساڳئي گروهه ۾ شامل هجي ته any other کان پوءِ واحد اسم استعمال ڪريو."
+    },
+    {
+      "title": "4. Comparative with any other / all other",
+      "english": "A sentence with 'X is greater/taller/better than any other member' can be changed to 'X is the greatest/tallest/best member'. If the subject is compared with every remaining member, 'than all the other + plural noun' may also be used: 'Mina is wiser than all the other students' → 'Mina is the wisest student.' Do not write 'than all other student'; the noun must be plural after all the other.",
+      "urdu": "X is taller than any other member کو X is the tallest member میں بدلا جا سکتا ہے۔ جب باقی تمام افراد مراد ہوں تو than all the other + جمع اسم بھی آ سکتا ہے: Mina is wiser than all the other students → Mina is the wisest student۔ All the other کے بعد جمع اسم ضروری ہے۔",
+      "sindhi": "X is taller than any other member کي X is the tallest member ۾ تبديل ڪري سگهجي ٿو. جڏهن باقي سڀئي فرد مراد هجن ته than all the other + جمع اسم به اچي سگهي ٿو: Mina is wiser than all the other students → Mina is the wisest student. All the other کان پوءِ جمع اسم ضروري آهي."
+    },
+    {
+      "title": "5. Superlative with one of the → Positive and Comparative",
+      "english": "When the sentence says that someone or something is one of a group with a very high quality, use: Superlative: 'X is one of the + superlative + plural noun.' Positive: 'Very few + plural noun + are as + positive adjective + as X.' Comparative: 'X is better/more ... than most other + plural noun.' Example: 'The Nile is one of the longest rivers in the world.' → 'Very few rivers in the world are as long as the Nile.' → 'The Nile is longer than most other rivers in the world.' One of the is followed by a plural noun, although the subject X is singular.",
+      "urdu": "جب جملے میں کسی کو اعلیٰ درجے والے گروہ کے چند افراد میں سے ایک بتایا جائے تو Superlative ساخت ہے: X is one of the + Superlative + جمع اسم۔ Positive: Very few + جمع اسم + are as + Positive adjective + as X۔ Comparative: X is more ... than most other + جمع اسم۔ مثال: The Nile is one of the longest rivers ... → Very few rivers ... are as long as the Nile → The Nile is longer than most other rivers ...۔ One of the کے بعد جمع اسم آتا ہے۔",
+      "sindhi": "جڏهن جملي ۾ ڪنهن شيءِ کي اعليٰ درجي واري گروهه جي چند شين مان هڪ چيو وڃي ته Superlative جوڙجڪ آهي: X is one of the + Superlative + جمع اسم. Positive: Very few + جمع اسم + are as + Positive adjective + as X. Comparative: X is more ... than most other + جمع اسم. مثال: The Nile is one of the longest rivers ... → Very few rivers ... are as long as the Nile → The Nile is longer than most other rivers ... . One of the کان پوءِ جمع اسم اچي ٿو."
+    },
+    {
+      "title": "6. Positive to Comparative using not so/as ... as",
+      "english": "'A is not as/so + positive adjective + as B' usually means B has a greater degree of the quality. Change it to 'B is + comparative adjective + than A.' Example: 'This road is not as wide as that road.' → 'That road is wider than this road.' The direction of comparison reverses: the second item in the positive sentence becomes the subject of the comparative sentence.",
+      "urdu": "A is not as/so + Positive adjective + as B کا مطلب عموماً یہ ہے کہ B میں وہ خوبی زیادہ ہے۔ اسے B is + Comparative adjective + than A میں بدلیں۔ مثال: This road is not as wide as that road → That road is wider than this road۔ موازنے کی سمت بدل جاتی ہے؛ Positive جملے میں دوسرا فریق Comparative جملے کا Subject بن جاتا ہے۔",
+      "sindhi": "A is not as/so + Positive adjective + as B جو مطلب عام طور B ۾ اها خوبي وڌيڪ آهي. ان کي B is + Comparative adjective + than A ۾ بدلايو. مثال: This road is not as wide as that road → That road is wider than this road. مقابلي جي رخ ۾ تبديلي اچي ٿي؛ Positive جملي جو ٻيو پاسو Comparative جملي جو Subject بڻجي ٿو."
+    },
+    {
+      "title": "7. Rules for forming comparative and superlative adjectives",
+      "english": "Most one-syllable adjectives add -er/-est: tall → taller → tallest. Adjectives ending in -e add -r/-st: large → larger → largest. A short vowel + consonant often doubles the final consonant: big → bigger → biggest; hot → hotter → hottest. Adjectives ending consonant + y change y to i: happy → happier → happiest. Many longer adjectives use more/most: beautiful → more beautiful → most beautiful. Avoid double forms such as more taller or most tallest. Some two-syllable adjectives allow either pattern depending on the word and usage (cleverer/more clever).",
+      "urdu": "ایک ہجائی صفات کے ساتھ عموماً -er/-est لگتا ہے: tall → taller → tallest۔ e پر ختم ہونے والی صفت میں -r/-st: large → larger → largest۔ مختصر vowel کے بعد آخری consonant اکثر دگنا ہوتا ہے: big → bigger → biggest۔ consonant + y میں y بدل کر i ہو جاتا ہے: happy → happier → happiest۔ لمبی صفات کے ساتھ عموماً more/most آتا ہے: beautiful → more beautiful → most beautiful۔ More taller یا most tallest جیسی دوہری صورتیں غلط ہیں۔ بعض دو ہجائی صفات دونوں طریقوں سے آ سکتی ہیں۔",
+      "sindhi": "هڪ پد وارن صفتن سان عام طور -er/-est لڳندو آهي: tall → taller → tallest. e تي ختم ٿيندڙ صفت ۾ -r/-st: large → larger → largest. مختصر vowel کان پوءِ آخري consonant اڪثر ٻيڻو ٿيندو آهي: big → bigger → biggest. consonant + y ۾ y بدلجي i ٿيندو آهي: happy → happier → happiest. ڊگهن صفتن سان عام طور more/most ايندو آهي: beautiful → more beautiful → most beautiful. More taller يا most tallest جهڙيون ٻٽي صورتون غلط آهن. ڪي ٻه پد وارا صفت ٻنهي طريقن سان اچي سگهن ٿا."
+    },
+    {
+      "title": "8. Important cautions: meaning, articles and comparison groups",
+      "english": "Use than with a comparative when the second item is stated. Use the before a superlative in ordinary attributive use: the tallest boy, the most useful book. Do not compare a person or thing with itself: 'than any other boy' is correct when the subject is a boy in that group; 'than any boy' can accidentally include the subject and create a faulty comparison. 'One of the' requires a plural noun and a plural sense: one of the best players. Some comparisons are logically not interchangeable unless the group is specified. Preserve the original time, tense and facts. Do not change 'not as tall as' into 'shorter than' unless the context supports that exact meaning.",
+      "urdu": "Comparative کے بعد دوسرے فریق کا نام آئے تو than استعمال کریں۔ عام استعمال میں Superlative سے پہلے the آتا ہے: the tallest boy، the most useful book۔ کسی شخص یا چیز کا اسی سے موازنہ نہ کریں؛ گروہ میں شامل لڑکے کے لیے than any other boy درست ہے، کیونکہ than any boy میں خود Subject بھی شامل ہو سکتا ہے۔ One of the کے بعد جمع اسم ضروری ہے: one of the best players۔ ہر جملے کی تبدیلی تبھی درست ہے جب گروہ اور اصل مفہوم برقرار رہیں۔ زمانہ اور حقائق نہ بدلیں۔",
+      "sindhi": "Comparative کان پوءِ ٻئي پاسو ٻڌائڻ لاءِ than استعمال ڪريو. عام استعمال ۾ Superlative کان اڳ the ايندو آهي: the tallest boy، the most useful book. ڪنهن شخص يا شيءِ جو پاڻ سان مقابلو نه ڪريو؛ ساڳئي گروهه ۾ شامل ڇوڪري لاءِ than any other boy صحيح آهي، ڇو ته than any boy ۾ Subject پاڻ به شامل ٿي سگهي ٿو. One of the کان پوءِ جمع اسم ضروري آهي: one of the best players. تبديلي تڏهن ئي صحيح آهي جڏهن گروهه ۽ اصل مطلب برقرار رهن. زمانو ۽ حقيقتون نه بدلايو."
+    }
+  ],
+  "examples": [
+    [
+      "Positive: No other boy in the class is as tall as Hamza. | Comparative: Hamza is taller than any other boy in the class. | Superlative: Hamza is the tallest boy in the class.",
+      "All three sentences express that Hamza has the greatest height in the class.",
+      "مثبت: جماعت میں کوئی دوسرا لڑکا حمزہ جتنا لمبا نہیں۔ | تقابلی: حمزہ جماعت کے کسی بھی دوسرے لڑکے سے لمبا ہے۔ | اعلیٰ: حمزہ جماعت کا سب سے لمبا لڑکا ہے۔",
+      "مثبت: ڪلاس ۾ ٻيو ڪو به ڇوڪرو حمزه جيترو ڊگهو ناهي. | تقابلي: حمزه ڪلاس جي ڪنهن به ٻئي ڇوڪري کان ڊگهو آهي. | اعليٰ: حمزه ڪلاس جو سڀ کان ڊگهو ڇوڪرو آهي."
+    ],
+    [
+      "Positive: No other metal is as useful as iron. | Comparative: Iron is more useful than any other metal. | Superlative: Iron is the most useful metal.",
+      "The comparison is among metals; any other prevents comparing iron with itself.",
+      "مثبت: کوئی دوسری دھات لوہے جتنی مفید نہیں۔ | تقابلی: لوہا کسی بھی دوسری دھات سے زیادہ مفید ہے۔ | اعلیٰ: لوہا سب سے مفید دھات ہے۔",
+      "مثبت: ٻي ڪا به ڌاتو لوهه جيتري ڪارائتي ناهي. | تقابلي: لوهه ڪنهن به ٻي ڌاتو کان وڌيڪ ڪارائتو آهي. | اعليٰ: لوهه سڀ کان ڪارائتي ڌاتو آهي."
+    ],
+    [
+      "Positive: Very few cities in Pakistan are as large as Karachi. | Comparative: Karachi is larger than most other cities in Pakistan. | Superlative: Karachi is one of the largest cities in Pakistan.",
+      "One of the largest means Karachi belongs to a group of very large cities, not that it is the only largest city.",
+      "مثبت: پاکستان کے بہت کم شہر کراچی جتنے بڑے ہیں۔ | تقابلی: کراچی پاکستان کے بیشتر دوسرے شہروں سے بڑا ہے۔ | اعلیٰ: کراچی پاکستان کے بڑے ترین شہروں میں سے ایک ہے۔",
+      "مثبت: پاڪستان جا تمام ٿورا شهر ڪراچي جيترا وڏا آهن. | تقابلي: ڪراچي پاڪستان جي گهڻن ٻين شهرن کان وڏو آهي. | اعليٰ: ڪراچي پاڪستان جي وڏن شهرن مان هڪ آهي."
+    ],
+    [
+      "Positive: A mango is not as cheap as a banana. | Comparative: A banana is cheaper than a mango.",
+      "The subject changes because the banana has the lower price.",
+      "مثبت: آم کیلا جتنا سستا نہیں ہے۔ | تقابلی: کیلا آم سے زیادہ سستا ہے۔",
+      "مثبت: انب ڪِيلي جيترو سستو ناهي. | تقابلي: ڪيِلو انب کان وڌيڪ سستو آهي."
+    ],
+    [
+      "Positive: This exercise is as easy as that one. | Comparative: This exercise is not easier or more difficult than that one.",
+      "Equality can be expressed by as ... as. Avoid inventing a difference in degree.",
+      "مثبت: یہ مشق اس مشق جتنی آسان ہے۔ | تقابلی مفہوم: یہ مشق اس سے زیادہ آسان یا مشکل نہیں ہے۔",
+      "مثبت: هي مشق ان مشق جيتري آسان آهي. | تقابلي مطلب: هي مشق ان کان وڌيڪ آسان يا ڏکي ناهي."
+    ],
+    [
+      "Positive: No other student in the team is as punctual as Sana. | Comparative: Sana is more punctual than any other student in the team. | Superlative: Sana is the most punctual student in the team.",
+      "Punctual is a longer adjective, so more/most are used.",
+      "مثبت: ٹیم میں کوئی دوسرا طالب علم ثنا جتنا پابندِ وقت نہیں۔ | تقابلی: ثنا ٹیم کے کسی بھی دوسرے طالب علم سے زیادہ پابندِ وقت ہے۔ | اعلیٰ: ثنا ٹیم کی سب سے زیادہ پابندِ وقت طالبہ ہے۔",
+      "مثبت: ٽيم ۾ ٻيو ڪو به شاگرد ثنا جيترو وقت جو پابند ناهي. | تقابلي: ثنا ٽيم جي ڪنهن به ٻئي شاگرد کان وڌيڪ وقت جي پابند آهي. | اعليٰ: ثنا ٽيم جي سڀ کان وڌيڪ وقت جي پابند شاگردياڻي آهي."
+    ],
+    [
+      "Superlative: Mount Everest is the highest mountain in the world. | Positive: No other mountain in the world is as high as Mount Everest. | Comparative: Mount Everest is higher than any other mountain in the world.",
+      "This is the standard unique-superlative pattern.",
+      "اعلیٰ: ماؤنٹ ایورسٹ دنیا کا سب سے بلند پہاڑ ہے۔ | مثبت: دنیا کا کوئی دوسرا پہاڑ ماؤنٹ ایورسٹ جتنا بلند نہیں۔ | تقابلی: ماؤنٹ ایورسٹ دنیا کے کسی بھی دوسرے پہاڑ سے بلند ہے۔",
+      "اعليٰ: مائونٽ ايورسٽ دنيا جو سڀ کان اوچو جبل آهي. | مثبت: دنيا جو ٻيو ڪو به جبل مائونٽ ايورسٽ جيترو اوچو ناهي. | تقابلي: مائونٽ ايورسٽ دنيا جي ڪنهن به ٻئي جبل کان اوچو آهي."
+    ],
+    [
+      "Superlative: This is one of the most interesting books I have read. | Positive: Very few books I have read are as interesting as this one. | Comparative: This book is more interesting than most other books I have read.",
+      "One of the + superlative takes a plural noun (books).",
+      "اعلیٰ: یہ ان دلچسپ ترین کتابوں میں سے ایک ہے جو میں نے پڑھی ہیں۔ | مثبت: میں نے بہت کم کتابیں اس جتنی دلچسپ پڑھی ہیں۔ | تقابلی: یہ کتاب میری پڑھی ہوئی بیشتر دوسری کتابوں سے زیادہ دلچسپ ہے۔",
+      "اعليٰ: هي انهن دلچسپ ترين ڪتابن مان هڪ آهي جيڪي مون پڙهيا آهن. | مثبت: مون تمام ٿورا ڪتاب هن جيترا دلچسپ پڙهيا آهن. | تقابلي: هي ڪتاب منهنجي پڙهيل گهڻن ٻين ڪتابن کان وڌيڪ دلچسپ آهي."
+    ],
+    [
+      "Positive: Gold is not as common as iron. | Comparative: Iron is more common than gold.",
+      "The negative equality pattern reverses the subject and comparative direction.",
+      "مثبت: سونا لوہے جتنا عام نہیں ہے۔ | تقابلی: لوہا سونے سے زیادہ عام ہے۔",
+      "مثبت: سون لوهه جيترو عام ناهي. | تقابلي: لوهه سون کان وڌيڪ عام آهي."
+    ],
+    [
+      "Positive: No other animal on land is as fast as the cheetah. | Comparative: The cheetah is faster than any other land animal. | Superlative: The cheetah is the fastest land animal.",
+      "The group is restricted to land animals; retain that restriction in every form.",
+      "مثبت: خشکی پر کوئی دوسرا جانور چیتے جتنا تیز نہیں۔ | تقابلی: چیتا خشکی کے کسی بھی دوسرے جانور سے تیز ہے۔ | اعلیٰ: چیتا خشکی کا سب سے تیز جانور ہے۔",
+      "مثبت: خشڪيءَ تي ٻيو ڪو به جانور چيتِي جيترو تيز ناهي. | تقابلي: چيتو خشڪيءَ جي ڪنهن به ٻئي جانور کان تيز آهي. | اعليٰ: چيتو خشڪيءَ جو سڀ کان تيز جانور آهي."
+    ]
+  ],
+  "exercises": [
+    "1. Change into Comparative and Superlative: No other girl in the class is as clever as Amina.",
+    "2. Change into Positive and Comparative: Mount Everest is the highest mountain in the world.",
+    "3. Change into Positive and Superlative: Karachi is larger than any other city in the province.",
+    "4. Change into Comparative: This road is not as wide as that road.",
+    "5. Change into Positive: The rose is more beautiful than most other flowers.",
+    "6. Change into Positive and Comparative: This is one of the most useful books in the library.",
+    "7. Correct the sentence: Ali is more taller than Ahmed.",
+    "8. Correct the sentence: She is the most wisest student in the class.",
+    "9. Change into Superlative: No other metal is as valuable as platinum.",
+    "10. Change into Positive: The cheetah is faster than any other land animal."
+  ],
+  "answers": [
+    "1. Comparative: Amina is cleverer than any other girl in the class. Superlative: Amina is the cleverest girl in the class.",
+    "2. Positive: No other mountain in the world is as high as Mount Everest. Comparative: Mount Everest is higher than any other mountain in the world.",
+    "3. Positive: No other city in the province is as large as Karachi. Superlative: Karachi is the largest city in the province.",
+    "4. That road is wider than this road.",
+    "5. Very few flowers are as beautiful as the rose.",
+    "6. Positive: Very few books in the library are as useful as this one. Comparative: This book is more useful than most other books in the library.",
+    "7. Ali is taller than Ahmed. Do not use more with the -er form.",
+    "8. She is the wisest student in the class. Do not combine most with the -est form.",
+    "9. Platinum is the most valuable metal.",
+    "10. No other land animal is as fast as the cheetah."
+  ]
 }]
   },
   "tenses": {
