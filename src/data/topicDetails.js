@@ -1891,9 +1891,78 @@ export const topicDetails = {
     examples: ["She opened the window. (transitive)", "The baby slept. (intransitive)", "He became a doctor. (linking)"]
   },
   "verbs-incomplete-predication": {
-    overview: "Some verbs do not complete their meaning with an object alone and need a subject complement. Common linking verbs include be, become, seem, appear and remain.",
-    watchFor: "The complement describes or identifies the subject. In “The sky became dark,” dark describes the sky; it is not an object receiving an action.",
-    examples: ["The plan seems sensible.", "Her brother became an engineer.", "The milk went sour."]
+    overview: "Verbs of incomplete predication need a complement to complete the predicate. The complement may be a predicate noun or predicate adjective that identifies or describes the subject.",
+    watchFor: "A subject complement refers back to the subject; it is not a direct object. In “The sky became dark,” dark describes the sky.",
+    examples: ["The plan seems sensible.", "Her brother became an engineer.", "The milk went sour."],
+    specialSectionsTitle: "DETAILED EXPLANATION — ENGLISH, URDU & SINDHI",
+    specialSections: [{
+      "title": "Verbs of Incomplete Predication, Complements and Completion of the Predicate",
+      "english": "A verb is said to be of incomplete predication when it does not make a complete sense by itself and requires a word or group of words to complete the predicate. Compare “The child laughed” with “The child became”. The first sentence gives a complete thought, but the second makes the reader ask, “became what?” The verb became therefore needs a complement: “The child became quiet.” Such verbs are commonly called linking verbs or verbs of incomplete predication. They do not normally express an action passing from the subject to an object; instead, they connect the subject with a description, identity, condition or state. Common examples are be, become, seem, appear, look, feel, sound, smell, taste, remain, grow, turn and prove. The exact function depends on the sentence: “She looked at the picture” uses looked as an action verb, while “She looked tired” uses looked as a linking verb.\n\nThe complement of a verb is the word or phrase needed to complete its meaning or to give further information about the subject or object. In this lesson the chief concern is the subject complement, which follows a linking verb and refers back to the subject. In “Ali is a doctor,” the noun phrase a doctor identifies Ali. In “The weather is pleasant,” the adjective pleasant describes the weather. A complement is different from an object. An object receives the action of a transitive verb: in “Sara opened the door,” the door is the object. But in “Sara became a teacher,” a teacher does not receive an action; it identifies Sara and is a subject complement.\n\nCompletion of the predicate means making the predicate grammatically and meaningfully complete. A predicate may contain only a verb (“Birds fly”), a verb and an object (“Birds build nests”), or a linking verb and a complement (“Birds are beautiful”). With a verb of incomplete predication, the subject complement completes the thought. The complement may be a noun, pronoun, adjective, or a longer phrase. It may name the subject, rename it, or describe its quality, appearance, feeling or condition.\n\nA predictive noun (more commonly called a predicate noun or predicative nominative) is a noun or noun phrase used after a linking verb to identify or rename the subject. For example, “My sister is a doctor”: doctor tells us who my sister is. “They elected him captain” has captain as an object complement, not a subject complement, because it describes the object him. A predictive adjective (usually called a predicate adjective) is an adjective after a linking verb that describes the subject: “The soup tastes salty.” Salty describes soup. It is not an adverb because it describes the subject, not the manner in which the soup tastes.\n\nA subjective complement (the usual modern term is subject complement) is the general name for a noun, pronoun or adjective that completes a linking verb and relates to the subject. It may be a predicate noun (“The winner was Nadia”) or a predicate adjective (“The winner was happy”). To identify it, first find the subject and verb; then ask whether the following word identifies or describes the subject. If it does, and the verb is linking, it is likely a subject complement. Do not confuse a subject complement with an adverbial: “The room is quiet” has adjective complement quiet, whereas “The room is upstairs” has an adverbial of place in many school-grammar analyses. Remember that grammar labels can vary slightly among textbooks; predicate noun, predicative noun and subjective complement may be used with different terminology, but the central idea is the same: the complement completes the linking verb and refers to the subject.",
+      "urdu": "ایسا فعل جس سے جملے کا مفہوم مکمل نہ ہو اور بات پوری کرنے کے لیے کسی اسم، صفت یا دوسرے لفظ کی ضرورت ہو، فعلِ ناقص یا Verb of Incomplete Predication کہلاتا ہے۔ مثال کے طور پر “The child became” سن کر سوال پیدا ہوتا ہے کہ بچہ کیا بن گیا؟ جب ہم کہتے ہیں “The child became quiet” تو مفہوم مکمل ہو جاتا ہے۔ یہاں became ربطی فعل ہے اور quiet اس کے معنی کو مکمل کرتا ہے۔ ایسے افعال عموماً subject پر ہونے والی کارروائی نہیں بتاتے بلکہ subject کو کسی حالت، شناخت یا صفت سے ملاتے ہیں۔ Be, become, seem, appear, look, feel, sound, smell, taste, remain, grow, turn اور prove عام linking verbs ہیں۔ ایک ہی فعل مختلف جملوں میں مختلف کام کر سکتا ہے: “She looked at the picture” میں looked عمل ظاہر کرتا ہے، لیکن “She looked tired” میں یہ linking verb ہے کیونکہ tired، She کی حالت بتاتا ہے۔\n\nVerb کا complement وہ لفظ یا فقرہ ہے جو فعل کے معنی کو مکمل کرے یا subject یا object کے بارے میں ضروری معلومات دے۔ اس سبق میں خاص طور پر Subject Complement اہم ہے۔ یہ linking verb کے بعد آتا ہے اور subject ہی کی شناخت یا کیفیت بیان کرتا ہے۔ “Ali is a doctor” میں a doctor علی کی شناخت بتاتا ہے، جبکہ “The weather is pleasant” میں pleasant موسم کی صفت بیان کرتا ہے۔ Complement کو object نہ سمجھیں۔ “Sara opened the door” میں door، opened کا object ہے کیونکہ دروازے پر عمل ہوا۔ لیکن “Sara became a teacher” میں teacher کوئی object نہیں؛ یہ سارہ کی شناخت بتانے والا subject complement ہے۔\n\nCompletion of the Predicate سے مراد predicate کو نحوی اور معنوی طور پر مکمل کرنا ہے۔ Predicate صرف فعل پر مشتمل ہو سکتا ہے، جیسے “Birds fly”؛ فعل اور object پر مشتمل ہو سکتا ہے، جیسے “Birds build nests”؛ یا linking verb اور complement پر مشتمل ہو سکتا ہے، جیسے “Birds are beautiful”۔ جب فعلِ ناقص استعمال ہو تو subject complement جملے کا مفہوم مکمل کرتا ہے۔ یہ complement اسم، ضمیر، صفت یا کسی بڑے فقرے کی صورت میں آ سکتا ہے۔ یہ subject کا نام بتاتا، اس کی شناخت کرتا یا اس کی حالت و خوبی بیان کرتا ہے۔\n\nPredictive Noun، جسے زیادہ معروف اصطلاح میں Predicate Noun یا Predicative Nominative کہتے ہیں، وہ اسم یا اسمی فقرہ ہے جو linking verb کے بعد آ کر subject کی شناخت یا دوسرا نام بتاتا ہے۔ “My sister is a doctor” میں doctor، sister کی شناخت ہے۔ اس کے برعکس “They elected him captain” میں captain، object him کے بارے میں ہے، اس لیے یہ object complement ہے، subject complement نہیں۔ Predictive Adjective یا Predicate Adjective وہ صفت ہے جو linking verb کے بعد subject کی خوبی یا حالت بیان کرے۔ “The soup tastes salty” میں salty، soup کی صفت ہے۔ یہ adverb نہیں کیونکہ یہ subject کو بیان کر رہا ہے، فعل کے طریقے کو نہیں۔\n\nSubjective Complement کی عام جدید اصطلاح Subject Complement ہے۔ یہ ایسا اسم، ضمیر یا صفت ہے جو linking verb کے بعد آ کر subject سے تعلق رکھتا اور predicate کو مکمل کرتا ہے۔ “The winner was Nadia” میں Nadia predicate noun ہے، جبکہ “The winner was happy” میں happy predicate adjective ہے۔ اسے پہچاننے کے لیے پہلے subject اور verb تلاش کریں، پھر دیکھیں کہ linking verb کے بعد آنے والا لفظ subject کا نام بتاتا ہے یا اس کی صفت بیان کرتا ہے۔ اگر ایسا ہو تو وہ subject complement ہے۔ “The room is quiet” میں quiet صفتی complement ہے، جبکہ “The room is upstairs” میں upstairs جگہ بتانے والا لفظ ہے۔ یاد رکھیں کہ مختلف کتابوں میں اصطلاحات کچھ مختلف ہو سکتی ہیں، لیکن بنیادی اصول یہی ہے کہ complement linking verb کو مکمل کرتا اور subject ہی کے بارے میں بتاتا ہے۔",
+      "sindhi": "اهڙو فعل جنهن سان جملي جو مطلب مڪمل نه ٿئي ۽ ڳالهه پوري ڪرڻ لاءِ ڪنهن اسم، صفت يا ٻئي لفظ جي ضرورت پوي، تنهن کي Verb of Incomplete Predication يا اڻپورو مفھوم ڏيندڙ فعل چئبو آهي. مثال طور “The child became” ٻڌڻ سان سوال پيدا ٿئي ٿو ته ٻار ڇا ٿيو؟ جڏهن چئون ٿا “The child became quiet” ته مطلب مڪمل ٿئي ٿو. هتي became ربط وارو فعل آهي ۽ quiet ان جو مطلب پورو ڪري ٿو. اهڙا فعل عام طور subject ڏانهن ٿيندڙ عمل نٿا ڏيکارين، پر subject کي ڪنهن سڃاڻپ، حالت يا خوبي سان ڳنڍين ٿا. Be, become, seem, appear, look, feel, sound, smell, taste, remain, grow, turn ۽ prove عام linking verbs آهن. هڪ ئي فعل مختلف جملن ۾ مختلف ڪم ڪري سگهي ٿو: “She looked at the picture” ۾ looked عمل ڏيکاري ٿو، پر “She looked tired” ۾ اهو linking verb آهي، ڇاڪاڻ ته tired، She جي حالت ٻڌائي ٿو.\n\nVerb جو complement اهو لفظ يا فقرو آهي جيڪو فعل جو مطلب پورو ڪري يا subject يا object بابت ضروري ڄاڻ ڏئي. هن سبق ۾ Subject Complement اهم آهي. اهو linking verb کان پوءِ اچي ٿو ۽ subject جي سڃاڻپ يا حالت ٻڌائي ٿو. “Ali is a doctor” ۾ a doctor، علي جي سڃاڻپ ٻڌائي ٿو، جڏهن ته “The weather is pleasant” ۾ pleasant موسم جي خوبي بيان ڪري ٿو. Complement کي object نه سمجهڻ گهرجي. “Sara opened the door” ۾ door، opened جو object آهي، ڇاڪاڻ ته دروازي تي عمل ٿيو. پر “Sara became a teacher” ۾ teacher ڪو object ناهي؛ اهو ساره جي سڃاڻپ ٻڌائيندڙ subject complement آهي.\n\nCompletion of the Predicate جو مطلب آهي predicate کي گرامر ۽ معنيٰ جي لحاظ کان مڪمل ڪرڻ. Predicate رڳو فعل تي مشتمل ٿي سگهي ٿو، جيئن “Birds fly”؛ فعل ۽ object تي مشتمل ٿي سگهي ٿو، جيئن “Birds build nests”؛ يا linking verb ۽ complement تي مشتمل ٿي سگهي ٿو، جيئن “Birds are beautiful”۔ جڏهن incomplete predication وارو فعل اچي ٿو ته subject complement جملي جو مطلب پورو ڪري ٿو. اهو complement اسم، ضمير، صفت يا وڏي فقري جي صورت ۾ ٿي سگهي ٿو. اهو subject جو نالو، سڃاڻپ، حالت يا خوبي ٻڌائي ٿو.\n\nPredictive Noun کي وڌيڪ عام اصطلاح ۾ Predicate Noun يا Predicative Nominative چيو ويندو آهي. اهو اسم يا اسمي فقرو آهي جيڪو linking verb کان پوءِ اچي subject جي سڃاڻپ يا ٻيو نالو ٻڌائي ٿو. “My sister is a doctor” ۾ doctor، sister جي سڃاڻپ آهي. پر “They elected him captain” ۾ captain، object him بابت ٻڌائي ٿو، تنهنڪري اهو object complement آهي، subject complement نه آهي. Predictive Adjective يا Predicate Adjective اها صفت آهي جيڪا linking verb کان پوءِ اچي subject جي حالت يا خوبي بيان ڪري. “The soup tastes salty” ۾ salty، soup جي صفت آهي؛ اهو adverb نه آهي، ڇاڪاڻ ته اهو subject کي بيان ڪري ٿو، فعل جي طريقي کي نه.\n\nSubjective Complement لاءِ جديد گرامر ۾ عام اصطلاح Subject Complement آهي. اهو اسم، ضمير يا صفت آهي جيڪو linking verb کان پوءِ اچي subject سان لاڳاپيل رهي predicate کي مڪمل ڪري ٿو. “The winner was Nadia” ۾ Nadia predicate noun آهي، جڏهن ته “The winner was happy” ۾ happy predicate adjective آهي. سڃاڻپ لاءِ پهرين subject ۽ verb ڳوليو؛ پوءِ ڏسو ته linking verb کان پوءِ ايندڙ لفظ subject جو نالو ٻڌائي ٿو يا ان جي صفت بيان ڪري ٿو. جيڪڏهن ائين آهي ته اهو subject complement آهي. “The room is quiet” ۾ quiet صفت وارو complement آهي، جڏهن ته “The room is upstairs” ۾ upstairs جاءِ ٻڌائي ٿو. مختلف ڪتابن ۾ اصطلاحن جو نالو ٿورو بدلجي سگهي ٿو، پر بنيادي اصول ساڳيو آهي: complement linking verb کي مڪمل ڪري ٿو ۽ subject بابت ڄاڻ ڏئي ٿو.",
+      "examples": [
+            [
+                  "The sky became dark.",
+                  "آسمان تاریک ہو گیا۔",
+                  "آسمان اونداهو ٿي ويو."
+            ],
+            [
+                  "My father is a teacher.",
+                  "میرے والد استاد ہیں۔",
+                  "منهنجو پيءُ استاد آهي."
+            ],
+            [
+                  "The flowers smell sweet.",
+                  "پھول خوشبودار ہیں۔",
+                  "گل خوشبودار آهن."
+            ],
+            [
+                  "The children grew tired.",
+                  "بچے تھک گئے۔",
+                  "ٻار ٿڪجي پيا."
+            ],
+            [
+                  "Her voice sounds gentle.",
+                  "اس کی آواز نرم محسوس ہوتی ہے۔",
+                  "هن جو آواز نرم لڳي ٿو."
+            ],
+            [
+                  "The winner was Nadia.",
+                  "فاتح نادیہ تھی۔",
+                  "سوڀاري ناديا هئي."
+            ],
+            [
+                  "The soup tastes salty.",
+                  "سوپ نمکین ذائقہ رکھتا ہے۔",
+                  "سوپ کارو ذائقو ڏئي ٿو."
+            ],
+            [
+                  "The room remained silent.",
+                  "کمرہ خاموش رہا۔",
+                  "ڪمرو خاموش رهيو."
+            ],
+            [
+                  "The leaves turned yellow.",
+                  "پتے پیلے ہو گئے۔",
+                  "پن پيلا ٿي ويا."
+            ],
+            [
+                  "This plan seems practical.",
+                  "یہ منصوبہ قابلِ عمل معلوم ہوتا ہے۔",
+                  "هي منصوبو عمل جوڳو لڳي ٿو."
+            ],
+            [
+                  "The baby is sleepy.",
+                  "بچہ نیند میں ہے۔",
+                  "ٻار کي ننڊ اچي رهي آهي."
+            ],
+            [
+                  "The truth became clear.",
+                  "حقیقت واضح ہو گئی۔",
+                  "حقيقت واضح ٿي وئي."
+            ]
+      ]
+}]
   },
   "active-passive-voice": {
     overview: "The passive is formed with the appropriate tense of be plus the past participle. It is useful when the action or receiver is more important than the person doing it.",
