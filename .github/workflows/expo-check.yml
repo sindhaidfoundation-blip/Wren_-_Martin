@@ -29,8 +29,14 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
+      - name: Validate repository native configuration
+        run: npm run check:config
+
       - name: Check Expo SDK compatibility
         run: npx expo-doctor
+
+      - name: Generate Android and iOS native projects
+        run: npx expo prebuild --platform all --no-install
 
       - name: Bundle Android
         run: npx expo export --platform android
