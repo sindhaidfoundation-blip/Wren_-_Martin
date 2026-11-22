@@ -1942,61 +1942,275 @@ export const topicDetails = {
           ]
         ]
       },
-      {
-        "title": "Future Tense — Forms, Uses and 10 Examples",
-        "english": "Future time is used to talk about events that are expected, intended, planned or scheduled to happen after the present. English expresses future meaning in several ways rather than through one single verb ending. The common forms taught are Simple Future (will + base verb), Future Continuous (will be + verb-ing), Future Perfect (will have + past participle) and Future Perfect Continuous (will have been + verb-ing). ‘Will’ is often used for decisions made at the moment, promises, offers and predictions: ‘I will help you’. ‘Be going to’ commonly expresses a prior intention or a prediction based on present evidence: ‘Look at the clouds; it is going to rain’. Future Continuous describes an action that will be in progress at a future time: ‘At ten tomorrow, I will be travelling’. Future Perfect describes an action that will be completed before a specified future point: ‘She will have finished by Friday’. Future Perfect Continuous emphasizes duration up to a future point: ‘By June, he will have been working here for five years’. The present continuous can express a personal arrangement, while the simple present often expresses a timetable or fixed schedule. In time clauses beginning with when, before, after or until, English normally uses a present form for future meaning: ‘I will call you when I arrive’.",
-        "urdu": "Future Tense مستقبل میں متوقع، ارادہ شدہ، منصوبہ بند یا مقررہ وقت پر ہونے والے واقعات کے لیے استعمال ہوتا ہے۔ انگریزی میں مستقبل کا مفہوم صرف ایک فعل کی لاحقہ دار شکل سے نہیں بلکہ کئی طریقوں سے ظاہر کیا جاتا ہے۔ عام صورتیں یہ ہیں: Simple Future (will + فعل کی بنیادی شکل)، Future Continuous (will be + فعل-ing)، Future Perfect (will have + فعل کا تیسرا روپ) اور Future Perfect Continuous (will have been + فعل-ing)۔ ‘Will’ اکثر فوری فیصلہ، وعدہ، پیشکش اور پیش گوئی کے لیے آتا ہے: ‘I will help you’۔ ‘Be going to’ عموماً پہلے سے موجود ارادہ یا موجودہ شواہد پر مبنی پیش گوئی ظاہر کرتا ہے: ‘Look at the clouds; it is going to rain’۔ Future Continuous مستقبل کے کسی وقت جاری عمل بتاتا ہے: ‘At ten tomorrow, I will be travelling’۔ Future Perfect بتاتا ہے کہ مستقبل کے مقررہ وقت سے پہلے عمل مکمل ہو چکا ہو گا: ‘She will have finished by Friday’۔ Future Perfect Continuous مستقبل کے کسی وقت تک عمل کے جاری رہنے کی مدت پر زور دیتا ہے: ‘By June, he will have been working here for five years’۔ Present Continuous ذاتی طے شدہ پروگرام اور Simple Present اکثر ٹائم ٹیبل یا مقررہ شیڈول کے لیے آتا ہے۔ When، before، after یا until سے شروع ہونے والے وقت کے فقروں میں مستقبل کا مفہوم ہونے کے باوجود عموماً Present form استعمال ہوتی ہے: ‘I will call you when I arrive’۔",
-        "sindhi": "Future Tense مستقبل ۾ متوقع، ارادي، رٿيل يا مقرر وقت تي ٿيندڙ واقعن لاءِ استعمال ٿئي ٿو. انگريزيءَ ۾ مستقبل جو مطلب رڳو فعل جي هڪ پڇاڙيءَ سان نه، پر ڪيترن طريقن سان ظاهر ٿئي ٿو. عام صورتون هي آهن: Simple Future (will + فعل جو بنيادي روپ)، Future Continuous (will be + فعل-ing)، Future Perfect (will have + فعل جو ٽيون روپ) ۽ Future Perfect Continuous (will have been + فعل-ing). ‘Will’ اڪثر ان وقت ڪيل فيصلي، واعدي، آڇ ۽ اڳڪٿي لاءِ اچي ٿو: ‘I will help you’. ‘Be going to’ عام طور اڳواٽ ارادو يا موجوده نشانين تي ٻڌل اڳڪٿي ظاهر ڪري ٿو: ‘Look at the clouds; it is going to rain’. Future Continuous مستقبل جي ڪنهن وقت تي جاري عمل ٻڌائي ٿو: ‘At ten tomorrow, I will be travelling’. Future Perfect ٻڌائي ٿو ته مستقبل جي مقرر وقت کان اڳ عمل مڪمل ٿي چڪو هوندو: ‘She will have finished by Friday’. Future Perfect Continuous مستقبل جي ڪنهن وقت تائين عمل جي جاري رهڻ جي مدت تي زور ڏئي ٿو: ‘By June, he will have been working here for five years’. Present Continuous ذاتي طئي ٿيل پروگرام ۽ Simple Present اڪثر ٽائيم ٽيبل يا مقرر شيڊول لاءِ اچي ٿو. When، before، after يا until سان شروع ٿيندڙ وقت وارن فقرن ۾ مستقبل جو مطلب هوندي به عام طور Present form استعمال ٿيندي آهي: ‘I will call you when I arrive’.",
+            {
+        "title": "1. Simple Future",
+        "english": "Definition: Simple Future describes an action or event that will happen after the present. It is used for predictions, promises, offers, decisions made at the moment of speaking, and future facts. Positive form: subject + will + V1. Negative form: subject + will not (won't) + V1. Question form: Will + subject + V1? Use the base form (V1) after will with every subject; do not add -s or use V2.",
+        "urdu": "تعریف: Simple Future ایسے کام یا واقعے کے لیے استعمال ہوتا ہے جو حال کے بعد ہوگا۔ اسے پیش گوئی، وعدے، پیشکش، فوری فیصلے اور مستقبل کی بات بیان کرنے کے لیے استعمال کرتے ہیں۔ مثبت ساخت: فاعل + will + فعل کی پہلی شکل (V1)۔ منفی ساخت: فاعل + will not + V1۔ سوالیہ ساخت: Will + فاعل + V1؟ Will کے بعد ہر فاعل کے ساتھ فعل کی پہلی شکل آتی ہے۔",
+        "sindhi": "تعريف: Simple Future اهڙي ڪم يا واقعي لاءِ استعمال ٿئي ٿو جيڪو هاڻوڪي وقت کان پوءِ ٿيندو. اهو اڳڪٿي، واعدي، آڇ، فوري فيصلي ۽ مستقبل جي ڳالهه لاءِ استعمال ٿئي ٿو. مثبت بناوت: فاعل + will + فعل جو پهريون روپ (V1). ناڪاري: فاعل + will not + V1. سوال: Will + فاعل + V1؟ Will کان پوءِ هر فاعل سان فعل جو پهريون روپ ايندو آهي.",
         "examples": [
           [
-            "I will call you tonight.",
-            "میں آج رات تمہیں فون کروں گا۔",
-            "مان اڄ رات توکي فون ڪندس."
+            "I will visit my grandmother tomorrow.",
+            "میں کل اپنی دادی سے ملنے جاؤں گا۔",
+            "مان سڀاڻي پنهنجي ڏاڏيءَ سان ملڻ ويندس.",
+            "Will visit uses will + V1. Tomorrow places the visit in the future."
           ],
           [
-            "She will help her mother.",
-            "وہ اپنی والدہ کی مدد کرے گی۔",
-            "هوءَ پنهنجي ماءُ جي مدد ڪندي."
+            "She will prepare dinner tonight.",
+            "وہ آج رات کھانا تیار کرے گی۔",
+            "هوءَ اڄ رات ماني تيار ڪندي.",
+            "Will prepare is the Simple Future form and describes a future activity."
           ],
           [
-            "They are going to build a new house.",
-            "وہ ایک نیا گھر بنانے والے ہیں۔",
-            "اهي نئون گهر ٺاهڻ وارا آهن."
+            "They will play cricket on Sunday.",
+            "وہ اتوار کو کرکٹ کھیلیں گے۔",
+            "اهي آچر تي ڪرڪيٽ کيڏندا.",
+            "Will play uses the base verb play after will."
           ],
           [
-            "Look at the sky; it is going to rain.",
-            "آسمان کو دیکھو؛ بارش ہونے والی ہے۔",
-            "آسمان ڏسو؛ مينهن وسڻ وارو آهي."
+            "We will learn a new lesson next week.",
+            "ہم اگلے ہفتے نیا سبق سیکھیں گے۔",
+            "اسان ايندڙ هفتي نئون سبق سکندا سين.",
+            "Will learn describes an action expected next week."
           ],
           [
-            "This time tomorrow, we will be flying to Islamabad.",
-            "کل اس وقت ہم اسلام آباد جا رہے ہوں گے۔",
-            "سڀاڻي هن وقت اسان اسلام آباد ڏانهن اڏامي رهيا هونداسين."
+            "He will help his younger brother.",
+            "وہ اپنے چھوٹے بھائی کی مدد کرے گا۔",
+            "هو پنهنجي ننڍي ڀاءُ جي مدد ڪندو.",
+            "Will help expresses a future action or offer of help."
           ],
           [
-            "At nine tonight, he will be studying.",
-            "آج رات نو بجے وہ پڑھ رہا ہوگا۔",
-            "اڄ رات نائين وڳي هو پڙهي رهيو هوندو."
+            "The teacher will explain the rule tomorrow.",
+            "استاد کل قاعدہ سمجھائیں گے۔",
+            "استاد سڀاڻي قاعدو سمجهائيندو.",
+            "Will explain is followed by the base form explain."
           ],
           [
-            "By Friday, I will have completed the assignment.",
-            "جمعہ تک میں کام مکمل کر چکا ہوں گا۔",
-            "جمعي تائين مان ڪم مڪمل ڪري چڪو هوندس."
+            "I think it will rain this evening.",
+            "میرا خیال ہے کہ آج شام بارش ہوگی۔",
+            "منهنجو خيال آهي ته اڄ شام مينهن پوندو.",
+            "Will rain expresses a prediction about the weather."
           ],
           [
-            "She will have reached home before sunset.",
-            "وہ غروبِ آفتاب سے پہلے گھر پہنچ چکی ہوگی۔",
-            "هوءَ سج لهڻ کان اڳ گهر پهچي چڪي هوندي."
+            "My parents will arrive at six o'clock.",
+            "میرے والدین چھ بجے پہنچیں گے۔",
+            "منهنجا والدين ڇهين وڳي پهچندا.",
+            "Will arrive describes an expected future arrival."
           ],
           [
-            "By next year, they will have been living here for a decade.",
-            "اگلے سال تک انہیں یہاں رہتے ہوئے دس سال ہو چکے ہوں گے۔",
-            "ايندڙ سال تائين انهن کي هتي رهندي ڏهه سال ٿي چڪا هوندا."
+            "You will enjoy this book.",
+            "آپ اس کتاب سے لطف اندوز ہوں گے۔",
+            "توهان هن ڪتاب مان لطف اندوز ٿيندا.",
+            "Will enjoy expresses a prediction about someone's future experience."
           ],
           [
-            "The train leaves at six tomorrow morning.",
-            "ٹرین کل صبح چھ بجے روانہ ہوتی ہے۔",
-            "ٽرين سڀاڻي صبح ڇهين وڳي رواني ٿئي ٿي."
+            "I will call you after class.",
+            "میں کلاس کے بعد آپ کو فون کروں گا۔",
+            "مان ڪلاس کان پوءِ توهان کي فون ڪندس.",
+            "Will call can express a promise or intention about a future action."
+          ]
+        ]
+      },
+      {
+        "title": "2. Future Continuous",
+        "english": "Definition: Future Continuous describes an action that will be in progress at a particular time in the future. It can also describe an expected activity or a future action continuing for a period. Positive form: subject + will be + verb-ing. Negative form: subject + will not be + verb-ing. Question form: Will + subject + be + verb-ing? The structure is the same for all subjects.",
+        "urdu": "تعریف: Future Continuous ایسے کام کے لیے استعمال ہوتا ہے جو مستقبل کے کسی خاص وقت پر جاری ہوگا۔ یہ مستقبل کی متوقع سرگرمی یا کچھ وقت تک جاری رہنے والے کام کو بھی ظاہر کرتا ہے۔ مثبت ساخت: فاعل + will be + فعل-ing۔ منفی ساخت: فاعل + will not be + فعل-ing۔ سوالیہ ساخت: Will + فاعل + be + فعل-ing؟ یہ ساخت تمام فاعلوں کے ساتھ ایک جیسی رہتی ہے۔",
+        "sindhi": "تعريف: Future Continuous اهڙي ڪم لاءِ استعمال ٿئي ٿو جيڪو مستقبل جي ڪنهن خاص وقت تي جاري هوندو. اهو مستقبل جي متوقع سرگرمي يا ڪجهه وقت تائين هلندڙ ڪم به ڏيکاري ٿو. مثبت بناوت: فاعل + will be + فعل-ing. ناڪاري: فاعل + will not be + فعل-ing. سوال: Will + فاعل + be + فعل-ing؟ اها بناوت سڀني فاعلن سان ساڳي رهي ٿي.",
+        "examples": [
+          [
+            "I will be studying at eight tonight.",
+            "میں آج رات آٹھ بجے پڑھ رہا ہوں گا۔",
+            "مان اڄ رات اٺين وڳي پڙهي رهيو هوندس.",
+            "Will be studying shows that the study activity will be in progress at eight."
+          ],
+          [
+            "She will be cooking dinner when we arrive.",
+            "جب ہم پہنچیں گے تو وہ رات کا کھانا پکا رہی ہوگی۔",
+            "جڏهن اسان پهچنداسين ته هوءَ رات جي ماني پچائي رهي هوندي.",
+            "Will be cooking describes an activity already in progress at the future time of our arrival."
+          ],
+          [
+            "They will be travelling to Lahore tomorrow morning.",
+            "وہ کل صبح لاہور کا سفر کر رہے ہوں گے۔",
+            "اهي سڀاڻي صبح لاهور جو سفر ڪري رهيا هوندا.",
+            "Will be travelling describes an ongoing future journey."
+          ],
+          [
+            "We will be attending the meeting at ten.",
+            "ہم دس بجے اجلاس میں شریک ہو رہے ہوں گے۔",
+            "اسان ڏهين وڳي گڏجاڻيءَ ۾ شريڪ ٿي رهيا هونداسين.",
+            "Will be attending shows an activity in progress at a stated future time."
+          ],
+          [
+            "He will be playing football this afternoon.",
+            "وہ آج دوپہر فٹ بال کھیل رہا ہوگا۔",
+            "هو اڄ منجهند فٽبال کيڏي رهيو هوندو.",
+            "Will be playing uses will be + verb-ing."
+          ],
+          [
+            "The students will be taking their examination next Monday.",
+            "طلبہ اگلے پیر امتحان دے رہے ہوں گے۔",
+            "شاگرد ايندڙ سومر امتحان ڏئي رهيا هوندا.",
+            "Will be taking describes an examination activity expected to be underway."
+          ],
+          [
+            "My father will be working in his office at noon.",
+            "میرے والد دوپہر کے وقت اپنے دفتر میں کام کر رہے ہوں گے۔",
+            "منهنجو والد منجهند جو پنهنجي آفيس ۾ ڪم ڪري رهيو هوندو.",
+            "Will be working places the ongoing work at noon in the future."
+          ],
+          [
+            "This time tomorrow, we will be flying to Dubai.",
+            "کل اس وقت ہم دبئی جا رہے ہوں گے۔",
+            "سڀاڻي هن وقت اسان دبئي وڃي رهيا هونداسين.",
+            "This time tomorrow identifies the future moment when the flight will be in progress."
+          ],
+          [
+            "The children will be sleeping by midnight.",
+            "بچے آدھی رات تک سو رہے ہوں گے۔",
+            "ٻار اڌ رات تائين سمهي رهيا هوندا.",
+            "Will be sleeping describes the expected state of an ongoing activity at midnight."
+          ],
+          [
+            "Will you be waiting for me outside the school?",
+            "کیا آپ اسکول کے باہر میرا انتظار کر رہے ہوں گے؟",
+            "ڇا توهان اسڪول جي ٻاهران منهنجو انتظار ڪري رهيا هوندا؟",
+            "This question uses Will + subject + be + verb-ing."
+          ]
+        ]
+      },
+      {
+        "title": "3. Future Perfect",
+        "english": "Definition: Future Perfect describes an action that will be completed before a particular time or another event in the future. It focuses on completion, not duration. Positive form: subject + will have + V3. Negative form: subject + will not have + V3. Question form: Will + subject + have + V3? Use by with a deadline or point in time (by Friday, by 6 p.m., by then).",
+        "urdu": "تعریف: Future Perfect ایسے کام کے لیے استعمال ہوتا ہے جو مستقبل کے کسی مقررہ وقت یا دوسرے واقعے سے پہلے مکمل ہو چکا ہوگا۔ اس میں کام کی تکمیل پر زور ہوتا ہے، مدت پر نہیں۔ مثبت ساخت: فاعل + will have + فعل کی تیسری شکل (V3)۔ منفی ساخت: فاعل + will not have + V3۔ سوالیہ ساخت: Will + فاعل + have + V3؟ کسی آخری وقت یا مقررہ حد کے لیے by استعمال ہوتا ہے، جیسے by Friday یا by 6 p.m۔",
+        "sindhi": "تعريف: Future Perfect اهڙي ڪم لاءِ استعمال ٿئي ٿو جيڪو مستقبل جي ڪنهن مقرر وقت يا ٻئي واقعي کان اڳ مڪمل ٿي چڪو هوندو. هتي ڪم جي مڪمل ٿيڻ تي زور هوندو آهي، مدت تي نه. مثبت بناوت: فاعل + will have + فعل جو ٽيون روپ (V3). ناڪاري: فاعل + will not have + V3. سوال: Will + فاعل + have + V3؟ آخري وقت يا مقرر حد لاءِ by استعمال ڪريو، جيئن by Friday يا by 6 p.m.",
+        "examples": [
+          [
+            "I will have finished my homework by tomorrow.",
+            "میں کل تک اپنا ہوم ورک مکمل کر چکا ہوں گا۔",
+            "مان سڀاڻي تائين پنهنجو گهر جو ڪم پورو ڪري چڪو هوندس.",
+            "Will have finished uses will have + V3 and shows completion before tomorrow."
+          ],
+          [
+            "She will have cooked dinner by seven o'clock.",
+            "وہ سات بجے تک کھانا پکا چکی ہوگی۔",
+            "هوءَ ستين وڳي تائين ماني پچائي چڪي هوندي.",
+            "Will have cooked shows the meal will be ready before the stated deadline."
+          ],
+          [
+            "They will have reached Karachi by Monday.",
+            "وہ پیر تک کراچی پہنچ چکے ہوں گے۔",
+            "اهي سومر تائين ڪراچي پهچي چڪا هوندا.",
+            "Will have reached uses the past participle reached after will have."
+          ],
+          [
+            "We will have completed the project by next month.",
+            "ہم اگلے مہینے تک منصوبہ مکمل کر چکے ہوں گے۔",
+            "اسان ايندڙ مهيني تائين منصوبو مڪمل ڪري چڪا هونداسين.",
+            "Will have completed emphasizes that the project will be finished by next month."
+          ],
+          [
+            "He will have written the report before the meeting starts.",
+            "اجلاس شروع ہونے سے پہلے وہ رپورٹ لکھ چکا ہوگا۔",
+            "گڏجاڻي شروع ٿيڻ کان اڳ هو رپورٽ لکي چڪو هوندو.",
+            "The report-writing will be complete before the future event starts."
+          ],
+          [
+            "The train will have left by the time we reach the station.",
+            "جب تک ہم اسٹیشن پہنچیں گے، ٹرین جا چکی ہوگی۔",
+            "جڏهن اسان اسٽيشن تي پهچنداسين، تڏهن ٽرين وڃي چڪي هوندي.",
+            "Will have left shows the train's departure will happen before our arrival."
+          ],
+          [
+            "You will have learned these rules by the end of the week.",
+            "آپ ہفتے کے آخر تک یہ قواعد سیکھ چکے ہوں گے۔",
+            "توهان هفتي جي آخر تائين اهي قاعدا سکي چڪا هوندا.",
+            "Will have learned indicates completion by a future deadline."
+          ],
+          [
+            "My parents will have returned home by sunset.",
+            "میرے والدین غروبِ آفتاب تک گھر واپس آ چکے ہوں گے۔",
+            "منهنجا والدين سج لهڻ تائين گهر موٽي آيا هوندا.",
+            "Will have returned describes an action completed before sunset."
+          ],
+          [
+            "The teacher will have checked all the notebooks by Friday.",
+            "استاد جمعہ تک تمام کاپیاں چیک کر چکے ہوں گے۔",
+            "استاد جمعي تائين سڀ ڪاپيون چيڪ ڪري چڪو هوندو.",
+            "Will have checked uses the V3 checked to show completed work."
+          ],
+          [
+            "Will you have submitted the form by noon?",
+            "کیا آپ دوپہر تک فارم جمع کرا چکے ہوں گے؟",
+            "ڇا توهان منجهند تائين فارم جمع ڪرائي چڪا هوندا؟",
+            "This question asks whether the submission will be complete by noon."
+          ]
+        ]
+      },
+      {
+        "title": "4. Future Perfect Continuous",
+        "english": "Definition: Future Perfect Continuous describes an action that will have been continuing for a period of time up to a particular point in the future. It emphasizes duration. Positive form: subject + will have been + verb-ing. Negative form: subject + will not have been + verb-ing. Question form: Will + subject + have been + verb-ing? Use for with a length of time (for two hours, for five years) and since with a starting point (since Monday, since 2022).",
+        "urdu": "تعریف: Future Perfect Continuous ایسے کام کے لیے استعمال ہوتا ہے جو مستقبل کے کسی خاص وقت تک ایک مدت سے جاری ہوگا۔ اس میں کام کے جاری رہنے کی مدت پر زور ہوتا ہے۔ مثبت ساخت: فاعل + will have been + فعل-ing۔ منفی ساخت: فاعل + will not have been + فعل-ing۔ سوالیہ ساخت: Will + فاعل + have been + فعل-ing؟ مدت کے لیے for (for two hours) اور آغاز کے وقت کے لیے since (since Monday) استعمال کریں۔",
+        "sindhi": "تعريف: Future Perfect Continuous اهڙي ڪم لاءِ استعمال ٿئي ٿو جيڪو مستقبل جي ڪنهن خاص وقت تائين هڪ عرصي کان جاري هوندو. ان ۾ ڪم جي جاري رهڻ جي مدت تي زور هوندو آهي. مثبت بناوت: فاعل + will have been + فعل-ing. ناڪاري: فاعل + will not have been + فعل-ing. سوال: Will + فاعل + have been + فعل-ing؟ مدت لاءِ for (for two hours) ۽ شروعاتي وقت لاءِ since (since Monday) استعمال ڪريو.",
+        "examples": [
+          [
+            "By eight o'clock, I will have been studying for two hours.",
+            "آٹھ بجے تک مجھے پڑھتے ہوئے دو گھنٹے ہو چکے ہوں گے۔",
+            "اٺين وڳي تائين مون کي پڙهندي ٻه ڪلاڪ ٿي چڪا هوندا.",
+            "Will have been studying emphasizes the two-hour duration up to eight o'clock."
+          ],
+          [
+            "By noon, she will have been working for six hours.",
+            "دوپہر تک اسے کام کرتے ہوئے چھ گھنٹے ہو چکے ہوں گے۔",
+            "منجهند تائين هن کي ڪم ڪندي ڇهه ڪلاڪ ٿي چڪا هوندا.",
+            "For six hours gives the duration of her work up to noon."
+          ],
+          [
+            "By next June, they will have been living in Karachi for five years.",
+            "اگلے جون تک انہیں کراچی میں رہتے ہوئے پانچ سال ہو چکے ہوں گے۔",
+            "ايندڙ جون تائين انهن کي ڪراچيءَ ۾ رهندي پنج سال ٿي چڪا هوندا.",
+            "Will have been living describes an activity continuing for five years up to a future date."
+          ],
+          [
+            "By 2030, he will have been teaching for twenty years.",
+            "2030 تک اسے پڑھاتے ہوئے بیس سال ہو چکے ہوں گے۔",
+            "2030 تائين هن کي پڙهائيندي ويهه سال ٿي چڪا هوندا.",
+            "The sentence emphasizes the length of his teaching career at the future point."
+          ],
+          [
+            "At midnight, it will have been raining for three hours.",
+            "آدھی رات تک تین گھنٹوں سے بارش ہو رہی ہوگی۔",
+            "اڌ رات تائين ٽن ڪلاڪن کان مينهن وسي رهيو هوندو.",
+            "For three hours tells how long the rain will have continued by midnight."
+          ],
+          [
+            "By the time you arrive, we will have been waiting for an hour.",
+            "آپ کے پہنچنے تک ہمیں انتظار کرتے ہوئے ایک گھنٹہ ہو چکا ہوگا۔",
+            "توهان جي پهچڻ تائين اسان کي انتظار ڪندي هڪ ڪلاڪ ٿي چڪو هوندو.",
+            "The waiting will continue for an hour up to the future arrival."
+          ],
+          [
+            "Next month, my father will have been working here for ten years.",
+            "اگلے مہینے میرے والد کو یہاں کام کرتے ہوئے دس سال ہو جائیں گے۔",
+            "ايندڙ مهيني منهنجي والد کي هتي ڪم ڪندي ڏهه سال ٿي ويندا.",
+            "For ten years expresses the duration continuing up to next month."
+          ],
+          [
+            "By 5 p.m., the children will have been playing for two hours.",
+            "شام پانچ بجے تک بچوں کو کھیلتے ہوئے دو گھنٹے ہو چکے ہوں گے۔",
+            "شام پنجين وڳي تائين ٻارن کي راند ڪندي ٻه ڪلاڪ ٿي چڪا هوندا.",
+            "Will have been playing emphasizes the two-hour activity period."
+          ],
+          [
+            "By December, we will have been learning English for one year.",
+            "دسمبر تک ہمیں انگریزی سیکھتے ہوئے ایک سال ہو چکا ہوگا۔",
+            "ڊسمبر تائين اسان کي انگريزي سکندي هڪ سال ٿي چڪو هوندو.",
+            "For one year describes the duration of learning up to December."
+          ],
+          [
+            "Will she have been travelling for twelve hours by the time she reaches London?",
+            "کیا لندن پہنچنے تک اسے سفر کرتے ہوئے بارہ گھنٹے ہو چکے ہوں گے؟",
+            "ڇا لنڊن پهچڻ تائين هن کي سفر ڪندي ٻارهن ڪلاڪ ٿي چڪا هوندا؟",
+            "This question asks about the duration of travel up to a future arrival."
           ]
         ]
       }
@@ -3201,293 +3415,5 @@ topicDetails["past-tense"] = {
 
 
 // Dedicated Future Tense lesson: four forms, trilingual explanations and ten explained examples each.
-topicDetails["future-tense"] = {
-  "overview": "Future Tense describes actions, events or states after the present. Its four commonly taught forms show whether an action will happen, will be in progress at a future time, will be completed before a future deadline, or will have continued for a period up to a future point.",
-  "overviewUrdu": "Future Tense ایسے کاموں، واقعات یا حالتوں کو ظاہر کرتا ہے جو موجودہ وقت کے بعد ہوں گے۔ اس کی چار بنیادی صورتیں ہیں: Simple Future ہونے والا کام، Future Continuous مستقبل کے کسی وقت جاری کام، Future Perfect مستقبل کے مقررہ وقت سے پہلے مکمل ہونے والا کام، اور Future Perfect Continuous مستقبل کے کسی وقت تک جاری رہنے والے کام کی مدت ظاہر کرتا ہے۔",
-  "overviewSindhi": "Future Tense اهڙن ڪمن، واقعن يا حالتن کي ظاهر ڪري ٿو جيڪي هاڻوڪي وقت کان پوءِ ٿيندا. ان جون چار بنيادي صورتون آهن: Simple Future مستقبل ۾ ٿيندڙ ڪم، Future Continuous مستقبل جي ڪنهن وقت جاري ڪم، Future Perfect مستقبل جي مقرر وقت کان اڳ مڪمل ٿيندڙ ڪم، ۽ Future Perfect Continuous مستقبل جي ڪنهن وقت تائين جاري رهندڙ ڪم جو عرصو ظاهر ڪري ٿو.",
-  "watchFor": "After will, use the base verb (V1): 'She will go', not 'She will goes'. Future Continuous uses will be + verb-ing. Future Perfect uses will have + V3 and focuses on completion by a deadline. Future Perfect Continuous uses will have been + verb-ing and focuses on duration. Use for for a period and since for a starting point.",
-  "watchForUrdu": "Will کے بعد ہمیشہ فعل کی پہلی شکل (V1) استعمال کریں: 'She will go' درست ہے، 'She will goes' غلط ہے۔ Future Continuous میں will be + فعل-ing، Future Perfect میں will have + V3، اور Future Perfect Continuous میں will have been + فعل-ing آتا ہے۔ Future Perfect تکمیل جبکہ Future Perfect Continuous مدت پر زور دیتا ہے۔ مدت کے لیے for اور آغاز کے وقت کے لیے since استعمال کریں۔",
-  "watchForSindhi": "Will کان پوءِ هميشه فعل جو پهريون روپ (V1) استعمال ڪريو: 'She will go' صحيح آهي، 'She will goes' غلط آهي. Future Continuous ۾ will be + فعل-ing، Future Perfect ۾ will have + V3، ۽ Future Perfect Continuous ۾ will have been + فعل-ing ايندو آهي. Future Perfect مڪمل ٿيڻ تي، جڏهن ته Future Perfect Continuous مدت تي زور ڏئي ٿو. عرصي لاءِ for ۽ شروعاتي وقت لاءِ since استعمال ڪريو.",
-  "examples": [
-    "I will visit my grandmother tomorrow. (Simple Future)",
-    "I will be studying at eight tonight. (Future Continuous)",
-    "I will have finished my homework by tomorrow. (Future Perfect)",
-    "By eight o'clock, I will have been studying for two hours. (Future Perfect Continuous)"
-  ],
-  "specialSectionsTitle": "THE FOUR FORMS OF FUTURE TENSE — DETAILED EXPLANATION AND 10 EXAMPLES EACH",
-  "specialSections": [
-    {
-      "title": "1. Simple Future",
-      "english": "Definition: Simple Future describes an action or event that will happen after the present. It is used for predictions, promises, offers, decisions made at the moment of speaking, and future facts. Positive form: subject + will + V1. Negative form: subject + will not (won't) + V1. Question form: Will + subject + V1? Use the base form (V1) after will with every subject; do not add -s or use V2.",
-      "urdu": "تعریف: Simple Future ایسے کام یا واقعے کے لیے استعمال ہوتا ہے جو حال کے بعد ہوگا۔ اسے پیش گوئی، وعدے، پیشکش، فوری فیصلے اور مستقبل کی بات بیان کرنے کے لیے استعمال کرتے ہیں۔ مثبت ساخت: فاعل + will + فعل کی پہلی شکل (V1)۔ منفی ساخت: فاعل + will not + V1۔ سوالیہ ساخت: Will + فاعل + V1؟ Will کے بعد ہر فاعل کے ساتھ فعل کی پہلی شکل آتی ہے۔",
-      "sindhi": "تعريف: Simple Future اهڙي ڪم يا واقعي لاءِ استعمال ٿئي ٿو جيڪو هاڻوڪي وقت کان پوءِ ٿيندو. اهو اڳڪٿي، واعدي، آڇ، فوري فيصلي ۽ مستقبل جي ڳالهه لاءِ استعمال ٿئي ٿو. مثبت بناوت: فاعل + will + فعل جو پهريون روپ (V1). ناڪاري: فاعل + will not + V1. سوال: Will + فاعل + V1؟ Will کان پوءِ هر فاعل سان فعل جو پهريون روپ ايندو آهي.",
-      "examples": [
-        [
-          "I will visit my grandmother tomorrow.",
-          "میں کل اپنی دادی سے ملنے جاؤں گا۔",
-          "مان سڀاڻي پنهنجي ڏاڏيءَ سان ملڻ ويندس.",
-          "Will visit uses will + V1. Tomorrow places the visit in the future."
-        ],
-        [
-          "She will prepare dinner tonight.",
-          "وہ آج رات کھانا تیار کرے گی۔",
-          "هوءَ اڄ رات ماني تيار ڪندي.",
-          "Will prepare is the Simple Future form and describes a future activity."
-        ],
-        [
-          "They will play cricket on Sunday.",
-          "وہ اتوار کو کرکٹ کھیلیں گے۔",
-          "اهي آچر تي ڪرڪيٽ کيڏندا.",
-          "Will play uses the base verb play after will."
-        ],
-        [
-          "We will learn a new lesson next week.",
-          "ہم اگلے ہفتے نیا سبق سیکھیں گے۔",
-          "اسان ايندڙ هفتي نئون سبق سکندا سين.",
-          "Will learn describes an action expected next week."
-        ],
-        [
-          "He will help his younger brother.",
-          "وہ اپنے چھوٹے بھائی کی مدد کرے گا۔",
-          "هو پنهنجي ننڍي ڀاءُ جي مدد ڪندو.",
-          "Will help expresses a future action or offer of help."
-        ],
-        [
-          "The teacher will explain the rule tomorrow.",
-          "استاد کل قاعدہ سمجھائیں گے۔",
-          "استاد سڀاڻي قاعدو سمجهائيندو.",
-          "Will explain is followed by the base form explain."
-        ],
-        [
-          "I think it will rain this evening.",
-          "میرا خیال ہے کہ آج شام بارش ہوگی۔",
-          "منهنجو خيال آهي ته اڄ شام مينهن پوندو.",
-          "Will rain expresses a prediction about the weather."
-        ],
-        [
-          "My parents will arrive at six o'clock.",
-          "میرے والدین چھ بجے پہنچیں گے۔",
-          "منهنجا والدين ڇهين وڳي پهچندا.",
-          "Will arrive describes an expected future arrival."
-        ],
-        [
-          "You will enjoy this book.",
-          "آپ اس کتاب سے لطف اندوز ہوں گے۔",
-          "توهان هن ڪتاب مان لطف اندوز ٿيندا.",
-          "Will enjoy expresses a prediction about someone's future experience."
-        ],
-        [
-          "I will call you after class.",
-          "میں کلاس کے بعد آپ کو فون کروں گا۔",
-          "مان ڪلاس کان پوءِ توهان کي فون ڪندس.",
-          "Will call can express a promise or intention about a future action."
-        ]
-      ]
-    },
-    {
-      "title": "2. Future Continuous",
-      "english": "Definition: Future Continuous describes an action that will be in progress at a particular time in the future. It can also describe an expected activity or a future action continuing for a period. Positive form: subject + will be + verb-ing. Negative form: subject + will not be + verb-ing. Question form: Will + subject + be + verb-ing? The structure is the same for all subjects.",
-      "urdu": "تعریف: Future Continuous ایسے کام کے لیے استعمال ہوتا ہے جو مستقبل کے کسی خاص وقت پر جاری ہوگا۔ یہ مستقبل کی متوقع سرگرمی یا کچھ وقت تک جاری رہنے والے کام کو بھی ظاہر کرتا ہے۔ مثبت ساخت: فاعل + will be + فعل-ing۔ منفی ساخت: فاعل + will not be + فعل-ing۔ سوالیہ ساخت: Will + فاعل + be + فعل-ing؟ یہ ساخت تمام فاعلوں کے ساتھ ایک جیسی رہتی ہے۔",
-      "sindhi": "تعريف: Future Continuous اهڙي ڪم لاءِ استعمال ٿئي ٿو جيڪو مستقبل جي ڪنهن خاص وقت تي جاري هوندو. اهو مستقبل جي متوقع سرگرمي يا ڪجهه وقت تائين هلندڙ ڪم به ڏيکاري ٿو. مثبت بناوت: فاعل + will be + فعل-ing. ناڪاري: فاعل + will not be + فعل-ing. سوال: Will + فاعل + be + فعل-ing؟ اها بناوت سڀني فاعلن سان ساڳي رهي ٿي.",
-      "examples": [
-        [
-          "I will be studying at eight tonight.",
-          "میں آج رات آٹھ بجے پڑھ رہا ہوں گا۔",
-          "مان اڄ رات اٺين وڳي پڙهي رهيو هوندس.",
-          "Will be studying shows that the study activity will be in progress at eight."
-        ],
-        [
-          "She will be cooking dinner when we arrive.",
-          "جب ہم پہنچیں گے تو وہ رات کا کھانا پکا رہی ہوگی۔",
-          "جڏهن اسان پهچنداسين ته هوءَ رات جي ماني پچائي رهي هوندي.",
-          "Will be cooking describes an activity already in progress at the future time of our arrival."
-        ],
-        [
-          "They will be travelling to Lahore tomorrow morning.",
-          "وہ کل صبح لاہور کا سفر کر رہے ہوں گے۔",
-          "اهي سڀاڻي صبح لاهور جو سفر ڪري رهيا هوندا.",
-          "Will be travelling describes an ongoing future journey."
-        ],
-        [
-          "We will be attending the meeting at ten.",
-          "ہم دس بجے اجلاس میں شریک ہو رہے ہوں گے۔",
-          "اسان ڏهين وڳي گڏجاڻيءَ ۾ شريڪ ٿي رهيا هونداسين.",
-          "Will be attending shows an activity in progress at a stated future time."
-        ],
-        [
-          "He will be playing football this afternoon.",
-          "وہ آج دوپہر فٹ بال کھیل رہا ہوگا۔",
-          "هو اڄ منجهند فٽبال کيڏي رهيو هوندو.",
-          "Will be playing uses will be + verb-ing."
-        ],
-        [
-          "The students will be taking their examination next Monday.",
-          "طلبہ اگلے پیر امتحان دے رہے ہوں گے۔",
-          "شاگرد ايندڙ سومر امتحان ڏئي رهيا هوندا.",
-          "Will be taking describes an examination activity expected to be underway."
-        ],
-        [
-          "My father will be working in his office at noon.",
-          "میرے والد دوپہر کے وقت اپنے دفتر میں کام کر رہے ہوں گے۔",
-          "منهنجو والد منجهند جو پنهنجي آفيس ۾ ڪم ڪري رهيو هوندو.",
-          "Will be working places the ongoing work at noon in the future."
-        ],
-        [
-          "This time tomorrow, we will be flying to Dubai.",
-          "کل اس وقت ہم دبئی جا رہے ہوں گے۔",
-          "سڀاڻي هن وقت اسان دبئي وڃي رهيا هونداسين.",
-          "This time tomorrow identifies the future moment when the flight will be in progress."
-        ],
-        [
-          "The children will be sleeping by midnight.",
-          "بچے آدھی رات تک سو رہے ہوں گے۔",
-          "ٻار اڌ رات تائين سمهي رهيا هوندا.",
-          "Will be sleeping describes the expected state of an ongoing activity at midnight."
-        ],
-        [
-          "Will you be waiting for me outside the school?",
-          "کیا آپ اسکول کے باہر میرا انتظار کر رہے ہوں گے؟",
-          "ڇا توهان اسڪول جي ٻاهران منهنجو انتظار ڪري رهيا هوندا؟",
-          "This question uses Will + subject + be + verb-ing."
-        ]
-      ]
-    },
-    {
-      "title": "3. Future Perfect",
-      "english": "Definition: Future Perfect describes an action that will be completed before a particular time or another event in the future. It focuses on completion, not duration. Positive form: subject + will have + V3. Negative form: subject + will not have + V3. Question form: Will + subject + have + V3? Use by with a deadline or point in time (by Friday, by 6 p.m., by then).",
-      "urdu": "تعریف: Future Perfect ایسے کام کے لیے استعمال ہوتا ہے جو مستقبل کے کسی مقررہ وقت یا دوسرے واقعے سے پہلے مکمل ہو چکا ہوگا۔ اس میں کام کی تکمیل پر زور ہوتا ہے، مدت پر نہیں۔ مثبت ساخت: فاعل + will have + فعل کی تیسری شکل (V3)۔ منفی ساخت: فاعل + will not have + V3۔ سوالیہ ساخت: Will + فاعل + have + V3؟ کسی آخری وقت یا مقررہ حد کے لیے by استعمال ہوتا ہے، جیسے by Friday یا by 6 p.m۔",
-      "sindhi": "تعريف: Future Perfect اهڙي ڪم لاءِ استعمال ٿئي ٿو جيڪو مستقبل جي ڪنهن مقرر وقت يا ٻئي واقعي کان اڳ مڪمل ٿي چڪو هوندو. هتي ڪم جي مڪمل ٿيڻ تي زور هوندو آهي، مدت تي نه. مثبت بناوت: فاعل + will have + فعل جو ٽيون روپ (V3). ناڪاري: فاعل + will not have + V3. سوال: Will + فاعل + have + V3؟ آخري وقت يا مقرر حد لاءِ by استعمال ڪريو، جيئن by Friday يا by 6 p.m.",
-      "examples": [
-        [
-          "I will have finished my homework by tomorrow.",
-          "میں کل تک اپنا ہوم ورک مکمل کر چکا ہوں گا۔",
-          "مان سڀاڻي تائين پنهنجو گهر جو ڪم پورو ڪري چڪو هوندس.",
-          "Will have finished uses will have + V3 and shows completion before tomorrow."
-        ],
-        [
-          "She will have cooked dinner by seven o'clock.",
-          "وہ سات بجے تک کھانا پکا چکی ہوگی۔",
-          "هوءَ ستين وڳي تائين ماني پچائي چڪي هوندي.",
-          "Will have cooked shows the meal will be ready before the stated deadline."
-        ],
-        [
-          "They will have reached Karachi by Monday.",
-          "وہ پیر تک کراچی پہنچ چکے ہوں گے۔",
-          "اهي سومر تائين ڪراچي پهچي چڪا هوندا.",
-          "Will have reached uses the past participle reached after will have."
-        ],
-        [
-          "We will have completed the project by next month.",
-          "ہم اگلے مہینے تک منصوبہ مکمل کر چکے ہوں گے۔",
-          "اسان ايندڙ مهيني تائين منصوبو مڪمل ڪري چڪا هونداسين.",
-          "Will have completed emphasizes that the project will be finished by next month."
-        ],
-        [
-          "He will have written the report before the meeting starts.",
-          "اجلاس شروع ہونے سے پہلے وہ رپورٹ لکھ چکا ہوگا۔",
-          "گڏجاڻي شروع ٿيڻ کان اڳ هو رپورٽ لکي چڪو هوندو.",
-          "The report-writing will be complete before the future event starts."
-        ],
-        [
-          "The train will have left by the time we reach the station.",
-          "جب تک ہم اسٹیشن پہنچیں گے، ٹرین جا چکی ہوگی۔",
-          "جڏهن اسان اسٽيشن تي پهچنداسين، تڏهن ٽرين وڃي چڪي هوندي.",
-          "Will have left shows the train's departure will happen before our arrival."
-        ],
-        [
-          "You will have learned these rules by the end of the week.",
-          "آپ ہفتے کے آخر تک یہ قواعد سیکھ چکے ہوں گے۔",
-          "توهان هفتي جي آخر تائين اهي قاعدا سکي چڪا هوندا.",
-          "Will have learned indicates completion by a future deadline."
-        ],
-        [
-          "My parents will have returned home by sunset.",
-          "میرے والدین غروبِ آفتاب تک گھر واپس آ چکے ہوں گے۔",
-          "منهنجا والدين سج لهڻ تائين گهر موٽي آيا هوندا.",
-          "Will have returned describes an action completed before sunset."
-        ],
-        [
-          "The teacher will have checked all the notebooks by Friday.",
-          "استاد جمعہ تک تمام کاپیاں چیک کر چکے ہوں گے۔",
-          "استاد جمعي تائين سڀ ڪاپيون چيڪ ڪري چڪو هوندو.",
-          "Will have checked uses the V3 checked to show completed work."
-        ],
-        [
-          "Will you have submitted the form by noon?",
-          "کیا آپ دوپہر تک فارم جمع کرا چکے ہوں گے؟",
-          "ڇا توهان منجهند تائين فارم جمع ڪرائي چڪا هوندا؟",
-          "This question asks whether the submission will be complete by noon."
-        ]
-      ]
-    },
-    {
-      "title": "4. Future Perfect Continuous",
-      "english": "Definition: Future Perfect Continuous describes an action that will have been continuing for a period of time up to a particular point in the future. It emphasizes duration. Positive form: subject + will have been + verb-ing. Negative form: subject + will not have been + verb-ing. Question form: Will + subject + have been + verb-ing? Use for with a length of time (for two hours, for five years) and since with a starting point (since Monday, since 2022).",
-      "urdu": "تعریف: Future Perfect Continuous ایسے کام کے لیے استعمال ہوتا ہے جو مستقبل کے کسی خاص وقت تک ایک مدت سے جاری ہوگا۔ اس میں کام کے جاری رہنے کی مدت پر زور ہوتا ہے۔ مثبت ساخت: فاعل + will have been + فعل-ing۔ منفی ساخت: فاعل + will not have been + فعل-ing۔ سوالیہ ساخت: Will + فاعل + have been + فعل-ing؟ مدت کے لیے for (for two hours) اور آغاز کے وقت کے لیے since (since Monday) استعمال کریں۔",
-      "sindhi": "تعريف: Future Perfect Continuous اهڙي ڪم لاءِ استعمال ٿئي ٿو جيڪو مستقبل جي ڪنهن خاص وقت تائين هڪ عرصي کان جاري هوندو. ان ۾ ڪم جي جاري رهڻ جي مدت تي زور هوندو آهي. مثبت بناوت: فاعل + will have been + فعل-ing. ناڪاري: فاعل + will not have been + فعل-ing. سوال: Will + فاعل + have been + فعل-ing؟ مدت لاءِ for (for two hours) ۽ شروعاتي وقت لاءِ since (since Monday) استعمال ڪريو.",
-      "examples": [
-        [
-          "By eight o'clock, I will have been studying for two hours.",
-          "آٹھ بجے تک مجھے پڑھتے ہوئے دو گھنٹے ہو چکے ہوں گے۔",
-          "اٺين وڳي تائين مون کي پڙهندي ٻه ڪلاڪ ٿي چڪا هوندا.",
-          "Will have been studying emphasizes the two-hour duration up to eight o'clock."
-        ],
-        [
-          "By noon, she will have been working for six hours.",
-          "دوپہر تک اسے کام کرتے ہوئے چھ گھنٹے ہو چکے ہوں گے۔",
-          "منجهند تائين هن کي ڪم ڪندي ڇهه ڪلاڪ ٿي چڪا هوندا.",
-          "For six hours gives the duration of her work up to noon."
-        ],
-        [
-          "By next June, they will have been living in Karachi for five years.",
-          "اگلے جون تک انہیں کراچی میں رہتے ہوئے پانچ سال ہو چکے ہوں گے۔",
-          "ايندڙ جون تائين انهن کي ڪراچيءَ ۾ رهندي پنج سال ٿي چڪا هوندا.",
-          "Will have been living describes an activity continuing for five years up to a future date."
-        ],
-        [
-          "By 2030, he will have been teaching for twenty years.",
-          "2030 تک اسے پڑھاتے ہوئے بیس سال ہو چکے ہوں گے۔",
-          "2030 تائين هن کي پڙهائيندي ويهه سال ٿي چڪا هوندا.",
-          "The sentence emphasizes the length of his teaching career at the future point."
-        ],
-        [
-          "At midnight, it will have been raining for three hours.",
-          "آدھی رات تک تین گھنٹوں سے بارش ہو رہی ہوگی۔",
-          "اڌ رات تائين ٽن ڪلاڪن کان مينهن وسي رهيو هوندو.",
-          "For three hours tells how long the rain will have continued by midnight."
-        ],
-        [
-          "By the time you arrive, we will have been waiting for an hour.",
-          "آپ کے پہنچنے تک ہمیں انتظار کرتے ہوئے ایک گھنٹہ ہو چکا ہوگا۔",
-          "توهان جي پهچڻ تائين اسان کي انتظار ڪندي هڪ ڪلاڪ ٿي چڪو هوندو.",
-          "The waiting will continue for an hour up to the future arrival."
-        ],
-        [
-          "Next month, my father will have been working here for ten years.",
-          "اگلے مہینے میرے والد کو یہاں کام کرتے ہوئے دس سال ہو جائیں گے۔",
-          "ايندڙ مهيني منهنجي والد کي هتي ڪم ڪندي ڏهه سال ٿي ويندا.",
-          "For ten years expresses the duration continuing up to next month."
-        ],
-        [
-          "By 5 p.m., the children will have been playing for two hours.",
-          "شام پانچ بجے تک بچوں کو کھیلتے ہوئے دو گھنٹے ہو چکے ہوں گے۔",
-          "شام پنجين وڳي تائين ٻارن کي راند ڪندي ٻه ڪلاڪ ٿي چڪا هوندا.",
-          "Will have been playing emphasizes the two-hour activity period."
-        ],
-        [
-          "By December, we will have been learning English for one year.",
-          "دسمبر تک ہمیں انگریزی سیکھتے ہوئے ایک سال ہو چکا ہوگا۔",
-          "ڊسمبر تائين اسان کي انگريزي سکندي هڪ سال ٿي چڪو هوندو.",
-          "For one year describes the duration of learning up to December."
-        ],
-        [
-          "Will she have been travelling for twelve hours by the time she reaches London?",
-          "کیا لندن پہنچنے تک اسے سفر کرتے ہوئے بارہ گھنٹے ہو چکے ہوں گے؟",
-          "ڇا لنڊن پهچڻ تائين هن کي سفر ڪندي ٻارهن ڪلاڪ ٿي چڪا هوندا؟",
-          "This question asks about the duration of travel up to a future arrival."
-        ]
-      ]
-    }
-  ]
-};
+
 
