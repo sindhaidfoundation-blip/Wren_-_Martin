@@ -1727,6 +1727,164 @@ export const topicDetails = {
         ]
       },
       {
+        "title": "Present Tense — Four Parts Explained in Detail with 30 Examples",
+        "english": "Present tense is commonly divided into four forms. Each form has a different structure and purpose. 1) Simple Present: subject + V1; add -s or -es with he, she and it. Use it for habits, routines, general truths, permanent situations and fixed schedules. In negatives and questions, use do/does + base verb (does not work, does she work?). 2) Present Continuous: am/is/are + verb-ing. Use it for actions happening now, temporary situations, changing situations and personal arrangements in the near future. 3) Present Perfect: has/have + V3 (past participle). Use it for past actions with a present result, life experiences without a stated finished time, and situations that began in the past and continue now. Do not normally use it with a finished past-time expression such as yesterday. 4) Present Perfect Continuous: has/have been + verb-ing. Use it to emphasize the duration or ongoing nature of an activity that began in the past and continues now, or has recently stopped with visible evidence. Use since for the starting point (since Monday) and for for a period (for two hours). Stative verbs such as know, own, believe and understand are usually used in simple or perfect forms rather than continuous forms when they describe states. These four forms all relate to the present, but they express different meanings: habit/fact, action in progress, present result/experience, and duration of an ongoing activity.",
+        "urdu": "Present Tense کو عام طور پر چار صورتوں میں تقسیم کیا جاتا ہے۔ ہر صورت کی ساخت اور استعمال الگ ہے۔ 1) Simple Present: فاعل + V1؛ he، she اور it کے ساتھ فعل میں -s یا -es لگتا ہے۔ اسے عادت، روزمرہ معمول، عمومی حقیقت، مستقل حالت اور مقررہ شیڈول کے لیے استعمال کرتے ہیں۔ منفی جملوں اور سوالات میں do/does + بنیادی فعل آتا ہے (does not work، does she work؟)۔ 2) Present Continuous: am/is/are + فعل-ing۔ اسے اس وقت جاری عمل، عارضی حالت، بدلتی صورتِ حال اور قریب مستقبل کے ذاتی طے شدہ پروگرام کے لیے استعمال کرتے ہیں۔ 3) Present Perfect: has/have + V3 (فعل کا تیسرا روپ)۔ یہ ماضی کے ایسے عمل کے لیے آتا ہے جس کا نتیجہ حال میں موجود ہو، کسی غیر متعین وقت کا تجربہ ہو، یا ایسی حالت ہو جو ماضی میں شروع ہو کر اب تک جاری ہے۔ اسے عموماً yesterday جیسے مکمل گزرے ہوئے وقت کے ساتھ استعمال نہیں کرتے۔ 4) Present Perfect Continuous: has/have been + فعل-ing۔ یہ ماضی میں شروع ہو کر اب تک جاری عمل کی مدت یا تسلسل پر زور دیتا ہے، یا ایسے عمل کو ظاہر کرتا ہے جو ابھی رکا ہو مگر اس کے آثار موجود ہوں۔ آغاز کا وقت بتانے کے لیے since (since Monday) اور مدت کے لیے for (for two hours) استعمال ہوتا ہے۔ Know، own، believe اور understand جیسے Stative verbs حالت ظاہر کرتے وقت عموماً Continuous کے بجائے Simple یا Perfect صورتوں میں آتے ہیں۔ چاروں صورتیں حال سے تعلق رکھتی ہیں، مگر الگ معنی دیتی ہیں: عادت/حقیقت، جاری عمل، موجودہ نتیجہ/تجربہ، اور جاری عمل کا دورانیہ۔",
+        "sindhi": "Present Tense کي عام طور چار صورتن ۾ ورهايو ويندو آهي. هر صورت جي بناوت ۽ استعمال الڳ آهي. 1) Simple Present: فاعل + V1؛ he، she ۽ it سان فعل ۾ -s يا -es لڳندو آهي. اهو عادت، روزاني معمول، عام حقيقت، مستقل حالت ۽ مقرر شيڊول لاءِ استعمال ٿئي ٿو. ناڪاري جملن ۽ سوالن ۾ do/does + بنيادي فعل ايندو آهي (does not work، does she work؟). 2) Present Continuous: am/is/are + فعل-ing. اهو هن وقت جاري عمل، عارضي حالت، بدلجندڙ صورتحال ۽ ويجهي مستقبل جي ذاتي طئي ٿيل پروگرام لاءِ استعمال ٿئي ٿو. 3) Present Perfect: has/have + V3 (فعل جو ٽيون روپ). اهو ماضيءَ جي اهڙي عمل لاءِ اچي ٿو جنهن جو نتيجو حال ۾ موجود هجي، ڪنهن اڻڄاتل وقت جو تجربو هجي، يا اهڙي حالت هجي جيڪا ماضيءَ ۾ شروع ٿي اڃا تائين جاري هجي. ان کي عام طور yesterday جهڙي مڪمل گذريل وقت سان استعمال نٿو ڪجي. 4) Present Perfect Continuous: has/have been + فعل-ing. اهو ماضيءَ ۾ شروع ٿي اڃا تائين جاري عمل جي مدت يا تسلسل تي زور ڏئي ٿو، يا اهڙو عمل ڏيکاري ٿو جيڪو تازو بند ٿيو هجي پر ان جا نشان موجود هجن. شروعاتي وقت لاءِ since (since Monday) ۽ مدت لاءِ for (for two hours) استعمال ٿيندو آهي. Know، own، believe ۽ understand جهڙا Stative verbs حالت ظاهر ڪرڻ وقت عام طور Continuous بدران Simple يا Perfect صورتن ۾ ايندا آهن. چارئي صورتون حال سان لاڳاپيل آهن، پر مختلف مطلب ڏين ٿيون: عادت/حقيقت، جاري عمل، موجوده نتيجو/تجربو، ۽ جاري عمل جو مدو.",
+        "examples": [
+          [
+            "He goes to school every morning.",
+            "وہ ہر صبح اسکول جاتا ہے۔",
+            "هو هر صبح اسڪول وڃي ٿو."
+          ],
+          [
+            "My mother prepares breakfast at seven.",
+            "میری والدہ سات بجے ناشتہ تیار کرتی ہیں۔",
+            "منهنجي ماءُ ستين وڳي ناشتو تيار ڪري ٿي."
+          ],
+          [
+            "Birds build nests in trees.",
+            "پرندے درختوں میں گھونسلے بناتے ہیں۔",
+            "پکي وڻن ۾ آکيرا ٺاهين ٿا."
+          ],
+          [
+            "The Earth revolves around the Sun.",
+            "زمین سورج کے گرد گردش کرتی ہے۔",
+            "ڌرتي سج جي چوڌاري ڦري ٿي."
+          ],
+          [
+            "Sara does not drink coffee.",
+            "سارہ کافی نہیں پیتی۔",
+            "سارا ڪافي نٿي پيئي."
+          ],
+          [
+            "Do you speak English?",
+            "کیا تم انگریزی بولتے ہو؟",
+            "ڇا تون انگريزي ڳالهائين ٿو؟"
+          ],
+          [
+            "The library closes at five.",
+            "کتب خانہ پانچ بجے بند ہوتا ہے۔",
+            "ڪتب خانو پنجين وڳي بند ٿئي ٿو."
+          ],
+          [
+            "I am doing my homework now.",
+            "میں اس وقت اپنا گھر کا کام کر رہا ہوں۔",
+            "مان هن وقت پنهنجو گهر جو ڪم ڪري رهيو آهيان."
+          ],
+          [
+            "The boys are playing football in the park.",
+            "لڑکے پارک میں فٹ بال کھیل رہے ہیں۔",
+            "ڇوڪرا پارڪ ۾ فٽبال کيڏي رهيا آهن."
+          ],
+          [
+            "She is talking to her teacher.",
+            "وہ اپنی استانی سے بات کر رہی ہے۔",
+            "هوءَ پنهنجي استادياڻيءَ سان ڳالهائي رهي آهي."
+          ],
+          [
+            "We are staying at a hotel this week.",
+            "ہم اس ہفتے ایک ہوٹل میں ٹھہرے ہوئے ہیں۔",
+            "اسين هن هفتي هڪ هوٽل ۾ ترسيل آهيون."
+          ],
+          [
+            "The weather is getting colder.",
+            "موسم سرد ہوتا جا رہا ہے۔",
+            "موسم وڌيڪ ٿڌو ٿيندو پيو وڃي."
+          ],
+          [
+            "Are they waiting for the bus?",
+            "کیا وہ بس کا انتظار کر رہے ہیں؟",
+            "ڇا اهي بس جو انتظار ڪري رهيا آهن؟"
+          ],
+          [
+            "I have lost my keys.",
+            "میری چابیاں گم ہو گئی ہیں۔",
+            "منهنجون چاٻيون گم ٿي ويون آهن."
+          ],
+          [
+            "She has already eaten lunch.",
+            "وہ پہلے ہی دوپہر کا کھانا کھا چکی ہے۔",
+            "هوءَ اڳ ئي منجهند جي ماني کائي چڪي آهي."
+          ],
+          [
+            "We have seen this movie before.",
+            "ہم یہ فلم پہلے دیکھ چکے ہیں۔",
+            "اسان هيءَ فلم اڳ ڏسي چڪا آهيون."
+          ],
+          [
+            "He has just arrived at the office.",
+            "وہ ابھی دفتر پہنچا ہے۔",
+            "هو هاڻي ئي آفيس پهتو آهي."
+          ],
+          [
+            "Have you ever visited Karachi?",
+            "کیا تم کبھی کراچی گئے ہو؟",
+            "ڇا تون ڪڏهن ڪراچي ويو آهين؟"
+          ],
+          [
+            "They have lived in this town for ten years.",
+            "وہ اس قصبے میں دس سال سے رہ رہے ہیں۔",
+            "اهي ڏهن سالن کان هن شهر ۾ رهن ٿا."
+          ],
+          [
+            "The rain has stopped.",
+            "بارش رک گئی ہے۔",
+            "مينهن بند ٿي ويو آهي."
+          ],
+          [
+            "I have been reading for two hours.",
+            "میں دو گھنٹوں سے پڑھ رہا ہوں۔",
+            "مان ٻن ڪلاڪن کان پڙهي رهيو آهيان."
+          ],
+          [
+            "She has been teaching here since 2018.",
+            "وہ 2018 سے یہاں پڑھا رہی ہے۔",
+            "هوءَ 2018ع کان هتي پڙهائي رهي آهي."
+          ],
+          [
+            "It has been snowing since morning.",
+            "صبح سے برف باری ہو رہی ہے۔",
+            "صبح کان برفباري ٿي رهي آهي."
+          ],
+          [
+            "The children have been waiting for their father for an hour.",
+            "بچے ایک گھنٹے سے اپنے والد کا انتظار کر رہے ہیں۔",
+            "ٻار هڪ ڪلاڪ کان پنهنجي پيءُ جو انتظار ڪري رهيا آهن."
+          ],
+          [
+            "How long have you been learning English?",
+            "تم کب سے انگریزی سیکھ رہے ہو؟",
+            "تون ڪيتري وقت کان انگريزي سکي رهيو آهين؟"
+          ],
+          [
+            "He has been working on this project all day.",
+            "وہ سارا دن اس منصوبے پر کام کر رہا ہے۔",
+            "هو سڄو ڏينهن هن منصوبي تي ڪم ڪري رهيو آهي."
+          ],
+          [
+            "My sister has been practising the piano recently.",
+            "میری بہن حال ہی میں پیانو کی مشق کر رہی ہے۔",
+            "منهنجي ڀيڻ تازو پيانو جي مشق ڪري رهي آهي."
+          ],
+          [
+            "We have been living here since June.",
+            "ہم جون سے یہاں رہ رہے ہیں۔",
+            "اسين جون کان هتي رهي رهيا آهيون."
+          ],
+          [
+            "The workers have been repairing the road for three days.",
+            "مزدور تین دن سے سڑک کی مرمت کر رہے ہیں۔",
+            "مزدور ٽن ڏينهن کان رستي جي مرمت ڪري رهيا آهن."
+          ],
+          [
+            "I have been trying to contact you all morning.",
+            "میں ساری صبح تم سے رابطہ کرنے کی کوشش کر رہا ہوں۔",
+            "مان سڄي صبح توسان رابطو ڪرڻ جي ڪوشش ڪري رهيو آهيان."
+          ]
+        ]
+      },
+      {
         "title": "Past Tense — Forms, Uses and 10 Examples",
         "english": "Past tense forms describe actions, events and states that belong to a time before the present. The four commonly taught past forms are Simple Past (past form of the verb), Past Continuous (was/were + verb-ing), Past Perfect (had + past participle) and Past Perfect Continuous (had been + verb-ing). Simple Past describes a completed event or past habit: ‘They visited us yesterday’. Past Continuous shows an action that was in progress at a particular past time, often when another event occurred: ‘I was reading when he called’. Past Perfect shows that one past action happened before another past action: ‘The train had left before we arrived’. Past Perfect Continuous emphasizes the duration of an activity up to a past point: ‘She had been working for two hours when I arrived’. Regular verbs commonly form the past with -ed, while irregular verbs have special forms that must be learned. Use the simple past with a finished past time such as yesterday, last week or in 2019. The past perfect is useful when the order of two past events needs to be made clear.",
         "urdu": "Past Tense کی صورتیں ایسے اعمال، واقعات اور حالتوں کو ظاہر کرتی ہیں جو موجودہ وقت سے پہلے واقع ہوئے۔ Past کی چار عام صورتیں یہ ہیں: Simple Past (فعل کی ماضی والی شکل)، Past Continuous (was/were + فعل-ing)، Past Perfect (had + فعل کا تیسرا روپ) اور Past Perfect Continuous (had been + فعل-ing)۔ Simple Past مکمل ہو چکے واقعے یا ماضی کی عادت کے لیے آتا ہے: ‘They visited us yesterday’۔ Past Continuous ماضی کے کسی خاص وقت پر جاری عمل بتاتا ہے، اکثر جب کوئی دوسرا واقعہ پیش آیا: ‘I was reading when he called’۔ Past Perfect بتاتا ہے کہ ایک ماضی کا عمل دوسرے ماضی کے عمل سے پہلے مکمل ہو چکا تھا: ‘The train had left before we arrived’۔ Past Perfect Continuous ماضی کے کسی وقت تک عمل کے جاری رہنے کی مدت پر زور دیتا ہے: ‘She had been working for two hours when I arrived’۔ باقاعدہ افعال میں عموماً -ed لگتا ہے، جبکہ بے قاعدہ افعال کی الگ صورتیں یاد کرنا ضروری ہیں۔ Yesterday، last week یا in 2019 جیسے مکمل ماضی کے وقت کے ساتھ Simple Past استعمال کریں۔ دو ماضی کے واقعات کی ترتیب واضح کرنے کے لیے Past Perfect مفید ہے۔",
