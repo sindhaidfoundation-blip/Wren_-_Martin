@@ -2210,7 +2210,6 @@ export const topicDetails = {
           ["Positive: No other person in the family is as old as my grandfather. | Comparative: My grandfather is older than any other person in the family. | Superlative: My grandfather is the oldest person in the family.", "مثبت: خاندان میں کوئی دوسرا شخص میرے دادا جتنا عمر رسیدہ نہیں۔ | تقابلی: میرے دادا خاندان کے کسی بھی دوسرے شخص سے زیادہ عمر رسیدہ ہیں۔ | اعلیٰ: میرے دادا خاندان کے سب سے عمر رسیدہ فرد ہیں۔", "مثبت: ڪٽنب ۾ ڪو ٻيو ماڻهو منهنجي ڏاڏي جيترو وڏي عمر وارو ناهي. | تقابلي: منهنجو ڏاڏو ڪٽنب جي ڪنهن به ٻئي ماڻهو کان وڏي عمر وارو آهي. | اعليٰ: منهنجو ڏاڏو ڪٽنب جو سڀ کان وڏي عمر وارو ماڻهو آهي."],
           ["Positive: Very few languages are as widely spoken as English. | Comparative: English is more widely spoken than most other languages. | Superlative: English is one of the most widely spoken languages.", "مثبت: بہت کم زبانیں انگریزی کی طرح وسیع پیمانے پر بولی جاتی ہیں۔ | تقابلی: انگریزی زیادہ تر دوسری زبانوں سے زیادہ وسیع پیمانے پر بولی جاتی ہے۔ | اعلیٰ: انگریزی سب سے زیادہ بولی جانے والی زبانوں میں سے ایک ہے۔", "مثبت: تمام ٿوريون ٻوليون انگريزيءَ وانگر وڏي پيماني تي ڳالهايون وڃن ٿيون. | تقابلي: انگريزي گهڻين ٻين ٻولين کان وڌيڪ وڏي پيماني تي ڳالهائي وڃي ٿي. | اعليٰ: انگريزي سڀ کان وڌيڪ ڳالهائجندڙ ٻولين مان هڪ آهي."]
         ]
-      }
       },
       {
         title: "Adjectives Used as Nouns",
