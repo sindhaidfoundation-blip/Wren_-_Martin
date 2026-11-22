@@ -568,6 +568,16 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{item.urdu}</Text>
           <Text style={styles.panelLabel}>سنڌي ۾ وضاحت</Text>
           <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{item.sindhi}</Text>
+          {item.rules ? <View style={{ gap: 10 }}>
+            <Text style={styles.panelLabel}>PLURAL FORMATION RULES — جمع بنانے کے قواعد</Text>
+            {item.rules.map((rule, ruleIndex) => <View key={rule.title} style={{ backgroundColor: "#F7F8FC", borderRadius: 12, padding: 12, gap: 7 }}>
+              <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{rule.title}</Text>
+              <Text style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{rule.english}</Text>
+              <Text style={{ color: ink, fontSize: 13, lineHeight: 24, textAlign: "right" }}>اردو: {rule.urdu}</Text>
+              <Text style={{ color: green, fontSize: 13, lineHeight: 24, textAlign: "right" }}>سنڌي: {rule.sindhi}</Text>
+              <Text style={{ color: muted, fontSize: 13, lineHeight: 21 }}>Examples: {rule.examples}</Text>
+            </View>)}
+          </View> : null}
           <View style={{ backgroundColor: "#F0F5FF", borderRadius: 12, padding: 12, gap: 9 }}>
             <Text style={styles.panelLabel}>5 EXAMPLES — مثال</Text>
             {item.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderBottomWidth: exampleIndex === 4 ? 0 : 1, borderBottomColor: "#DFE8FA", paddingBottom: exampleIndex === 4 ? 0 : 8, gap: 3 }}>
