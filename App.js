@@ -578,6 +578,26 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           </View>
         </View>)}
       </View> : null}
+      {selected.id === "the-sentence" && topicDetails["the-sentence"].bilingualSections ? <View style={{ marginTop: 24, gap: 14 }}>
+        <Text style={styles.sectionTitle}>Chapter 1 — The Sentence</Text>
+        {topicDetails["the-sentence"].bilingualSections.map((section, index) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 10 }}>
+          <Text style={{ color: navy, fontSize: 18, fontWeight: "800" }}>{index + 1}. {section.title}</Text>
+          <Text style={styles.panelLabel}>ENGLISH EXPLANATION</Text>
+          <Text style={{ color: ink, fontSize: 14, lineHeight: 23 }}>{section.english}</Text>
+          <Text style={styles.panelLabel}>اردو میں وضاحت</Text>
+          <Text style={{ color: ink, fontSize: 14, lineHeight: 26, textAlign: "right" }}>{section.urdu}</Text>
+          <Text style={styles.panelLabel}>سنڌي ۾ وضاحت</Text>
+          <Text style={{ color: green, fontSize: 14, lineHeight: 26, textAlign: "right" }}>{section.sindhi}</Text>
+          <View style={{ backgroundColor: "#F0F5FF", borderRadius: 12, padding: 12, gap: 9 }}>
+            <Text style={styles.panelLabel}>EXAMPLES — مثال</Text>
+            {section.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderBottomWidth: exampleIndex === section.examples.length - 1 ? 0 : 1, borderBottomColor: "#DFE8FA", paddingBottom: 8, gap: 4 }}>
+              <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
+              <Text style={{ color: muted, fontSize: 13, textAlign: "right" }}>اردو: {example[1]}</Text>
+              <Text style={{ color: green, fontSize: 13, textAlign: "right" }}>سنڌي: {example[2]}</Text>
+            </View>)}
+          </View>
+        </View>)}
+      </View> : null}
       <Action title="Take chapter quiz  →" onPress={() => startQuiz(selected)} />
       <Action title="Mark lesson complete" secondary onPress={finishLesson} />
     </ScrollView>;
