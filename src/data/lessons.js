@@ -214,7 +214,7 @@ export const lessons = [
     quiz: [{ q: "Which is an interjection?", options: ["although", "wow", "under", "carefully"], answer: 1, why: "Wow expresses a sudden reaction." }]
   },
   {
-    id: "subject-predicate", title: "Subject and Predicate", subtitle: "The two main parts of a sentence",
+    id: "subject-predicate-practice", title: "Subject and Predicate", subtitle: "The two main parts of a sentence",
     urdu: "Subject بتاتا ہے کہ جملہ کس کے بارے میں ہے، جبکہ predicate subject کے بارے میں کچھ بتاتا ہے اور عموماً فعل پر مشتمل ہوتا ہے۔",
     level: "Beginner", duration: "8 min",
     rule: "The subject tells who or what the sentence is about; the predicate says something about the subject.",
@@ -347,7 +347,7 @@ export const lessons = [
   }
   ,
   {
-    id: "the-sentence", title: "The Sentence", subtitle: "What makes a complete sentence",
+    id: "sentence-structure-basics", title: "The Sentence", subtitle: "What makes a complete sentence",
     urdu: "Sentence الفاظ کا ایسا مجموعہ ہے جو مکمل خیال ظاہر کرے۔ عام طور پر اس میں subject اور predicate ہوتا ہے اور تحریر میں مناسب capital letter اور اختتامی punctuation استعمال ہوتی ہے۔",
     level: "Beginner", duration: "8 min",
     rule: "A sentence is a group of words that expresses a complete thought. It normally contains a subject and a predicate.",
