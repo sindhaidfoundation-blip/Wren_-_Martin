@@ -5677,7 +5677,30 @@ export const lessons = [
     ],
     "practicePrompt": "Write a short message to new students explaining how they should use an English grammar course. Include its purpose, study advice and an encouraging closing."
   }
-];
+  {
+    id: "past-tense",
+    title: "Past Tense",
+    subtitle: "The four forms of past time with explanations and examples",
+    urdu: "Past Tense ایسے کام، واقعات اور حالتوں کے لیے استعمال ہوتا ہے جو موجودہ وقت سے پہلے پیش آئے۔ اس کی چار بنیادی صورتیں ہیں: Simple Past، Past Continuous، Past Perfect اور Past Perfect Continuous۔",
+    level: "Intermediate",
+    duration: "15 min",
+    rule: "Past tense describes an action or state before now. Its four commonly taught forms are Simple Past, Past Continuous, Past Perfect and Past Perfect Continuous.",
+    example: "I studied. / I was studying. / I had studied. / I had been studying.",
+    breakdown: [
+      ["Simple Past", "Subject + V2", "ماضی میں مکمل ہونے والا کام؛ مثال: She wrote."],
+      ["Past Continuous", "Subject + was/were + V-ing", "ماضی کے کسی وقت جاری کام؛ مثال: She was writing."],
+      ["Past Perfect", "Subject + had + V3", "ماضی کے دوسرے کام سے پہلے مکمل کام؛ مثال: She had written."],
+      ["Past Perfect Continuous", "Subject + had been + V-ing", "ماضی کے کسی وقت تک جاری رہنے والا کام؛ مثال: She had been writing."]
+    ],
+    quiz: [
+      { q: "Which form describes a completed action at a finished past time?", options: ["Simple Past", "Past Continuous", "Past Perfect Continuous"], answer: 0, why: "Simple Past is used for completed past events, often with a finished time such as yesterday." },
+      { q: "Choose the correct Past Continuous structure.", options: ["had + V3", "was/were + verb-ing", "had been + verb-ing"], answer: 1, why: "Past Continuous uses was or were followed by the -ing form." },
+      { q: "Which form shows that one past action happened before another?", options: ["Simple Past", "Past Perfect", "Past Continuous"], answer: 1, why: "Past Perfect uses had + past participle to show the earlier of two past actions." },
+      { q: "Complete: They ___ for two hours before the bus arrived.", options: ["had been waiting", "were wait", "has waited"], answer: 0, why: "Past Perfect Continuous emphasizes duration up to a later past event." },
+      { q: "What is the simple past form of 'go'?", options: ["goed", "gone", "went"], answer: 2, why: "Go is irregular: go – went – gone." }
+    ]
+  },
+]; 
 
 export const sindhiTranslations = {
   "the-sentence": "Sentence لفظن جو اهڙو مجموعو آهي جيڪو پورو مطلب ڏئي. جملن جا چار قسم آهن: بياني، سوالي، حڪمي ۽ عجب وارا. هر جملي جا ٻه حصا Subject ۽ Predicate هوندا آهن.",
