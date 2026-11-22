@@ -3577,7 +3577,360 @@ export const topicDetails = {
                 ]
             }
         ]
+    },
+    {
+        "title": "Some Conjunctions and Their Uses — Detailed Explanation",
+        "english": "This lesson explains frequently used conjunctions and conjunction-like words, including their meanings, grammatical roles and common patterns. Some listed words are not always conjunctions: only is usually an adverb or adjective; except is usually a preposition but can introduce a clause in except that; without is normally a preposition; and than has different analyses in modern grammar. Identify the function from the sentence rather than memorising one label.",
+        "urdu": "اس سبق میں عام استعمال ہونے والے حروفِ عطف اور ان سے ملتے جلتے الفاظ کے معنی، قواعدی کردار اور مثالیں بیان کی گئی ہیں۔ کچھ الفاظ ہر جملے میں حرفِ عطف نہیں ہوتے؛ ان کا کردار جملے کے استعمال سے طے ہوتا ہے۔",
+        "sindhi": "هن سبق ۾ عام استعمال ٿيندڙ حرفِ عطف ۽ انهن سان ملندڙ لفظن جا مطلب، گرامري ڪم ۽ مثالون ڏنل آهن. ڪجهه لفظ هر جملي ۾ حرفِ عطف ناهن؛ انهن جو ڪم جملي جي استعمال مان طئي ٿيندو آهي.",
+        "subsections": [
+            {
+                "title": "Since",
+                "english": "Since has two important uses. As a subordinating conjunction, it can mean because and introduce a reason. It can also introduce a time clause meaning from the time that. The context tells which meaning is intended.",
+                "urdu": "Since بطور حرفِ عطف وجہ کے معنی میں because اور وقت کے معنی میں from the time that کے لیے آتا ہے۔",
+                "sindhi": "Since حرفِ عطف طور سبب لاءِ because ۽ وقت لاءِ from the time that جي معنى ڏئي ٿو.",
+                "examples": [
+                    [
+                        "Since you are ready, we can begin.",
+                        "چونکہ تم تیار ہو، ہم شروع کر سکتے ہیں۔",
+                        "جيئن ته تون تيار آهين، اسان شروع ڪري سگهون ٿا۔",
+                        "Since means because and introduces a reason."
+                    ],
+                    [
+                        "I have known her since we were children.",
+                        "میں اسے تب سے جانتا ہوں جب ہم بچے تھے۔",
+                        "مان کيس تڏهن کان سڃاڻان ٿو، جڏهن اسين ٻار هئاسين۔",
+                        "Since introduces the starting point of a period of time."
+                    ],
+                    [
+                        "Since it was getting dark, we returned home.",
+                        "چونکہ اندھیرا ہو رہا تھا، ہم گھر واپس آگئے۔",
+                        "جيئن ته اوندهه ٿي رهي هئي، اسان گهر موٽي آياسين۔",
+                        "Since gives the reason for returning."
+                    ]
+                ]
+            },
+            {
+                "title": "Or",
+                "english": "Or is a coordinating conjunction used to present a choice, alternative or possibility. It can join words, phrases or clauses. In questions, it often asks the listener to choose between alternatives.",
+                "urdu": "Or انتخاب، متبادل یا امکان ظاہر کرتا ہے اور الفاظ یا جملوں کو ملاتا ہے۔",
+                "sindhi": "Or چونڊ، متبادل يا امڪان ظاهر ڪري ٿو ۽ لفظن يا جملن کي ملائي ٿو.",
+                "examples": [
+                    [
+                        "Would you like tea or coffee?",
+                        "کیا آپ چائے یا کافی پسند کریں گے؟",
+                        "ڇا توکي چانهه يا ڪافي کپي؟",
+                        "Or offers a choice between two drinks."
+                    ],
+                    [
+                        "You can call me or send a message.",
+                        "تم مجھے فون کر سکتے ہو یا پیغام بھیج سکتے ہو۔",
+                        "تون مون کي فون ڪري سگهين ٿو يا پيغام موڪلي سگهين ٿو۔",
+                        "Or connects two alternative actions."
+                    ],
+                    [
+                        "Hurry up, or you will miss the bus.",
+                        "جلدی کرو، ورنہ تمہاری بس چھوٹ جائے گی۔",
+                        "جلدي ڪر، نه ته تنهنجي بس نڪري ويندي۔",
+                        "Or introduces a possible negative consequence if the instruction is not followed."
+                    ]
+                ]
+            },
+            {
+                "title": "If",
+                "english": "If is a subordinating conjunction that introduces a condition. The main clause tells what will happen if that condition is met. It can also introduce an indirect yes/no question, as in “I wonder if she is home.” In ordinary future conditionals, use a present tense after if, not will.",
+                "urdu": "If شرط متعارف کراتا ہے۔ یہ بالواسطہ سوال میں whether کے معنی بھی دے سکتا ہے۔",
+                "sindhi": "If شرط متعارف ڪرائي ٿو. اهو اڻ سڌي سوال ۾ whether جي معنى به ڏئي سگهي ٿو.",
+                "examples": [
+                    [
+                        "If it rains, we will stay at home.",
+                        "اگر بارش ہوئی تو ہم گھر رہیں گے۔",
+                        "جيڪڏهن مينهن پيو ته اسين گهر رهنداسين۔",
+                        "If introduces a possible condition."
+                    ],
+                    [
+                        "If you practise daily, you will improve.",
+                        "اگر تم روزانہ مشق کرو گے تو بہتر ہو جاؤ گے۔",
+                        "جيڪڏهن تون روز مشق ڪندين ته بهتر ٿيندين۔",
+                        "The if-clause states the condition; the main clause gives the result."
+                    ],
+                    [
+                        "I wonder if he knows the answer.",
+                        "مجھے حیرت ہے کہ کیا اسے جواب معلوم ہے۔",
+                        "مون کي حيرت آهي ته ڇا کيس جواب معلوم آهي۔",
+                        "If introduces an indirect yes/no question, not a condition."
+                    ]
+                ]
+            },
+            {
+                "title": "That",
+                "english": "That can be a subordinating conjunction (also called a complementiser) introducing a noun clause that completes the meaning of a verb, adjective or noun. In this use it does not refer to a thing. That can also be a demonstrative determiner/pronoun or a relative pronoun, so identify its job from the sentence.",
+                "urdu": "That بطور حرفِ عطف ایسا noun clause متعارف کراتا ہے جو فعل یا صفت کا مطلب مکمل کرتا ہے۔ بعض جملوں میں یہ demonstrative یا relative pronoun بھی ہوتا ہے۔",
+                "sindhi": "That حرفِ عطف طور اهڙو noun clause آڻي ٿو، جيڪو فعل يا صفت جي معنى مڪمل ڪري ٿو. ٻين جملن ۾ اهو demonstrative يا relative pronoun به ٿي سگهي ٿو.",
+                "examples": [
+                    [
+                        "I believe that she is honest.",
+                        "مجھے یقین ہے کہ وہ ایماندار ہے۔",
+                        "مون کي يقين آهي ته هوءَ ايماندار آهي۔",
+                        "That introduces the noun clause “she is honest” as the object of believe."
+                    ],
+                    [
+                        "He said that he was tired.",
+                        "اس نے کہا کہ وہ تھکا ہوا تھا۔",
+                        "هن چيو ته هو ٿڪل هو۔",
+                        "That introduces what he said."
+                    ],
+                    [
+                        "It is clear that we need more time.",
+                        "یہ واضح ہے کہ ہمیں مزید وقت درکار ہے۔",
+                        "اهو واضح آهي ته اسان کي وڌيڪ وقت گهرجي۔",
+                        "That introduces a clause completing the meaning of clear."
+                    ]
+                ]
+            },
+            {
+                "title": "Than",
+                "english": "Than is used after a comparative adjective or adverb to introduce the second part of a comparison. It can connect clauses or shorter phrases. In traditional grammar it is often taught as a conjunction; modern analysis may treat it as a preposition in some constructions. Do not confuse than with then, which refers to time or sequence.",
+                "urdu": "Than تقابلی صفت یا قید کے بعد موازنے کا دوسرا حصہ متعارف کراتا ہے۔ اسے then سے نہ ملائیں۔",
+                "sindhi": "Than تقابلي صفت يا ظرف کان پوءِ ڀيٽ جو ٻيو حصو آڻي ٿو. ان کي then سان نه ملايو.",
+                "examples": [
+                    [
+                        "Sara is taller than her brother.",
+                        "سارہ اپنے بھائی سے لمبی ہے۔",
+                        "سارا پنهنجي ڀاءُ کان ڊگهي آهي۔",
+                        "Than introduces the second person in the comparison."
+                    ],
+                    [
+                        "This road is safer than the old road was.",
+                        "یہ سڑک پرانی سڑک سے زیادہ محفوظ ہے۔",
+                        "هي رستو پراڻي رستي کان وڌيڪ محفوظ آهي۔",
+                        "Than introduces a comparative clause."
+                    ],
+                    [
+                        "I would rather walk than wait.",
+                        "میں انتظار کرنے کے بجائے پیدل چلنا پسند کروں گا۔",
+                        "مان انتظار ڪرڻ بدران پنڌ هلڻ پسند ڪندس۔",
+                        "Than completes the rather…than preference pattern."
+                    ]
+                ]
+            },
+            {
+                "title": "Lest",
+                "english": "Lest is a formal subordinating conjunction meaning “for fear that” or “so that something bad may not happen.” It introduces a clause expressing prevention or precaution. It is traditionally followed by should or by a bare verb in formal English. Because lest already carries a negative sense, avoid adding not in the clause in standard usage.",
+                "urdu": "Lest رسمی حرفِ عطف ہے جس کا مطلب ہے کہیں ایسا نہ ہو یا اس خوف سے کہ۔ اس کے بعد عموماً should یا فعل کی بنیادی شکل آتی ہے۔",
+                "sindhi": "Lest رسمي حرفِ عطف آهي، جنهن جي معنى آهي متان ائين نه ٿئي. ان کان پوءِ عام طور should يا فعل جي بنيادي صورت اچي ٿي.",
+                "examples": [
+                    [
+                        "Walk carefully lest you should fall.",
+                        "احتیاط سے چلو کہیں تم گر نہ جاؤ۔",
+                        "خبرداريءَ سان هل، متان ڪري نه پئين۔",
+                        "Lest expresses fear of an unwanted result."
+                    ],
+                    [
+                        "He spoke softly lest he wake the baby.",
+                        "وہ آہستہ بولا تاکہ بچہ جاگ نہ جائے۔",
+                        "هو آهستي ڳالهايو، متان ٻار جاڳي پوي۔",
+                        "Lest introduces the outcome he wanted to prevent."
+                    ],
+                    [
+                        "Keep the receipt lest you need it later.",
+                        "رسید سنبھال کر رکھو، کہیں بعد میں اس کی ضرورت نہ پڑ جائے۔",
+                        "رسيد سنڀالي رک، متان پوءِ ان جي ضرورت پوي۔",
+                        "Lest gives a precaution against a possible future need."
+                    ]
+                ]
+            },
+            {
+                "title": "While",
+                "english": "While is commonly a subordinating conjunction of time, meaning during the time that. It can also introduce contrast, similar to whereas. It may join two actions happening at the same time or compare two different facts. It can also be a noun in expressions such as “for a while.”",
+                "urdu": "While وقت کے معنی میں دوران اور تقابل میں جبکہ کے معنی دیتا ہے۔",
+                "sindhi": "While وقت لاءِ دوران ۽ ڀيٽ ۾ جڏهن ته جي معنى ڏئي ٿو.",
+                "examples": [
+                    [
+                        "I read while my brother watched television.",
+                        "جب میرا بھائی ٹی وی دیکھ رہا تھا تو میں پڑھ رہا تھا۔",
+                        "جڏهن منهنجو ڀاءُ ٽي وي ڏسي رهيو هو، تڏهن مان پڙهي رهيو هوس۔",
+                        "While introduces two simultaneous actions."
+                    ],
+                    [
+                        "While I like tea, my sister prefers coffee.",
+                        "اگرچہ مجھے چائے پسند ہے، میری بہن کافی پسند کرتی ہے۔",
+                        "جيتوڻيڪ مون کي چانهه وڻي ٿي، منهنجي ڀيڻ ڪافي پسند ڪري ٿي۔",
+                        "While expresses contrast between preferences."
+                    ],
+                    [
+                        "Please wait here while I speak to the manager.",
+                        "براہِ کرم یہاں انتظار کریں جب تک میں مینیجر سے بات کروں۔",
+                        "مهرباني ڪري هتي انتظار ڪريو، جيستائين مان مينيجر سان ڳالهايان۔",
+                        "While marks the period during which the listener should wait."
+                    ]
+                ]
+            },
+            {
+                "title": "Only",
+                "english": "Only is usually an adverb or adjective, not a conjunction. It means solely or no more than. In informal English, it can sometimes be used as a conjunction meaning “but” or “except that,” as in “I would help, only I am busy”; this use is less common and should generally be avoided in formal writing. Place only near the word or phrase it limits to avoid ambiguity.",
+                "urdu": "Only عموماً قید یا صفت ہے، حرفِ عطف نہیں۔ غیر رسمی استعمال میں کبھی but کے معنی میں آتا ہے۔",
+                "sindhi": "Only عام طور ظرف يا صفت آهي، حرفِ عطف نه آهي. غير رسمي استعمال ۾ ڪڏهن but جي معنى ڏئي ٿو.",
+                "examples": [
+                    [
+                        "Only Ali knew the answer.",
+                        "صرف علی کو جواب معلوم تھا۔",
+                        "صرف عليءَ کي جواب معلوم هو۔",
+                        "Only is an adverb limiting who knew the answer."
+                    ],
+                    [
+                        "I have only two books.",
+                        "میرے پاس صرف دو کتابیں ہیں۔",
+                        "مون وٽ رڳو ٻه ڪتاب آهن۔",
+                        "Only limits the quantity."
+                    ],
+                    [
+                        "I would join you, only I am busy.",
+                        "میں تمہارے ساتھ آتا، لیکن میں مصروف ہوں۔",
+                        "مان توسان گڏ هلان ها، پر مان مصروف آهيان۔",
+                        "Only is used informally as a conjunction meaning but; prefer but in formal writing."
+                    ]
+                ]
+            },
+            {
+                "title": "Except",
+                "english": "Except is usually a preposition meaning “not including” or “excluding.” It can also function as a conjunction before a clause, often in the expression except that, meaning “but for the fact that.” Distinguish except (excluding) from accept (to receive or agree to).",
+                "urdu": "Except عموماً preposition ہے جس کا مطلب سوائے یا علاوہ ہے۔ Except that کے ذریعے یہ clause بھی متعارف کرا سکتا ہے۔",
+                "sindhi": "Except عام طور preposition آهي، جنهن جي معنى سواءِ يا کان سواءِ آهي. Except that سان اهو clause به متعارف ڪرائي سگهي ٿو.",
+                "examples": [
+                    [
+                        "Everyone came except Ahmed.",
+                        "احمد کے علاوہ سب آئے۔",
+                        "احمد کان سواءِ سڀ آيا۔",
+                        "Except is a preposition meaning excluding."
+                    ],
+                    [
+                        "I would buy the shirt, except that it is too expensive.",
+                        "میں قمیض خرید لیتا، لیکن وہ بہت مہنگی ہے۔",
+                        "مان قميص وٺان ها، پر اها تمام مهانگي آهي۔",
+                        "Except that introduces a clause giving the reason for an exception."
+                    ],
+                    [
+                        "The shop is open every day except Sunday.",
+                        "دکان اتوار کے علاوہ ہر روز کھلی ہوتی ہے۔",
+                        "دڪان آچر کان سواءِ هر روز کليل هوندو آهي۔",
+                        "Except excludes Sunday from the statement."
+                    ]
+                ]
+            },
+            {
+                "title": "Without",
+                "english": "Without is normally a preposition, not a conjunction. It is followed by a noun, pronoun or an -ing form (gerund): without help, without him, without speaking. It can be followed by a clause in the pattern without + subject + -ing, as in “without anyone noticing”; grammatically, it still functions as a preposition introducing a gerund-participial clause.",
+                "urdu": "Without عام طور حرفِ جار ہے، حرفِ عطف نہیں۔ اس کے بعد اسم، ضمیر یا فعل کی -ing شکل آتی ہے۔",
+                "sindhi": "Without عام طور حرفِ جر آهي، حرفِ عطف نه آهي. ان کان پوءِ اسم، ضمير يا فعل جي -ing صورت اچي ٿي.",
+                "examples": [
+                    [
+                        "She left without saying goodbye.",
+                        "وہ خدا حافظ کہے بغیر چلی گئی۔",
+                        "هوءَ خدا حافظ چوڻ کان سواءِ هلي وئي۔",
+                        "Without is followed by the -ing form saying."
+                    ],
+                    [
+                        "He completed the work without help.",
+                        "اس نے مدد کے بغیر کام مکمل کیا۔",
+                        "هن مدد کان سواءِ ڪم پورو ڪيو۔",
+                        "Without is followed by the noun help."
+                    ],
+                    [
+                        "He left without anyone noticing.",
+                        "وہ اس طرح چلا گیا کہ کسی کو خبر بھی نہ ہوئی۔",
+                        "هو اهڙيءَ طرح هليو ويو جو ڪنهن کي خبر به نه پئي۔",
+                        "Without introduces a clause-like -ing construction; it is still a preposition."
+                    ]
+                ]
+            },
+            {
+                "title": "Because",
+                "english": "Because is a subordinating conjunction that introduces the reason for an action or situation. It answers the question “why?” and may introduce a clause before or after the main clause. When the because-clause comes first, it is normally followed by a comma. Do not use because and so together to introduce the same cause-and-result structure in standard writing.",
+                "urdu": "Because سبب بتانے والا subordinating conjunction ہے۔ اگر because والا جملہ پہلے آئے تو عموماً comma لگتا ہے۔",
+                "sindhi": "Because سبب ٻڌائيندڙ subordinating conjunction آهي. جيڪڏهن because وارو جملو اڳ اچي ته عام طور comma ڏبو آهي.",
+                "examples": [
+                    [
+                        "I stayed home because I was ill.",
+                        "میں گھر رہا کیونکہ میں بیمار تھا۔",
+                        "مان گهر رهيس، ڇاڪاڻ⁠تہ مان بيمار هوس۔",
+                        "Because introduces the direct reason."
+                    ],
+                    [
+                        "Because the road was flooded, we took another route.",
+                        "چونکہ سڑک پر پانی تھا، ہم نے دوسرا راستہ لیا۔",
+                        "ڇاڪاڻ⁠تہ رستي تي پاڻي هو، اسان ٻيو رستو ورتو۔",
+                        "The reason clause comes first, so a comma follows it."
+                    ],
+                    [
+                        "She smiled because she was happy.",
+                        "وہ مسکرائی کیونکہ وہ خوش تھی۔",
+                        "هوءَ مُرڪي، ڇاڪاڻ⁠تہ هوءَ خوش هئي۔",
+                        "Because explains why she smiled."
+                    ]
+                ]
+            },
+            {
+                "title": "For",
+                "english": "For can be a preposition, but it also works as a coordinating conjunction meaning “because.” As a conjunction, it introduces an explanation or reason and is more formal or literary than because. It usually joins independent clauses, and a comma is commonly placed before it. Do not confuse conjunctional for with prepositional for in “a gift for you.”",
+                "urdu": "For بطور حرفِ عطف because کے معنی میں وجہ بتاتا ہے اور نسبتاً رسمی یا ادبی ہے۔ یہ حرفِ جار بھی ہو سکتا ہے، جیسے a gift for you۔",
+                "sindhi": "For حرفِ عطف طور because جي معنى ۾ سبب ٻڌائي ٿو ۽ وڌيڪ رسمي يا ادبي آهي. اهو حرفِ جر به ٿي سگهي ٿو، جيئن a gift for you۔",
+                "examples": [
+                    [
+                        "I did not go out, for it was raining.",
+                        "میں باہر نہیں گیا کیونکہ بارش ہو رہی تھی۔",
+                        "مان ٻاهر نه ويس، ڇو ته مينهن پئي پيو۔",
+                        "For is a coordinating conjunction introducing a reason."
+                    ],
+                    [
+                        "She must be tired, for she has worked all day.",
+                        "وہ ضرور تھکی ہوگی، کیونکہ اس نے سارا دن کام کیا ہے۔",
+                        "هوءَ ضرور ٿڪل هوندي، ڇو ته هن سڄو ڏينهن ڪم ڪيو آهي۔",
+                        "For gives an explanation supporting the first statement."
+                    ],
+                    [
+                        "We stayed silent, for the baby was asleep.",
+                        "ہم خاموش رہے کیونکہ بچہ سو رہا تھا۔",
+                        "اسان ماٺ رهياسين، ڇو ته ٻار ستل هو۔",
+                        "For connects two independent clauses and gives the reason."
+                    ]
+                ]
+            },
+            {
+                "title": "Because, For and Since: Difference in Use",
+                "english": "Because, for and since can all introduce reasons, but they differ in grammar and style. Because is a subordinating conjunction and gives a direct reason. Since is also subordinating and often gives a reason assumed to be known; it can additionally refer to time. For is coordinating, more formal or literary, and joins two independent clauses. Compare: “Because it rained, we stayed in”; “Since it was late, we left”; “It was late, for we left.” The last example is awkward in meaning; a clearer example is “We left, for it was late.”",
+                "urdu": "Because واضح وجہ دیتا ہے؛ since عموماً معلوم یا پس منظر کی وجہ دیتا ہے اور وقت بھی ظاہر کر سکتا ہے؛ for رسمی انداز میں دو مستقل جملوں کو وجہ کے ساتھ ملاتا ہے۔",
+                "sindhi": "Because سڌو سبب ڏئي ٿو؛ since اڪثر معلوم يا پسمنظر وارو سبب ڏئي ٿو ۽ وقت به ظاهر ڪري سگهي ٿو؛ for رسمي انداز ۾ ٻن آزاد جملن کي سبب سان ملائي ٿو.",
+                "examples": [
+                    [
+                        "Because the train was late, we missed the meeting.",
+                        "چونکہ ٹرین دیر سے تھی، ہم اجلاس میں نہ پہنچ سکے۔",
+                        "ڇاڪاڻ⁠تہ ريل دير سان هئي، اسان گڏجاڻيءَ ۾ نه پهچي سگهياسين۔",
+                        "Because introduces a direct, important reason."
+                    ],
+                    [
+                        "Since everyone is here, let us begin.",
+                        "چونکہ سب یہاں موجود ہیں، آئیے شروع کریں۔",
+                        "جيئن ته سڀ هتي موجود آهن، اچو ته شروع ڪريون۔",
+                        "Since introduces a reason presented as already known or obvious."
+                    ],
+                    [
+                        "We took a taxi, for it was getting late.",
+                        "ہم نے ٹیکسی لی، کیونکہ دیر ہو رہی تھی۔",
+                        "اسان ٽيڪسي ورتي، ڇو ته دير ٿي رهي هئي۔",
+                        "For coordinates two independent clauses and gives a formal explanation."
+                    ],
+                    [
+                        "I have lived here since 2020.",
+                        "میں 2020 سے یہاں رہ رہا ہوں۔",
+                        "مان 2020ع کان هتي رهي رهيو آهيان۔",
+                        "Since is a preposition here, showing a starting time, not a conjunction."
+                    ]
+                ]
+            }
+        ]
     }
+
 ]
   },
   "interjections": {
