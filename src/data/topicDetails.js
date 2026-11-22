@@ -2,7 +2,308 @@ export const topicDetails = {
   "parts-of-speech": {
     overview: "Every word has a job in a sentence. The main word classes are nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions and interjections; articles are also taught as a separate group.",
     watchFor: "Classify a word by how it is used in that sentence, not by the word alone. A word can belong to different classes in different contexts.",
-    examples: ["The fast train arrived. (fast describes train.)", "The train moved fast. (fast describes moved.)"]
+    examples: ["The fast train arrived. (fast describes train.)", "The train moved fast. (fast describes moved.)"],
+    specialSectionsTitle: "The Same Word Used as Different Parts of Speech",
+    specialSections: [
+          {
+                "title": "The Same Word Used as Different Parts of Speech — 47 Words with Examples",
+                "english": "A word does not always belong to only one part of speech. Its grammatical class depends on the work it performs in a particular sentence. The same spelling may function as a noun, verb, adjective, adverb, pronoun, determiner, preposition, conjunction or interjection. Compare the sentences for each word below. Some uses are common, while others are rare, formal, dated or limited to fixed expressions; these are identified in the explanations.",
+                "urdu": "ایک لفظ ہمیشہ صرف ایک ہی قسمِ کلام نہیں ہوتا۔ کسی جملے میں اس کا کام طے کرتا ہے کہ وہ اسم، فعل، صفت، متعلقِ فعل، ضمیر، محدد، حرفِ جار، حرفِ عطف یا حرفِ ندا ہے۔ نیچے ہر لفظ کے مختلف استعمالات جملوں کے ذریعے دکھائے گئے ہیں۔ بعض استعمال عام ہیں جبکہ کچھ نادر، رسمی، قدیم یا مخصوص ترکیبوں تک محدود ہیں؛ ان کی وضاحت بھی دی گئی ہے۔",
+                "sindhi": "هڪ لفظ هميشه صرف هڪ ئي قسمِ ڪلام نه هوندو آهي. جملي ۾ ان جو ڪم طئي ڪندو آهي ته اهو اسم، فعل، صفت، ظرف، ضمير، مقرر ڪندڙ لفظ، حرفِ جر، حرفِ عطف يا حرفِ ندا آهي. هيٺ هر لفظ جا مختلف استعمال مثالن سان ڏنا ويا آهن. ڪي استعمال عام آهن، جڏهن ته ڪي گهٽ، رسمي، پراڻا يا مقرر ترڪيبن تائين محدود آهن؛ انهن جي وضاحت پڻ ڏنل آهي.",
+                "subsections": [
+                      {
+                            "title": "47 Words Used in Different Grammatical Roles",
+                            "english": "Each item gives contrasting sentence uses of the same word. The translations follow the meaning of each sentence, and the explanation names the grammatical role. Remember: classify the word by its function in context, not by its spelling alone.",
+                            "urdu": "ہر اندراج میں ایک ہی لفظ کے مختلف جملوں میں استعمال دکھائے گئے ہیں۔ ترجمہ ہر جملے کے مفہوم کے مطابق ہے اور وضاحت میں لفظ کی قسمِ کلام بتائی گئی ہے۔ یاد رکھیں: لفظ کی قسم اس کے جملے میں کام سے متعین کریں، صرف ہجے سے نہیں۔",
+                            "sindhi": "هر مثال ۾ ساڳئي لفظ جو مختلف جملن ۾ استعمال ڏيکاريو ويو آهي. ترجمو جملي جي مطلب موجب آهي ۽ وضاحت ۾ لفظ جو قسمِ ڪلام ٻڌايو ويو آهي. ياد رکو: لفظ جي قسم ان جي جملي واري ڪم مان سڃاڻو، رڳو لکڻي مان نه.",
+                            "examples": [
+                                  [
+                                        "ABOUT — Preposition: We talked about grammar. / Adverb: The story is about finished. (informal, meaning nearly finished)",
+                                        "ہم نے گرامر کے بارے میں بات کی۔ / کام تقریباً مکمل ہو چکا ہے۔",
+                                        "اسان گرامر بابت ڳالهايو. / ڪم لڳ ڀڳ پورو ٿي چڪو آهي.",
+                                        "About is usually a preposition; in informal British usage it can also be an adverb meaning approximately or nearly."
+                                  ],
+                                  [
+                                        "ABOVE — Preposition: The fan is above the table. / Adverb: Look above. / Adjective: Read the above passage.",
+                                        "پنکھا میز کے اوپر ہے۔ / اوپر دیکھیں۔ / اوپر دیا گیا اقتباس پڑھیں۔",
+                                        "پکو ميز جي مٿان آهي. / مٿي ڏسو. / مٿي ڏنل عبارت پڙهو.",
+                                        "Above can function as a preposition, adverb or adjective."
+                                  ],
+                                  [
+                                        "AFTER — Preposition: We left after lunch. / Adverb: He arrived soon after. / Conjunction: Call me after you arrive.",
+                                        "ہم دوپہر کے کھانے کے بعد روانہ ہوئے۔ / وہ تھوڑی دیر بعد آیا۔ / پہنچنے کے بعد مجھے فون کرنا۔",
+                                        "اسان منجهند جي مانيءَ کان پوءِ روانا ٿياسين. / هو ٿوري دير پوءِ آيو. / پهچڻ کان پوءِ مون کي فون ڪجانءِ.",
+                                        "After can be a preposition, adverb or subordinating conjunction."
+                                  ],
+                                  [
+                                        "ALL — Determiner: All students passed. / Pronoun: All were happy. / Adverb: The glass is all wet.",
+                                        "تمام طلبہ کامیاب ہوئے۔ / سب خوش تھے۔ / گلاس پوری طرح گیلا ہے۔",
+                                        "سڀ شاگرد پاس ٿيا. / سڀ خوش هئا. / گلاس مڪمل آلو آهي.",
+                                        "All can be a determiner, pronoun or adverb."
+                                  ],
+                                  [
+                                        "ANY — Determiner: Do you have any questions? / Pronoun: Choose any. / Adverb: I cannot wait any longer.",
+                                        "کیا آپ کے کوئی سوال ہیں؟ / کوئی بھی منتخب کر لیں۔ / میں مزید انتظار نہیں کر سکتا۔",
+                                        "ڇا اوهان وٽ ڪي سوال آهن؟ / ڪو به چونڊيو. / مان وڌيڪ انتظار نٿو ڪري سگهان.",
+                                        "Any is used as a determiner, pronoun and, in certain patterns, an adverb."
+                                  ],
+                                  [
+                                        "AS — Preposition: He works as a teacher. / Conjunction: As it was late, we left. / Adverb: Do as I say.",
+                                        "وہ استاد کے طور پر کام کرتا ہے۔ / چونکہ دیر ہو گئی تھی، ہم چلے گئے۔ / جیسا میں کہتا ہوں ویسا کرو۔",
+                                        "هو استاد طور ڪم ڪري ٿو. / جيئن ته دير ٿي وئي هئي، اسان روانا ٿياسين. / جيئن مان چوان تيئن ڪر.",
+                                        "As can be a preposition, conjunction or adverb."
+                                  ],
+                                  [
+                                        "BEFORE — Preposition: Finish before dinner. / Adverb: I have seen it before. / Conjunction: Wash your hands before you eat.",
+                                        "رات کے کھانے سے پہلے مکمل کرو۔ / میں اسے پہلے دیکھ چکا ہوں۔ / کھانے سے پہلے ہاتھ دھوؤ۔",
+                                        "رات جي مانيءَ کان اڳ پورو ڪر. / مون اهو اڳ ڏٺو آهي. / کائڻ کان اڳ هٿ ڌو.",
+                                        "Before can be a preposition, adverb or conjunction."
+                                  ],
+                                  [
+                                        "BETTER — Adjective: This is a better plan. / Adverb: She sings better now. / Noun: We hope for the better.",
+                                        "یہ بہتر منصوبہ ہے۔ / وہ اب بہتر گاتی ہے۔ / ہم بہتری کی امید رکھتے ہیں۔",
+                                        "هي بهتر منصوبو آهي. / هوءَ هاڻي وڌيڪ سٺو ڳائي ٿي. / اسان بهتريءَ جي اميد رکون ٿا.",
+                                        "Better is the comparative of good or well and can be an adjective, adverb or noun."
+                                  ],
+                                  [
+                                        "BOTH — Determiner: Both girls smiled. / Pronoun: Both are ready. / Conjunction pattern: Both Ali and Sara came.",
+                                        "دونوں لڑکیاں مسکرائیں۔ / دونوں تیار ہیں۔ / علی اور سارہ دونوں آئے۔",
+                                        "ٻئي ڇوڪريون مُرڪيون. / ٻئي تيار آهن. / علي ۽ سارا ٻئي آيا.",
+                                        "Both works as a determiner, pronoun and part of the correlative pair both…and."
+                                  ],
+                                  [
+                                        "BUT — Conjunction: I called, but nobody answered. / Preposition: Everyone but Sam came. / Adverb: He is but a child.",
+                                        "میں نے فون کیا، لیکن کسی نے جواب نہ دیا۔ / سیم کے علاوہ سب آئے۔ / وہ محض ایک بچہ ہے۔",
+                                        "مون فون ڪيو، پر ڪنهن به جواب نه ڏنو. / سام کان سواءِ سڀ آيا. / هو رڳو ٻار آهي.",
+                                        "But can be a conjunction, preposition or adverb."
+                                  ],
+                                  [
+                                        "DOWN — Preposition: The cat ran down the stairs. / Adverb: Please sit down. / Adjective: The down escalator is closed. / Noun: Feathers are filled with down.",
+                                        "بلی سیڑھیوں سے نیچے بھاگی۔ / براہِ کرم بیٹھ جائیں۔ / نیچے جانے والی برقی سیڑھی بند ہے۔ / پروں میں نرم روئیں ہوتے ہیں۔",
+                                        "ٻلي ڏاڪڻين تان هيٺ ڊوڙي. / مهرباني ڪري ويهو. / هيٺ ويندڙ ايسڪيليٽر بند آهي. / کنڀن ۾ نرم روئا هوندا آهن.",
+                                        "Down may be a preposition, adverb, adjective or noun."
+                                  ],
+                                  [
+                                        "EITHER — Determiner: Either answer is acceptable. / Pronoun: Either will do. / Adverb: I do not like it either.",
+                                        "دونوں میں سے کوئی ایک جواب قابلِ قبول ہے۔ / دونوں میں سے کوئی ایک کافی ہے۔ / مجھے بھی یہ پسند نہیں۔",
+                                        "ٻنهي مان ڪو هڪ جواب قبول آهي. / ٻنهي مان ڪو به هلي ويندو. / مون کي به اهو پسند ناهي.",
+                                        "Either can be a determiner, pronoun or adverb."
+                                  ],
+                                  [
+                                        "ELSE — Adjective-like modifier: Ask someone else. / Adverb: What else do you need?",
+                                        "کسی اور سے پوچھیں۔ / آپ کو اور کیا چاہیے؟",
+                                        "ڪنهن ٻئي کان پڇو. / اوهان کي ٻيو ڇا گهرجي؟",
+                                        "Else is generally an adverb, but it follows indefinite pronouns and words such as someone as a postmodifier."
+                                  ],
+                                  [
+                                        "ENOUGH — Determiner: We have enough food. / Pronoun: Enough has been said. / Adverb: She is old enough to vote.",
+                                        "ہمارے پاس کافی کھانا ہے۔ / کافی بات ہو چکی ہے۔ / وہ ووٹ دینے کے لیے کافی عمر کی ہے۔",
+                                        "اسان وٽ ڪافي کاڌو آهي. / ڪافي ڳالهه ٿي چڪي آهي. / هوءَ ووٽ ڏيڻ جيتري وڏي عمر جي آهي.",
+                                        "Enough can be a determiner, pronoun or adverb; it follows adjectives and adverbs."
+                                  ],
+                                  [
+                                        "EVEN — Adjective: The floor is even. / Adverb: Even Ali agreed. / Verb: The tailor will even the edges.",
+                                        "فرش ہموار ہے۔ / علی تک نے اتفاق کیا۔ / درزی کناروں کو برابر کرے گا۔",
+                                        "فرش هموار آهي. / علي به راضي ٿيو. / درزي ڪنارن کي برابر ڪندو.",
+                                        "Even can be an adjective, focusing adverb or verb."
+                                  ],
+                                  [
+                                        "EXCEPT — Preposition: Everyone came except John. / Conjunction: I would go, except that I am busy.",
+                                        "جان کے علاوہ سب آئے۔ / میں جاتا، لیکن میں مصروف ہوں۔",
+                                        "جان کان سواءِ سڀ آيا. / مان وڃان ها، پر مان مصروف آهيان.",
+                                        "Except is commonly a preposition; except that introduces a clause."
+                                  ],
+                                  [
+                                        "FOR — Preposition: This gift is for you. / Conjunction: I stayed, for it was raining. / Noun: The word 'for' is a preposition.",
+                                        "یہ تحفہ آپ کے لیے ہے۔ / میں رکا کیونکہ بارش ہو رہی تھی۔ / لفظ 'for' ایک حرفِ جار ہے۔",
+                                        "هي تحفو اوهان لاءِ آهي. / مان ترسيس، ڇو ته مينهن پئي پيو. / لفظ 'for' حرفِ جر آهي.",
+                                        "For is a preposition; in formal/traditional grammar it can also coordinate clauses meaning because; as a quoted word it is a noun."
+                                  ],
+                                  [
+                                        "LESS — Determiner: We need less sugar. / Adverb: She worries less now. / Preposition: The bill was paid, less the discount.",
+                                        "ہمیں کم چینی چاہیے۔ / وہ اب کم فکر کرتی ہے۔ / رعایت منہا کر کے بل ادا کیا گیا۔",
+                                        "اسان کي گهٽ کنڊ گهرجي. / هوءَ هاڻي گهٽ فڪر ڪري ٿي. / رعايت ڪٽي بل ادا ڪيو ويو.",
+                                        "Less can be a determiner, adverb or preposition meaning minus."
+                                  ],
+                                  [
+                                        "LIKE — Verb: I like music. / Preposition: He looks like his father. / Adjective: It was a like experience. / Noun: The likes of him are rare.",
+                                        "مجھے موسیقی پسند ہے۔ / وہ اپنے والد جیسا دکھائی دیتا ہے۔ / یہ ایک مشابہ تجربہ تھا۔ / اس جیسے لوگ کم ملتے ہیں۔",
+                                        "مون کي موسيقي پسند آهي. / هو پنهنجي پيءُ جهڙو لڳي ٿو. / اهو هڪ جهڙو تجربو هو. / هن جهڙا ماڻهو گهٽ ملن ٿا.",
+                                        "Like can be a verb, preposition, adjective or noun."
+                                  ],
+                                  [
+                                        "LITTLE — Determiner: We have little time. / Pronoun: Little is known about it. / Adjective: A little bird sang. / Adverb: She slept little.",
+                                        "ہمارے پاس بہت کم وقت ہے۔ / اس کے بارے میں بہت کم معلوم ہے۔ / ایک ننھے پرندے نے گایا۔ / وہ بہت کم سوئی۔",
+                                        "اسان وٽ تمام ٿورو وقت آهي. / ان بابت ٿورو ئي معلوم آهي. / هڪ ننڍڙي پکي ڳايو. / هوءَ تمام گهٽ ستي.",
+                                        "Little can be a determiner, pronoun, adjective or adverb."
+                                  ],
+                                  [
+                                        "MORE — Determiner: I need more water. / Pronoun: More is needed. / Adverb: Please speak more slowly.",
+                                        "مجھے مزید پانی چاہیے۔ / مزید کی ضرورت ہے۔ / براہِ کرم زیادہ آہستہ بولیں۔",
+                                        "مون کي وڌيڪ پاڻي گهرجي. / وڌيڪ جي ضرورت آهي. / مهرباني ڪري وڌيڪ آهستي ڳالهايو.",
+                                        "More can be a determiner, pronoun or adverb."
+                                  ],
+                                  [
+                                        "MUCH — Determiner: There is not much milk. / Pronoun: Much has changed. / Adverb: I feel much better.",
+                                        "زیادہ دودھ نہیں ہے۔ / بہت کچھ بدل گیا ہے۔ / میں بہت بہتر محسوس کرتا ہوں۔",
+                                        "گهڻو کير ناهي. / گهڻو ڪجهه بدلجي ويو آهي. / مان گهڻو بهتر محسوس ڪريان ٿو.",
+                                        "Much can be a determiner, pronoun or adverb."
+                                  ],
+                                  [
+                                        "NEAR — Preposition: The school is near the park. / Adjective: The exam is near. / Adverb: Come near. / Verb: The ship neared the shore.",
+                                        "اسکول پارک کے قریب ہے۔ / امتحان قریب ہے۔ / قریب آؤ۔ / جہاز ساحل کے نزدیک پہنچا۔",
+                                        "اسڪول پارڪ جي ويجهو آهي. / امتحان ويجهو آهي. / ويجهو اچو. / جهاز ڪناري جي ويجهو پهتو.",
+                                        "Near can be a preposition, adjective, adverb or verb."
+                                  ],
+                                  [
+                                        "NEED — Verb: I need help. / Noun: There is no need to worry. / Modal-like verb: You need not wait.",
+                                        "مجھے مدد کی ضرورت ہے۔ / پریشان ہونے کی کوئی ضرورت نہیں۔ / آپ کو انتظار کرنے کی ضرورت نہیں۔",
+                                        "مون کي مدد گهرجي. / پريشان ٿيڻ جي ڪا ضرورت ناهي. / اوهان کي انتظار ڪرڻ جي ضرورت ناهي.",
+                                        "Need is both a main verb and a noun; need can also act as a modal auxiliary in negative and question forms."
+                                  ],
+                                  [
+                                        "NEITHER — Determiner: Neither answer is correct. / Pronoun: Neither was chosen. / Conjunction: Neither Ali nor Sara came.",
+                                        "دونوں میں سے کوئی جواب درست نہیں۔ / دونوں میں سے کسی کو منتخب نہیں کیا گیا۔ / نہ علی آیا نہ سارہ۔",
+                                        "ٻنهي مان ڪو به جواب صحيح ناهي. / ٻنهي مان ڪنهن کي به نه چونڊيو ويو. / نه علي آيو نه سارا.",
+                                        "Neither can be a determiner, pronoun or part of neither…nor."
+                                  ],
+                                  [
+                                        "NEXT — Adjective: See you next week. / Adverb: What happened next? / Noun: Who is next? / Preposition: The shop is next to the bank.",
+                                        "اگلے ہفتے ملاقات ہوگی۔ / اس کے بعد کیا ہوا؟ / اگلا کون ہے؟ / دکان بینک کے ساتھ ہے۔",
+                                        "ايندڙ هفتي ملنداسين. / پوءِ ڇا ٿيو؟ / اڳيون ڪير آهي؟ / دڪان بئنڪ جي ڀرسان آهي.",
+                                        "Next can be an adjective, adverb, noun or part of the preposition next to."
+                                  ],
+                                  [
+                                        "NO — Determiner: No student was absent. / Adverb: The answer is no. / Noun: I received a no.",
+                                        "کوئی طالب علم غیر حاضر نہیں تھا۔ / جواب نفی میں ہے۔ / مجھے انکار موصول ہوا۔",
+                                        "ڪو به شاگرد غير حاضر نه هو. / جواب نه آهي. / مون کي انڪار مليو.",
+                                        "No can be a determiner, an adverb meaning not, or a noun."
+                                  ],
+                                  [
+                                        "ONCE — Adverb: I visited once. / Conjunction: Once you finish, call me. / Noun: This is a once-in-a-lifetime chance.",
+                                        "میں ایک بار گیا تھا۔ / جب تم مکمل کر لو تو مجھے فون کرنا۔ / یہ زندگی میں ایک بار ملنے والا موقع ہے۔",
+                                        "مان هڪ ڀيرو ويو هوس. / جڏهن تون پورو ڪرين ته مون کي فون ڪجانءِ. / هي زندگيءَ ۾ هڪ ڀيرو ملندڙ موقعو آهي.",
+                                        "Once can be an adverb, a conjunction meaning when/as soon as, or a noun in compounds."
+                                  ],
+                                  [
+                                        "ONE — Numeral/determiner: One child is absent. / Pronoun: One must be honest. / Noun: The number one is odd.",
+                                        "ایک بچہ غیر حاضر ہے۔ / انسان کو ایماندار ہونا چاہیے۔ / عدد ایک طاق ہے۔",
+                                        "هڪ ٻار غير حاضر آهي. / ماڻهوءَ کي ايماندار هجڻ گهرجي. / انگ هڪ طاق آهي.",
+                                        "One can be a numeral/determiner, pronoun or noun."
+                                  ],
+                                  [
+                                        "ONLY — Adjective: She is the only child. / Adverb: I only asked a question. / Conjunction-like connector: Only you can decide.",
+                                        "وہ اکلوتی اولاد ہے۔ / میں نے صرف ایک سوال پوچھا۔ / صرف تم فیصلہ کر سکتے ہو۔",
+                                        "هوءَ اڪيلي اولاد آهي. / مون رڳو هڪ سوال پڇيو. / رڳو تون فيصلو ڪري سگهين ٿو.",
+                                        "Only is chiefly an adjective or focusing adverb; in only you can decide it focuses the subject, not a true conjunction."
+                                  ],
+                                  [
+                                        "OVER — Preposition: The plane flew over the city. / Adverb: Come over. / Adjective: The game is over. / Noun: The over lasted six balls.",
+                                        "طیارہ شہر کے اوپر سے گزرا۔ / ادھر آؤ۔ / کھیل ختم ہو گیا ہے۔ / اوور چھ گیندوں پر مشتمل تھا۔",
+                                        "جهاز شهر جي مٿان اڏاميو. / هتي اچو. / راند ختم ٿي وئي. / اوور ڇهن بالن جو هو.",
+                                        "Over can be a preposition, adverb, adjective or noun."
+                                  ],
+                                  [
+                                        "RIGHT — Adjective: You gave the right answer. / Adverb: Turn right. / Noun: Everyone has a right to learn. / Verb: Please right the fallen chair.",
+                                        "آپ نے درست جواب دیا۔ / دائیں مڑیں۔ / ہر ایک کو سیکھنے کا حق ہے۔ / براہِ کرم گری ہوئی کرسی سیدھی کریں۔",
+                                        "اوهان صحيح جواب ڏنو. / ساڄي مڙيو. / هر ڪنهن کي سکڻ جو حق آهي. / ڪريل ڪرسي سڌي ڪريو.",
+                                        "Right can be an adjective, adverb, noun or verb."
+                                  ],
+                                  [
+                                        "ROUND — Preposition: They sat round the table. / Adverb: Turn round. / Adjective: Draw a round circle. / Noun: We played another round.",
+                                        "وہ میز کے گرد بیٹھے۔ / مڑ جاؤ۔ / ایک گول دائرہ بناؤ۔ / ہم نے ایک اور دور کھیلا۔",
+                                        "اهي ميز جي چوڌاري ويٺا. / ڦري وڃو. / گول دائرو ٺاهيو. / اسان هڪ ٻيو دور کيڏيو.",
+                                        "Round can be a preposition, adverb, adjective or noun."
+                                  ],
+                                  [
+                                        "SINCE — Preposition: I have lived here since 2020. / Conjunction: Since you are here, help us. / Adverb: I met her in 2020 and have not seen her since.",
+                                        "میں 2020 سے یہاں رہ رہا ہوں۔ / چونکہ تم یہاں ہو، ہماری مدد کرو۔ / میں اس سے 2020 میں ملا اور اس کے بعد نہیں دیکھا۔",
+                                        "مان 2020 کان هتي رهان ٿو. / جيئن ته تون هتي آهين، اسان جي مدد ڪر. / مان هن سان 2020 ۾ مليس ۽ پوءِ نه ڏٺو اٿم.",
+                                        "Since can be a preposition, conjunction or adverb."
+                                  ],
+                                  [
+                                        "SO — Adverb: The box is so heavy. / Conjunction: It was late, so we left. / Pronoun-like pro-form: I think so.",
+                                        "ڈبہ بہت بھاری ہے۔ / دیر ہو گئی تھی، اس لیے ہم چلے گئے۔ / میرا بھی یہی خیال ہے۔",
+                                        "دٻو تمام ڳرو آهي. / دير ٿي وئي هئي، تنهنڪري اسان روانا ٿياسين. / منهنجو به اهو ئي خيال آهي.",
+                                        "So can be an adverb, coordinating conjunction or pro-form replacing a clause."
+                                  ],
+                                  [
+                                        "SOME — Determiner: Some people agree. / Pronoun: Some were absent. / Adverb: The answer is some better now (rare/dated).",
+                                        "کچھ لوگ متفق ہیں۔ / کچھ غیر حاضر تھے۔ / جواب اب کسی قدر بہتر ہے۔",
+                                        "ڪجهه ماڻهو متفق آهن. / ڪجهه غير حاضر هئا. / جواب هاڻي ڪجهه بهتر آهي.",
+                                        "Some is normally a determiner or pronoun; its adverb use is rare or dated."
+                                  ],
+                                  [
+                                        "STILL — Adjective: Keep still. / Adverb: She still works here. / Noun: The artist painted a still of a bowl of fruit.",
+                                        "ساکن رہیں۔ / وہ اب بھی یہاں کام کرتی ہے۔ / مصور نے پھلوں کے پیالے کی ساکن تصویر بنائی۔",
+                                        "ماٺ ۽ ساکت رهو. / هوءَ اڃا به هتي ڪم ڪري ٿي. / مصور ميوي جي ٿانوَ جي بيجان تصوير ٺاهي.",
+                                        "Still can be an adjective, adverb or noun."
+                                  ],
+                                  [
+                                        "SUCH — Determiner: I have never seen such beauty. / Pronoun: Such is life. / Intensifier: It was such a lovely day.",
+                                        "میں نے ایسی خوبصورتی کبھی نہیں دیکھی۔ / زندگی ایسی ہی ہے۔ / یہ بہت خوبصورت دن تھا۔",
+                                        "مون اهڙي خوبصورتي ڪڏهن نه ڏٺي. / زندگي اهڙي ئي آهي. / اهو تمام سهڻو ڏينهن هو.",
+                                        "Such is commonly a determiner or pronoun and can intensify a noun phrase."
+                                  ],
+                                  [
+                                        "THAT — Determiner: That book is mine. / Pronoun: That is my house. / Conjunction: I know that she is kind. / Adverb: It was not that difficult.",
+                                        "وہ کتاب میری ہے۔ / وہ میرا گھر ہے۔ / میں جانتا ہوں کہ وہ مہربان ہے۔ / یہ اتنا مشکل نہیں تھا۔",
+                                        "اهو ڪتاب منهنجو آهي. / اهو منهنجو گهر آهي. / مون کي خبر آهي ته هوءَ مهربان آهي. / اهو ايترو ڏکيو نه هو.",
+                                        "That can be a determiner, pronoun, conjunction or degree adverb."
+                                  ],
+                                  [
+                                        "THE — Article/determiner: The sun is bright. / Adverb in fixed degree use: The more you read, the more you learn.",
+                                        "سورج روشن ہے۔ / جتنا زیادہ پڑھو گے، اتنا زیادہ سیکھو گے۔",
+                                        "سج روشن آهي. / جيترو وڌيڪ پڙهندؤ، اوترو وڌيڪ سکندؤ.",
+                                        "The is the definite article (a determiner); in the…the comparative construction it participates in a correlative degree pattern, not a separate ordinary part of speech."
+                                  ],
+                                  [
+                                        "TILL — Preposition: Wait till Monday. / Conjunction: Wait till I return. / Noun: The farmer worked the till (cash register).",
+                                        "پیر تک انتظار کرو۔ / میرے واپس آنے تک انتظار کرو۔ / کسان نے نقد رجسٹر پر کام کیا۔",
+                                        "سومر تائين انتظار ڪر. / جيستائين مان موٽي اچان، انتظار ڪر. / هاري ڪيش رجسٽر تي ڪم ڪيو.",
+                                        "Till can be a preposition or conjunction meaning until; till is also a noun for a cash register."
+                                  ],
+                                  [
+                                        "UP — Preposition: Walk up the hill. / Adverb: Stand up. / Adjective: The up train is delayed. / Noun: The ups and downs of life.",
+                                        "پہاڑی پر چڑھ کر چلو۔ / کھڑے ہو جاؤ۔ / اوپر جانے والی ٹرین تاخیر کا شکار ہے۔ / زندگی کے اتار چڑھاؤ۔",
+                                        "ٽڪريءَ تي چڙهي هلو. / اٿي بيهو. / مٿي ويندڙ ٽرين دير سان آهي. / زندگيءَ جا لاها چاڙها.",
+                                        "Up can be a preposition, adverb, adjective or noun."
+                                  ],
+                                  [
+                                        "WELL — Adjective: I am well today. / Adverb: She writes well. / Noun: The well is deep. / Interjection: Well! What happened?",
+                                        "آج میری طبیعت اچھی ہے۔ / وہ اچھا لکھتی ہے۔ / کنواں گہرا ہے۔ / اچھا! کیا ہوا؟",
+                                        "اڄ منهنجي طبيعت ٺيڪ آهي. / هوءَ سٺو لکي ٿي. / کوهه اونهو آهي. / چڱو! ڇا ٿيو؟",
+                                        "Well can be an adjective, adverb, noun or interjection."
+                                  ],
+                                  [
+                                        "WHAT — Determiner: What book do you want? / Pronoun: What happened? / Exclamation: What a beautiful view!",
+                                        "آپ کون سی کتاب چاہتے ہیں؟ / کیا ہوا؟ / کیا خوبصورت منظر ہے!",
+                                        "اوهان کي ڪهڙو ڪتاب گهرجي؟ / ڇا ٿيو؟ / ڪهڙو نه سهڻو نظارو آهي!",
+                                        "What can be an interrogative determiner, pronoun or exclamative determiner."
+                                  ],
+                                  [
+                                        "WHILE — Noun: Wait a while. / Conjunction: While I cooked, he read. / Verb: She whiled away the afternoon.",
+                                        "کچھ دیر انتظار کرو۔ / جب میں کھانا بنا رہا تھا، وہ پڑھ رہا تھا۔ / اس نے دوپہر کا وقت گزارا۔",
+                                        "ٿوري دير انتظار ڪر. / جڏهن مان پچائي رهيو هوس، هو پڙهي رهيو هو. / هن منجهند جو وقت گذاريو.",
+                                        "While can be a noun, conjunction or verb (usually in while away)."
+                                  ],
+                                  [
+                                        "WHY — Adverb: Why are you late? / Noun: Tell me the why of it. / Interjection: Why, that is surprising!",
+                                        "تم دیر سے کیوں آئے؟ / مجھے اس کی وجہ بتاؤ۔ / ارے، یہ تو حیران کن ہے!",
+                                        "تون دير سان ڇو آئين؟ / مون کي ان جو سبب ٻڌاءِ. / ارے، اها ته حيرت جي ڳالهه آهي!",
+                                        "Why can be an interrogative adverb, noun or interjection."
+                                  ],
+                                  [
+                                        "YET — Adverb: She has not arrived yet. / Conjunction: He is young, yet wise. / Noun: The final yet is important (mentioning the word itself).",
+                                        "وہ ابھی تک نہیں پہنچی۔ / وہ جوان ہے، پھر بھی دانا ہے۔ / آخری لفظ yet اہم ہے۔",
+                                        "هوءَ اڃا نه پهتي آهي. / هو جوان آهي، تنهن هوندي به داناءُ آهي. / آخري لفظ yet اهم آهي.",
+                                        "Yet can be an adverb or coordinating conjunction; it is a noun when the word itself is discussed."
+                                  ]
+                            ]
+                      }
+                ]
+          }
+    ]
   },
   "nouns": {
     overview: "Nouns name people, places, objects, qualities and ideas. They can act as subjects, objects or complements, and many have singular and plural forms.",
