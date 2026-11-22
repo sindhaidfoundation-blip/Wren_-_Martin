@@ -75,16 +75,9 @@ jobs:
             adb logcat -c
             adb shell monkey -p com.grammar.master.wrenmartin 1
             sleep 30
-            if ! adb shell pidof com.grammar.master.wrenmartin; then
-              echo "App process is not running after the launch smoke test."
-              adb logcat -d -b all -t 6000 > android-launch.log
-              exit 1
-            fi
             adb logcat -d -b all -t 6000 > android-launch.log
-            if grep -E "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)|Unable to load script" android-launch.log; then
-              echo "App launch smoke test detected a fatal startup error."
-              exit 1
-            fi
+            test -n "$(adb shell pidof com.grammar.master.wrenmartin)"
+            ! grep -Eq "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)|Unable to load script" android-launch.log
 
       - name: Upload Android launch log
         if: always()
