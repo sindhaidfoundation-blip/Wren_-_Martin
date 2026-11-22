@@ -1612,9 +1612,237 @@ export const topicDetails = {
     ]
   },
   "tenses": {
-    overview: "English tense and aspect work together to show when an event happens and whether it is complete, continuing or connected to another time. The three broad time references are present, past and future.",
-    watchFor: "Choose a form based on meaning and context, not only on time words. Present perfect, for example, often connects a past event to the present.",
-    examples: ["I have lived here for five years. (continues now)", "I lived there in 2020. (finished past time)"]
+    "overview": "Tense locates an action or state in time. English commonly groups tense usage into present, past and future time references, each with simple, continuous, perfect and perfect continuous forms.",
+    "watchFor": "Choose a tense by considering meaning and aspect, not only time words. Present perfect connects earlier events to now; past perfect orders two past events; future meaning can use will, going to, present continuous or a timetable present form.",
+    "examples": [
+      "She works every day. (present habit)",
+      "They visited yesterday. (past event)",
+      "We will travel tomorrow. (future plan)"
+    ],
+    "specialSections": [
+      {
+        "title": "Tenses in English Grammar — Detailed Explanation",
+        "english": "Tense is the grammatical system that locates an action, event or state in time. English grammar traditionally groups tense usage under three broad time references: present, past and future. Each time reference can be expressed through different forms that show the nature of the action. Aspect is important: the simple form can express habits or facts; the continuous form presents an action as in progress; the perfect form connects an earlier action to a later reference point; and the perfect continuous form emphasizes duration. Therefore, tense is not selected only by looking at a time word. The speaker must consider whether an action is habitual, happening now, completed, continuing, planned or predicted. For example, ‘She works’ describes a habit, ‘She is working’ describes an action in progress, and ‘She has worked here for years’ connects earlier time with the present. Present forms commonly refer to now, general truths and routines. Past forms refer to events or situations before now. Future meaning is commonly expressed with will, be going to, present continuous and sometimes the simple present for timetables. The correct form depends on meaning and context.",
+        "urdu": "Tense انگریزی گرامر کا وہ نظام ہے جو کسی عمل، واقعے یا حالت کا وقت ظاہر کرتا ہے۔ روایتی طور پر Tense کے استعمال کو تین بڑے اوقات میں تقسیم کیا جاتا ہے: Present، Past اور Future۔ ہر وقت کو مختلف صورتوں میں ظاہر کیا جا سکتا ہے جو عمل کی نوعیت بھی بتاتی ہیں۔ یہاں Aspect بھی اہم ہے: Simple صورت عادت یا حقیقت ظاہر کر سکتی ہے؛ Continuous صورت جاری عمل بتاتی ہے؛ Perfect صورت پہلے مکمل ہونے والے عمل کو کسی بعد کے وقت سے جوڑتی ہے؛ اور Perfect Continuous صورت عمل کے جاری رہنے کے دورانیے پر زور دیتی ہے۔ اس لیے Tense کا انتخاب صرف وقت کے لفظ کو دیکھ کر نہیں کرنا چاہیے۔ یہ دیکھنا ضروری ہے کہ عمل عادت ہے، ابھی جاری ہے، مکمل ہو چکا ہے، جاری رہا ہے، طے شدہ منصوبہ ہے یا پیش گوئی ہے۔ مثال کے طور پر ‘She works’ عادت، ‘She is working’ جاری عمل، اور ‘She has worked here for years’ ماضی سے حال تک تعلق ظاہر کرتا ہے۔ Present کی صورتیں حال، عمومی حقائق اور معمولات کے لیے آتی ہیں۔ Past کی صورتیں حال سے پہلے کے واقعات یا حالتوں کے لیے استعمال ہوتی ہیں۔ Future کا مفہوم عموماً will، be going to، Present Continuous اور اوقاتِ کار کے لیے کبھی Simple Present سے ظاہر ہوتا ہے۔ درست صورت معنی اور سیاق کے مطابق منتخب کی جاتی ہے۔",
+        "sindhi": "Tense انگريزي گرامر جو اهو نظام آهي جيڪو ڪنهن عمل، واقعي يا حالت جو وقت ظاهر ڪري ٿو. روايتي طور Tense جي استعمال کي ٽن وڏن وقتن ۾ ورهايو ويندو آهي: Present، Past ۽ Future. هر وقت کي مختلف صورتن سان ظاهر ڪري سگهجي ٿو، جيڪي عمل جي نوعيت به ٻڌائين ٿيون. هتي Aspect به اهم آهي: Simple صورت عادت يا حقيقت ڏيکاري سگهي ٿي؛ Continuous صورت جاري عمل ٻڌائي ٿي؛ Perfect صورت اڳ مڪمل ٿيل عمل کي ڪنهن پوءِ واري وقت سان ڳنڍي ٿي؛ ۽ Perfect Continuous صورت عمل جي جاري رهڻ جي مدت تي زور ڏئي ٿي. تنهنڪري Tense چونڊڻ وقت رڳو وقت وارو لفظ ڏسڻ ڪافي ناهي. اهو ڏسڻ ضروري آهي ته عمل عادت آهي، هن وقت جاري آهي، مڪمل ٿي چڪو آهي، جاري رهيو آهي، اڳواٽ طئي ٿيل منصوبو آهي يا اڳڪٿي آهي. مثال طور ‘She works’ عادت، ‘She is working’ جاري عمل، ۽ ‘She has worked here for years’ ماضيءَ کان حال تائين لاڳاپو ظاهر ڪري ٿو. Present جون صورتون حال، عام حقيقتن ۽ معمولن لاءِ اچن ٿيون. Past جون صورتون هاڻوڪي وقت کان اڳ وارن واقعن يا حالتن لاءِ استعمال ٿين ٿيون. Future جو مطلب عام طور will، be going to، Present Continuous ۽ شيڊول لاءِ ڪڏهن Simple Present سان ظاهر ٿئي ٿو. صحيح صورت معنيٰ ۽ پسمنظر مطابق چونڊبي آهي.",
+        "examples": [
+          [
+            "The sun rises in the east.",
+            "سورج مشرق سے طلوع ہوتا ہے۔",
+            "سج اوڀر کان اڀري ٿو."
+          ],
+          [
+            "She is reading a story now.",
+            "وہ اس وقت ایک کہانی پڑھ رہی ہے۔",
+            "هوءَ هن وقت هڪ ڪهاڻي پڙهي رهي آهي."
+          ],
+          [
+            "They have completed the project.",
+            "انہوں نے منصوبہ مکمل کر لیا ہے۔",
+            "انهن منصوبو مڪمل ڪري ڇڏيو آهي."
+          ]
+        ]
+      },
+      {
+        "title": "Present Tense — Forms, Uses and 15 Examples",
+        "english": "Present tense forms are used for general truths, habits, repeated actions, current states, actions happening now and situations connected with the present. The four commonly taught present forms are: Simple Present (subject + base verb; add -s/-es with he, she or it), Present Continuous (am/is/are + verb-ing), Present Perfect (has/have + past participle) and Present Perfect Continuous (has/have been + verb-ing). Simple Present is used for routines, facts and permanent or relatively stable situations: ‘He walks to school’. Present Continuous describes an action in progress or a temporary situation: ‘He is walking now’. Present Perfect describes a past action with a present result or experience, or a situation continuing to now: ‘She has finished her work’. Present Perfect Continuous emphasizes how long an activity has continued: ‘They have been waiting for an hour’. Stative verbs such as know, believe and own are not normally used in continuous forms when they describe states. Time expressions such as every day, now, already, since and for may provide clues, but meaning determines the choice.",
+        "urdu": "Present Tense کی صورتیں عمومی حقائق، عادتوں، بار بار ہونے والے کاموں، موجودہ حالتوں، اس وقت جاری اعمال اور حال سے تعلق رکھنے والی صورتِ حال کے لیے استعمال ہوتی ہیں۔ Present کی چار عام صورتیں یہ ہیں: Simple Present (فاعل + فعل کی بنیادی شکل؛ he، she یا it کے ساتھ -s/-es)، Present Continuous (am/is/are + فعل-ing)، Present Perfect (has/have + فعل کا تیسرا روپ) اور Present Perfect Continuous (has/have been + فعل-ing)۔ Simple Present معمولات، حقائق اور نسبتاً مستقل حالتوں کے لیے آتا ہے: ‘He walks to school’۔ Present Continuous اس وقت جاری عمل یا عارضی صورتِ حال بتاتا ہے: ‘He is walking now’۔ Present Perfect ماضی کے ایسے عمل کو ظاہر کرتا ہے جس کا نتیجہ حال میں موجود ہو، یا ایسا تجربہ/حالت جو اب تک جاری ہو: ‘She has finished her work’۔ Present Perfect Continuous عمل کے جاری رہنے کی مدت پر زور دیتا ہے: ‘They have been waiting for an hour’۔ Know، believe اور own جیسے Stative verbs حالت ظاہر کرتے وقت عموماً Continuous میں استعمال نہیں ہوتے۔ Every day، now، already، since اور for جیسے الفاظ اشارہ دے سکتے ہیں، مگر انتخاب معنی کے مطابق ہوتا ہے۔",
+        "sindhi": "Present Tense جون صورتون عام حقيقتن، عادتن، بار بار ٿيندڙ ڪمن، موجوده حالتن، هن وقت جاري عملن ۽ حال سان لاڳاپيل حالتن لاءِ استعمال ٿين ٿيون. Present جون چار عام صورتون هي آهن: Simple Present (فاعل + فعل جو بنيادي روپ؛ he، she يا it سان -s/-es)، Present Continuous (am/is/are + فعل-ing)، Present Perfect (has/have + فعل جو ٽيون روپ) ۽ Present Perfect Continuous (has/have been + فعل-ing). Simple Present معمولن، حقيقتن ۽ نسبتاً مستقل حالتن لاءِ اچي ٿو: ‘He walks to school’. Present Continuous هن وقت جاري عمل يا عارضي حالت ٻڌائي ٿو: ‘He is walking now’. Present Perfect ماضيءَ جي اهڙي عمل کي ظاهر ڪري ٿو جنهن جو نتيجو هاڻي موجود هجي، يا اهڙو تجربو/حالت جيڪا اڃا تائين جاري هجي: ‘She has finished her work’. Present Perfect Continuous عمل جي جاري رهڻ جي مدت تي زور ڏئي ٿو: ‘They have been waiting for an hour’. Know، believe ۽ own جهڙا Stative verbs حالت ظاهر ڪرڻ وقت عام طور Continuous ۾ استعمال نٿا ٿين. Every day، now، already، since ۽ for جهڙا لفظ اشارو ڏئي سگهن ٿا، پر چونڊ معنيٰ مطابق ٿيندي آهي.",
+        "examples": [
+          [
+            "I walk to school every day.",
+            "میں ہر روز پیدل اسکول جاتا ہوں۔",
+            "مان هر روز پنڌ اسڪول وڃان ٿو."
+          ],
+          [
+            "She teaches English.",
+            "وہ انگریزی پڑھاتی ہے۔",
+            "هوءَ انگريزي پڙهائي ٿي."
+          ],
+          [
+            "Water boils at 100°C at sea level.",
+            "سطحِ سمندر پر پانی 100 ڈگری سینٹی گریڈ پر ابلتا ہے۔",
+            "سمنڊ جي سطح تي پاڻي 100 ڊگري سينٽي گريڊ تي اُٻري ٿو."
+          ],
+          [
+            "My brother plays cricket on Sundays.",
+            "میرا بھائی اتوار کو کرکٹ کھیلتا ہے۔",
+            "منهنجو ڀاءُ آچر تي ڪرڪيٽ کيڏي ٿو."
+          ],
+          [
+            "The shop opens at nine.",
+            "دکان نو بجے کھلتی ہے۔",
+            "دڪان نائين وڳي کلي ٿي."
+          ],
+          [
+            "I am writing a letter now.",
+            "میں اس وقت خط لکھ رہا ہوں۔",
+            "مان هن وقت خط لکي رهيو آهيان."
+          ],
+          [
+            "The children are playing outside.",
+            "بچے باہر کھیل رہے ہیں۔",
+            "ٻار ٻاهر کيڏي رهيا آهن."
+          ],
+          [
+            "She is staying with her aunt this week.",
+            "وہ اس ہفتے اپنی خالہ کے ہاں ٹھہری ہوئی ہے۔",
+            "هوءَ هن هفتي پنهنجي ماسيءَ وٽ ترسيل آهي."
+          ],
+          [
+            "We are learning new words.",
+            "ہم نئے الفاظ سیکھ رہے ہیں۔",
+            "اسان نوان لفظ سکي رهيا آهيون."
+          ],
+          [
+            "He has finished his homework.",
+            "اس نے اپنا گھر کا کام مکمل کر لیا ہے۔",
+            "هن پنهنجو گهر جو ڪم پورو ڪري ڇڏيو آهي."
+          ],
+          [
+            "I have visited Lahore twice.",
+            "میں لاہور دو مرتبہ جا چکا ہوں۔",
+            "مان ٻه ڀيرا لاهور وڃي چڪو آهيان."
+          ],
+          [
+            "They have lived here since 2020.",
+            "وہ 2020 سے یہاں رہ رہے ہیں۔",
+            "اهي 2020ع کان هتي رهن ٿا."
+          ],
+          [
+            "She has been studying for three hours.",
+            "وہ تین گھنٹوں سے پڑھ رہی ہے۔",
+            "هوءَ ٽن ڪلاڪن کان پڙهي رهي آهي."
+          ],
+          [
+            "It has been raining since morning.",
+            "صبح سے بارش ہو رہی ہے۔",
+            "صبح کان مينهن وسي رهيو آهي."
+          ],
+          [
+            "We have been waiting for the bus for twenty minutes.",
+            "ہم بیس منٹ سے بس کا انتظار کر رہے ہیں۔",
+            "اسان ويهن منٽن کان بس جو انتظار ڪري رهيا آهيون."
+          ]
+        ]
+      },
+      {
+        "title": "Past Tense — Forms, Uses and 10 Examples",
+        "english": "Past tense forms describe actions, events and states that belong to a time before the present. The four commonly taught past forms are Simple Past (past form of the verb), Past Continuous (was/were + verb-ing), Past Perfect (had + past participle) and Past Perfect Continuous (had been + verb-ing). Simple Past describes a completed event or past habit: ‘They visited us yesterday’. Past Continuous shows an action that was in progress at a particular past time, often when another event occurred: ‘I was reading when he called’. Past Perfect shows that one past action happened before another past action: ‘The train had left before we arrived’. Past Perfect Continuous emphasizes the duration of an activity up to a past point: ‘She had been working for two hours when I arrived’. Regular verbs commonly form the past with -ed, while irregular verbs have special forms that must be learned. Use the simple past with a finished past time such as yesterday, last week or in 2019. The past perfect is useful when the order of two past events needs to be made clear.",
+        "urdu": "Past Tense کی صورتیں ایسے اعمال، واقعات اور حالتوں کو ظاہر کرتی ہیں جو موجودہ وقت سے پہلے واقع ہوئے۔ Past کی چار عام صورتیں یہ ہیں: Simple Past (فعل کی ماضی والی شکل)، Past Continuous (was/were + فعل-ing)، Past Perfect (had + فعل کا تیسرا روپ) اور Past Perfect Continuous (had been + فعل-ing)۔ Simple Past مکمل ہو چکے واقعے یا ماضی کی عادت کے لیے آتا ہے: ‘They visited us yesterday’۔ Past Continuous ماضی کے کسی خاص وقت پر جاری عمل بتاتا ہے، اکثر جب کوئی دوسرا واقعہ پیش آیا: ‘I was reading when he called’۔ Past Perfect بتاتا ہے کہ ایک ماضی کا عمل دوسرے ماضی کے عمل سے پہلے مکمل ہو چکا تھا: ‘The train had left before we arrived’۔ Past Perfect Continuous ماضی کے کسی وقت تک عمل کے جاری رہنے کی مدت پر زور دیتا ہے: ‘She had been working for two hours when I arrived’۔ باقاعدہ افعال میں عموماً -ed لگتا ہے، جبکہ بے قاعدہ افعال کی الگ صورتیں یاد کرنا ضروری ہیں۔ Yesterday، last week یا in 2019 جیسے مکمل ماضی کے وقت کے ساتھ Simple Past استعمال کریں۔ دو ماضی کے واقعات کی ترتیب واضح کرنے کے لیے Past Perfect مفید ہے۔",
+        "sindhi": "Past Tense جون صورتون اهڙن عملن، واقعن ۽ حالتن کي ظاهر ڪن ٿيون جيڪي هاڻوڪي وقت کان اڳ ٿيا. Past جون چار عام صورتون هي آهن: Simple Past (فعل جو ماضي وارو روپ)، Past Continuous (was/were + فعل-ing)، Past Perfect (had + فعل جو ٽيون روپ) ۽ Past Perfect Continuous (had been + فعل-ing). Simple Past مڪمل ٿيل واقعي يا ماضيءَ جي عادت لاءِ اچي ٿو: ‘They visited us yesterday’. Past Continuous ماضيءَ جي ڪنهن خاص وقت تي جاري عمل ٻڌائي ٿو، اڪثر جڏهن ٻيو واقعو پيش آيو: ‘I was reading when he called’. Past Perfect ٻڌائي ٿو ته هڪ ماضيءَ وارو عمل ٻئي ماضيءَ واري عمل کان اڳ مڪمل ٿي چڪو هو: ‘The train had left before we arrived’. Past Perfect Continuous ماضيءَ جي ڪنهن وقت تائين عمل جي جاري رهڻ جي مدت تي زور ڏئي ٿو: ‘She had been working for two hours when I arrived’. باقاعده فعلن ۾ عام طور -ed لڳندو آهي، جڏهن ته بي قاعده فعلن جا الڳ روپ ياد ڪرڻ ضروري آهن. Yesterday، last week يا in 2019 جهڙي مڪمل ماضيءَ جي وقت سان Simple Past استعمال ڪريو. ٻن ماضيءَ وارن واقعن جي ترتيب واضح ڪرڻ لاءِ Past Perfect ڪارائتو آهي.",
+        "examples": [
+          [
+            "I visited my grandmother yesterday.",
+            "میں کل اپنی دادی سے ملنے گیا۔",
+            "مان ڪالهه پنهنجي ڏاڏيءَ سان ملڻ ويس."
+          ],
+          [
+            "She cooked dinner last night.",
+            "اس نے گزشتہ رات کھانا پکایا۔",
+            "هن گذريل رات ماني پچائي."
+          ],
+          [
+            "They were watching television at eight o’clock.",
+            "وہ آٹھ بجے ٹیلی وژن دیکھ رہے تھے۔",
+            "اهي اٺين وڳي ٽيليويزن ڏسي رهيا هئا."
+          ],
+          [
+            "I was sleeping when the phone rang.",
+            "جب فون بجا تو میں سو رہا تھا۔",
+            "جڏهن فون وڳو ته مان سمهي رهيو هوس."
+          ],
+          [
+            "He had left before I arrived.",
+            "میرے پہنچنے سے پہلے وہ جا چکا تھا۔",
+            "منهنجي پهچڻ کان اڳ هو وڃي چڪو هو."
+          ],
+          [
+            "The students had completed the test by noon.",
+            "طلبہ دوپہر تک امتحان مکمل کر چکے تھے۔",
+            "شاگرد منجهند تائين امتحان مڪمل ڪري چڪا هئا."
+          ],
+          [
+            "She had been reading for an hour when I entered.",
+            "جب میں اندر آیا تو وہ ایک گھنٹے سے پڑھ رہی تھی۔",
+            "جڏهن مان اندر آيس ته هوءَ هڪ ڪلاڪ کان پڙهي رهي هئي."
+          ],
+          [
+            "We had been travelling all night.",
+            "ہم ساری رات سفر کر رہے تھے۔",
+            "اسان سڄي رات سفر ڪري رهيا هئاسين."
+          ],
+          [
+            "My father worked in Karachi for ten years.",
+            "میرے والد نے دس سال کراچی میں کام کیا۔",
+            "منهنجي پيءُ ڏهه سال ڪراچيءَ ۾ ڪم ڪيو."
+          ],
+          [
+            "The rain stopped and the sun appeared.",
+            "بارش رک گئی اور سورج نکل آیا۔",
+            "مينهن بند ٿيو ۽ سج نڪري آيو."
+          ]
+        ]
+      },
+      {
+        "title": "Future Tense — Forms, Uses and 10 Examples",
+        "english": "Future time is used to talk about events that are expected, intended, planned or scheduled to happen after the present. English expresses future meaning in several ways rather than through one single verb ending. The common forms taught are Simple Future (will + base verb), Future Continuous (will be + verb-ing), Future Perfect (will have + past participle) and Future Perfect Continuous (will have been + verb-ing). ‘Will’ is often used for decisions made at the moment, promises, offers and predictions: ‘I will help you’. ‘Be going to’ commonly expresses a prior intention or a prediction based on present evidence: ‘Look at the clouds; it is going to rain’. Future Continuous describes an action that will be in progress at a future time: ‘At ten tomorrow, I will be travelling’. Future Perfect describes an action that will be completed before a specified future point: ‘She will have finished by Friday’. Future Perfect Continuous emphasizes duration up to a future point: ‘By June, he will have been working here for five years’. The present continuous can express a personal arrangement, while the simple present often expresses a timetable or fixed schedule. In time clauses beginning with when, before, after or until, English normally uses a present form for future meaning: ‘I will call you when I arrive’.",
+        "urdu": "Future Tense مستقبل میں متوقع، ارادہ شدہ، منصوبہ بند یا مقررہ وقت پر ہونے والے واقعات کے لیے استعمال ہوتا ہے۔ انگریزی میں مستقبل کا مفہوم صرف ایک فعل کی لاحقہ دار شکل سے نہیں بلکہ کئی طریقوں سے ظاہر کیا جاتا ہے۔ عام صورتیں یہ ہیں: Simple Future (will + فعل کی بنیادی شکل)، Future Continuous (will be + فعل-ing)، Future Perfect (will have + فعل کا تیسرا روپ) اور Future Perfect Continuous (will have been + فعل-ing)۔ ‘Will’ اکثر فوری فیصلہ، وعدہ، پیشکش اور پیش گوئی کے لیے آتا ہے: ‘I will help you’۔ ‘Be going to’ عموماً پہلے سے موجود ارادہ یا موجودہ شواہد پر مبنی پیش گوئی ظاہر کرتا ہے: ‘Look at the clouds; it is going to rain’۔ Future Continuous مستقبل کے کسی وقت جاری عمل بتاتا ہے: ‘At ten tomorrow, I will be travelling’۔ Future Perfect بتاتا ہے کہ مستقبل کے مقررہ وقت سے پہلے عمل مکمل ہو چکا ہو گا: ‘She will have finished by Friday’۔ Future Perfect Continuous مستقبل کے کسی وقت تک عمل کے جاری رہنے کی مدت پر زور دیتا ہے: ‘By June, he will have been working here for five years’۔ Present Continuous ذاتی طے شدہ پروگرام اور Simple Present اکثر ٹائم ٹیبل یا مقررہ شیڈول کے لیے آتا ہے۔ When، before، after یا until سے شروع ہونے والے وقت کے فقروں میں مستقبل کا مفہوم ہونے کے باوجود عموماً Present form استعمال ہوتی ہے: ‘I will call you when I arrive’۔",
+        "sindhi": "Future Tense مستقبل ۾ متوقع، ارادي، رٿيل يا مقرر وقت تي ٿيندڙ واقعن لاءِ استعمال ٿئي ٿو. انگريزيءَ ۾ مستقبل جو مطلب رڳو فعل جي هڪ پڇاڙيءَ سان نه، پر ڪيترن طريقن سان ظاهر ٿئي ٿو. عام صورتون هي آهن: Simple Future (will + فعل جو بنيادي روپ)، Future Continuous (will be + فعل-ing)، Future Perfect (will have + فعل جو ٽيون روپ) ۽ Future Perfect Continuous (will have been + فعل-ing). ‘Will’ اڪثر ان وقت ڪيل فيصلي، واعدي، آڇ ۽ اڳڪٿي لاءِ اچي ٿو: ‘I will help you’. ‘Be going to’ عام طور اڳواٽ ارادو يا موجوده نشانين تي ٻڌل اڳڪٿي ظاهر ڪري ٿو: ‘Look at the clouds; it is going to rain’. Future Continuous مستقبل جي ڪنهن وقت تي جاري عمل ٻڌائي ٿو: ‘At ten tomorrow, I will be travelling’. Future Perfect ٻڌائي ٿو ته مستقبل جي مقرر وقت کان اڳ عمل مڪمل ٿي چڪو هوندو: ‘She will have finished by Friday’. Future Perfect Continuous مستقبل جي ڪنهن وقت تائين عمل جي جاري رهڻ جي مدت تي زور ڏئي ٿو: ‘By June, he will have been working here for five years’. Present Continuous ذاتي طئي ٿيل پروگرام ۽ Simple Present اڪثر ٽائيم ٽيبل يا مقرر شيڊول لاءِ اچي ٿو. When، before، after يا until سان شروع ٿيندڙ وقت وارن فقرن ۾ مستقبل جو مطلب هوندي به عام طور Present form استعمال ٿيندي آهي: ‘I will call you when I arrive’.",
+        "examples": [
+          [
+            "I will call you tonight.",
+            "میں آج رات تمہیں فون کروں گا۔",
+            "مان اڄ رات توکي فون ڪندس."
+          ],
+          [
+            "She will help her mother.",
+            "وہ اپنی والدہ کی مدد کرے گی۔",
+            "هوءَ پنهنجي ماءُ جي مدد ڪندي."
+          ],
+          [
+            "They are going to build a new house.",
+            "وہ ایک نیا گھر بنانے والے ہیں۔",
+            "اهي نئون گهر ٺاهڻ وارا آهن."
+          ],
+          [
+            "Look at the sky; it is going to rain.",
+            "آسمان کو دیکھو؛ بارش ہونے والی ہے۔",
+            "آسمان ڏسو؛ مينهن وسڻ وارو آهي."
+          ],
+          [
+            "This time tomorrow, we will be flying to Islamabad.",
+            "کل اس وقت ہم اسلام آباد جا رہے ہوں گے۔",
+            "سڀاڻي هن وقت اسان اسلام آباد ڏانهن اڏامي رهيا هونداسين."
+          ],
+          [
+            "At nine tonight, he will be studying.",
+            "آج رات نو بجے وہ پڑھ رہا ہوگا۔",
+            "اڄ رات نائين وڳي هو پڙهي رهيو هوندو."
+          ],
+          [
+            "By Friday, I will have completed the assignment.",
+            "جمعہ تک میں کام مکمل کر چکا ہوں گا۔",
+            "جمعي تائين مان ڪم مڪمل ڪري چڪو هوندس."
+          ],
+          [
+            "She will have reached home before sunset.",
+            "وہ غروبِ آفتاب سے پہلے گھر پہنچ چکی ہوگی۔",
+            "هوءَ سج لهڻ کان اڳ گهر پهچي چڪي هوندي."
+          ],
+          [
+            "By next year, they will have been living here for a decade.",
+            "اگلے سال تک انہیں یہاں رہتے ہوئے دس سال ہو چکے ہوں گے۔",
+            "ايندڙ سال تائين انهن کي هتي رهندي ڏهه سال ٿي چڪا هوندا."
+          ],
+          [
+            "The train leaves at six tomorrow morning.",
+            "ٹرین کل صبح چھ بجے روانہ ہوتی ہے۔",
+            "ٽرين سڀاڻي صبح ڇهين وڳي رواني ٿئي ٿي."
+          ]
+        ]
+      }
+    ]
   },
   "articles": {
     overview: "Articles are words used before nouns. A and an are indefinite articles; the is the definite article. They help show whether we mean something general or a particular thing.",
