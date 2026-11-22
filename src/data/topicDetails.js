@@ -4553,7 +4553,83 @@ export const topicDetails = {
           }
         ]
       }
-    ]
+,
+      {
+        "title": "Adverb Phrases — Definition and Detailed Examples",
+        "english": "An adverb phrase is a group of words that performs the work of an adverb. It modifies a verb, an adjective or another adverb by adding information about how, when, where, why, how often or to what degree an action or quality occurs. Unlike a clause, a phrase does not contain its own subject and finite verb. Many adverb phrases are prepositional phrases, while others are infinitive phrases or groups built around an adverb. To identify one, find the word being modified and ask a suitable question: How? When? Where? Why? or To what extent? For example, in “The child spoke with great politeness,” the phrase “with great politeness” tells how the child spoke and modifies the verb spoke. An adverb phrase may appear at the beginning, middle or end of a sentence. Its position can change for emphasis, but it should be placed close enough to the word it modifies to avoid confusion.",
+        "urdu": "Adverb Phrase الفاظ کا ایسا مجموعہ ہے جو متعلقِ فعل (Adverb) کا کام کرتا ہے۔ یہ فعل، صفت یا کسی دوسرے متعلقِ فعل کی وضاحت کرکے بتاتا ہے کہ کام کیسے، کب، کہاں، کیوں، کتنی بار یا کس حد تک ہوا۔ Clause کے برعکس Phrase میں اپنا Subject اور Finite Verb نہیں ہوتا۔ بہت سے Adverb Phrases حرفِ جار سے شروع ہوتے ہیں، جبکہ بعض Infinitive یا متعلقِ فعل کے گرد بننے والے الفاظ کے مجموعے ہوتے ہیں۔ اسے پہچاننے کے لیے دیکھیں کہ یہ کس لفظ کی وضاحت کر رہا ہے اور سوال کریں: کیسے؟ کب؟ کہاں؟ کیوں؟ یا کس حد تک؟ مثال: “The child spoke with great politeness.” یہاں “with great politeness” بتاتا ہے کہ بچے نے کیسے بات کی؛ یہ spoke کی وضاحت کرتا ہے۔ Adverb Phrase جملے کے شروع، درمیان یا آخر میں آ سکتا ہے۔",
+        "sindhi": "Adverb Phrase لفظن جو اهڙو مجموعو آهي جيڪو ظرف (Adverb) جو ڪم ڪري ٿو. اهو فعل، صفت يا ٻئي ظرف جي وضاحت ڪري ٻڌائي ٿو ته ڪم ڪيئن، ڪڏهن، ڪٿي، ڇو، ڪيترا ڀيرا يا ڪهڙي حد تائين ٿيو. Clause جي ابتڙ Phrase ۾ پنهنجو Subject ۽ Finite Verb نه هوندو آهي. ڪيترائي Adverb Phrases حرفِ جر سان شروع ٿيندا آهن، جڏهن ته ڪي Infinitive يا ظرف جي چوڌاري ٺهيل لفظن جا مجموعا هوندا آهن. سڃاڻپ لاءِ ڏسو ته اهو ڪهڙي لفظ جي وضاحت ڪري ٿو ۽ سوال ڪريو: ڪيئن؟ ڪڏهن؟ ڪٿي؟ ڇو؟ يا ڪيتري حد تائين؟ مثال: “The child spoke with great politeness.” هتي “with great politeness” ٻڌائي ٿو ته ٻار ڪيئن ڳالهايو؛ اهو spoke جي وضاحت ڪري ٿو. Adverb Phrase جملي جي شروع، وچ يا آخر ۾ اچي سگهي ٿو.",
+        "subsections": [
+          {
+            "title": "Common Functions of Adverb Phrases",
+            "english": "Adverb phrases commonly express: (1) Manner — how? “with care”; (2) Place — where? “under the tree”; (3) Time — when? “before sunrise”; (4) Frequency — how often? “on alternate days”; (5) Reason or purpose — why/for what purpose? “to avoid delay”; (6) Degree — to what extent? “to a great extent.” The grammatical function depends on the phrase's use in the sentence, not simply on its first word.",
+            "urdu": "Adverb Phrases عام طور پر یہ معنی ظاہر کرتے ہیں: (1) طریقہ — کیسے؟ “with care”؛ (2) جگہ — کہاں؟ “under the tree”؛ (3) وقت — کب؟ “before sunrise”؛ (4) تکرار — کتنی بار؟ “on alternate days”؛ (5) وجہ یا مقصد — کیوں/کس مقصد کے لیے؟ “to avoid delay”؛ (6) مقدار یا حد — کس حد تک؟ “to a great extent”۔ کسی فقرے کا نحوی کام جملے میں اس کے استعمال سے طے ہوتا ہے، صرف اس کے پہلے لفظ سے نہیں۔",
+            "sindhi": "Adverb Phrases عام طور هي مطلب ظاهر ڪن ٿا: (1) طريقو — ڪيئن؟ “with care”؛ (2) هنڌ — ڪٿي؟ “under the tree”؛ (3) وقت — ڪڏهن؟ “before sunrise”؛ (4) ورجاءُ — ڪيترا ڀيرا؟ “on alternate days”؛ (5) سبب يا مقصد — ڇو/ڪهڙي مقصد لاءِ؟ “to avoid delay”؛ (6) مقدار يا حد — ڪيتري حد تائين؟ “to a great extent”. فقري جو گرامري ڪم جملي ۾ ان جي استعمال سان طئي ٿيندو آهي، رڳو پهرئين لفظ سان نه."
+          },
+          {
+            "title": "Detailed Examples with Identification",
+            "english": "Study the phrase and the word it modifies in each example.",
+            "urdu": "ہر مثال میں فقرے اور اس لفظ کو دیکھیں جس کی یہ وضاحت کرتا ہے۔",
+            "sindhi": "هر مثال ۾ فقري ۽ ان لفظ کي ڏسو جنهن جي اها وضاحت ڪري ٿو.",
+            "examples": [
+              [
+                "The students answered the questions with confidence.",
+                "Adverb phrase: with confidence. It tells how the students answered; it modifies answered (manner).",
+                "طلبہ نے اعتماد کے ساتھ سوالات کے جواب دیے۔",
+                "شاگردن اعتماد سان سوالن جا جواب ڏنا۔"
+              ],
+              [
+                "We will meet after the examination.",
+                "Adverb phrase: after the examination. It tells when we will meet; it modifies will meet (time).",
+                "ہم امتحان کے بعد ملیں گے۔",
+                "اسان امتحان کان پوءِ ملنداسين۔"
+              ],
+              [
+                "The children are playing in the park.",
+                "Adverb phrase: in the park. It tells where the children are playing; it modifies are playing (place).",
+                "بچے پارک میں کھیل رہے ہیں۔",
+                "ٻار پارڪ ۾ کيڏي رهيا آهن۔"
+              ],
+              [
+                "She practises the piano every evening.",
+                "Adverb phrase: every evening. It tells how often/when she practises; it modifies practises (time or frequency).",
+                "وہ ہر شام پیانو کی مشق کرتی ہے۔",
+                "هوءَ هر شام پيانو جي مشق ڪري ٿي۔"
+              ],
+              [
+                "He left early to catch the first bus.",
+                "Adverb phrase: to catch the first bus. It is an infinitive phrase expressing purpose; it explains why he left early.",
+                "وہ پہلی بس پکڑنے کے لیے جلدی روانہ ہوا۔",
+                "هو پهرين بس پڪڙڻ لاءِ سوير روانو ٿيو۔"
+              ],
+              [
+                "The team worked with remarkable efficiency.",
+                "Adverb phrase: with remarkable efficiency. It tells how the team worked; it modifies worked (manner).",
+                "ٹیم نے غیر معمولی مہارت کے ساتھ کام کیا۔",
+                "ٽيم غيرمعمولي ڪارڪردگيءَ سان ڪم ڪيو۔"
+              ],
+              [
+                "The water was cold to a surprising degree.",
+                "Adverb phrase: to a surprising degree. It tells to what extent the water was cold; it modifies the adjective cold (degree).",
+                "پانی حیرت انگیز حد تک ٹھنڈا تھا۔",
+                "پاڻي حيرت انگيز حد تائين ٿڌو هو۔"
+              ],
+              [
+                "The little bird sang on the branch of the neem tree.",
+                "Adverb phrase: on the branch of the neem tree. It tells where the bird sang; it modifies sang (place).",
+                "ننھی چڑیا نیم کے درخت کی شاخ پر چہچہائی۔",
+                "ننڍڙي پکيءَ نم جي وڻ جي ٽاريءَ تي لاتيون ڪيون۔"
+              ]
+            ]
+          },
+          {
+            "title": "How to Distinguish Adjective and Adverb Phrases",
+            "english": "A phrase is an adjective phrase when it describes a noun or pronoun; it is an adverb phrase when it modifies a verb, adjective or another adverb. Compare: “The man in the garden is my uncle.” Here “in the garden” identifies which man, so it describes the noun man and functions adjectivally. “The man works in the garden.” Here the same phrase tells where he works, so it modifies works and functions adverbially. Always decide by function in context.",
+            "urdu": "جو فقرہ اسم یا ضمیر کی وضاحت کرے وہ Adjective Phrase ہے؛ جو فعل، صفت یا دوسرے متعلقِ فعل کی وضاحت کرے وہ Adverb Phrase ہے۔ موازنہ کریں: “The man in the garden is my uncle.” یہاں “in the garden” بتاتا ہے کہ کون سا آدمی، اس لیے یہ اسم man کی وضاحت کرتا ہے۔ “The man works in the garden.” یہاں یہی فقرہ بتاتا ہے کہ وہ کہاں کام کرتا ہے، اس لیے یہ فعل works کی وضاحت کرتا ہے۔ فیصلہ ہمیشہ جملے میں فقرے کے کام کے مطابق کریں۔",
+            "sindhi": "جيڪو فقرو اسم يا ضمير جي وضاحت ڪري، اهو Adjective Phrase آهي؛ جيڪو فعل، صفت يا ٻئي ظرف جي وضاحت ڪري، اهو Adverb Phrase آهي. ڀيٽ ڪريو: “The man in the garden is my uncle.” هتي “in the garden” ٻڌائي ٿو ته ڪهڙو ماڻهو، تنهنڪري اهو اسم man جي وضاحت ڪري ٿو. “The man works in the garden.” هتي ساڳيو فقرو ٻڌائي ٿو ته هو ڪٿي ڪم ڪري ٿو، تنهنڪري اهو فعل works جي وضاحت ڪري ٿو. فيصلو هميشه جملي ۾ فقري جي ڪم مطابق ڪريو."
+          }
+        ]
+      }    ]
   },
   "conditionals": {
     overview: "Conditional sentences link a condition with a result. Common patterns include zero conditional for general truths, first for real possibilities, second for imagined situations and third for unreal past situations.",
