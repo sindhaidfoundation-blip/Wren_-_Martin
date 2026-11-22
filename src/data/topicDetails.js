@@ -10017,2182 +10017,2183 @@ topicDetails["past-tense"] = {
 }]
 }
   "idioms": {
-    "title": "Idioms — Explanation and Usage of Verb-Based Idioms (A–W)",
-    "english": "An idiom is a group of words whose established meaning is different from, or more specific than, the literal meaning of its separate words. In English, many idioms are formed with common verbs followed by adverbs or prepositions, such as break down, bring up and look after. These combinations are often called phrasal verbs. Their meanings and grammar must be learnt as complete expressions. The entries below give a plain-English explanation, a natural example sentence, Urdu and Sindhi translations. Some expressions have more than one meaning; the meaning shown here is the one illustrated by the example.",
-    "urdu": "محاورہ الفاظ کا ایسا مجموعہ ہے جس کا رائج مفہوم اکثر اس کے الگ الگ الفاظ کے لفظی معنی سے مختلف یا زیادہ مخصوص ہوتا ہے۔ انگریزی میں بہت سے محاورے عام افعال کے ساتھ حروفِ جار یا متعلقِ فعل کے ملنے سے بنتے ہیں، مثلاً break down، bring up اور look after۔ انہیں مکمل ترکیب کے طور پر سیکھنا ضروری ہے۔ ہر اندراج میں آسان انگریزی وضاحت، مثال، اردو اور سندھی ترجمہ دیا گیا ہے۔",
-    "sindhi": "محاورو لفظن جو اهڙو مجموعو آهي، جنهن جي رائج معنيٰ اڪثر ان جي الڳ لفظن جي لفظي معنيٰ کان مختلف يا وڌيڪ مخصوص هوندي آهي. انگريزيءَ ۾ ڪيترائي محاورا عام فعلن سان حرفِ جر يا ظرف ملڻ سان ٺهن ٿا، جهڙوڪ break down، bring up ۽ look after. انهن کي مڪمل ترڪيب طور سکڻ ضروري آهي. هر داخلا ۾ آسان انگريزي وضاحت، مثال، اردو ۽ سنڌي ترجمو ڏنو ويو آهي.",
-    "subsections": [
-      {
-        "title": "What Is an Idiom? — Meaning, Form and Use",
-        "english": "An idiom is a fixed or established expression understood by convention. For example, look after means ‘take care of’, not ‘look’ plus ‘after’. Many verb idioms are separable or inseparable: we say “look after the child” (not “look the child after”), but “pick the book up” or “pick up the book”. Pronouns normally go between the verb and particle in separable phrasal verbs: “pick it up”, not “pick up it”. Always check the pattern and the intended sense.",
-        "urdu": "محاورہ ایک معروف اور رائج ترکیب ہے جس کا مفہوم عرف کے مطابق سمجھا جاتا ہے۔ مثلاً look after کا مطلب ‘دیکھ بھال کرنا’ ہے، نہ کہ look اور after کے الگ الگ لفظی معنی۔ بعض ترکیبات میں مفعول درمیان میں آ سکتا ہے، جبکہ بعض میں نہیں۔ ضمیر عموماً قابلِ جدائی ترکیب میں فعل اور particle کے درمیان آتا ہے، مثلاً pick it up۔",
-        "sindhi": "محاورو هڪ مڃيل ۽ رائج ترڪيب آهي، جنهن جي معنيٰ رواج موجب سمجهي ويندي آهي. مثال طور look after جي معنيٰ ‘سار سنڀال ڪرڻ’ آهي. ڪي ترڪيبون جدا ٿي سگهن ٿيون ۽ ڪي نه. جدا ٿيندڙ ترڪيب ۾ ضمير عام طور فعل ۽ particle جي وچ ۾ ايندو آهي، جيئن pick it up."
-      },
-      {
-        "title": "Idioms Arranged Alphabetically by Verb",
-        "english": "Study each expression with its complete meaning and example. Do not translate the preposition or adverb separately. Notice whether the object can come between the verb and particle, and remember that context may give the same expression another meaning.",
-        "urdu": "ہر ترکیب کو اس کے مکمل معنی اور مثال کے ساتھ یاد کریں۔ حرفِ جار یا متعلقِ فعل کا الگ الگ ترجمہ نہ کریں۔ یہ بھی دیکھیں کہ مفعول فعل اور particle کے درمیان آ سکتا ہے یا نہیں؛ سیاق کے بدلنے سے ایک ترکیب کے دوسرے معنی بھی ہو سکتے ہیں۔",
-        "sindhi": "هر ترڪيب کي مڪمل معنيٰ ۽ مثال سان ياد ڪريو. حرفِ جر يا ظرف جو الڳ ترجمو نه ڪريو. اهو به ڏسو ته مفعول فعل ۽ particle جي وچ ۾ اچي سگهي ٿو يا نه؛ سياق بدلجڻ سان ساڳئي ترڪيب جون ٻيون معنائون به ٿي سگهن ٿيون.",
-        "specialSections": [
-          {
-            "title": "Idioms with “BREAK”",
-            "english": "Common idiomatic expressions formed with “BREAK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“BREAK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“BREAK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "break down",
-                "stop functioning; or lose emotional control",
-                "Our car broke down on the way home.",
-                "راستے میں ہماری گاڑی خراب ہو گئی۔",
-                "گهر ويندي رستي ۾ اسان جي گاڏي خراب ٿي وئي۔"
-              ],
-              [
-                "break into",
-                "enter a building by force",
-                "Thieves broke into the shop at night.",
-                "چور رات کو دکان میں زبردستی داخل ہوئے۔",
-                "چور رات جو دڪان ۾ زبردستي گهڙي پيا۔"
-              ],
-              [
-                "break out",
-                "begin suddenly, especially something unpleasant",
-                "A fire broke out in the kitchen.",
-                "باورچی خانے میں اچانک آگ لگ گئی۔",
-                "رڌڻي ۾ اوچتو باهه لڳي پئي۔"
-              ]
+  "title": "Idioms and Phrasal Verbs — Explanation and Usage (A–W)",
+  "english": "An idiom is an established expression whose meaning is not simply the sum of the literal meanings of its words. This lesson includes both idiomatic expressions and common phrasal verbs formed with the verbs listed below. A phrasal verb consists of a verb and one or more particles; some combinations are literal, while others have a special idiomatic meaning. Learn each expression as a complete unit, with its meaning, grammatical pattern and context. Each entry gives an explanation, an example sentence, and Urdu and Sindhi translations. Where an expression has several meanings, the explanation identifies the meaning illustrated by the example and may mention another common sense.",
+  "urdu": "محاورہ الفاظ کا ایسا مجموعہ ہے جس کا رائج مفہوم اکثر اس کے الگ الگ الفاظ کے لفظی معنی سے مختلف یا زیادہ مخصوص ہوتا ہے۔ انگریزی میں بہت سے محاورے عام افعال کے ساتھ حروفِ جار یا متعلقِ فعل کے ملنے سے بنتے ہیں، مثلاً break down، bring up اور look after۔ انہیں مکمل ترکیب کے طور پر سیکھنا ضروری ہے۔ ہر اندراج میں آسان انگریزی وضاحت، مثال، اردو اور سندھی ترجمہ دیا گیا ہے۔",
+  "sindhi": "محاورو لفظن جو اهڙو مجموعو آهي، جنهن جي رائج معنيٰ اڪثر ان جي الڳ لفظن جي لفظي معنيٰ کان مختلف يا وڌيڪ مخصوص هوندي آهي. انگريزيءَ ۾ ڪيترائي محاورا عام فعلن سان حرفِ جر يا ظرف ملڻ سان ٺهن ٿا، جهڙوڪ break down، bring up ۽ look after. انهن کي مڪمل ترڪيب طور سکڻ ضروري آهي. هر داخلا ۾ آسان انگريزي وضاحت، مثال، اردو ۽ سنڌي ترجمو ڏنو ويو آهي.",
+  "subsections": [
+    {
+      "title": "What Are Idioms and Phrasal Verbs? — Meaning, Form and Use",
+      "english": "An idiom is an established expression whose meaning cannot always be worked out from the literal meanings of its separate words. A phrasal verb is a verb combined with an adverb particle or a preposition, for example break down, bring up and look after. Some phrasal verbs are idiomatic, while others are more literal; therefore, not every verb-plus-particle combination is strictly an idiom. Phrasal verbs may be transitive or intransitive, and separable or inseparable. We say “look after the child” (not “look the child after”), but “pick the book up” or “pick up the book”. With a separable phrasal verb, a pronoun normally comes between the verb and particle: “pick it up”, not “pick up it”.",
+      "urdu": "محاورہ ایک معروف ترکیب ہے جس کا مطلب ہمیشہ اس کے الگ الگ الفاظ کے لفظی معنی سے اخذ نہیں کیا جا سکتا۔ Phrasal verb ایسا فعل ہے جو کسی adverb particle یا preposition کے ساتھ مل کر بنتا ہے، مثلاً break down، bring up اور look after۔ بعض phrasal verbs محاوراتی معنی رکھتے ہیں، جبکہ بعض کا مطلب نسبتاً لفظی ہوتا ہے؛ اس لیے ہر verb-plus-particle ترکیب کو سخت معنوں میں محاورہ نہیں کہتے۔ بعض ترکیبات جدا ہو سکتی ہیں اور بعض نہیں۔ مثال کے طور پر look after the child درست ہے، look the child after نہیں؛ جبکہ pick the book up اور pick up the book دونوں درست ہیں۔ جدا ہونے والی ترکیب میں ضمیر عموماً فعل اور particle کے درمیان آتا ہے: pick it up۔",
+      "sindhi": "محاورو هڪ مڃيل ترڪيب آهي، جنهن جي معنيٰ هميشه ان جي الڳ لفظن جي لفظي معنائن مان نٿي ڪڍي سگهجي. Phrasal verb اهڙو فعل آهي، جيڪو adverb particle يا preposition سان گڏجي ٺهي ٿو، مثال طور break down، bring up ۽ look after. ڪي phrasal verbs محاوراتي معنيٰ رکن ٿا، جڏهن ته ڪي نسبتاً لفظي هوندا آهن؛ تنهنڪري هر اهڙي ترڪيب کي سخت معنيٰ ۾ محاورو نٿو چئي سگهجي. ڪي ترڪيبون جدا ٿي سگهن ٿيون ۽ ڪي نه. جدا ٿيندڙ ترڪيب ۾ ضمير عام طور فعل ۽ particle جي وچ ۾ ايندو آهي، جيئن pick it up."
+    },
+    {
+      "title": "Idioms Arranged Alphabetically by Verb",
+      "english": "Study each expression with its complete meaning and example. Do not translate the preposition or adverb separately. Notice whether the object can come between the verb and particle, and remember that context may give the same expression another meaning.",
+      "urdu": "ہر ترکیب کو اس کے مکمل معنی اور مثال کے ساتھ یاد کریں۔ حرفِ جار یا متعلقِ فعل کا الگ الگ ترجمہ نہ کریں۔ یہ بھی دیکھیں کہ مفعول فعل اور particle کے درمیان آ سکتا ہے یا نہیں؛ سیاق کے بدلنے سے ایک ترکیب کے دوسرے معنی بھی ہو سکتے ہیں۔",
+      "sindhi": "هر ترڪيب کي مڪمل معنيٰ ۽ مثال سان ياد ڪريو. حرفِ جر يا ظرف جو الڳ ترجمو نه ڪريو. اهو به ڏسو ته مفعول فعل ۽ particle جي وچ ۾ اچي سگهي ٿو يا نه؛ سياق بدلجڻ سان ساڳئي ترڪيب جون ٻيون معنائون به ٿي سگهن ٿيون.",
+      "specialSections": [
+        {
+          "title": "Idioms with “BREAK”",
+          "english": "Common idiomatic expressions formed with “BREAK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“BREAK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“BREAK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "break down",
+              "stop working (of a machine or vehicle); lose emotional control",
+              "Our car broke down on the way home.",
+              "راستے میں ہماری گاڑی خراب ہو گئی۔",
+              "گهر ويندي رستي ۾ اسان جي گاڏي خراب ٿي وئي۔"
+            ],
+            [
+              "break into",
+              "enter a building by force",
+              "Thieves broke into the shop at night.",
+              "چور رات کو دکان میں زبردستی داخل ہوئے۔",
+              "چور رات جو دڪان ۾ زبردستي گهڙي پيا۔"
+            ],
+            [
+              "break out",
+              "begin suddenly, especially something unpleasant",
+              "A fire broke out in the kitchen.",
+              "باورچی خانے میں اچانک آگ لگ گئی۔",
+              "رڌڻي ۾ اوچتو باهه لڳي پئي۔"
             ]
-          },
-          {
-            "title": "Idioms with “BRING”",
-            "english": "Common idiomatic expressions formed with “BRING”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“BRING” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“BRING” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "bring about",
-                "cause something to happen",
-                "Hard work can bring about a change.",
-                "محنت تبدیلی لا سکتی ہے۔",
-                "محنت تبديلي آڻي سگهي ٿي۔"
-              ],
-              [
-                "bring up",
-                "raise a child; also mention a subject",
-                "She was brought up by her grandparents.",
-                "اس کی پرورش اس کے دادا دادی نے کی۔",
-                "هن جي پرورش سندس ڏاڏي ۽ ڏاڏيءَ ڪئي۔"
-              ],
-              [
-                "bring round",
-                "persuade someone or restore consciousness",
-                "The doctor soon brought the patient round.",
-                "ڈاکٹر نے جلد مریض کو ہوش میں لے آیا۔",
-                "ڊاڪٽر جلد مريض کي هوش ۾ آندو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “BRING”",
+          "english": "Common idiomatic expressions formed with “BRING”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“BRING” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“BRING” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "bring about",
+              "cause something to happen",
+              "Hard work can bring about a change.",
+              "محنت تبدیلی لا سکتی ہے۔",
+              "محنت تبديلي آڻي سگهي ٿي۔"
+            ],
+            [
+              "bring up",
+              "raise a child; mention a subject (the example shows ‘raise’)",
+              "She was brought up by her grandparents.",
+              "اس کی پرورش اس کے دادا دادی نے کی۔",
+              "هن جي پرورش سندس ڏاڏي ۽ ڏاڏيءَ ڪئي."
+            ],
+            [
+              "bring round",
+              "restore someone to consciousness (also: persuade someone to agree)",
+              "The doctor soon brought the patient round.",
+              "ڈاکٹر جلد ہی مریض کو ہوش میں لے آیا۔",
+              "ڊاڪٽر جلد ئي مريض کي هوش ۾ آندو۔"
             ]
-          },
-          {
-            "title": "Idioms with “CALL”",
-            "english": "Common idiomatic expressions formed with “CALL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“CALL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“CALL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "call at",
-                "pay a short visit to a place",
-                "I called at the library after school.",
-                "میں اسکول کے بعد کتب خانے گیا۔",
-                "مان اسڪول کان پوءِ لائبريري ويس۔"
-              ],
-              [
-                "call for",
-                "require or demand",
-                "This difficult task calls for patience.",
-                "اس مشکل کام کے لیے صبر درکار ہے۔",
-                "هن ڏکئي ڪم لاءِ صبر جي ضرورت آهي۔"
-              ],
-              [
-                "call off",
-                "cancel",
-                "They called off the match because of rain.",
-                "بارش کی وجہ سے انہوں نے میچ منسوخ کر دیا۔",
-                "مينهن سبب هنن ميچ ملتوي ڪري ڇڏيو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “CALL”",
+          "english": "Common idiomatic expressions formed with “CALL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“CALL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“CALL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "call at",
+              "make a short visit to a place",
+              "I called at the library after school.",
+              "میں نے اسکول کے بعد کتب خانے کا مختصر چکر لگایا۔",
+              "مان اسڪول کان پوءِ لائبريريءَ جو مختصر چڪر هڻي آيس۔"
+            ],
+            [
+              "call for",
+              "require or demand",
+              "This difficult task calls for patience.",
+              "اس مشکل کام کے لیے صبر درکار ہے۔",
+              "هن ڏکئي ڪم لاءِ صبر جي ضرورت آهي۔"
+            ],
+            [
+              "call off",
+              "cancel",
+              "They called off the match because of rain.",
+              "بارش کی وجہ سے انہوں نے میچ منسوخ کر دیا۔",
+              "مينهن سبب هنن ميچ ملتوي ڪري ڇڏيو۔"
             ]
-          },
-          {
-            "title": "Idioms with “CARRY”",
-            "english": "Common idiomatic expressions formed with “CARRY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“CARRY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“CARRY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "carry on",
-                "continue",
-                "Please carry on with your work.",
-                "براہِ کرم اپنا کام جاری رکھیں۔",
-                "مهرباني ڪري پنهنجو ڪم جاري رکو۔"
-              ],
-              [
-                "carry out",
-                "perform or complete a plan/order",
-                "The students carried out the experiment carefully.",
-                "طلبہ نے تجربہ احتیاط سے کیا۔",
-                "شاگردن تجربو احتياط سان ڪيو۔"
-              ],
-              [
-                "carry off",
-                "win or achieve successfully",
-                "Our team carried off the trophy.",
-                "ہماری ٹیم نے ٹرافی جیت لی۔",
-                "اسان جي ٽيم ٽرافي کٽي ورتي۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “CARRY”",
+          "english": "Common idiomatic expressions formed with “CARRY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“CARRY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“CARRY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "carry on",
+              "continue",
+              "Please carry on with your work.",
+              "براہِ کرم اپنا کام جاری رکھیں۔",
+              "مهرباني ڪري پنهنجو ڪم جاري رکو۔"
+            ],
+            [
+              "carry out",
+              "perform or execute a task, plan or instruction",
+              "The students carried out the experiment carefully.",
+              "طلبہ نے تجربہ احتیاط سے کیا۔",
+              "شاگردن تجربو احتياط سان ڪيو۔"
+            ],
+            [
+              "carry off",
+              "win or achieve successfully",
+              "Our team carried off the trophy.",
+              "ہماری ٹیم نے ٹرافی جیت لی۔",
+              "اسان جي ٽيم ٽرافي کٽي ورتي۔"
             ]
-          },
-          {
-            "title": "Idioms with “CAST”",
-            "english": "Common idiomatic expressions formed with “CAST”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“CAST” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“CAST” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "cast aside",
-                "discard or reject",
-                "He cast aside his old doubts.",
-                "اس نے اپنے پرانے شکوک چھوڑ دیے۔",
-                "هن پنهنجا پراڻا شڪ ڇڏي ڏنا۔"
-              ],
-              [
-                "cast about",
-                "search in different directions for something",
-                "She cast about for a suitable answer.",
-                "وہ مناسب جواب تلاش کرنے لگی۔",
-                "هوءَ مناسب جواب ڳولڻ لڳي۔"
-              ],
-              [
-                "cast down",
-                "make someone sad or discouraged",
-                "Do not be cast down by one failure.",
-                "ایک ناکامی سے مایوس نہ ہوں۔",
-                "هڪ ناڪاميءَ سبب مايوس نه ٿيو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “CAST”",
+          "english": "Common idiomatic expressions formed with “CAST”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“CAST” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“CAST” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "cast aside",
+              "discard or reject",
+              "He cast aside his old doubts.",
+              "اس نے اپنے پرانے شکوک چھوڑ دیے۔",
+              "هن پنهنجا پراڻا شڪ ڇڏي ڏنا۔"
+            ],
+            [
+              "cast about",
+              "search in different directions for an answer or solution (formal/less common)",
+              "She cast about for a suitable answer.",
+              "وہ مناسب جواب تلاش کرنے لگی۔",
+              "هوءَ مناسب جواب ڳولڻ لڳي۔"
+            ],
+            [
+              "cast down",
+              "make someone sad or discouraged",
+              "Do not be cast down by one failure.",
+              "ایک ناکامی سے مایوس نہ ہوں۔",
+              "هڪ ناڪاميءَ سبب مايوس نه ٿيو۔"
             ]
-          },
-          {
-            "title": "Idioms with “COME”",
-            "english": "Common idiomatic expressions formed with “COME”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“COME” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“COME” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "come across",
-                "meet or find by chance",
-                "I came across an old photograph.",
-                "مجھے اتفاقاً ایک پرانی تصویر ملی۔",
-                "مون کي اتفاق سان هڪ پراڻي تصوير ملي۔"
-              ],
-              [
-                "come by",
-                "obtain or acquire",
-                "Good opportunities are hard to come by.",
-                "اچھے مواقع ملنا مشکل ہیں۔",
-                "سٺا موقعا ملڻ ڏکيو آهي۔"
-              ],
-              [
-                "come to",
-                "regain consciousness; amount to",
-                "The injured man soon came to.",
-                "زخمی آدمی جلد ہوش میں آ گیا۔",
-                "زخمي ماڻهو جلد هوش ۾ اچي ويو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “COME”",
+          "english": "Common idiomatic expressions formed with “COME”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“COME” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“COME” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "come across",
+              "meet or find by chance",
+              "I came across an old photograph.",
+              "مجھے اتفاقاً ایک پرانی تصویر ملی۔",
+              "مون کي اتفاق سان هڪ پراڻي تصوير ملي۔"
+            ],
+            [
+              "come by",
+              "obtain or acquire",
+              "Good opportunities are hard to come by.",
+              "اچھے مواقع ملنا مشکل ہیں۔",
+              "سٺا موقعا ملڻ ڏکيو آهي۔"
+            ],
+            [
+              "come to",
+              "regain consciousness (also: amount to a total)",
+              "The injured man soon came to.",
+              "زخمی آدمی جلد ہوش میں آ گیا۔",
+              "زخمي ماڻهو جلد هوش ۾ اچي ويو۔"
             ]
-          },
-          {
-            "title": "Idioms with “CRY”",
-            "english": "Common idiomatic expressions formed with “CRY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“CRY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“CRY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "cry off",
-                "withdraw from a promise or arrangement",
-                "He cried off at the last moment.",
-                "وہ آخری وقت پر وعدے سے پھر گیا۔",
-                "هو آخري وقت تي پنهنجي واعدي تان ڦري ويو۔"
-              ],
-              [
-                "cry out",
-                "shout loudly, often from pain or fear",
-                "The child cried out in pain.",
-                "بچہ درد سے چیخ اٹھا۔",
-                "ٻار سور سبب رڙ ڪئي۔"
-              ],
-              [
-                "cry over",
-                "feel sorrow about something, often uselessly",
-                "There is no use crying over spilt milk.",
-                "گزرے ہوئے نقصان پر رونے کا فائدہ نہیں۔",
-                "گذريل نقصان تي پڇتائڻ جو ڪو فائدو ناهي۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “CRY”",
+          "english": "Common idiomatic expressions formed with “CRY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“CRY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“CRY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "cry off",
+              "withdraw from a promise or arrangement",
+              "He cried off at the last moment.",
+              "وہ آخری وقت پر وعدے سے پھر گیا۔",
+              "هو آخري وقت تي پنهنجي واعدي تان ڦري ويو۔"
+            ],
+            [
+              "cry out",
+              "shout loudly, often from pain or fear",
+              "The child cried out in pain.",
+              "بچہ درد سے چیخ اٹھا۔",
+              "ٻار سور سبب رڙ ڪئي۔"
+            ],
+            [
+              "cry over",
+              "feel sorrow about something that cannot be changed",
+              "There is no use crying over spilt milk.",
+              "گزرے ہوئے نقصان پر رونے کا فائدہ نہیں۔",
+              "گذريل نقصان تي پڇتائڻ جو ڪو فائدو ناهي۔"
             ]
-          },
-          {
-            "title": "Idioms with “BEAR”",
-            "english": "Common idiomatic expressions formed with “BEAR”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“BEAR” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“BEAR” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "bear with",
-                "be patient with",
-                "Please bear with me for a moment.",
-                "براہِ کرم ایک لمحہ میرا انتظار کریں۔",
-                "مهرباني ڪري هڪ لمحو صبر ڪريو۔"
-              ],
-              [
-                "bear out",
-                "support or confirm a statement",
-                "The facts bear out her account.",
-                "حقائق اس کی بات کی تصدیق کرتے ہیں۔",
-                "حقيقتون سندس ڳالهه جي تصديق ڪن ٿيون۔"
-              ],
-              [
-                "bear up",
-                "remain cheerful or strong in difficulty",
-                "She bore up bravely after the loss.",
-                "نقصان کے بعد اس نے بہادری سے حوصلہ رکھا۔",
-                "نقصان کان پوءِ هن بهادريءَ سان همت قائم رکي۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “BEAR”",
+          "english": "Common idiomatic expressions formed with “BEAR”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“BEAR” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“BEAR” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "bear with",
+              "be patient with",
+              "Please bear with me for a moment.",
+              "براہِ کرم ایک لمحہ میرا انتظار کریں۔",
+              "مهرباني ڪري هڪ لمحو صبر ڪريو۔"
+            ],
+            [
+              "bear out",
+              "support or confirm a statement",
+              "The facts bear out her account.",
+              "حقائق اس کی بات کی تصدیق کرتے ہیں۔",
+              "حقيقتون سندس ڳالهه جي تصديق ڪن ٿيون۔"
+            ],
+            [
+              "bear up",
+              "remain cheerful or strong in difficulty",
+              "She bore up bravely after the loss.",
+              "نقصان کے بعد اس نے بہادری سے حوصلہ رکھا۔",
+              "نقصان کان پوءِ هن بهادريءَ سان همت قائم رکي۔"
             ]
-          },
-          {
-            "title": "Idioms with “CUT”",
-            "english": "Common idiomatic expressions formed with “CUT”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“CUT” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“CUT” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "cut down",
-                "reduce; or fell a tree",
-                "We must cut down our expenses.",
-                "ہمیں اپنے اخراجات کم کرنے چاہئیں۔",
-                "اسان کي پنهنجا خرچ گهٽائڻ گهرجن۔"
-              ],
-              [
-                "cut off",
-                "disconnect or separate",
-                "The storm cut off the village.",
-                "طوفان نے گاؤں کا رابطہ منقطع کر دیا۔",
-                "طوفان ڳوٺ جو رابطو ڪٽي ڇڏيو۔"
-              ],
-              [
-                "cut out",
-                "remove; stop doing something",
-                "You should cut out unnecessary words.",
-                "آپ کو غیر ضروری الفاظ نکال دینے چاہئیں۔",
-                "توهان کي غير ضروري لفظ ڪڍي ڇڏڻ گهرجن۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “CUT”",
+          "english": "Common idiomatic expressions formed with “CUT”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“CUT” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“CUT” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "cut down",
+              "reduce; or fell a tree",
+              "We must cut down our expenses.",
+              "ہمیں اپنے اخراجات کم کرنے چاہئیں۔",
+              "اسان کي پنهنجا خرچ گهٽائڻ گهرجن۔"
+            ],
+            [
+              "cut off",
+              "disconnect or separate",
+              "The storm cut off the village.",
+              "طوفان نے گاؤں کا رابطہ منقطع کر دیا۔",
+              "طوفان ڳوٺ جو رابطو ڪٽي ڇڏيو۔"
+            ],
+            [
+              "cut out",
+              "remove; stop doing something",
+              "You should cut out unnecessary words.",
+              "آپ کو غیر ضروری الفاظ نکال دینے چاہئیں۔",
+              "توهان کي غير ضروري لفظ ڪڍي ڇڏڻ گهرجن۔"
             ]
-          },
-          {
-            "title": "Idioms with “DO”",
-            "english": "Common idiomatic expressions formed with “DO”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“DO” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“DO” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "do away with",
-                "abolish or get rid of",
-                "The school did away with the old rule.",
-                "اسکول نے پرانا اصول ختم کر دیا۔",
-                "اسڪول پراڻو قاعدو ختم ڪري ڇڏيو۔"
-              ],
-              [
-                "do for",
-                "ruin or cause serious harm",
-                "One careless mistake may do for the plan.",
-                "ایک لاپرواہ غلطی منصوبہ تباہ کر سکتی ہے۔",
-                "هڪ لاپرواهيءَ واري غلطي منصوبو تباهه ڪري سگهي ٿي۔"
-              ],
-              [
-                "do without",
-                "manage in the absence of something",
-                "We can do without luxuries for a while.",
-                "ہم کچھ عرصہ آسائشوں کے بغیر گزارا کر سکتے ہیں۔",
-                "اسان ڪجهه وقت آسائشن کان سواءِ گذارو ڪري سگهون ٿا۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “DO”",
+          "english": "Common idiomatic expressions formed with “DO”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“DO” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“DO” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "do away with",
+              "abolish or get rid of",
+              "The school did away with the old rule.",
+              "اسکول نے پرانا اصول ختم کر دیا۔",
+              "اسڪول پراڻو قاعدو ختم ڪري ڇڏيو۔"
+            ],
+            [
+              "do for",
+              "ruin or destroy someone/something (informal, chiefly British)",
+              "The long illness nearly did for him.",
+              "طویل بیماری نے اسے تقریباً ختم ہی کر دیا۔",
+              "ڊگهي بيماريءَ کيس لڳ ڀڳ ختم ڪري ڇڏيو۔"
+            ],
+            [
+              "do without",
+              "manage in the absence of something",
+              "We can do without luxuries for a while.",
+              "ہم کچھ عرصہ آسائشوں کے بغیر گزارا کر سکتے ہیں۔",
+              "اسان ڪجهه وقت آسائشن کان سواءِ گذارو ڪري سگهون ٿا۔"
             ]
-          },
-          {
-            "title": "Idioms with “FALL”",
-            "english": "Common idiomatic expressions formed with “FALL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“FALL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“FALL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "fall back on",
-                "rely on when necessary",
-                "She can fall back on her savings.",
-                "وہ ضرورت پڑنے پر اپنی بچت پر بھروسا کر سکتی ہے۔",
-                "هوءَ ضرورت پوڻ تي پنهنجي بچت تي ڀاڙي سگهي ٿي۔"
-              ],
-              [
-                "fall in with",
-                "agree with or become associated with",
-                "He fell in with a sensible suggestion.",
-                "وہ ایک معقول تجویز سے متفق ہو گیا۔",
-                "هو هڪ مناسب صلاح سان متفق ٿي ويو۔"
-              ],
-              [
-                "fall out",
-                "quarrel; cease to be friendly",
-                "The two friends fell out over a small matter.",
-                "دونوں دوست معمولی بات پر جھگڑ پڑے۔",
-                "ٻئي دوست معمولي ڳالهه تان وڙهي پيا۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “FALL”",
+          "english": "Common idiomatic expressions formed with “FALL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“FALL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“FALL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "fall back on",
+              "rely on when necessary",
+              "She can fall back on her savings.",
+              "وہ ضرورت پڑنے پر اپنی بچت پر بھروسا کر سکتی ہے۔",
+              "هوءَ ضرورت پوڻ تي پنهنجي بچت تي ڀاڙي سگهي ٿي۔"
+            ],
+            [
+              "fall in with",
+              "agree to or accept a plan; also associate with someone",
+              "He fell in with the others' plan.",
+              "وہ دوسروں کے منصوبے سے متفق ہو گیا۔",
+              "هو ٻين جي منصوبي سان متفق ٿي ويو۔"
+            ],
+            [
+              "fall out",
+              "quarrel; cease to be friendly",
+              "The two friends fell out over a small matter.",
+              "دونوں دوست معمولی بات پر جھگڑ پڑے۔",
+              "ٻئي دوست معمولي ڳالهه تان وڙهي پيا۔"
             ]
-          },
-          {
-            "title": "Idioms with “GET”",
-            "english": "Common idiomatic expressions formed with “GET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“GET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“GET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "get along",
-                "have a friendly relationship or manage",
-                "Do you get along with your neighbours?",
-                "کیا آپ اپنے پڑوسیوں سے اچھے تعلقات رکھتے ہیں؟",
-                "ڇا توهان پاڙيسرين سان سٺا لاڳاپا رکو ٿا؟"
-              ],
-              [
-                "get over",
-                "recover from illness or difficulty",
-                "It took him weeks to get over the fever.",
-                "اسے بخار سے صحت یاب ہونے میں کئی ہفتے لگے۔",
-                "کيس بخار مان صحتياب ٿيڻ ۾ ڪيترائي هفتا لڳا۔"
-              ],
-              [
-                "get through",
-                "finish or successfully pass",
-                "She got through the examination.",
-                "وہ امتحان میں کامیاب ہو گئی۔",
-                "هوءَ امتحان ۾ ڪامياب ٿي وئي۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “GET”",
+          "english": "Common idiomatic expressions formed with “GET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“GET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“GET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "get along",
+              "have a friendly relationship or manage",
+              "Do you get along with your neighbours?",
+              "کیا آپ اپنے پڑوسیوں سے اچھے تعلقات رکھتے ہیں؟",
+              "ڇا توهان پاڙيسرين سان سٺا لاڳاپا رکو ٿا؟"
+            ],
+            [
+              "get over",
+              "recover from illness or difficulty",
+              "It took him weeks to get over the fever.",
+              "اسے بخار سے صحت یاب ہونے میں کئی ہفتے لگے۔",
+              "کيس بخار مان صحتياب ٿيڻ ۾ ڪيترائي هفتا لڳا۔"
+            ],
+            [
+              "get through",
+              "successfully complete or pass (an examination)",
+              "She got through the examination.",
+              "وہ امتحان میں کامیاب ہو گئی۔",
+              "هوءَ امتحان ۾ ڪامياب ٿي وئي۔"
             ]
-          },
-          {
-            "title": "Idioms with “GIVE”",
-            "english": "Common idiomatic expressions formed with “GIVE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“GIVE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“GIVE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "give away",
-                "give something freely; reveal a secret",
-                "He gave away his books to poor students.",
-                "اس نے اپنی کتابیں غریب طلبہ کو دے دیں۔",
-                "هن پنهنجا ڪتاب غريب شاگردن کي ڏئي ڇڏيا۔"
-              ],
-              [
-                "give in",
-                "yield or surrender",
-                "At last the enemy gave in.",
-                "آخرکار دشمن نے ہتھیار ڈال دیے۔",
-                "آخرڪار دشمن هٿيار ڦٽا ڪيا۔"
-              ],
-              [
-                "give up",
-                "stop trying or abandon a habit",
-                "Never give up hope.",
-                "کبھی امید نہ چھوڑیں۔",
-                "ڪڏهن به اميد نه ڇڏيو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “GIVE”",
+          "english": "Common idiomatic expressions formed with “GIVE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“GIVE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“GIVE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "give away",
+              "give something freely; reveal a secret",
+              "He gave away his books to poor students.",
+              "اس نے اپنی کتابیں غریب طلبہ کو دے دیں۔",
+              "هن پنهنجا ڪتاب غريب شاگردن کي ڏئي ڇڏيا۔"
+            ],
+            [
+              "give in",
+              "yield or surrender",
+              "At last the enemy gave in.",
+              "آخرکار دشمن نے ہتھیار ڈال دیے۔",
+              "آخرڪار دشمن هٿيار ڦٽا ڪيا۔"
+            ],
+            [
+              "give up",
+              "stop trying or abandon a habit",
+              "Never give up hope.",
+              "کبھی امید نہ چھوڑیں۔",
+              "ڪڏهن به اميد نه ڇڏيو۔"
             ]
-          },
-          {
-            "title": "Idioms with “GO”",
-            "english": "Common idiomatic expressions formed with “GO”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“GO” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“GO” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "go about",
-                "begin or continue doing something",
-                "How should we go about this work?",
-                "ہمیں یہ کام کیسے شروع کرنا چاہیے؟",
-                "اسان کي هي ڪم ڪيئن شروع ڪرڻ گهرجي؟"
-              ],
-              [
-                "go off",
-                "explode; ring; or cease to be fresh",
-                "The alarm went off at six.",
-                "چھ بجے الارم بج اٹھا۔",
-                "ڇهين وڳي الارم وڄي پيو۔"
-              ],
-              [
-                "go through",
-                "experience or examine carefully",
-                "She went through a difficult time.",
-                "اس نے ایک مشکل دور گزارا۔",
-                "هن ڏکيو وقت گذاريو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “GO”",
+          "english": "Common idiomatic expressions formed with “GO”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“GO” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“GO” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "go about",
+              "begin or continue doing something",
+              "How should we go about this work?",
+              "ہمیں یہ کام کیسے شروع کرنا چاہیے؟",
+              "اسان کي هي ڪم ڪيئن شروع ڪرڻ گهرجي؟"
+            ],
+            [
+              "go off",
+              "make a sudden sound (as an alarm); also explode or become bad",
+              "The alarm went off at six.",
+              "چھ بجے الارم بج اٹھا۔",
+              "ڇهين وڳي الارم وڄي پيو۔"
+            ],
+            [
+              "go through",
+              "experience or examine carefully",
+              "She went through a difficult time.",
+              "اس نے ایک مشکل دور گزارا۔",
+              "هن ڏکيو وقت گذاريو۔"
             ]
-          },
-          {
-            "title": "Idioms with “HOLD”",
-            "english": "Common idiomatic expressions formed with “HOLD”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“HOLD” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“HOLD” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "hold back",
-                "restrain or prevent",
-                "She could not hold back her tears.",
-                "وہ اپنے آنسو نہ روک سکی۔",
-                "هوءَ پنهنجا ڳوڙها روڪي نه سگهي۔"
-              ],
-              [
-                "hold on",
-                "wait; continue to hold",
-                "Hold on for a minute, please.",
-                "براہِ کرم ایک منٹ انتظار کریں۔",
-                "مهرباني ڪري هڪ منٽ ترسو۔"
-              ],
-              [
-                "hold out",
-                "resist; continue to survive",
-                "The soldiers held out bravely.",
-                "سپاہیوں نے بہادری سے مقابلہ جاری رکھا۔",
-                "سپاهين بهادريءَ سان مقابلو جاري رکيو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “HOLD”",
+          "english": "Common idiomatic expressions formed with “HOLD”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“HOLD” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“HOLD” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "hold back",
+              "restrain or prevent",
+              "She could not hold back her tears.",
+              "وہ اپنے آنسو نہ روک سکی۔",
+              "هوءَ پنهنجا ڳوڙها روڪي نه سگهي۔"
+            ],
+            [
+              "hold on",
+              "wait; continue to hold",
+              "Hold on for a minute, please.",
+              "براہِ کرم ایک منٹ انتظار کریں۔",
+              "مهرباني ڪري هڪ منٽ ترسو۔"
+            ],
+            [
+              "hold out",
+              "resist; continue to survive",
+              "The soldiers held out bravely.",
+              "سپاہیوں نے بہادری سے مقابلہ جاری رکھا۔",
+              "سپاهين بهادريءَ سان مقابلو جاري رکيو۔"
             ]
-          },
-          {
-            "title": "Idioms with “KEEP”",
-            "english": "Common idiomatic expressions formed with “KEEP”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“KEEP” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“KEEP” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "keep away",
-                "stay at a distance",
-                "Keep away from the wet paint.",
-                "گیلے رنگ سے دور رہیں۔",
-                "آلي رنگ کان پري رهو۔"
-              ],
-              [
-                "keep on",
-                "continue doing something",
-                "He kept on asking questions.",
-                "وہ سوال پوچھتا رہا۔",
-                "هو سوال پڇندو رهيو۔"
-              ],
-              [
-                "keep up with",
-                "remain at the same level or pace",
-                "Try to keep up with the class.",
-                "کلاس کے ساتھ اپنی رفتار برقرار رکھنے کی کوشش کریں۔",
-                "ڪلاس سان پنهنجي رفتار برقرار رکڻ جي ڪوشش ڪريو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “KEEP”",
+          "english": "Common idiomatic expressions formed with “KEEP”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“KEEP” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“KEEP” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "keep away",
+              "stay at a distance",
+              "Keep away from the wet paint.",
+              "گیلے رنگ سے دور رہیں۔",
+              "آلي رنگ کان پري رهو۔"
+            ],
+            [
+              "keep on",
+              "continue doing something",
+              "He kept on asking questions.",
+              "وہ سوال پوچھتا رہا۔",
+              "هو سوال پڇندو رهيو۔"
+            ],
+            [
+              "keep up with",
+              "remain at the same level or pace",
+              "Try to keep up with the class.",
+              "کلاس کے ساتھ اپنی رفتار برقرار رکھنے کی کوشش کریں۔",
+              "ڪلاس سان پنهنجي رفتار برقرار رکڻ جي ڪوشش ڪريو۔"
             ]
-          },
-          {
-            "title": "Idioms with “KNOCK”",
-            "english": "Common idiomatic expressions formed with “KNOCK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“KNOCK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“KNOCK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "knock down",
-                "hit and cause to fall",
-                "The cyclist was knocked down by a car.",
-                "سائیکل سوار گاڑی کی ٹکر سے گر گیا۔",
-                "سائيڪل سوار گاڏيءَ جي ٽڪر سان ڪري پيو۔"
-              ],
-              [
-                "knock off",
-                "stop work; reduce a price",
-                "They knock off at five o'clock.",
-                "وہ پانچ بجے کام بند کرتے ہیں۔",
-                "اهي پنجين وڳي ڪم بند ڪن ٿا۔"
-              ],
-              [
-                "knock out",
-                "make unconscious; defeat decisively",
-                "The boxer knocked out his opponent.",
-                "مکے باز نے حریف کو بے ہوش کر دیا۔",
-                "مڪيباز مخالف کي بيهوش ڪري ڇڏيو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “KNOCK”",
+          "english": "Common idiomatic expressions formed with “KNOCK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“KNOCK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“KNOCK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "knock down",
+              "hit and cause to fall",
+              "The cyclist was knocked down by a car.",
+              "سائیکل سوار گاڑی کی ٹکر سے گر گیا۔",
+              "سائيڪل سوار گاڏيءَ جي ٽڪر سان ڪري پيو۔"
+            ],
+            [
+              "knock off",
+              "stop work (informal); also reduce a price",
+              "They knock off at five o'clock.",
+              "وہ پانچ بجے کام بند کرتے ہیں۔",
+              "اهي پنجين وڳي ڪم بند ڪن ٿا۔"
+            ],
+            [
+              "knock out",
+              "make unconscious; defeat decisively",
+              "The boxer knocked out his opponent.",
+              "مکے باز نے حریف کو بے ہوش کر دیا۔",
+              "مڪيباز مخالف کي بيهوش ڪري ڇڏيو۔"
             ]
-          },
-          {
-            "title": "Idioms with “LAY”",
-            "english": "Common idiomatic expressions formed with “LAY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“LAY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“LAY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "lay aside",
-                "put away or save for later",
-                "Lay aside some money every month.",
-                "ہر ماہ کچھ رقم بچا کر رکھیں۔",
-                "هر مهيني ڪجهه رقم بچائي رکو۔"
-              ],
-              [
-                "lay down",
-                "state a rule; surrender arms",
-                "The rules are laid down clearly.",
-                "قواعد واضح طور پر مقرر کیے گئے ہیں۔",
-                "قاعدا چٽيءَ طرح مقرر ڪيا ويا آهن۔"
-              ],
-              [
-                "lay out",
-                "arrange or present clearly",
-                "She laid out the papers on the desk.",
-                "اس نے کاغذات میز پر ترتیب سے رکھے۔",
-                "هن ڪاغذ ميز تي ترتيب سان رکيا۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “LAY”",
+          "english": "Common idiomatic expressions formed with “LAY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“LAY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“LAY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "lay aside",
+              "put away or save for later",
+              "Lay aside some money every month.",
+              "ہر ماہ کچھ رقم بچا کر رکھیں۔",
+              "هر مهيني ڪجهه رقم بچائي رکو۔"
+            ],
+            [
+              "lay down",
+              "formally state or establish (a rule)",
+              "The rules are laid down clearly.",
+              "قواعد واضح طور پر مقرر کیے گئے ہیں۔",
+              "قاعدا چٽيءَ طرح مقرر ڪيا ويا آهن۔"
+            ],
+            [
+              "lay out",
+              "arrange or present clearly",
+              "She laid out the papers on the desk.",
+              "اس نے کاغذات میز پر ترتیب سے رکھے۔",
+              "هن ڪاغذ ميز تي ترتيب سان رکيا۔"
             ]
-          },
-          {
-            "title": "Idioms with “LET”",
-            "english": "Common idiomatic expressions formed with “LET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“LET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“LET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "let down",
-                "disappoint or fail someone",
-                "Do not let your friends down.",
-                "اپنے دوستوں کو مایوس نہ کریں۔",
-                "پنهنجن دوستن کي مايوس نه ڪريو۔"
-              ],
-              [
-                "let off",
-                "allow to escape punishment; discharge",
-                "The teacher let him off with a warning.",
-                "استاد نے اسے تنبیہ دے کر چھوڑ دیا۔",
-                "استاد کيس تنبيه ڏئي ڇڏي ڏنو۔"
-              ],
-              [
-                "let out",
-                "release; make a garment wider",
-                "They let out the bird from its cage.",
-                "انہوں نے پرندے کو پنجرے سے آزاد کر دیا۔",
-                "هنن پکيءَ کي پڃري مان آزاد ڪيو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “LET”",
+          "english": "Common idiomatic expressions formed with “LET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“LET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“LET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "let down",
+              "disappoint or fail someone",
+              "Do not let your friends down.",
+              "اپنے دوستوں کو مایوس نہ کریں۔",
+              "پنهنجن دوستن کي مايوس نه ڪريو۔"
+            ],
+            [
+              "let off",
+              "allow to escape punishment; discharge",
+              "The teacher let him off with a warning.",
+              "استاد نے اسے تنبیہ دے کر چھوڑ دیا۔",
+              "استاد کيس تنبيه ڏئي ڇڏي ڏنو۔"
+            ],
+            [
+              "let out",
+              "release (a person or animal); also make a garment looser",
+              "They let the bird out of its cage.",
+              "انہوں نے پرندے کو پنجرے سے آزاد کر دیا۔",
+              "هنن پکيءَ کي پڃري مان آزاد ڪيو۔"
             ]
-          },
-          {
-            "title": "Idioms with “LOOK”",
-            "english": "Common idiomatic expressions formed with “LOOK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“LOOK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“LOOK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "look after",
-                "take care of",
-                "She looks after her younger brother.",
-                "وہ اپنے چھوٹے بھائی کی دیکھ بھال کرتی ہے۔",
-                "هوءَ پنهنجي ننڍي ڀاءُ جي سار سنڀال ڪري ٿي۔"
-              ],
-              [
-                "look down on",
-                "regard as inferior",
-                "We should not look down on the poor.",
-                "ہمیں غریبوں کو حقیر نہیں سمجھنا چاہیے۔",
-                "اسان کي غريبن کي گهٽ نه سمجهڻ گهرجي۔"
-              ],
-              [
-                "look into",
-                "investigate",
-                "The police will look into the matter.",
-                "پولیس معاملے کی تحقیقات کرے گی۔",
-                "پوليس معاملي جي جاچ ڪندي۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “LOOK”",
+          "english": "Common idiomatic expressions formed with “LOOK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“LOOK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“LOOK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "look after",
+              "take care of",
+              "She looks after her younger brother.",
+              "وہ اپنے چھوٹے بھائی کی دیکھ بھال کرتی ہے۔",
+              "هوءَ پنهنجي ننڍي ڀاءُ جي سار سنڀال ڪري ٿي۔"
+            ],
+            [
+              "look down on",
+              "regard as inferior",
+              "We should not look down on the poor.",
+              "ہمیں غریبوں کو حقیر نہیں سمجھنا چاہیے۔",
+              "اسان کي غريبن کي گهٽ نه سمجهڻ گهرجي۔"
+            ],
+            [
+              "look into",
+              "investigate",
+              "The police will look into the matter.",
+              "پولیس معاملے کی تحقیقات کرے گی۔",
+              "پوليس معاملي جي جاچ ڪندي۔"
             ]
-          },
-          {
-            "title": "Idioms with “MAKE”",
-            "english": "Common idiomatic expressions formed with “MAKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“MAKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“MAKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "make for",
-                "move towards; contribute to",
-                "The children made for the gate.",
-                "بچے دروازے کی طرف بڑھے۔",
-                "ٻار دروازي ڏانهن وڌيا۔"
-              ],
-              [
-                "make out",
-                "understand or discern",
-                "I cannot make out what he means.",
-                "میں سمجھ نہیں پا رہا کہ اس کا مطلب کیا ہے۔",
-                "مان سمجهي نٿو سگهان ته سندس مطلب ڇا آهي۔"
-              ],
-              [
-                "make up",
-                "invent; reconcile; or constitute",
-                "He made up an excuse.",
-                "اس نے ایک بہانہ گھڑ لیا۔",
-                "هن هڪ بهانو ٺاهي ورتو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “MAKE”",
+          "english": "Common idiomatic expressions formed with “MAKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“MAKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“MAKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "make for",
+              "move towards; contribute to",
+              "The children made for the gate.",
+              "بچے دروازے کی طرف بڑھے۔",
+              "ٻار دروازي ڏانهن وڌيا۔"
+            ],
+            [
+              "make out",
+              "understand or discern",
+              "I cannot make out what he means.",
+              "میں سمجھ نہیں پا رہا کہ اس کا مطلب کیا ہے۔",
+              "مان سمجهي نٿو سگهان ته سندس مطلب ڇا آهي۔"
+            ],
+            [
+              "make up",
+              "invent or fabricate (a story or excuse); also reconcile or constitute",
+              "He made up an excuse.",
+              "اس نے ایک بہانہ گھڑ لیا۔",
+              "هن هڪ بهانو ٺاهي ورتو۔"
             ]
-          },
-          {
-            "title": "Idioms with “PASS”",
-            "english": "Common idiomatic expressions formed with “PASS”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“PASS” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“PASS” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "pass away",
-                "die",
-                "The old poet passed away peacefully.",
-                "بوڑھا شاعر سکون سے وفات پا گیا۔",
-                "پوڙهو شاعر سڪون سان وفات ڪري ويو۔"
-              ],
-              [
-                "pass off",
-                "happen or take place in a particular way",
-                "The ceremony passed off peacefully.",
-                "تقریب پُرامن طریقے سے مکمل ہوئی۔",
-                "تقريب امن سان پوري ٿي۔"
-              ],
-              [
-                "pass on",
-                "transmit or hand something to another",
-                "Please pass on this message to her.",
-                "براہِ کرم یہ پیغام اسے پہنچا دیں۔",
-                "مهرباني ڪري هي پيغام کيس پهچايو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “PASS”",
+          "english": "Common idiomatic expressions formed with “PASS”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“PASS” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“PASS” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "pass away",
+              "die",
+              "The old poet passed away peacefully.",
+              "بوڑھا شاعر سکون سے وفات پا گیا۔",
+              "پوڙهو شاعر سڪون سان وفات ڪري ويو۔"
+            ],
+            [
+              "pass off",
+              "take place or happen in a particular way",
+              "The ceremony passed off peacefully.",
+              "تقریب پُرامن طریقے سے مکمل ہوئی۔",
+              "تقريب امن سان پوري ٿي۔"
+            ],
+            [
+              "pass on",
+              "transmit or hand something to another",
+              "Please pass on this message to her.",
+              "براہِ کرم یہ پیغام اسے پہنچا دیں۔",
+              "مهرباني ڪري هي پيغام کيس پهچايو۔"
             ]
-          },
-          {
-            "title": "Idioms with “PICK”",
-            "english": "Common idiomatic expressions formed with “PICK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“PICK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“PICK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "pick out",
-                "choose or distinguish",
-                "Can you pick out the correct answer?",
-                "کیا آپ درست جواب منتخب کر سکتے ہیں؟",
-                "ڇا توهان صحيح جواب چونڊي سگهو ٿا؟"
-              ],
-              [
-                "pick up",
-                "lift; collect; learn informally",
-                "I will pick you up at the station.",
-                "میں تمہیں اسٹیشن سے لے لوں گا۔",
-                "مان توکي اسٽيشن تان وٺي ويندس۔"
-              ],
-              [
-                "pick on",
-                "repeatedly treat someone unfairly",
-                "The older boys picked on the newcomer.",
-                "بڑے لڑکے نئے آنے والے کو تنگ کرتے رہے۔",
-                "وڏا ڇوڪرا نئين آيل کي تنگ ڪندا رهيا۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “PICK”",
+          "english": "Common idiomatic expressions formed with “PICK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“PICK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“PICK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "pick out",
+              "choose or distinguish",
+              "Can you pick out the correct answer?",
+              "کیا آپ درست جواب منتخب کر سکتے ہیں؟",
+              "ڇا توهان صحيح جواب چونڊي سگهو ٿا؟"
+            ],
+            [
+              "pick up",
+              "collect someone; also lift or learn informally",
+              "I will pick you up at the station.",
+              "میں تمہیں اسٹیشن سے لے لوں گا۔",
+              "مان توکي اسٽيشن تان وٺي ويندس۔"
+            ],
+            [
+              "pick on",
+              "repeatedly treat someone unfairly",
+              "The older boys picked on the newcomer.",
+              "بڑے لڑکے نئے آنے والے کو تنگ کرتے رہے۔",
+              "وڏا ڇوڪرا نئين آيل کي تنگ ڪندا رهيا۔"
             ]
-          },
-          {
-            "title": "Idioms with “PULL”",
-            "english": "Common idiomatic expressions formed with “PULL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“PULL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“PULL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "pull down",
-                "demolish; reduce in value",
-                "They pulled down the unsafe building.",
-                "انہوں نے غیر محفوظ عمارت گرا دی۔",
-                "هنن غير محفوظ عمارت ڊاهي ڇڏي۔"
-              ],
-              [
-                "pull in",
-                "arrive; especially a train or vehicle",
-                "The train pulled in at noon.",
-                "ٹرین دوپہر کو پلیٹ فارم پر آ پہنچی۔",
-                "ريل گاڏي منجهند جو پليٽ فارم تي پهتي۔"
-              ],
-              [
-                "pull through",
-                "recover from serious illness or difficulty",
-                "The patient pulled through after the operation.",
-                "آپریشن کے بعد مریض صحت یاب ہو گیا۔",
-                "آپريشن کان پوءِ مريض صحتياب ٿي ويو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “PULL”",
+          "english": "Common idiomatic expressions formed with “PULL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“PULL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“PULL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "pull down",
+              "demolish a building; also reduce in value",
+              "They pulled down the unsafe building.",
+              "انہوں نے غیر محفوظ عمارت گرا دی۔",
+              "هنن غير محفوظ عمارت ڊاهي ڇڏي۔"
+            ],
+            [
+              "pull in",
+              "arrive at a station or stop (of a train or vehicle)",
+              "The train pulled in at noon.",
+              "ٹرین دوپہر کو پلیٹ فارم پر آ پہنچی۔",
+              "ريل گاڏي منجهند جو پليٽ فارم تي پهتي۔"
+            ],
+            [
+              "pull through",
+              "recover from serious illness or difficulty",
+              "The patient pulled through after the operation.",
+              "آپریشن کے بعد مریض صحت یاب ہو گیا۔",
+              "آپريشن کان پوءِ مريض صحتياب ٿي ويو۔"
             ]
-          },
-          {
-            "title": "Idioms with “PUT”",
-            "english": "Common idiomatic expressions formed with “PUT”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“PUT” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“PUT” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "put aside",
-                "save or reserve",
-                "Put aside a little money each week.",
-                "ہر ہفتے تھوڑی رقم بچائیں۔",
-                "هر هفتي ٿوري رقم بچايو۔"
-              ],
-              [
-                "put off",
-                "postpone; discourage",
-                "They put off the meeting until Monday.",
-                "انہوں نے اجلاس پیر تک ملتوی کر دیا۔",
-                "هنن گڏجاڻي سومر تائين ملتوي ڪري ڇڏي۔"
-              ],
-              [
-                "put up with",
-                "tolerate",
-                "I cannot put up with such noise.",
-                "میں ایسا شور برداشت نہیں کر سکتا۔",
-                "مان اهڙو شور برداشت نٿو ڪري سگهان۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “PUT”",
+          "english": "Common idiomatic expressions formed with “PUT”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“PUT” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“PUT” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "put aside",
+              "save or reserve",
+              "Put aside a little money each week.",
+              "ہر ہفتے تھوڑی رقم بچائیں۔",
+              "هر هفتي ٿوري رقم بچايو۔"
+            ],
+            [
+              "put off",
+              "postpone; discourage",
+              "They put off the meeting until Monday.",
+              "انہوں نے اجلاس پیر تک ملتوی کر دیا۔",
+              "هنن گڏجاڻي سومر تائين ملتوي ڪري ڇڏي۔"
+            ],
+            [
+              "put up with",
+              "tolerate",
+              "I cannot put up with such noise.",
+              "میں ایسا شور برداشت نہیں کر سکتا۔",
+              "مان اهڙو شور برداشت نٿو ڪري سگهان۔"
             ]
-          },
-          {
-            "title": "Idioms with “RUN”",
-            "english": "Common idiomatic expressions formed with “RUN”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“RUN” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“RUN” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "run across",
-                "meet or find unexpectedly",
-                "I ran across an old school friend.",
-                "مجھے اچانک اسکول کا ایک پرانا دوست مل گیا۔",
-                "مون کي اوچتو اسڪول جو هڪ پراڻو دوست مليو۔"
-              ],
-              [
-                "run into",
-                "meet unexpectedly; collide with",
-                "I ran into my teacher in the market.",
-                "بازار میں میری اپنے استاد سے اچانک ملاقات ہوئی۔",
-                "بازار ۾ منهنجي استاد سان اوچتو ملاقات ٿي۔"
-              ],
-              [
-                "run out of",
-                "have none left",
-                "We have run out of sugar.",
-                "ہماری چینی ختم ہو گئی ہے۔",
-                "اسان وٽ کنڊ ختم ٿي وئي آهي۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “RUN”",
+          "english": "Common idiomatic expressions formed with “RUN”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“RUN” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“RUN” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "run across",
+              "meet or find unexpectedly",
+              "I ran across an old school friend.",
+              "مجھے اچانک اسکول کا ایک پرانا دوست مل گیا۔",
+              "مون کي اوچتو اسڪول جو هڪ پراڻو دوست مليو۔"
+            ],
+            [
+              "run into",
+              "meet unexpectedly; collide with",
+              "I ran into my teacher in the market.",
+              "بازار میں میری اپنے استاد سے اچانک ملاقات ہوئی۔",
+              "بازار ۾ منهنجي استاد سان اوچتو ملاقات ٿي۔"
+            ],
+            [
+              "run out of",
+              "have none left",
+              "We have run out of sugar.",
+              "ہماری چینی ختم ہو گئی ہے۔",
+              "اسان وٽ کنڊ ختم ٿي وئي آهي۔"
             ]
-          },
-          {
-            "title": "Idioms with “SEE”",
-            "english": "Common idiomatic expressions formed with “SEE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“SEE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“SEE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "see about",
-                "make arrangements or investigate",
-                "I will see about getting the tickets.",
-                "میں ٹکٹوں کا انتظام کرنے کی کوشش کروں گا۔",
-                "مان ٽڪيٽن جو بندوبست ڪرڻ جي ڪوشش ڪندس۔"
-              ],
-              [
-                "see off",
-                "go with someone to their departure point",
-                "We went to the station to see her off.",
-                "ہم اسے رخصت کرنے اسٹیشن گئے۔",
-                "اسان کيس الوداع چوڻ لاءِ اسٽيشن وياسين۔"
-              ],
-              [
-                "see through",
-                "detect the truth; support to completion",
-                "I can see through his pretence.",
-                "میں اس کے دکھاوے کو سمجھ سکتا ہوں۔",
-                "مان سندس ڏيکاءُ کي سمجهي سگهان ٿو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “SEE”",
+          "english": "Common idiomatic expressions formed with “SEE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“SEE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“SEE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "see about",
+              "make arrangements or investigate",
+              "I will see about getting the tickets.",
+              "میں ٹکٹوں کا انتظام کرنے کی کوشش کروں گا۔",
+              "مان ٽڪيٽن جو بندوبست ڪرڻ جي ڪوشش ڪندس۔"
+            ],
+            [
+              "see off",
+              "go with someone to their departure point",
+              "We went to the station to see her off.",
+              "ہم اسے رخصت کرنے اسٹیشن گئے۔",
+              "اسان کيس الوداع چوڻ لاءِ اسٽيشن وياسين۔"
+            ],
+            [
+              "see through",
+              "recognise the truth or deception behind something",
+              "I can see through his pretence.",
+              "میں اس کے فریب کو پہچان سکتا ہوں۔",
+              "مان سندس دوکي کي سڃاڻي سگهان ٿو۔"
             ]
-          },
-          {
-            "title": "Idioms with “SET”",
-            "english": "Common idiomatic expressions formed with “SET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“SET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“SET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "set about",
-                "begin doing something",
-                "They set about repairing the roof.",
-                "انہوں نے چھت کی مرمت شروع کر دی۔",
-                "هنن ڇت جي مرمت شروع ڪئي۔"
-              ],
-              [
-                "set aside",
-                "reserve for a purpose",
-                "Set aside an hour for reading.",
-                "مطالعے کے لیے ایک گھنٹہ مخصوص کریں۔",
-                "پڙهڻ لاءِ هڪ ڪلاڪ مخصوص ڪريو۔"
-              ],
-              [
-                "set out",
-                "start a journey; explain clearly",
-                "He set out early in the morning.",
-                "وہ صبح سویرے روانہ ہوا۔",
-                "هو صبح سوير روانو ٿيو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “SET”",
+          "english": "Common idiomatic expressions formed with “SET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“SET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“SET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "set about",
+              "begin doing something",
+              "They set about repairing the roof.",
+              "انہوں نے چھت کی مرمت شروع کر دی۔",
+              "هنن ڇت جي مرمت شروع ڪئي۔"
+            ],
+            [
+              "set aside",
+              "reserve for a purpose",
+              "Set aside an hour for reading.",
+              "مطالعے کے لیے ایک گھنٹہ مخصوص کریں۔",
+              "پڙهڻ لاءِ هڪ ڪلاڪ مخصوص ڪريو۔"
+            ],
+            [
+              "set out",
+              "begin a journey (also: explain or arrange systematically)",
+              "He set out early in the morning.",
+              "وہ صبح سویرے روانہ ہوا۔",
+              "هو صبح سوير روانو ٿيو۔"
             ]
-          },
-          {
-            "title": "Idioms with “SPEAK”",
-            "english": "Common idiomatic expressions formed with “SPEAK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“SPEAK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“SPEAK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "speak for",
-                "represent or express the wishes of",
-                "I cannot speak for everyone.",
-                "میں سب کی طرف سے بات نہیں کر سکتا۔",
-                "مان سڀني جي طرفان ڳالهائي نٿو سگهان۔"
-              ],
-              [
-                "speak out",
-                "express an opinion openly",
-                "She spoke out against injustice.",
-                "اس نے ناانصافی کے خلاف کھل کر بات کی۔",
-                "هن ناانصافيءَ خلاف کلي ڳالهه ڪئي۔"
-              ],
-              [
-                "speak up",
-                "speak more loudly or defend a view",
-                "Please speak up; I cannot hear you.",
-                "براہِ کرم بلند آواز سے بولیں؛ میں آپ کو سن نہیں پا رہا۔",
-                "مهرباني ڪري وڏي آواز سان ڳالهايو؛ مان ٻڌي نٿو سگهان۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “SPEAK”",
+          "english": "Common idiomatic expressions formed with “SPEAK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“SPEAK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“SPEAK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "speak for",
+              "represent or express the wishes of",
+              "I cannot speak for everyone.",
+              "میں سب کی طرف سے بات نہیں کر سکتا۔",
+              "مان سڀني جي طرفان ڳالهائي نٿو سگهان۔"
+            ],
+            [
+              "speak out",
+              "express an opinion openly",
+              "She spoke out against injustice.",
+              "اس نے ناانصافی کے خلاف کھل کر بات کی۔",
+              "هن ناانصافيءَ خلاف کلي ڳالهه ڪئي۔"
+            ],
+            [
+              "speak up",
+              "speak more loudly or defend a view",
+              "Please speak up; I cannot hear you.",
+              "براہِ کرم بلند آواز سے بولیں؛ میں آپ کو سن نہیں پا رہا۔",
+              "مهرباني ڪري وڏي آواز سان ڳالهايو؛ مان ٻڌي نٿو سگهان۔"
             ]
-          },
-          {
-            "title": "Idioms with “STAND”",
-            "english": "Common idiomatic expressions formed with “STAND”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“STAND” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“STAND” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "stand by",
-                "support; remain ready",
-                "I will stand by you in difficulty.",
-                "میں مشکل میں تمہارا ساتھ دوں گا۔",
-                "مان ڏکيائيءَ ۾ تنهنجو ساٿ ڏيندس۔"
-              ],
-              [
-                "stand for",
-                "represent; tolerate",
-                "UN stands for United Nations.",
-                "UN کا مطلب United Nations ہے۔",
-                "UN جو مطلب United Nations آهي۔"
-              ],
-              [
-                "stand up for",
-                "defend or support",
-                "We must stand up for our rights.",
-                "ہمیں اپنے حقوق کا دفاع کرنا چاہیے۔",
-                "اسان کي پنهنجن حقن جو دفاع ڪرڻ گهرجي۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “STAND”",
+          "english": "Common idiomatic expressions formed with “STAND”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“STAND” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“STAND” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "stand by",
+              "support; remain ready",
+              "I will stand by you in difficulty.",
+              "میں مشکل میں تمہارا ساتھ دوں گا۔",
+              "مان ڏکيائيءَ ۾ تنهنجو ساٿ ڏيندس۔"
+            ],
+            [
+              "stand for",
+              "represent or be an abbreviation for (the example); also tolerate",
+              "UN stands for United Nations.",
+              "UN کا مطلب United Nations ہے۔",
+              "UN جو مطلب United Nations آهي۔"
+            ],
+            [
+              "stand up for",
+              "defend or support",
+              "We must stand up for our rights.",
+              "ہمیں اپنے حقوق کا دفاع کرنا چاہیے۔",
+              "اسان کي پنهنجن حقن جو دفاع ڪرڻ گهرجي۔"
             ]
-          },
-          {
-            "title": "Idioms with “STRIKE”",
-            "english": "Common idiomatic expressions formed with “STRIKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“STRIKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“STRIKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "strike down",
-                "cause to fall or become incapacitated",
-                "The disease struck him down.",
-                "بیماری نے اسے نڈھال کر دیا۔",
-                "بيماريءَ کيس ڪمزور ڪري ڇڏيو۔"
-              ],
-              [
-                "strike off",
-                "remove from a list or record",
-                "His name was struck off the list.",
-                "اس کا نام فہرست سے خارج کر دیا گیا۔",
-                "سندس نالو فهرست مان ڪڍيو ويو۔"
-              ],
-              [
-                "strike out",
-                "attempt something boldly; delete",
-                "She struck out on her own as a writer.",
-                "اس نے آزاد مصنفہ کے طور پر کام شروع کیا۔",
-                "هن آزاد ليکڪا طور ڪم شروع ڪيو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “STRIKE”",
+          "english": "Common idiomatic expressions formed with “STRIKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“STRIKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“STRIKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "strike down",
+              "cause to fall or become incapacitated",
+              "The disease struck him down.",
+              "بیماری نے اسے نڈھال کر دیا۔",
+              "بيماريءَ کيس ڪمزور ڪري ڇڏيو۔"
+            ],
+            [
+              "strike off",
+              "remove from a list or record",
+              "His name was struck off the list.",
+              "اس کا نام فہرست سے خارج کر دیا گیا۔",
+              "سندس نالو فهرست مان ڪڍيو ويو۔"
+            ],
+            [
+              "strike out",
+              "begin independently or make a bold start",
+              "She struck out on her own as a writer.",
+              "اس نے لکھاری کی حیثیت سے اپنا الگ راستہ اختیار کیا۔",
+              "هن ليکڪا طور پنهنجو الڳ رستو اختيار ڪيو۔"
             ]
-          },
-          {
-            "title": "Idioms with “TAKE”",
-            "english": "Common idiomatic expressions formed with “TAKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“TAKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“TAKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "take after",
-                "resemble a family member",
-                "The child takes after his mother.",
-                "بچہ اپنی ماں سے مشابہت رکھتا ہے۔",
-                "ٻار پنهنجي ماءُ جهڙو آهي۔"
-              ],
-              [
-                "take in",
-                "understand; deceive; provide lodging",
-                "I could hardly take in the news.",
-                "میں مشکل سے خبر سمجھ پایا۔",
-                "مان مشڪل سان خبر سمجهي سگهيس۔"
-              ],
-              [
-                "take off",
-                "remove; leave the ground; become successful",
-                "The plane took off on time.",
-                "جہاز وقت پر روانہ ہوا۔",
-                "هوائي جهاز وقت تي اڏام ڀري۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “TAKE”",
+          "english": "Common idiomatic expressions formed with “TAKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“TAKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“TAKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "take after",
+              "resemble a family member",
+              "The child takes after his mother.",
+              "بچہ اپنی ماں سے مشابہت رکھتا ہے۔",
+              "ٻار پنهنجي ماءُ جهڙو آهي۔"
+            ],
+            [
+              "take in",
+              "understand (the example); also deceive or provide lodging",
+              "I could hardly take in the news.",
+              "میں مشکل سے خبر سمجھ پایا۔",
+              "مان مشڪل سان خبر سمجهي سگهيس۔"
+            ],
+            [
+              "take off",
+              "leave the ground (of an aircraft); also remove clothing",
+              "The plane took off on time.",
+              "جہاز وقت پر روانہ ہوا۔",
+              "هوائي جهاز وقت تي اڏام ڀري۔"
             ]
-          },
-          {
-            "title": "Idioms with “TALK”",
-            "english": "Common idiomatic expressions formed with “TALK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“TALK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“TALK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "talk over",
-                "discuss carefully",
-                "Let us talk over the proposal.",
-                "آئیے تجویز پر تفصیل سے بات کریں۔",
-                "اچو ته تجويز تي تفصيل سان ڳالهه ڪريون۔"
-              ],
-              [
-                "talk into",
-                "persuade someone to do something",
-                "She talked me into joining the team.",
-                "اس نے مجھے ٹیم میں شامل ہونے پر راضی کر لیا۔",
-                "هن مون کي ٽيم ۾ شامل ٿيڻ لاءِ راضي ڪيو۔"
-              ],
-              [
-                "talk out of",
-                "persuade someone not to do something",
-                "I talked him out of making a rash decision.",
-                "میں نے اسے جلدبازی کا فیصلہ کرنے سے روک لیا۔",
-                "مون کيس تڪڙ ۾ فيصلو ڪرڻ کان روڪي ورتو۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “TALK”",
+          "english": "Common idiomatic expressions formed with “TALK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“TALK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“TALK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "talk over",
+              "discuss carefully",
+              "Let us talk over the proposal.",
+              "آئیے تجویز پر تفصیل سے بات کریں۔",
+              "اچو ته تجويز تي تفصيل سان ڳالهه ڪريون۔"
+            ],
+            [
+              "talk into",
+              "persuade someone to do something",
+              "She talked me into joining the team.",
+              "اس نے مجھے ٹیم میں شامل ہونے پر راضی کر لیا۔",
+              "هن مون کي ٽيم ۾ شامل ٿيڻ لاءِ راضي ڪيو۔"
+            ],
+            [
+              "talk out of",
+              "persuade someone not to do something",
+              "I talked him out of making a rash decision.",
+              "میں نے اسے جلدبازی کا فیصلہ کرنے سے روک لیا۔",
+              "مون کيس تڪڙ ۾ فيصلو ڪرڻ کان روڪي ورتو۔"
             ]
-          },
-          {
-            "title": "Idioms with “TELL”",
-            "english": "Common idiomatic expressions formed with “TELL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“TELL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“TELL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "tell against",
-                "count as evidence against",
-                "His silence may tell against him.",
-                "اس کی خاموشی اس کے خلاف جا سکتی ہے۔",
-                "سندس خاموشي سندس خلاف وڃي سگهي ٿي۔"
-              ],
-              [
-                "tell off",
-                "reprimand",
-                "The teacher told the boys off for shouting.",
-                "استاد نے شور کرنے پر لڑکوں کو ڈانٹا۔",
-                "استاد شور ڪرڻ تي ڇوڪرن کي دڙڪا ڏنا۔"
-              ],
-              [
-                "tell on",
-                "have an adverse effect; inform against",
-                "Lack of sleep tells on his health.",
-                "نیند کی کمی اس کی صحت پر اثر ڈالتی ہے۔",
-                "ننڊ جي کوٽ سندس صحت تي اثر ڪري ٿي۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “TELL”",
+          "english": "Common idiomatic expressions formed with “TELL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“TELL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“TELL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "tell against",
+              "count as evidence against",
+              "His silence may tell against him.",
+              "اس کی خاموشی اس کے خلاف جا سکتی ہے۔",
+              "سندس خاموشي سندس خلاف وڃي سگهي ٿي۔"
+            ],
+            [
+              "tell off",
+              "reprimand",
+              "The teacher told the boys off for shouting.",
+              "استاد نے شور کرنے پر لڑکوں کو ڈانٹا۔",
+              "استاد شور ڪرڻ تي ڇوڪرن کي دڙڪا ڏنا۔"
+            ],
+            [
+              "tell on",
+              "have an adverse effect; inform against",
+              "Lack of sleep tells on his health.",
+              "نیند کی کمی اس کی صحت پر اثر ڈالتی ہے۔",
+              "ننڊ جي کوٽ سندس صحت تي اثر ڪري ٿي۔"
             ]
-          },
-          {
-            "title": "Idioms with “THROW”",
-            "english": "Common idiomatic expressions formed with “THROW”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“THROW” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“THROW” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "throw away",
-                "discard carelessly",
-                "Do not throw away useful papers.",
-                "مفید کاغذات ضائع نہ کریں۔",
-                "ڪم جا ڪاغذ ضايع نه ڪريو۔"
-              ],
-              [
-                "throw off",
-                "remove quickly; escape something",
-                "He threw off his coat.",
-                "اس نے جلدی سے اپنا کوٹ اتار دیا۔",
-                "هن جلدي پنهنجو ڪوٽ لاهي ڇڏيو۔"
-              ],
-              [
-                "throw up",
-                "vomit; abandon suddenly",
-                "The rough sea made the passengers throw up.",
-                "سمندر کی تلاطم خیزی سے مسافروں کو قے آنے لگی۔",
-                "سمنڊ جي لهرن سبب مسافرن کي الٽي ٿيڻ لڳي۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “THROW”",
+          "english": "Common idiomatic expressions formed with “THROW”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“THROW” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“THROW” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "throw away",
+              "discard carelessly",
+              "Do not throw away useful papers.",
+              "مفید کاغذات ضائع نہ کریں۔",
+              "ڪم جا ڪاغذ ضايع نه ڪريو۔"
+            ],
+            [
+              "throw off",
+              "remove quickly; escape something",
+              "He threw off his coat.",
+              "اس نے جلدی سے اپنا کوٹ اتار دیا۔",
+              "هن جلدي پنهنجو ڪوٽ لاهي ڇڏيو۔"
+            ],
+            [
+              "throw up",
+              "vomit (also: abandon or give up)",
+              "The rough sea made the passengers throw up.",
+              "سمندر کی شدید لہروں کے باعث مسافروں کو قے آنے لگی۔",
+              "سمنڊ جي تيز لهرن سبب مسافرن کي الٽي ٿيڻ لڳي۔"
             ]
-          },
-          {
-            "title": "Idioms with “TURN”",
-            "english": "Common idiomatic expressions formed with “TURN”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“TURN” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“TURN” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "turn down",
-                "reject; reduce volume",
-                "She turned down the offer.",
-                "اس نے پیشکش مسترد کر دی۔",
-                "هن آڇ رد ڪري ڇڏي۔"
-              ],
-              [
-                "turn up",
-                "appear unexpectedly; increase volume",
-                "He turned up late for the meeting.",
-                "وہ اجلاس میں دیر سے پہنچا۔",
-                "هو گڏجاڻيءَ ۾ دير سان پهتو۔"
-              ],
-              [
-                "turn out",
-                "prove to be; produce",
-                "The story turned out to be true.",
-                "کہانی سچی ثابت ہوئی۔",
-                "ڪهاڻي سچي ثابت ٿي۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “TURN”",
+          "english": "Common idiomatic expressions formed with “TURN”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“TURN” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“TURN” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "turn down",
+              "reject an offer (also: reduce sound or heat)",
+              "She turned down the offer.",
+              "اس نے پیشکش مسترد کر دی۔",
+              "هن آڇ رد ڪري ڇڏي۔"
+            ],
+            [
+              "turn up",
+              "arrive or appear, often unexpectedly (also: increase volume)",
+              "He turned up late for the meeting.",
+              "وہ اجلاس میں دیر سے پہنچا۔",
+              "هو گڏجاڻيءَ ۾ دير سان پهتو۔"
+            ],
+            [
+              "turn out",
+              "prove to be; produce",
+              "The story turned out to be true.",
+              "کہانی سچی ثابت ہوئی۔",
+              "ڪهاڻي سچي ثابت ٿي۔"
             ]
-          },
-          {
-            "title": "Idioms with “WORK”",
-            "english": "Common idiomatic expressions formed with “WORK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-            "urdu": "“WORK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-            "sindhi": "“WORK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-            "examples": [
-              [
-                "work out",
-                "solve; calculate; exercise",
-                "We worked out the answer together.",
-                "ہم نے مل کر جواب نکالا۔",
-                "اسان گڏجي جواب ڪڍيو۔"
-              ],
-              [
-                "work up",
-                "develop or arouse a feeling",
-                "He worked up the courage to speak.",
-                "اس نے بولنے کی ہمت پیدا کی۔",
-                "هن ڳالهائڻ جي همت پيدا ڪئي۔"
-              ],
-              [
-                "work on",
-                "give attention and effort to improve",
-                "You must work on your pronunciation.",
-                "آپ کو اپنے تلفظ پر محنت کرنی چاہیے۔",
-                "توهان کي پنهنجي اچار تي محنت ڪرڻ گهرجي۔"
-              ]
+          ]
+        },
+        {
+          "title": "Idioms with “WORK”",
+          "english": "Common idiomatic expressions formed with “WORK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+          "urdu": "“WORK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+          "sindhi": "“WORK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+          "examples": [
+            [
+              "work out",
+              "find or calculate an answer (also: exercise or develop successfully)",
+              "We worked out the answer together.",
+              "ہم نے مل کر جواب نکالا۔",
+              "اسان گڏجي جواب ڪڍيو۔"
+            ],
+            [
+              "work up",
+              "develop or arouse a feeling",
+              "He worked up the courage to speak.",
+              "اس نے بولنے کی ہمت پیدا کی۔",
+              "هن ڳالهائڻ جي همت پيدا ڪئي۔"
+            ],
+            [
+              "work on",
+              "give attention and effort to improve",
+              "You must work on your pronunciation.",
+              "آپ کو اپنے تلفظ پر محنت کرنی چاہیے۔",
+              "توهان کي پنهنجي اچار تي محنت ڪرڻ گهرجي۔"
             ]
-          }
-        ]
-      }
-    ],
-    "watchFor": "Do not translate idioms word by word. Distinguish literal combinations from idiomatic ones, learn the correct particle, and check whether the expression is separable or inseparable. For example, “look after the child” is correct, while “look the child after” is not. With a separable expression, a pronoun usually goes in the middle: “pick it up.”",
-    "examples": [
-      "The nurse looks after the patient. (looks after = takes care of)",
-      "The meeting was put off. (put off = postponed)",
-      "Please carry on with your reading. (carry on = continue)"
-    ],
-    "specialSectionsTitle": "Idioms (Continued) — Verb-Based Idioms with Meanings and Examples",
-    "specialSections": [
-      {
-        "title": "Idioms with “BREAK”",
-        "english": "Common idiomatic expressions formed with “BREAK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“BREAK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“BREAK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "break down",
-            "stop functioning; or lose emotional control",
-            "Our car broke down on the way home.",
-            "راستے میں ہماری گاڑی خراب ہو گئی۔",
-            "گهر ويندي رستي ۾ اسان جي گاڏي خراب ٿي وئي۔"
-          ],
-          [
-            "break into",
-            "enter a building by force",
-            "Thieves broke into the shop at night.",
-            "چور رات کو دکان میں زبردستی داخل ہوئے۔",
-            "چور رات جو دڪان ۾ زبردستي گهڙي پيا۔"
-          ],
-          [
-            "break out",
-            "begin suddenly, especially something unpleasant",
-            "A fire broke out in the kitchen.",
-            "باورچی خانے میں اچانک آگ لگ گئی۔",
-            "رڌڻي ۾ اوچتو باهه لڳي پئي۔"
           ]
+        }
+      ]
+    }
+  ],
+  "watchFor": "Not every phrasal verb is a strict idiom. Learn the meaning that fits the example, because one expression may have several senses. Check whether the verb-particle combination is separable: “pick the book up” and “pick up the book” are both possible, but with a pronoun use “pick it up”. In contrast, “look after the child” is inseparable; “look the child after” is incorrect. Some expressions in this list are formal, old-fashioned or chiefly British, and are labelled where relevant.",
+  "examples": [
+    "The nurse looks after the patient. (look after = take care of; inseparable)",
+    "The meeting was put off. (put off = postponed)",
+    "Please carry on with your reading. (carry on = continue)",
+    "Pick the book up / Pick up the book, but: Pick it up. (separable phrasal verb)"
+  ],
+  "specialSectionsTitle": "Idioms (Continued) — Verb-Based Idioms with Meanings and Examples",
+  "specialSections": [
+    {
+      "title": "Idioms with “BREAK”",
+      "english": "Common idiomatic expressions formed with “BREAK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“BREAK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“BREAK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "break down",
+          "stop functioning; or lose emotional control",
+          "Our car broke down on the way home.",
+          "راستے میں ہماری گاڑی خراب ہو گئی۔",
+          "گهر ويندي رستي ۾ اسان جي گاڏي خراب ٿي وئي۔"
+        ],
+        [
+          "break into",
+          "enter a building by force",
+          "Thieves broke into the shop at night.",
+          "چور رات کو دکان میں زبردستی داخل ہوئے۔",
+          "چور رات جو دڪان ۾ زبردستي گهڙي پيا۔"
+        ],
+        [
+          "break out",
+          "begin suddenly, especially something unpleasant",
+          "A fire broke out in the kitchen.",
+          "باورچی خانے میں اچانک آگ لگ گئی۔",
+          "رڌڻي ۾ اوچتو باهه لڳي پئي۔"
         ]
-      },
-      {
-        "title": "Idioms with “BRING”",
-        "english": "Common idiomatic expressions formed with “BRING”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“BRING” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“BRING” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "bring about",
-            "cause something to happen",
-            "Hard work can bring about a change.",
-            "محنت تبدیلی لا سکتی ہے۔",
-            "محنت تبديلي آڻي سگهي ٿي۔"
-          ],
-          [
-            "bring up",
-            "raise a child; also mention a subject",
-            "She was brought up by her grandparents.",
-            "اس کی پرورش اس کے دادا دادی نے کی۔",
-            "هن جي پرورش سندس ڏاڏي ۽ ڏاڏيءَ ڪئي۔"
-          ],
-          [
-            "bring round",
-            "persuade someone or restore consciousness",
-            "The doctor soon brought the patient round.",
-            "ڈاکٹر نے جلد مریض کو ہوش میں لے آیا۔",
-            "ڊاڪٽر جلد مريض کي هوش ۾ آندو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “BRING”",
+      "english": "Common idiomatic expressions formed with “BRING”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“BRING” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“BRING” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "bring about",
+          "cause something to happen",
+          "Hard work can bring about a change.",
+          "محنت تبدیلی لا سکتی ہے۔",
+          "محنت تبديلي آڻي سگهي ٿي۔"
+        ],
+        [
+          "bring up",
+          "raise a child; also mention a subject",
+          "She was brought up by her grandparents.",
+          "اس کی پرورش اس کے دادا دادی نے کی۔",
+          "هن جي پرورش سندس ڏاڏي ۽ ڏاڏيءَ ڪئي۔"
+        ],
+        [
+          "bring round",
+          "persuade someone or restore consciousness",
+          "The doctor soon brought the patient round.",
+          "ڈاکٹر نے جلد مریض کو ہوش میں لے آیا۔",
+          "ڊاڪٽر جلد مريض کي هوش ۾ آندو۔"
         ]
-      },
-      {
-        "title": "Idioms with “CALL”",
-        "english": "Common idiomatic expressions formed with “CALL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“CALL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“CALL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "call at",
-            "pay a short visit to a place",
-            "I called at the library after school.",
-            "میں اسکول کے بعد کتب خانے گیا۔",
-            "مان اسڪول کان پوءِ لائبريري ويس۔"
-          ],
-          [
-            "call for",
-            "require or demand",
-            "This difficult task calls for patience.",
-            "اس مشکل کام کے لیے صبر درکار ہے۔",
-            "هن ڏکئي ڪم لاءِ صبر جي ضرورت آهي۔"
-          ],
-          [
-            "call off",
-            "cancel",
-            "They called off the match because of rain.",
-            "بارش کی وجہ سے انہوں نے میچ منسوخ کر دیا۔",
-            "مينهن سبب هنن ميچ ملتوي ڪري ڇڏيو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “CALL”",
+      "english": "Common idiomatic expressions formed with “CALL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“CALL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“CALL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "call at",
+          "pay a short visit to a place",
+          "I called at the library after school.",
+          "میں اسکول کے بعد کتب خانے گیا۔",
+          "مان اسڪول کان پوءِ لائبريري ويس۔"
+        ],
+        [
+          "call for",
+          "require or demand",
+          "This difficult task calls for patience.",
+          "اس مشکل کام کے لیے صبر درکار ہے۔",
+          "هن ڏکئي ڪم لاءِ صبر جي ضرورت آهي۔"
+        ],
+        [
+          "call off",
+          "cancel",
+          "They called off the match because of rain.",
+          "بارش کی وجہ سے انہوں نے میچ منسوخ کر دیا۔",
+          "مينهن سبب هنن ميچ ملتوي ڪري ڇڏيو۔"
         ]
-      },
-      {
-        "title": "Idioms with “CARRY”",
-        "english": "Common idiomatic expressions formed with “CARRY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“CARRY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“CARRY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "carry on",
-            "continue",
-            "Please carry on with your work.",
-            "براہِ کرم اپنا کام جاری رکھیں۔",
-            "مهرباني ڪري پنهنجو ڪم جاري رکو۔"
-          ],
-          [
-            "carry out",
-            "perform or complete a plan/order",
-            "The students carried out the experiment carefully.",
-            "طلبہ نے تجربہ احتیاط سے کیا۔",
-            "شاگردن تجربو احتياط سان ڪيو۔"
-          ],
-          [
-            "carry off",
-            "win or achieve successfully",
-            "Our team carried off the trophy.",
-            "ہماری ٹیم نے ٹرافی جیت لی۔",
-            "اسان جي ٽيم ٽرافي کٽي ورتي۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “CARRY”",
+      "english": "Common idiomatic expressions formed with “CARRY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“CARRY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“CARRY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "carry on",
+          "continue",
+          "Please carry on with your work.",
+          "براہِ کرم اپنا کام جاری رکھیں۔",
+          "مهرباني ڪري پنهنجو ڪم جاري رکو۔"
+        ],
+        [
+          "carry out",
+          "perform or complete a plan/order",
+          "The students carried out the experiment carefully.",
+          "طلبہ نے تجربہ احتیاط سے کیا۔",
+          "شاگردن تجربو احتياط سان ڪيو۔"
+        ],
+        [
+          "carry off",
+          "win or achieve successfully",
+          "Our team carried off the trophy.",
+          "ہماری ٹیم نے ٹرافی جیت لی۔",
+          "اسان جي ٽيم ٽرافي کٽي ورتي۔"
         ]
-      },
-      {
-        "title": "Idioms with “CAST”",
-        "english": "Common idiomatic expressions formed with “CAST”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“CAST” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“CAST” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "cast aside",
-            "discard or reject",
-            "He cast aside his old doubts.",
-            "اس نے اپنے پرانے شکوک چھوڑ دیے۔",
-            "هن پنهنجا پراڻا شڪ ڇڏي ڏنا۔"
-          ],
-          [
-            "cast about",
-            "search in different directions for something",
-            "She cast about for a suitable answer.",
-            "وہ مناسب جواب تلاش کرنے لگی۔",
-            "هوءَ مناسب جواب ڳولڻ لڳي۔"
-          ],
-          [
-            "cast down",
-            "make someone sad or discouraged",
-            "Do not be cast down by one failure.",
-            "ایک ناکامی سے مایوس نہ ہوں۔",
-            "هڪ ناڪاميءَ سبب مايوس نه ٿيو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “CAST”",
+      "english": "Common idiomatic expressions formed with “CAST”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“CAST” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“CAST” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "cast aside",
+          "discard or reject",
+          "He cast aside his old doubts.",
+          "اس نے اپنے پرانے شکوک چھوڑ دیے۔",
+          "هن پنهنجا پراڻا شڪ ڇڏي ڏنا۔"
+        ],
+        [
+          "cast about",
+          "search in different directions for something",
+          "She cast about for a suitable answer.",
+          "وہ مناسب جواب تلاش کرنے لگی۔",
+          "هوءَ مناسب جواب ڳولڻ لڳي۔"
+        ],
+        [
+          "cast down",
+          "make someone sad or discouraged",
+          "Do not be cast down by one failure.",
+          "ایک ناکامی سے مایوس نہ ہوں۔",
+          "هڪ ناڪاميءَ سبب مايوس نه ٿيو۔"
         ]
-      },
-      {
-        "title": "Idioms with “COME”",
-        "english": "Common idiomatic expressions formed with “COME”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“COME” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“COME” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "come across",
-            "meet or find by chance",
-            "I came across an old photograph.",
-            "مجھے اتفاقاً ایک پرانی تصویر ملی۔",
-            "مون کي اتفاق سان هڪ پراڻي تصوير ملي۔"
-          ],
-          [
-            "come by",
-            "obtain or acquire",
-            "Good opportunities are hard to come by.",
-            "اچھے مواقع ملنا مشکل ہیں۔",
-            "سٺا موقعا ملڻ ڏکيو آهي۔"
-          ],
-          [
-            "come to",
-            "regain consciousness; amount to",
-            "The injured man soon came to.",
-            "زخمی آدمی جلد ہوش میں آ گیا۔",
-            "زخمي ماڻهو جلد هوش ۾ اچي ويو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “COME”",
+      "english": "Common idiomatic expressions formed with “COME”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“COME” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“COME” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "come across",
+          "meet or find by chance",
+          "I came across an old photograph.",
+          "مجھے اتفاقاً ایک پرانی تصویر ملی۔",
+          "مون کي اتفاق سان هڪ پراڻي تصوير ملي۔"
+        ],
+        [
+          "come by",
+          "obtain or acquire",
+          "Good opportunities are hard to come by.",
+          "اچھے مواقع ملنا مشکل ہیں۔",
+          "سٺا موقعا ملڻ ڏکيو آهي۔"
+        ],
+        [
+          "come to",
+          "regain consciousness; amount to",
+          "The injured man soon came to.",
+          "زخمی آدمی جلد ہوش میں آ گیا۔",
+          "زخمي ماڻهو جلد هوش ۾ اچي ويو۔"
         ]
-      },
-      {
-        "title": "Idioms with “CRY”",
-        "english": "Common idiomatic expressions formed with “CRY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“CRY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“CRY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "cry off",
-            "withdraw from a promise or arrangement",
-            "He cried off at the last moment.",
-            "وہ آخری وقت پر وعدے سے پھر گیا۔",
-            "هو آخري وقت تي پنهنجي واعدي تان ڦري ويو۔"
-          ],
-          [
-            "cry out",
-            "shout loudly, often from pain or fear",
-            "The child cried out in pain.",
-            "بچہ درد سے چیخ اٹھا۔",
-            "ٻار سور سبب رڙ ڪئي۔"
-          ],
-          [
-            "cry over",
-            "feel sorrow about something, often uselessly",
-            "There is no use crying over spilt milk.",
-            "گزرے ہوئے نقصان پر رونے کا فائدہ نہیں۔",
-            "گذريل نقصان تي پڇتائڻ جو ڪو فائدو ناهي۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “CRY”",
+      "english": "Common idiomatic expressions formed with “CRY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“CRY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“CRY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "cry off",
+          "withdraw from a promise or arrangement",
+          "He cried off at the last moment.",
+          "وہ آخری وقت پر وعدے سے پھر گیا۔",
+          "هو آخري وقت تي پنهنجي واعدي تان ڦري ويو۔"
+        ],
+        [
+          "cry out",
+          "shout loudly, often from pain or fear",
+          "The child cried out in pain.",
+          "بچہ درد سے چیخ اٹھا۔",
+          "ٻار سور سبب رڙ ڪئي۔"
+        ],
+        [
+          "cry over",
+          "feel sorrow about something, often uselessly",
+          "There is no use crying over spilt milk.",
+          "گزرے ہوئے نقصان پر رونے کا فائدہ نہیں۔",
+          "گذريل نقصان تي پڇتائڻ جو ڪو فائدو ناهي۔"
         ]
-      },
-      {
-        "title": "Idioms with “BEAR”",
-        "english": "Common idiomatic expressions formed with “BEAR”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“BEAR” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“BEAR” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "bear with",
-            "be patient with",
-            "Please bear with me for a moment.",
-            "براہِ کرم ایک لمحہ میرا انتظار کریں۔",
-            "مهرباني ڪري هڪ لمحو صبر ڪريو۔"
-          ],
-          [
-            "bear out",
-            "support or confirm a statement",
-            "The facts bear out her account.",
-            "حقائق اس کی بات کی تصدیق کرتے ہیں۔",
-            "حقيقتون سندس ڳالهه جي تصديق ڪن ٿيون۔"
-          ],
-          [
-            "bear up",
-            "remain cheerful or strong in difficulty",
-            "She bore up bravely after the loss.",
-            "نقصان کے بعد اس نے بہادری سے حوصلہ رکھا۔",
-            "نقصان کان پوءِ هن بهادريءَ سان همت قائم رکي۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “BEAR”",
+      "english": "Common idiomatic expressions formed with “BEAR”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“BEAR” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“BEAR” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "bear with",
+          "be patient with",
+          "Please bear with me for a moment.",
+          "براہِ کرم ایک لمحہ میرا انتظار کریں۔",
+          "مهرباني ڪري هڪ لمحو صبر ڪريو۔"
+        ],
+        [
+          "bear out",
+          "support or confirm a statement",
+          "The facts bear out her account.",
+          "حقائق اس کی بات کی تصدیق کرتے ہیں۔",
+          "حقيقتون سندس ڳالهه جي تصديق ڪن ٿيون۔"
+        ],
+        [
+          "bear up",
+          "remain cheerful or strong in difficulty",
+          "She bore up bravely after the loss.",
+          "نقصان کے بعد اس نے بہادری سے حوصلہ رکھا۔",
+          "نقصان کان پوءِ هن بهادريءَ سان همت قائم رکي۔"
         ]
-      },
-      {
-        "title": "Idioms with “CUT”",
-        "english": "Common idiomatic expressions formed with “CUT”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“CUT” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“CUT” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "cut down",
-            "reduce; or fell a tree",
-            "We must cut down our expenses.",
-            "ہمیں اپنے اخراجات کم کرنے چاہئیں۔",
-            "اسان کي پنهنجا خرچ گهٽائڻ گهرجن۔"
-          ],
-          [
-            "cut off",
-            "disconnect or separate",
-            "The storm cut off the village.",
-            "طوفان نے گاؤں کا رابطہ منقطع کر دیا۔",
-            "طوفان ڳوٺ جو رابطو ڪٽي ڇڏيو۔"
-          ],
-          [
-            "cut out",
-            "remove; stop doing something",
-            "You should cut out unnecessary words.",
-            "آپ کو غیر ضروری الفاظ نکال دینے چاہئیں۔",
-            "توهان کي غير ضروري لفظ ڪڍي ڇڏڻ گهرجن۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “CUT”",
+      "english": "Common idiomatic expressions formed with “CUT”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“CUT” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“CUT” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "cut down",
+          "reduce; or fell a tree",
+          "We must cut down our expenses.",
+          "ہمیں اپنے اخراجات کم کرنے چاہئیں۔",
+          "اسان کي پنهنجا خرچ گهٽائڻ گهرجن۔"
+        ],
+        [
+          "cut off",
+          "disconnect or separate",
+          "The storm cut off the village.",
+          "طوفان نے گاؤں کا رابطہ منقطع کر دیا۔",
+          "طوفان ڳوٺ جو رابطو ڪٽي ڇڏيو۔"
+        ],
+        [
+          "cut out",
+          "remove; stop doing something",
+          "You should cut out unnecessary words.",
+          "آپ کو غیر ضروری الفاظ نکال دینے چاہئیں۔",
+          "توهان کي غير ضروري لفظ ڪڍي ڇڏڻ گهرجن۔"
         ]
-      },
-      {
-        "title": "Idioms with “DO”",
-        "english": "Common idiomatic expressions formed with “DO”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“DO” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“DO” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "do away with",
-            "abolish or get rid of",
-            "The school did away with the old rule.",
-            "اسکول نے پرانا اصول ختم کر دیا۔",
-            "اسڪول پراڻو قاعدو ختم ڪري ڇڏيو۔"
-          ],
-          [
-            "do for",
-            "ruin or cause serious harm",
-            "One careless mistake may do for the plan.",
-            "ایک لاپرواہ غلطی منصوبہ تباہ کر سکتی ہے۔",
-            "هڪ لاپرواهيءَ واري غلطي منصوبو تباهه ڪري سگهي ٿي۔"
-          ],
-          [
-            "do without",
-            "manage in the absence of something",
-            "We can do without luxuries for a while.",
-            "ہم کچھ عرصہ آسائشوں کے بغیر گزارا کر سکتے ہیں۔",
-            "اسان ڪجهه وقت آسائشن کان سواءِ گذارو ڪري سگهون ٿا۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “DO”",
+      "english": "Common idiomatic expressions formed with “DO”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“DO” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“DO” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "do away with",
+          "abolish or get rid of",
+          "The school did away with the old rule.",
+          "اسکول نے پرانا اصول ختم کر دیا۔",
+          "اسڪول پراڻو قاعدو ختم ڪري ڇڏيو۔"
+        ],
+        [
+          "do for",
+          "ruin or cause serious harm",
+          "One careless mistake may do for the plan.",
+          "ایک لاپرواہ غلطی منصوبہ تباہ کر سکتی ہے۔",
+          "هڪ لاپرواهيءَ واري غلطي منصوبو تباهه ڪري سگهي ٿي۔"
+        ],
+        [
+          "do without",
+          "manage in the absence of something",
+          "We can do without luxuries for a while.",
+          "ہم کچھ عرصہ آسائشوں کے بغیر گزارا کر سکتے ہیں۔",
+          "اسان ڪجهه وقت آسائشن کان سواءِ گذارو ڪري سگهون ٿا۔"
         ]
-      },
-      {
-        "title": "Idioms with “FALL”",
-        "english": "Common idiomatic expressions formed with “FALL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“FALL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“FALL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "fall back on",
-            "rely on when necessary",
-            "She can fall back on her savings.",
-            "وہ ضرورت پڑنے پر اپنی بچت پر بھروسا کر سکتی ہے۔",
-            "هوءَ ضرورت پوڻ تي پنهنجي بچت تي ڀاڙي سگهي ٿي۔"
-          ],
-          [
-            "fall in with",
-            "agree with or become associated with",
-            "He fell in with a sensible suggestion.",
-            "وہ ایک معقول تجویز سے متفق ہو گیا۔",
-            "هو هڪ مناسب صلاح سان متفق ٿي ويو۔"
-          ],
-          [
-            "fall out",
-            "quarrel; cease to be friendly",
-            "The two friends fell out over a small matter.",
-            "دونوں دوست معمولی بات پر جھگڑ پڑے۔",
-            "ٻئي دوست معمولي ڳالهه تان وڙهي پيا۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “FALL”",
+      "english": "Common idiomatic expressions formed with “FALL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“FALL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“FALL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "fall back on",
+          "rely on when necessary",
+          "She can fall back on her savings.",
+          "وہ ضرورت پڑنے پر اپنی بچت پر بھروسا کر سکتی ہے۔",
+          "هوءَ ضرورت پوڻ تي پنهنجي بچت تي ڀاڙي سگهي ٿي۔"
+        ],
+        [
+          "fall in with",
+          "agree with or become associated with",
+          "He fell in with a sensible suggestion.",
+          "وہ ایک معقول تجویز سے متفق ہو گیا۔",
+          "هو هڪ مناسب صلاح سان متفق ٿي ويو۔"
+        ],
+        [
+          "fall out",
+          "quarrel; cease to be friendly",
+          "The two friends fell out over a small matter.",
+          "دونوں دوست معمولی بات پر جھگڑ پڑے۔",
+          "ٻئي دوست معمولي ڳالهه تان وڙهي پيا۔"
         ]
-      },
-      {
-        "title": "Idioms with “GET”",
-        "english": "Common idiomatic expressions formed with “GET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“GET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“GET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "get along",
-            "have a friendly relationship or manage",
-            "Do you get along with your neighbours?",
-            "کیا آپ اپنے پڑوسیوں سے اچھے تعلقات رکھتے ہیں؟",
-            "ڇا توهان پاڙيسرين سان سٺا لاڳاپا رکو ٿا؟"
-          ],
-          [
-            "get over",
-            "recover from illness or difficulty",
-            "It took him weeks to get over the fever.",
-            "اسے بخار سے صحت یاب ہونے میں کئی ہفتے لگے۔",
-            "کيس بخار مان صحتياب ٿيڻ ۾ ڪيترائي هفتا لڳا۔"
-          ],
-          [
-            "get through",
-            "finish or successfully pass",
-            "She got through the examination.",
-            "وہ امتحان میں کامیاب ہو گئی۔",
-            "هوءَ امتحان ۾ ڪامياب ٿي وئي۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “GET”",
+      "english": "Common idiomatic expressions formed with “GET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“GET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“GET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "get along",
+          "have a friendly relationship or manage",
+          "Do you get along with your neighbours?",
+          "کیا آپ اپنے پڑوسیوں سے اچھے تعلقات رکھتے ہیں؟",
+          "ڇا توهان پاڙيسرين سان سٺا لاڳاپا رکو ٿا؟"
+        ],
+        [
+          "get over",
+          "recover from illness or difficulty",
+          "It took him weeks to get over the fever.",
+          "اسے بخار سے صحت یاب ہونے میں کئی ہفتے لگے۔",
+          "کيس بخار مان صحتياب ٿيڻ ۾ ڪيترائي هفتا لڳا۔"
+        ],
+        [
+          "get through",
+          "finish or successfully pass",
+          "She got through the examination.",
+          "وہ امتحان میں کامیاب ہو گئی۔",
+          "هوءَ امتحان ۾ ڪامياب ٿي وئي۔"
         ]
-      },
-      {
-        "title": "Idioms with “GIVE”",
-        "english": "Common idiomatic expressions formed with “GIVE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“GIVE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“GIVE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "give away",
-            "give something freely; reveal a secret",
-            "He gave away his books to poor students.",
-            "اس نے اپنی کتابیں غریب طلبہ کو دے دیں۔",
-            "هن پنهنجا ڪتاب غريب شاگردن کي ڏئي ڇڏيا۔"
-          ],
-          [
-            "give in",
-            "yield or surrender",
-            "At last the enemy gave in.",
-            "آخرکار دشمن نے ہتھیار ڈال دیے۔",
-            "آخرڪار دشمن هٿيار ڦٽا ڪيا۔"
-          ],
-          [
-            "give up",
-            "stop trying or abandon a habit",
-            "Never give up hope.",
-            "کبھی امید نہ چھوڑیں۔",
-            "ڪڏهن به اميد نه ڇڏيو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “GIVE”",
+      "english": "Common idiomatic expressions formed with “GIVE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“GIVE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“GIVE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "give away",
+          "give something freely; reveal a secret",
+          "He gave away his books to poor students.",
+          "اس نے اپنی کتابیں غریب طلبہ کو دے دیں۔",
+          "هن پنهنجا ڪتاب غريب شاگردن کي ڏئي ڇڏيا۔"
+        ],
+        [
+          "give in",
+          "yield or surrender",
+          "At last the enemy gave in.",
+          "آخرکار دشمن نے ہتھیار ڈال دیے۔",
+          "آخرڪار دشمن هٿيار ڦٽا ڪيا۔"
+        ],
+        [
+          "give up",
+          "stop trying or abandon a habit",
+          "Never give up hope.",
+          "کبھی امید نہ چھوڑیں۔",
+          "ڪڏهن به اميد نه ڇڏيو۔"
         ]
-      },
-      {
-        "title": "Idioms with “GO”",
-        "english": "Common idiomatic expressions formed with “GO”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“GO” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“GO” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "go about",
-            "begin or continue doing something",
-            "How should we go about this work?",
-            "ہمیں یہ کام کیسے شروع کرنا چاہیے؟",
-            "اسان کي هي ڪم ڪيئن شروع ڪرڻ گهرجي؟"
-          ],
-          [
-            "go off",
-            "explode; ring; or cease to be fresh",
-            "The alarm went off at six.",
-            "چھ بجے الارم بج اٹھا۔",
-            "ڇهين وڳي الارم وڄي پيو۔"
-          ],
-          [
-            "go through",
-            "experience or examine carefully",
-            "She went through a difficult time.",
-            "اس نے ایک مشکل دور گزارا۔",
-            "هن ڏکيو وقت گذاريو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “GO”",
+      "english": "Common idiomatic expressions formed with “GO”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“GO” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“GO” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "go about",
+          "begin or continue doing something",
+          "How should we go about this work?",
+          "ہمیں یہ کام کیسے شروع کرنا چاہیے؟",
+          "اسان کي هي ڪم ڪيئن شروع ڪرڻ گهرجي؟"
+        ],
+        [
+          "go off",
+          "explode; ring; or cease to be fresh",
+          "The alarm went off at six.",
+          "چھ بجے الارم بج اٹھا۔",
+          "ڇهين وڳي الارم وڄي پيو۔"
+        ],
+        [
+          "go through",
+          "experience or examine carefully",
+          "She went through a difficult time.",
+          "اس نے ایک مشکل دور گزارا۔",
+          "هن ڏکيو وقت گذاريو۔"
         ]
-      },
-      {
-        "title": "Idioms with “HOLD”",
-        "english": "Common idiomatic expressions formed with “HOLD”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“HOLD” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“HOLD” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "hold back",
-            "restrain or prevent",
-            "She could not hold back her tears.",
-            "وہ اپنے آنسو نہ روک سکی۔",
-            "هوءَ پنهنجا ڳوڙها روڪي نه سگهي۔"
-          ],
-          [
-            "hold on",
-            "wait; continue to hold",
-            "Hold on for a minute, please.",
-            "براہِ کرم ایک منٹ انتظار کریں۔",
-            "مهرباني ڪري هڪ منٽ ترسو۔"
-          ],
-          [
-            "hold out",
-            "resist; continue to survive",
-            "The soldiers held out bravely.",
-            "سپاہیوں نے بہادری سے مقابلہ جاری رکھا۔",
-            "سپاهين بهادريءَ سان مقابلو جاري رکيو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “HOLD”",
+      "english": "Common idiomatic expressions formed with “HOLD”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“HOLD” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“HOLD” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "hold back",
+          "restrain or prevent",
+          "She could not hold back her tears.",
+          "وہ اپنے آنسو نہ روک سکی۔",
+          "هوءَ پنهنجا ڳوڙها روڪي نه سگهي۔"
+        ],
+        [
+          "hold on",
+          "wait; continue to hold",
+          "Hold on for a minute, please.",
+          "براہِ کرم ایک منٹ انتظار کریں۔",
+          "مهرباني ڪري هڪ منٽ ترسو۔"
+        ],
+        [
+          "hold out",
+          "resist; continue to survive",
+          "The soldiers held out bravely.",
+          "سپاہیوں نے بہادری سے مقابلہ جاری رکھا۔",
+          "سپاهين بهادريءَ سان مقابلو جاري رکيو۔"
         ]
-      },
-      {
-        "title": "Idioms with “KEEP”",
-        "english": "Common idiomatic expressions formed with “KEEP”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“KEEP” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“KEEP” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "keep away",
-            "stay at a distance",
-            "Keep away from the wet paint.",
-            "گیلے رنگ سے دور رہیں۔",
-            "آلي رنگ کان پري رهو۔"
-          ],
-          [
-            "keep on",
-            "continue doing something",
-            "He kept on asking questions.",
-            "وہ سوال پوچھتا رہا۔",
-            "هو سوال پڇندو رهيو۔"
-          ],
-          [
-            "keep up with",
-            "remain at the same level or pace",
-            "Try to keep up with the class.",
-            "کلاس کے ساتھ اپنی رفتار برقرار رکھنے کی کوشش کریں۔",
-            "ڪلاس سان پنهنجي رفتار برقرار رکڻ جي ڪوشش ڪريو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “KEEP”",
+      "english": "Common idiomatic expressions formed with “KEEP”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“KEEP” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“KEEP” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "keep away",
+          "stay at a distance",
+          "Keep away from the wet paint.",
+          "گیلے رنگ سے دور رہیں۔",
+          "آلي رنگ کان پري رهو۔"
+        ],
+        [
+          "keep on",
+          "continue doing something",
+          "He kept on asking questions.",
+          "وہ سوال پوچھتا رہا۔",
+          "هو سوال پڇندو رهيو۔"
+        ],
+        [
+          "keep up with",
+          "remain at the same level or pace",
+          "Try to keep up with the class.",
+          "کلاس کے ساتھ اپنی رفتار برقرار رکھنے کی کوشش کریں۔",
+          "ڪلاس سان پنهنجي رفتار برقرار رکڻ جي ڪوشش ڪريو۔"
         ]
-      },
-      {
-        "title": "Idioms with “KNOCK”",
-        "english": "Common idiomatic expressions formed with “KNOCK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“KNOCK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“KNOCK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "knock down",
-            "hit and cause to fall",
-            "The cyclist was knocked down by a car.",
-            "سائیکل سوار گاڑی کی ٹکر سے گر گیا۔",
-            "سائيڪل سوار گاڏيءَ جي ٽڪر سان ڪري پيو۔"
-          ],
-          [
-            "knock off",
-            "stop work; reduce a price",
-            "They knock off at five o'clock.",
-            "وہ پانچ بجے کام بند کرتے ہیں۔",
-            "اهي پنجين وڳي ڪم بند ڪن ٿا۔"
-          ],
-          [
-            "knock out",
-            "make unconscious; defeat decisively",
-            "The boxer knocked out his opponent.",
-            "مکے باز نے حریف کو بے ہوش کر دیا۔",
-            "مڪيباز مخالف کي بيهوش ڪري ڇڏيو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “KNOCK”",
+      "english": "Common idiomatic expressions formed with “KNOCK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“KNOCK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“KNOCK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "knock down",
+          "hit and cause to fall",
+          "The cyclist was knocked down by a car.",
+          "سائیکل سوار گاڑی کی ٹکر سے گر گیا۔",
+          "سائيڪل سوار گاڏيءَ جي ٽڪر سان ڪري پيو۔"
+        ],
+        [
+          "knock off",
+          "stop work; reduce a price",
+          "They knock off at five o'clock.",
+          "وہ پانچ بجے کام بند کرتے ہیں۔",
+          "اهي پنجين وڳي ڪم بند ڪن ٿا۔"
+        ],
+        [
+          "knock out",
+          "make unconscious; defeat decisively",
+          "The boxer knocked out his opponent.",
+          "مکے باز نے حریف کو بے ہوش کر دیا۔",
+          "مڪيباز مخالف کي بيهوش ڪري ڇڏيو۔"
         ]
-      },
-      {
-        "title": "Idioms with “LAY”",
-        "english": "Common idiomatic expressions formed with “LAY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“LAY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“LAY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "lay aside",
-            "put away or save for later",
-            "Lay aside some money every month.",
-            "ہر ماہ کچھ رقم بچا کر رکھیں۔",
-            "هر مهيني ڪجهه رقم بچائي رکو۔"
-          ],
-          [
-            "lay down",
-            "state a rule; surrender arms",
-            "The rules are laid down clearly.",
-            "قواعد واضح طور پر مقرر کیے گئے ہیں۔",
-            "قاعدا چٽيءَ طرح مقرر ڪيا ويا آهن۔"
-          ],
-          [
-            "lay out",
-            "arrange or present clearly",
-            "She laid out the papers on the desk.",
-            "اس نے کاغذات میز پر ترتیب سے رکھے۔",
-            "هن ڪاغذ ميز تي ترتيب سان رکيا۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “LAY”",
+      "english": "Common idiomatic expressions formed with “LAY”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“LAY” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“LAY” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "lay aside",
+          "put away or save for later",
+          "Lay aside some money every month.",
+          "ہر ماہ کچھ رقم بچا کر رکھیں۔",
+          "هر مهيني ڪجهه رقم بچائي رکو۔"
+        ],
+        [
+          "lay down",
+          "state a rule; surrender arms",
+          "The rules are laid down clearly.",
+          "قواعد واضح طور پر مقرر کیے گئے ہیں۔",
+          "قاعدا چٽيءَ طرح مقرر ڪيا ويا آهن۔"
+        ],
+        [
+          "lay out",
+          "arrange or present clearly",
+          "She laid out the papers on the desk.",
+          "اس نے کاغذات میز پر ترتیب سے رکھے۔",
+          "هن ڪاغذ ميز تي ترتيب سان رکيا۔"
         ]
-      },
-      {
-        "title": "Idioms with “LET”",
-        "english": "Common idiomatic expressions formed with “LET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“LET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“LET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "let down",
-            "disappoint or fail someone",
-            "Do not let your friends down.",
-            "اپنے دوستوں کو مایوس نہ کریں۔",
-            "پنهنجن دوستن کي مايوس نه ڪريو۔"
-          ],
-          [
-            "let off",
-            "allow to escape punishment; discharge",
-            "The teacher let him off with a warning.",
-            "استاد نے اسے تنبیہ دے کر چھوڑ دیا۔",
-            "استاد کيس تنبيه ڏئي ڇڏي ڏنو۔"
-          ],
-          [
-            "let out",
-            "release; make a garment wider",
-            "They let out the bird from its cage.",
-            "انہوں نے پرندے کو پنجرے سے آزاد کر دیا۔",
-            "هنن پکيءَ کي پڃري مان آزاد ڪيو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “LET”",
+      "english": "Common idiomatic expressions formed with “LET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“LET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“LET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "let down",
+          "disappoint or fail someone",
+          "Do not let your friends down.",
+          "اپنے دوستوں کو مایوس نہ کریں۔",
+          "پنهنجن دوستن کي مايوس نه ڪريو۔"
+        ],
+        [
+          "let off",
+          "allow to escape punishment; discharge",
+          "The teacher let him off with a warning.",
+          "استاد نے اسے تنبیہ دے کر چھوڑ دیا۔",
+          "استاد کيس تنبيه ڏئي ڇڏي ڏنو۔"
+        ],
+        [
+          "let out",
+          "release; make a garment wider",
+          "They let out the bird from its cage.",
+          "انہوں نے پرندے کو پنجرے سے آزاد کر دیا۔",
+          "هنن پکيءَ کي پڃري مان آزاد ڪيو۔"
         ]
-      },
-      {
-        "title": "Idioms with “LOOK”",
-        "english": "Common idiomatic expressions formed with “LOOK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“LOOK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“LOOK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "look after",
-            "take care of",
-            "She looks after her younger brother.",
-            "وہ اپنے چھوٹے بھائی کی دیکھ بھال کرتی ہے۔",
-            "هوءَ پنهنجي ننڍي ڀاءُ جي سار سنڀال ڪري ٿي۔"
-          ],
-          [
-            "look down on",
-            "regard as inferior",
-            "We should not look down on the poor.",
-            "ہمیں غریبوں کو حقیر نہیں سمجھنا چاہیے۔",
-            "اسان کي غريبن کي گهٽ نه سمجهڻ گهرجي۔"
-          ],
-          [
-            "look into",
-            "investigate",
-            "The police will look into the matter.",
-            "پولیس معاملے کی تحقیقات کرے گی۔",
-            "پوليس معاملي جي جاچ ڪندي۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “LOOK”",
+      "english": "Common idiomatic expressions formed with “LOOK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“LOOK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“LOOK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "look after",
+          "take care of",
+          "She looks after her younger brother.",
+          "وہ اپنے چھوٹے بھائی کی دیکھ بھال کرتی ہے۔",
+          "هوءَ پنهنجي ننڍي ڀاءُ جي سار سنڀال ڪري ٿي۔"
+        ],
+        [
+          "look down on",
+          "regard as inferior",
+          "We should not look down on the poor.",
+          "ہمیں غریبوں کو حقیر نہیں سمجھنا چاہیے۔",
+          "اسان کي غريبن کي گهٽ نه سمجهڻ گهرجي۔"
+        ],
+        [
+          "look into",
+          "investigate",
+          "The police will look into the matter.",
+          "پولیس معاملے کی تحقیقات کرے گی۔",
+          "پوليس معاملي جي جاچ ڪندي۔"
         ]
-      },
-      {
-        "title": "Idioms with “MAKE”",
-        "english": "Common idiomatic expressions formed with “MAKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“MAKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“MAKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "make for",
-            "move towards; contribute to",
-            "The children made for the gate.",
-            "بچے دروازے کی طرف بڑھے۔",
-            "ٻار دروازي ڏانهن وڌيا۔"
-          ],
-          [
-            "make out",
-            "understand or discern",
-            "I cannot make out what he means.",
-            "میں سمجھ نہیں پا رہا کہ اس کا مطلب کیا ہے۔",
-            "مان سمجهي نٿو سگهان ته سندس مطلب ڇا آهي۔"
-          ],
-          [
-            "make up",
-            "invent; reconcile; or constitute",
-            "He made up an excuse.",
-            "اس نے ایک بہانہ گھڑ لیا۔",
-            "هن هڪ بهانو ٺاهي ورتو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “MAKE”",
+      "english": "Common idiomatic expressions formed with “MAKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“MAKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“MAKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "make for",
+          "move towards; contribute to",
+          "The children made for the gate.",
+          "بچے دروازے کی طرف بڑھے۔",
+          "ٻار دروازي ڏانهن وڌيا۔"
+        ],
+        [
+          "make out",
+          "understand or discern",
+          "I cannot make out what he means.",
+          "میں سمجھ نہیں پا رہا کہ اس کا مطلب کیا ہے۔",
+          "مان سمجهي نٿو سگهان ته سندس مطلب ڇا آهي۔"
+        ],
+        [
+          "make up",
+          "invent; reconcile; or constitute",
+          "He made up an excuse.",
+          "اس نے ایک بہانہ گھڑ لیا۔",
+          "هن هڪ بهانو ٺاهي ورتو۔"
         ]
-      },
-      {
-        "title": "Idioms with “PASS”",
-        "english": "Common idiomatic expressions formed with “PASS”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“PASS” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“PASS” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "pass away",
-            "die",
-            "The old poet passed away peacefully.",
-            "بوڑھا شاعر سکون سے وفات پا گیا۔",
-            "پوڙهو شاعر سڪون سان وفات ڪري ويو۔"
-          ],
-          [
-            "pass off",
-            "happen or take place in a particular way",
-            "The ceremony passed off peacefully.",
-            "تقریب پُرامن طریقے سے مکمل ہوئی۔",
-            "تقريب امن سان پوري ٿي۔"
-          ],
-          [
-            "pass on",
-            "transmit or hand something to another",
-            "Please pass on this message to her.",
-            "براہِ کرم یہ پیغام اسے پہنچا دیں۔",
-            "مهرباني ڪري هي پيغام کيس پهچايو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “PASS”",
+      "english": "Common idiomatic expressions formed with “PASS”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“PASS” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“PASS” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "pass away",
+          "die",
+          "The old poet passed away peacefully.",
+          "بوڑھا شاعر سکون سے وفات پا گیا۔",
+          "پوڙهو شاعر سڪون سان وفات ڪري ويو۔"
+        ],
+        [
+          "pass off",
+          "happen or take place in a particular way",
+          "The ceremony passed off peacefully.",
+          "تقریب پُرامن طریقے سے مکمل ہوئی۔",
+          "تقريب امن سان پوري ٿي۔"
+        ],
+        [
+          "pass on",
+          "transmit or hand something to another",
+          "Please pass on this message to her.",
+          "براہِ کرم یہ پیغام اسے پہنچا دیں۔",
+          "مهرباني ڪري هي پيغام کيس پهچايو۔"
         ]
-      },
-      {
-        "title": "Idioms with “PICK”",
-        "english": "Common idiomatic expressions formed with “PICK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“PICK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“PICK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "pick out",
-            "choose or distinguish",
-            "Can you pick out the correct answer?",
-            "کیا آپ درست جواب منتخب کر سکتے ہیں؟",
-            "ڇا توهان صحيح جواب چونڊي سگهو ٿا؟"
-          ],
-          [
-            "pick up",
-            "lift; collect; learn informally",
-            "I will pick you up at the station.",
-            "میں تمہیں اسٹیشن سے لے لوں گا۔",
-            "مان توکي اسٽيشن تان وٺي ويندس۔"
-          ],
-          [
-            "pick on",
-            "repeatedly treat someone unfairly",
-            "The older boys picked on the newcomer.",
-            "بڑے لڑکے نئے آنے والے کو تنگ کرتے رہے۔",
-            "وڏا ڇوڪرا نئين آيل کي تنگ ڪندا رهيا۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “PICK”",
+      "english": "Common idiomatic expressions formed with “PICK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“PICK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“PICK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "pick out",
+          "choose or distinguish",
+          "Can you pick out the correct answer?",
+          "کیا آپ درست جواب منتخب کر سکتے ہیں؟",
+          "ڇا توهان صحيح جواب چونڊي سگهو ٿا؟"
+        ],
+        [
+          "pick up",
+          "lift; collect; learn informally",
+          "I will pick you up at the station.",
+          "میں تمہیں اسٹیشن سے لے لوں گا۔",
+          "مان توکي اسٽيشن تان وٺي ويندس۔"
+        ],
+        [
+          "pick on",
+          "repeatedly treat someone unfairly",
+          "The older boys picked on the newcomer.",
+          "بڑے لڑکے نئے آنے والے کو تنگ کرتے رہے۔",
+          "وڏا ڇوڪرا نئين آيل کي تنگ ڪندا رهيا۔"
         ]
-      },
-      {
-        "title": "Idioms with “PULL”",
-        "english": "Common idiomatic expressions formed with “PULL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“PULL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“PULL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "pull down",
-            "demolish; reduce in value",
-            "They pulled down the unsafe building.",
-            "انہوں نے غیر محفوظ عمارت گرا دی۔",
-            "هنن غير محفوظ عمارت ڊاهي ڇڏي۔"
-          ],
-          [
-            "pull in",
-            "arrive; especially a train or vehicle",
-            "The train pulled in at noon.",
-            "ٹرین دوپہر کو پلیٹ فارم پر آ پہنچی۔",
-            "ريل گاڏي منجهند جو پليٽ فارم تي پهتي۔"
-          ],
-          [
-            "pull through",
-            "recover from serious illness or difficulty",
-            "The patient pulled through after the operation.",
-            "آپریشن کے بعد مریض صحت یاب ہو گیا۔",
-            "آپريشن کان پوءِ مريض صحتياب ٿي ويو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “PULL”",
+      "english": "Common idiomatic expressions formed with “PULL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“PULL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“PULL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "pull down",
+          "demolish; reduce in value",
+          "They pulled down the unsafe building.",
+          "انہوں نے غیر محفوظ عمارت گرا دی۔",
+          "هنن غير محفوظ عمارت ڊاهي ڇڏي۔"
+        ],
+        [
+          "pull in",
+          "arrive; especially a train or vehicle",
+          "The train pulled in at noon.",
+          "ٹرین دوپہر کو پلیٹ فارم پر آ پہنچی۔",
+          "ريل گاڏي منجهند جو پليٽ فارم تي پهتي۔"
+        ],
+        [
+          "pull through",
+          "recover from serious illness or difficulty",
+          "The patient pulled through after the operation.",
+          "آپریشن کے بعد مریض صحت یاب ہو گیا۔",
+          "آپريشن کان پوءِ مريض صحتياب ٿي ويو۔"
         ]
-      },
-      {
-        "title": "Idioms with “PUT”",
-        "english": "Common idiomatic expressions formed with “PUT”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“PUT” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“PUT” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "put aside",
-            "save or reserve",
-            "Put aside a little money each week.",
-            "ہر ہفتے تھوڑی رقم بچائیں۔",
-            "هر هفتي ٿوري رقم بچايو۔"
-          ],
-          [
-            "put off",
-            "postpone; discourage",
-            "They put off the meeting until Monday.",
-            "انہوں نے اجلاس پیر تک ملتوی کر دیا۔",
-            "هنن گڏجاڻي سومر تائين ملتوي ڪري ڇڏي۔"
-          ],
-          [
-            "put up with",
-            "tolerate",
-            "I cannot put up with such noise.",
-            "میں ایسا شور برداشت نہیں کر سکتا۔",
-            "مان اهڙو شور برداشت نٿو ڪري سگهان۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “PUT”",
+      "english": "Common idiomatic expressions formed with “PUT”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“PUT” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“PUT” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "put aside",
+          "save or reserve",
+          "Put aside a little money each week.",
+          "ہر ہفتے تھوڑی رقم بچائیں۔",
+          "هر هفتي ٿوري رقم بچايو۔"
+        ],
+        [
+          "put off",
+          "postpone; discourage",
+          "They put off the meeting until Monday.",
+          "انہوں نے اجلاس پیر تک ملتوی کر دیا۔",
+          "هنن گڏجاڻي سومر تائين ملتوي ڪري ڇڏي۔"
+        ],
+        [
+          "put up with",
+          "tolerate",
+          "I cannot put up with such noise.",
+          "میں ایسا شور برداشت نہیں کر سکتا۔",
+          "مان اهڙو شور برداشت نٿو ڪري سگهان۔"
         ]
-      },
-      {
-        "title": "Idioms with “RUN”",
-        "english": "Common idiomatic expressions formed with “RUN”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“RUN” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“RUN” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "run across",
-            "meet or find unexpectedly",
-            "I ran across an old school friend.",
-            "مجھے اچانک اسکول کا ایک پرانا دوست مل گیا۔",
-            "مون کي اوچتو اسڪول جو هڪ پراڻو دوست مليو۔"
-          ],
-          [
-            "run into",
-            "meet unexpectedly; collide with",
-            "I ran into my teacher in the market.",
-            "بازار میں میری اپنے استاد سے اچانک ملاقات ہوئی۔",
-            "بازار ۾ منهنجي استاد سان اوچتو ملاقات ٿي۔"
-          ],
-          [
-            "run out of",
-            "have none left",
-            "We have run out of sugar.",
-            "ہماری چینی ختم ہو گئی ہے۔",
-            "اسان وٽ کنڊ ختم ٿي وئي آهي۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “RUN”",
+      "english": "Common idiomatic expressions formed with “RUN”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“RUN” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“RUN” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "run across",
+          "meet or find unexpectedly",
+          "I ran across an old school friend.",
+          "مجھے اچانک اسکول کا ایک پرانا دوست مل گیا۔",
+          "مون کي اوچتو اسڪول جو هڪ پراڻو دوست مليو۔"
+        ],
+        [
+          "run into",
+          "meet unexpectedly; collide with",
+          "I ran into my teacher in the market.",
+          "بازار میں میری اپنے استاد سے اچانک ملاقات ہوئی۔",
+          "بازار ۾ منهنجي استاد سان اوچتو ملاقات ٿي۔"
+        ],
+        [
+          "run out of",
+          "have none left",
+          "We have run out of sugar.",
+          "ہماری چینی ختم ہو گئی ہے۔",
+          "اسان وٽ کنڊ ختم ٿي وئي آهي۔"
         ]
-      },
-      {
-        "title": "Idioms with “SEE”",
-        "english": "Common idiomatic expressions formed with “SEE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“SEE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“SEE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "see about",
-            "make arrangements or investigate",
-            "I will see about getting the tickets.",
-            "میں ٹکٹوں کا انتظام کرنے کی کوشش کروں گا۔",
-            "مان ٽڪيٽن جو بندوبست ڪرڻ جي ڪوشش ڪندس۔"
-          ],
-          [
-            "see off",
-            "go with someone to their departure point",
-            "We went to the station to see her off.",
-            "ہم اسے رخصت کرنے اسٹیشن گئے۔",
-            "اسان کيس الوداع چوڻ لاءِ اسٽيشن وياسين۔"
-          ],
-          [
-            "see through",
-            "detect the truth; support to completion",
-            "I can see through his pretence.",
-            "میں اس کے دکھاوے کو سمجھ سکتا ہوں۔",
-            "مان سندس ڏيکاءُ کي سمجهي سگهان ٿو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “SEE”",
+      "english": "Common idiomatic expressions formed with “SEE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“SEE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“SEE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "see about",
+          "make arrangements or investigate",
+          "I will see about getting the tickets.",
+          "میں ٹکٹوں کا انتظام کرنے کی کوشش کروں گا۔",
+          "مان ٽڪيٽن جو بندوبست ڪرڻ جي ڪوشش ڪندس۔"
+        ],
+        [
+          "see off",
+          "go with someone to their departure point",
+          "We went to the station to see her off.",
+          "ہم اسے رخصت کرنے اسٹیشن گئے۔",
+          "اسان کيس الوداع چوڻ لاءِ اسٽيشن وياسين۔"
+        ],
+        [
+          "see through",
+          "detect the truth; support to completion",
+          "I can see through his pretence.",
+          "میں اس کے دکھاوے کو سمجھ سکتا ہوں۔",
+          "مان سندس ڏيکاءُ کي سمجهي سگهان ٿو۔"
         ]
-      },
-      {
-        "title": "Idioms with “SET”",
-        "english": "Common idiomatic expressions formed with “SET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“SET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“SET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "set about",
-            "begin doing something",
-            "They set about repairing the roof.",
-            "انہوں نے چھت کی مرمت شروع کر دی۔",
-            "هنن ڇت جي مرمت شروع ڪئي۔"
-          ],
-          [
-            "set aside",
-            "reserve for a purpose",
-            "Set aside an hour for reading.",
-            "مطالعے کے لیے ایک گھنٹہ مخصوص کریں۔",
-            "پڙهڻ لاءِ هڪ ڪلاڪ مخصوص ڪريو۔"
-          ],
-          [
-            "set out",
-            "start a journey; explain clearly",
-            "He set out early in the morning.",
-            "وہ صبح سویرے روانہ ہوا۔",
-            "هو صبح سوير روانو ٿيو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “SET”",
+      "english": "Common idiomatic expressions formed with “SET”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“SET” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“SET” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "set about",
+          "begin doing something",
+          "They set about repairing the roof.",
+          "انہوں نے چھت کی مرمت شروع کر دی۔",
+          "هنن ڇت جي مرمت شروع ڪئي۔"
+        ],
+        [
+          "set aside",
+          "reserve for a purpose",
+          "Set aside an hour for reading.",
+          "مطالعے کے لیے ایک گھنٹہ مخصوص کریں۔",
+          "پڙهڻ لاءِ هڪ ڪلاڪ مخصوص ڪريو۔"
+        ],
+        [
+          "set out",
+          "start a journey; explain clearly",
+          "He set out early in the morning.",
+          "وہ صبح سویرے روانہ ہوا۔",
+          "هو صبح سوير روانو ٿيو۔"
         ]
-      },
-      {
-        "title": "Idioms with “SPEAK”",
-        "english": "Common idiomatic expressions formed with “SPEAK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“SPEAK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“SPEAK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "speak for",
-            "represent or express the wishes of",
-            "I cannot speak for everyone.",
-            "میں سب کی طرف سے بات نہیں کر سکتا۔",
-            "مان سڀني جي طرفان ڳالهائي نٿو سگهان۔"
-          ],
-          [
-            "speak out",
-            "express an opinion openly",
-            "She spoke out against injustice.",
-            "اس نے ناانصافی کے خلاف کھل کر بات کی۔",
-            "هن ناانصافيءَ خلاف کلي ڳالهه ڪئي۔"
-          ],
-          [
-            "speak up",
-            "speak more loudly or defend a view",
-            "Please speak up; I cannot hear you.",
-            "براہِ کرم بلند آواز سے بولیں؛ میں آپ کو سن نہیں پا رہا۔",
-            "مهرباني ڪري وڏي آواز سان ڳالهايو؛ مان ٻڌي نٿو سگهان۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “SPEAK”",
+      "english": "Common idiomatic expressions formed with “SPEAK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“SPEAK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“SPEAK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "speak for",
+          "represent or express the wishes of",
+          "I cannot speak for everyone.",
+          "میں سب کی طرف سے بات نہیں کر سکتا۔",
+          "مان سڀني جي طرفان ڳالهائي نٿو سگهان۔"
+        ],
+        [
+          "speak out",
+          "express an opinion openly",
+          "She spoke out against injustice.",
+          "اس نے ناانصافی کے خلاف کھل کر بات کی۔",
+          "هن ناانصافيءَ خلاف کلي ڳالهه ڪئي۔"
+        ],
+        [
+          "speak up",
+          "speak more loudly or defend a view",
+          "Please speak up; I cannot hear you.",
+          "براہِ کرم بلند آواز سے بولیں؛ میں آپ کو سن نہیں پا رہا۔",
+          "مهرباني ڪري وڏي آواز سان ڳالهايو؛ مان ٻڌي نٿو سگهان۔"
         ]
-      },
-      {
-        "title": "Idioms with “STAND”",
-        "english": "Common idiomatic expressions formed with “STAND”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“STAND” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“STAND” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "stand by",
-            "support; remain ready",
-            "I will stand by you in difficulty.",
-            "میں مشکل میں تمہارا ساتھ دوں گا۔",
-            "مان ڏکيائيءَ ۾ تنهنجو ساٿ ڏيندس۔"
-          ],
-          [
-            "stand for",
-            "represent; tolerate",
-            "UN stands for United Nations.",
-            "UN کا مطلب United Nations ہے۔",
-            "UN جو مطلب United Nations آهي۔"
-          ],
-          [
-            "stand up for",
-            "defend or support",
-            "We must stand up for our rights.",
-            "ہمیں اپنے حقوق کا دفاع کرنا چاہیے۔",
-            "اسان کي پنهنجن حقن جو دفاع ڪرڻ گهرجي۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “STAND”",
+      "english": "Common idiomatic expressions formed with “STAND”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“STAND” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“STAND” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "stand by",
+          "support; remain ready",
+          "I will stand by you in difficulty.",
+          "میں مشکل میں تمہارا ساتھ دوں گا۔",
+          "مان ڏکيائيءَ ۾ تنهنجو ساٿ ڏيندس۔"
+        ],
+        [
+          "stand for",
+          "represent; tolerate",
+          "UN stands for United Nations.",
+          "UN کا مطلب United Nations ہے۔",
+          "UN جو مطلب United Nations آهي۔"
+        ],
+        [
+          "stand up for",
+          "defend or support",
+          "We must stand up for our rights.",
+          "ہمیں اپنے حقوق کا دفاع کرنا چاہیے۔",
+          "اسان کي پنهنجن حقن جو دفاع ڪرڻ گهرجي۔"
         ]
-      },
-      {
-        "title": "Idioms with “STRIKE”",
-        "english": "Common idiomatic expressions formed with “STRIKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“STRIKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“STRIKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "strike down",
-            "cause to fall or become incapacitated",
-            "The disease struck him down.",
-            "بیماری نے اسے نڈھال کر دیا۔",
-            "بيماريءَ کيس ڪمزور ڪري ڇڏيو۔"
-          ],
-          [
-            "strike off",
-            "remove from a list or record",
-            "His name was struck off the list.",
-            "اس کا نام فہرست سے خارج کر دیا گیا۔",
-            "سندس نالو فهرست مان ڪڍيو ويو۔"
-          ],
-          [
-            "strike out",
-            "attempt something boldly; delete",
-            "She struck out on her own as a writer.",
-            "اس نے آزاد مصنفہ کے طور پر کام شروع کیا۔",
-            "هن آزاد ليکڪا طور ڪم شروع ڪيو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “STRIKE”",
+      "english": "Common idiomatic expressions formed with “STRIKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“STRIKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“STRIKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "strike down",
+          "cause to fall or become incapacitated",
+          "The disease struck him down.",
+          "بیماری نے اسے نڈھال کر دیا۔",
+          "بيماريءَ کيس ڪمزور ڪري ڇڏيو۔"
+        ],
+        [
+          "strike off",
+          "remove from a list or record",
+          "His name was struck off the list.",
+          "اس کا نام فہرست سے خارج کر دیا گیا۔",
+          "سندس نالو فهرست مان ڪڍيو ويو۔"
+        ],
+        [
+          "strike out",
+          "attempt something boldly; delete",
+          "She struck out on her own as a writer.",
+          "اس نے آزاد مصنفہ کے طور پر کام شروع کیا۔",
+          "هن آزاد ليکڪا طور ڪم شروع ڪيو۔"
         ]
-      },
-      {
-        "title": "Idioms with “TAKE”",
-        "english": "Common idiomatic expressions formed with “TAKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“TAKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“TAKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "take after",
-            "resemble a family member",
-            "The child takes after his mother.",
-            "بچہ اپنی ماں سے مشابہت رکھتا ہے۔",
-            "ٻار پنهنجي ماءُ جهڙو آهي۔"
-          ],
-          [
-            "take in",
-            "understand; deceive; provide lodging",
-            "I could hardly take in the news.",
-            "میں مشکل سے خبر سمجھ پایا۔",
-            "مان مشڪل سان خبر سمجهي سگهيس۔"
-          ],
-          [
-            "take off",
-            "remove; leave the ground; become successful",
-            "The plane took off on time.",
-            "جہاز وقت پر روانہ ہوا۔",
-            "هوائي جهاز وقت تي اڏام ڀري۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “TAKE”",
+      "english": "Common idiomatic expressions formed with “TAKE”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“TAKE” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“TAKE” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "take after",
+          "resemble a family member",
+          "The child takes after his mother.",
+          "بچہ اپنی ماں سے مشابہت رکھتا ہے۔",
+          "ٻار پنهنجي ماءُ جهڙو آهي۔"
+        ],
+        [
+          "take in",
+          "understand; deceive; provide lodging",
+          "I could hardly take in the news.",
+          "میں مشکل سے خبر سمجھ پایا۔",
+          "مان مشڪل سان خبر سمجهي سگهيس۔"
+        ],
+        [
+          "take off",
+          "remove; leave the ground; become successful",
+          "The plane took off on time.",
+          "جہاز وقت پر روانہ ہوا۔",
+          "هوائي جهاز وقت تي اڏام ڀري۔"
         ]
-      },
-      {
-        "title": "Idioms with “TALK”",
-        "english": "Common idiomatic expressions formed with “TALK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“TALK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“TALK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "talk over",
-            "discuss carefully",
-            "Let us talk over the proposal.",
-            "آئیے تجویز پر تفصیل سے بات کریں۔",
-            "اچو ته تجويز تي تفصيل سان ڳالهه ڪريون۔"
-          ],
-          [
-            "talk into",
-            "persuade someone to do something",
-            "She talked me into joining the team.",
-            "اس نے مجھے ٹیم میں شامل ہونے پر راضی کر لیا۔",
-            "هن مون کي ٽيم ۾ شامل ٿيڻ لاءِ راضي ڪيو۔"
-          ],
-          [
-            "talk out of",
-            "persuade someone not to do something",
-            "I talked him out of making a rash decision.",
-            "میں نے اسے جلدبازی کا فیصلہ کرنے سے روک لیا۔",
-            "مون کيس تڪڙ ۾ فيصلو ڪرڻ کان روڪي ورتو۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “TALK”",
+      "english": "Common idiomatic expressions formed with “TALK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“TALK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“TALK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "talk over",
+          "discuss carefully",
+          "Let us talk over the proposal.",
+          "آئیے تجویز پر تفصیل سے بات کریں۔",
+          "اچو ته تجويز تي تفصيل سان ڳالهه ڪريون۔"
+        ],
+        [
+          "talk into",
+          "persuade someone to do something",
+          "She talked me into joining the team.",
+          "اس نے مجھے ٹیم میں شامل ہونے پر راضی کر لیا۔",
+          "هن مون کي ٽيم ۾ شامل ٿيڻ لاءِ راضي ڪيو۔"
+        ],
+        [
+          "talk out of",
+          "persuade someone not to do something",
+          "I talked him out of making a rash decision.",
+          "میں نے اسے جلدبازی کا فیصلہ کرنے سے روک لیا۔",
+          "مون کيس تڪڙ ۾ فيصلو ڪرڻ کان روڪي ورتو۔"
         ]
-      },
-      {
-        "title": "Idioms with “TELL”",
-        "english": "Common idiomatic expressions formed with “TELL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“TELL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“TELL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "tell against",
-            "count as evidence against",
-            "His silence may tell against him.",
-            "اس کی خاموشی اس کے خلاف جا سکتی ہے۔",
-            "سندس خاموشي سندس خلاف وڃي سگهي ٿي۔"
-          ],
-          [
-            "tell off",
-            "reprimand",
-            "The teacher told the boys off for shouting.",
-            "استاد نے شور کرنے پر لڑکوں کو ڈانٹا۔",
-            "استاد شور ڪرڻ تي ڇوڪرن کي دڙڪا ڏنا۔"
-          ],
-          [
-            "tell on",
-            "have an adverse effect; inform against",
-            "Lack of sleep tells on his health.",
-            "نیند کی کمی اس کی صحت پر اثر ڈالتی ہے۔",
-            "ننڊ جي کوٽ سندس صحت تي اثر ڪري ٿي۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “TELL”",
+      "english": "Common idiomatic expressions formed with “TELL”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“TELL” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“TELL” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "tell against",
+          "count as evidence against",
+          "His silence may tell against him.",
+          "اس کی خاموشی اس کے خلاف جا سکتی ہے۔",
+          "سندس خاموشي سندس خلاف وڃي سگهي ٿي۔"
+        ],
+        [
+          "tell off",
+          "reprimand",
+          "The teacher told the boys off for shouting.",
+          "استاد نے شور کرنے پر لڑکوں کو ڈانٹا۔",
+          "استاد شور ڪرڻ تي ڇوڪرن کي دڙڪا ڏنا۔"
+        ],
+        [
+          "tell on",
+          "have an adverse effect; inform against",
+          "Lack of sleep tells on his health.",
+          "نیند کی کمی اس کی صحت پر اثر ڈالتی ہے۔",
+          "ننڊ جي کوٽ سندس صحت تي اثر ڪري ٿي۔"
         ]
-      },
-      {
-        "title": "Idioms with “THROW”",
-        "english": "Common idiomatic expressions formed with “THROW”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“THROW” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“THROW” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "throw away",
-            "discard carelessly",
-            "Do not throw away useful papers.",
-            "مفید کاغذات ضائع نہ کریں۔",
-            "ڪم جا ڪاغذ ضايع نه ڪريو۔"
-          ],
-          [
-            "throw off",
-            "remove quickly; escape something",
-            "He threw off his coat.",
-            "اس نے جلدی سے اپنا کوٹ اتار دیا۔",
-            "هن جلدي پنهنجو ڪوٽ لاهي ڇڏيو۔"
-          ],
-          [
-            "throw up",
-            "vomit; abandon suddenly",
-            "The rough sea made the passengers throw up.",
-            "سمندر کی تلاطم خیزی سے مسافروں کو قے آنے لگی۔",
-            "سمنڊ جي لهرن سبب مسافرن کي الٽي ٿيڻ لڳي۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “THROW”",
+      "english": "Common idiomatic expressions formed with “THROW”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“THROW” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“THROW” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "throw away",
+          "discard carelessly",
+          "Do not throw away useful papers.",
+          "مفید کاغذات ضائع نہ کریں۔",
+          "ڪم جا ڪاغذ ضايع نه ڪريو۔"
+        ],
+        [
+          "throw off",
+          "remove quickly; escape something",
+          "He threw off his coat.",
+          "اس نے جلدی سے اپنا کوٹ اتار دیا۔",
+          "هن جلدي پنهنجو ڪوٽ لاهي ڇڏيو۔"
+        ],
+        [
+          "throw up",
+          "vomit; abandon suddenly",
+          "The rough sea made the passengers throw up.",
+          "سمندر کی تلاطم خیزی سے مسافروں کو قے آنے لگی۔",
+          "سمنڊ جي لهرن سبب مسافرن کي الٽي ٿيڻ لڳي۔"
         ]
-      },
-      {
-        "title": "Idioms with “TURN”",
-        "english": "Common idiomatic expressions formed with “TURN”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“TURN” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“TURN” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "turn down",
-            "reject; reduce volume",
-            "She turned down the offer.",
-            "اس نے پیشکش مسترد کر دی۔",
-            "هن آڇ رد ڪري ڇڏي۔"
-          ],
-          [
-            "turn up",
-            "appear unexpectedly; increase volume",
-            "He turned up late for the meeting.",
-            "وہ اجلاس میں دیر سے پہنچا۔",
-            "هو گڏجاڻيءَ ۾ دير سان پهتو۔"
-          ],
-          [
-            "turn out",
-            "prove to be; produce",
-            "The story turned out to be true.",
-            "کہانی سچی ثابت ہوئی۔",
-            "ڪهاڻي سچي ثابت ٿي۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “TURN”",
+      "english": "Common idiomatic expressions formed with “TURN”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“TURN” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“TURN” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "turn down",
+          "reject; reduce volume",
+          "She turned down the offer.",
+          "اس نے پیشکش مسترد کر دی۔",
+          "هن آڇ رد ڪري ڇڏي۔"
+        ],
+        [
+          "turn up",
+          "appear unexpectedly; increase volume",
+          "He turned up late for the meeting.",
+          "وہ اجلاس میں دیر سے پہنچا۔",
+          "هو گڏجاڻيءَ ۾ دير سان پهتو۔"
+        ],
+        [
+          "turn out",
+          "prove to be; produce",
+          "The story turned out to be true.",
+          "کہانی سچی ثابت ہوئی۔",
+          "ڪهاڻي سچي ثابت ٿي۔"
         ]
-      },
-      {
-        "title": "Idioms with “WORK”",
-        "english": "Common idiomatic expressions formed with “WORK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
-        "urdu": "“WORK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
-        "sindhi": "“WORK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
-        "examples": [
-          [
-            "work out",
-            "solve; calculate; exercise",
-            "We worked out the answer together.",
-            "ہم نے مل کر جواب نکالا۔",
-            "اسان گڏجي جواب ڪڍيو۔"
-          ],
-          [
-            "work up",
-            "develop or arouse a feeling",
-            "He worked up the courage to speak.",
-            "اس نے بولنے کی ہمت پیدا کی۔",
-            "هن ڳالهائڻ جي همت پيدا ڪئي۔"
-          ],
-          [
-            "work on",
-            "give attention and effort to improve",
-            "You must work on your pronunciation.",
-            "آپ کو اپنے تلفظ پر محنت کرنی چاہیے۔",
-            "توهان کي پنهنجي اچار تي محنت ڪرڻ گهرجي۔"
-          ]
+      ]
+    },
+    {
+      "title": "Idioms with “WORK”",
+      "english": "Common idiomatic expressions formed with “WORK”. A phrasal verb or idiomatic phrase often has a meaning that cannot be understood by translating each word separately. Learn the complete expression, its grammatical pattern and the context in which it is used.",
+      "urdu": "“WORK” کے ساتھ بننے والی عام محاوراتی تراکیب۔ محاورے کا مطلب اکثر ہر لفظ کا الگ ترجمہ کرنے سے معلوم نہیں ہوتا؛ اس لیے پوری ترکیب، اس کا نحوی استعمال اور سیاق یاد رکھیں۔",
+      "sindhi": "“WORK” سان ٺهندڙ عام محاوراتي ترڪيبون. محاوري جي معنيٰ اڪثر هر لفظ جو الڳ ترجمو ڪرڻ سان نٿي سمجهي سگهجي؛ تنهنڪري مڪمل ترڪيب، ان جو گرامري استعمال ۽ موقعو ياد رکو۔",
+      "examples": [
+        [
+          "work out",
+          "solve; calculate; exercise",
+          "We worked out the answer together.",
+          "ہم نے مل کر جواب نکالا۔",
+          "اسان گڏجي جواب ڪڍيو۔"
+        ],
+        [
+          "work up",
+          "develop or arouse a feeling",
+          "He worked up the courage to speak.",
+          "اس نے بولنے کی ہمت پیدا کی۔",
+          "هن ڳالهائڻ جي همت پيدا ڪئي۔"
+        ],
+        [
+          "work on",
+          "give attention and effort to improve",
+          "You must work on your pronunciation.",
+          "آپ کو اپنے تلفظ پر محنت کرنی چاہیے۔",
+          "توهان کي پنهنجي اچار تي محنت ڪرڻ گهرجي۔"
         ]
-      }
-    ]
-  },
+      ]
+    }
+  ]
+},
 };
 
 
