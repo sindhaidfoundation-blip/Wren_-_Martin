@@ -579,7 +579,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             </View>)}
           </View> : null}
           <View style={{ backgroundColor: "#F0F5FF", borderRadius: 12, padding: 12, gap: 9 }}>
-            <Text style={styles.panelLabel}>5 EXAMPLES — مثال</Text>
+            <Text style={styles.panelLabel}>EXAMPLES — مثال</Text>
             {item.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderBottomWidth: exampleIndex === 4 ? 0 : 1, borderBottomColor: "#DFE8FA", paddingBottom: exampleIndex === 4 ? 0 : 8, gap: 3 }}>
               <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
               <Text style={{ color: muted, fontSize: 13, textAlign: "right" }}>اردو: {example[1]}</Text>
