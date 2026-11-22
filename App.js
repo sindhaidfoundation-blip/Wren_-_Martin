@@ -585,6 +585,17 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             </View>)}
           </View>)}
         </View> : null}
+        {topicDetails[selected.id].voiceTable ? <View style={{ gap: 10, marginTop: 12 }}>
+          <Text style={styles.sectionTitle}>{topicDetails[selected.id].voiceTableTitle}</Text>
+          <View style={{ borderWidth: 1, borderColor: "#D9E0EA", borderRadius: 12, overflow: "hidden", backgroundColor: "#FFFFFF" }}>
+            {topicDetails[selected.id].voiceTable.map((row, rowIndex) => <View key={rowIndex} style={{ flexDirection: "row", backgroundColor: rowIndex === 0 ? "#EAF0F8" : (rowIndex % 2 === 0 ? "#FFFFFF" : "#F8FAFC"), borderBottomWidth: rowIndex === topicDetails[selected.id].voiceTable.length - 1 ? 0 : 1, borderBottomColor: "#E5EAF0" }}>
+              {row.map((cell, cellIndex) => <View key={cellIndex} style={{ flex: cellIndex === 0 ? 0.72 : 1.55, padding: 8, borderRightWidth: cellIndex === 2 ? 0 : 1, borderRightColor: "#E5EAF0", justifyContent: "center" }}>
+                <Text style={{ color: navy, fontSize: 11, lineHeight: 16, fontWeight: rowIndex === 0 ? "800" : (cellIndex === 0 ? "700" : "500") }}>{cell}</Text>
+              </View>)}
+            </View>)}
+          </View>
+          <Text style={{ color: muted, fontSize: 12, lineHeight: 19 }}>Active: Modal + base verb (V1). Passive: Modal + be + past participle (V3).</Text>
+        </View> : null}
       </View> : null}
       {selected.id === "nouns" && topicDetails.nouns.nounTypes ? <View style={{ marginTop: 24, gap: 14 }}>
         <Text style={styles.sectionTitle}>Kinds of Nouns — اسم کی اقسام</Text>
