@@ -5384,7 +5384,781 @@ export const topicDetails = {
     }
   ]
 }
-]
+,
+{
+  "title": "Adverb Clauses — Eight Types, 80 Explained Examples and Exercises",
+  "english": "An adverb clause is a dependent clause that contains a subject and a finite verb and performs the work of an adverb. It modifies a verb, an adjective, an adverb or sometimes the whole main clause. It answers questions such as when, where, why, for what purpose, under what condition, with what result, to what degree, or despite what circumstance. It cannot normally stand alone as a complete sentence. The subordinating conjunction introduces the relationship between the dependent clause and the main clause.",
+  "urdu": "Adverb Clause ایک تابع جملہ ہے جس میں اپنا فاعل اور مکمل فعل ہوتا ہے اور جو متعلقِ فعل کا کام کرتا ہے۔ یہ فعل، صفت، دوسرے متعلقِ فعل یا کبھی پورے مرکزی جملے کی وضاحت کرتا ہے۔ یہ کب، کہاں، کیوں، کس مقصد سے، کس شرط پر، کس نتیجے کے ساتھ یا کس رکاوٹ کے باوجود جیسے سوالات کا جواب دیتا ہے۔ یہ عام طور پر اکیلا مکمل جملہ نہیں بن سکتا۔",
+  "sindhi": "Adverb Clause هڪ تابع جملو آهي جنهن ۾ پنهنجو فاعل ۽ مڪمل فعل هوندو آهي ۽ جيڪو ظرف جو ڪم ڪندو آهي. اهو فعل، صفت، ٻئي ظرف يا ڪڏهن سڄي مکيه جملي جي وضاحت ڪندو آهي. اهو ڪڏهن، ڪٿي، ڇو، ڪهڙي مقصد لاءِ، ڪهڙي شرط تي، ڪهڙي نتيجي سان يا ڪهڙي رنڊڪ هوندي به جهڙن سوالن جا جواب ڏيندو آهي. اهو عام طور اڪيلو مڪمل جملو نٿو بڻجي سگهي.",
+  "subsections": [
+    {
+      "title": "How to identify an adverb clause",
+      "english": "1. Find the main clause and its finite verb. 2. Look for a dependent clause with its own subject and finite verb. 3. Identify the subordinating conjunction. 4. Ask what relationship the clause expresses: time, place, purpose, cause/reason, condition, result, comparison, or concession/supposition. 5. Check punctuation: an introductory adverb clause is normally followed by a comma; a final adverb clause usually is not, unless a pause or contrast is needed. 6. Do not mistake a phrase for a clause: 'after the lesson' is a phrase, but 'after the lesson ended' is a clause.",
+      "urdu": "1۔ مرکزی جملہ اور اس کا فعل تلاش کریں۔ 2۔ ایسا تابع حصہ دیکھیں جس میں اپنا فاعل اور فعل ہو۔ 3۔ آغاز میں آنے والے subordinating conjunction کو پہچانیں۔ 4۔ معلوم کریں کہ یہ وقت، جگہ، مقصد، وجہ، شرط، نتیجہ، موازنہ یا رعایت/فرض کا تعلق ظاہر کرتا ہے۔ 5۔ اگر تابع جملہ پہلے آئے تو عموماً comma لگائیں؛ آخر میں آئے تو عموماً comma نہیں لگتا۔ 6۔ Phrase اور Clause میں فرق رکھیں: after the lesson ایک phrase ہے، جبکہ after the lesson ended ایک clause ہے۔",
+      "sindhi": "1. مکيه جملو ۽ ان جو فعل ڳوليو. 2. اهڙو تابع حصو ڏسو جنهن ۾ پنهنجو فاعل ۽ فعل هجي. 3. شروعاتي subordinating conjunction سڃاڻو. 4. معلوم ڪريو ته اهو وقت، هنڌ، مقصد، سبب، شرط، نتيجو، مقابلو يا رعايت/فرض جو لاڳاپو ڏيکاري ٿو. 5. جيڪڏهن تابع جملو پهرين اچي ته عام طور ڪاما ڏيو؛ آخر ۾ اچي ته عام طور ڪاما نه ڏبي. 6. Phrase ۽ Clause ۾ فرق رکو: after the lesson هڪ phrase آهي، پر after the lesson ended هڪ clause آهي."
+    },
+    {
+      "title": "Common punctuation and grammar cautions",
+      "english": "An adverb clause may appear at the beginning or end of a sentence. Use a comma after an introductory clause. Avoid sentence fragments: 'Because I was ill.' is incomplete by itself; write 'Because I was ill, I stayed home.' Avoid double conjunctions such as 'Although he was tired, but he worked' in standard formal English. In future time and real future condition clauses, use present forms after when, before, until, as soon as and if: 'I will wait until she comes'; 'If it rains, we will cancel.'",
+      "urdu": "Adverb Clause جملے کے شروع یا آخر میں آ سکتا ہے۔ شروع میں آئے تو اس کے بعد comma لگائیں۔ ادھورا جملہ نہ لکھیں: Because I was ill. کے بجائے Because I was ill, I stayed home لکھیں۔ رسمی انگریزی میں Although he was tired, but he worked جیسی دوہری conjunction سے بچیں۔ مستقبل کے وقت اور حقیقی شرط والے جملوں میں when, before, until, as soon as اور if کے بعد عموماً present tense آتا ہے۔",
+      "sindhi": "Adverb Clause جملي جي شروع يا آخر ۾ اچي سگهي ٿو. شروع ۾ اچي ته ان کان پوءِ ڪاما ڏيو. اڌورو جملو نه لکو: Because I was ill. بدران Because I was ill, I stayed home لکو. رسمي انگريزيءَ ۾ Although he was tired, but he worked جهڙي ٻٽي conjunction کان پاسو ڪريو. مستقبل جي وقت ۽ حقيقي شرط وارن جملن ۾ when، before، until، as soon as ۽ if کان پوءِ عام طور present tense ايندو آهي."
+    },
+    {
+      "title": "Detailed Exercises — Identify and classify",
+      "english": "For each sentence, identify the adverb clause, classify its type, and state which part of the main clause it modifies. Write the subordinating conjunction as well.",
+      "urdu": "ہر جملے میں Adverb Clause کو نشان زد کریں، اس کی قسم بتائیں، اور واضح کریں کہ یہ مرکزی جملے کے کس حصے کی وضاحت کرتا ہے۔ رابطہ لفظ بھی لکھیں۔",
+      "sindhi": "هر جملي ۾ Adverb Clause سڃاڻو، ان جو قسم ٻڌايو، ۽ واضح ڪريو ته اهو مکيه جملي جي ڪهڙي حصي جي وضاحت ڪري ٿو. ڳنڍيندڙ لفظ به لکو.",
+      "questions": [
+        "1. When the sun sets, the birds return to their nests.",
+        "2. You may wait wherever you find a seat.",
+        "3. The nurse spoke slowly so that the patient could understand.",
+        "4. Since the roads were slippery, the driver reduced his speed.",
+        "5. Unless you revise the lesson, you may forget the rules.",
+        "6. The hall was so crowded that we could not find seats.",
+        "7. My cousin swims better than I do.",
+        "8. Although the book is expensive, it is worth buying.",
+        "9. We will begin as soon as the principal arrives.",
+        "10. Even if he apologises, she may remain upset."
+      ],
+      "answers": [
+        "1. When the sun sets — time; tells when the birds return; conjunction: when.",
+        "2. Wherever you find a seat — place; tells where you may wait; conjunction: wherever.",
+        "3. So that the patient could understand — purpose; explains why the nurse spoke slowly; conjunction: so that.",
+        "4. Since the roads were slippery — cause/reason; explains why the driver reduced speed; conjunction: since.",
+        "5. Unless you revise the lesson — condition; states the condition for possibly forgetting; conjunction: unless.",
+        "6. So crowded that we could not find seats — result; gives the consequence of the hall being crowded; pattern: so ... that.",
+        "7. Than I do — comparison; compares swimming ability; conjunction: than (do stands for swim).",
+        "8. Although the book is expensive — concession; acknowledges a contrast; conjunction: although.",
+        "9. As soon as the principal arrives — time; tells when the lesson/event will begin; conjunction: as soon as.",
+        "10. Even if he apologises — supposition/condition with concessive force; presents a possibility that may not change the result; conjunction: even if."
+      ]
+    },
+    {
+      "title": "Detailed Exercises — Complete the sentences",
+      "english": "Complete each sentence with a suitable subordinating conjunction or conjunction pattern. More than one answer may sometimes be possible; choose one that preserves the intended meaning.",
+      "urdu": "ہر جملہ مناسب subordinating conjunction یا conjunction pattern سے مکمل کریں۔ بعض جگہ ایک سے زیادہ جواب ممکن ہیں؛ ایسا جواب منتخب کریں جو مطلوبہ مفہوم برقرار رکھے۔",
+      "sindhi": "هر جملو مناسب subordinating conjunction يا conjunction pattern سان مڪمل ڪريو. ڪٿي هڪ کان وڌيڪ جواب ممڪن آهن؛ اهڙو جواب چونڊيو جيڪو گهربل مطلب برقرار رکي.",
+      "questions": [
+        "1. I will tell you the news ______ I meet you.",
+        "2. Put the medicine ______ the children cannot reach it.",
+        "3. He lowered his voice ______ nobody would hear the secret.",
+        "4. ______ she was unwell, she attended the meeting.",
+        "5. You will not succeed ______ you work regularly.",
+        "6. The tea was ______ hot ______ I could not drink it.",
+        "7. This puzzle is more difficult ______ I expected.",
+        "8. ______ it costs more, this machine saves time.",
+        "9. We waited ______ the rain stopped.",
+        "10. You may go out ______ you finish your homework."
+      ],
+      "answers": [
+        "1. when / as soon as — time.",
+        "2. where — place (or where the children cannot reach it).",
+        "3. so that / in order that — purpose.",
+        "4. Although / Though / Even though — concession.",
+        "5. unless — negative condition; 'if you do not work regularly' is an equivalent meaning.",
+        "6. so ... that — result: so hot that.",
+        "7. than — comparison.",
+        "8. Although / Even though — concession.",
+        "9. until — time and endpoint.",
+        "10. if / provided that / as long as — condition."
+      ]
+    },
+    {
+      "title": "Detailed Exercises — Combine the sentences",
+      "english": "Join each pair into one sentence using the instruction in brackets. Keep the original meaning and use correct punctuation.",
+      "urdu": "قوسین میں دی گئی ہدایت کے مطابق ہر جوڑے کو ایک جملے میں ملائیں۔ اصل مفہوم برقرار رکھیں اور درست punctuation استعمال کریں۔",
+      "sindhi": "بريڪٽ ۾ ڏنل هدايت موجب هر جوڙي کي هڪ جملي ۾ گڏ ڪريو. اصل مطلب برقرار رکو ۽ صحيح punctuation استعمال ڪريو.",
+      "questions": [
+        "1. The bell rang. The pupils went out. (time: when)",
+        "2. You can find me. I work there. (place: where)",
+        "3. He wore glasses. He wanted to read the board. (purpose: so that)",
+        "4. The weather was stormy. The flight was cancelled. (reason: because)",
+        "5. You must wear a helmet. You ride a motorbike. (condition: if)",
+        "6. The child was very sleepy. He fell asleep immediately. (result: so ... that)",
+        "7. Sara is very careful. Her sister is equally careful. (comparison: as ... as)",
+        "8. The road was narrow. The driver passed safely. (concession: although)"
+      ],
+      "answers": [
+        "1. When the bell rang, the pupils went out.",
+        "2. You can find me where I work. (Or: Find me where I work.)",
+        "3. He wore glasses so that he could read the board.",
+        "4. Because the weather was stormy, the flight was cancelled.",
+        "5. If you ride a motorbike, you must wear a helmet.",
+        "6. The child was so sleepy that he fell asleep immediately.",
+        "7. Sara is as careful as her sister is.",
+        "8. Although the road was narrow, the driver passed safely."
+      ]
+    },
+    {
+      "title": "Detailed Exercises — Correct the errors",
+      "english": "Each sentence contains an error in conjunction, tense, punctuation or clause structure. Rewrite it correctly.",
+      "urdu": "ہر جملے میں conjunction، tense، punctuation یا clause کی ساخت کی غلطی ہے۔ اسے درست کرکے دوبارہ لکھیں۔",
+      "sindhi": "هر جملي ۾ conjunction، tense، punctuation يا clause جي بناوت جي غلطي آهي. ان کي صحيح ڪري ٻيهر لکو.",
+      "questions": [
+        "1. I will call you when I will arrive.",
+        "2. Because he was ill. He did not attend school.",
+        "3. Although it was cold, but we went swimming.",
+        "4. Unless you do not hurry, you will be late.",
+        "5. She whispered so that nobody heard her? (The intended meaning is purpose.)",
+        "6. The room was such dark that we could not see.",
+        "7. He is older then I am.",
+        "8. Wherever you will go, I will follow you."
+      ],
+      "answers": [
+        "1. I will call you when I arrive. (Use present tense in the future time clause.)",
+        "2. Because he was ill, he did not attend school. (Join the fragment to the main clause.)",
+        "3. Although it was cold, we went swimming. (Remove but.)",
+        "4. Unless you hurry, you will be late. (Unless already means if ... not.)",
+        "5. She whispered so that nobody would hear her. (Use would to express the intended purpose in the past.)",
+        "6. The room was so dark that we could not see. (So + adjective + that.)",
+        "7. He is older than I am. (Than is used in comparisons; then refers to time or sequence.)",
+        "8. Wherever you go, I will follow you. (Use present tense in this future-oriented clause.)"
+      ]
+    },
+    {
+      "title": "Detailed Exercises — Translate into English",
+      "english": "Translate each sentence into English using the type of adverb clause shown.",
+      "urdu": "درج ذیل جملوں کا انگریزی میں ترجمہ کریں اور مطلوبہ قسم کا Adverb Clause استعمال کریں۔",
+      "sindhi": "هيٺ ڏنل جملن جو انگريزيءَ ۾ ترجمو ڪريو ۽ گهربل قسم جو Adverb Clause استعمال ڪريو.",
+      "questions": [
+        "1. جب بارش رکی تو ہم باہر نکلے۔ (time)",
+        "2. جہاں تمہیں مناسب لگے وہاں بیٹھ جاؤ۔ (place)",
+        "3. وہ آہستہ بولی تاکہ بچہ جاگ نہ جائے۔ (purpose)",
+        "4. چونکہ راستہ بند تھا، ہم واپس آگئے۔ (reason)",
+        "5. اگر تم روزانہ پڑھو گے تو بہتر لکھو گے۔ (condition)",
+        "6. وہ اتنا تھکا ہوا تھا کہ فوراً سو گیا۔ (result)",
+        "7. وہ اپنے بھائی کی طرح تیز دوڑتا ہے۔ (comparison)",
+        "8. اگرچہ وہ غریب ہے، وہ ایماندار ہے۔ (concession)"
+      ],
+      "answers": [
+        "1. When the rain stopped, we went outside.",
+        "2. Sit wherever you think is suitable. (Also: Sit where you feel comfortable.)",
+        "3. She spoke quietly so that the baby would not wake up.",
+        "4. Since/Because the road was closed, we returned.",
+        "5. If you study every day, you will write better.",
+        "6. He was so tired that he fell asleep immediately.",
+        "7. He runs as fast as his brother does.",
+        "8. Although he is poor, he is honest."
+      ]
+    },
+    {
+      "title": "Answer-writing and self-assessment",
+      "english": "For full marks, do not write only 'time' or 'reason'. Quote the complete subordinate clause, name its type, identify its conjunction, and explain the question it answers. In a rewriting exercise, check that both clauses remain complete and that the conjunction expresses the intended relationship. Suggested marking: 1 mark for identifying the clause, 1 for correct classification, 1 for the conjunction, and 1 for a clear explanation per item.",
+      "urdu": "مکمل نمبر لینے کے لیے صرف 'time' یا 'reason' نہ لکھیں۔ پورا تابع جملہ نقل کریں، اس کی قسم بتائیں، conjunction کی نشاندہی کریں اور واضح کریں کہ یہ کس سوال کا جواب دیتا ہے۔ جملہ تبدیل کرتے وقت دونوں clauses مکمل رکھیں اور درست تعلق ظاہر کریں۔ تجویز کردہ نمبر: clause کی شناخت 1، درست قسم 1، conjunction 1، اور وضاحت 1 نمبر۔",
+      "sindhi": "پورا نمبر حاصل ڪرڻ لاءِ رڳو 'time' يا 'reason' نه لکو. پورو تابع جملو لکو، ان جو قسم ٻڌايو، conjunction سڃاڻو ۽ واضح ڪريو ته اهو ڪهڙي سوال جو جواب ڏئي ٿو. جملو بدلائيندي ٻنهي clauses کي مڪمل رکو ۽ صحيح لاڳاپو ظاهر ڪريو. تجويز ڪيل نمبر: clause سڃاڻڻ 1، صحيح قسم 1، conjunction 1 ۽ وضاحت 1 نمبر."
+    }
+  ],
+  "specialSections": [
+    {
+      "title": "1. Adverb Clauses of Time",
+      "english": "An adverb clause of time tells when, how long, or how often the action in the main clause happens. It is introduced by subordinating conjunctions such as when, whenever, while, as, before, after, until, since, as soon as, once and by the time. The clause has its own subject and finite verb. It may come before or after the main clause. When it comes first, a comma normally separates it from the main clause. For future time, use a present tense in the time clause, not will: I will call you when I arrive.",
+      "urdu": "Adverb Clause of Time وہ تابع جملہ ہے جو بتاتا ہے کہ مرکزی جملے کا کام کب، کتنی دیر یا کتنی بار ہوتا ہے۔ اس کے آغاز میں when, while, before, after, until, since, as soon as اور whenever جیسے الفاظ آتے ہیں۔ اس میں اپنا فاعل اور فعل ہوتا ہے۔ اگر یہ پہلے آئے تو عموماً اس کے بعد comma لگتا ہے۔ مستقبل کے مفہوم میں time clause کے اندر عموماً will کے بجائے Present Simple استعمال ہوتا ہے: I will call you when I arrive۔",
+      "sindhi": "Adverb Clause of Time اهو تابع جملو آهي جيڪو ٻڌائي ٿو ته مکيه جملي جو ڪم ڪڏهن، ڪيتري دير يا ڪيتري ڀيرا ٿئي ٿو. ان جي شروعات when، while، before، after، until، since، as soon as ۽ whenever جهڙن لفظن سان ٿيندي آهي. ان ۾ پنهنجو فاعل ۽ فعل هوندو آهي. جيڪڏهن اهو پهرين اچي ته عام طور ان کان پوءِ ڪاما ڏبي آهي. مستقبل جي معنيٰ ۾ time clause اندر عام طور will بدران Present Simple استعمال ٿيندو آهي: I will call you when I arrive.",
+      "subsections": [
+        {
+          "title": "Common subordinating conjunctions",
+          "english": "when, whenever, while, as, before, after, until, since, as soon as, once, by the time",
+          "urdu": "اس قسم کے عام رابطہ الفاظ اوپر درج ہیں۔ جملے کے مفہوم کے مطابق درست لفظ منتخب کریں۔",
+          "sindhi": "هن قسم جا عام ڳنڍيندڙ لفظ مٿي ڏنل آهن. جملي جي مطلب موجب صحيح لفظ چونڊيو."
+        }
+      ],
+      "examples": [
+        [
+          "When the bell rang, the students entered the classroom.",
+          "جب گھنٹی بجی تو طلبہ جماعت میں داخل ہوئے۔",
+          "جڏهن گهنٽي وڳي ته شاگرد ڪلاس ۾ داخل ٿيا.",
+          "When the bell rang tells when the students entered; it is the time clause."
+        ],
+        [
+          "I will phone you as soon as I reach home.",
+          "گھر پہنچتے ہی میں تمہیں فون کروں گا۔",
+          "گهر پهچندي ئي مان توکي فون ڪندس.",
+          "As soon as I reach home gives the time of the future phone call. The time clause uses present tense."
+        ],
+        [
+          "She was reading while her brother was cooking.",
+          "جب اس کا بھائی کھانا بنا رہا تھا تو وہ پڑھ رہی تھی۔",
+          "جڏهن سندس ڀاءُ ماني پچائي رهيو هو ته هوءَ پڙهي رهي هئي.",
+          "While her brother was cooking shows two actions happening at the same time."
+        ],
+        [
+          "Wash your hands before you eat.",
+          "کھانا کھانے سے پہلے اپنے ہاتھ دھوئیں۔",
+          "ماني کائڻ کان اڳ پنهنجا هٿ ڌوئو.",
+          "Before you eat tells when the hands should be washed."
+        ],
+        [
+          "After the rain stopped, we went outside.",
+          "بارش رکنے کے بعد ہم باہر گئے۔",
+          "مينهن بند ٿيڻ کان پوءِ اسين ٻاهر وياسين.",
+          "After the rain stopped gives the time relationship; the clause comes first, so a comma follows it."
+        ],
+        [
+          "Wait here until the doctor calls you.",
+          "یہاں انتظار کرو جب تک ڈاکٹر تمہیں نہ بلائے۔",
+          "هتي انتظار ڪر جيستائين ڊاڪٽر توکي نه سڏي.",
+          "Until the doctor calls you marks the endpoint of waiting."
+        ],
+        [
+          "I have known her since we were children.",
+          "میں اسے تب سے جانتا ہوں جب ہم بچے تھے۔",
+          "مان کيس تڏهن کان سڃاڻان ٿو جڏهن اسين ٻار هئاسين.",
+          "Since we were children gives the starting point of the period of knowing."
+        ],
+        [
+          "Whenever my grandfather visits, he tells us stories.",
+          "جب بھی میرے دادا آتے ہیں، وہ ہمیں کہانیاں سناتے ہیں۔",
+          "جڏهن به منهنجو ڏاڏو اچي ٿو، هو اسان کي ڪهاڻيون ٻڌائي ٿو.",
+          "Whenever expresses repeated occasions and tells when he tells stories."
+        ],
+        [
+          "By the time the train arrived, we had bought our tickets.",
+          "جب تک ٹرین پہنچی، ہم ٹکٹ خرید چکے تھے۔",
+          "جيسين ريل پهتي، اسان ٽڪيٽون خريد ڪري چڪا هئاسين.",
+          "By the time links the arrival with an action already completed before it."
+        ],
+        [
+          "Once you finish the exercise, check your answers.",
+          "جیسے ہی تم مشق مکمل کر لو، اپنے جواب جانچو۔",
+          "جڏهن تون مشق مڪمل ڪرين، تڏهن پنهنجا جواب جاچ.",
+          "Once you finish gives the time condition for checking; it means after finishing."
+        ]
+      ]
+    },
+    {
+      "title": "2. Adverb Clauses of Place",
+      "english": "An adverb clause of place tells where the action happens or where something exists or moves. It is commonly introduced by where or wherever. The clause contains a subject and a verb and modifies the main verb or the whole main clause. Wherever often means 'in any place in which'. Do not confuse a place clause with a prepositional phrase: where you left it is a clause, while on the table is a phrase.",
+      "urdu": "Adverb Clause of Place وہ تابع جملہ ہے جو بتاتا ہے کہ کام کہاں ہوتا ہے یا کوئی چیز کہاں موجود ہے یا حرکت کرتی ہے۔ یہ عموماً where اور wherever سے شروع ہوتا ہے۔ اس میں فاعل اور فعل دونوں ہوتے ہیں اور یہ مرکزی فعل یا پورے مرکزی جملے کی وضاحت کرتا ہے۔ جہاں you left it ایک clause ہے، جبکہ on the table ایک phrase ہے۔",
+      "sindhi": "Adverb Clause of Place اهو تابع جملو آهي جيڪو ٻڌائي ٿو ته ڪم ڪٿي ٿئي ٿو يا ڪا شيءِ ڪٿي موجود آهي يا حرڪت ڪري ٿي. اهو عام طور where ۽ wherever سان شروع ٿئي ٿو. ان ۾ فاعل ۽ فعل ٻئي هوندا آهن ۽ اهو مکيه فعل يا جملي جي وضاحت ڪندو آهي. where you left it هڪ clause آهي، جڏهن ته on the table هڪ phrase آهي.",
+      "subsections": [
+        {
+          "title": "Common subordinating conjunctions",
+          "english": "where, wherever",
+          "urdu": "اس قسم کے عام رابطہ الفاظ اوپر درج ہیں۔ جملے کے مفہوم کے مطابق درست لفظ منتخب کریں۔",
+          "sindhi": "هن قسم جا عام ڳنڍيندڙ لفظ مٿي ڏنل آهن. جملي جي مطلب موجب صحيح لفظ چونڊيو."
+        }
+      ],
+      "examples": [
+        [
+          "Put the keys where you can find them easily.",
+          "چابیاں وہاں رکھو جہاں تم انہیں آسانی سے تلاش کر سکو۔",
+          "چاٻيون اتي رک جتي تون انهن کي آسانيءَ سان ڳولي سگهين.",
+          "Where you can find them easily tells where to put the keys."
+        ],
+        [
+          "Wherever the river flows, green fields appear.",
+          "جہاں کہیں دریا بہتا ہے، وہاں سرسبز کھیت دکھائی دیتے ہیں۔",
+          "جتي به درياهه وهي ٿو، اتي ساوا کيت نظر اچن ٿا.",
+          "Wherever the river flows indicates the places in which green fields appear."
+        ],
+        [
+          "The children followed the guide wherever he went.",
+          "بچے رہنما کے پیچھے گئے جہاں کہیں وہ گیا۔",
+          "ٻار رهنما جي پٺيان ويا، جتي به هو ويو.",
+          "Wherever he went tells the places to which the children followed him."
+        ],
+        [
+          "You may sit where you feel comfortable.",
+          "تم وہاں بیٹھ سکتے ہو جہاں تم آرام محسوس کرو۔",
+          "تون اتي ويهي سگهين ٿو جتي توکي آرام محسوس ٿئي.",
+          "Where you feel comfortable identifies the place in which sitting is permitted."
+        ],
+        [
+          "Stay where I can see you.",
+          "وہیں رہو جہاں میں تمہیں دیکھ سکوں۔",
+          "اتي بيهه جتي مان توکي ڏسي سگهان.",
+          "Where I can see you tells the required location."
+        ],
+        [
+          "The dog sleeps wherever it finds a warm place.",
+          "کتا جہاں بھی گرم جگہ پاتا ہے، وہیں سو جاتا ہے۔",
+          "ڪتو جتي به گرم جاءِ لهي ٿو، اتي سمهي پوي ٿو.",
+          "Wherever it finds a warm place expresses any place meeting the condition."
+        ],
+        [
+          "We will build the library where the old hall stands.",
+          "ہم لائبریری وہاں بنائیں گے جہاں پرانا ہال ہے۔",
+          "اسين لائبريري اتي ٺاهينداسين جتي پراڻو هال بيٺل آهي.",
+          "Where the old hall stands identifies the location of the library."
+        ],
+        [
+          "Wherever you travel, keep your documents safe.",
+          "تم جہاں بھی سفر کرو، اپنی دستاویزات محفوظ رکھو۔",
+          "تون جتي به سفر ڪرين، پنهنجا ڪاغذ محفوظ رک.",
+          "Wherever you travel means in any place you travel to."
+        ],
+        [
+          "The bird flew where the trees were thickest.",
+          "پرندہ وہاں اڑا جہاں درخت سب سے گھنے تھے۔",
+          "پکي اتي اڏاڻو جتي وڻ سڀ کان گهاٽا هئا.",
+          "Where the trees were thickest tells the destination of the bird's flight."
+        ],
+        [
+          "I found the notebook where you said it would be.",
+          "مجھے کاپی وہاں ملی جہاں تم نے کہا تھا کہ وہ ہوگی۔",
+          "مون کي ڪاپي اتي ملي جتي تو چيو هو ته اها هوندي.",
+          "Where you said it would be identifies the place where the notebook was found."
+        ]
+      ]
+    },
+    {
+      "title": "3. Adverb Clauses of Purpose",
+      "english": "An adverb clause of purpose explains the intention or aim behind the action in the main clause. Common subordinators are so that and in order that. They are often followed by can, could, may, might or will, depending on the time and meaning. The subject of the purpose clause may differ from the subject of the main clause. Use so that to express the intended result, not merely an actual result. Compare purpose ('She whispered so that nobody would hear') with result ('She spoke so loudly that everyone heard').",
+      "urdu": "Adverb Clause of Purpose مرکزی جملے میں کیے گئے کام کا مقصد یا نیت بیان کرتا ہے۔ اس کے لیے so that اور in order that استعمال ہوتے ہیں۔ ان کے بعد معنی اور زمانے کے مطابق can, could, may, might یا will آ سکتے ہیں۔ مقصد اور نتیجے میں فرق رکھیں: She whispered so that nobody would hear میں مقصد ہے کہ کوئی نہ سنے۔",
+      "sindhi": "Adverb Clause of Purpose مکيه جملي ۾ ڪيل ڪم جو مقصد يا ارادو ٻڌائي ٿو. ان لاءِ so that ۽ in order that استعمال ٿيندا آهن. مطلب ۽ زماني موجب انهن کان پوءِ can، could، may، might يا will اچي سگهن ٿا. مقصد ۽ نتيجي ۾ فرق رکو: She whispered so that nobody would hear ۾ مقصد اهو آهي ته ڪو به نه ٻڌي.",
+      "subsections": [
+        {
+          "title": "Common subordinating conjunctions",
+          "english": "so that, in order that",
+          "urdu": "اس قسم کے عام رابطہ الفاظ اوپر درج ہیں۔ جملے کے مفہوم کے مطابق درست لفظ منتخب کریں۔",
+          "sindhi": "هن قسم جا عام ڳنڍيندڙ لفظ مٿي ڏنل آهن. جملي جي مطلب موجب صحيح لفظ چونڊيو."
+        }
+      ],
+      "examples": [
+        [
+          "She studies hard so that she can pass the examination.",
+          "وہ محنت سے پڑھتی ہے تاکہ امتحان پاس کر سکے۔",
+          "هوءَ محنت سان پڙهي ٿي ته جيئن امتحان پاس ڪري سگهي.",
+          "So that she can pass explains the purpose of studying hard."
+        ],
+        [
+          "We left early so that we would not miss the train.",
+          "ہم جلدی روانہ ہوئے تاکہ ٹرین نہ چھوٹ جائے۔",
+          "اسين سوير روانا ٿياسين ته جيئن ريل نه وڃائجي.",
+          "So that we would not miss the train states the intended purpose of leaving early."
+        ],
+        [
+          "He saved money in order that his daughter might attend university.",
+          "اس نے پیسے بچائے تاکہ اس کی بیٹی یونیورسٹی جا سکے۔",
+          "هن پئسا بچايا ته جيئن سندس ڌيءَ يونيورسٽي وڃي سگهي.",
+          "In order that introduces the aim of saving money."
+        ],
+        [
+          "Speak clearly so that everyone can understand you.",
+          "صاف بولیں تاکہ ہر شخص آپ کو سمجھ سکے۔",
+          "صاف ڳالهايو ته جيئن هر ڪو اوهان کي سمجهي سگهي.",
+          "So that everyone can understand you gives the purpose of speaking clearly."
+        ],
+        [
+          "The teacher repeated the rule so that the pupils could remember it.",
+          "استاد نے قاعدہ دہرایا تاکہ شاگرد اسے یاد رکھ سکیں۔",
+          "استاد قاعدو ورجايو ته جيئن شاگرد اهو ياد رکي سگهن.",
+          "The purpose clause explains why the teacher repeated the rule."
+        ],
+        [
+          "I wrote the address down in order that I might not forget it.",
+          "میں نے پتہ لکھ لیا تاکہ اسے بھول نہ جاؤں۔",
+          "مون پتو لکي ڇڏيو ته جيئن اهو نه وساريان.",
+          "In order that I might not forget it states the intention behind writing."
+        ],
+        [
+          "They closed the windows so that the dust would not enter.",
+          "انہوں نے کھڑکیاں بند کر دیں تاکہ گرد اندر نہ آئے۔",
+          "انهن دريون بند ڪيون ته جيئن مٽي اندر نه اچي.",
+          "So that the dust would not enter expresses the intended prevention."
+        ],
+        [
+          "She carried a torch so that the children could see the path.",
+          "وہ ٹارچ لے کر چلی تاکہ بچے راستہ دیکھ سکیں۔",
+          "هوءَ ٽارچ کڻي هلي ته جيئن ٻار رستو ڏسي سگهن.",
+          "The clause gives the reason as an aim: helping the children see."
+        ],
+        [
+          "The manager held a meeting in order that every worker might share an idea.",
+          "منیجر نے اجلاس کیا تاکہ ہر کارکن اپنی رائے دے سکے۔",
+          "مئنيجر گڏجاڻي ڪئي ته جيئن هر ڪم ڪندڙ پنهنجي راءِ ڏئي سگهي.",
+          "In order that introduces the objective of holding the meeting."
+        ],
+        [
+          "Please lock the gate so that the cattle cannot wander away.",
+          "براہِ کرم دروازہ بند کر دیں تاکہ مویشی بھٹک نہ جائیں۔",
+          "مهرباني ڪري دروازو بند ڪريو ته جيئن مال ڀٽڪي نه وڃي.",
+          "So that the cattle cannot wander away explains the purpose of locking the gate."
+        ]
+      ]
+    },
+    {
+      "title": "4. Adverb Clauses of Cause and Reason",
+      "english": "An adverb clause of cause or reason explains why the action or situation in the main clause occurs. It is commonly introduced by because, since or as. Because gives a direct, clear reason and can appear at the beginning or end. Since and as often introduce a reason already known or less emphasized. When a because-clause comes first, use a comma after it; when it comes after the main clause, a comma is usually unnecessary. Do not use because and so together to join the same two clauses in standard formal writing.",
+      "urdu": "Adverb Clause of Cause or Reason بتاتا ہے کہ مرکزی جملے کا کام کیوں ہوا۔ یہ because, since یا as سے شروع ہو سکتا ہے۔ Because واضح وجہ بتاتا ہے، جبکہ since اور as اکثر معلوم یا کم نمایاں وجہ کے لیے آتے ہیں۔ شروع میں آنے والے تابع جملے کے بعد comma لگائیں۔ رسمی انگریزی میں ایک ہی تعلق کے لیے because اور so کو اکٹھا استعمال نہ کریں۔",
+      "sindhi": "Adverb Clause of Cause or Reason ٻڌائي ٿو ته مکيه جملي جو ڪم ڇو ٿيو. اهو because، since يا as سان شروع ٿي سگهي ٿو. Because صاف سبب ٻڌائي ٿو، جڏهن ته since ۽ as اڪثر اڳ ئي معلوم يا گهٽ زور واري سبب لاءِ اچن ٿا. شروع ۾ ايندڙ تابع جملي کان پوءِ ڪاما ڏيو. معياري رسمي انگريزيءَ ۾ ساڳئي لاڳاپي لاءِ because ۽ so گڏ استعمال نه ڪريو.",
+      "subsections": [
+        {
+          "title": "Common subordinating conjunctions",
+          "english": "because, since, as",
+          "urdu": "اس قسم کے عام رابطہ الفاظ اوپر درج ہیں۔ جملے کے مفہوم کے مطابق درست لفظ منتخب کریں۔",
+          "sindhi": "هن قسم جا عام ڳنڍيندڙ لفظ مٿي ڏنل آهن. جملي جي مطلب موجب صحيح لفظ چونڊيو."
+        }
+      ],
+      "examples": [
+        [
+          "Because the road was flooded, the school remained closed.",
+          "چونکہ سڑک پر پانی بھر گیا تھا، اس لیے اسکول بند رہا۔",
+          "ڇو ته رستي تي پاڻي ڀرجي ويو هو، تنهنڪري اسڪول بند رهيو.",
+          "Because the road was flooded gives the reason the school remained closed."
+        ],
+        [
+          "We stayed indoors because it was raining heavily.",
+          "ہم گھر کے اندر رہے کیونکہ تیز بارش ہو رہی تھی۔",
+          "اسين اندر رهياسين، ڇاڪاڻ⁠تہ تيز مينهن پئي پيو.",
+          "Because it was raining heavily explains why we stayed indoors."
+        ],
+        [
+          "Since you are ready, we can begin the lesson.",
+          "چونکہ تم تیار ہو، ہم سبق شروع کر سکتے ہیں۔",
+          "جيئن ته تون تيار آهين، اسين سبق شروع ڪري سگهون ٿا.",
+          "Since you are ready gives the reason for beginning now."
+        ],
+        [
+          "As the shop was closed, we returned home.",
+          "چونکہ دکان بند تھی، ہم گھر واپس آ گئے۔",
+          "دڪان بند هئڻ ڪري اسين گهر موٽي آياسين.",
+          "As the shop was closed explains why we returned home."
+        ],
+        [
+          "The match was postponed because the ground was wet.",
+          "میچ ملتوی کر دیا گیا کیونکہ میدان گیلا تھا۔",
+          "ميچ ملتوي ڪيو ويو، ڇاڪاڻ⁠تہ ميدان آلو هو.",
+          "The because-clause states the cause of postponement."
+        ],
+        [
+          "Because she had practised daily, she performed confidently.",
+          "چونکہ اس نے روزانہ مشق کی تھی، اس نے اعتماد سے کارکردگی دکھائی۔",
+          "ڇو ته هن روزانو مشق ڪئي هئي، تنهنڪري هن اعتماد سان ڪارڪردگي ڏيکاري.",
+          "The clause gives the reason for her confident performance."
+        ],
+        [
+          "Since the bus had not arrived, the passengers waited.",
+          "چونکہ بس نہیں آئی تھی، مسافر انتظار کرتے رہے۔",
+          "جيئن ته بس نه پهتي هئي، مسافر انتظار ڪندا رهيا.",
+          "Since the bus had not arrived explains the passengers' waiting."
+        ],
+        [
+          "As nobody objected, the plan was accepted.",
+          "چونکہ کسی نے اعتراض نہیں کیا، منصوبہ منظور کر لیا گیا۔",
+          "ڪنهن به اعتراض نه ڪيو، تنهنڪري منصوبو قبول ڪيو ويو.",
+          "As nobody objected gives the reason for accepting the plan."
+        ],
+        [
+          "He wore a coat because the weather was cold.",
+          "اس نے کوٹ پہنا کیونکہ موسم سرد تھا۔",
+          "هن ڪوٽ پاتو، ڇاڪاڻ⁠تہ موسم ٿڌو هو.",
+          "Because the weather was cold tells why he wore a coat."
+        ],
+        [
+          "Because the child was tired, she went to bed early.",
+          "چونکہ بچی تھکی ہوئی تھی، وہ جلد سو گئی۔",
+          "ڇو ته ٻارڙي ٿڪل هئي، تنهنڪري هوءَ جلدي سمهي پئي.",
+          "The subordinate clause gives the cause of going to bed early."
+        ]
+      ]
+    },
+    {
+      "title": "5. Adverb Clauses of Condition",
+      "english": "An adverb clause of condition states the condition that must be met for the main-clause action or situation to happen. Common conjunctions include if, unless, provided (that), providing (that), as long as, in case and on condition that. Unless generally means 'if ... not'. In real future conditions, use a present tense in the if-clause and will or an imperative in the main clause: If it rains, we will stay home. Do not normally write 'If it will rain'. A condition clause can be real, possible, hypothetical or unreal.",
+      "urdu": "Adverb Clause of Condition وہ شرط بیان کرتا ہے جس کے پورا ہونے پر مرکزی جملے کا کام ممکن ہوتا ہے۔ عام الفاظ if, unless, provided that, as long as اور in case ہیں۔ Unless کا مطلب عموماً if...not ہے۔ حقیقی مستقبل کی شرط میں if-clause کے اندر Present Simple اور مرکزی جملے میں will استعمال ہوتا ہے: If it rains, we will stay home۔",
+      "sindhi": "Adverb Clause of Condition اها شرط ٻڌائي ٿو جيڪا پوري ٿيڻ تي مکيه جملي جو ڪم ممڪن ٿئي ٿو. عام لفظ if، unless، provided that، as long as ۽ in case آهن. Unless جي معنيٰ عام طور if...not آهي. مستقبل جي حقيقي شرط ۾ if-clause اندر Present Simple ۽ مکيه جملي ۾ will ايندو آهي: If it rains, we will stay home.",
+      "subsections": [
+        {
+          "title": "Common subordinating conjunctions",
+          "english": "if, unless, provided that, providing that, as long as, in case, on condition that",
+          "urdu": "اس قسم کے عام رابطہ الفاظ اوپر درج ہیں۔ جملے کے مفہوم کے مطابق درست لفظ منتخب کریں۔",
+          "sindhi": "هن قسم جا عام ڳنڍيندڙ لفظ مٿي ڏنل آهن. جملي جي مطلب موجب صحيح لفظ چونڊيو."
+        }
+      ],
+      "examples": [
+        [
+          "If you work hard, you will improve your English.",
+          "اگر تم محنت کرو گے تو تمہاری انگریزی بہتر ہو جائے گی۔",
+          "جيڪڏهن تون محنت ڪندين ته تنهنجي انگريزي بهتر ٿيندي.",
+          "If you work hard states the condition for improving English."
+        ],
+        [
+          "Unless you hurry, you will miss the bus.",
+          "اگر تم جلدی نہیں کرو گے تو بس چھوٹ جائے گی۔",
+          "جيڪڏهن تون جلدي نه ڪندين ته بس وڃائي ويهندين.",
+          "Unless you hurry means if you do not hurry."
+        ],
+        [
+          "You may borrow my dictionary provided that you return it tomorrow.",
+          "تم میری لغت لے سکتے ہو بشرطیکہ کل واپس کر دو۔",
+          "تون منهنجي لغت وٺي سگهين ٿو، بشرطيڪ سڀاڻي واپس ڪرين.",
+          "Provided that introduces the condition for borrowing the dictionary."
+        ],
+        [
+          "As long as you follow the rules, you can use the laboratory.",
+          "جب تک تم قواعد کی پابندی کرو گے، تم تجربہ گاہ استعمال کر سکتے ہو۔",
+          "جيستائين تون قاعدن تي عمل ڪندين، تون ليبارٽري استعمال ڪري سگهندين.",
+          "As long as means on the condition that the rules are followed."
+        ],
+        [
+          "In case the weather changes, take an umbrella.",
+          "اگر موسم بدل جائے تو چھتری ساتھ لے جانا۔",
+          "جيڪڏهن موسم بدلجي وڃي ته ڇٽي کڻي وڃجانءِ.",
+          "In case introduces a precaution for a possible condition."
+        ],
+        [
+          "If I had more time, I would learn another language.",
+          "اگر میرے پاس زیادہ وقت ہوتا تو میں ایک اور زبان سیکھتا۔",
+          "جيڪڏهن مون وٽ وڌيڪ وقت هجي ها ته مان ٻي ٻولي سکان ها.",
+          "This is a hypothetical condition; the past form had refers to an unreal present situation."
+        ],
+        [
+          "If she had studied, she would have passed.",
+          "اگر اس نے پڑھائی کی ہوتی تو وہ پاس ہو گئی ہوتی۔",
+          "جيڪڏهن هن پڙهيو هجي ها ته هوءَ پاس ٿي وڃي ها.",
+          "This is an unreal past condition: past perfect in the if-clause and would have + V3 in the main clause."
+        ],
+        [
+          "You can join the trip on condition that your parents agree.",
+          "تم سیر میں شامل ہو سکتے ہو بشرطیکہ تمہارے والدین راضی ہوں۔",
+          "تون سير ۾ شامل ٿي سگهين ٿو، بشرطيڪ تنهنجا والدين راضي ٿين.",
+          "On condition that states the requirement for joining."
+        ],
+        [
+          "If the package arrives today, please inform me.",
+          "اگر پارسل آج پہنچ جائے تو مجھے اطلاع دینا۔",
+          "جيڪڏهن پارسل اڄ پهچي ته مهرباني ڪري مون کي ٻڌائجانءِ.",
+          "If the package arrives gives the condition for informing me."
+        ],
+        [
+          "Unless we protect forests, many animals will lose their homes.",
+          "اگر ہم جنگلات کی حفاظت نہیں کریں گے تو بہت سے جانور اپنے گھر کھو دیں گے۔",
+          "جيڪڏهن اسين ٻيلن جي حفاظت نه ڪنداسين ته ڪيترائي جانور پنهنجا گهر وڃائي ويهندا.",
+          "Unless we protect forests means if we do not protect them; it states a necessary condition."
+        ]
+      ]
+    },
+    {
+      "title": "6. Adverb Clauses of Result or Consequence",
+      "english": "An adverb clause of result or consequence expresses what happens as a consequence of the situation in the main clause. It is often introduced by so ... that or such ... that. So is followed by an adjective or adverb before that (so tired that; so quickly that). Such is followed by a noun phrase before that (such a difficult task that; such kind people that). The result clause usually follows the main clause. Do not confuse result with purpose: a result is what actually happens, while a purpose is what someone intends to happen.",
+      "urdu": "Adverb Clause of Result or Consequence مرکزی جملے کی صورتِ حال کا نتیجہ بیان کرتا ہے۔ یہ اکثر so...that یا such...that سے بنتا ہے۔ So کے بعد صفت یا متعلقِ فعل آتا ہے، جیسے so tired that؛ جبکہ such کے بعد اسم والا فقرہ آتا ہے، جیسے such a difficult task that۔ نتیجے اور مقصد میں فرق ہے: نتیجہ حقیقت میں پیش آنے والی بات ہے، جبکہ مقصد ارادہ ہوتا ہے۔",
+      "sindhi": "Adverb Clause of Result or Consequence مکيه جملي جي حالت جو نتيجو ٻڌائي ٿو. اهو اڪثر so...that يا such...that سان ٺهندو آهي. So کان پوءِ صفت يا ظرف ايندو آهي، جيئن so tired that؛ جڏهن ته such کان پوءِ اسم وارو فقرو ايندو آهي، جيئن such a difficult task that. نتيجي ۽ مقصد ۾ فرق آهي: نتيجو حقيقت ۾ پيش ايندڙ ڳالهه آهي، جڏهن ته مقصد ارادو هوندو آهي.",
+      "subsections": [
+        {
+          "title": "Common subordinating conjunctions",
+          "english": "so ... that, such ... that",
+          "urdu": "اس قسم کے عام رابطہ الفاظ اوپر درج ہیں۔ جملے کے مفہوم کے مطابق درست لفظ منتخب کریں۔",
+          "sindhi": "هن قسم جا عام ڳنڍيندڙ لفظ مٿي ڏنل آهن. جملي جي مطلب موجب صحيح لفظ چونڊيو."
+        }
+      ],
+      "examples": [
+        [
+          "The box was so heavy that I could not lift it.",
+          "ڈبہ اتنا بھاری تھا کہ میں اسے اٹھا نہ سکا۔",
+          "دٻو ايترو ڳرو هو جو مان ان کي کڻي نه سگهيس.",
+          "So heavy that introduces the consequence of the box's weight."
+        ],
+        [
+          "She spoke so softly that nobody heard her.",
+          "وہ اتنی آہستہ بولی کہ کسی نے اسے نہیں سنا۔",
+          "هوءَ ايترو آهستي ڳالهائي جو ڪنهن به کيس نه ٻڌو.",
+          "The result of speaking softly was that nobody heard her."
+        ],
+        [
+          "It was such a cold day that the lake froze.",
+          "دن اتنا سرد تھا کہ جھیل جم گئی۔",
+          "ڏينهن ايترو ٿڌو هو جو ڍنڍ ڄمي وئي.",
+          "Such a cold day is a noun phrase; the that-clause gives the consequence."
+        ],
+        [
+          "He ran so fast that he won the race.",
+          "وہ اتنی تیزی سے دوڑا کہ دوڑ جیت گیا۔",
+          "هو ايترو تيزيءَ سان ڊوڙيو جو ڊوڙ کٽي ويو.",
+          "So fast describes the degree of running; the clause states the result."
+        ],
+        [
+          "They made such a loud noise that the baby woke up.",
+          "انہوں نے اتنا شور کیا کہ بچہ جاگ گیا۔",
+          "انهن ايترو وڏو شور ڪيو جو ٻار جاڳي پيو.",
+          "Such a loud noise is followed by the consequence that the baby woke."
+        ],
+        [
+          "The question was so difficult that few students answered it.",
+          "سوال اتنا مشکل تھا کہ چند طلبہ ہی اس کا جواب دے سکے۔",
+          "سوال ايترو ڏکيو هو جو ٿورن شاگردن ئي جواب ڏنو.",
+          "So difficult gives the degree that led to the stated result."
+        ],
+        [
+          "She is such a helpful neighbour that everyone likes her.",
+          "وہ اتنی مددگار پڑوسن ہے کہ ہر کوئی اسے پسند کرتا ہے۔",
+          "هوءَ اهڙي مددگار پاڙيسري آهي جو هر ڪو کيس پسند ڪري ٿو.",
+          "Such a helpful neighbour introduces a noun phrase; the clause gives the consequence."
+        ],
+        [
+          "The water was so dirty that we could not drink it.",
+          "پانی اتنا گندا تھا کہ ہم اسے پی نہ سکے۔",
+          "پاڻي ايترو گندو هو جو اسين پي نه سگهياسين.",
+          "The that-clause states the consequence of the water's condition."
+        ],
+        [
+          "He had so little time that he skipped lunch.",
+          "اس کے پاس اتنا کم وقت تھا کہ اس نے دوپہر کا کھانا چھوڑ دیا۔",
+          "هن وٽ ايترو ٿورو وقت هو جو هن منجهند جي ماني ڇڏي ڏني.",
+          "So little time expresses degree; skipping lunch was the consequence."
+        ],
+        [
+          "It was such an exciting story that I read it twice.",
+          "کہانی اتنی دلچسپ تھی کہ میں نے اسے دو بار پڑھا۔",
+          "ڪهاڻي ايتري دلچسپ هئي جو مون اها ٻه ڀيرا پڙهي.",
+          "Such an exciting story introduces the reason-like degree; the clause gives the actual result."
+        ]
+      ]
+    },
+    {
+      "title": "7. Adverb Clauses of Comparison",
+      "english": "An adverb clause of comparison compares an action, quality or degree in the main clause with another. Common patterns include than, as ... as, not so/as ... as, and the more ... the more. The compared elements should be logically parallel. In formal or careful writing, a subject pronoun with an understood verb may be used (She is taller than I am); everyday English often omits the repeated verb (than me). Comparison clauses may contain ellipsis, where words are understood but not repeated.",
+      "urdu": "Adverb Clause of Comparison مرکزی جملے کے کام، خوبی یا مقدار کا کسی دوسری چیز سے موازنہ کرتا ہے۔ عام ساختیں than، as...as، not so/as...as اور the more...the more ہیں۔ موازنہ منطقی اور متوازی ہونا چاہیے۔ رسمی انداز میں مکمل فعل لکھا جا سکتا ہے: She is taller than I am۔",
+      "sindhi": "Adverb Clause of Comparison مکيه جملي جي ڪم، خوبي يا مقدار جو ٻي شيءِ سان مقابلو ڪري ٿو. عام بناوتون than، as...as، not so/as...as ۽ the more...the more آهن. مقابلو منطقي ۽ هڪجهڙي جوڙجڪ وارو هئڻ گهرجي. رسمي انداز ۾ پورو فعل لکي سگهجي ٿو: She is taller than I am.",
+      "subsections": [
+        {
+          "title": "Common subordinating conjunctions",
+          "english": "than, as ... as, not so/as ... as, the more ... the more",
+          "urdu": "اس قسم کے عام رابطہ الفاظ اوپر درج ہیں۔ جملے کے مفہوم کے مطابق درست لفظ منتخب کریں۔",
+          "sindhi": "هن قسم جا عام ڳنڍيندڙ لفظ مٿي ڏنل آهن. جملي جي مطلب موجب صحيح لفظ چونڊيو."
+        }
+      ],
+      "examples": [
+        [
+          "Ali is taller than his brother is.",
+          "علی اپنے بھائی سے زیادہ لمبا ہے۔",
+          "علي پنهنجي ڀاءُ کان ڊگهو آهي.",
+          "Than his brother is completes the comparison with an understood comparison of height."
+        ],
+        [
+          "She works as carefully as her teacher does.",
+          "وہ اپنی استاد کی طرح احتیاط سے کام کرتی ہے۔",
+          "هوءَ پنهنجي استاد وانگر احتياط سان ڪم ڪري ٿي.",
+          "As carefully as her teacher does compares the manner of their work."
+        ],
+        [
+          "This road is not as wide as the main road is.",
+          "یہ سڑک مرکزی سڑک جتنی چوڑی نہیں ہے۔",
+          "هي رستو مکيه رستي جيترو ويڪرو ناهي.",
+          "Not as wide as expresses a lower degree of width."
+        ],
+        [
+          "The more you practise, the more confident you become.",
+          "جتنی زیادہ تم مشق کرو گے، اتنا ہی زیادہ پراعتماد ہو جاؤ گے۔",
+          "جيتري وڌيڪ مشق ڪندين، اوترو وڌيڪ اعتماد وارو ٿيندين.",
+          "The paired clauses show that confidence increases in proportion to practice."
+        ],
+        [
+          "My younger sister reads faster than I do.",
+          "میری چھوٹی بہن مجھ سے زیادہ تیزی سے پڑھتی ہے۔",
+          "منهنجي ننڍي ڀيڻ مون کان وڌيڪ تيزيءَ سان پڙهي ٿي.",
+          "Than I do compares reading speed; do stands for read."
+        ],
+        [
+          "He is as patient as his father was.",
+          "وہ اپنے والد کی طرح صبر کرنے والا ہے۔",
+          "هو پنهنجي پيءُ جيترو صبر وارو آهي.",
+          "As patient as compares the quality of patience."
+        ],
+        [
+          "The exam was harder than we had expected.",
+          "امتحان ہماری توقع سے زیادہ مشکل تھا۔",
+          "امتحان اسان جي اميد کان وڌيڪ ڏکيو هو.",
+          "Than we had expected compares the actual difficulty with the expected difficulty."
+        ],
+        [
+          "She sings better than she did last year.",
+          "وہ پچھلے سال کے مقابلے میں بہتر گاتی ہے۔",
+          "هوءَ گذريل سال جي ڀيٽ ۾ بهتر ڳائي ٿي.",
+          "Than she did compares her present singing with her singing last year."
+        ],
+        [
+          "The sooner we leave, the earlier we will arrive.",
+          "ہم جتنی جلدی روانہ ہوں گے، اتنی ہی جلد پہنچیں گے۔",
+          "اسين جيترو جلد نڪرنداسين، اوترو جلد پهچنداسين.",
+          "The paired comparative clauses connect an earlier departure with an earlier arrival."
+        ],
+        [
+          "He does not speak as loudly as his cousin does.",
+          "وہ اپنے کزن کی طرح بلند آواز سے نہیں بولتا۔",
+          "هو پنهنجي سوٽ وانگر اوچي آواز ۾ نٿو ڳالهائي.",
+          "Not as loudly as compares the volume of the two people's speech."
+        ]
+      ]
+    },
+    {
+      "title": "8. Adverb Clauses of Supposition or Concession",
+      "english": "A clause of concession acknowledges a fact or difficulty that might seem to oppose the main statement, but the main statement remains true. It is introduced by although, though, even though, whereas or while in contrastive use. A clause of supposition presents an assumed or possible situation, often with even if, whether ... or, or as if/as though (which can also express manner or appearance). Although and but should not normally be used together to connect the same clauses: write 'Although it was late, we continued' or 'It was late, but we continued.' Use even if for a hypothetical condition and even though for a fact.",
+      "urdu": "Adverb Clause of Concession ایسی بات یا رکاوٹ تسلیم کرتا ہے جو مرکزی بیان کے خلاف محسوس ہو، لیکن اس کے باوجود مرکزی بات درست رہتی ہے۔ اس کے لیے although, though اور even though استعمال ہوتے ہیں۔ Supposition میں فرضی یا ممکنہ صورت بیان ہوتی ہے، جس کے لیے even if، whether...or اور as if/as though آ سکتے ہیں۔ Even though حقیقت کے لیے اور even if فرضی شرط کے لیے استعمال ہوتا ہے۔ ایک ہی جملے میں although اور but کو عموماً اکٹھا نہ لگائیں۔",
+      "sindhi": "Adverb Clause of Concession اهڙي حقيقت يا رڪاوٽ مڃي ٿو جيڪا مکيه ڳالهه جي ابتڙ لڳي، پر ان هوندي به مکيه ڳالهه صحيح رهي ٿي. ان لاءِ although، though ۽ even though استعمال ٿيندا آهن. Supposition ۾ فرضي يا ممڪن حالت بيان ٿيندي آهي، جنهن لاءِ even if، whether...or ۽ as if/as though اچي سگهن ٿا. Even though حقيقت لاءِ ۽ even if فرضي شرط لاءِ استعمال ٿيندو آهي. هڪ ئي جملي ۾ although ۽ but عام طور گڏ نه لڳايو.",
+      "subsections": [
+        {
+          "title": "Common subordinating conjunctions",
+          "english": "although, though, even though, even if, whereas, while, whether ... or, as if, as though",
+          "urdu": "اس قسم کے عام رابطہ الفاظ اوپر درج ہیں۔ جملے کے مفہوم کے مطابق درست لفظ منتخب کریں۔",
+          "sindhi": "هن قسم جا عام ڳنڍيندڙ لفظ مٿي ڏنل آهن. جملي جي مطلب موجب صحيح لفظ چونڊيو."
+        }
+      ],
+      "examples": [
+        [
+          "Although it was raining, the players continued the match.",
+          "اگرچہ بارش ہو رہی تھی، کھلاڑیوں نے میچ جاری رکھا۔",
+          "جيتوڻيڪ مينهن پئي پيو، رانديگرن ميچ جاري رکي.",
+          "Although it was raining concedes a difficulty; the main action still happened."
+        ],
+        [
+          "Even though she was tired, she completed her assignment.",
+          "اگرچہ وہ تھکی ہوئی تھی، اس نے اپنا کام مکمل کیا۔",
+          "جيتوڻيڪ هوءَ ٿڪل هئي، هن پنهنجو ڪم مڪمل ڪيو.",
+          "Even though introduces a fact that contrasts with completing the assignment."
+        ],
+        [
+          "Though he is young, he is very responsible.",
+          "اگرچہ وہ جوان ہے، وہ بہت ذمہ دار ہے۔",
+          "جيتوڻيڪ هو جوان آهي، هو تمام ذميوار آهي.",
+          "Though acknowledges youth as a contrast to his responsibility."
+        ],
+        [
+          "Even if the journey is difficult, we will continue.",
+          "چاہے سفر مشکل ہو، ہم جاری رکھیں گے۔",
+          "ڀلي سفر ڏکيو هجي، اسين جاري رکنداسين.",
+          "Even if introduces a hypothetical possibility, not an asserted fact."
+        ],
+        [
+          "Although the task looked simple, it took two hours.",
+          "اگرچہ کام آسان دکھائی دیتا تھا، اسے دو گھنٹے لگے۔",
+          "جيتوڻيڪ ڪم سولو لڳو، ان ۾ ٻه ڪلاڪ لڳا.",
+          "The clause concedes the task's appearance; the main clause gives the surprising reality."
+        ],
+        [
+          "Whereas my brother enjoys football, I prefer cricket.",
+          "جبکہ میرا بھائی فٹ بال پسند کرتا ہے، مجھے کرکٹ زیادہ پسند ہے۔",
+          "جڏهن ته منهنجو ڀاءُ فٽبال پسند ڪري ٿو، مون کي ڪرڪيٽ وڌيڪ وڻي ٿي.",
+          "Whereas contrasts two preferences."
+        ],
+        [
+          "While some people like city life, others prefer the countryside.",
+          "اگرچہ کچھ لوگ شہری زندگی پسند کرتے ہیں، دوسرے دیہی زندگی کو ترجیح دیتے ہیں۔",
+          "جڏهن ته ڪي ماڻهو شهري زندگي پسند ڪن ٿا، ٻيا ٻهراڙيءَ کي ترجيح ڏين ٿا.",
+          "While sets two contrasting groups or preferences against each other."
+        ],
+        [
+          "Whether you agree or disagree, please listen politely.",
+          "چاہے تم متفق ہو یا اختلاف کرو، براہِ کرم ادب سے سنو۔",
+          "تون متفق هجين يا اختلاف ڪرين، مهرباني ڪري ادب سان ٻڌ.",
+          "Whether you agree or disagree covers either assumed possibility."
+        ],
+        [
+          "He talks as if he knew everything.",
+          "وہ ایسے بات کرتا ہے جیسے اسے سب کچھ معلوم ہو۔",
+          "هو اهڙيءَ طرح ڳالهائي ٿو ڄڻ کيس سڀ ڪجهه معلوم هجي.",
+          "As if introduces an imagined manner or supposition; knew is a distancing form, not necessarily past time."
+        ],
+        [
+          "She looked as though she had seen a ghost.",
+          "وہ ایسی لگ رہی تھی جیسے اس نے کوئی بھوت دیکھ لیا ہو۔",
+          "هوءَ اهڙي لڳي ڄڻ ڪنهن ڀوت کي ڏٺو هجيس.",
+          "As though introduces an appearance or supposition; had seen places the imagined event earlier."
+        ]
+      ]
+    }
+  ]
+}]
   },
   "conditionals": {
     overview: "Conditional sentences link a condition with a result. Common patterns include zero conditional for general truths, first for real possibilities, second for imagined situations and third for unreal past situations.",
