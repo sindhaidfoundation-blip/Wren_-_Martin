@@ -5101,6 +5101,289 @@ export const topicDetails = {
     }
   ]
 }
+,
+{
+  "title": "More About Noun Clauses — Definition, Detailed Explanation and Examples",
+  "english": "DEFINITION: A noun clause is a dependent clause that performs the same grammatical work as a noun or noun phrase. It has its own subject and finite verb, but it is subordinate to another clause and cannot normally stand alone. It can name a fact, idea, question, belief, statement or possibility.\n\nHOW NOUN CLAUSES BEGIN: (1) That: “I believe that she is honest.” That introduces a statement. (2) Whether/if: “I wonder whether he will come.” These introduce an indirect yes/no question. (3) Wh-words: who, whom, whose, what, which, when, where, why and how: “Tell me where you live.” These introduce indirect information questions. (4) Whoever, whatever, whichever: these introduce free-choice or fused-relative noun clauses, as in “Whoever works hard will improve.”\n\nFUNCTIONS: A noun clause may be (a) subject: “[What you said] is important”; (b) direct object: “I know [that he is right]”; (c) subject complement: “The truth is [that we need help]”; (d) object of a preposition: “We talked about [what we should do]”; (e) complement of an adjective: “I am glad [that you came].”\n\nIMPORTANT GRAMMAR: In indirect questions, use statement word order: “I know where she lives,” not “I know where does she live.” Do not add a question mark to an indirect question unless the whole sentence is a direct question. The word that can often be omitted when it introduces an object clause (“I think (that) he is ready”), but it should not be omitted when clarity requires it or when it introduces the subject clause. A noun clause is different from an adjective clause: noun clause fills a noun position; adjective clause describes a noun.",
+  "urdu": "تعریف: Noun Clause ایک تابع جملہ ہے جو اسم یا اسم کے فقرے کا کام کرتا ہے۔ اس میں اپنا Subject اور Finite Verb ہوتا ہے، لیکن یہ بڑے جملے کے تابع ہوتا ہے اور عموماً اکیلا مکمل جملہ نہیں بن سکتا۔ یہ کسی حقیقت، خیال، سوال، یقین یا بیان کو ظاہر کر سکتا ہے۔\n\nآغاز کرنے والے الفاظ: That کسی بیان کو متعارف کراتا ہے؛ whether اور if بالواسطہ ہاں/نہیں والے سوال کے لیے آتے ہیں؛ who, what, when, where, why اور how معلوماتی سوالات متعارف کراتے ہیں؛ whoever اور whatever جیسے الفاظ عمومی یا غیر متعین شخص/چیز کا مفہوم دیتے ہیں۔\n\nکام: Noun Clause جملے کا Subject، فعل کا Direct Object، Subject Complement، حرفِ جار کا Object یا صفت کے بعد Complement بن سکتا ہے۔ مثالیں: “[What you said] is important” میں یہ Subject ہے؛ “I know [that he is right]” میں Object ہے؛ “The truth is [that we need help]” میں Subject Complement ہے؛ “We talked about [what we should do]” میں حرفِ جار about کا Object ہے۔\n\nاہم اصول: Indirect Question میں عام خبریہ ترتیب استعمال ہوتی ہے: “I know where she lives”، نہ کہ “I know where does she live.” بالواسطہ سوال کے آخر میں عموماً سوالیہ نشان نہیں لگتا۔ Object clause میں that کبھی حذف ہو سکتا ہے، مثلاً “I think he is ready”، لیکن Subject Clause میں اسے حذف نہ کریں۔ Noun Clause اسم کا کام کرتا ہے، جبکہ Adjective Clause اسم کی وضاحت کرتا ہے۔",
+  "sindhi": "تعريف: Noun Clause هڪ تابع جملو آهي جيڪو اسم يا اسم جي فقري جو ڪم ڪري ٿو. ان ۾ پنهنجو Subject ۽ Finite Verb هوندو آهي، پر اهو وڏي جملي جي تابع هوندو آهي ۽ عام طور اڪيلو مڪمل جملو نٿو بڻجي سگهي. اهو حقيقت، خيال، سوال، يقين يا بيان ظاهر ڪري سگهي ٿو.\n\nشروع ڪندڙ لفظ: That بيان متعارف ڪرائي ٿو؛ whether ۽ if اڻ سڌي ها/نه واري سوال لاءِ اچن ٿا؛ who، what، when، where، why ۽ how معلوماتي سوال متعارف ڪرائين ٿا؛ whoever ۽ whatever عام يا غير مقرر شخص/شيءِ جو مطلب ڏين ٿا.\n\nڪم: Noun Clause جملي جو Subject، فعل جو Direct Object، Subject Complement، حرفِ جر جو Object يا صفت کان پوءِ Complement ٿي سگهي ٿو. مثال: “[What you said] is important” ۾ Subject؛ “I know [that he is right]” ۾ Object؛ “The truth is [that we need help]” ۾ Subject Complement؛ “We talked about [what we should do]” ۾ حرفِ جر about جو Object آهي.\n\nاهم اصول: Indirect Question ۾ عام بياني ترتيب استعمال ڪريو: “I know where she lives”، نه ته “I know where does she live.” اڻ سڌي سوال جي آخر ۾ عام طور سواليا نشان نه لڳندو. Object clause ۾ that ڪڏهن ختم ڪري سگهجي ٿو، پر Subject Clause ۾ ان کي نه ڪٽيو. Noun Clause اسم جو ڪم ڪري ٿو، جڏهن ته Adjective Clause اسم جي وضاحت ڪري ٿو۔",
+  "subsections": [
+    {
+      "title": "Detailed explanation and key points",
+      "english": "DEFINITION: A noun clause is a dependent clause that performs the same grammatical work as a noun or noun phrase. It has its own subject and finite verb, but it is subordinate to another clause and cannot normally stand alone. It can name a fact, idea, question, belief, statement or possibility.\n\nHOW NOUN CLAUSES BEGIN: (1) That: “I believe that she is honest.” That introduces a statement. (2) Whether/if: “I wonder whether he will come.” These introduce an indirect yes/no question. (3) Wh-words: who, whom, whose, what, which, when, where, why and how: “Tell me where you live.” These introduce indirect information questions. (4) Whoever, whatever, whichever: these introduce free-choice or fused-relative noun clauses, as in “Whoever works hard will improve.”\n\nFUNCTIONS: A noun clause may be (a) subject: “[What you said] is important”; (b) direct object: “I know [that he is right]”; (c) subject complement: “The truth is [that we need help]”; (d) object of a preposition: “We talked about [what we should do]”; (e) complement of an adjective: “I am glad [that you came].”\n\nIMPORTANT GRAMMAR: In indirect questions, use statement word order: “I know where she lives,” not “I know where does she live.” Do not add a question mark to an indirect question unless the whole sentence is a direct question. The word that can often be omitted when it introduces an object clause (“I think (that) he is ready”), but it should not be omitted when clarity requires it or when it introduces the subject clause. A noun clause is different from an adjective clause: noun clause fills a noun position; adjective clause describes a noun.",
+      "urdu": "تعریف: Noun Clause ایک تابع جملہ ہے جو اسم یا اسم کے فقرے کا کام کرتا ہے۔ اس میں اپنا Subject اور Finite Verb ہوتا ہے، لیکن یہ بڑے جملے کے تابع ہوتا ہے اور عموماً اکیلا مکمل جملہ نہیں بن سکتا۔ یہ کسی حقیقت، خیال، سوال، یقین یا بیان کو ظاہر کر سکتا ہے۔\n\nآغاز کرنے والے الفاظ: That کسی بیان کو متعارف کراتا ہے؛ whether اور if بالواسطہ ہاں/نہیں والے سوال کے لیے آتے ہیں؛ who, what, when, where, why اور how معلوماتی سوالات متعارف کراتے ہیں؛ whoever اور whatever جیسے الفاظ عمومی یا غیر متعین شخص/چیز کا مفہوم دیتے ہیں۔\n\nکام: Noun Clause جملے کا Subject، فعل کا Direct Object، Subject Complement، حرفِ جار کا Object یا صفت کے بعد Complement بن سکتا ہے۔ مثالیں: “[What you said] is important” میں یہ Subject ہے؛ “I know [that he is right]” میں Object ہے؛ “The truth is [that we need help]” میں Subject Complement ہے؛ “We talked about [what we should do]” میں حرفِ جار about کا Object ہے۔\n\nاہم اصول: Indirect Question میں عام خبریہ ترتیب استعمال ہوتی ہے: “I know where she lives”، نہ کہ “I know where does she live.” بالواسطہ سوال کے آخر میں عموماً سوالیہ نشان نہیں لگتا۔ Object clause میں that کبھی حذف ہو سکتا ہے، مثلاً “I think he is ready”، لیکن Subject Clause میں اسے حذف نہ کریں۔ Noun Clause اسم کا کام کرتا ہے، جبکہ Adjective Clause اسم کی وضاحت کرتا ہے۔",
+      "sindhi": "تعريف: Noun Clause هڪ تابع جملو آهي جيڪو اسم يا اسم جي فقري جو ڪم ڪري ٿو. ان ۾ پنهنجو Subject ۽ Finite Verb هوندو آهي، پر اهو وڏي جملي جي تابع هوندو آهي ۽ عام طور اڪيلو مڪمل جملو نٿو بڻجي سگهي. اهو حقيقت، خيال، سوال، يقين يا بيان ظاهر ڪري سگهي ٿو.\n\nشروع ڪندڙ لفظ: That بيان متعارف ڪرائي ٿو؛ whether ۽ if اڻ سڌي ها/نه واري سوال لاءِ اچن ٿا؛ who، what، when، where، why ۽ how معلوماتي سوال متعارف ڪرائين ٿا؛ whoever ۽ whatever عام يا غير مقرر شخص/شيءِ جو مطلب ڏين ٿا.\n\nڪم: Noun Clause جملي جو Subject، فعل جو Direct Object، Subject Complement، حرفِ جر جو Object يا صفت کان پوءِ Complement ٿي سگهي ٿو. مثال: “[What you said] is important” ۾ Subject؛ “I know [that he is right]” ۾ Object؛ “The truth is [that we need help]” ۾ Subject Complement؛ “We talked about [what we should do]” ۾ حرفِ جر about جو Object آهي.\n\nاهم اصول: Indirect Question ۾ عام بياني ترتيب استعمال ڪريو: “I know where she lives”، نه ته “I know where does she live.” اڻ سڌي سوال جي آخر ۾ عام طور سواليا نشان نه لڳندو. Object clause ۾ that ڪڏهن ختم ڪري سگهجي ٿو، پر Subject Clause ۾ ان کي نه ڪٽيو. Noun Clause اسم جو ڪم ڪري ٿو، جڏهن ته Adjective Clause اسم جي وضاحت ڪري ٿو۔"
+    },
+    {
+      "title": "Examples with grammatical analysis",
+      "english": "The clause is shown in square brackets. Each example explains its function in the complete sentence.",
+      "urdu": "ہر مثال میں clause کو قوسین میں دکھایا گیا ہے اور پورے جملے میں اس کا کام بیان کیا گیا ہے۔",
+      "sindhi": "هر مثال ۾ clause کي چورس قوسين ۾ ڏيکاريو ويو آهي ۽ پوري جملي ۾ ان جو ڪم بيان ڪيو ويو آهي۔",
+      "examples": [
+        [
+          "[What he promised] surprised us.",
+          "Noun clause; subject of surprised.",
+          "اس نے جو وعدہ کیا اس نے ہمیں حیران کیا۔",
+          "هن جيڪو واعدو ڪيو، تنهن اسان کي حيران ڪيو۔"
+        ],
+        [
+          "I know [that you are telling the truth].",
+          "Direct object of know.",
+          "میں جانتا ہوں کہ تم سچ کہہ رہے ہو۔",
+          "مان ڄاڻان ٿو ته تون سچ ڳالهائي رهيو آهين۔"
+        ],
+        [
+          "The question is [whether we have enough time].",
+          "Subject complement after is.",
+          "سوال یہ ہے کہ کیا ہمارے پاس کافی وقت ہے۔",
+          "سوال اهو آهي ته ڇا اسان وٽ ڪافي وقت آهي۔"
+        ],
+        [
+          "She wondered [why the shop was closed].",
+          "Direct object of wondered.",
+          "وہ سوچ رہی تھی کہ دکان کیوں بند تھی۔",
+          "هوءَ سوچي رهي هئي ته دڪان ڇو بند هئي۔"
+        ],
+        [
+          "Give the award to [whoever completes the task].",
+          "Object of preposition to.",
+          "انعام اسے دیں جو کام مکمل کرے۔",
+          "انعام ان کي ڏيو جيڪو ڪم پورو ڪري۔"
+        ],
+        [
+          "I cannot understand [how this device works].",
+          "Direct object of understand.",
+          "میں نہیں سمجھ سکتا کہ یہ آلہ کیسے کام کرتا ہے۔",
+          "مان سمجهي نٿو سگهان ته هي اوزار ڪيئن ڪم ڪري ٿو۔"
+        ],
+        [
+          "[That the earth revolves around the sun] is a scientific fact.",
+          "Noun clause as subject.",
+          "یہ کہ زمین سورج کے گرد گھومتی ہے ایک سائنسی حقیقت ہے۔",
+          "ته زمين سج جي چوڌاري ڦري ٿي، هڪ سائنسي حقيقت آهي۔"
+        ],
+        [
+          "My hope is [that everyone will participate].",
+          "Subject complement.",
+          "میری امید ہے کہ ہر شخص حصہ لے گا۔",
+          "منهنجي اميد آهي ته هر ڪو حصو وٺندو۔"
+        ],
+        [
+          "Tell me [where you bought this book].",
+          "Direct object of tell.",
+          "مجھے بتاؤ کہ تم نے یہ کتاب کہاں سے خریدی۔",
+          "مون کي ٻڌاءِ ته تو هي ڪتاب ڪٿان ورتو۔"
+        ],
+        [
+          "We discussed [what should be done next].",
+          "Direct object of discussed.",
+          "ہم نے بحث کی کہ آگے کیا کرنا چاہیے۔",
+          "اسان بحث ڪئي ته اڳتي ڇا ڪرڻ گهرجي۔"
+        ],
+        [
+          "I am certain [that she can solve the problem].",
+          "Complement of adjective certain.",
+          "مجھے یقین ہے کہ وہ مسئلہ حل کر سکتی ہے۔",
+          "مون کي پڪ آهي ته هوءَ مسئلو حل ڪري سگهي ٿي۔"
+        ],
+        [
+          "[Whoever speaks the truth] earns respect.",
+          "Noun clause as subject.",
+          "جو بھی سچ بولتا ہے عزت پاتا ہے۔",
+          "جيڪو به سچ ڳالهائي ٿو، عزت ماڻي ٿو۔"
+        ]
+      ]
+    }
+  ]
+},
+{
+  "title": "More About Adjective Clauses — Definition, Detailed Explanation and Examples",
+  "english": "DEFINITION: An adjective clause (also called a relative clause) is a dependent clause that describes, identifies or gives extra information about a noun or pronoun. The noun it refers to is called the antecedent. It normally appears close to the antecedent so the reader can easily see what it describes.\n\nRELATIVE PRONOUNS: Who refers to people as subject (“The woman who called is my aunt”); whom refers to people as object, especially in formal English (“the man whom I met”); whose shows possession (“the boy whose bag was lost”); which refers to things or animals; that can refer to people or things in defining clauses. RELATIVE ADVERBS: where refers to place, when to time, and why to reason.\n\nTWO MAIN TYPES: (1) Defining/restrictive clauses give essential information needed to identify the noun and are not separated by commas: “The students who studied passed.” This means the particular students who studied. (2) Non-defining/non-restrictive clauses add extra information and are separated by commas: “My brother, who lives in Multan, is a doctor.” The clause is additional information. Do not normally use that in a non-defining clause.\n\nOMISSION AND PREPOSITIONS: The relative pronoun may be omitted when it is the object in a defining clause: “The film (that) we watched was excellent.” It cannot be omitted when it is the subject: “The film that won the award...” In formal style a preposition may come before whom/which (“the person to whom I spoke”); in everyday style it often comes at the end (“the person who I spoke to”).\n\nHOW TO IDENTIFY: Find the noun being described, then locate the clause that gives information about it. Ask whether the clause identifies or describes that noun. Do not confuse an adjective clause with a noun clause: an adjective clause modifies an antecedent; a noun clause itself occupies a noun position.",
+  "urdu": "تعریف: Adjective Clause جسے Relative Clause بھی کہتے ہیں، ایک تابع جملہ ہے جو کسی اسم یا ضمیر کی وضاحت، شناخت یا اضافی معلومات دیتا ہے۔ جس اسم کی طرف یہ اشارہ کرے اسے Antecedent کہتے ہیں۔ یہ عموماً اسی اسم کے قریب آتا ہے جس کی وضاحت کرتا ہے۔\n\nRelative Pronouns: Who انسان کے لیے بطور Subject؛ whom انسان کے لیے بطور Object؛ whose ملکیت کے لیے؛ which چیزوں اور جانوروں کے لیے؛ اور that defining clause میں انسان یا چیز دونوں کے لیے آ سکتا ہے۔ Relative Adverbs میں where جگہ، when وقت اور why وجہ بتاتا ہے۔\n\nاقسام: (1) Defining Clause ضروری معلومات دیتا ہے اور commas سے الگ نہیں ہوتا: “The students who studied passed.” (2) Non-defining Clause اضافی معلومات دیتا ہے اور commas میں لکھا جاتا ہے: “My brother, who lives in Multan, is a doctor.” Non-defining clause میں عموماً that استعمال نہیں کرتے۔\n\nحذف اور حرفِ جار: Defining clause میں relative pronoun اگر Object ہو تو حذف ہو سکتا ہے: “The film (that) we watched...” لیکن اگر وہ Subject ہو تو حذف نہیں ہوتا۔ رسمی انداز میں حرفِ جار whom/which سے پہلے آ سکتا ہے: “the person to whom I spoke”، جبکہ عام گفتگو میں آخر میں آتا ہے: “the person who I spoke to.”\n\nپہچان: پہلے اس اسم کو تلاش کریں جس کی وضاحت ہو رہی ہے، پھر وہ clause تلاش کریں جو اس کے بارے میں معلومات دے۔ Adjective Clause اسم کی وضاحت کرتا ہے، جبکہ Noun Clause خود اسم کا کام کرتا ہے۔",
+  "sindhi": "تعريف: Adjective Clause جنهن کي Relative Clause به چئبو آهي، هڪ تابع جملو آهي جيڪو ڪنهن اسم يا ضمير جي وضاحت، سڃاڻپ يا اضافي ڄاڻ ڏئي ٿو. جنهن اسم ڏانهن اهو اشارو ڪري، ان کي Antecedent چئبو آهي. اهو عام طور ان اسم جي ويجهو ايندو آهي جنهن جي وضاحت ڪري ٿو.\n\nRelative Pronouns: Who انسان لاءِ Subject طور؛ whom انسان لاءِ Object طور؛ whose ملڪيت لاءِ؛ which شين ۽ جانورن لاءِ؛ ۽ that defining clause ۾ انسان يا شيءِ ٻنهي لاءِ اچي سگهي ٿو. Relative Adverbs ۾ where جاءِ، when وقت ۽ why سبب ٻڌائي ٿو.\n\nقسم: (1) Defining Clause ضروري ڄاڻ ڏئي ٿو ۽ commas سان الڳ نه ٿيندو: “The students who studied passed.” (2) Non-defining Clause اضافي ڄاڻ ڏئي ٿو ۽ commas جي وچ ۾ لکبو: “My brother, who lives in Multan, is a doctor.” Non-defining clause ۾ عام طور that استعمال نٿو ٿئي.\n\nحذف ۽ حرفِ جر: Defining clause ۾ relative pronoun جيڪڏهن Object هجي ته ختم ڪري سگهجي ٿو: “The film (that) we watched...” پر جيڪڏهن اهو Subject هجي ته ختم نٿو ڪري سگهجي. رسمي انداز ۾ حرفِ جر whom/which کان اڳ اچي سگهي ٿو، جڏهن ته عام ڳالهه ٻولهه ۾ آخر ۾ اچي ٿو.\n\nسڃاڻپ: پهرين اهو اسم ڳوليو جنهن جي وضاحت ٿئي ٿي، پوءِ اهو clause ڳوليو جيڪو ان بابت ڄاڻ ڏئي. Adjective Clause اسم جي وضاحت ڪري ٿو، جڏهن ته Noun Clause پاڻ اسم جو ڪم ڪري ٿو۔",
+  "subsections": [
+    {
+      "title": "Detailed explanation and key points",
+      "english": "DEFINITION: An adjective clause (also called a relative clause) is a dependent clause that describes, identifies or gives extra information about a noun or pronoun. The noun it refers to is called the antecedent. It normally appears close to the antecedent so the reader can easily see what it describes.\n\nRELATIVE PRONOUNS: Who refers to people as subject (“The woman who called is my aunt”); whom refers to people as object, especially in formal English (“the man whom I met”); whose shows possession (“the boy whose bag was lost”); which refers to things or animals; that can refer to people or things in defining clauses. RELATIVE ADVERBS: where refers to place, when to time, and why to reason.\n\nTWO MAIN TYPES: (1) Defining/restrictive clauses give essential information needed to identify the noun and are not separated by commas: “The students who studied passed.” This means the particular students who studied. (2) Non-defining/non-restrictive clauses add extra information and are separated by commas: “My brother, who lives in Multan, is a doctor.” The clause is additional information. Do not normally use that in a non-defining clause.\n\nOMISSION AND PREPOSITIONS: The relative pronoun may be omitted when it is the object in a defining clause: “The film (that) we watched was excellent.” It cannot be omitted when it is the subject: “The film that won the award...” In formal style a preposition may come before whom/which (“the person to whom I spoke”); in everyday style it often comes at the end (“the person who I spoke to”).\n\nHOW TO IDENTIFY: Find the noun being described, then locate the clause that gives information about it. Ask whether the clause identifies or describes that noun. Do not confuse an adjective clause with a noun clause: an adjective clause modifies an antecedent; a noun clause itself occupies a noun position.",
+      "urdu": "تعریف: Adjective Clause جسے Relative Clause بھی کہتے ہیں، ایک تابع جملہ ہے جو کسی اسم یا ضمیر کی وضاحت، شناخت یا اضافی معلومات دیتا ہے۔ جس اسم کی طرف یہ اشارہ کرے اسے Antecedent کہتے ہیں۔ یہ عموماً اسی اسم کے قریب آتا ہے جس کی وضاحت کرتا ہے۔\n\nRelative Pronouns: Who انسان کے لیے بطور Subject؛ whom انسان کے لیے بطور Object؛ whose ملکیت کے لیے؛ which چیزوں اور جانوروں کے لیے؛ اور that defining clause میں انسان یا چیز دونوں کے لیے آ سکتا ہے۔ Relative Adverbs میں where جگہ، when وقت اور why وجہ بتاتا ہے۔\n\nاقسام: (1) Defining Clause ضروری معلومات دیتا ہے اور commas سے الگ نہیں ہوتا: “The students who studied passed.” (2) Non-defining Clause اضافی معلومات دیتا ہے اور commas میں لکھا جاتا ہے: “My brother, who lives in Multan, is a doctor.” Non-defining clause میں عموماً that استعمال نہیں کرتے۔\n\nحذف اور حرفِ جار: Defining clause میں relative pronoun اگر Object ہو تو حذف ہو سکتا ہے: “The film (that) we watched...” لیکن اگر وہ Subject ہو تو حذف نہیں ہوتا۔ رسمی انداز میں حرفِ جار whom/which سے پہلے آ سکتا ہے: “the person to whom I spoke”، جبکہ عام گفتگو میں آخر میں آتا ہے: “the person who I spoke to.”\n\nپہچان: پہلے اس اسم کو تلاش کریں جس کی وضاحت ہو رہی ہے، پھر وہ clause تلاش کریں جو اس کے بارے میں معلومات دے۔ Adjective Clause اسم کی وضاحت کرتا ہے، جبکہ Noun Clause خود اسم کا کام کرتا ہے۔",
+      "sindhi": "تعريف: Adjective Clause جنهن کي Relative Clause به چئبو آهي، هڪ تابع جملو آهي جيڪو ڪنهن اسم يا ضمير جي وضاحت، سڃاڻپ يا اضافي ڄاڻ ڏئي ٿو. جنهن اسم ڏانهن اهو اشارو ڪري، ان کي Antecedent چئبو آهي. اهو عام طور ان اسم جي ويجهو ايندو آهي جنهن جي وضاحت ڪري ٿو.\n\nRelative Pronouns: Who انسان لاءِ Subject طور؛ whom انسان لاءِ Object طور؛ whose ملڪيت لاءِ؛ which شين ۽ جانورن لاءِ؛ ۽ that defining clause ۾ انسان يا شيءِ ٻنهي لاءِ اچي سگهي ٿو. Relative Adverbs ۾ where جاءِ، when وقت ۽ why سبب ٻڌائي ٿو.\n\nقسم: (1) Defining Clause ضروري ڄاڻ ڏئي ٿو ۽ commas سان الڳ نه ٿيندو: “The students who studied passed.” (2) Non-defining Clause اضافي ڄاڻ ڏئي ٿو ۽ commas جي وچ ۾ لکبو: “My brother, who lives in Multan, is a doctor.” Non-defining clause ۾ عام طور that استعمال نٿو ٿئي.\n\nحذف ۽ حرفِ جر: Defining clause ۾ relative pronoun جيڪڏهن Object هجي ته ختم ڪري سگهجي ٿو: “The film (that) we watched...” پر جيڪڏهن اهو Subject هجي ته ختم نٿو ڪري سگهجي. رسمي انداز ۾ حرفِ جر whom/which کان اڳ اچي سگهي ٿو، جڏهن ته عام ڳالهه ٻولهه ۾ آخر ۾ اچي ٿو.\n\nسڃاڻپ: پهرين اهو اسم ڳوليو جنهن جي وضاحت ٿئي ٿي، پوءِ اهو clause ڳوليو جيڪو ان بابت ڄاڻ ڏئي. Adjective Clause اسم جي وضاحت ڪري ٿو، جڏهن ته Noun Clause پاڻ اسم جو ڪم ڪري ٿو۔"
+    },
+    {
+      "title": "Examples with grammatical analysis",
+      "english": "The clause is shown in square brackets. Each example explains its function in the complete sentence.",
+      "urdu": "ہر مثال میں clause کو قوسین میں دکھایا گیا ہے اور پورے جملے میں اس کا کام بیان کیا گیا ہے۔",
+      "sindhi": "هر مثال ۾ clause کي چورس قوسين ۾ ڏيکاريو ويو آهي ۽ پوري جملي ۾ ان جو ڪم بيان ڪيو ويو آهي۔",
+      "examples": [
+        [
+          "The student [who answered correctly] received a prize.",
+          "Relative clause describes student; who is its subject.",
+          "جس طالب علم نے درست جواب دیا اسے انعام ملا۔",
+          "جنهن شاگرد صحيح جواب ڏنو، انعام حاصل ڪيو۔"
+        ],
+        [
+          "The bicycle [that I bought yesterday] is new.",
+          "Relative clause describes bicycle; that is object.",
+          "جو سائیکل میں نے کل خریدا وہ نیا ہے۔",
+          "سائيڪل جيڪا مون ڪالهه ورتي، نئين آهي۔"
+        ],
+        [
+          "The woman [whose son is a pilot] lives next door.",
+          "Whose shows possession; clause describes woman.",
+          "وہ خاتون جس کا بیٹا پائلٹ ہے ساتھ والے گھر میں رہتی ہیں۔",
+          "اها عورت جنهن جو پٽ پائلٽ آهي، ڀر واري گهر ۾ رهي ٿي۔"
+        ],
+        [
+          "This is the school [where my mother studied].",
+          "Where introduces a relative clause describing school.",
+          "یہ وہ اسکول ہے جہاں میری والدہ نے تعلیم حاصل کی۔",
+          "هي اهو اسڪول آهي جتي منهنجي امڙ پڙهي هئي۔"
+        ],
+        [
+          "I remember the year [when we moved here].",
+          "When clause describes year.",
+          "مجھے وہ سال یاد ہے جب ہم یہاں منتقل ہوئے۔",
+          "مون کي اهو سال ياد آهي جڏهن اسان هتي لڏي آياسين۔"
+        ],
+        [
+          "The reason [why he resigned] is unknown.",
+          "Why clause describes reason.",
+          "اس کے استعفے کی وجہ معلوم نہیں۔",
+          "هن جي استعيفيٰ جو سبب معلوم ناهي۔"
+        ],
+        [
+          "People [who exercise regularly] often feel healthier.",
+          "Defining clause identifies which people.",
+          "جو لوگ باقاعدگی سے ورزش کرتے ہیں عموماً زیادہ صحت مند محسوس کرتے ہیں۔",
+          "جيڪي ماڻهو باقاعدگيءَ سان ورزش ڪن ٿا، سي اڪثر وڌيڪ صحتمند محسوس ڪن ٿا۔"
+        ],
+        [
+          "My uncle, [who lives in Sukkur], is visiting us.",
+          "Non-defining clause adds extra information; commas are needed.",
+          "میرے چچا، جو سکھر میں رہتے ہیں، ہم سے ملنے آ رہے ہیں۔",
+          "منهنجو چاچو، جيڪو سکر ۾ رهي ٿو، اسان وٽ اچي رهيو آهي۔"
+        ],
+        [
+          "The cake [which was made by Sara] tastes delicious.",
+          "Passive relative clause describes cake.",
+          "کیک جو سارہ نے بنایا تھا مزیدار ہے۔",
+          "ڪيڪ جيڪو سارا ٺاهيو هو، لذيذ آهي۔"
+        ],
+        [
+          "The person [to whom you sent the letter] has replied.",
+          "Preposition + relative pronoun in formal style.",
+          "جس شخص کو تم نے خط بھیجا تھا اس نے جواب دیا ہے۔",
+          "جنهن شخص ڏانهن تو خط موڪليو هو، تنهن جواب ڏنو آهي۔"
+        ],
+        [
+          "The artist [whose work won the award] thanked the judges.",
+          "Whose clause describes artist.",
+          "جس فنکار کے کام نے انعام جیتا اس نے ججوں کا شکریہ ادا کیا۔",
+          "جنهن فنڪار جي ڪم انعام کٽيو، تنهن ججن جا ٿورا مڃيا۔"
+        ],
+        [
+          "The phone [that is lying on the desk] belongs to me.",
+          "That is subject of the relative clause.",
+          "میز پر پڑا ہوا فون میرا ہے۔",
+          "ميز تي پيل فون منهنجو آهي۔"
+        ]
+      ]
+    }
+  ]
+},
+{
+  "title": "More About Adverb Clauses — Definition, Detailed Explanation and Examples",
+  "english": "DEFINITION: An adverb clause is a dependent clause that functions as an adverb. It has a subject and a finite verb and modifies a verb, an adjective or another adverb in the main clause. It adds information about time, place, reason, purpose, condition, concession, manner, comparison or result.\n\nCOMMON TYPES AND CONNECTORS: Time — when, while, before, after, as soon as, until; Place — where, wherever; Reason — because, since, as; Purpose — so that, in order that; Condition — if, unless, provided that; Concession/contrast — although, though, even though, whereas; Manner — as, as if, as though; Comparison — than, as...as; Result — so...that, such...that.\n\nPOSITION AND PUNCTUATION: An adverb clause can come before or after the main clause. When it comes first, place a comma after it: “Although it was cold, we went out.” When it comes after the main clause, a comma is usually not needed: “We went out although it was cold.”\n\nIMPORTANT DIFFERENCES: Because introduces a reason clause; so that often introduces purpose. “I left because I was tired” gives the reason. “I left early so that I could catch the bus” gives the purpose. Although introduces contrast or unexpected result. Unless means “if not.” Do not confuse an adverb clause with an adverb phrase: a clause has its own subject and finite verb (“when the bell rang”); a phrase does not (“after the bell”).\n\nHOW TO IDENTIFY: Find the main verb and ask when? where? why? how? under what condition? or for what purpose? If a subordinate clause answers one of these questions and modifies the main clause, it is an adverb clause.",
+  "urdu": "تعریف: Adverb Clause ایک تابع جملہ ہے جو متعلقِ فعل کا کام کرتا ہے۔ اس میں Subject اور Finite Verb ہوتا ہے اور یہ مرکزی جملے کے فعل، صفت یا دوسرے متعلقِ فعل کی وضاحت کرتا ہے۔ یہ وقت، جگہ، وجہ، مقصد، شرط، رعایت، طریقہ، موازنہ یا نتیجہ بتاتا ہے۔\n\nاہم اقسام اور الفاظ: Time کے لیے when, while, before, after, until؛ Place کے لیے where, wherever؛ Reason کے لیے because, since, as؛ Purpose کے لیے so that؛ Condition کے لیے if, unless؛ Concession کے لیے although, though؛ Manner کے لیے as, as if؛ Comparison کے لیے than, as...as؛ Result کے لیے so...that اور such...that استعمال ہوتے ہیں۔\n\nترتیب اور رموزِ اوقاف: Adverb Clause پہلے یا بعد میں آ سکتا ہے۔ اگر پہلے آئے تو اس کے بعد comma لگائیں: “Although it was cold, we went out.” اگر بعد میں آئے تو عموماً comma ضروری نہیں: “We went out although it was cold.”\n\nفرق سمجھیں: Because وجہ بتاتا ہے، جبکہ so that مقصد بتاتا ہے۔ Unless کا مطلب “if not” ہے۔ Adverb Clause میں اپنا Subject اور Finite Verb ہوتا ہے، جیسے “when the bell rang”؛ جبکہ Phrase میں اپنا مکمل Subject-Finite Verb clause نہیں ہوتا، جیسے “after the bell.”\n\nپہچان: مرکزی فعل سے سوال کریں: کب؟ کہاں؟ کیوں؟ کیسے؟ کس شرط پر؟ یا کس مقصد کے لیے؟ اگر تابع جملہ ان سوالات کا جواب دے اور مرکزی جملے کی وضاحت کرے تو وہ Adverb Clause ہے۔",
+  "sindhi": "تعريف: Adverb Clause هڪ تابع جملو آهي جيڪو ظرف جو ڪم ڪري ٿو. ان ۾ Subject ۽ Finite Verb هوندو آهي ۽ اهو مکيه جملي جي فعل، صفت يا ٻئي ظرف جي وضاحت ڪندو آهي. اهو وقت، جاءِ، سبب، مقصد، شرط، رعايت، طريقي، ڀيٽ يا نتيجو ٻڌائي ٿو.\n\nاهم قسم ۽ لفظ: وقت لاءِ when، while، before، after، until؛ جاءِ لاءِ where، wherever؛ سبب لاءِ because، since، as؛ مقصد لاءِ so that؛ شرط لاءِ if، unless؛ رعايت لاءِ although، though؛ طريقي لاءِ as، as if؛ ڀيٽ لاءِ than، as...as؛ نتيجي لاءِ so...that ۽ such...that اچن ٿا.\n\nترتيب ۽ رموز: Adverb Clause مکيه جملي کان اڳ يا پوءِ اچي سگهي ٿو. جيڪڏهن اڳ اچي ته ان کان پوءِ comma لڳايو: “Although it was cold, we went out.” جيڪڏهن پوءِ اچي ته عام طور comma ضروري ناهي.\n\nفرق: Because سبب ٻڌائي ٿو، جڏهن ته so that مقصد ٻڌائي ٿو. Unless جو مطلب “if not” آهي. Adverb Clause ۾ پنهنجو Subject ۽ Finite Verb هوندو آهي، جيئن “when the bell rang”؛ جڏهن ته Phrase ۾ مڪمل Subject ۽ Finite Verb وارو clause نه هوندو، جيئن “after the bell.”\n\nسڃاڻپ: مکيه فعل کان پڇو: ڪڏهن؟ ڪٿي؟ ڇو؟ ڪيئن؟ ڪهڙي شرط تي؟ يا ڪهڙي مقصد لاءِ؟ جيڪڏهن تابع جملو انهن سوالن جو جواب ڏئي ۽ مکيه جملي جي وضاحت ڪري ته اهو Adverb Clause آهي۔",
+  "subsections": [
+    {
+      "title": "Detailed explanation and key points",
+      "english": "DEFINITION: An adverb clause is a dependent clause that functions as an adverb. It has a subject and a finite verb and modifies a verb, an adjective or another adverb in the main clause. It adds information about time, place, reason, purpose, condition, concession, manner, comparison or result.\n\nCOMMON TYPES AND CONNECTORS: Time — when, while, before, after, as soon as, until; Place — where, wherever; Reason — because, since, as; Purpose — so that, in order that; Condition — if, unless, provided that; Concession/contrast — although, though, even though, whereas; Manner — as, as if, as though; Comparison — than, as...as; Result — so...that, such...that.\n\nPOSITION AND PUNCTUATION: An adverb clause can come before or after the main clause. When it comes first, place a comma after it: “Although it was cold, we went out.” When it comes after the main clause, a comma is usually not needed: “We went out although it was cold.”\n\nIMPORTANT DIFFERENCES: Because introduces a reason clause; so that often introduces purpose. “I left because I was tired” gives the reason. “I left early so that I could catch the bus” gives the purpose. Although introduces contrast or unexpected result. Unless means “if not.” Do not confuse an adverb clause with an adverb phrase: a clause has its own subject and finite verb (“when the bell rang”); a phrase does not (“after the bell”).\n\nHOW TO IDENTIFY: Find the main verb and ask when? where? why? how? under what condition? or for what purpose? If a subordinate clause answers one of these questions and modifies the main clause, it is an adverb clause.",
+      "urdu": "تعریف: Adverb Clause ایک تابع جملہ ہے جو متعلقِ فعل کا کام کرتا ہے۔ اس میں Subject اور Finite Verb ہوتا ہے اور یہ مرکزی جملے کے فعل، صفت یا دوسرے متعلقِ فعل کی وضاحت کرتا ہے۔ یہ وقت، جگہ، وجہ، مقصد، شرط، رعایت، طریقہ، موازنہ یا نتیجہ بتاتا ہے۔\n\nاہم اقسام اور الفاظ: Time کے لیے when, while, before, after, until؛ Place کے لیے where, wherever؛ Reason کے لیے because, since, as؛ Purpose کے لیے so that؛ Condition کے لیے if, unless؛ Concession کے لیے although, though؛ Manner کے لیے as, as if؛ Comparison کے لیے than, as...as؛ Result کے لیے so...that اور such...that استعمال ہوتے ہیں۔\n\nترتیب اور رموزِ اوقاف: Adverb Clause پہلے یا بعد میں آ سکتا ہے۔ اگر پہلے آئے تو اس کے بعد comma لگائیں: “Although it was cold, we went out.” اگر بعد میں آئے تو عموماً comma ضروری نہیں: “We went out although it was cold.”\n\nفرق سمجھیں: Because وجہ بتاتا ہے، جبکہ so that مقصد بتاتا ہے۔ Unless کا مطلب “if not” ہے۔ Adverb Clause میں اپنا Subject اور Finite Verb ہوتا ہے، جیسے “when the bell rang”؛ جبکہ Phrase میں اپنا مکمل Subject-Finite Verb clause نہیں ہوتا، جیسے “after the bell.”\n\nپہچان: مرکزی فعل سے سوال کریں: کب؟ کہاں؟ کیوں؟ کیسے؟ کس شرط پر؟ یا کس مقصد کے لیے؟ اگر تابع جملہ ان سوالات کا جواب دے اور مرکزی جملے کی وضاحت کرے تو وہ Adverb Clause ہے۔",
+      "sindhi": "تعريف: Adverb Clause هڪ تابع جملو آهي جيڪو ظرف جو ڪم ڪري ٿو. ان ۾ Subject ۽ Finite Verb هوندو آهي ۽ اهو مکيه جملي جي فعل، صفت يا ٻئي ظرف جي وضاحت ڪندو آهي. اهو وقت، جاءِ، سبب، مقصد، شرط، رعايت، طريقي، ڀيٽ يا نتيجو ٻڌائي ٿو.\n\nاهم قسم ۽ لفظ: وقت لاءِ when، while، before، after، until؛ جاءِ لاءِ where، wherever؛ سبب لاءِ because، since، as؛ مقصد لاءِ so that؛ شرط لاءِ if، unless؛ رعايت لاءِ although، though؛ طريقي لاءِ as، as if؛ ڀيٽ لاءِ than، as...as؛ نتيجي لاءِ so...that ۽ such...that اچن ٿا.\n\nترتيب ۽ رموز: Adverb Clause مکيه جملي کان اڳ يا پوءِ اچي سگهي ٿو. جيڪڏهن اڳ اچي ته ان کان پوءِ comma لڳايو: “Although it was cold, we went out.” جيڪڏهن پوءِ اچي ته عام طور comma ضروري ناهي.\n\nفرق: Because سبب ٻڌائي ٿو، جڏهن ته so that مقصد ٻڌائي ٿو. Unless جو مطلب “if not” آهي. Adverb Clause ۾ پنهنجو Subject ۽ Finite Verb هوندو آهي، جيئن “when the bell rang”؛ جڏهن ته Phrase ۾ مڪمل Subject ۽ Finite Verb وارو clause نه هوندو، جيئن “after the bell.”\n\nسڃاڻپ: مکيه فعل کان پڇو: ڪڏهن؟ ڪٿي؟ ڇو؟ ڪيئن؟ ڪهڙي شرط تي؟ يا ڪهڙي مقصد لاءِ؟ جيڪڏهن تابع جملو انهن سوالن جو جواب ڏئي ۽ مکيه جملي جي وضاحت ڪري ته اهو Adverb Clause آهي۔"
+    },
+    {
+      "title": "Examples with grammatical analysis",
+      "english": "The clause is shown in square brackets. Each example explains its function in the complete sentence.",
+      "urdu": "ہر مثال میں clause کو قوسین میں دکھایا گیا ہے اور پورے جملے میں اس کا کام بیان کیا گیا ہے۔",
+      "sindhi": "هر مثال ۾ clause کي چورس قوسين ۾ ڏيکاريو ويو آهي ۽ پوري جملي ۾ ان جو ڪم بيان ڪيو ويو آهي۔",
+      "examples": [
+        [
+          "[When the examination ended], the students left.",
+          "Adverb clause of time; modifies left.",
+          "جب امتحان ختم ہوا تو طلبہ چلے گئے۔",
+          "جڏهن امتحان ختم ٿيو، شاگرد هليا ويا۔"
+        ],
+        [
+          "We stayed inside [because it was raining].",
+          "Adverb clause of reason; explains why we stayed.",
+          "ہم اندر رہے کیونکہ بارش ہو رہی تھی۔",
+          "اسان اندر رهياسين ڇاڪاڻ ته مينهن پئي پيو۔"
+        ],
+        [
+          "[If you follow the instructions], you will succeed.",
+          "Adverb clause of condition.",
+          "اگر تم ہدایات پر عمل کرو گے تو کامیاب ہو گے۔",
+          "جيڪڏهن تون هدايتن تي عمل ڪندين ته ڪامياب ٿيندين۔"
+        ],
+        [
+          "She spoke slowly [so that everyone could understand].",
+          "Adverb clause of purpose.",
+          "اس نے آہستہ بات کی تاکہ سب سمجھ سکیں۔",
+          "هن آهستي ڳالهايو ته جيئن سڀ سمجهي سگهن۔"
+        ],
+        [
+          "[Although he was nervous], he gave a fine speech.",
+          "Adverb clause of concession/contrast.",
+          "اگرچہ وہ گھبرایا ہوا تھا، اس نے اچھی تقریر کی۔",
+          "جيتوڻيڪ هو گهٻرايل هو، تڏهن به سٺي تقرير ڪيائين۔"
+        ],
+        [
+          "You may go out [after you finish your homework].",
+          "Adverb clause of time.",
+          "تم گھر کا کام مکمل کرنے کے بعد باہر جا سکتے ہو۔",
+          "تون گهر جو ڪم پورو ڪرڻ کان پوءِ ٻاهر وڃي سگهين ٿو۔"
+        ],
+        [
+          "The children ran [where the ground was dry].",
+          "Adverb clause of place.",
+          "بچے وہاں بھاگے جہاں زمین خشک تھی۔",
+          "ٻار اتي ڊوڙيا جتي زمين سڪي هئي۔"
+        ],
+        [
+          "He behaved [as if he knew everything].",
+          "Adverb clause of manner/comparison.",
+          "اس نے ایسا برتاؤ کیا جیسے وہ سب کچھ جانتا ہو۔",
+          "هن ائين ورتاءُ ڪيو ڄڻ هو سڀ ڪجهه ڄاڻندو هجي۔"
+        ],
+        [
+          "[Unless you hurry], you will miss the bus.",
+          "Adverb clause of negative condition.",
+          "اگر تم جلدی نہیں کرو گے تو بس چھوٹ جائے گی۔",
+          "جيڪڏهن تون جلدي نه ڪندين ته بس رهجي ويندي۔"
+        ],
+        [
+          "The box was [so heavy that I could not lift it].",
+          "Adverb clause of result; completes the so...that pattern.",
+          "ڈبہ اتنا بھاری تھا کہ میں اسے اٹھا نہ سکا۔",
+          "دٻو ايترو ڳرو هو جو مان کڻي نه سگهيس۔"
+        ],
+        [
+          "[Wherever she goes], she makes friends.",
+          "Adverb clause of place.",
+          "وہ جہاں بھی جاتی ہے دوست بنا لیتی ہے۔",
+          "هوءَ جتي به وڃي ٿي، دوست ٺاهي ٿي۔"
+        ],
+        [
+          "Wait here [until the doctor arrives].",
+          "Adverb clause of time; gives the endpoint.",
+          "ڈاکٹر کے آنے تک یہاں انتظار کرو۔",
+          "ڊاڪٽر جي اچڻ تائين هتي انتظار ڪر۔"
+        ]
+      ]
+    }
+  ]
+}
 ]
   },
   "conditionals": {
