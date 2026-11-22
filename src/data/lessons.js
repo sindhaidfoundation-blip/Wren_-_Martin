@@ -5692,13 +5692,7 @@ export const lessons = [
       ["Past Perfect", "Subject + had + V3", "ماضی کے دوسرے کام سے پہلے مکمل کام؛ مثال: She had written."],
       ["Past Perfect Continuous", "Subject + had been + V-ing", "ماضی کے کسی وقت تک جاری رہنے والا کام؛ مثال: She had been writing."]
     ],
-    quiz: [
-      { q: "Which form describes a completed action at a finished past time?", options: ["Simple Past", "Past Continuous", "Past Perfect Continuous"], answer: 0, why: "Simple Past is used for completed past events, often with a finished time such as yesterday." },
-      { q: "Choose the correct Past Continuous structure.", options: ["had + V3", "was/were + verb-ing", "had been + verb-ing"], answer: 1, why: "Past Continuous uses was or were followed by the -ing form." },
-      { q: "Which form shows that one past action happened before another?", options: ["Simple Past", "Past Perfect", "Past Continuous"], answer: 1, why: "Past Perfect uses had + past participle to show the earlier of two past actions." },
-      { q: "Complete: They ___ for two hours before the bus arrived.", options: ["had been waiting", "were wait", "has waited"], answer: 0, why: "Past Perfect Continuous emphasizes duration up to a later past event." },
-      { q: "What is the simple past form of 'go'?", options: ["goed", "gone", "went"], answer: 2, why: "Go is irregular: go – went – gone." }
-    ]
+
   },
 ]; 
 
