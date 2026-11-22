@@ -1,5 +1,37 @@
 export const lessons = [
   {
+    id: "the-sentence",
+    title: "The Sentence",
+    subtitle: "Meaning, kinds of sentences, subject and predicate",
+    urdu: "Sentence الفاظ کا ایسا مجموعہ ہے جو مکمل مطلب دے۔ جملے کی چار اقسام ہیں: خبریہ، سوالیہ، حکمیہ اور فجائیہ۔ ہر جملے کے دو حصے Subject اور Predicate ہوتے ہیں۔",
+    level: "Beginner",
+    duration: "12 min",
+    rule: "A sentence is a group of words that makes complete sense.",
+    example: "Little Jack Horner sat in a corner.",
+    breakdown: [["Little Jack Horner", "Subject", "جس شخص کے بارے میں بات ہو رہی ہے"], ["sat in a corner", "Predicate", "Subject کے بارے میں بتایا گیا ہے"]],
+    quiz: [
+      { q: "What is a sentence?", options: ["A single letter", "A group of words that makes complete sense", "Any random words", "A punctuation mark"], answer: 1, why: "A sentence is a group of words that makes complete sense." },
+      { q: "Which kind of sentence asks a question?", options: ["Declarative", "Imperative", "Interrogative", "Exclamatory"], answer: 2, why: "An interrogative sentence asks a question." },
+      { q: "Which kind expresses a command or request?", options: ["Imperative", "Exclamatory", "Declarative", "Interrogative"], answer: 0, why: "Imperative sentences express commands, requests or entreaties." },
+      { q: "Which sentence expresses strong feeling?", options: ["Where are you?", "Be quiet.", "The sun is hot.", "What a shame!"], answer: 3, why: "An exclamatory sentence expresses strong feeling." }
+    ]
+  },
+  {
+    id: "subject-predicate",
+    title: "Subject and Predicate",
+    subtitle: "The two main parts of a sentence",
+    urdu: "Subject جملے کا وہ حصہ ہے جس کے بارے میں بات کی جاتی ہے۔ Predicate وہ حصہ ہے جو Subject کے بارے میں کچھ بتاتا ہے۔",
+    level: "Beginner",
+    duration: "8 min",
+    rule: "The Subject names who or what we are speaking about; the Predicate says something about the Subject.",
+    example: "The boy is playing.",
+    breakdown: [["The boy", "Subject", "جس کے بارے میں بات ہو رہی ہے"], ["is playing", "Predicate", "Subject کے بارے میں بتایا گیا کام"]],
+    quiz: [
+      { q: "In 'Ali reads a book', what is the subject?", options: ["reads", "a book", "Ali", "book"], answer: 2, why: "Ali is the person the sentence is about." },
+      { q: "In 'Birds fly', what is the predicate?", options: ["Birds", "fly", "Birds fly", "None"], answer: 1, why: "Fly tells what the birds do." }
+    ]
+  },
+  {
     id: "parts-of-speech",
     title: "Parts of Speech",
     subtitle: "The building blocks of English",
