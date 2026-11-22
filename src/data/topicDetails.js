@@ -7894,7 +7894,7 @@ export const topicDetails = {
           ["We played cricket on Sunday.", "ہم نے اتوار کو کرکٹ کھیلی۔", "اسان آچر تي ڪرڪيٽ کيڏي.", "Played is V2. Because play ends in vowel + y, only -ed is added."],
           ["The room was cleaned by Sara.", "کمرہ سارہ نے صاف کیا تھا۔", "ڪمرو سارا صاف ڪيو هو.", "Cleaned is V3 after was and forms a passive sentence."]
         ]
-      },},
+      },
       {
         title: "4. Forty Irregular Verbs — Base Form, Past Tense and Past Participle",
         english: "The following are 40 common irregular verbs. Their V2 and V3 forms do not follow the regular -ed pattern. Learn all three forms together. Some verbs have three different forms, while others repeat one or more forms. The list uses common standard forms; a few verbs have accepted spelling or regional variants.",
