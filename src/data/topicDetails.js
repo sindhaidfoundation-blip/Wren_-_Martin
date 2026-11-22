@@ -2650,9 +2650,81 @@ export const topicDetails = {
     examples: ["Who called you?", "Whose is this notebook?", "Which would you prefer, tea or coffee?"]
   },
   "the-verb": {
-    overview: "A verb is the central part of a predicate. It may be transitive and take an object, intransitive without an object, or linking and followed by a subject complement.",
-    watchFor: "A linking verb connects the subject to a description or identity; the complement is not a direct object.",
-    examples: ["She opened the window. (transitive)", "The baby slept. (intransitive)", "He became a doctor. (linking)"]
+    overview: "A verb is the central part of a predicate. It may be transitive and take an object, intransitive without an object, or linking and followed by a subject complement. Verbs also have different forms. The base form is the basic dictionary form; the simple past is used for completed past actions; and the past participle (V3) is used with have/has/had and in passive constructions.",
+    watchFor: "Regular verbs generally form the simple past and past participle by adding -ed or -d (work–worked–worked). Irregular verbs do not follow one single pattern (go–went–gone). Do not confuse the simple past (V2) with the past participle (V3): 'I went' but 'I have gone'.",
+    examples: ["She opened the window. (transitive)", "The baby slept. (intransitive)", "He became a doctor. (linking)", "They have written a letter. (past participle)", "The letter was written yesterday. (passive past participle)"],
+    specialSectionsTitle: "REGULAR AND IRREGULAR VERBS — BASE FORM, SIMPLE PAST AND PAST PARTICIPLE",
+    specialSections: [
+      {
+        title: "1. Explanation of Regular Verbs",
+        english: "A regular verb forms its simple past (V2) and past participle (V3) by following the usual -ed or -d spelling pattern. In most cases, add -ed: work → worked → worked. If the verb already ends in -e, add only -d: live → lived → lived. If a verb ends in consonant + y, change y to i and add -ed: study → studied → studied. If it ends in vowel + y, simply add -ed: play → played → played. In some short verbs ending in consonant-vowel-consonant, the final consonant is doubled: stop → stopped → stopped. The exact doubling rule depends on stress and spelling. Regular verbs have the same V2 and V3 form in standard English, although pronunciation of -ed varies (/t/, /d/ or /ɪd/).",
+        urdu: "Regular Verbs وہ افعال ہیں جن کا Simple Past (V2) اور Past Participle (V3) عام طور پر -ed یا -d کے مقررہ اصول کے مطابق بنتا ہے۔ اکثر افعال کے آخر میں -ed لگاتے ہیں: work → worked → worked۔ اگر فعل کے آخر میں پہلے ہی e ہو تو صرف -d لگاتے ہیں: live → lived → lived۔ consonant + y پر ختم ہونے والے فعل میں y کو i بنا کر -ed لگاتے ہیں: study → studied → studied۔ vowel + y ہو تو صرف -ed لگتا ہے: play → played → played۔ بعض مختصر افعال میں آخری consonant دہرایا جاتا ہے: stop → stopped → stopped۔ Regular verbs میں عموماً V2 اور V3 ایک جیسے ہوتے ہیں۔ -ed کا تلفظ /t/، /d/ یا /ɪd/ ہو سکتا ہے۔",
+        sindhi: "Regular Verbs اهي فعل آهن جن جو Simple Past (V2) ۽ Past Participle (V3) عام طور -ed يا -d جي مقرر اصول سان ٺهندو آهي. اڪثر فعلن جي آخر ۾ -ed لڳائبو آهي: work → worked → worked. جيڪڏهن فعل جي آخر ۾ اڳ ئي e هجي ته رڳو -d لڳائبو آهي: live → lived → lived. consonant + y تي ختم ٿيندڙ فعل ۾ y کي i ڪري -ed لڳائبو آهي: study → studied → studied. vowel + y هجي ته رڳو -ed لڳائبو آهي: play → played → played. ڪجهه ننڍن فعلن ۾ آخري consonant ٻيڻو ٿيندو آهي: stop → stopped → stopped. Regular verbs ۾ عام طور V2 ۽ V3 ساڳيا هوندا آهن. -ed جو اچار /t/، /d/ يا /ɪd/ ٿي سگهي ٿو.",
+        examples: [
+          ["I worked yesterday.", "میں نے کل کام کیا۔", "مون ڪالهه ڪم ڪيو.", "Worked is the simple past (V2) of the regular verb work."],
+          ["She has cleaned her room.", "اس نے اپنا کمرہ صاف کر لیا ہے۔", "هن پنهنجو ڪمرو صاف ڪيو آهي.", "Cleaned is the past participle (V3), used after has."],
+          ["They studied English last year.", "انہوں نے گزشتہ سال انگریزی پڑھی۔", "انهن گذريل سال انگريزي پڙهي.", "Study changes y to i before -ed: studied."],
+          ["The bus has stopped.", "بس رک گئی ہے۔", "بس بيهي رهي آهي.", "Stopped is both V2 and V3; the final consonant is doubled."]
+        ]
+      },
+      {
+        title: "2. Explanation of Irregular Verbs",
+        english: "An irregular verb does not form its simple past and past participle by simply adding -ed or -d. Its forms change in different ways and must usually be learned individually. Some have three different forms: go → went → gone. Some have the same base and past participle: come → came → come. Some have the same V2 and V3: buy → bought → bought. Some have all three forms the same: cut → cut → cut. The V2 form is used for a completed past action without an auxiliary have: 'She wrote a letter yesterday.' The V3 form is used after have/has/had in perfect tenses and after a form of be in passive voice: 'She has written a letter'; 'The letter was written yesterday.'",
+        urdu: "Irregular Verbs وہ افعال ہیں جن کا Simple Past اور Past Participle صرف -ed یا -d لگا کر نہیں بنتا۔ ان کی شکلیں مختلف طریقوں سے بدلتی ہیں، اس لیے عموماً ہر فعل کی تینوں شکلیں الگ یاد کرنا ضروری ہے۔ کچھ افعال کی تینوں شکلیں مختلف ہوتی ہیں: go → went → gone۔ کچھ میں Base Form اور V3 ایک جیسے ہوتے ہیں: come → came → come۔ کچھ میں V2 اور V3 ایک جیسے ہوتے ہیں: buy → bought → bought۔ کچھ کی تینوں شکلیں ایک جیسی ہوتی ہیں: cut → cut → cut۔ V2 عام ماضی کے مکمل کام کے لیے آتا ہے، جیسے 'She wrote a letter yesterday'۔ V3، have/has/had کے بعد Perfect Tenses میں اور be کی شکل کے بعد Passive Voice میں آتا ہے، جیسے 'She has written a letter' اور 'The letter was written yesterday'۔",
+        sindhi: "Irregular Verbs اهي فعل آهن جن جو Simple Past ۽ Past Participle رڳو -ed يا -d لڳائڻ سان نٿو ٺهي. انهن جون صورتون مختلف نموني بدلجن ٿيون، تنهنڪري عام طور هر فعل جون ٽيئي صورتون الڳ ياد ڪرڻيون پونديون آهن. ڪجهه فعلن جون ٽيئي صورتون مختلف آهن: go → went → gone. ڪجهه ۾ Base Form ۽ V3 ساڳيا آهن: come → came → come. ڪجهه ۾ V2 ۽ V3 ساڳيا آهن: buy → bought → bought. ڪجهه فعلن جون ٽيئي صورتون ساڳيون آهن: cut → cut → cut. V2 ماضيءَ جي مڪمل ڪم لاءِ استعمال ٿئي ٿو، جيئن 'She wrote a letter yesterday'. V3، have/has/had کان پوءِ Perfect Tenses ۾ ۽ be جي صورت کان پوءِ Passive Voice ۾ ايندو آهي، جيئن 'She has written a letter' ۽ 'The letter was written yesterday'.",
+        examples: [
+          ["He went to school yesterday.", "وہ کل اسکول گیا۔", "هو ڪالهه اسڪول ويو.", "Went is the simple past (V2) of go; gone is its past participle (V3)."],
+          ["I have seen that film.", "میں وہ فلم دیکھ چکا ہوں۔", "مون اها فلم ڏٺي آهي.", "Seen is V3 and follows have."],
+          ["She wrote a story.", "اس نے ایک کہانی لکھی۔", "هن هڪ ڪهاڻي لکي.", "Wrote is V2. Written is the past participle."],
+          ["The window was broken by the ball.", "کھڑکی گیند سے ٹوٹ گئی تھی۔", "دري بال سان ڀڄي پئي هئي.", "Broken is V3, used with was to form a passive construction."]
+        ]
+      },
+      {
+        title: "3. Forty Regular Verbs — Base Form, Past Tense and Past Participle",
+        english: "The following are 40 regular verbs. In each row, the first column is the base form (V1), the second is the simple past (V2), and the third is the past participle (V3). Notice that V2 and V3 are the same for these regular verbs.",
+        urdu: "درج ذیل 40 Regular Verbs ہیں۔ پہلے کالم میں Base Form (V1)، دوسرے میں Simple Past (V2)، اور تیسرے میں Past Participle (V3) دیا گیا ہے۔ ان باقاعدہ افعال میں V2 اور V3 ایک جیسے ہیں۔",
+        sindhi: "هيٺ 40 Regular Verbs ڏنا ويا آهن. پهرئين ڪالم ۾ Base Form (V1)، ٻئي ۾ Simple Past (V2)، ۽ ٽئين ۾ Past Participle (V3) آهي. انهن باقاعده فعلن ۾ V2 ۽ V3 ساڳيا آهن.",
+        verbTable: [
+          ["accept", "accepted", "accepted"], ["add", "added", "added"], ["answer", "answered", "answered"], ["ask", "asked", "asked"], ["bake", "baked", "baked"],
+          ["call", "called", "called"], ["clean", "cleaned", "cleaned"], ["close", "closed", "closed"], ["cook", "cooked", "cooked"], ["dance", "danced", "danced"],
+          ["enjoy", "enjoyed", "enjoyed"], ["finish", "finished", "finished"], ["help", "helped", "helped"], ["jump", "jumped", "jumped"], ["laugh", "laughed", "laughed"],
+          ["like", "liked", "liked"], ["listen", "listened", "listened"], ["live", "lived", "lived"], ["look", "looked", "looked"], ["love", "loved", "loved"],
+          ["need", "needed", "needed"], ["open", "opened", "opened"], ["paint", "painted", "painted"], ["play", "played", "played"], ["rain", "rained", "rained"],
+          ["remember", "remembered", "remembered"], ["start", "started", "started"], ["stop", "stopped", "stopped"], ["study", "studied", "studied"], ["talk", "talked", "talked"],
+          ["travel", "travelled", "travelled"], ["try", "tried", "tried"], ["use", "used", "used"], ["visit", "visited", "visited"], ["wait", "waited", "waited"],
+          ["walk", "walked", "walked"], ["want", "wanted", "wanted"], ["watch", "watched", "watched"], ["work", "worked", "worked"], ["wash", "washed", "washed"]
+        ]
+      },
+      {
+        title: "4. Forty Irregular Verbs — Base Form, Past Tense and Past Participle",
+        english: "The following are 40 common irregular verbs. Their V2 and V3 forms do not follow the regular -ed pattern. Learn all three forms together. Some verbs have three different forms, while others repeat one or more forms. The list uses common standard forms; a few verbs have accepted spelling or regional variants.",
+        urdu: "درج ذیل 40 عام Irregular Verbs ہیں۔ ان کی V2 اور V3 شکلیں عام -ed والے اصول کے مطابق نہیں بنتیں۔ تینوں شکلیں ایک ساتھ یاد کریں۔ بعض افعال کی تینوں شکلیں مختلف ہوتی ہیں جبکہ بعض میں ایک یا زیادہ شکلیں ایک جیسی ہوتی ہیں۔ فہرست میں عام معیاری شکلیں دی گئی ہیں؛ چند افعال کے متبادل ہجے یا علاقائی روپ بھی رائج ہیں۔",
+        sindhi: "هيٺ 40 عام Irregular Verbs ڏنا ويا آهن. انهن جون V2 ۽ V3 صورتون عام -ed واري اصول مطابق نٿيون ٺهن. ٽيئي صورتون گڏ ياد ڪريو. ڪجهه فعلن جون ٽيئي صورتون مختلف آهن، جڏهن ته ڪجهه ۾ هڪ يا وڌيڪ صورتون ساڳيون آهن. فهرست ۾ عام معياري صورتون ڏنيون ويون آهن؛ ڪجهه فعلن جا ٻيا مڃيل هِجي يا علائقائي روپ به آهن.",
+        verbTable: [
+          ["be", "was/were", "been"], ["become", "became", "become"], ["begin", "began", "begun"], ["break", "broke", "broken"], ["bring", "brought", "brought"],
+          ["build", "built", "built"], ["buy", "bought", "bought"], ["catch", "caught", "caught"], ["choose", "chose", "chosen"], ["come", "came", "come"],
+          ["cut", "cut", "cut"], ["do", "did", "done"], ["draw", "drew", "drawn"], ["drink", "drank", "drunk"], ["drive", "drove", "driven"],
+          ["eat", "ate", "eaten"], ["fall", "fell", "fallen"], ["feel", "felt", "felt"], ["find", "found", "found"], ["fly", "flew", "flown"],
+          ["forget", "forgot", "forgotten"], ["get", "got", "got/gotten"], ["give", "gave", "given"], ["go", "went", "gone"], [" have", "had", "had"],
+          ["hear", "heard", "heard"], ["keep", "kept", "kept"], ["know", "knew", "known"], ["leave", "left", "left"], ["make", "made", "made"],
+          ["meet", "met", "met"], ["read", "read", "read"], ["ride", "rode", "ridden"], ["ring", "rang", "rung"], ["run", "ran", "run"],
+          ["say", "said", "said"], ["see", "saw", "seen"], ["sing", "sang", "sung"], ["speak", "spoke", "spoken"], ["write", "wrote", "written"]
+        ]
+      },
+      {
+        title: "5. How to Use V1, V2 and V3 in Sentences",
+        english: "V1 (base form) is used after modal verbs (can go, should write), after do/does/did in questions and negatives (Did you see?), with to in an infinitive (to learn), and in the simple present except third-person singular (I work; she works). V2 (simple past) is used for a completed past action (They visited us yesterday). V3 (past participle) is used after have/has/had in perfect tenses (I have finished; she had gone) and with be in passive voice (The work was completed). Remember: do not use V2 after did, and do not use V2 instead of V3 after have/has/had.",
+        urdu: "V1 (Base Form) modal verbs کے بعد استعمال ہوتا ہے، جیسے can go، should write؛ do/does/did کے بعد سوال اور نفی میں، جیسے Did you see?؛ to کے بعد infinitive میں، جیسے to learn؛ اور Simple Present میں تیسرے شخص واحد کے علاوہ استعمال ہوتا ہے، جیسے I work جبکہ she works۔ V2 (Simple Past) ماضی کے مکمل کام کے لیے آتا ہے، جیسے They visited us yesterday۔ V3 (Past Participle) Perfect Tenses میں have/has/had کے بعد، جیسے I have finished اور she had gone؛ اور Passive Voice میں be کے بعد آتا ہے، جیسے The work was completed۔ یاد رکھیں: did کے بعد V2 نہ لگائیں اور have/has/had کے بعد V2 کی جگہ V3 استعمال کریں۔",
+        sindhi: "V1 (Base Form) modal verbs کان پوءِ استعمال ٿئي ٿو، جيئن can go، should write؛ do/does/did کان پوءِ سوال ۽ ناڪاري جملي ۾، جيئن Did you see?؛ to کان پوءِ infinitive ۾، جيئن to learn؛ ۽ Simple Present ۾ ٽئين شخص واحد کان سواءِ استعمال ٿئي ٿو، جيئن I work جڏهن ته she works۔ V2 (Simple Past) ماضيءَ جي مڪمل ڪم لاءِ اچي ٿو، جيئن They visited us yesterday۔ V3 (Past Participle) Perfect Tenses ۾ have/has/had کان پوءِ، جيئن I have finished ۽ she had gone؛ ۽ Passive Voice ۾ be کان پوءِ اچي ٿو، جيئن The work was completed۔ ياد رکو: did کان پوءِ V2 نه لڳايو ۽ have/has/had کان پوءِ V2 بدران V3 استعمال ڪريو.",
+        examples: [
+          ["I write a letter every week.", "میں ہر ہفتے خط لکھتا ہوں۔", "مان هر هفتي خط لکان ٿو.", "Write is V1, used in the simple present with I."],
+          ["I wrote a letter yesterday.", "میں نے کل خط لکھا۔", "مون ڪالهه خط لکيو.", "Wrote is V2, used for a completed past action."],
+          ["I have written a letter.", "میں خط لکھ چکا ہوں۔", "مون خط لکيو آهي.", "Written is V3, used after have in the present perfect."],
+          ["Did she go to school?", "کیا وہ اسکول گئی؟", "ڇا هوءَ اسڪول وئي؟", "After did, use V1 go, not V2 went."],
+          ["The letter was written by Ali.", "خط علی نے لکھا تھا۔", "خط عليءَ لکيو هو.", "Written is V3 and combines with was to form the passive voice."]
+        ]
+      }
+    ]
   },
   "verbs-incomplete-predication": {
     overview: "Verbs of incomplete predication need a complement to complete the predicate. The complement may be a predicate noun or predicate adjective that identifies or describes the subject.",
