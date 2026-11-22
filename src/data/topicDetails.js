@@ -2035,9 +2035,283 @@ export const topicDetails = {
     ]
   },
   "mood": {
-    overview: "Mood expresses how a speaker presents an action: as a fact, a command, a possibility, a wish or a condition. English uses indicative, imperative and subjunctive patterns.",
-    watchFor: "The subjunctive often uses the base form after demands or recommendations and were in formal hypothetical expressions: “I suggest that he be present.”",
-    examples: ["She is here. (indicative)", "Please listen. (imperative)", "If I were you, I would wait. (hypothetical subjunctive)"]
+    "overview": "Mood expresses how a speaker presents an action: as a fact, a command, a possibility, a wish or a condition. English uses indicative, imperative and subjunctive patterns.",
+    "watchFor": "Indicative states or asks; imperative directs; present subjunctive uses the base verb after demands and recommendations; past subjunctive commonly uses were for unreal situations.",
+    "examples": [
+      "She is here. (indicative)",
+      "Please listen. (imperative)",
+      "If I were you, I would wait. (hypothetical subjunctive)"
+    ],
+    "specialSections": [
+      {
+        "title": "Mood in English Grammar — Meaning, Purpose and Main Types",
+        "english": "Mood is the grammatical form or pattern of a verb that shows the speaker’s attitude towards an action or state. It tells us whether the speaker presents something as a fact or question, gives an order or request, or expresses a wish, recommendation, necessity, doubt or unreal condition. Mood is different from tense: tense mainly locates an event in time, while mood shows how the speaker views or presents it. English grammar commonly teaches three principal moods: Indicative, Imperative and Subjunctive. The indicative is used for statements and questions about facts, opinions and events. The imperative is used to give commands, instructions, advice, warnings and requests; its subject ‘you’ is usually understood rather than written. The subjunctive is used in certain formal clauses expressing demands, recommendations, requirements or wishes, and in hypothetical or unreal situations. In modern English, subjunctive forms are limited: the present subjunctive uses the base form of the verb, while the past subjunctive is most clearly seen in ‘were’ in unreal conditions. A sentence’s meaning and structure help identify its mood; do not identify mood from a verb form alone without reading the whole sentence.",
+        "urdu": "Grammar میں Mood فعل کی وہ صورت یا انداز ہے جو بولنے والے کا کسی عمل یا حالت کے بارے میں رویہ ظاہر کرتا ہے۔ اس سے معلوم ہوتا ہے کہ بات کو حقیقت یا سوال کے طور پر پیش کیا جا رہا ہے، حکم یا درخواست دی جا رہی ہے، یا خواہش، مشورہ، ضرورت، شک اور غیر حقیقی شرط ظاہر کی جا رہی ہے۔ Mood اور Tense ایک چیز نہیں ہیں: Tense وقت بتاتا ہے، جبکہ Mood یہ بتاتا ہے کہ بولنے والا عمل کو کس انداز سے پیش کر رہا ہے۔ انگریزی میں عام طور پر تین بنیادی اقسام پڑھائی جاتی ہیں: Indicative، Imperative اور Subjunctive۔ Indicative حقائق، خیالات اور واقعات کے بیانات اور سوالات کے لیے استعمال ہوتا ہے۔ Imperative حکم، ہدایت، مشورہ، تنبیہ اور درخواست کے لیے آتا ہے؛ اس میں فاعل ‘you’ عموماً سمجھا جاتا ہے اور لکھا نہیں جاتا۔ Subjunctive بعض رسمی جملوں میں مطالبہ، سفارش، ضرورت یا خواہش ظاہر کرتا ہے، اور فرضی یا غیر حقیقی صورتِ حال کے لیے بھی استعمال ہوتا ہے۔ جدید انگریزی میں Subjunctive کی صورتیں محدود ہیں: Present Subjunctive میں فعل کی بنیادی شکل آتی ہے، جبکہ Past Subjunctive کی نمایاں مثال غیر حقیقی شرط میں ‘were’ ہے۔ Mood پہچاننے کے لیے پورے جملے کے معنی اور ساخت کو دیکھنا ضروری ہے۔",
+        "sindhi": "Grammar ۾ Mood فعل جو اهو روپ يا انداز آهي جيڪو ڳالهائيندڙ جو ڪنهن عمل يا حالت بابت رويو ظاهر ڪري ٿو. ان مان خبر پوي ٿي ته ڳالهه حقيقت يا سوال طور پيش ڪئي پئي وڃي، حڪم يا درخواست ڏني پئي وڃي، يا خواهش، صلاح، ضرورت، شڪ ۽ غير حقيقي شرط ظاهر ڪئي پئي وڃي. Mood ۽ Tense هڪجهڙا ناهن: Tense وقت ٻڌائي ٿو، جڏهن ته Mood ٻڌائي ٿو ته ڳالهائيندڙ عمل کي ڪهڙي انداز سان پيش ڪري ٿو. انگريزيءَ ۾ عام طور ٽي بنيادي قسم پڙهايا وڃن ٿا: Indicative، Imperative ۽ Subjunctive. Indicative حقيقتن، خيالن ۽ واقعن بابت بيانن ۽ سوالن لاءِ استعمال ٿئي ٿو. Imperative حڪم، هدايت، صلاح، خبرداري ۽ درخواست لاءِ استعمال ٿئي ٿو؛ ان ۾ فاعل ‘you’ اڪثر سمجهيل هوندو آهي ۽ لکيو نه ويندو آهي. Subjunctive ڪجهه رسمي جملن ۾ گهرج، سفارش، ضرورت يا خواهش ظاهر ڪري ٿو ۽ فرضي يا غير حقيقي حالتن لاءِ به استعمال ٿئي ٿو. جديد انگريزيءَ ۾ Subjunctive جا روپ محدود آهن: Present Subjunctive ۾ فعل جو بنيادي روپ ايندو آهي، جڏهن ته Past Subjunctive جو نمايان مثال غير حقيقي شرط ۾ ‘were’ آهي. Mood سڃاڻڻ لاءِ سڄي جملي جي معنيٰ ۽ بناوت ڏسڻ ضروري آهي.",
+        "examples": [
+          [
+            "She is at home.",
+            "وہ گھر پر ہے۔",
+            "هوءَ گهر ۾ آهي."
+          ],
+          [
+            "Do you know the answer?",
+            "کیا تم جواب جانتے ہو؟",
+            "ڇا توکي جواب معلوم آهي؟"
+          ]
+        ]
+      },
+      {
+        "title": "Indicative Mood — Detailed Explanation and 10 Examples",
+        "english": "The indicative mood is used to state facts, describe real or ordinary situations, express opinions and beliefs, and ask questions. It is the most frequently used mood in English. It can appear in present, past and future time, and in simple, continuous and perfect verb forms. A sentence does not have to be objectively true to be indicative: ‘I believe that he is honest’ is indicative because the speaker presents a belief as a statement. Likewise, questions such as ‘Where does she live?’ are indicative. In affirmative statements, the verb agrees with its subject and follows the relevant tense pattern. In negative statements and questions, auxiliary verbs such as do, does, did, have, will and be may be used. Remember: indicative mood presents information or asks for information; it does not issue a command. The following examples show facts, habits, past events, future events, opinions and questions.",
+        "urdu": "Indicative Mood حقائق بیان کرنے، حقیقی یا معمول کی صورتِ حال بتانے، رائے اور یقین ظاہر کرنے اور سوال پوچھنے کے لیے استعمال ہوتا ہے۔ انگریزی میں سب سے زیادہ یہی Mood استعمال ہوتا ہے۔ یہ حال، ماضی اور مستقبل کے ساتھ ساتھ Simple، Continuous اور Perfect صورتوں میں بھی آ سکتا ہے۔ Indicative جملے کا حقیقتاً درست ہونا ضروری نہیں؛ مثلاً ‘I believe that he is honest’ میں بولنے والا اپنا یقین بیان کر رہا ہے، اس لیے یہ Indicative ہے۔ اسی طرح ‘Where does she live?’ ایک سوال ہے اور Indicative Mood میں ہے۔ مثبت جملوں میں فعل اپنے فاعل اور متعلقہ Tense کے مطابق آتا ہے۔ منفی جملوں اور سوالات میں do، does، did، have، will اور be جیسے معاون افعال استعمال ہو سکتے ہیں۔ یاد رکھیں: Indicative معلومات بیان کرتا یا پوچھتا ہے، حکم نہیں دیتا۔ درج ذیل مثالوں میں حقائق، عادتیں، ماضی اور مستقبل کے واقعات، رائے اور سوالات شامل ہیں۔",
+        "sindhi": "Indicative Mood حقيقتون بيان ڪرڻ، حقيقي يا عام حالتون ٻڌائڻ، رايا ۽ يقين ظاهر ڪرڻ ۽ سوال پڇڻ لاءِ استعمال ٿئي ٿو. انگريزيءَ ۾ سڀ کان وڌيڪ اهو ئي Mood استعمال ٿئي ٿو. اهو حال، ماضي ۽ مستقبل سان گڏ Simple، Continuous ۽ Perfect صورتن ۾ اچي سگهي ٿو. Indicative جملي جو لازمي ناهي ته حقيقت ۾ صحيح هجي؛ مثال طور ‘I believe that he is honest’ ۾ ڳالهائيندڙ پنهنجو يقين بيان ڪري ٿو، تنهنڪري اهو Indicative آهي. اهڙيءَ طرح ‘Where does she live?’ سوال آهي ۽ Indicative Mood ۾ آهي. هاڪاري جملن ۾ فعل فاعل ۽ لاڳاپيل Tense جي قاعدي مطابق ايندو آهي. ناڪاري جملن ۽ سوالن ۾ do، does، did، have، will ۽ be جهڙا مددگار فعل اچي سگهن ٿا. ياد رکو: Indicative معلومات بيان ڪري ٿو يا پڇي ٿو، حڪم نٿو ڏئي. هيٺين مثالن ۾ حقيقتون، عادتون، ماضي ۽ مستقبل جا واقعا، رايا ۽ سوال ڏنل آهن.",
+        "examples": [
+          [
+            "The earth moves around the sun.",
+            "زمین سورج کے گرد گردش کرتی ہے۔",
+            "ڌرتي سج جي چوڌاري ڦري ٿي."
+          ],
+          [
+            "My father works in a bank.",
+            "میرے والد ایک بینک میں کام کرتے ہیں۔",
+            "منهنجو پيءُ هڪ بئنڪ ۾ ڪم ڪري ٿو."
+          ],
+          [
+            "They visited the museum yesterday.",
+            "انہوں نے کل عجائب گھر کا دورہ کیا۔",
+            "انهن ڪالهه عجائب گهر جو دورو ڪيو."
+          ],
+          [
+            "We are learning English.",
+            "ہم انگریزی سیکھ رہے ہیں۔",
+            "اسان انگريزي سکي رهيا آهيون."
+          ],
+          [
+            "She has finished her homework.",
+            "اس نے اپنا گھر کا کام مکمل کر لیا ہے۔",
+            "هن پنهنجو گهر جو ڪم پورو ڪري ڇڏيو آهي."
+          ],
+          [
+            "I will call you tomorrow.",
+            "میں تمہیں کل فون کروں گا۔",
+            "مان توکي سڀاڻي فون ڪندس."
+          ],
+          [
+            "He believes in hard work.",
+            "وہ محنت پر یقین رکھتا ہے۔",
+            "هو محنت تي يقين رکي ٿو."
+          ],
+          [
+            "The children were playing in the garden.",
+            "بچے باغ میں کھیل رہے تھے۔",
+            "ٻار باغ ۾ کيڏي رهيا هئا."
+          ],
+          [
+            "Where does your uncle live?",
+            "تمہارے چچا کہاں رہتے ہیں؟",
+            "تنهنجو چاچو ڪٿي رهي ٿو؟"
+          ],
+          [
+            "Have you seen this film?",
+            "کیا تم نے یہ فلم دیکھی ہے؟",
+            "ڇا تو هيءَ فلم ڏٺي آهي؟"
+          ]
+        ]
+      },
+      {
+        "title": "Imperative Mood — Detailed Explanation and 10 Examples",
+        "english": "The imperative mood expresses a command, instruction, request, warning, invitation, advice or prohibition. Its subject is usually the second-person pronoun ‘you’, but this subject is understood and normally omitted: ‘Close the door’ means ‘You close the door’. The verb begins with its base form: ‘Sit’, ‘Listen’, ‘Take’. Use ‘please’ to make a command more polite. Negative imperatives are commonly formed with ‘do not’ or ‘don’t’ + base verb: ‘Do not touch the wire’. ‘Never’ can also introduce a strong prohibition. For emphasis, ‘do’ may appear before the base verb: ‘Do be careful’. The imperative can address one person or several people. ‘Let us’ or ‘Let’s’ is used for suggestions that include the speaker, as in ‘Let’s begin’. An imperative sentence often ends with a full stop, while an urgent command may end with an exclamation mark. The tone and context determine whether it sounds firm, friendly or polite.",
+        "urdu": "Imperative Mood حکم، ہدایت، درخواست، تنبیہ، دعوت، مشورہ یا ممانعت ظاہر کرتا ہے۔ اس کا فاعل عموماً دوسرے شخص کا ضمیر ‘you’ ہوتا ہے، لیکن اسے سمجھا ہوا مان کر عام طور پر لکھا نہیں جاتا: ‘Close the door’ کا مطلب ہے ‘You close the door’۔ فعل کی بنیادی شکل سے جملہ شروع ہوتا ہے، جیسے Sit، Listen اور Take۔ حکم کو مؤدبانہ بنانے کے لیے ‘please’ استعمال کیا جاتا ہے۔ منفی Imperative عموماً ‘do not’ یا ‘don’t’ کے بعد فعل کی بنیادی شکل لگا کر بنتا ہے: ‘Do not touch the wire’۔ سخت ممانعت کے لیے ‘Never’ بھی استعمال ہو سکتا ہے۔ زور دینے کے لیے بنیادی فعل سے پہلے ‘do’ آ سکتا ہے، جیسے ‘Do be careful’۔ Imperative ایک یا کئی افراد سے خطاب کر سکتا ہے۔ ‘Let us’ یا ‘Let’s’ ایسی تجویز کے لیے آتا ہے جس میں بولنے والا خود بھی شامل ہو، جیسے ‘Let’s begin’۔ Imperative جملے کے آخر میں عموماً فل اسٹاپ اور فوری حکم میں تعجبیہ نشان آ سکتا ہے۔ لہجہ اور موقع طے کرتے ہیں کہ بات سخت، دوستانہ یا مؤدبانہ محسوس ہو گی۔",
+        "sindhi": "Imperative Mood حڪم، هدايت، درخواست، خبرداري، دعوت، صلاح يا منع ظاهر ڪري ٿو. ان جو فاعل عام طور ٻئي شخص جو ضمير ‘you’ هوندو آهي، پر اهو سمجهيل هوندو آهي ۽ عام طور لکيو نه ويندو آهي: ‘Close the door’ جو مطلب آهي ‘You close the door’. جملو فعل جي بنيادي صورت سان شروع ٿيندو آهي، جيئن Sit، Listen ۽ Take. حڪم کي وڌيڪ ادب وارو بنائڻ لاءِ ‘please’ استعمال ٿيندو آهي. ناڪاري Imperative عام طور ‘do not’ يا ‘don’t’ کان پوءِ فعل جي بنيادي صورت آڻڻ سان ٺهندو آهي: ‘Do not touch the wire’. سخت منع لاءِ ‘Never’ به اچي سگهي ٿو. زور ڏيڻ لاءِ بنيادي فعل کان اڳ ‘do’ اچي سگهي ٿو، جيئن ‘Do be careful’. Imperative هڪ ماڻهو يا گهڻن ماڻهن کي مخاطب ڪري سگهي ٿو. ‘Let us’ يا ‘Let’s’ اهڙي صلاح لاءِ استعمال ٿئي ٿو جنهن ۾ ڳالهائيندڙ پاڻ به شامل هجي، جيئن ‘Let’s begin’. Imperative جملي جي آخر ۾ عام طور فل اسٽاپ ۽ تڪڙي حڪم ۾ عجب جي نشاني اچي سگهي ٿي. لهجو ۽ صورتحال ٻڌائين ٿا ته ڳالهه سخت، دوستانه يا ادب واري آهي.",
+        "examples": [
+          [
+            "Open your books.",
+            "اپنی کتابیں کھولو۔",
+            "پنهنجا ڪتاب کوليو."
+          ],
+          [
+            "Please sit down.",
+            "براہِ کرم بیٹھ جائیں۔",
+            "مهرباني ڪري ويهو."
+          ],
+          [
+            "Listen to the teacher carefully.",
+            "استاد کی بات غور سے سنو۔",
+            "استاد جي ڳالهه ڌيان سان ٻڌو."
+          ],
+          [
+            "Do not waste your time.",
+            "اپنا وقت ضائع نہ کرو۔",
+            "پنهنجو وقت ضايع نه ڪريو."
+          ],
+          [
+            "Never tell a lie.",
+            "کبھی جھوٹ نہ بولو۔",
+            "ڪڏهن به ڪوڙ نه ڳالهايو."
+          ],
+          [
+            "Take this medicine after meals.",
+            "یہ دوا کھانے کے بعد لو۔",
+            "هيءَ دوا ماني کائڻ کان پوءِ وٺو."
+          ],
+          [
+            "Please help the old man.",
+            "براہِ کرم بوڑھے آدمی کی مدد کرو۔",
+            "مهرباني ڪري پوڙهي ماڻهوءَ جي مدد ڪريو."
+          ],
+          [
+            "Do be careful while crossing the road.",
+            "سڑک پار کرتے وقت ضرور احتیاط کرنا۔",
+            "رستو پار ڪندي ضرور احتياط ڪجو."
+          ],
+          [
+            "Let us work together.",
+            "آؤ ہم مل کر کام کریں۔",
+            "اچو ته گڏجي ڪم ڪريون."
+          ],
+          [
+            "Keep the room clean.",
+            "کمرے کو صاف رکھو۔",
+            "ڪمري کي صاف رکو."
+          ]
+        ]
+      },
+      {
+        "title": "Subjunctive Mood — Detailed Explanation",
+        "english": "The subjunctive mood is used to express situations that are not presented simply as ordinary facts. It commonly appears after verbs and expressions of demand, recommendation, insistence, importance or necessity, and in wishes and hypothetical conditions. Two forms are traditionally distinguished: the present subjunctive and the past subjunctive. The present subjunctive uses the base form of the verb for all subjects, so it does not add -s with he, she or it: ‘They suggested that he go’ (not ‘goes’). It is especially common in formal English after words such as suggest, recommend, insist, demand, request and essential. The pattern is often ‘that + subject + base verb’; with be, use ‘be’ for every subject: ‘It is essential that she be informed’. The past subjunctive is chiefly associated with unreal or contrary-to-fact situations in the present or future. Its best-known form is ‘were’, used with all subjects in formal hypothetical clauses: ‘If I were you’. It does not necessarily refer to past time; the past form signals distance from reality. In everyday informal English, ‘was’ is also heard with I/he/she in hypothetical clauses, but ‘were’ is the traditional formal subjunctive. The following subsections give ten examples of each form.",
+        "urdu": "Subjunctive Mood ایسے حالات ظاہر کرنے کے لیے استعمال ہوتا ہے جنہیں عام حقیقت کے طور پر پیش نہیں کیا جاتا۔ یہ اکثر مطالبہ، سفارش، اصرار، اہمیت یا ضرورت ظاہر کرنے والے افعال اور فقروں کے بعد، نیز خواہشات اور فرضی شرائط میں آتا ہے۔ روایتی طور پر اس کی دو صورتیں بیان کی جاتی ہیں: Present Subjunctive اور Past Subjunctive۔ Present Subjunctive میں ہر فاعل کے ساتھ فعل کی بنیادی شکل استعمال ہوتی ہے؛ اس لیے he، she یا it کے ساتھ بھی -s نہیں لگتا: ‘They suggested that he go’، نہ کہ ‘goes’۔ یہ رسمی انگریزی میں suggest، recommend، insist، demand، request اور essential جیسے الفاظ کے بعد عام ہے۔ اس کی ساخت اکثر ‘that + subject + base verb’ ہوتی ہے؛ فعل be کے ساتھ ہر فاعل کے لیے ‘be’ آتا ہے: ‘It is essential that she be informed’۔ Past Subjunctive زیادہ تر موجودہ یا مستقبل کی غیر حقیقی یا حقیقت کے خلاف صورتِ حال میں استعمال ہوتا ہے۔ اس کی مشہور صورت ‘were’ ہے، جو رسمی فرضی جملوں میں تمام فاعلوں کے ساتھ آ سکتی ہے: ‘If I were you’۔ یہ لازماً ماضی کے وقت کو ظاہر نہیں کرتا؛ یہاں ماضی کی شکل حقیقت سے فاصلے کو ظاہر کرتی ہے۔ روزمرہ غیر رسمی انگریزی میں فرضی جملوں میں I/he/she کے ساتھ ‘was’ بھی سننے کو ملتا ہے، لیکن ‘were’ روایتی رسمی Subjunctive ہے۔ اگلے حصوں میں دونوں صورتوں کی دس دس مثالیں دی گئی ہیں۔",
+        "sindhi": "Subjunctive Mood اهڙيون حالتون ظاهر ڪرڻ لاءِ استعمال ٿئي ٿو جن کي عام حقيقت طور پيش نه ڪيو وڃي. اهو اڪثر گهرج، سفارش، زور، اهميت يا ضرورت ظاهر ڪندڙ فعلن ۽ عبارتن کان پوءِ، ۽ خواهشن ۽ فرضي شرطن ۾ اچي ٿو. روايتي طور ان جا ٻه روپ بيان ڪيا وڃن ٿا: Present Subjunctive ۽ Past Subjunctive. Present Subjunctive ۾ هر فاعل سان فعل جو بنيادي روپ استعمال ٿئي ٿو؛ تنهنڪري he، she يا it سان به -s نٿو لڳي: ‘They suggested that he go’، ‘goes’ نه. اهو رسمي انگريزيءَ ۾ suggest، recommend، insist، demand، request ۽ essential جهڙن لفظن کان پوءِ عام آهي. ان جي بناوت اڪثر ‘that + subject + base verb’ هوندي آهي؛ be فعل سان هر فاعل لاءِ ‘be’ ايندو آهي: ‘It is essential that she be informed’. Past Subjunctive گهڻو ڪري موجوده يا مستقبل جي غير حقيقي يا حقيقت جي ابتڙ حالت لاءِ استعمال ٿئي ٿو. ان جو مشهور روپ ‘were’ آهي، جيڪو رسمي فرضي جملن ۾ سڀني فاعلن سان اچي سگهي ٿو: ‘If I were you’. اهو لازمي طور ماضيءَ جو وقت نٿو ڏيکاري؛ هتي ماضيءَ وارو روپ حقيقت کان فاصلو ظاهر ڪري ٿو. روزمره غير رسمي انگريزيءَ ۾ فرضي جملن ۾ I/he/she سان ‘was’ به ٻڌڻ ۾ اچي ٿو، پر ‘were’ روايتي رسمي Subjunctive آهي. ايندڙ حصن ۾ ٻنهي صورتن جا ڏهه ڏهه مثال ڏنل آهن.",
+        "examples": [
+          [
+            "The teacher recommends that every student be punctual.",
+            "استاد سفارش کرتا ہے کہ ہر طالب علم وقت کا پابند ہو۔",
+            "استاد سفارش ڪري ٿو ته هر شاگرد وقت جو پابند هجي."
+          ],
+          [
+            "They insisted that he apologise.",
+            "انہوں نے اصرار کیا کہ وہ معافی مانگے۔",
+            "انهن زور ڀريو ته هو معافي گهري."
+          ]
+        ]
+      },
+      {
+        "title": "Present Subjunctive — Form, Use and 10 Examples",
+        "english": "The present subjunctive is formed with the plain base form of a verb, without to. The same form is used with I, you, he, she, it and plural subjects. Thus we say ‘I suggest that he work harder’, not ‘he works harder’, when the clause is subjunctive. With the verb be, use be: ‘that she be present’. It commonly follows verbs such as advise, ask, demand, insist, propose, recommend, request and suggest, especially in a that-clause. It also appears after expressions such as ‘It is important/necessary/essential that…’. In British English, a should-construction is also common: ‘They suggested that he should attend’; this is an alternative construction, not the bare present subjunctive itself. The present subjunctive is not simply the ordinary present tense: compare ‘He works every day’ (indicative) with ‘They demand that he work every day’ (subjunctive).",
+        "urdu": "Present Subjunctive فعل کی سادہ بنیادی شکل سے بنتا ہے اور اس سے پہلے to نہیں آتا۔ یہی شکل I، you، he، she، it اور جمع کے فاعلوں کے ساتھ استعمال ہوتی ہے۔ چنانچہ Subjunctive والے جملے میں ‘I suggest that he work harder’ کہا جاتا ہے، ‘he works harder’ نہیں۔ فعل be کے ساتھ be ہی استعمال ہوتا ہے: ‘that she be present’۔ یہ advise، ask، demand، insist، propose، recommend، request اور suggest جیسے افعال کے بعد، خاص طور پر that-clause میں آتا ہے۔ ‘It is important/necessary/essential that…’ جیسی تراکیب کے بعد بھی استعمال ہوتا ہے۔ برطانوی انگریزی میں should والی ساخت بھی عام ہے: ‘They suggested that he should attend’؛ یہ متبادل ساخت ہے، خود bare Present Subjunctive نہیں۔ Present Subjunctive عام Present Tense نہیں ہے: ‘He works every day’ (Indicative) کا مقابلہ ‘They demand that he work every day’ (Subjunctive) سے کریں۔",
+        "sindhi": "Present Subjunctive فعل جي سادي بنيادي صورت سان ٺهندو آهي ۽ ان کان اڳ to نه ايندو آهي. ساڳي صورت I، you، he، she، it ۽ جمع فاعلن سان استعمال ٿيندي آهي. تنهنڪري Subjunctive واري جملي ۾ ‘I suggest that he work harder’ چئبو، ‘he works harder’ نه. be فعل سان be ئي استعمال ٿيندو آهي: ‘that she be present’. اهو advise، ask، demand، insist، propose، recommend، request ۽ suggest جهڙن فعلن کان پوءِ، خاص طور that-clause ۾ اچي ٿو. ‘It is important/necessary/essential that…’ جهڙين عبارتن کان پوءِ به استعمال ٿئي ٿو. برطانوي انگريزيءَ ۾ should واري بناوت به عام آهي: ‘They suggested that he should attend’؛ اها متبادل بناوت آهي، پاڻ bare Present Subjunctive نه آهي. Present Subjunctive عام Present Tense نه آهي: ‘He works every day’ (Indicative) ۽ ‘They demand that he work every day’ (Subjunctive) جو مقابلو ڪريو.",
+        "examples": [
+          [
+            "I suggest that he study regularly.",
+            "میں تجویز کرتا ہوں کہ وہ باقاعدگی سے پڑھے۔",
+            "مان صلاح ڏيان ٿو ته هو باقاعدگيءَ سان پڙهي."
+          ],
+          [
+            "The doctor insists that she rest.",
+            "ڈاکٹر اصرار کرتا ہے کہ وہ آرام کرے۔",
+            "ڊاڪٽر زور ڏئي ٿو ته هوءَ آرام ڪري."
+          ],
+          [
+            "They demanded that the meeting begin at once.",
+            "انہوں نے مطالبہ کیا کہ اجلاس فوراً شروع ہو۔",
+            "انهن مطالبو ڪيو ته گڏجاڻي فوراً شروع ٿئي."
+          ],
+          [
+            "The law requires that every driver wear a seat belt.",
+            "قانون تقاضا کرتا ہے کہ ہر ڈرائیور سیٹ بیلٹ پہنے۔",
+            "قانون گهر ڪري ٿو ته هر ڊرائيور سيٽ بيلٽ پائي."
+          ],
+          [
+            "It is essential that he be honest.",
+            "یہ ضروری ہے کہ وہ ایماندار ہو۔",
+            "اهو ضروري آهي ته هو ايماندار هجي."
+          ],
+          [
+            "We recommended that the school appoint a new teacher.",
+            "ہم نے سفارش کی کہ اسکول نیا استاد مقرر کرے۔",
+            "اسان سفارش ڪئي ته اسڪول نئون استاد مقرر ڪري."
+          ],
+          [
+            "The judge ordered that the prisoner be released.",
+            "جج نے حکم دیا کہ قیدی کو رہا کیا جائے۔",
+            "جج حڪم ڏنو ته قيدي کي آزاد ڪيو وڃي."
+          ],
+          [
+            "Her parents requested that she arrive early.",
+            "اس کے والدین نے درخواست کی کہ وہ جلد پہنچے۔",
+            "هن جي والدين درخواست ڪئي ته هوءَ سوير پهچي."
+          ],
+          [
+            "The committee proposed that the rule be changed.",
+            "کمیٹی نے تجویز دی کہ قاعدہ تبدیل کیا جائے۔",
+            "ڪميٽي تجويز ڏني ته قاعدو تبديل ڪيو وڃي."
+          ],
+          [
+            "I ask that everyone remain calm.",
+            "میں درخواست کرتا ہوں کہ ہر شخص پُرسکون رہے۔",
+            "مان درخواست ڪريان ٿو ته هرڪو پرسڪون رهي."
+          ]
+        ]
+      },
+      {
+        "title": "Past Subjunctive — Form, Use and 10 Examples",
+        "english": "The past subjunctive is used mainly to express an unreal, imagined or remote condition, wish or comparison in the present or future. In modern English, its clearest surviving form is were. In formal English, were can be used with every subject: ‘If I were’, ‘If he were’, ‘If they were’. It commonly appears in clauses introduced by if, as if, as though and in the expression ‘I wish’. For example, ‘If she were here, she would help us’ describes a situation contrary to the present fact or regarded as unlikely. ‘I wish I were taller’ expresses a wish about the present. Although the form is called past subjunctive, it usually does not mean that the event happened in the past; it marks unreality or distance from fact. In ordinary conversation, many speakers use was with I/he/she (‘If I was…’), but were remains the traditional form in formal hypothetical subjunctive usage. Do not confuse this pattern with ordinary past indicative: ‘He was at home yesterday’ reports a past fact, while ‘If he were at home now…’ imagines a different present situation.",
+        "urdu": "Past Subjunctive بنیادی طور پر موجودہ یا مستقبل کی غیر حقیقی، خیالی یا بعید شرط، خواہش یا موازنہ ظاہر کرنے کے لیے استعمال ہوتا ہے۔ جدید انگریزی میں اس کی سب سے نمایاں باقی رہ جانے والی شکل were ہے۔ رسمی انگریزی میں were ہر فاعل کے ساتھ آ سکتا ہے: ‘If I were’، ‘If he were’، ‘If they were’۔ یہ عموماً if، as if، as though سے شروع ہونے والے فقروں اور ‘I wish’ کے ساتھ آتا ہے۔ مثال کے طور پر ‘If she were here, she would help us’ ایسی صورت بیان کرتا ہے جو موجودہ حقیقت کے خلاف یا غیر متوقع ہو۔ ‘I wish I were taller’ موجودہ وقت کی خواہش ظاہر کرتا ہے۔ اسے Past Subjunctive کہنے کے باوجود یہ عموماً ماضی کا واقعہ نہیں بتاتا؛ یہ غیر حقیقت یا حقیقت سے فاصلے کو ظاہر کرتا ہے۔ عام گفتگو میں بہت سے لوگ I/he/she کے ساتھ was بھی استعمال کرتے ہیں (‘If I was…’)، لیکن رسمی فرضی Subjunctive میں were روایتی صورت ہے۔ اس ساخت کو عام Past Indicative سے نہ ملائیں: ‘He was at home yesterday’ ماضی کی حقیقت بتاتا ہے، جبکہ ‘If he were at home now…’ موجودہ وقت کی ایک فرضی صورت تصور کرتا ہے۔",
+        "sindhi": "Past Subjunctive بنيادي طور موجوده يا مستقبل جي غير حقيقي، خيالي يا پري واري شرط، خواهش يا ڀيٽ ظاهر ڪرڻ لاءِ استعمال ٿئي ٿو. جديد انگريزيءَ ۾ ان جو سڀ کان نمايان باقي رهيل روپ were آهي. رسمي انگريزيءَ ۾ were هر فاعل سان اچي سگهي ٿو: ‘If I were’، ‘If he were’، ‘If they were’. اهو عام طور if، as if، as though سان شروع ٿيندڙ فقرن ۽ ‘I wish’ سان اچي ٿو. مثال طور ‘If she were here, she would help us’ اهڙي حالت بيان ڪري ٿو جيڪا موجوده حقيقت جي ابتڙ يا غير امڪاني هجي. ‘I wish I were taller’ موجوده وقت جي خواهش ظاهر ڪري ٿو. ان کي Past Subjunctive چوڻ باوجود اهو عام طور ماضيءَ جو واقعو نٿو ٻڌائي؛ اهو غير حقيقت يا حقيقت کان فاصلو ظاهر ڪري ٿو. عام ڳالهه ٻولهه ۾ ڪيترائي ماڻهو I/he/she سان was به چون ٿا (‘If I was…’)، پر رسمي فرضي Subjunctive ۾ were روايتي صورت آهي. هن بناوت کي عام Past Indicative سان نه ملايو: ‘He was at home yesterday’ ماضيءَ جي حقيقت ٻڌائي ٿو، جڏهن ته ‘If he were at home now…’ موجوده وقت جي هڪ فرضي حالت تصور ڪري ٿو.",
+        "examples": [
+          [
+            "If I were rich, I would build a school.",
+            "اگر میں امیر ہوتا تو ایک اسکول بناتا۔",
+            "جيڪڏهن مان امير هجان ها ته هڪ اسڪول ٺهرايان ها."
+          ],
+          [
+            "If she were here, she would guide us.",
+            "اگر وہ یہاں ہوتی تو ہماری رہنمائی کرتی۔",
+            "جيڪڏهن هوءَ هتي هجي ها ته اسان جي رهنمائي ڪري ها."
+          ],
+          [
+            "I wish I were a better speaker.",
+            "کاش میں بہتر مقرر ہوتا۔",
+            "ڪاش مان وڌيڪ سٺو ڳالهائيندڙ هجان ها."
+          ],
+          [
+            "He talks as if he were the owner.",
+            "وہ ایسے بات کرتا ہے جیسے وہ مالک ہو۔",
+            "هو ائين ڳالهائي ٿو ڄڻ ته هو مالڪ هجي."
+          ],
+          [
+            "If Ali were taller, he could reach the shelf.",
+            "اگر علی زیادہ لمبا ہوتا تو شیلف تک پہنچ سکتا۔",
+            "جيڪڏهن علي وڌيڪ ڊگهو هجي ها ته شيلف تائين پهچي سگهي ها."
+          ],
+          [
+            "I wish it were Sunday today.",
+            "کاش آج اتوار ہوتا۔",
+            "ڪاش اڄ آچر هجي ها."
+          ],
+          [
+            "If the weather were warmer, we would go swimming.",
+            "اگر موسم زیادہ گرم ہوتا تو ہم تیراکی کرنے جاتے۔",
+            "جيڪڏهن موسم وڌيڪ گرم هجي ها ته اسين ترڻ وڃون ها."
+          ],
+          [
+            "She behaves as though she were the manager.",
+            "وہ ایسے برتاؤ کرتی ہے جیسے وہ منیجر ہو۔",
+            "هوءَ ائين ورتاءُ ڪري ٿي ڄڻ ته هوءَ مئنيجر هجي."
+          ],
+          [
+            "If I were you, I would accept the offer.",
+            "اگر میں تمہاری جگہ ہوتا تو پیشکش قبول کر لیتا۔",
+            "جيڪڏهن مان تنهنجي جاءِ تي هجان ها ته آڇ قبول ڪريان ها."
+          ],
+          [
+            "I wish my friends were here.",
+            "کاش میرے دوست یہاں ہوتے۔",
+            "ڪاش منهنجا دوست هتي هجن ها."
+          ]
+        ]
+      }
+    ]
   },
   "tenses-introduction": {
     overview: "Tense forms locate events in time, while aspect shows whether an event is simple, ongoing, completed or continuing up to a point. These meanings combine in English verb phrases.",
