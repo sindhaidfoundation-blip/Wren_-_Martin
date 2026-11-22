@@ -60,7 +60,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        api-level: [26, 29, 33, 35]
+        api-level: [26, 29, 33, 35, 36]
     steps:
       - name: Download APK
         uses: actions/download-artifact@v4
