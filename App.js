@@ -582,6 +582,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
               <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
               <Text style={{ color: muted, fontSize: 13, lineHeight: 23, textAlign: "right" }}>اردو: {example[1]}</Text>
               <Text style={{ color: green, fontSize: 13, lineHeight: 23, textAlign: "right" }}>سنڌي: {example[2]}</Text>
+              {example[3] ? <Text style={{ color: ink, fontSize: 13, lineHeight: 21 }}>Explanation: {example[3]}</Text> : null}
             </View>)}
           </View>)}
         </View> : null}
