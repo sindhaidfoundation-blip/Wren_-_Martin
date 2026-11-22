@@ -3934,9 +3934,250 @@ export const topicDetails = {
 ]
   },
   "interjections": {
-    overview: "Interjections are short expressions that communicate reactions or feelings. They are often separate from the grammar of the main sentence.",
-    watchFor: "Use punctuation to show the strength of the reaction. In formal writing, use interjections sparingly.",
-    examples: ["Oh! I left my notebook at home.", "Hurray! Our team has won."]
+    overview: "An interjection is a word, short phrase or sound that expresses a sudden feeling, emotion, reaction or response. It is usually grammatically independent of the sentence. Examples include Oh!, Alas!, Hurrah!, Wow!, Ouch!, Bravo! and Hey!",
+    watchFor: "Use an exclamation mark for a strong feeling and a comma for a mild reaction or pause. Interjections are common in conversation and expressive writing, but should be used sparingly in formal writing. A word's part of speech depends on its function in context.",
+    examples: ["Wow! This is a beautiful painting.", "Alas! We have lost the match.", "Ouch! That pin hurt me.", "Bravo! You performed very well.", "Hmm, I am not sure about this answer."],
+    specialSectionsTitle: "Interjections — Definition, Kinds and Detailed Examples",
+    specialSections: [
+    {
+        "title": "Definition and Explanation of Interjections",
+        "english": "An interjection is a word, short phrase or sound used to express a sudden feeling, reaction, emotion or response. It may express joy, sorrow, surprise, pain, approval, disappointment, greeting, hesitation or a call for attention. An interjection is usually grammatically independent of the rest of the sentence: it does not normally act as the subject, object or main verb. It can appear at the beginning, middle or end of a sentence. Interjections are common in conversation, stories and informal writing; in formal writing, use them only when they serve a clear purpose.",
+        "urdu": "حرفِ ندا ایسا لفظ یا مختصر فقرہ ہے جو اچانک احساس، جذبہ، ردِعمل یا آواز ظاہر کرتا ہے، مثلاً خوشی، غم، حیرت، درد یا کسی کو متوجہ کرنا۔ یہ عموماً جملے کے بنیادی نحوی ڈھانچے سے الگ ہوتا ہے۔",
+        "sindhi": "حرفِ ندا اهڙو لفظ يا ننڍو فقرو آهي، جيڪو اوچتو احساس، جذبو، ردعمل يا آواز ظاهر ڪري ٿو، جيئن خوشي، ڏک، حيرت، سور يا ڪنهن کي ڌيان ڇڪائڻ. اهو عام طور جملي جي بنيادي گرامري بناوت کان الڳ هوندو آهي.",
+        "subsections": [
+            {
+                "title": "Examples with Translations and Explanation",
+                "english": "Study each example to understand the feeling and grammatical use.",
+                "urdu": "ہر مثال کا اردو ترجمہ اور وضاحت ملاحظہ کریں۔",
+                "sindhi": "هر مثال جو سنڌي ترجمو ۽ وضاحت ڏسو۔",
+                "examples": [
+                    [
+                        "Wow! This is a beautiful painting.",
+                        "واہ! یہ ایک خوبصورت تصویر ہے۔",
+                        "واهه! هيءَ سهڻي تصوير آهي۔",
+                        "Wow expresses admiration or surprise."
+                    ],
+                    [
+                        "Alas! We have lost the match.",
+                        "افسوس! ہم میچ ہار گئے۔",
+                        "افسوس! اسان ميچ هارائي وياسين۔",
+                        "Alas expresses sorrow or regret."
+                    ],
+                    [
+                        "Hurrah! We have won the competition.",
+                        "واہ واہ! ہم مقابلہ جیت گئے۔",
+                        "واهه واهه! اسان مقابلو کٽي ورتو۔",
+                        "Hurrah expresses joy or triumph."
+                    ],
+                    [
+                        "Oh! I forgot my keys.",
+                        "اوہ! میں اپنی چابیاں بھول گیا۔",
+                        "اوهو! مان پنهنجون چاٻيون وساري ويٺس۔",
+                        "Oh expresses sudden realisation or surprise."
+                    ],
+                    [
+                        "Ouch! That pin hurt me.",
+                        "آہ! اس سوئی سے مجھے چوٹ لگی۔",
+                        "اُف! انهيءَ پن مون کي چُڀايو۔",
+                        "Ouch expresses physical pain."
+                    ],
+                    [
+                        "Bravo! You performed very well.",
+                        "شاباش! تم نے بہت اچھا مظاہرہ کیا۔",
+                        "شاباس! تو تمام سٺي ڪارڪردگي ڏيکاري۔",
+                        "Bravo expresses praise or approval."
+                    ],
+                    [
+                        "Ugh! This milk smells bad.",
+                        "چھِی! اس دودھ سے بدبو آ رہی ہے۔",
+                        "اُف! هن کير مان خراب بوءِ اچي رهي آهي۔",
+                        "Ugh expresses disgust."
+                    ],
+                    [
+                        "Hey! Please listen to me.",
+                        "ارے! براہِ کرم میری بات سنو۔",
+                        "اڙي! مهرباني ڪري منهنجي ڳالهه ٻڌ۔",
+                        "Hey calls someone’s attention."
+                    ],
+                    [
+                        "Hmm, I am not sure about this answer.",
+                        "ہمم، مجھے اس جواب کے بارے میں یقین نہیں۔",
+                        "همم، مون کي هن جواب بابت پڪ ناهي۔",
+                        "Hmm expresses hesitation or thinking."
+                    ],
+                    [
+                        "Phew! We reached the station on time.",
+                        "شکر ہے! ہم وقت پر اسٹیشن پہنچ گئے۔",
+                        "شڪر آهي! اسان وقت تي اسٽيشن پهچي وياسين۔",
+                        "Phew expresses relief after difficulty or worry."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Kinds of Interjections According to Meaning",
+        "english": "Interjections can be grouped according to the feeling or response they express. The same expression may have different meanings in different contexts, and punctuation and tone help the reader understand the intended feeling.",
+        "urdu": "معنی کے لحاظ سے حروفِ ندا کی مختلف اقسام ہیں۔ ایک ہی لفظ موقع اور لہجے کے مطابق مختلف احساس ظاہر کر سکتا ہے۔",
+        "sindhi": "معنى موجب حرفِ ندا جا مختلف قسم آهن. هڪ ئي لفظ حالتن ۽ لهجي موجب مختلف احساس ظاهر ڪري سگهي ٿو.",
+        "subsections": [
+            {
+                "title": "Examples with Translations and Explanation",
+                "english": "Study each example to understand the feeling and grammatical use.",
+                "urdu": "ہر مثال کا اردو ترجمہ اور وضاحت ملاحظہ کریں۔",
+                "sindhi": "هر مثال جو سنڌي ترجمو ۽ وضاحت ڏسو۔",
+                "examples": [
+                    [
+                        "Joy: Hurray! Our holidays have begun.",
+                        "خوشی: واہ! ہماری چھٹیاں شروع ہوگئیں۔",
+                        "خوشي: واهه! اسان جون موڪلون شروع ٿي ويون۔",
+                        "Hurray expresses happiness."
+                    ],
+                    [
+                        "Sorrow: Alas! The old tree has fallen.",
+                        "غم: افسوس! پرانا درخت گر گیا۔",
+                        "ڏک: افسوس! پراڻو وڻ ڪري پيو۔",
+                        "Alas expresses sadness."
+                    ],
+                    [
+                        "Surprise: Good heavens! What happened here?",
+                        "حیرت: یا خدا! یہاں کیا ہوا؟",
+                        "حيرت: يا خدا! هتي ڇا ٿيو؟",
+                        "Good heavens expresses astonishment."
+                    ],
+                    [
+                        "Pain: Ah! My tooth hurts.",
+                        "درد: آہ! میرے دانت میں درد ہے۔",
+                        "سور: آهه! منهنجي ڏند ۾ سور آهي۔",
+                        "Ah expresses pain."
+                    ],
+                    [
+                        "Approval: Excellent! You solved the problem.",
+                        "تعریف: بہترین! تم نے مسئلہ حل کر لیا۔",
+                        "تعريف: بهترين! تو مسئلو حل ڪيو۔",
+                        "Excellent expresses approval."
+                    ],
+                    [
+                        "Disgust: Yuck! This food is cold.",
+                        "ناپسندیدگی: چھِی! یہ کھانا ٹھنڈا ہے۔",
+                        "ناپسنديدگي: اُف! هي کاڌو ٿڌو آهي۔",
+                        "Yuck expresses disgust."
+                    ],
+                    [
+                        "Greeting: Hello! How are you?",
+                        "سلام: ہیلو! آپ کیسے ہیں؟",
+                        "سلام: هيلو! توهان ڪيئن آهيو؟",
+                        "Hello is used to greet someone."
+                    ],
+                    [
+                        "Attention: Listen! The teacher is speaking.",
+                        "توجہ: سنو! استاد بات کر رہے ہیں۔",
+                        "ڌيان: ٻڌو! استاد ڳالهائي رهيو آهي۔",
+                        "Listen calls for attention."
+                    ],
+                    [
+                        "Hesitation: Well, I need more time.",
+                        "جھجک: اچھا، مجھے مزید وقت چاہیے۔",
+                        "هٻڪ: خير، مون کي وڌيڪ وقت گهرجي۔",
+                        "Well can introduce hesitation or a thoughtful response."
+                    ],
+                    [
+                        "Relief: Thank goodness! Everyone is safe.",
+                        "اطمینان: شکر ہے! سب محفوظ ہیں۔",
+                        "سڪون: شڪر آهي! سڀ محفوظ آهن۔",
+                        "Thank goodness expresses relief."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Interjections and Punctuation",
+        "english": "Interjections are often followed by an exclamation mark when the feeling is strong. A comma is suitable when the reaction is mild or the speaker pauses naturally. A question mark may follow an interjection used in a question. An interjection can stand alone as a complete reaction or be followed by a full sentence. The punctuation depends on the strength of the emotion and the intended meaning.",
+        "urdu": "شدید جذبے کے بعد عموماً علامتِ تعجب (!) لگائی جاتی ہے۔ ہلکے ردِعمل یا مختصر وقفے کے لیے comma استعمال ہو سکتا ہے۔",
+        "sindhi": "تيز جذبي کان پوءِ عام طور عجب جي نشاني (!) ڏبي آهي. هلڪي ردعمل يا ننڍڙي وقفي لاءِ ڪاما استعمال ڪري سگهجي ٿي.",
+        "subsections": [
+            {
+                "title": "Examples with Translations and Explanation",
+                "english": "Study each example to understand the feeling and grammatical use.",
+                "urdu": "ہر مثال کا اردو ترجمہ اور وضاحت ملاحظہ کریں۔",
+                "sindhi": "هر مثال جو سنڌي ترجمو ۽ وضاحت ڏسو۔",
+                "examples": [
+                    [
+                        "Oh! I see what you mean.",
+                        "اوہ! اب میں سمجھ گیا کہ تمہارا کیا مطلب ہے۔",
+                        "اوهو! هاڻي مون کي تنهنجي ڳالهه سمجهه ۾ آئي۔",
+                        "An exclamation mark shows a strong reaction."
+                    ],
+                    [
+                        "Well, let us begin the lesson.",
+                        "اچھا، آئیے سبق شروع کرتے ہیں۔",
+                        "چڱو، اچو ته سبق شروع ڪريون۔",
+                        "A comma marks a mild pause."
+                    ],
+                    [
+                        "Ah, that feels much better.",
+                        "آہ، اب کافی بہتر محسوس ہو رہا ہے۔",
+                        "آهه، هاڻي گهڻو بهتر محسوس ٿي رهيو آهي۔",
+                        "The comma shows a gentle reaction."
+                    ],
+                    [
+                        "Oh? Did you really meet him?",
+                        "اچھا؟ کیا تم واقعی اس سے ملے تھے؟",
+                        "ڇا؟ ڇا تون واقعي هن سان مليو هئين؟",
+                        "A question mark shows a questioning reaction."
+                    ],
+                    [
+                        "Help! Someone has fallen.",
+                        "بچاؤ! کوئی گر گیا ہے۔",
+                        "مدد! ڪو ڪري پيو آهي۔",
+                        "The interjection stands alone as an urgent call."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "title": "How Interjections Differ from Other Parts of Speech",
+        "english": "An interjection mainly expresses emotion or reaction and is usually independent of sentence grammar. The same word can sometimes belong to another part of speech. For example, “Well!” can be an interjection, while “She sings well” uses well as an adverb. “Bravo!” is an interjection, while “a loud shout” contains a noun. Identify the word by its function in the sentence, not by the word alone.",
+        "urdu": "حرفِ ندا کو دوسرے اجزائے کلام سے اس کے کام کے ذریعے پہچانیں۔ ایک لفظ کبھی حرفِ ندا اور کبھی قید یا اسم ہو سکتا ہے۔",
+        "sindhi": "حرفِ ندا کي ٻين قسمن کان ان جي ڪم ذريعي سڃاڻو. هڪ لفظ ڪڏهن حرفِ ندا ۽ ڪڏهن ظرف يا اسم ٿي سگهي ٿو.",
+        "subsections": [
+            {
+                "title": "Examples with Translations and Explanation",
+                "english": "Study each example to understand the feeling and grammatical use.",
+                "urdu": "ہر مثال کا اردو ترجمہ اور وضاحت ملاحظہ کریں۔",
+                "sindhi": "هر مثال جو سنڌي ترجمو ۽ وضاحت ڏسو۔",
+                "examples": [
+                    [
+                        "Well! That was unexpected.",
+                        "اچھا! یہ غیر متوقع تھا۔",
+                        "چڱو! اهو اڻڄاتل هو۔",
+                        "Well is an interjection expressing reaction."
+                    ],
+                    [
+                        "She writes well.",
+                        "وہ اچھا لکھتی ہے۔",
+                        "هوءَ سٺو لکي ٿي۔",
+                        "Well is an adverb describing how she writes."
+                    ],
+                    [
+                        "Bravo! You did it.",
+                        "شاباش! تم نے کر دکھایا۔",
+                        "شاباس! تو ڪري ڏيکاريو۔",
+                        "Bravo is an interjection expressing praise."
+                    ],
+                    [
+                        "The audience gave a loud shout.",
+                        "تماشائیوں نے زور سے آواز لگائی۔",
+                        "تماشائين وڏي آواز سان نعرو هنيو۔",
+                        "Shout is a noun here, not an interjection."
+                    ]
+                ]
+            }
+        ]
+    }
+]
   },
   "subject-predicate": {
     overview: "The subject tells who or what the sentence is about. The predicate says something about the subject and contains the verb.",
