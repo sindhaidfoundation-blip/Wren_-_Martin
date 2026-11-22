@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
     "web": {
       "bundler": "metro"
     },
@@ -18,16 +19,17 @@
     "android": {
       "package": "com.grammar.master.wrenmartin",
       "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#101C3A"
       },
-      "allowBackup": false
+      "allowBackup": false,
+      "versionCode": 2
     },
     "plugins": [
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-4568292017940942~2885847236",
-          "delayAppMeasurementInit": true,
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
           "iosAppId": "ca-app-pub-3940256099942544~1458002511"
         }
       ]
