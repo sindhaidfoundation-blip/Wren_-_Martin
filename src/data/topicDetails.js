@@ -2079,7 +2079,6 @@ export const topicDetails = {
           ["ill — worse — worst", "بیمار — زیادہ بیمار / بدتر — سب سے زیادہ بیمار / بدترین", "بيمار — وڌيڪ بيمار / خراب — سڀ کان وڌيڪ بيمار / خراب"],
           ["old — older — oldest (elder / eldest mainly for family relationships)", "پرانا / عمر رسیدہ — زیادہ پرانا — سب سے پرانا (رشتوں میں elder / eldest)", "پراڻو / وڏي عمر وارو — وڌيڪ پراڻو — سڀ کان پراڻو (رشتن لاءِ elder / eldest)"]
         ]
-      }
       },
       {
         title: "More Adjective Comparisons — Practice List",
