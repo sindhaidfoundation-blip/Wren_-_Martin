@@ -45,6 +45,34 @@ jobs:
           chmod +x gradlew
           ./gradlew assembleRelease --no-daemon
 
+      - name: Launch APK in Android emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          script: |
+            adb install android/app/build/outputs/apk/release/app-release.apk
+            adb logcat -c
+            adb shell monkey -p com.grammar.master.wrenmartin 1
+            sleep 20
+            adb shell pidof com.grammar.master.wrenmartin
+            adb logcat -d -t 4000 > android-launch.log
+            if grep -E "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)" android-launch.log; then
+              echo "App launch smoke test detected a fatal startup error."
+              exit 1
+            fi
+
+      - name: Upload Android launch log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-launch-log
+          path: android-launch.log
+          if-no-files-found: ignore
+          retention-days: 14
+
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
