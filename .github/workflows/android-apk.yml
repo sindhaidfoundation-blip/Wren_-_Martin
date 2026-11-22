@@ -42,7 +42,7 @@ jobs:
           npx expo-doctor
 
       - name: Generate Android native project
-        run: npx expo prebuild --platform android --non-interactive
+        run: CI=1 npx expo prebuild --platform android
 
       - name: Build release APK
         working-directory: android
@@ -154,5 +154,99 @@ jobs:
         with:
           name: android-api-${{ matrix.api-level }}-launch-log
           path: android-api-${{ matrix.api-level }}-launch.log
+          if-no-files-found: ignore
+          retention-days: 14
+
+  android-two-hour-soak:
+    name: Android 2-hour continuous runtime test
+    needs: build-apk
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - name: Download release APK
+        uses: actions/download-artifact@v4
+        with:
+          name: wren-martin-compatibility-test-apk
+          path: app
+
+      - name: Enable KVM for Android emulator
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Keep app foregrounded for two hours and monitor stability
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          emulator-boot-timeout: 600
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
+          disable-animations: true
+          script: |
+            set -eu
+            PACKAGE="com.grammar.master.wrenmartin"
+            LOG="android-two-hour-soak.log"
+            MEMORY="android-two-hour-memory.log"
+            adb wait-for-device
+            for attempt in $(seq 1 60); do
+              [ "$(adb shell getprop sys.boot_completed | tr -d '\r')" = "1" ] && break
+              sleep 2
+            done
+            test "$(adb shell getprop sys.boot_completed | tr -d '\r')" = "1"
+            adb shell settings put system screen_off_timeout 2147483647 || true
+            adb shell settings put global stay_on_while_plugged_in 3 || true
+            adb shell svc power stayon true || true
+            adb install -r app/app-release.apk
+            adb logcat -c >/dev/null 2>&1 || true
+            adb shell monkey -p "$PACKAGE" 1
+            for attempt in $(seq 1 60); do
+              if adb shell pidof "$PACKAGE" | tr -d '\r' | grep -q '[0-9]'; then break; fi
+              sleep 2
+            done
+            adb shell pidof "$PACKAGE" | grep -q '[0-9]'
+            START=$(date +%s)
+            LAST_MEMORY=0
+            while [ $(( $(date +%s) - START )) -lt 7200 ]; do
+              ELAPSED=$(( $(date +%s) - START ))
+              PID="$(adb shell pidof "$PACKAGE" | tr -d '\r' || true)"
+              if [ -z "$PID" ]; then
+                echo "App process disappeared at ${ELAPSED}s"
+                exit 1
+              fi
+              FOCUS="$(adb shell dumpsys activity activities | grep -E 'mResumedActivity|topResumedActivity' | grep "$PACKAGE" || true)"
+              if [ -z "$FOCUS" ]; then
+                echo "App left foreground at ${ELAPSED}s"
+                exit 1
+              fi
+              if [ $((ELAPSED - LAST_MEMORY)) -ge 300 ]; then
+                echo "===== ${ELAPSED}s =====" >> "$MEMORY"
+                adb shell dumpsys meminfo "$PACKAGE" >> "$MEMORY"
+                LAST_MEMORY="$ELAPSED"
+                adb logcat -d -b all -t 20000 > "$LOG"
+                if grep -Eq "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)|Unable to load script" "$LOG"; then
+                  echo "Fatal app/runtime error detected at ${ELAPSED}s"
+                  exit 1
+                fi
+              fi
+              sleep 30
+            done
+            adb logcat -d -b all -t 30000 > "$LOG"
+            if grep -Eq "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)|Unable to load script" "$LOG"; then
+              echo "Fatal app/runtime error detected during two-hour soak."
+              exit 1
+            fi
+            echo "PASS: app remained foregrounded for at least 7200 seconds." | tee -a "$LOG"
+
+      - name: Upload two-hour runtime diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-two-hour-runtime-diagnostics
+          path: |
+            android-two-hour-soak.log
+            android-two-hour-memory.log
           if-no-files-found: ignore
           retention-days: 14
