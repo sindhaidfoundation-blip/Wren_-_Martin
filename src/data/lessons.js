@@ -5678,22 +5678,6 @@ export const lessons = [
     "practicePrompt": "Write a short message to new students explaining how they should use an English grammar course. Include its purpose, study advice and an encouraging closing."
   }
   {
-    id: "future-tense",
-    title: "Future Tense",
-    subtitle: "Four forms of future time with detailed explanations and 40 examples",
-    urdu: "Future Tense ایسے کاموں، واقعات یا حالتوں کو ظاہر کرتا ہے جو موجودہ وقت کے بعد ہوں گے۔ اس کی چار بنیادی صورتیں ہیں: Simple Future، Future Continuous، Future Perfect اور Future Perfect Continuous۔",
-    level: "Intermediate",
-    duration: "20 min",
-    rule: "Future tense describes actions or states after the present. Its four commonly taught forms are Simple Future, Future Continuous, Future Perfect and Future Perfect Continuous.",
-    example: "I will study. / I will be studying. / I will have studied. / I will have been studying.",
-    breakdown: [
-      ["Simple Future", "Subject + will + V1", "مستقبل میں ہونے والا کام؛ مثال: She will write."],
-      ["Future Continuous", "Subject + will be + V-ing", "مستقبل کے کسی وقت جاری کام؛ مثال: She will be writing."],
-      ["Future Perfect", "Subject + will have + V3", "مستقبل کے مقررہ وقت سے پہلے مکمل کام؛ مثال: She will have written."],
-      ["Future Perfect Continuous", "Subject + will have been + V-ing", "مستقبل کے کسی وقت تک جاری رہنے والے کام کی مدت؛ مثال: She will have been writing."]
-    ]
-  },
-  {
     id: "past-tense",
     title: "Past Tense",
     subtitle: "The four forms of past time with explanations and examples",
