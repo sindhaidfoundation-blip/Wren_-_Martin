@@ -10,16 +10,68 @@ export const topicDetails = {
     examples: ["Honesty matters. (idea)", "The children visited the museum. (people and place)"],
     nounTypes: [
       {
-        title: "Gender of Nouns",
-        english: "Gender tells whether a noun refers to a male, female, either sex, or a non-living thing. The four traditional types are masculine, feminine, common and neuter.",
-        urdu: "اسم کی جنس بتاتی ہے کہ لفظ نر، مادہ، دونوں میں سے کسی ایک، یا بے جان چیز کے لیے ہے۔ روایتی طور پر اس کی چار اقسام ہیں: مذکر، مؤنث، مشترک اور غیر ذی روح۔",
-        sindhi: "اسم جي جنس مان خبر پوي ٿي ته لفظ نر، مادي، ٻنهي مان ڪنهن هڪ، يا بي جان شيءِ لاءِ آهي. روايتي طور جنس جا چار قسم آهن: مذڪر، مؤنث، گڏيل ۽ غير جاندار.",
+        title: "Masculine Gender",
+        english: "A masculine noun refers to a male person or animal.",
+        urdu: "Masculine Gender ایسے اسم کو کہتے ہیں جو کسی مرد، لڑکے یا نر جانور کے لیے استعمال ہو۔",
+        sindhi: "Masculine Gender اهڙي اسم کي چئبو آهي جيڪو مرد، ڇوڪري يا نر جانور لاءِ استعمال ٿئي.",
         examples: [
-          ["boy — masculine / girl — feminine", "لڑکا مذکر ہے، لڑکی مؤنث ہے۔", "ڇوڪرو مذڪر آهي، ڇوڪري مؤنث آهي."],
-          ["king — masculine / queen — feminine", "بادشاہ مذکر ہے، ملکہ مؤنث ہے۔", "بادشاهه مذڪر آهي، راڻي مؤنث آهي."],
-          ["father — masculine / mother — feminine", "والد مذکر ہیں، والدہ مؤنث ہیں۔", "پيءُ مذڪر آهي، ماءُ مؤنث آهي."],
-          ["teacher — common gender", "Teacher مرد یا عورت دونوں کے لیے آ سکتا ہے۔", "Teacher مرد يا عورت ٻنهي لاءِ استعمال ٿي سگهي ٿو."],
-          ["book — neuter gender", "کتاب بے جان چیز ہے، اس لیے neuter ہے۔", "ڪتاب بي جان شيءِ آهي، تنهنڪري neuter آهي."]
+          ["boy", "لڑکا", "ڇوڪرو"],
+          ["man", "مرد", "مرد"],
+          ["king", "بادشاہ", "بادشاهه"],
+          ["father", "والد", "پيءُ"],
+          ["lion", "شیر (نر)", "شينهن (نر)"]
+        ]
+      },
+      {
+        title: "Feminine Gender",
+        english: "A feminine noun refers to a female person or animal.",
+        urdu: "Feminine Gender ایسے اسم کو کہتے ہیں جو کسی عورت، لڑکی یا مادہ جانور کے لیے استعمال ہو۔",
+        sindhi: "Feminine Gender اهڙي اسم کي چئبو آهي جيڪو عورت، ڇوڪري يا مادي جانور لاءِ استعمال ٿئي.",
+        examples: [
+          ["girl", "لڑکی", "ڇوڪري"],
+          ["woman", "عورت", "عورت"],
+          ["queen", "ملکہ", "راڻي"],
+          ["mother", "والدہ", "ماءُ"],
+          ["lioness", "شیرنی", "شينهنياڻي"]
+        ]
+      },
+      {
+        title: "Common Gender",
+        english: "A common-gender noun can refer to either a male or a female.",
+        urdu: "Common Gender ایسا اسم ہے جو مرد اور عورت دونوں کے لیے استعمال ہو سکتا ہے۔",
+        sindhi: "Common Gender اهڙو اسم آهي جيڪو مرد ۽ عورت ٻنهي لاءِ استعمال ٿي سگهي ٿو.",
+        examples: [
+          ["teacher", "استاد (مرد یا عورت)", "استاد (مرد يا عورت)"],
+          ["student", "طالب علم (لڑکا یا لڑکی)", "شاگرد (ڇوڪرو يا ڇوڪري)"],
+          ["child", "بچہ (لڑکا یا لڑکی)", "ٻار (ڇوڪرو يا ڇوڪري)"],
+          ["doctor", "ڈاکٹر (مرد یا عورت)", "ڊاڪٽر (مرد يا عورت)"],
+          ["friend", "دوست (مرد یا عورت)", "دوست (مرد يا عورت)"]
+        ]
+      },
+      {
+        title: "Neuter Gender",
+        english: "A neuter-gender noun refers to a thing that is neither male nor female, usually a non-living object.",
+        urdu: "Neuter Gender ایسے اسم کو کہتے ہیں جو نہ مذکر ہو نہ مؤنث؛ عموماً یہ بے جان چیزوں کے لیے استعمال ہوتا ہے۔",
+        sindhi: "Neuter Gender اهڙي اسم کي چئبو آهي جيڪو نه نر هجي نه مادي؛ عام طور بي جان شين لاءِ استعمال ٿيندو آهي.",
+        examples: [
+          ["book", "کتاب", "ڪتاب"],
+          ["table", "میز", "ميز"],
+          ["pen", "قلم", "قلم"],
+          ["chair", "کرسی", "ڪرسي"],
+          ["window", "کھڑکی", "دري"]
+        ]
+      },
+      {
+        title: "Personified Gender",
+        english: "Personification is a literary way of speaking in which a non-human thing or idea is described as if it were a person, sometimes using he or she. This is a figure of speech, not the thing's real gender.",
+        urdu: "Personified Gender میں کسی بے جان چیز یا خیال کو ادبی انداز میں انسان کی طرح پیش کیا جاتا ہے، اور کبھی اسے he یا she کہا جاتا ہے۔ یہ ادبی صنعت ہے، چیز کی حقیقی جنس نہیں۔",
+        sindhi: "Personified Gender ۾ ڪنهن بي جان شيءِ يا خيال کي ادبي انداز ۾ انسان وانگر ڏيکاريو ويندو آهي ۽ ڪڏهن ان لاءِ he يا she استعمال ٿيندو آهي. اها ادبي تشبيهه يا صنعت آهي، شيءِ جي حقيقي جنس نه آهي.",
+        examples: [
+          ["The sun smiled down on us. (sun as a person)", "سورج ہم پر مسکرایا۔ (سورج کو انسان کی طرح دکھایا گیا)", "سج اسان ڏانهن مُرڪيو. (سج کي انسان وانگر ڏيکاريو ويو)"],
+          ["The moon hid her face behind a cloud. (poetic)", "چاند نے بادل کے پیچھے اپنا چہرہ چھپا لیا۔ (شاعرانہ انداز)", "چنڊ ڪڪر پٺيان پنهنجو چهرو لڪايو. (شاعراڻو انداز)"],
+          ["The wind whispered through the trees.", "ہوا درختوں میں سرگوشی کرنے لگی۔", "هوا وڻن ۾ سرگوشيون ڪرڻ لڳي."],
+          ["The stars danced in the sky.", "ستارے آسمان پر رقص کرنے لگے۔", "تارا آسمان ۾ نچڻ لڳا."],
+          ["Death is often pictured as a hooded figure.", "موت کو اکثر چادر اوڑھے ہوئے انسانی شکل میں دکھایا جاتا ہے۔", "موت کي اڪثر ڍڪيل انساني شڪل ۾ ڏيکاريو ويندو آهي."]
         ]
       },
       {
