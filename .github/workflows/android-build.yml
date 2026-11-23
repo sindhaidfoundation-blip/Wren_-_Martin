@@ -14,6 +14,9 @@ jobs:
     name: Audit and build signed Android APK
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    env:
+      # The Expo SDK 57 CLI currently requests an unpublished optional peer version.
+      NPM_CONFIG_LEGACY_PEER_DEPS: "true"
     permissions:
       contents: read
     steps:
