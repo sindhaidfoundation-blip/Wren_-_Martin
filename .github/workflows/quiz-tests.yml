@@ -1,0 +1,39 @@
+name: Quiz logic tests
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "App.js"
+      - "src/utils/quizOptions.js"
+      - "tests/**"
+      - "package.json"
+      - ".github/workflows/quiz-tests.yml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "App.js"
+      - "src/utils/quizOptions.js"
+      - "tests/**"
+      - "package.json"
+      - ".github/workflows/quiz-tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quiz-unit-tests:
+    name: Quiz option integrity
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run quiz unit tests
+        run: npm test
