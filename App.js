@@ -6,6 +6,7 @@ import { Alert, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput
 import AdBanner from "./src/components/AdBanner";
 import { lessons, dailyQuestions, sindhiTranslations } from "./src/data/lessons";
 import { topicDetails } from "./src/data/topicDetails";
+const { shuffleQuestionOptions } = require("./src/utils/quizOptions");
 
 const navy = "#101C3A";
 const ink = "#18233F";
@@ -103,18 +104,7 @@ function buildAdditionalTopicQuestions(lesson, lessonIndex) {
   return questions.filter(Boolean);
 }
 
-function shuffleQuestionOptions(question) {
-  const options = question.options.map((option, index) => ({ option, correct: index === question.answer }));
-  for (let index = options.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    [options[index], options[swapIndex]] = [options[swapIndex], options[index]];
-  }
-  return {
-    ...question,
-    options: options.map(item => item.option),
-    answer: options.findIndex(item => item.correct)
-  };
-}
+
 
 function buildTenTopicQuestions(lesson) {
   const questions = buildTopicQuestions(lesson);
