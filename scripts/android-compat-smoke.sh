@@ -69,11 +69,24 @@ if ! wait_for_foreground 45; then
   exit 1
 fi
 
-sleep 15
+# The previous release check exposed a delayed process exit after relaunch;
+# hold the app open long enough to catch that regression explicitly.
+sleep 25
+PID="$(adb shell pidof "$PACKAGE" 2>/dev/null | tr -d '\r' || true)"
+if [[ -z "$PID" ]]; then
+  echo "App process exited during the post-relaunch stability window." | tee -a "$LOG"
+  exit 1
+fi
+RESUMED="$(adb shell dumpsys activity activities 2>/dev/null | grep -E 'mResumedActivity|topResumedActivity' | grep "$PACKAGE" || true)"
+if [[ -z "$RESUMED" ]]; then
+  echo "App activity left the foreground during the post-relaunch stability window." | tee -a "$LOG"
+  exit 1
+fi
+
 adb logcat -d -b all -t 20000 > "$LOG" 2>&1
 if grep -Eq "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)|Unable to load script" "$LOG"; then
   echo "Fatal Android or React Native error detected." | tee -a "$LOG"
   exit 1
 fi
 
-echo "PASS: installed, cold-launched, and relaunched on Android API $API_LEVEL." | tee -a "$LOG"
+echo "PASS: installed, cold-launched, relaunched, and stayed foreground on Android API $API_LEVEL." | tee -a "$LOG"
