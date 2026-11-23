@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "icon": "./file_00000000d63c8211b6c668ba5ac7c160.png",
     "web": {
       "bundler": "metro"
     },
@@ -18,6 +19,7 @@
     "android": {
       "package": "com.grammar.master.wrenmartin",
       "adaptiveIcon": {
+        "foregroundImage": "./file_00000000d63c8211b6c668ba5ac7c160.png",
         "backgroundColor": "#101C3A"
       },
       "allowBackup": false
