@@ -1,7 +1,4 @@
 name: Publish Chrome web app
-    env:
-      # The Expo SDK 57 CLI currently requests an unpublished optional peer version.
-      NPM_CONFIG_LEGACY_PEER_DEPS: "true"
 
 on:
   push:
@@ -21,6 +18,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # The Expo SDK 57 CLI currently requests an unpublished optional peer version.
+      NPM_CONFIG_LEGACY_PEER_DEPS: "true"
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
