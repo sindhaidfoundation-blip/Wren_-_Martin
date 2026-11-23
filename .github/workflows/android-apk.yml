@@ -55,39 +55,53 @@ jobs:
           echo "$ANDROID_UPLOAD_KEYSTORE_BASE64" | base64 --decode > android/app/wren-martin-upload.jks
           python3 - <<'PY'
           from pathlib import Path
+
           p = Path("android/app/build.gradle")
           s = p.read_text()
-          # Add a dedicated release signing config without changing debug signing.
-          i = s.find("signingConfigs {")
-          if i < 0:
-              raise SystemExit("Could not find Android signingConfigs block")
-          insert = i + len("signingConfigs {")
-          release = """
+
+          def block_bounds(source, label, after=0):
+              pos = source.find(label, after)
+              if pos < 0:
+                  raise SystemExit(f"Could not find {label} block")
+              opening = source.find("{", pos)
+              depth = 0
+              for i in range(opening, len(source)):
+                  if source[i] == "{":
+                      depth += 1
+                  elif source[i] == "}":
+                      depth -= 1
+                      if depth == 0:
+                          return opening, i
+              raise SystemExit(f"Unclosed {label} block")
+
+          # Add a separate release signing config; keep debug signing unchanged.
+          sign_open, sign_end = block_bounds(s, "signingConfigs {")
+          if 'storeFile file("wren-martin-upload.jks")' not in s:
+              release_config = '''
               release {
                   storeFile file("wren-martin-upload.jks")
                   storePassword System.getenv("ANDROID_UPLOAD_KEYSTORE_PASSWORD")
                   keyAlias System.getenv("ANDROID_UPLOAD_KEY_ALIAS")
                   keyPassword System.getenv("ANDROID_UPLOAD_KEY_PASSWORD")
               }
-          """
-          if "storeFile file(\"wren-martin-upload.jks\")" not in s:
-              s = s[:insert] + release + s[insert:]
-          bi = s.find("buildTypes {")
-          if bi < 0:
-              raise SystemExit("Could not find Android buildTypes block")
-          ri = s.find("release {", bi)
-          if ri < 0:
-              raise SystemExit("Could not find release build type")
-          brace = s.find("{", ri) + 1
-          # Replace an existing release signingConfig, otherwise add one.
+          '''
+              s = s[:sign_end] + release_config + s[sign_end:]
+
+          build_open, build_end = block_bounds(s, "buildTypes {")
+          release_open, release_end = block_bounds(s, "release {", build_open)
+          release_block = s[release_open:release_end]
           import re
-          tail = s[brace:]
-          m = re.search(r"signingConfig\\s+signingConfigs\\.\\w+", tail)
-          if m:
-              start, end = brace + m.start(), brace + m.end()
-              s = s[:start] + "signingConfig signingConfigs.release" + s[end:]
+          if re.search(r"signingConfig\\s+signingConfigs\\.\\w+", release_block):
+              release_block = re.sub(
+                  r"signingConfig\\s+signingConfigs\\.\\w+",
+                  "signingConfig signingConfigs.release",
+                  release_block,
+                  count=1,
+              )
           else:
-              s = s[:brace] + "\\n            signingConfig signingConfigs.release" + s[brace:]
+              brace = release_block.find("{") + 1
+              release_block = release_block[:brace] + "\\n                signingConfig signingConfigs.release" + release_block[brace:]
+          s = s[:release_open] + release_block + s[release_end:]
           p.write_text(s)
           PY
           rm -f android/app/wren-martin-upload.jks
