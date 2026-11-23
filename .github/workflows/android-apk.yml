@@ -72,7 +72,7 @@ jobs:
               raise SystemExit(f"Unclosed {label}")
 
           sign_start, sign_open, sign_end = find_block(lines, "signingConfigs {")
-          if not any("storeFile file(\\"wren-martin-upload.jks\\")" in line for line in lines):
+          if not any("wren-martin-upload.jks" in line for line in lines):
               lines[sign_end:sign_end] = [
                   "        release {",
                   '            storeFile file("wren-martin-upload.jks")',
@@ -91,7 +91,7 @@ jobs:
               indent = lines[signing_line][:len(lines[signing_line]) - len(lines[signing_line].lstrip())]
               lines[signing_line] = indent + "signingConfig signingConfigs.release"
 
-          path.write_text("\\n".join(lines) + "\\n")
+          path.write_text(chr(10).join(lines) + chr(10))
           PY
           rm -f android/app/wren-martin-upload.jks
           echo "Release signing configured from encrypted GitHub Actions secrets."
