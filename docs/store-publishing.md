@@ -50,11 +50,13 @@ Before each submission:
 - **Xiaomi GetApps:** its global developer documentation describes individual app submission and an ownership-verification step. Complete the console's current account and regional checks.
 - **OPPO App Market:** create an individual developer account and confirm country/region distribution eligibility in OPPO's portal before submission. Availability can vary by market.
 - **Samsung Galaxy Store:** a Seller Portal account is not enough; Samsung requires commercial seller status to distribute free or paid Android apps. Private/individual sellers can apply, and financial verification may be required.
+- **Uptodown:** its Developers Console says app publishing is free, accepts individual creators, and supports global Android distribution. Submit the signed APK, real screenshots, listing details and proof that you own or have distribution rights.
 - **Direct APK:** a signed APK can also be distributed through a public GitHub Release or the app website. Explain Android's “install unknown apps” permission clearly and publish a checksum.
 - **Google Play:** excluded from the zero-fee route because full public distribution requires the paid developer registration.
 - **Amazon Appstore:** not a route for new Android mobile app submissions; consider only Fire TV/Fire Tablet if that audience is relevant.
 - **vivo V-Appstore:** current developer guidance says individual developer registration is not supported; an enterprise account is required.
-- **F-Droid and other third-party catalogs:** do not assume eligibility. Review each catalog's open-source, SDK, signing, content and regional rules before preparing a separate build.
+- **Aptoide Connect:** not a zero-cost route for this app while it is not on Google Play; its free automated route is limited to apps already on Google Play without IAP, while manual submission/review requires a subscription.
+- **F-Droid and other third-party catalogs:** do not assume eligibility. Review each catalog's open-source, SDK, signing, content and regional rules before preparing a separate build. The current AdMob SDK also means this app is not ready for an F-Droid submission.
 
 ## Build and verification
 
