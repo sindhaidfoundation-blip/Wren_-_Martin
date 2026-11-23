@@ -58,6 +58,10 @@ Before each submission:
 - **Aptoide Connect:** not a zero-cost route for this app while it is not on Google Play; its free automated route is limited to apps already on Google Play without IAP, while manual submission/review requires a subscription.
 - **F-Droid and other third-party catalogs:** do not assume eligibility. Review each catalog's open-source, SDK, signing, content and regional rules before preparing a separate build. The current AdMob SDK also means this app is not ready for an F-Droid submission.
 
+## Android developer verification (important for broad distribution)
+
+Google's Android Developer Verification is separate from Google Play publishing and is being introduced for apps installed on certified Android devices from participating stores and outside Google Play. Initial enforcement began in Brazil, Indonesia, Singapore and Thailand in September 2026, with global expansion planned for 2027. Pakistan is not listed among the initial markets, but plan to check the rollout before a Pakistan-wide launch. Full distribution registration is listed at US$25 one-time; the free limited-distribution option is capped at 20 devices and is not suitable for a public launch. This may affect the long-term “zero-cost” direct-APK route as well as distribution through alternative stores.
+
 ## Build and verification
 
 - `npm run check:config`
