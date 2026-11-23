@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   android-release:
-    name: Audit and build signed Android APK
+    name: Audit and build signed Android APK and AAB
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
@@ -85,7 +85,8 @@ jobs:
           APK="android/app/build/outputs/apk/release/app-release.apk"
           test -s "$APK"
           jarsigner -verify -verbose -certs "$APK" >/dev/null
-          echo "Release APK exists and its JAR signature verifies."
+          unzip -Z1 "$APK" | grep -q '^lib/arm64-v8a/' || (echo "Release APK is missing a 64-bit arm64 binary"; exit 1)
+          echo "Release APK signature verifies and contains a 64-bit arm64 binary."
 
       - name: Upload signed production APK
         uses: actions/upload-artifact@v4
@@ -113,7 +114,8 @@ jobs:
           AAB="android/app/build/outputs/bundle/release/app-release.aab"
           test -s "$AAB"
           jarsigner -verify -verbose -certs "$AAB" >/dev/null
-          echo "Release Android App Bundle exists and its signature verifies."
+          unzip -Z1 "$AAB" | grep -q '^base/lib/arm64-v8a/' || (echo "Release App Bundle is missing a 64-bit arm64 binary"; exit 1)
+          echo "Release Android App Bundle signature verifies and contains a 64-bit arm64 binary."
 
       - name: Upload signed production App Bundle
         uses: actions/upload-artifact@v4
