@@ -45,6 +45,7 @@ jobs:
         run: npx expo prebuild --platform android --non-interactive --clean
 
       - name: Configure private Google Play upload signing
+        if: github.event_name == 'push'
         env:
           ANDROID_UPLOAD_KEYSTORE_BASE64: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 }}
           ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
@@ -102,6 +103,7 @@ jobs:
           echo "Release signing configured from encrypted GitHub Actions secrets."
 
       - name: Build release APK
+        if: github.event_name == 'push'
         working-directory: android
         env:
           ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
@@ -112,6 +114,7 @@ jobs:
           ./gradlew assembleRelease --no-daemon
 
       - name: Build Android App Bundle for Play Store
+        if: github.event_name == 'push'
         working-directory: android
         env:
           ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
@@ -119,11 +122,19 @@ jobs:
           ANDROID_UPLOAD_KEY_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEY_PASSWORD }}
         run: ./gradlew bundleRelease --no-daemon
 
+      - name: Build unsigned APK and App Bundle for pull request validation
+        if: github.event_name == 'pull_request'
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease bundleRelease --no-daemon
+
       - name: Remove private upload keystore
         if: always()
         run: rm -f android/app/wren-martin-upload.jks
 
       - name: Upload Play Store AAB
+        if: github.event_name == 'push'
         uses: actions/upload-artifact@v4
         with:
           name: wren-martin-play-store-aab
@@ -132,6 +143,25 @@ jobs:
           retention-days: 14
 
       - name: Upload APK for compatibility tests
+        if: github.event_name == 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: wren-martin-compatibility-test-apk
+          path: android/app/build/outputs/apk/release/app-release.apk
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload unsigned pull request App Bundle
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: wren-martin-compatibility-test-aab
+          path: android/app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload unsigned pull request APK
+        if: github.event_name == 'pull_request'
         uses: actions/upload-artifact@v4
         with:
           name: wren-martin-compatibility-test-apk
