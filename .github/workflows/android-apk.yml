@@ -93,18 +93,29 @@ jobs:
 
           path.write_text(chr(10).join(lines) + chr(10))
           PY
-          rm -f android/app/wren-martin-upload.jks
           echo "Release signing configured from encrypted GitHub Actions secrets."
 
       - name: Build release APK
         working-directory: android
+        env:
+          ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
+          ANDROID_UPLOAD_KEY_ALIAS: ${{ secrets.ANDROID_UPLOAD_KEY_ALIAS }}
+          ANDROID_UPLOAD_KEY_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEY_PASSWORD }}
         run: |
           chmod +x gradlew
           ./gradlew assembleRelease --no-daemon
 
       - name: Build Android App Bundle for Play Store
         working-directory: android
+        env:
+          ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
+          ANDROID_UPLOAD_KEY_ALIAS: ${{ secrets.ANDROID_UPLOAD_KEY_ALIAS }}
+          ANDROID_UPLOAD_KEY_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEY_PASSWORD }}
         run: ./gradlew bundleRelease --no-daemon
+
+      - name: Remove private upload keystore
+        if: always()
+        run: rm -f android/app/wren-martin-upload.jks
 
       - name: Upload Play Store AAB
         uses: actions/upload-artifact@v4
