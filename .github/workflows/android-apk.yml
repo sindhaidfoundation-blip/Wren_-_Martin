@@ -53,6 +53,15 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew assembleRelease bundleRelease --no-daemon
+      - name: Verify Android compatibility package formats
+        run: |
+          APK="android/app/build/outputs/apk/release/app-release.apk"
+          AAB="android/app/build/outputs/bundle/release/app-release.aab"
+          test -s "$APK"
+          test -s "$AAB"
+          unzip -Z1 "$APK" | grep -q '^lib/arm64-v8a/'
+          unzip -Z1 "$AAB" | grep -q '^base/lib/arm64-v8a/'
+
       - name: Upload compatibility APK
         uses: actions/upload-artifact@v4
         with:
