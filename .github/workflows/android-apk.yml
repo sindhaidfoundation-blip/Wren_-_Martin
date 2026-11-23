@@ -45,7 +45,7 @@ jobs:
         run: npx expo prebuild --platform android --non-interactive --clean
 
       - name: Configure private Google Play upload signing
-        if: github.event_name == 'push'
+        if: github.event_name != 'pull_request'
         env:
           ANDROID_UPLOAD_KEYSTORE_BASE64: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 }}
           ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
@@ -103,7 +103,7 @@ jobs:
           echo "Release signing configured from encrypted GitHub Actions secrets."
 
       - name: Build release APK
-        if: github.event_name == 'push'
+        if: github.event_name != 'pull_request'
         working-directory: android
         env:
           ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
@@ -114,7 +114,7 @@ jobs:
           ./gradlew assembleRelease --no-daemon
 
       - name: Build Android App Bundle for Play Store
-        if: github.event_name == 'push'
+        if: github.event_name != 'pull_request'
         working-directory: android
         env:
           ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
@@ -134,7 +134,7 @@ jobs:
         run: rm -f android/app/wren-martin-upload.jks
 
       - name: Upload Play Store AAB
-        if: github.event_name == 'push'
+        if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
           name: wren-martin-play-store-aab
@@ -143,7 +143,7 @@ jobs:
           retention-days: 14
 
       - name: Upload APK for compatibility tests
-        if: github.event_name == 'push'
+        if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
           name: wren-martin-compatibility-test-apk
