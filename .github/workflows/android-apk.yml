@@ -38,15 +38,84 @@ jobs:
       - name: Generate Android native project
         run: npx expo prebuild --platform android --non-interactive --clean
 
+      - name: Configure private Google Play upload signing
+        env:
+          ANDROID_UPLOAD_KEYSTORE_BASE64: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 }}
+          ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
+          ANDROID_UPLOAD_KEY_ALIAS: ${{ secrets.ANDROID_UPLOAD_KEY_ALIAS }}
+          ANDROID_UPLOAD_KEY_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          for name in ANDROID_UPLOAD_KEYSTORE_BASE64 ANDROID_UPLOAD_KEYSTORE_PASSWORD ANDROID_UPLOAD_KEY_ALIAS ANDROID_UPLOAD_KEY_PASSWORD; do
+            if [ -z "${!name:-}" ]; then
+              echo "::error::Missing GitHub Actions secret: $name"
+              exit 1
+            fi
+          done
+          echo "$ANDROID_UPLOAD_KEYSTORE_BASE64" | base64 --decode > android/app/wren-martin-upload.jks
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path("android/app/build.gradle")
+          lines = path.read_text().splitlines()
+
+          def find_block(lines, label, after=0):
+              start = next((i for i in range(after, len(lines)) if label in lines[i]), -1)
+              if start < 0:
+                  raise SystemExit(f"Could not find {label}")
+              opening = next((i for i in range(start, len(lines)) if "{" in lines[i]), -1)
+              depth = 0
+              for i in range(opening, len(lines)):
+                  depth += lines[i].count("{") - lines[i].count("}")
+                  if depth == 0:
+                      return start, opening, i
+              raise SystemExit(f"Unclosed {label}")
+
+          sign_start, sign_open, sign_end = find_block(lines, "signingConfigs {")
+          if not any("wren-martin-upload.jks" in line for line in lines):
+              lines[sign_end:sign_end] = [
+                  "        release {",
+                  '            storeFile file("wren-martin-upload.jks")',
+                  '            storePassword System.getenv("ANDROID_UPLOAD_KEYSTORE_PASSWORD")',
+                  '            keyAlias System.getenv("ANDROID_UPLOAD_KEY_ALIAS")',
+                  '            keyPassword System.getenv("ANDROID_UPLOAD_KEY_PASSWORD")',
+                  "        }",
+              ]
+
+          build_start, build_open, build_end = find_block(lines, "buildTypes {")
+          rel_start, rel_open, rel_end = find_block(lines, "release {", build_open)
+          signing_line = next((i for i in range(rel_open + 1, rel_end) if lines[i].strip().startswith("signingConfig ")), None)
+          if signing_line is None:
+              lines.insert(rel_open + 1, "            signingConfig signingConfigs.release")
+          else:
+              indent = lines[signing_line][:len(lines[signing_line]) - len(lines[signing_line].lstrip())]
+              lines[signing_line] = indent + "signingConfig signingConfigs.release"
+
+          path.write_text(chr(10).join(lines) + chr(10))
+          PY
+          echo "Release signing configured from encrypted GitHub Actions secrets."
+
       - name: Build release APK
         working-directory: android
+        env:
+          ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
+          ANDROID_UPLOAD_KEY_ALIAS: ${{ secrets.ANDROID_UPLOAD_KEY_ALIAS }}
+          ANDROID_UPLOAD_KEY_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEY_PASSWORD }}
         run: |
           chmod +x gradlew
           ./gradlew assembleRelease --no-daemon
 
       - name: Build Android App Bundle for Play Store
         working-directory: android
+        env:
+          ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
+          ANDROID_UPLOAD_KEY_ALIAS: ${{ secrets.ANDROID_UPLOAD_KEY_ALIAS }}
+          ANDROID_UPLOAD_KEY_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEY_PASSWORD }}
         run: ./gradlew bundleRelease --no-daemon
+
+      - name: Remove private upload keystore
+        if: always()
+        run: rm -f android/app/wren-martin-upload.jks
 
       - name: Upload Play Store AAB
         uses: actions/upload-artifact@v4
