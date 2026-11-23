@@ -32,7 +32,7 @@ export default function AdBanner() {
   return (
     <View style={{ alignItems: "center", justifyContent: "center", backgroundColor: "#FFFFFF" }}>
       <BannerAd
-        unitId="ca-app-pub-4568292017940942/8797252103"
+        unitId="ca-app-pub-4568292017940942/7370840974"
         size={adsSdk.BannerAdSize.BANNER}
         onAdFailedToLoad={(error) => {
           console.warn("AdMob banner failed to load:", error);
