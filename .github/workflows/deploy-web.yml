@@ -1,4 +1,7 @@
 name: Publish Chrome web app
+    env:
+      # The Expo SDK 57 CLI currently requests an unpublished optional peer version.
+      NPM_CONFIG_LEGACY_PEER_DEPS: "true"
 
 on:
   push:
