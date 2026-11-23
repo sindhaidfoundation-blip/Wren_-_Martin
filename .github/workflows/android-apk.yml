@@ -44,6 +44,18 @@ jobs:
           chmod +x gradlew
           ./gradlew assembleRelease --no-daemon
 
+      - name: Build Android App Bundle for Play Store
+        working-directory: android
+        run: ./gradlew bundleRelease --no-daemon
+
+      - name: Upload Play Store AAB
+        uses: actions/upload-artifact@v4
+        with:
+          name: wren-martin-play-store-aab
+          path: android/app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+          retention-days: 14
+
       - name: Upload APK for compatibility tests
         uses: actions/upload-artifact@v4
         with:
