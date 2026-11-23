@@ -17,6 +17,9 @@ jobs:
     name: Validate Expo app
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      # The Expo SDK 57 CLI currently requests an unpublished optional peer version.
+      NPM_CONFIG_LEGACY_PEER_DEPS: "true"
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
