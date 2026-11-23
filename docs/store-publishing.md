@@ -60,7 +60,9 @@ Before each submission:
 
 ## Android developer verification (important for broad distribution)
 
-Google's Android Developer Verification is separate from Google Play publishing and is being introduced for apps installed on certified Android devices from participating stores and outside Google Play. Initial enforcement began in Brazil, Indonesia, Singapore and Thailand in September 2026, with global expansion planned for 2027. Pakistan is not listed among the initial markets, but plan to check the rollout before a Pakistan-wide launch. Full distribution registration is listed at US$25 one-time; the free limited-distribution option is capped at 20 devices and is not suitable for a public launch. This may affect the long-term “zero-cost” direct-APK route as well as distribution through alternative stores.
+Google's Android Developer Verification is separate from Google Play publishing. Protections began on September 30, 2026 for participating stores in Brazil, Indonesia, Singapore and Thailand. Google announced on November 19, 2026 that global rollout begins in January 2027 and will expand gradually to certified Android devices worldwide. Pakistan was not in the initial four markets, but plan for the global rollout.
+
+For public distribution through third-party stores or direct APK downloads, expect to register the app and verify your identity in Android Developer Console. Full distribution costs US$25 one-time. A free limited-distribution account is available for up to 50 authorized devices, which is not suitable for a public launch. This fee is separate from the Google Play Console registration fee. Check the latest country rollout before release.
 
 ## Build and verification
 
