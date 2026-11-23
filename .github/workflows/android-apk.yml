@@ -38,6 +38,61 @@ jobs:
       - name: Generate Android native project
         run: npx expo prebuild --platform android --non-interactive --clean
 
+      - name: Configure private Google Play upload signing
+        env:
+          ANDROID_UPLOAD_KEYSTORE_BASE64: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 }}
+          ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
+          ANDROID_UPLOAD_KEY_ALIAS: ${{ secrets.ANDROID_UPLOAD_KEY_ALIAS }}
+          ANDROID_UPLOAD_KEY_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          for name in ANDROID_UPLOAD_KEYSTORE_BASE64 ANDROID_UPLOAD_KEYSTORE_PASSWORD ANDROID_UPLOAD_KEY_ALIAS ANDROID_UPLOAD_KEY_PASSWORD; do
+            if [ -z "${!name:-}" ]; then
+              echo "::error::Missing GitHub Actions secret: $name"
+              exit 1
+            fi
+          done
+          echo "$ANDROID_UPLOAD_KEYSTORE_BASE64" | base64 --decode > android/app/wren-martin-upload.jks
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path("android/app/build.gradle")
+          s = p.read_text()
+          # Add a dedicated release signing config without changing debug signing.
+          i = s.find("signingConfigs {")
+          if i < 0:
+              raise SystemExit("Could not find Android signingConfigs block")
+          insert = i + len("signingConfigs {")
+          release = """
+              release {
+                  storeFile file("wren-martin-upload.jks")
+                  storePassword System.getenv("ANDROID_UPLOAD_KEYSTORE_PASSWORD")
+                  keyAlias System.getenv("ANDROID_UPLOAD_KEY_ALIAS")
+                  keyPassword System.getenv("ANDROID_UPLOAD_KEY_PASSWORD")
+              }
+          """
+          if "storeFile file(\"wren-martin-upload.jks\")" not in s:
+              s = s[:insert] + release + s[insert:]
+          bi = s.find("buildTypes {")
+          if bi < 0:
+              raise SystemExit("Could not find Android buildTypes block")
+          ri = s.find("release {", bi)
+          if ri < 0:
+              raise SystemExit("Could not find release build type")
+          brace = s.find("{", ri) + 1
+          # Replace an existing release signingConfig, otherwise add one.
+          import re
+          tail = s[brace:]
+          m = re.search(r"signingConfig\\s+signingConfigs\\.\\w+", tail)
+          if m:
+              start, end = brace + m.start(), brace + m.end()
+              s = s[:start] + "signingConfig signingConfigs.release" + s[end:]
+          else:
+              s = s[:brace] + "\\n            signingConfig signingConfigs.release" + s[brace:]
+          p.write_text(s)
+          PY
+          rm -f android/app/wren-martin-upload.jks
+          echo "Release signing configured from encrypted GitHub Actions secrets."
+
       - name: Build release APK
         working-directory: android
         run: |
