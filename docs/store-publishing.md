@@ -16,7 +16,7 @@
 
 ### Short description
 
-Learn English grammar with Urdu explanations, lessons, quizzes and progress tracking.
+Learn English grammar with Urdu lessons, quizzes and practice.
 
 ### Full description
 
