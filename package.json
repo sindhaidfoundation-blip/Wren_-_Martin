@@ -27,5 +27,8 @@
     "expo-sharing": "~57.0.26",
     "react-native-google-mobile-ads": "^17.4.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "overrides": {
+    "@expo/inline-modules": "0.1.9"
+  }
 }
