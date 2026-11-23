@@ -599,6 +599,18 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{section.urdu}</Text>
             <Text style={styles.panelLabel}>سنڌي ۾ وضاحت</Text>
             <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{section.sindhi}</Text>
+            {(Array.isArray(section.subsections) ? section.subsections : []).map((subsection, subsectionIndex) => <View key={subsectionIndex} style={{ backgroundColor: "#F7F8FC", borderRadius: 12, padding: 12, gap: 8 }}>
+              <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{subsection.title}</Text>
+              <Text style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{subsection.english}</Text>
+              <Text style={{ color: ink, fontSize: 13, lineHeight: 24, textAlign: "right" }}>اردو: {subsection.urdu}</Text>
+              <Text style={{ color: green, fontSize: 13, lineHeight: 24, textAlign: "right" }}>سنڌي: {subsection.sindhi}</Text>
+              {(Array.isArray(subsection.examples) ? subsection.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E5EAF0", paddingTop: 8, gap: 4 }}>
+                <Text style={{ color: ink, fontSize: 13, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
+                <Text style={{ color: muted, fontSize: 12, lineHeight: 22, textAlign: "right" }}>اردو: {example[1]}</Text>
+                <Text style={{ color: green, fontSize: 12, lineHeight: 22, textAlign: "right" }}>سنڌي: {example[2]}</Text>
+                {example[3] ? <Text style={{ color: ink, fontSize: 12, lineHeight: 20 }}>Explanation: {example[3]}</Text> : null}
+              </View>)}
+            </View>)}
             {(Array.isArray(section.examples) ? section.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E8EAF0", paddingTop: 8, gap: 4 }}>
               <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
               <Text style={{ color: muted, fontSize: 13, lineHeight: 23, textAlign: "right" }}>اردو: {example[1]}</Text>
