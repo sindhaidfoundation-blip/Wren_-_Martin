@@ -48,7 +48,7 @@ Before each submission:
 
 - **Huawei AppGallery:** individual developer identity verification is required. Submit the signed APK through AppGallery Connect. Huawei devices skip Google Mobile Ads initialization in the app.
 - **Xiaomi GetApps:** its global developer documentation describes individual app submission and an ownership-verification step. Complete the console's current account and regional checks.
-- **OPPO App Market:** create an individual developer account and confirm country/region distribution eligibility in OPPO's portal before submission. Availability can vary by market.
+- **OPPO App Market:** OPPO says developer accounts are free, but its current developer documentation describes app distribution through OPPO App Store in India and Indonesia. Pakistan availability is not confirmed; ask OPPO support before preparing a Pakistan-targeted submission.
 - **Samsung Galaxy Store:** a Seller Portal account is not enough; Samsung requires commercial seller status to distribute free or paid Android apps. Private/individual sellers can apply, and financial verification may be required.
 - **Uptodown:** its Developers Console says app publishing is free, accepts individual creators, and supports global Android distribution. Submit the signed APK, real screenshots, listing details and proof that you own or have distribution rights.
 - **Direct APK:** a signed APK can also be distributed through a public GitHub Release or the app website. Explain Android's “install unknown apps” permission clearly and publish a checksum.
