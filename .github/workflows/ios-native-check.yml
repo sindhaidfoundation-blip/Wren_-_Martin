@@ -47,8 +47,12 @@ jobs:
       - name: Compile iOS Simulator app
         run: |
           WORKSPACE="$(find ios -maxdepth 1 -name '*.xcworkspace' -print -quit)"
+          PROJECT="$(find ios -maxdepth 1 -name '*.xcodeproj' -print -quit)"
           test -n "$WORKSPACE"
-          SCHEME="$(xcodebuild -list -json -workspace "$WORKSPACE" | python3 -c 'import json,sys; schemes=json.load(sys.stdin)["workspace"]["schemes"]; app_schemes=[s for s in schemes if not s.lower().startswith("pods") and "pods" not in s.lower()]; print(app_schemes[0] if app_schemes else "")')"
+          test -n "$PROJECT"
+          # List schemes from the app project, not the workspace: the workspace
+          # also exposes CocoaPods schemes such as EXConstants.
+          SCHEME="$(xcodebuild -list -json -project "$PROJECT" | python3 -c 'import json,sys; data=json.load(sys.stdin); project=data.get("project", data.get("workspace", {})); schemes=project.get("schemes", []); app_schemes=[s for s in schemes if "pods" not in s.lower()]; print(app_schemes[0] if app_schemes else "")')"
           test -n "$SCHEME"
           echo "Building app scheme: $SCHEME"
           xcodebuild \
