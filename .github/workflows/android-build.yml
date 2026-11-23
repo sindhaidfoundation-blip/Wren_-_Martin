@@ -34,7 +34,7 @@ jobs:
           java-version: '17'
 
       - name: Install dependencies
-        run: npm install --no-fund
+        run: npm install --legacy-peer-deps --no-fund
 
       - name: Align Expo dependencies with SDK 57
         run: npx expo install --fix
