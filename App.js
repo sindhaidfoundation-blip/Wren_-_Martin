@@ -137,6 +137,33 @@ function buildTenTopicQuestions(lesson) {
   return questions.slice(0, 10);
 }
 
+class LessonRenderBoundary extends React.Component {
+  state = { hasError: false };
+
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error, info) {
+    console.error("Lesson detail rendering failed safely.", error, info);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <View style={{ flex: 1, backgroundColor: bg, padding: 24, justifyContent: "center" }}>
+          <Text style={{ color: ink, fontSize: 19, fontWeight: "800", marginBottom: 10 }}>This lesson could not be displayed</Text>
+          <Text style={{ color: muted, fontSize: 14, lineHeight: 22, marginBottom: 18 }}>Some lesson details are incomplete. Return to the lesson list and continue learning while this content is reviewed.</Text>
+          <TouchableOpacity onPress={this.props.onBack} style={{ backgroundColor: navy, borderRadius: 13, padding: 14, alignItems: "center" }}>
+            <Text style={{ color: "#FFFFFF", fontWeight: "800" }}>BACK TO LESSONS</Text>
+          </TouchableOpacity>
+        </View>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 export default function App() {
   const [tab, setTab] = useState("Home");
   const [quizReturnTab, setQuizReturnTab] = useState("Lesson");
@@ -778,7 +805,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
 
   const screens = { Home: <Home />, Learn: <Learn />, MCQs: <MCQs />, Lesson: <Lesson />, Quiz: <Quiz />, Practice: <Practice />, Progress: <Progress /> };
   const nav = [{ id: "Home", icon: "⌂", label: "Home" }, { id: "Learn", icon: "▤", label: "Learn" }, { id: "Practice", icon: "✦", label: "Practice" }, { id: "Progress", icon: "◔", label: "Progress" }];
-  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View>{!isExam ? <TouchableOpacity onPress={() => setTab("MCQs")} style={[styles.mcqTopButton, tab === "MCQs" && styles.mcqTopButtonActive]}><Text style={styles.mcqTopButtonText}>MCQs</Text></TouchableOpacity> : null}<View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View><View style={styles.screen}>{screens[tab] || <Home />}</View>{isExam ? null : <View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View>}{isExam ? null : <AdBanner />}</SafeAreaView>;
+  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View>{!isExam ? <TouchableOpacity onPress={() => setTab("MCQs")} style={[styles.mcqTopButton, tab === "MCQs" && styles.mcqTopButtonActive]}><Text style={styles.mcqTopButtonText}>MCQs</Text></TouchableOpacity> : null}<View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View><View style={styles.screen}>{tab === "Lesson" ? <LessonRenderBoundary key={selected ? selected.id : "no-lesson"} onBack={() => { setSelected(null); setTab("Learn"); }}>{screens[tab]}</LessonRenderBoundary> : (screens[tab] || <Home />)}</View>{isExam ? null : <View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View>}{isExam ? null : <AdBanner />}</SafeAreaView>;
 }
 
 const styles = StyleSheet.create({
