@@ -576,7 +576,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
         </View>
         <View style={{ backgroundColor: "#F0F5FF", borderRadius: 16, borderWidth: 1, borderColor: "#DFE8FA", padding: 16, gap: 8 }}>
           <Text style={styles.panelLabel}>MORE EXAMPLES</Text>
-          {topicDetails[selected.id].examples.map((example, index) => <Text key={index} style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{index + 1}. {example}</Text>)}
+          {(Array.isArray(topicDetails[selected.id].examples) ? topicDetails[selected.id].examples : []).map((example, index) => <Text key={index} style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{index + 1}. {example}</Text>)}
         </View>
         {topicDetails[selected.id].overviewUrdu ? <View style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 8 }}>
           <Text style={styles.panelLabel}>اردو میں مزید وضاحت</Text>
@@ -589,7 +589,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{topicDetails[selected.id].watchForUrdu}</Text>
           <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{topicDetails[selected.id].watchForSindhi}</Text>
         </View> : null}
-        {topicDetails[selected.id].specialSections ? <View style={{ gap: 12 }}>
+        {Array.isArray(topicDetails[selected.id].specialSections) && topicDetails[selected.id].specialSections.length ? <View style={{ gap: 12 }}>
           <Text style={styles.sectionTitle}>{topicDetails[selected.id].specialSectionsTitle || "DETAILED NOTES"}</Text>
           {(Array.isArray(topicDetails[selected.id].specialSections) ? topicDetails[selected.id].specialSections : []).map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 9 }}>
             <Text style={{ color: navy, fontSize: 17, fontWeight: "800" }}>{sectionIndex + 1}. {section.title}</Text>
@@ -619,9 +619,9 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             </View>)}
           </View>)}
         </View> : null}
-        {topicDetails[selected.id].specialSections?.some(section => section.verbTable) ? <View style={{ gap: 12, marginTop: 12 }}>
+        {(Array.isArray(topicDetails[selected.id].specialSections) && topicDetails[selected.id].specialSections.some(section => Array.isArray(section.verbTable) && section.verbTable.length)) ? <View style={{ gap: 12, marginTop: 12 }}>
           <Text style={styles.sectionTitle}>VERB FORMS — V1, V2 AND V3</Text>
-          {topicDetails[selected.id].specialSections.filter(section => section.verbTable).map(section => <View key={section.title} style={{ gap: 8 }}>
+          {topicDetails[selected.id].specialSections.filter(section => Array.isArray(section.verbTable) && section.verbTable.length).map(section => <View key={section.title} style={{ gap: 8 }}>
             <Text style={{ color: navy, fontSize: 16, fontWeight: "800" }}>{section.title}</Text>
             <View style={{ borderWidth: 1, borderColor: "#D9E0EA", borderRadius: 12, overflow: "hidden", backgroundColor: "#FFFFFF" }}>
               <View style={{ flexDirection: "row", backgroundColor: "#EAF0F8", borderBottomWidth: 1, borderBottomColor: "#E5EAF0" }}>
@@ -637,7 +637,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             </View>
           </View>)}
         </View> : null}
-        {topicDetails[selected.id].voiceTable ? <View style={{ gap: 10, marginTop: 12 }}>
+        {Array.isArray(topicDetails[selected.id].voiceTable) && topicDetails[selected.id].voiceTable.length ? <View style={{ gap: 10, marginTop: 12 }}>
           <Text style={styles.sectionTitle}>{topicDetails[selected.id].voiceTableTitle}</Text>
           <View style={{ borderWidth: 1, borderColor: "#D9E0EA", borderRadius: 12, overflow: "hidden", backgroundColor: "#FFFFFF" }}>
             {(Array.isArray(topicDetails[selected.id].voiceTable) ? topicDetails[selected.id].voiceTable : []).map((row, rowIndex) => <View key={rowIndex} style={{ flexDirection: "row", backgroundColor: rowIndex === 0 ? "#EAF0F8" : (rowIndex % 2 === 0 ? "#FFFFFF" : "#F8FAFC"), borderBottomWidth: rowIndex === topicDetails[selected.id].voiceTable.length - 1 ? 0 : 1, borderBottomColor: "#E5EAF0" }}>
@@ -659,7 +659,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{item.urdu}</Text>
           <Text style={styles.panelLabel}>سنڌي ۾ وضاحت</Text>
           <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{item.sindhi}</Text>
-          {item.specialSections ? <View style={{ gap: 12 }}>
+          {Array.isArray(item.specialSections) && item.specialSections.length ? <View style={{ gap: 12 }}>
             <Text style={styles.panelLabel}>SPECIAL SINGULAR & PLURAL USES — واحد اور جمع کے خاص استعمال</Text>
             {(Array.isArray(item.specialSections) ? item.specialSections : []).map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFF9EE", borderRadius: 12, padding: 12, gap: 8 }}>
               <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{sectionIndex + 1}. {section.title}</Text>
@@ -673,7 +673,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
               </View>)}
             </View>)}
           </View> : null}
-          {item.rules ? <View style={{ gap: 10 }}>
+          {Array.isArray(item.rules) && item.rules.length ? <View style={{ gap: 10 }}>
             <Text style={styles.panelLabel}>PLURAL FORMATION RULES — جمع بنانے کے قواعد</Text>
             {(Array.isArray(item.rules) ? item.rules : []).map((rule, ruleIndex) => <View key={rule.title} style={{ backgroundColor: "#F7F8FC", borderRadius: 12, padding: 12, gap: 7 }}>
               <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{rule.title}</Text>
