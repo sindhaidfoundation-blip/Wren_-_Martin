@@ -48,16 +48,24 @@ jobs:
         run: npx expo-doctor
       - name: Generate Android native project
         run: CI=1 npx expo prebuild --clean --platform android --non-interactive
-      - name: Build unsigned release APK for emulator testing
+      - name: Build unsigned release APK and App Bundle for validation
         working-directory: android
         run: |
           chmod +x gradlew
-          ./gradlew assembleRelease --no-daemon
+          ./gradlew assembleRelease bundleRelease --no-daemon
       - name: Upload compatibility APK
         uses: actions/upload-artifact@v4
         with:
           name: wren-martin-compatibility-test-apk
           path: android/app/build/outputs/apk/release/app-release.apk
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload unsigned compatibility App Bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: wren-martin-compatibility-test-aab
+          path: android/app/build/outputs/bundle/release/app-release.aab
           if-no-files-found: error
           retention-days: 14
 
