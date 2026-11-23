@@ -2,7 +2,7 @@
 
 ## Release identity
 
-- Store display name: **Wren Martin Grammar Master** (without an ampersand to satisfy Huawei's published app-name rules).
+- Store display name: **Wren Martin Grammar Master** (26 characters, without an ampersand to satisfy Huawei's special-character rule). This does not grant permission to use the Wren & Martin trademark; obtain authorization or choose a generic name before submission.
 - Android application ID: `com.grammar.master.wrenmartin` — keep this unchanged across stores and updates.
 - Current app version: `1.0.0`; initial Android version code: `1`.
 - Category: Education.
@@ -46,7 +46,7 @@ Before each submission:
 
 ## Store-specific eligibility notes (checked November 23, 2026)
 
-- **Huawei AppGallery:** individual developer identity verification is required. Submit the signed APK through [AppGallery Connect](https://developer.huawei.com/consumer/en/). Huawei devices skip Google Mobile Ads initialization in the app.
+- **Huawei AppGallery:** individual developer identity verification is required. Submit a 64-bit signed APK through [AppGallery Connect](https://developer.huawei.com/consumer/en/); AppGallery also supports AAB with its App Signing service. Huawei requires at least three different app screenshots. Huawei devices skip Google Mobile Ads initialization in the app.
 - **Xiaomi GetApps:** its global developer documentation describes individual app submission and an ownership-verification step. Complete the console's current account and regional checks at [Xiaomi GetApps Developer Center](https://global.developer.mi.com/).
 - **OPPO App Market:** OPPO says developer accounts are free, but its current developer documentation describes app distribution through OPPO App Store in India and Indonesia. Pakistan availability is not confirmed; ask [OPPO Developers](https://developers.oppomobile.com/) before preparing a Pakistan-targeted submission.
 - **Samsung Galaxy Store:** Samsung accepts APK or AAB and requires target API 33+ plus at least one 64-bit binary. A Seller Portal account is not enough: commercial seller status is mandatory even for free apps. The private-seller profile is for managers or people not distributing apps; check whether you can qualify for commercial seller status as an individual before counting on this channel. Financial/D-U-N-S verification may be required. Start at [Samsung Seller Portal](https://seller.samsungapps.com/).
