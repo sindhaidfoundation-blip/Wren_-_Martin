@@ -24,7 +24,7 @@ trap capture_diagnostics EXIT
 adb wait-for-device
 BOOTED=false
 for attempt in $(seq 1 90); do
-  if [[ "$(adb shell getprop sys.boot_completed 2>/dev/null | tr -d '\\r' || true)" == "1" ]]; then
+  if [[ "$(adb shell getprop sys.boot_completed 2>/dev/null | tr -d '\r' || true)" == "1" ]]; then
     BOOTED=true
     break
   fi
@@ -44,7 +44,7 @@ wait_for_foreground() {
   local attempts="$1"
   local attempt pid resumed
   for attempt in $(seq 1 "$attempts"); do
-    pid="$(adb shell pidof "$PACKAGE" 2>/dev/null | tr -d '\\r' || true)"
+    pid="$(adb shell pidof "$PACKAGE" 2>/dev/null | tr -d '\r' || true)"
     resumed="$(adb shell dumpsys activity activities 2>/dev/null | grep -E 'mResumedActivity|topResumedActivity' | grep "$PACKAGE" || true)"
     if [[ -n "$pid" && -n "$resumed" ]]; then
       return 0
