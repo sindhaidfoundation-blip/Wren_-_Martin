@@ -24,6 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
+      # The Expo SDK 57 CLI currently requests an unpublished optional peer version.
+      NPM_CONFIG_LEGACY_PEER_DEPS: "true"
       # Exercise the learning app independently of ad-network availability.
       EXPO_PUBLIC_ADS_ENABLED: "false"
     steps:
