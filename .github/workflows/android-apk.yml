@@ -1,131 +1,57 @@
-name: Build Android APK and compatibility tests
+name: Android release compatibility checks
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
     paths:
       - "**"
       - ".github/workflows/android-apk.yml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "**"
+      - ".github/workflows/android-apk.yml"
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
   build-apk:
-    name: Build installable Android APK
+    name: Build Android compatibility APK
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    env:
+      # Exercise the learning app independently of ad-network availability.
+      EXPO_PUBLIC_ADS_ENABLED: "false"
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v4
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
-
+          node-version: "22"
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: "17"
-
-      - name: Install JavaScript dependencies
+      - name: Install dependencies
         run: npm install --no-audit --no-fund
-
+      - name: Validate release configuration
+        run: npm run check:config
+      - name: Check Expo dependencies
+        run: npx expo-doctor
       - name: Generate Android native project
-        run: npx expo prebuild --platform android --non-interactive --clean
-
-      - name: Configure private Google Play upload signing
-        env:
-          ANDROID_UPLOAD_KEYSTORE_BASE64: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 }}
-          ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
-          ANDROID_UPLOAD_KEY_ALIAS: ${{ secrets.ANDROID_UPLOAD_KEY_ALIAS }}
-          ANDROID_UPLOAD_KEY_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEY_PASSWORD }}
-        run: |
-          set -euo pipefail
-          for name in ANDROID_UPLOAD_KEYSTORE_BASE64 ANDROID_UPLOAD_KEYSTORE_PASSWORD ANDROID_UPLOAD_KEY_ALIAS ANDROID_UPLOAD_KEY_PASSWORD; do
-            if [ -z "${!name:-}" ]; then
-              echo "::error::Missing GitHub Actions secret: $name"
-              exit 1
-            fi
-          done
-          echo "$ANDROID_UPLOAD_KEYSTORE_BASE64" | base64 --decode > android/app/wren-martin-upload.jks
-          python3 - <<'PY'
-          from pathlib import Path
-
-          path = Path("android/app/build.gradle")
-          lines = path.read_text().splitlines()
-
-          def find_block(lines, label, after=0):
-              start = next((i for i in range(after, len(lines)) if label in lines[i]), -1)
-              if start < 0:
-                  raise SystemExit(f"Could not find {label}")
-              opening = next((i for i in range(start, len(lines)) if "{" in lines[i]), -1)
-              depth = 0
-              for i in range(opening, len(lines)):
-                  depth += lines[i].count("{") - lines[i].count("}")
-                  if depth == 0:
-                      return start, opening, i
-              raise SystemExit(f"Unclosed {label}")
-
-          sign_start, sign_open, sign_end = find_block(lines, "signingConfigs {")
-          if not any("wren-martin-upload.jks" in line for line in lines):
-              lines[sign_end:sign_end] = [
-                  "        release {",
-                  '            storeFile file("wren-martin-upload.jks")',
-                  '            storePassword System.getenv("ANDROID_UPLOAD_KEYSTORE_PASSWORD")',
-                  '            keyAlias System.getenv("ANDROID_UPLOAD_KEY_ALIAS")',
-                  '            keyPassword System.getenv("ANDROID_UPLOAD_KEY_PASSWORD")',
-                  "        }",
-              ]
-
-          build_start, build_open, build_end = find_block(lines, "buildTypes {")
-          rel_start, rel_open, rel_end = find_block(lines, "release {", build_open)
-          signing_line = next((i for i in range(rel_open + 1, rel_end) if lines[i].strip().startswith("signingConfig ")), None)
-          if signing_line is None:
-              lines.insert(rel_open + 1, "            signingConfig signingConfigs.release")
-          else:
-              indent = lines[signing_line][:len(lines[signing_line]) - len(lines[signing_line].lstrip())]
-              lines[signing_line] = indent + "signingConfig signingConfigs.release"
-
-          path.write_text(chr(10).join(lines) + chr(10))
-          PY
-          echo "Release signing configured from encrypted GitHub Actions secrets."
-
-      - name: Build release APK
+        run: CI=1 npx expo prebuild --clean --platform android --non-interactive
+      - name: Build unsigned release APK for emulator testing
         working-directory: android
-        env:
-          ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
-          ANDROID_UPLOAD_KEY_ALIAS: ${{ secrets.ANDROID_UPLOAD_KEY_ALIAS }}
-          ANDROID_UPLOAD_KEY_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEY_PASSWORD }}
         run: |
           chmod +x gradlew
           ./gradlew assembleRelease --no-daemon
-
-      - name: Build Android App Bundle for Play Store
-        working-directory: android
-        env:
-          ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
-          ANDROID_UPLOAD_KEY_ALIAS: ${{ secrets.ANDROID_UPLOAD_KEY_ALIAS }}
-          ANDROID_UPLOAD_KEY_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEY_PASSWORD }}
-        run: ./gradlew bundleRelease --no-daemon
-
-      - name: Remove private upload keystore
-        if: always()
-        run: rm -f android/app/wren-martin-upload.jks
-
-      - name: Upload Play Store AAB
-        uses: actions/upload-artifact@v4
-        with:
-          name: wren-martin-play-store-aab
-          path: android/app/build/outputs/bundle/release/app-release.aab
-          if-no-files-found: error
-          retention-days: 14
-
-      - name: Upload APK for compatibility tests
+      - name: Upload compatibility APK
         uses: actions/upload-artifact@v4
         with:
           name: wren-martin-compatibility-test-apk
@@ -140,22 +66,23 @@ jobs:
     timeout-minutes: 35
     strategy:
       fail-fast: false
+      max-parallel: 2
       matrix:
         api-level: [26, 29, 33, 35, 36]
     steps:
-      - name: Download APK
+      - name: Check out smoke-test script
+        uses: actions/checkout@v4
+      - name: Download compatibility APK
         uses: actions/download-artifact@v4
         with:
           name: wren-martin-compatibility-test-apk
           path: app
-
       - name: Enable KVM for Android emulator
         run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
           sudo udevadm control --reload-rules
           sudo udevadm trigger --name-match=kvm
-
-      - name: Install, cold launch and relaunch on Android API ${{ matrix.api-level }}
+      - name: Install, cold launch, relaunch and inspect logs
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: ${{ matrix.api-level }}
@@ -165,25 +92,12 @@ jobs:
           emulator-boot-timeout: 600
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
           disable-animations: true
-          script: |
-            adb install -r app/app-release.apk
-            adb logcat -c
-            adb shell monkey -p com.grammar.master.wrenmartin 1
-            sleep 45
-            test -n "$(adb shell pidof com.grammar.master.wrenmartin)"
-            adb shell am force-stop com.grammar.master.wrenmartin
-            sleep 2
-            adb shell monkey -p com.grammar.master.wrenmartin 1
-            sleep 20
-            test -n "$(adb shell pidof com.grammar.master.wrenmartin)"
-            adb logcat -d -b all -t 10000 > android-api-${{ matrix.api-level }}-launch.log
-            ! grep -Eq "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)|Unable to load script" android-api-${{ matrix.api-level }}-launch.log
-
-      - name: Upload Android API ${{ matrix.api-level }} launch log
+          script: bash scripts/android-compat-smoke.sh ${{ matrix.api-level }}
+      - name: Upload Android launch diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: android-api-${{ matrix.api-level }}-launch-log
+          name: android-api-${{ matrix.api-level }}-launch-diagnostics
           path: android-api-${{ matrix.api-level }}-launch.log
           if-no-files-found: ignore
           retention-days: 14

@@ -1,4 +1,4 @@
-# Wren & Martin Grammar Master
+# Wren Martin Grammar Master
 
 A bilingual English grammar learning app with Urdu explanations, interactive lessons, quizzes, daily practice and progress tracking.
 
@@ -7,32 +7,36 @@ A bilingual English grammar learning app with Urdu explanations, interactive les
 This project includes `react-native-google-mobile-ads`, which contains native code and is not supported by Expo Go. Use a native development build or a release build instead.
 
 - Install dependencies: `npm install`
-- Validate Expo and native configuration: `npm run check:config && npm run check:expo`
-- Generate Android native project: `npm run prebuild:android`
+- Validate Expo and native configuration: `npm run check:config && npx expo-doctor`
+- Generate Android native project: `npx expo prebuild --platform android`
 - Build Android release APK: `npm run build:android:release`
 - Generate iOS native project on macOS: `npm run prebuild:ios`
 - Build/run iOS on macOS with Xcode: `npx expo run:ios`
 
-GitHub Actions validates both Expo bundles, builds Android APKs, runs an Android emulator launch smoke test, and compiles an iOS Simulator app. A signed iOS device IPA still requires Apple signing credentials.
+## Android distribution
 
-## Project status
+The app keeps one Android application ID across supported stores: `com.grammar.master.wrenmartin`. Keep the same private release keystore for every store and every update.
 
-This repository contains an original learning companion inspired by the grammar topics commonly taught alongside Wren & Martin. It does not reproduce the copyrighted book text. Lessons and examples are original starter content; additional chapters can be added in `src/data/lessons.js`.
+- Huawei-branded Android devices skip Google Mobile Ads initialization so the learning features remain available without Google Play services.
+- The GitHub Actions Android compatibility workflow disables ads in its test build and tests installation, cold launch and relaunch across Android API 26, 29, 33, 35 and 36.
+- The signed production APK is built separately by the Android security/release workflow using private GitHub Actions secrets. Never commit signing keys or passwords.
+- Store eligibility, seller verification, regional availability and listing assets are tracked in [docs/store-publishing.md](docs/store-publishing.md).
 
-## Platforms
+## Privacy
 
-- Android
-- iOS
+The app does not require learner accounts. Learning progress is stored locally. The public privacy policy is in `public/privacy-policy.html` and is deployed with the web build.
 
-## Notes
+## Content and intellectual property
 
-Progress and the learner's certificate name are stored locally on the device. After passing the full-course exam (60% or higher), learners can enter their name and generate a landscape PDF certificate, then save or share it using the Android or iOS share sheet. PDF generation uses Expo Print and file sharing uses Expo Sharing. Cloud sync, user accounts and publishing to app stores are not configured yet.
+This repository contains an original learning companion inspired by grammar topics commonly taught alongside Wren & Martin. It does not reproduce the copyrighted book text. Lessons and examples are original starter content; additional chapters can be added in `src/data/lessons.js`.
 
+Before publishing, confirm that the Wren & Martin name and any associated branding are used with permission. Do not use copyrighted book passages or cover artwork without authorization.
 
-## Native AdMob configuration
+## App features
 
-The Expo config plugin in `app.json` must contain both `androidAppId` and `iosAppId`. The iOS value currently uses Google's sample test App ID so native iOS builds have a valid application identifier while the integration is being verified. Before an App Store/TestFlight production release, replace it with the real iOS App ID from the AdMob account. Do not use a banner ad-unit ID in place of an App ID.
+- English grammar lessons with Urdu explanations.
+- Topic-based quizzes, daily practice and progress tracking.
+- Timed full-course exam.
+- PDF completion certificate generated on-device and shared using the device share sheet.
 
-Expo SDK 55 and later always use React Native's New Architecture; do not add `newArchEnabled` to `app.json` because the config schema no longer accepts that field.
-
-Run `npm run check:config` and `npm run check:expo` to validate the native configuration and Expo package compatibility.
+Progress and the learner's certificate name are handled locally. The certificate name is kept in memory for certificate generation and is not included in the saved learning-progress record.
