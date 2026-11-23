@@ -9,8 +9,6 @@ export default function AdBanner() {
 
     async function prepareAds() {
       try {
-        // Load the native SDK lazily so an unavailable/unlinked AdMob module
-        // cannot prevent the learning app itself from opening.
         const ads = require("react-native-google-mobile-ads");
         const consentInfo = await ads.AdsConsent.gatherConsent();
         if (!active || !consentInfo?.canRequestAds) return;
@@ -18,7 +16,6 @@ export default function AdBanner() {
         await ads.default().initialize();
         if (active) setAdsSdk(ads);
       } catch (error) {
-        // Ads are optional: keep the app usable if consent or AdMob setup fails.
         console.warn("AdMob is unavailable; continuing without ads.", error);
       }
     }
@@ -35,10 +32,10 @@ export default function AdBanner() {
   return (
     <View style={{ alignItems: "center", justifyContent: "center", backgroundColor: "#FFFFFF" }}>
       <BannerAd
-        unitId={adsSdk.TestIds.BANNER}
+        unitId="ca-app-pub-4568292017940942/8797252103"
         size={adsSdk.BannerAdSize.BANNER}
         onAdFailedToLoad={(error) => {
-          console.warn("AdMob test banner failed to load:", error);
+          console.warn("AdMob banner failed to load:", error);
         }}
       />
     </View>
