@@ -6,7 +6,7 @@ A bilingual English grammar learning app with Urdu explanations, interactive les
 
 This project includes `react-native-google-mobile-ads`, which contains native code and is not supported by Expo Go. Use a native development build or a release build instead.
 
-- Install dependencies: `npm install --legacy-peer-deps` (works around an unpublished optional Expo SDK 57 peer version currently requested by the CLI dependency tree).
+- Install dependencies: `npm install --legacy-peer-deps` (the npm override pins Expo SDK 57's `@expo/inline-modules` to its latest published SDK 57 version, while bypassing an unpublished optional CLI peer version).
 - Validate Expo and native configuration: `npm run check:config && npx expo-doctor`
 - Generate Android native project: `npx expo prebuild --platform android`
 - Build Android release APK: `npm run build:android:release`
