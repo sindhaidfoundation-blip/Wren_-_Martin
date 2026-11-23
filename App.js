@@ -104,8 +104,6 @@ function buildAdditionalTopicQuestions(lesson, lessonIndex) {
   return questions.filter(Boolean);
 }
 
-
-
 function buildTenTopicQuestions(lesson) {
   const questions = buildTopicQuestions(lesson);
   const otherLessons = lessons.filter(item => item.id !== lesson.id);
