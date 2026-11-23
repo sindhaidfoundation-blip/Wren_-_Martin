@@ -56,53 +56,42 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
 
-          p = Path("android/app/build.gradle")
-          s = p.read_text()
+          path = Path("android/app/build.gradle")
+          lines = path.read_text().splitlines()
 
-          def block_bounds(source, label, after=0):
-              pos = source.find(label, after)
-              if pos < 0:
-                  raise SystemExit(f"Could not find {label} block")
-              opening = source.find("{", pos)
+          def find_block(lines, label, after=0):
+              start = next((i for i in range(after, len(lines)) if label in lines[i]), -1)
+              if start < 0:
+                  raise SystemExit(f"Could not find {label}")
+              opening = next((i for i in range(start, len(lines)) if "{" in lines[i]), -1)
               depth = 0
-              for i in range(opening, len(source)):
-                  if source[i] == "{":
-                      depth += 1
-                  elif source[i] == "}":
-                      depth -= 1
-                      if depth == 0:
-                          return opening, i
-              raise SystemExit(f"Unclosed {label} block")
+              for i in range(opening, len(lines)):
+                  depth += lines[i].count("{") - lines[i].count("}")
+                  if depth == 0:
+                      return start, opening, i
+              raise SystemExit(f"Unclosed {label}")
 
-          # Add a separate release signing config; keep debug signing unchanged.
-          sign_open, sign_end = block_bounds(s, "signingConfigs {")
-          if 'storeFile file("wren-martin-upload.jks")' not in s:
-              release_config = '''
-              release {
-                  storeFile file("wren-martin-upload.jks")
-                  storePassword System.getenv("ANDROID_UPLOAD_KEYSTORE_PASSWORD")
-                  keyAlias System.getenv("ANDROID_UPLOAD_KEY_ALIAS")
-                  keyPassword System.getenv("ANDROID_UPLOAD_KEY_PASSWORD")
-              }
-          '''
-              s = s[:sign_end] + release_config + s[sign_end:]
+          sign_start, sign_open, sign_end = find_block(lines, "signingConfigs {")
+          if not any("storeFile file(\\"wren-martin-upload.jks\\")" in line for line in lines):
+              lines[sign_end:sign_end] = [
+                  "        release {",
+                  '            storeFile file("wren-martin-upload.jks")',
+                  '            storePassword System.getenv("ANDROID_UPLOAD_KEYSTORE_PASSWORD")',
+                  '            keyAlias System.getenv("ANDROID_UPLOAD_KEY_ALIAS")',
+                  '            keyPassword System.getenv("ANDROID_UPLOAD_KEY_PASSWORD")',
+                  "        }",
+              ]
 
-          build_open, build_end = block_bounds(s, "buildTypes {")
-          release_open, release_end = block_bounds(s, "release {", build_open)
-          release_block = s[release_open:release_end]
-          import re
-          if re.search(r"signingConfig\\s+signingConfigs\\.\\w+", release_block):
-              release_block = re.sub(
-                  r"signingConfig\\s+signingConfigs\\.\\w+",
-                  "signingConfig signingConfigs.release",
-                  release_block,
-                  count=1,
-              )
+          build_start, build_open, build_end = find_block(lines, "buildTypes {")
+          rel_start, rel_open, rel_end = find_block(lines, "release {", build_open)
+          signing_line = next((i for i in range(rel_open + 1, rel_end) if lines[i].strip().startswith("signingConfig ")), None)
+          if signing_line is None:
+              lines.insert(rel_open + 1, "            signingConfig signingConfigs.release")
           else:
-              brace = release_block.find("{") + 1
-              release_block = release_block[:brace] + "\\n                signingConfig signingConfigs.release" + release_block[brace:]
-          s = s[:release_open] + release_block + s[release_end:]
-          p.write_text(s)
+              indent = lines[signing_line][:len(lines[signing_line]) - len(lines[signing_line].lstrip())]
+              lines[signing_line] = indent + "signingConfig signingConfigs.release"
+
+          path.write_text("\\n".join(lines) + "\\n")
           PY
           rm -f android/app/wren-martin-upload.jks
           echo "Release signing configured from encrypted GitHub Actions secrets."
