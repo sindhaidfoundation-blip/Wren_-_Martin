@@ -32,7 +32,7 @@ if (app.name.length > 30 || app.name.includes("&")) {
 if (!plugin) errors.push("react-native-google-mobile-ads config plugin is missing.");
 for (const platform of ["android", "ios"]) {
   const id = plugin?.[1]?.[platform + "AppId"];
-  if (typeof id !== "string" || !/^ca-app-pub-\\d+~\\d+$/.test(id)) {
+  if (typeof id !== "string" || !/^ca-app-pub-\d+~\d+$/.test(id)) {
     errors.push(`A valid ${platform}AppId is required in the Google Mobile Ads plugin.`);
   }
 }
