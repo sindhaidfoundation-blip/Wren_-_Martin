@@ -10,7 +10,7 @@
 - Support: `sindhaidfoundation@gmail.com`.
 - Privacy policy: `https://sindhaidfoundation-blip.github.io/Wren_-_Martin/privacy-policy.html`.
 - Android package formats: signed APK for Huawei, OPPO, Xiaomi and direct APK distribution; signed AAB is also generated for Samsung Galaxy Store, which accepts APK or AAB.
-- Signing: use the same securely backed-up Android release keystore for every store and every update. Never commit the keystore or passwords.
+- Signing: retain the same securely backed-up release keystore for each store-specific release track and all updates to that track. If you enable Huawei AppGallery App Signing for an AAB, preserve Huawei's signing configuration for every AppGallery update. Never commit the keystore or passwords.
 
 ## Suggested store listing copy
 
