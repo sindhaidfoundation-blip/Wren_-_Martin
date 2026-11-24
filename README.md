@@ -13,7 +13,7 @@ This project includes `react-native-google-mobile-ads`, which contains native co
 - Generate iOS native project on macOS: `npm run prebuild:ios`
 - Build/run iOS on macOS with Xcode: `npx expo run:ios`
 
-GitHub Actions validates both Expo bundles, builds Android APKs, runs an Android emulator launch smoke test, and compiles an iOS Simulator app. A signed iOS device IPA still requires Apple signing credentials.
+GitHub Actions validates Android, iOS and web bundles, builds Android APKs, runs Android emulator launch checks, and compiles an iOS Simulator app. A signed iOS device IPA still requires Apple signing credentials.
 
 ## Project status
 
@@ -26,12 +26,11 @@ This repository contains an original learning companion inspired by the grammar 
 
 ## Notes
 
-Progress and the learner's certificate name are stored locally on the device. After passing the full-course exam (60% or higher), learners can enter their name and generate a landscape PDF certificate, then save or share it using the Android or iOS share sheet. PDF generation uses Expo Print and file sharing uses Expo Sharing. Cloud sync, user accounts and publishing to app stores are not configured yet.
-
+Completed lessons, quiz history, daily-practice dates and timed full-course exam answers are stored locally on the device. The certificate name is entered when generating a certificate and is not saved with learning progress. Cloud sync, user accounts and publishing to app stores are not configured yet.
 
 ## Native AdMob configuration
 
-The Expo config plugin in `app.json` must contain both `androidAppId` and `iosAppId`. The iOS value currently uses Google's sample test App ID so native iOS builds have a valid application identifier while the integration is being verified. Before an App Store/TestFlight production release, replace it with the real iOS App ID from the AdMob account. Do not use a banner ad-unit ID in place of an App ID.
+The Expo config plugin in `app.json` must contain both `androidAppId` and `iosAppId`. Android uses the registered Android App ID and the active banner unit from the AdMob account. iOS intentionally uses Google's sample test App ID and sample test banner unit until a real iOS AdMob app and banner unit are configured; replace both iOS sample IDs before a production App Store/TestFlight release. The web build omits ads because the Google Mobile Ads SDK is native-only. Do not use a banner ad-unit ID in place of an App ID.
 
 Expo SDK 55 and later always use React Native's New Architecture; do not add `newArchEnabled` to `app.json` because the config schema no longer accepts that field.
 

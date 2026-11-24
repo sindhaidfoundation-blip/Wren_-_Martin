@@ -137,6 +137,33 @@ function buildTenTopicQuestions(lesson) {
   return questions.slice(0, 10);
 }
 
+class LessonRenderBoundary extends React.Component {
+  state = { hasError: false };
+
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error, info) {
+    console.error("Lesson detail rendering failed safely.", error, info);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <View style={{ flex: 1, backgroundColor: bg, padding: 24, justifyContent: "center" }}>
+          <Text style={{ color: ink, fontSize: 19, fontWeight: "800", marginBottom: 10 }}>This lesson could not be displayed</Text>
+          <Text style={{ color: muted, fontSize: 14, lineHeight: 22, marginBottom: 18 }}>Some lesson details are incomplete. Return to the lesson list and continue learning while this content is reviewed.</Text>
+          <TouchableOpacity onPress={this.props.onBack} style={{ backgroundColor: navy, borderRadius: 13, padding: 14, alignItems: "center" }}>
+            <Text style={{ color: "#FFFFFF", fontWeight: "800" }}>BACK TO LESSONS</Text>
+          </TouchableOpacity>
+        </View>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 export default function App() {
   const [tab, setTab] = useState("Home");
   const [quizReturnTab, setQuizReturnTab] = useState("Lesson");
@@ -562,7 +589,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       <View style={styles.examplePanel}><Text style={styles.panelLabel}>EXAMPLE</Text><Text style={styles.exampleText}>{selected.example}</Text></View>
       {selected.extraExamples?.length ? <View style={{ backgroundColor: "#F0F5FF", borderRadius: 16, borderWidth: 1, borderColor: "#DFE8FA", padding: 16, marginBottom: 16, gap: 9 }}><Text style={styles.panelLabel}>MORE EXAMPLE SENTENCES</Text>{selected.extraExamples.map((example, index) => <Text key={index} style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{index + 1}. {example}</Text>)}</View> : null}
       <Text style={styles.sectionTitle}>Understand the sentence</Text>
-      {selected.breakdown.map((line, i) => <View key={i} style={styles.breakRow}><View style={{ flex: 1 }}><Text style={styles.breakWord}>{line[0]}</Text><Text style={styles.breakKind}>{line[1]}</Text></View><Text style={styles.breakUrdu}>{line[2]}</Text></View>)}
+      {(Array.isArray(selected.breakdown) ? selected.breakdown : []).map((line, i) => <View key={i} style={styles.breakRow}><View style={{ flex: 1 }}><Text style={styles.breakWord}>{line[0]}</Text><Text style={styles.breakKind}>{line[1]}</Text></View><Text style={styles.breakUrdu}>{line[2]}</Text></View>)}
       {sindhiTranslations[selected.id] ? <View style={{ backgroundColor: "#EFF8F5", borderRadius: 14, borderWidth: 1, borderColor: "#D7ECE5", padding: 15, marginTop: 4, marginBottom: 14 }}><Text style={styles.panelLabel}>BREAKDOWN — SINDHI EXPLANATION</Text><Text style={{ color: "#23866D", fontSize: 15, lineHeight: 26, textAlign: "right", marginTop: 8 }}>{sindhiTranslations[selected.id]}</Text></View> : null}
       {topicDetails[selected.id]?.overview ? <View style={{ marginTop: 24, gap: 12 }}>
         <Text style={styles.sectionTitle}>Explore this topic further</Text>
@@ -576,7 +603,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
         </View>
         <View style={{ backgroundColor: "#F0F5FF", borderRadius: 16, borderWidth: 1, borderColor: "#DFE8FA", padding: 16, gap: 8 }}>
           <Text style={styles.panelLabel}>MORE EXAMPLES</Text>
-          {topicDetails[selected.id].examples.map((example, index) => <Text key={index} style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{index + 1}. {example}</Text>)}
+          {(Array.isArray(topicDetails[selected.id].examples) ? topicDetails[selected.id].examples : []).map((example, index) => <Text key={index} style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{index + 1}. {example}</Text>)}
         </View>
         {topicDetails[selected.id].overviewUrdu ? <View style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 8 }}>
           <Text style={styles.panelLabel}>اردو میں مزید وضاحت</Text>
@@ -589,9 +616,9 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{topicDetails[selected.id].watchForUrdu}</Text>
           <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{topicDetails[selected.id].watchForSindhi}</Text>
         </View> : null}
-        {topicDetails[selected.id].specialSections ? <View style={{ gap: 12 }}>
+        {Array.isArray(topicDetails[selected.id].specialSections) && topicDetails[selected.id].specialSections.length ? <View style={{ gap: 12 }}>
           <Text style={styles.sectionTitle}>{topicDetails[selected.id].specialSectionsTitle || "DETAILED NOTES"}</Text>
-          {topicDetails[selected.id].specialSections.map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 9 }}>
+          {(Array.isArray(topicDetails[selected.id].specialSections) ? topicDetails[selected.id].specialSections : []).map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 9 }}>
             <Text style={{ color: navy, fontSize: 17, fontWeight: "800" }}>{sectionIndex + 1}. {section.title}</Text>
             <Text style={styles.panelLabel}>ENGLISH EXPLANATION</Text>
             <Text style={{ color: ink, fontSize: 14, lineHeight: 23 }}>{section.english}</Text>
@@ -599,7 +626,19 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{section.urdu}</Text>
             <Text style={styles.panelLabel}>سنڌي ۾ وضاحت</Text>
             <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{section.sindhi}</Text>
-            {section.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E8EAF0", paddingTop: 8, gap: 4 }}>
+            {(Array.isArray(section.subsections) ? section.subsections : []).map((subsection, subsectionIndex) => <View key={subsectionIndex} style={{ backgroundColor: "#F7F8FC", borderRadius: 12, padding: 12, gap: 8 }}>
+              <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{subsection.title}</Text>
+              <Text style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{subsection.english}</Text>
+              <Text style={{ color: ink, fontSize: 13, lineHeight: 24, textAlign: "right" }}>اردو: {subsection.urdu}</Text>
+              <Text style={{ color: green, fontSize: 13, lineHeight: 24, textAlign: "right" }}>سنڌي: {subsection.sindhi}</Text>
+              {(Array.isArray(subsection.examples) ? subsection.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E5EAF0", paddingTop: 8, gap: 4 }}>
+                <Text style={{ color: ink, fontSize: 13, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
+                <Text style={{ color: muted, fontSize: 12, lineHeight: 22, textAlign: "right" }}>اردو: {example[1]}</Text>
+                <Text style={{ color: green, fontSize: 12, lineHeight: 22, textAlign: "right" }}>سنڌي: {example[2]}</Text>
+                {example[3] ? <Text style={{ color: ink, fontSize: 12, lineHeight: 20 }}>Explanation: {example[3]}</Text> : null}
+              </View>)}
+            </View>)}
+            {(Array.isArray(section.examples) ? section.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E8EAF0", paddingTop: 8, gap: 4 }}>
               <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
               <Text style={{ color: muted, fontSize: 13, lineHeight: 23, textAlign: "right" }}>اردو: {example[1]}</Text>
               <Text style={{ color: green, fontSize: 13, lineHeight: 23, textAlign: "right" }}>سنڌي: {example[2]}</Text>
@@ -607,9 +646,9 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             </View>)}
           </View>)}
         </View> : null}
-        {topicDetails[selected.id].specialSections?.some(section => section.verbTable) ? <View style={{ gap: 12, marginTop: 12 }}>
+        {(Array.isArray(topicDetails[selected.id].specialSections) && topicDetails[selected.id].specialSections.some(section => Array.isArray(section.verbTable) && section.verbTable.length)) ? <View style={{ gap: 12, marginTop: 12 }}>
           <Text style={styles.sectionTitle}>VERB FORMS — V1, V2 AND V3</Text>
-          {topicDetails[selected.id].specialSections.filter(section => section.verbTable).map(section => <View key={section.title} style={{ gap: 8 }}>
+          {topicDetails[selected.id].specialSections.filter(section => Array.isArray(section.verbTable) && section.verbTable.length).map(section => <View key={section.title} style={{ gap: 8 }}>
             <Text style={{ color: navy, fontSize: 16, fontWeight: "800" }}>{section.title}</Text>
             <View style={{ borderWidth: 1, borderColor: "#D9E0EA", borderRadius: 12, overflow: "hidden", backgroundColor: "#FFFFFF" }}>
               <View style={{ flexDirection: "row", backgroundColor: "#EAF0F8", borderBottomWidth: 1, borderBottomColor: "#E5EAF0" }}>
@@ -617,7 +656,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
                   <Text style={{ color: navy, fontSize: 11, lineHeight: 16, fontWeight: "800" }}>{heading}</Text>
                 </View>)}
               </View>
-              {section.verbTable.map((row, rowIndex) => <View key={rowIndex} style={{ flexDirection: "row", backgroundColor: rowIndex % 2 === 0 ? "#FFFFFF" : "#F8FAFC", borderBottomWidth: rowIndex === section.verbTable.length - 1 ? 0 : 1, borderBottomColor: "#E5EAF0" }}>
+              {(Array.isArray(section.verbTable) ? section.verbTable : []).map((row, rowIndex) => <View key={rowIndex} style={{ flexDirection: "row", backgroundColor: rowIndex % 2 === 0 ? "#FFFFFF" : "#F8FAFC", borderBottomWidth: rowIndex === section.verbTable.length - 1 ? 0 : 1, borderBottomColor: "#E5EAF0" }}>
                 {row.map((cell, cellIndex) => <View key={cellIndex} style={{ flex: 1, padding: 8, borderRightWidth: cellIndex === 2 ? 0 : 1, borderRightColor: "#E5EAF0" }}>
                   <Text style={{ color: ink, fontSize: 12, lineHeight: 17, fontWeight: cellIndex === 0 ? "700" : "500" }}>{cell}</Text>
                 </View>)}
@@ -625,10 +664,10 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             </View>
           </View>)}
         </View> : null}
-        {topicDetails[selected.id].voiceTable ? <View style={{ gap: 10, marginTop: 12 }}>
+        {Array.isArray(topicDetails[selected.id].voiceTable) && topicDetails[selected.id].voiceTable.length ? <View style={{ gap: 10, marginTop: 12 }}>
           <Text style={styles.sectionTitle}>{topicDetails[selected.id].voiceTableTitle}</Text>
           <View style={{ borderWidth: 1, borderColor: "#D9E0EA", borderRadius: 12, overflow: "hidden", backgroundColor: "#FFFFFF" }}>
-            {topicDetails[selected.id].voiceTable.map((row, rowIndex) => <View key={rowIndex} style={{ flexDirection: "row", backgroundColor: rowIndex === 0 ? "#EAF0F8" : (rowIndex % 2 === 0 ? "#FFFFFF" : "#F8FAFC"), borderBottomWidth: rowIndex === topicDetails[selected.id].voiceTable.length - 1 ? 0 : 1, borderBottomColor: "#E5EAF0" }}>
+            {(Array.isArray(topicDetails[selected.id].voiceTable) ? topicDetails[selected.id].voiceTable : []).map((row, rowIndex) => <View key={rowIndex} style={{ flexDirection: "row", backgroundColor: rowIndex === 0 ? "#EAF0F8" : (rowIndex % 2 === 0 ? "#FFFFFF" : "#F8FAFC"), borderBottomWidth: rowIndex === topicDetails[selected.id].voiceTable.length - 1 ? 0 : 1, borderBottomColor: "#E5EAF0" }}>
               {row.map((cell, cellIndex) => <View key={cellIndex} style={{ flex: cellIndex === 0 ? 0.72 : 1.55, padding: 8, borderRightWidth: cellIndex === 2 ? 0 : 1, borderRightColor: "#E5EAF0", justifyContent: "center" }}>
                 <Text style={{ color: navy, fontSize: 11, lineHeight: 16, fontWeight: rowIndex === 0 ? "800" : (cellIndex === 0 ? "700" : "500") }}>{cell}</Text>
               </View>)}
@@ -647,23 +686,23 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{item.urdu}</Text>
           <Text style={styles.panelLabel}>سنڌي ۾ وضاحت</Text>
           <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{item.sindhi}</Text>
-          {item.specialSections ? <View style={{ gap: 12 }}>
+          {Array.isArray(item.specialSections) && item.specialSections.length ? <View style={{ gap: 12 }}>
             <Text style={styles.panelLabel}>SPECIAL SINGULAR & PLURAL USES — واحد اور جمع کے خاص استعمال</Text>
-            {item.specialSections.map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFF9EE", borderRadius: 12, padding: 12, gap: 8 }}>
+            {(Array.isArray(item.specialSections) ? item.specialSections : []).map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFF9EE", borderRadius: 12, padding: 12, gap: 8 }}>
               <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{sectionIndex + 1}. {section.title}</Text>
               <Text style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{section.english}</Text>
               <Text style={{ color: ink, fontSize: 13, lineHeight: 24, textAlign: "right" }}>اردو: {section.urdu}</Text>
               <Text style={{ color: green, fontSize: 13, lineHeight: 24, textAlign: "right" }}>سنڌي: {section.sindhi}</Text>
-              {section.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E9DFC9", paddingTop: 7, gap: 3 }}>
+              {(Array.isArray(section.examples) ? section.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E9DFC9", paddingTop: 7, gap: 3 }}>
                 <Text style={{ color: ink, fontSize: 13, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
                 <Text style={{ color: muted, fontSize: 12, textAlign: "right" }}>اردو: {example[1]}</Text>
                 <Text style={{ color: green, fontSize: 12, textAlign: "right" }}>سنڌي: {example[2]}</Text>
               </View>)}
             </View>)}
           </View> : null}
-          {item.rules ? <View style={{ gap: 10 }}>
+          {Array.isArray(item.rules) && item.rules.length ? <View style={{ gap: 10 }}>
             <Text style={styles.panelLabel}>PLURAL FORMATION RULES — جمع بنانے کے قواعد</Text>
-            {item.rules.map((rule, ruleIndex) => <View key={rule.title} style={{ backgroundColor: "#F7F8FC", borderRadius: 12, padding: 12, gap: 7 }}>
+            {(Array.isArray(item.rules) ? item.rules : []).map((rule, ruleIndex) => <View key={rule.title} style={{ backgroundColor: "#F7F8FC", borderRadius: 12, padding: 12, gap: 7 }}>
               <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{rule.title}</Text>
               <Text style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{rule.english}</Text>
               <Text style={{ color: ink, fontSize: 13, lineHeight: 24, textAlign: "right" }}>اردو: {rule.urdu}</Text>
@@ -673,7 +712,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           </View> : null}
           <View style={{ backgroundColor: "#F0F5FF", borderRadius: 12, padding: 12, gap: 9 }}>
             <Text style={styles.panelLabel}>EXAMPLES — مثال</Text>
-            {item.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderBottomWidth: exampleIndex === 4 ? 0 : 1, borderBottomColor: "#DFE8FA", paddingBottom: exampleIndex === 4 ? 0 : 8, gap: 3 }}>
+            {(Array.isArray(item.examples) ? item.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderBottomWidth: exampleIndex === 4 ? 0 : 1, borderBottomColor: "#DFE8FA", paddingBottom: exampleIndex === 4 ? 0 : 8, gap: 3 }}>
               <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
               <Text style={{ color: muted, fontSize: 13, textAlign: "right" }}>اردو: {example[1]}</Text>
               <Text style={{ color: green, fontSize: 13, textAlign: "right" }}>سنڌي: {example[2]}</Text>
@@ -683,7 +722,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       </View> : null}
       {selected.id === "the-sentence" && topicDetails["the-sentence"]?.bilingualSections?.length ? <View style={{ marginTop: 24, gap: 14 }}>
         <Text style={styles.sectionTitle}>Chapter 1 — The Sentence</Text>
-        {topicDetails["the-sentence"].bilingualSections.map((section, index) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 10 }}>
+        {(Array.isArray(topicDetails["the-sentence"].bilingualSections) ? topicDetails["the-sentence"].bilingualSections : []).map((section, index) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 10 }}>
           <Text style={{ color: navy, fontSize: 18, fontWeight: "800" }}>{index + 1}. {section.title}</Text>
           <Text style={styles.panelLabel}>ENGLISH EXPLANATION</Text>
           <Text style={{ color: ink, fontSize: 14, lineHeight: 23 }}>{section.english}</Text>
@@ -693,7 +732,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: green, fontSize: 14, lineHeight: 26, textAlign: "right" }}>{section.sindhi}</Text>
           <View style={{ backgroundColor: "#F0F5FF", borderRadius: 12, padding: 12, gap: 9 }}>
             <Text style={styles.panelLabel}>EXAMPLES — مثال</Text>
-            {section.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderBottomWidth: exampleIndex === section.examples.length - 1 ? 0 : 1, borderBottomColor: "#DFE8FA", paddingBottom: 8, gap: 4 }}>
+            {(Array.isArray(section.examples) ? section.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderBottomWidth: exampleIndex === section.examples.length - 1 ? 0 : 1, borderBottomColor: "#DFE8FA", paddingBottom: 8, gap: 4 }}>
               <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
               <Text style={{ color: muted, fontSize: 13, textAlign: "right" }}>اردو: {example[1]}</Text>
               <Text style={{ color: green, fontSize: 13, textAlign: "right" }}>سنڌي: {example[2]}</Text>
@@ -766,7 +805,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
 
   const screens = { Home: <Home />, Learn: <Learn />, MCQs: <MCQs />, Lesson: <Lesson />, Quiz: <Quiz />, Practice: <Practice />, Progress: <Progress /> };
   const nav = [{ id: "Home", icon: "⌂", label: "Home" }, { id: "Learn", icon: "▤", label: "Learn" }, { id: "Practice", icon: "✦", label: "Practice" }, { id: "Progress", icon: "◔", label: "Progress" }];
-  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View>{!isExam ? <TouchableOpacity onPress={() => setTab("MCQs")} style={[styles.mcqTopButton, tab === "MCQs" && styles.mcqTopButtonActive]}><Text style={styles.mcqTopButtonText}>MCQs</Text></TouchableOpacity> : null}<View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View><View style={styles.screen}>{screens[tab] || <Home />}</View>{isExam ? null : <View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View>}{isExam ? null : <AdBanner />}</SafeAreaView>;
+  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View>{!isExam ? <TouchableOpacity onPress={() => setTab("MCQs")} style={[styles.mcqTopButton, tab === "MCQs" && styles.mcqTopButtonActive]}><Text style={styles.mcqTopButtonText}>MCQs</Text></TouchableOpacity> : null}<View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View><View style={styles.screen}>{tab === "Lesson" ? <LessonRenderBoundary key={selected ? selected.id : "no-lesson"} onBack={() => { setSelected(null); setTab("Learn"); }}>{screens[tab]}</LessonRenderBoundary> : (screens[tab] || <Home />)}</View>{isExam ? null : <View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View>}{isExam ? null : <AdBanner />}</SafeAreaView>;
 }
 
 const styles = StyleSheet.create({

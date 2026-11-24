@@ -16,7 +16,7 @@ jobs:
   expo-check:
     name: Validate Expo app
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -29,6 +29,12 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
+      - name: Set up Java for Android build
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
       - name: Validate repository native configuration
         run: npm run check:config
 
@@ -37,6 +43,20 @@ jobs:
 
       - name: Generate Android and iOS native projects
         run: npx expo prebuild --platform all --no-install
+
+      - name: Build installable Android debug APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon
+
+      - name: Upload Android debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: wren-martin-lesson-fix-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
 
       - name: Bundle Android
         run: npx expo export --platform android

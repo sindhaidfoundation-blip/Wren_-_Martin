@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { View } from "react-native";
 
+const BANNER_AD_UNIT_ID = "ca-app-pub-4568292017940942/8797252103";
+
 export default function AdBanner() {
   const [adsSdk, setAdsSdk] = useState(null);
 
@@ -32,7 +34,7 @@ export default function AdBanner() {
   return (
     <View style={{ alignItems: "center", justifyContent: "center", backgroundColor: "#FFFFFF" }}>
       <BannerAd
-        unitId="ca-app-pub-4568292017940942/7370840974"
+        unitId={BANNER_AD_UNIT_ID}
         size={adsSdk.BannerAdSize.BANNER}
         onAdFailedToLoad={(error) => {
           console.warn("AdMob banner failed to load:", error);
