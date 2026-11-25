@@ -26,7 +26,7 @@ This repository contains an original learning companion inspired by the grammar 
 
 ## Notes
 
-Completed lessons, quiz history, daily-practice dates and timed full-course exam answers are stored locally on the device. The certificate name is entered when generating a certificate and is not saved with learning progress. Cloud sync, user accounts and publishing to app stores are not configured yet.
+Completed lessons, quiz history, daily-practice dates and unfinished quizzes are stored locally on the device. If the app closes during a lesson quiz, topic practice, daily practice, mistake review or timed full-course exam, the learner can resume the saved questions and answer selections after reopening. Existing timed-exam saves are migrated automatically. The certificate name is entered when generating a certificate and is not saved with learning progress. Cloud sync, user accounts and publishing to app stores are not configured yet.
 
 ## Native AdMob configuration
 
