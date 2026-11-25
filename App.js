@@ -209,7 +209,7 @@ export default function App() {
         const restored = restoreProgress(saved, lessons.map(item => item.id), fullCourseQuestions);
         setCompleted(restored.completed);
         setStats(restored.stats);
-        setDailyDone(restored.stats.lastPracticeDate === localDateKey());
+        setDailyDone(restored.stats.lastPracticeDate === localDateKey() || restored.stats.dailyPracticeDates.includes(localDateKey()));
 
         const session = restored.quizSession;
         if (session) {
