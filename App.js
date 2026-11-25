@@ -562,7 +562,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       <View style={styles.examplePanel}><Text style={styles.panelLabel}>EXAMPLE</Text><Text style={styles.exampleText}>{selected.example}</Text></View>
       {selected.extraExamples?.length ? <View style={{ backgroundColor: "#F0F5FF", borderRadius: 16, borderWidth: 1, borderColor: "#DFE8FA", padding: 16, marginBottom: 16, gap: 9 }}><Text style={styles.panelLabel}>MORE EXAMPLE SENTENCES</Text>{selected.extraExamples.map((example, index) => <Text key={index} style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{index + 1}. {example}</Text>)}</View> : null}
       <Text style={styles.sectionTitle}>Understand the sentence</Text>
-      {selected.breakdown.map((line, i) => <View key={i} style={styles.breakRow}><View style={{ flex: 1 }}><Text style={styles.breakWord}>{line[0]}</Text><Text style={styles.breakKind}>{line[1]}</Text></View><Text style={styles.breakUrdu}>{line[2]}</Text></View>)}
+      {(Array.isArray(selected.breakdown) ? selected.breakdown : []).map((line, i) => <View key={i} style={styles.breakRow}><View style={{ flex: 1 }}><Text style={styles.breakWord}>{line[0]}</Text><Text style={styles.breakKind}>{line[1]}</Text></View><Text style={styles.breakUrdu}>{line[2]}</Text></View>)}
       {sindhiTranslations[selected.id] ? <View style={{ backgroundColor: "#EFF8F5", borderRadius: 14, borderWidth: 1, borderColor: "#D7ECE5", padding: 15, marginTop: 4, marginBottom: 14 }}><Text style={styles.panelLabel}>BREAKDOWN — SINDHI EXPLANATION</Text><Text style={{ color: "#23866D", fontSize: 15, lineHeight: 26, textAlign: "right", marginTop: 8 }}>{sindhiTranslations[selected.id]}</Text></View> : null}
       {topicDetails[selected.id]?.overview ? <View style={{ marginTop: 24, gap: 12 }}>
         <Text style={styles.sectionTitle}>Explore this topic further</Text>
@@ -599,7 +599,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{section.urdu}</Text>
             <Text style={styles.panelLabel}>سنڌي ۾ وضاحت</Text>
             <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{section.sindhi}</Text>
-            {section.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E8EAF0", paddingTop: 8, gap: 4 }}>
+            {(Array.isArray(section.examples) ? section.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E8EAF0", paddingTop: 8, gap: 4 }}>
               <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
               <Text style={{ color: muted, fontSize: 13, lineHeight: 23, textAlign: "right" }}>اردو: {example[1]}</Text>
               <Text style={{ color: green, fontSize: 13, lineHeight: 23, textAlign: "right" }}>سنڌي: {example[2]}</Text>
@@ -649,12 +649,12 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{item.sindhi}</Text>
           {item.specialSections ? <View style={{ gap: 12 }}>
             <Text style={styles.panelLabel}>SPECIAL SINGULAR & PLURAL USES — واحد اور جمع کے خاص استعمال</Text>
-            {item.specialSections.map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFF9EE", borderRadius: 12, padding: 12, gap: 8 }}>
+            {(Array.isArray(item.specialSections) ? item.specialSections : []).map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFF9EE", borderRadius: 12, padding: 12, gap: 8 }}>
               <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{sectionIndex + 1}. {section.title}</Text>
               <Text style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{section.english}</Text>
               <Text style={{ color: ink, fontSize: 13, lineHeight: 24, textAlign: "right" }}>اردو: {section.urdu}</Text>
               <Text style={{ color: green, fontSize: 13, lineHeight: 24, textAlign: "right" }}>سنڌي: {section.sindhi}</Text>
-              {section.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E9DFC9", paddingTop: 7, gap: 3 }}>
+              {(Array.isArray(section.examples) ? section.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E9DFC9", paddingTop: 7, gap: 3 }}>
                 <Text style={{ color: ink, fontSize: 13, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
                 <Text style={{ color: muted, fontSize: 12, textAlign: "right" }}>اردو: {example[1]}</Text>
                 <Text style={{ color: green, fontSize: 12, textAlign: "right" }}>سنڌي: {example[2]}</Text>
@@ -663,7 +663,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           </View> : null}
           {item.rules ? <View style={{ gap: 10 }}>
             <Text style={styles.panelLabel}>PLURAL FORMATION RULES — جمع بنانے کے قواعد</Text>
-            {item.rules.map((rule, ruleIndex) => <View key={rule.title} style={{ backgroundColor: "#F7F8FC", borderRadius: 12, padding: 12, gap: 7 }}>
+            {(Array.isArray(item.rules) ? item.rules : []).map((rule, ruleIndex) => <View key={rule.title} style={{ backgroundColor: "#F7F8FC", borderRadius: 12, padding: 12, gap: 7 }}>
               <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{rule.title}</Text>
               <Text style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{rule.english}</Text>
               <Text style={{ color: ink, fontSize: 13, lineHeight: 24, textAlign: "right" }}>اردو: {rule.urdu}</Text>
@@ -673,7 +673,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           </View> : null}
           <View style={{ backgroundColor: "#F0F5FF", borderRadius: 12, padding: 12, gap: 9 }}>
             <Text style={styles.panelLabel}>EXAMPLES — مثال</Text>
-            {item.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderBottomWidth: exampleIndex === 4 ? 0 : 1, borderBottomColor: "#DFE8FA", paddingBottom: exampleIndex === 4 ? 0 : 8, gap: 3 }}>
+            {(Array.isArray(item.examples) ? item.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderBottomWidth: exampleIndex === 4 ? 0 : 1, borderBottomColor: "#DFE8FA", paddingBottom: exampleIndex === 4 ? 0 : 8, gap: 3 }}>
               <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
               <Text style={{ color: muted, fontSize: 13, textAlign: "right" }}>اردو: {example[1]}</Text>
               <Text style={{ color: green, fontSize: 13, textAlign: "right" }}>سنڌي: {example[2]}</Text>
@@ -693,7 +693,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: green, fontSize: 14, lineHeight: 26, textAlign: "right" }}>{section.sindhi}</Text>
           <View style={{ backgroundColor: "#F0F5FF", borderRadius: 12, padding: 12, gap: 9 }}>
             <Text style={styles.panelLabel}>EXAMPLES — مثال</Text>
-            {section.examples.map((example, exampleIndex) => <View key={exampleIndex} style={{ borderBottomWidth: exampleIndex === section.examples.length - 1 ? 0 : 1, borderBottomColor: "#DFE8FA", paddingBottom: 8, gap: 4 }}>
+            {(Array.isArray(section.examples) ? section.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderBottomWidth: exampleIndex === section.examples.length - 1 ? 0 : 1, borderBottomColor: "#DFE8FA", paddingBottom: 8, gap: 4 }}>
               <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
               <Text style={{ color: muted, fontSize: 13, textAlign: "right" }}>اردو: {example[1]}</Text>
               <Text style={{ color: green, fontSize: 13, textAlign: "right" }}>سنڌي: {example[2]}</Text>
