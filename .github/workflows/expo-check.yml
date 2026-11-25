@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - fix/lesson-detail-render-crashes
   pull_request:
     branches:
       - main
