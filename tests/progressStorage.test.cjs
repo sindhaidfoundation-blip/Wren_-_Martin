@@ -117,6 +117,18 @@ test("stale exam sessions and malformed quiz questions are discarded", () => {
   assert.equal(malformedQuiz.quizSession, null);
 });
 
+test("malformed option slots cannot shift a restored correct-answer index", () => {
+  const restored = restoreProgress({
+    quizSession: {
+      type: "daily",
+      questions: [{ q: "Choose one.", options: ["A", null, "B"], answer: 1 }],
+      answers: { "0": 1 }
+    }
+  }, lessonIds, fullCourseQuestions);
+
+  assert.equal(restored.quizSession, null);
+});
+
 test("progress snapshots keep the learner name out of persistent data", () => {
   const snapshot = createProgressSnapshot(["nouns"], createEmptyStats(), null);
   assert.deepEqual(JSON.parse(snapshot), {
