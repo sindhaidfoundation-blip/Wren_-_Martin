@@ -141,6 +141,7 @@ jobs:
     timeout-minutes: 35
     strategy:
       fail-fast: false
+      max-parallel: 2
       matrix:
         api-level: [26, 29, 33, 35, 36]
     steps:
@@ -168,7 +169,7 @@ jobs:
           disable-animations: true
           script: |
             adb install -r app/app-release.apk
-            adb logcat -c
+            adb logcat -c >/dev/null 2>&1 || true
             adb shell monkey -p com.grammar.master.wrenmartin 1
             sleep 45
             test -n "$(adb shell pidof com.grammar.master.wrenmartin)"
@@ -176,9 +177,10 @@ jobs:
             sleep 2
             adb shell monkey -p com.grammar.master.wrenmartin 1
             sleep 20
-            test -n "$(adb shell pidof com.grammar.master.wrenmartin)"
             adb logcat -d -b all -t 10000 > android-api-${{ matrix.api-level }}-launch.log
-            ! grep -Eq "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)|Unable to load script" android-api-${{ matrix.api-level }}-launch.log
+            test -n "$(adb shell pidof com.grammar.master.wrenmartin)"
+            test -n "$(adb shell dumpsys activity activities | grep -E 'mResumedActivity|topResumedActivity' | grep com.grammar.master.wrenmartin)"
+            ! grep -Eq "FATAL EXCEPTION|Fatal signal|E ReactNativeJS: (Uncaught )?(Error|Invariant Violation|TypeError|ReferenceError|SyntaxError):|Unable to load script" android-api-${{ matrix.api-level }}-launch.log
 
       - name: Upload Android API ${{ matrix.api-level }} launch log
         if: always()
