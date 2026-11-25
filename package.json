@@ -12,7 +12,8 @@
     "check:config": "node scripts/validate-expo-config.mjs",
     "prebuild:android": "expo prebuild --platform android",
     "prebuild:ios": "expo prebuild --platform ios",
-    "build:android:release": "npm run prebuild:android && cd android && ./gradlew assembleRelease"
+    "build:android:release": "npm run prebuild:android && cd android && ./gradlew assembleRelease",
+    "test": "node --test"
   },
   "dependencies": {
     "expo": "~57.0.0",
