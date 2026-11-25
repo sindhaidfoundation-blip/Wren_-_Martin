@@ -18,7 +18,8 @@
     "android": {
       "package": "com.grammar.master.wrenmartin",
       "adaptiveIcon": {
-        "backgroundColor": "#101C3A"
+        "backgroundColor": "#101C3A",
+        "foregroundImage": "./assets/icon.png"
       },
       "allowBackup": false
     },
@@ -31,6 +32,7 @@
           "iosAppId": "ca-app-pub-3940256099942544~1458002511"
         }
       ]
-    ]
+    ],
+    "icon": "./assets/icon.png"
   }
 }
