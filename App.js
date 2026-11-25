@@ -6,6 +6,7 @@ import { Alert, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput
 import AdBanner from "./src/components/AdBanner";
 import { lessons, dailyQuestions, sindhiTranslations } from "./src/data/lessons";
 import { topicDetails } from "./src/data/topicDetails";
+const { createEmptyStats, restoreProgress, createProgressSnapshot, createQueuedProgressWriter } = require("./src/utils/progressStorage");
 
 const navy = "#101C3A";
 const ink = "#18233F";
@@ -169,9 +170,14 @@ export default function App() {
   const [quizReturnTab, setQuizReturnTab] = useState("Lesson");
   const [selected, setSelected] = useState(null);
   const [completed, setCompleted] = useState([]);
-  const [stats, setStats] = useState({ quizzesTaken: 0, questionsAnsweredCorrectly: 0, dailySessions: 0, lastPracticeDate: null, dailyPracticeDates: [], quizHistory: [], wrongAnswers: [] });
+  const [stats, setStats] = useState(() => createEmptyStats());
   const [storageReady, setStorageReady] = useState(false);
-  const progressWriteQueue = useRef(Promise.resolve());
+  const progressWriter = useRef(null);
+  if (!progressWriter.current) {
+    progressWriter.current = createQueuedProgressWriter(AsyncStorage, STORAGE_KEY, error => {
+      console.warn("Could not save learning progress.", error);
+    });
+  }
   const [quiz, setQuiz] = useState(null);
   const [answers, setAnswers] = useState({});
   const [dailyDone, setDailyDone] = useState(false);
@@ -199,42 +205,35 @@ export default function App() {
       try {
         const saved = await AsyncStorage.getItem(STORAGE_KEY);
         if (!active || !saved) return;
-        const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed.completed)) setCompleted(parsed.completed.filter(id => lessons.some(item => item.id === id)));
-        const savedExam = parsed.examSession;
-        if (savedExam && Number.isFinite(savedExam.deadline) && savedExam.totalQuestions === fullCourseQuestions.length) {
-          const restoredAnswers = {};
-          if (savedExam.answers && typeof savedExam.answers === "object" && !Array.isArray(savedExam.answers)) {
-            Object.keys(savedExam.answers).forEach(key => {
-              const index = Number(key);
-              const answer = savedExam.answers[key];
-              if (Number.isInteger(index) && index >= 0 && index < fullCourseQuestions.length && Number.isInteger(answer) && answer >= 0 && answer < fullCourseQuestions[index].options.length) restoredAnswers[index] = answer;
-            });
-          }
-          setSelected(null);
-          setIsExam(true);
-          setQuiz(fullCourseQuestions);
-          setAnswers(restoredAnswers);
+
+        const restored = restoreProgress(saved, lessons.map(item => item.id), fullCourseQuestions);
+        setCompleted(restored.completed);
+        setStats(restored.stats);
+        setDailyDone(restored.stats.lastPracticeDate === localDateKey());
+
+        const session = restored.quizSession;
+        if (session) {
+          const isRestoredExam = session.type === "exam";
+          const restoredLesson = session.lessonId
+            ? lessons.find(item => item.id === session.lessonId) || null
+            : null;
+
+          setSelected(restoredLesson);
+          setIsExam(isRestoredExam);
+          setIsMistakePractice(session.type === "mistakes");
+          setQuiz(session.questions);
+          setAnswers(session.answers);
+          setQuizReturnTab(session.returnTab);
           setShowResult(false);
           setQuizRecorded(false);
-          setQuizNotice("Your saved exam has been restored.");
-          setExamDeadline(savedExam.deadline);
-          setExamRemaining(Math.max(0, Math.ceil((savedExam.deadline - Date.now()) / 1000)));
+          setQuizNotice("Your saved quiz has been restored. Continue where you left off.");
+          setExamDeadline(isRestoredExam ? session.deadline : null);
+          setExamRemaining(isRestoredExam ? Math.max(0, Math.ceil((session.deadline - Date.now()) / 1000)) : 0);
           setExamExpired(false);
-          setExamCertificateId(typeof savedExam.certificateId === "string" ? savedExam.certificateId : createCertificateId());
+          setExamCertificateId(isRestoredExam ? session.certificateId || createCertificateId() : "");
+          setExamCompletedDate("");
+          setCertificateMessage("");
           setTab("Quiz");
-        }
-        if (parsed.stats && typeof parsed.stats === "object") {
-          setStats({
-            quizzesTaken: Number(parsed.stats.quizzesTaken) || 0,
-            questionsAnsweredCorrectly: Number(parsed.stats.questionsAnsweredCorrectly) || 0,
-            dailySessions: Number(parsed.stats.dailySessions) || 0,
-            lastPracticeDate: typeof parsed.stats.lastPracticeDate === "string" ? parsed.stats.lastPracticeDate : null,
-            dailyPracticeDates: Array.isArray(parsed.stats.dailyPracticeDates) ? [...new Set(parsed.stats.dailyPracticeDates.filter(date => typeof date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(date)))].slice(-90) : [],
-            quizHistory: Array.isArray(parsed.stats.quizHistory) ? parsed.stats.quizHistory.filter(item => item && typeof item.title === "string" && Number.isFinite(item.correct) && Number.isFinite(item.total)).slice(0, 20) : [],
-            wrongAnswers: Array.isArray(parsed.stats.wrongAnswers) ? parsed.stats.wrongAnswers.filter(item => item && typeof item.question === "string" && typeof item.correctAnswer === "string").slice(0, 50) : []
-          });
-          setDailyDone(parsed.stats.lastPracticeDate === localDateKey());
         }
       } catch (error) {
         console.warn("Could not load saved learning progress.", error);
@@ -264,22 +263,21 @@ export default function App() {
 
   useEffect(() => {
     if (!storageReady) return;
-    const examSession = isExam && examDeadline && !showResult && quiz ? {
-      deadline: examDeadline,
+    const quizSession = tab === "Quiz" && quiz && !showResult ? {
+      type: isExam ? "exam" : isMistakePractice ? "mistakes" : selected ? (quizReturnTab === "MCQs" ? "topic" : "lesson") : "daily",
+      lessonId: selected ? selected.id : null,
+      questions: isExam ? undefined : quiz,
       answers,
+      returnTab: quizReturnTab,
       totalQuestions: quiz.length,
-      certificateId: examCertificateId
+      deadline: isExam ? examDeadline : null,
+      certificateId: isExam ? examCertificateId : null
     } : null;
-    // Serialize snapshots so a slower older write cannot overwrite newer progress.
-    // Keep the learner name in memory only; never persist it with learning progress.
-    const snapshot = JSON.stringify({ completed, stats, examSession });
-    progressWriteQueue.current = progressWriteQueue.current
-      .catch(() => undefined)
-      .then(() => AsyncStorage.setItem(STORAGE_KEY, snapshot))
-      .catch(error => {
-        console.warn("Could not save learning progress.", error);
-      });
-  }, [completed, stats, storageReady, isExam, examDeadline, showResult, quiz, answers, examCertificateId]);
+    // Keep writes ordered so a delayed older snapshot cannot replace newer answers.
+    // The certificate learner name is deliberately excluded from persistent progress.
+    const snapshot = createProgressSnapshot(completed, stats, quizSession);
+    progressWriter.current(snapshot);
+  }, [completed, stats, storageReady, tab, isExam, isMistakePractice, selected, quizReturnTab, examDeadline, showResult, quiz, answers, examCertificateId]);
   const filteredLessons = useMemo(() => {
     const query = lessonSearch.trim().toLocaleLowerCase();
     return lessons.filter(item => {
