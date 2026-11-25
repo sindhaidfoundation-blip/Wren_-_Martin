@@ -28,13 +28,16 @@ function createEmptyStats() {
 
 function sanitizeQuestion(raw, validLessonIds) {
   if (!isRecord(raw) || typeof raw.q !== "string" || !raw.q.trim()) return null;
-  if (!Array.isArray(raw.options)) return null;
+  if (
+    !Array.isArray(raw.options) ||
+    raw.options.length < 2 ||
+    raw.options.length > 6 ||
+    raw.options.some(option => typeof option !== "string" || !option.trim())
+  ) return null;
 
-  const options = raw.options
-    .filter(option => typeof option === "string" && option.trim())
-    .map(option => option.trim())
-    .slice(0, 6);
-  if (options.length < 2 || !Number.isInteger(raw.answer) || raw.answer < 0 || raw.answer >= options.length) return null;
+  // Reject malformed option slots instead of compacting them and changing answer indexes.
+  const options = raw.options.map(option => option.trim());
+  if (!Number.isInteger(raw.answer) || raw.answer < 0 || raw.answer >= options.length) return null;
 
   const question = {
     q: raw.q.trim().slice(0, 1200),
