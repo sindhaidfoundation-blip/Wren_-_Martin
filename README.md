@@ -7,6 +7,7 @@ A bilingual English grammar learning app with Urdu explanations, interactive les
 This project includes `react-native-google-mobile-ads`, which contains native code and is not supported by Expo Go. Use a native development build or a release build instead.
 
 - Install dependencies: `npm install`
+- Run unit tests: `npm test`
 - Validate Expo and native configuration: `npm run check:config && npm run check:expo`
 - Generate Android native project: `npm run prebuild:android`
 - Build Android release APK: `npm run build:android:release`
