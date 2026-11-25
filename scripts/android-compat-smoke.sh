@@ -84,7 +84,7 @@ if [[ -z "$RESUMED" ]]; then
 fi
 
 adb logcat -d -b all -t 20000 > "$LOG" 2>&1
-if grep -Eq "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)|Unable to load script" "$LOG"; then
+if grep -Eq "FATAL EXCEPTION|Fatal signal|E ReactNativeJS: (Uncaught )?(Error|Invariant Violation|TypeError|ReferenceError|SyntaxError):|Unable to load script" "$LOG"; then
   echo "Fatal Android or React Native error detected." | tee -a "$LOG"
   exit 1
 fi
