@@ -7,6 +7,7 @@ import AdBanner from "./src/components/AdBanner";
 import { lessons, dailyQuestions, sindhiTranslations } from "./src/data/lessons";
 import { topicDetails } from "./src/data/topicDetails";
 const { createEmptyStats, restoreProgress, createProgressSnapshot, createQueuedProgressWriter } = require("./src/utils/progressStorage");
+const { calculateQuizResult, buildLessonBreakdown, createQuizAttempt, createWrongAnswerRecords, mergeWrongAnswers } = require("./src/utils/quizEngine");
 
 const navy = "#101C3A";
 const ink = "#18233F";
@@ -372,18 +373,14 @@ export default function App() {
     setSelected(null);
   }
   function score() {
-    return (quiz || []).filter((q, i) => answers[i] === q.answer).length;
+    return calculateQuizResult(quiz, answers).correct;
   }
   const examPercent = quiz && quiz.length ? Math.round((score() / quiz.length) * 100) : 0;
   const examGrade = (() => {
     const bands = examPercent >= 90 ? { letter: "A", label: "Excellent", passed: true } : examPercent >= 80 ? { letter: "B", label: "Very good", passed: true } : examPercent >= 70 ? { letter: "C", label: "Good", passed: true } : examPercent >= 60 ? { letter: "D", label: "Pass", passed: true } : { letter: "F", label: "Needs improvement", passed: false };
     return { ...bands, percent: examPercent };
   })();
-  const examBreakdown = isExam ? lessons.map(lesson => {
-    const items = quiz.map((question, index) => ({ question, index })).filter(item => item.question.lessonId === lesson.id);
-    const correct = items.filter(item => answers[item.index] === item.question.answer).length;
-    return { lessonId: lesson.id, title: lesson.title, correct, total: items.length, percent: items.length ? Math.round((correct / items.length) * 100) : 0 };
-  }) : [];
+  const examBreakdown = isExam ? buildLessonBreakdown(quiz || [], answers, lessons) : [];
   async function createAndShareCertificate() {
     if (!isExam || !showResult || !examGrade.passed || !examCertificateId || certificateBusy) return;
     const learner = certificateName.trim();
@@ -473,17 +470,25 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       setQuizNotice("Please answer every question before checking your result.");
       return;
     }
-    const correct = score();
+    const result = calculateQuizResult(quiz, answers);
+    const correct = result.correct;
     const today = localDateKey();
     if (isExam) setExamCompletedDate(today);
     const isDaily = !selected && !isExam && !isMistakePractice;
     const title = isExam ? "Full course exam" : isMistakePractice ? "Mistake review" : selected ? selected.title : "Daily practice";
-    const lessonBreakdown = isExam ? lessons.map(lesson => {
-      const lessonQuestions = quiz.map((question, index) => ({ question, index })).filter(item => item.question.lessonId === lesson.id);
-      const lessonCorrect = lessonQuestions.filter(item => answers[item.index] === item.question.answer).length;
-      return { lessonId: lesson.id, correct: lessonCorrect, total: lessonQuestions.length };
-    }) : [];
-    const attempt = { title, lessonId: selected ? selected.id : null, date: today, correct, total, percent: Math.round((correct / total) * 100), lessonBreakdown };
+    const lessonBreakdown = isExam ? buildLessonBreakdown(quiz, answers, lessons) : [];
+    const attempt = createQuizAttempt({
+      title,
+      lessonId: selected ? selected.id : null,
+      date: today,
+      result,
+      lessonBreakdown
+    });
+    const newWrongAnswers = createWrongAnswerRecords(quiz, answers, {
+      selectedLesson: selected,
+      title,
+      date: today
+    });
     setStats(old => ({
       ...old,
       quizzesTaken: old.quizzesTaken + 1,
@@ -492,7 +497,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       lastPracticeDate: isDaily ? today : old.lastPracticeDate,
       dailyPracticeDates: isDaily ? [...new Set([...(old.dailyPracticeDates || []), today])].slice(-90) : (old.dailyPracticeDates || []),
       quizHistory: [attempt, ...(old.quizHistory || [])].slice(0, 20),
-      wrongAnswers: [...quiz.map((question, index) => ({ question: question.q, options: question.options, answer: question.answer, selectedAnswer: answers[index] === undefined ? "Not answered" : question.options[answers[index]], correctAnswer: question.options[question.answer], explanation: question.why, lessonTitle: question.lessonTitle || (selected ? selected.title : title), lessonId: question.lessonId || (selected ? selected.id : null), date: today })).filter((item, index) => answers[index] !== quiz[index].answer), ...(isMistakePractice ? (old.wrongAnswers || []).filter(item => !quiz.some((question, index) => question.q === item.question && answers[index] === question.answer)) : (old.wrongAnswers || []))].slice(0, 50)
+      wrongAnswers: mergeWrongAnswers(old.wrongAnswers, newWrongAnswers, quiz, answers, isMistakePractice)
     }));
     if (isDaily) setDailyDone(true);
     setQuizRecorded(true);

@@ -143,11 +143,16 @@ test("queued writes preserve order and continue after a storage failure", async 
   const calls = [];
   const errors = [];
   let releaseFirst;
+  let markFirstStarted;
   const firstGate = new Promise(resolve => { releaseFirst = resolve; });
+  const firstStarted = new Promise(resolve => { markFirstStarted = resolve; });
   const storage = {
     async setItem(_key, value) {
       calls.push("start:" + value);
-      if (value === "first") await firstGate;
+      if (value === "first") {
+        markFirstStarted();
+        await firstGate;
+      }
       if (value === "broken") throw new Error("storage unavailable");
       calls.push("end:" + value);
     }
@@ -156,7 +161,7 @@ test("queued writes preserve order and continue after a storage failure", async 
 
   const first = write("first");
   const second = write("second");
-  await Promise.resolve();
+  await firstStarted;
   assert.deepEqual(calls, ["start:first"]);
   releaseFirst();
   await Promise.all([first, second]);
