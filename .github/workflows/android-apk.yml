@@ -8,6 +8,12 @@ on:
     paths:
       - "**"
       - ".github/workflows/android-apk.yml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "**"
+      - ".github/workflows/android-apk.yml"
 
 permissions:
   contents: read
@@ -39,6 +45,7 @@ jobs:
         run: npx expo prebuild --platform android --non-interactive --clean
 
       - name: Configure private Google Play upload signing
+        if: github.event_name != 'pull_request'
         env:
           ANDROID_UPLOAD_KEYSTORE_BASE64: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 }}
           ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
@@ -109,6 +116,7 @@ jobs:
           test -s upload_certificate.pem
 
       - name: Build release APK
+        if: github.event_name != 'pull_request'
         working-directory: android
         env:
           ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
@@ -119,6 +127,7 @@ jobs:
           ./gradlew assembleRelease --no-daemon
 
       - name: Build Android App Bundle for Play Store
+        if: github.event_name != 'pull_request'
         working-directory: android
         env:
           ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
@@ -126,11 +135,19 @@ jobs:
           ANDROID_UPLOAD_KEY_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEY_PASSWORD }}
         run: ./gradlew bundleRelease --no-daemon
 
+      - name: Build unsigned APK and App Bundle for pull request validation
+        if: github.event_name == 'pull_request'
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease bundleRelease --no-daemon
+
       - name: Remove private upload keystore
         if: always()
         run: rm -f android/app/wren-martin-upload.jks
 
       - name: Upload Play Store AAB
+        if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
           name: wren-martin-play-store-aab
@@ -147,6 +164,25 @@ jobs:
           retention-days: 14
 
       - name: Upload APK for compatibility tests
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: wren-martin-compatibility-test-apk
+          path: android/app/build/outputs/apk/release/app-release.apk
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload unsigned pull request App Bundle
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: wren-martin-compatibility-test-aab
+          path: android/app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload unsigned pull request APK
+        if: github.event_name == 'pull_request'
         uses: actions/upload-artifact@v4
         with:
           name: wren-martin-compatibility-test-apk
@@ -161,9 +197,13 @@ jobs:
     timeout-minutes: 35
     strategy:
       fail-fast: false
+      max-parallel: 2
       matrix:
         api-level: [26, 29, 33, 35, 36]
     steps:
+      - name: Check out smoke-test script
+        uses: actions/checkout@v4
+
       - name: Download APK
         uses: actions/download-artifact@v4
         with:
@@ -186,19 +226,7 @@ jobs:
           emulator-boot-timeout: 600
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
           disable-animations: true
-          script: |
-            adb install -r app/app-release.apk
-            adb logcat -c
-            adb shell monkey -p com.grammar.master.wrenmartin 1
-            sleep 45
-            test -n "$(adb shell pidof com.grammar.master.wrenmartin)"
-            adb shell am force-stop com.grammar.master.wrenmartin
-            sleep 2
-            adb shell monkey -p com.grammar.master.wrenmartin 1
-            sleep 20
-            test -n "$(adb shell pidof com.grammar.master.wrenmartin)"
-            adb logcat -d -b all -t 10000 > android-api-${{ matrix.api-level }}-launch.log
-            ! grep -Eq "FATAL EXCEPTION|Fatal signal|ReactNativeJS.*(Error|Invariant Violation)|Unable to load script" android-api-${{ matrix.api-level }}-launch.log
+          script: bash scripts/android-compat-smoke.sh ${{ matrix.api-level }}
 
       - name: Upload Android API ${{ matrix.api-level }} launch log
         if: always()
