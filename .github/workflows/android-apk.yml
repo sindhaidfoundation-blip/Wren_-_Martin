@@ -95,6 +95,19 @@ jobs:
           PY
           echo "Release signing configured from encrypted GitHub Actions secrets."
 
+      - name: Export public upload-key certificate for Huawei AppGallery
+        env:
+          ANDROID_UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_PASSWORD }}
+          ANDROID_UPLOAD_KEY_ALIAS: ${{ secrets.ANDROID_UPLOAD_KEY_ALIAS }}
+        run: |
+          set -euo pipefail
+          keytool -exportcert -rfc \\
+            -keystore android/app/wren-martin-upload.jks \\
+            -storepass "$ANDROID_UPLOAD_KEYSTORE_PASSWORD" \\
+            -alias "$ANDROID_UPLOAD_KEY_ALIAS" \\
+            -file upload_certificate.pem
+          test -s upload_certificate.pem
+
       - name: Build release APK
         working-directory: android
         env:
@@ -122,6 +135,14 @@ jobs:
         with:
           name: wren-martin-play-store-aab
           path: android/app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload Huawei public upload-key certificate
+        uses: actions/upload-artifact@v4
+        with:
+          name: huawei-upload-key-certificate
+          path: upload_certificate.pem
           if-no-files-found: error
           retention-days: 14
 
