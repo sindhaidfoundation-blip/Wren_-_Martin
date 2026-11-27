@@ -161,10 +161,12 @@ export default function App() {
   const [completed, setCompleted] = useState([]);
   const [stats, setStats] = useState(() => createEmptyStats());
   const [storageReady, setStorageReady] = useState(false);
+  const [storageError, setStorageError] = useState("");
   const progressWriter = useRef(null);
   if (!progressWriter.current) {
     progressWriter.current = createQueuedProgressWriter(AsyncStorage, STORAGE_KEY, error => {
       console.warn("Could not save learning progress.", error);
+      setStorageError("Your latest progress could not be saved. Check available device storage.");
     });
   }
   const [quiz, setQuiz] = useState(null);
@@ -191,43 +193,63 @@ export default function App() {
   useEffect(() => {
     let active = true;
     async function loadProgress() {
+      let loadSucceeded = false;
       try {
         const saved = await AsyncStorage.getItem(STORAGE_KEY);
-        if (!active || !saved) return;
+        if (!active) return;
 
-        const restored = restoreProgress(saved, lessons.map(item => item.id), fullCourseQuestions);
-        setCompleted(restored.completed);
-        setStats(restored.stats);
-        setDailyDone(restored.stats.lastPracticeDate === localDateKey() || restored.stats.dailyPracticeDates.includes(localDateKey()));
+        if (saved) {
+          let parsed;
+          try {
+            parsed = JSON.parse(saved);
+          } catch (_parseError) {
+            throw new Error("Saved progress is not valid JSON.");
+          }
+          if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+            throw new Error("Saved progress has an invalid data shape.");
+          }
 
-        const session = restored.quizSession;
-        if (session) {
-          const isRestoredExam = session.type === "exam";
-          const restoredLesson = session.lessonId
-            ? lessons.find(item => item.id === session.lessonId) || null
-            : null;
+          const restored = restoreProgress(parsed, lessons.map(item => item.id), fullCourseQuestions);
+          setCompleted(restored.completed);
+          setStats(restored.stats);
+          setDailyDone(restored.stats.lastPracticeDate === localDateKey() || restored.stats.dailyPracticeDates.includes(localDateKey()));
 
-          setSelected(restoredLesson);
-          setIsExam(isRestoredExam);
-          setIsMistakePractice(session.type === "mistakes");
-          setQuiz(session.questions);
-          setAnswers(session.answers);
-          setQuizReturnTab(session.returnTab);
-          setShowResult(false);
-          setQuizRecorded(false);
-          setQuizNotice("Your saved quiz has been restored. Continue where you left off.");
-          setExamDeadline(isRestoredExam ? session.deadline : null);
-          setExamRemaining(isRestoredExam ? Math.max(0, Math.ceil((session.deadline - Date.now()) / 1000)) : 0);
-          setExamExpired(false);
-          setExamCertificateId(isRestoredExam ? session.certificateId || createCertificateId() : "");
-          setExamCompletedDate("");
-          setCertificateMessage("");
-          setTab("Quiz");
+          const session = restored.quizSession;
+          if (session) {
+            const isRestoredExam = session.type === "exam";
+            const restoredLesson = session.lessonId
+              ? lessons.find(item => item.id === session.lessonId) || null
+              : null;
+
+            setSelected(restoredLesson);
+            setIsExam(isRestoredExam);
+            setIsMistakePractice(session.type === "mistakes");
+            setQuiz(session.questions);
+            setAnswers(session.answers);
+            setQuizReturnTab(session.returnTab);
+            setShowResult(false);
+            setQuizRecorded(false);
+            setQuizNotice("Your saved quiz has been restored. Continue where you left off.");
+            setExamDeadline(isRestoredExam ? session.deadline : null);
+            setExamRemaining(isRestoredExam ? Math.max(0, Math.ceil((session.deadline - Date.now()) / 1000)) : 0);
+            setExamExpired(false);
+            setExamCertificateId(isRestoredExam ? session.certificateId || createCertificateId() : "");
+            setExamCompletedDate("");
+            setCertificateMessage("");
+            setTab("Quiz");
+          }
         }
+
+        loadSucceeded = true;
+        setStorageError("");
       } catch (error) {
-        console.warn("Could not load saved learning progress.", error);
+        console.warn("Could not load saved learning progress; stored data will not be overwritten.", error);
+        if (active) {
+          setStorageError("Saved progress could not be read, so it has not been overwritten. Restart the app to retry.");
+        }
       } finally {
-        if (active) setStorageReady(true);
+        // Never write the initial empty state after a failed read or corrupt payload.
+        if (active && loadSucceeded) setStorageReady(true);
       }
     }
     loadProgress();
@@ -796,7 +818,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
 
   const screens = { Home: <Home />, Learn: <Learn />, MCQs: <MCQs />, Lesson: <Lesson />, Quiz: <Quiz />, Practice: <Practice />, Progress: <Progress /> };
   const nav = [{ id: "Home", icon: "⌂", label: "Home" }, { id: "Learn", icon: "▤", label: "Learn" }, { id: "Practice", icon: "✦", label: "Practice" }, { id: "Progress", icon: "◔", label: "Progress" }];
-  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View>{!isExam ? <TouchableOpacity onPress={() => setTab("MCQs")} style={[styles.mcqTopButton, tab === "MCQs" && styles.mcqTopButtonActive]}><Text style={styles.mcqTopButtonText}>MCQs</Text></TouchableOpacity> : null}<View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View><View style={styles.screen}>{tab === "Lesson" ? <LessonRenderBoundary key={selected ? selected.id : "no-lesson"} onBack={() => { setSelected(null); setTab("Learn"); }}>{screens[tab]}</LessonRenderBoundary> : (screens[tab] || <Home />)}</View>{isExam ? null : <View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View>}{isExam ? null : <AdBanner />}</SafeAreaView>;
+  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View>{!isExam ? <TouchableOpacity onPress={() => setTab("MCQs")} style={[styles.mcqTopButton, tab === "MCQs" && styles.mcqTopButtonActive]}><Text style={styles.mcqTopButtonText}>MCQs</Text></TouchableOpacity> : null}<View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View>{storageError ? <View style={{ backgroundColor: "#FFF0F0", paddingHorizontal: 16, paddingVertical: 8 }}><Text accessibilityLiveRegion="polite" style={{ color: "#9A3B3B", fontSize: 12, lineHeight: 18 }}>{storageError}</Text></View> : null}<View style={styles.screen}>{tab === "Lesson" ? <LessonRenderBoundary key={selected ? selected.id : "no-lesson"} onBack={() => { setSelected(null); setTab("Learn"); }}>{screens[tab]}</LessonRenderBoundary> : (screens[tab] || <Home />)}</View>{isExam ? null : <View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View>}{isExam ? null : <AdBanner />}</SafeAreaView>;
 }
 
 const styles = StyleSheet.create({
