@@ -94,8 +94,8 @@ test("mistake records retain selected answer, correct answer and original explan
 
 test("mistake review removes corrected items but keeps unresolved mistakes", () => {
   const existing = [
-    { question: questions[0].q, selectedAnswer: "quickly" },
-    { question: questions[1].q, selectedAnswer: "blue" },
+    { question: questions[0].q, selectedAnswer: "quickly", lessonTitle: "Nouns", lessonId: "nouns" },
+    { question: questions[1].q, selectedAnswer: "slowly", lessonTitle: "Verbs", lessonId: "verbs" },
     { question: "An older question", selectedAnswer: "wrong" }
   ];
   const newRecords = createWrongAnswerRecords(questions.slice(0, 2), { 0: 1, 1: 0 }, {
