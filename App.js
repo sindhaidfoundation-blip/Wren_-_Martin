@@ -198,7 +198,7 @@ export default function App() {
         const saved = await AsyncStorage.getItem(STORAGE_KEY);
         if (!active) return;
 
-        if (saved) {
+        if (saved !== null && saved !== undefined) {
           let parsed;
           try {
             parsed = JSON.parse(saved);
@@ -207,6 +207,11 @@ export default function App() {
           }
           if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
             throw new Error("Saved progress has an invalid data shape.");
+          }
+          const hasKnownField = ["completed", "stats", "quizSession", "examSession"]
+            .some(key => Object.prototype.hasOwnProperty.call(parsed, key));
+          if (!hasKnownField) {
+            throw new Error("Saved progress does not contain any recognised fields.");
           }
 
           const restored = restoreProgress(parsed, lessons.map(item => item.id), fullCourseQuestions);
