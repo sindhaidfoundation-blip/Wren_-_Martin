@@ -102,9 +102,9 @@ jobs:
         run: |
           set -euo pipefail
           keytool -exportcert -rfc \
-            -keystore android/app/wren-martin-upload.jks \\
-            -storepass "$ANDROID_UPLOAD_KEYSTORE_PASSWORD" \\
-            -alias "$ANDROID_UPLOAD_KEY_ALIAS" \\
+            -keystore android/app/wren-martin-upload.jks \
+            -storepass "$ANDROID_UPLOAD_KEYSTORE_PASSWORD" \
+            -alias "$ANDROID_UPLOAD_KEY_ALIAS" \
             -file upload_certificate.pem
           test -s upload_certificate.pem
 
