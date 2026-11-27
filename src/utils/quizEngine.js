@@ -123,7 +123,7 @@ function mergeWrongAnswers(existing, newRecords, questions, answers, isMistakePr
   for (const item of [...added, ...remaining]) {
     if (!item || typeof item.question !== "string") continue;
     const identity = item.lessonId || item.lessonTitle || "";
-    const key = identity + "\\u0000" + item.question;
+    const key = JSON.stringify([identity, item.question]);
     if (seen.has(key)) continue;
     seen.add(key);
     merged.push(item);
