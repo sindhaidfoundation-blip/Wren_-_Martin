@@ -9,6 +9,8 @@ import { topicDetails } from "./src/data/topicDetails";
 const { createEmptyStats, restoreProgress, createProgressSnapshot, createQueuedProgressWriter } = require("./src/utils/progressStorage");
 const { calculateQuizResult, buildLessonBreakdown, createQuizAttempt, createWrongAnswerRecords, mergeWrongAnswers } = require("./src/utils/quizEngine");
 const { shuffleQuestionOptions } = require("./src/utils/quizOptions");
+const { buildDailyPracticeSet } = require("./src/utils/dailyPractice");
+const DAILY_PRACTICE_QUESTION_COUNT = 10;
 
 const navy = "#101C3A";
 const ink = "#18233F";
@@ -339,7 +341,7 @@ export default function App() {
     setExamDeadline(null);
     setExamExpired(false);
     setSelected(item || null);
-    setQuiz(item ? item.quiz : dailyQuestions);
+    setQuiz(item ? item.quiz : buildDailyPracticeSet(dailyQuestions, localDateKey(), DAILY_PRACTICE_QUESTION_COUNT).map(shuffleQuestionOptions));
     setAnswers({});
     setShowResult(false);
     setQuizRecorded(false);
@@ -350,7 +352,7 @@ export default function App() {
     const questions = (stats.wrongAnswers || [])
       .filter(item => Array.isArray(item.options) && Number.isInteger(item.answer) && item.answer >= 0 && item.answer < item.options.length)
       .slice(0, 10)
-      .map(item => ({ q: item.question, options: item.options, answer: item.answer, why: item.explanation, lessonTitle: item.lessonTitle, lessonId: item.lessonId }));
+      .map(item => ({ q: item.question, options: item.options, answer: item.answer, why: item.explanation, urduWhy: item.explanationUrdu, lessonTitle: item.lessonTitle, lessonId: item.lessonId }));
     if (!questions.length) return;
     setIsExam(false);
     setIsMistakePractice(true);
@@ -571,7 +573,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       </View>
       <View style={styles.sectionRow}><Text style={styles.sectionTitle}>Continue learning</Text><Text style={styles.link} onPress={() => setTab("Learn")}>View all</Text></View>
       {completed.length === lessons.length ? <><Text style={styles.cardSub}>You have completed every lesson. Revisit any topic to refresh your knowledge.</Text>{lessons.slice(0, 2).map(renderLessonCard)}</> : lessons.filter(x => !completed.includes(x.id)).slice(0, 2).map(renderLessonCard)}
-      <View style={styles.dailyCard}><View style={styles.dailyIcon}><Text style={{ fontSize: 22 }}>✦</Text></View><View style={{ flex: 1 }}><Text style={styles.dailyTitle}>Daily practice</Text><Text style={styles.cardSub}>{dailyQuestions.length} quick questions to sharpen your English</Text></View><Action title="Start" onPress={() => startQuiz(null)} /></View>
+      <View style={styles.dailyCard}><View style={styles.dailyIcon}><Text style={{ fontSize: 22 }}>✦</Text></View><View style={{ flex: 1 }}><Text style={styles.dailyTitle}>Daily practice</Text><Text style={styles.cardSub}>{DAILY_PRACTICE_QUESTION_COUNT} fresh questions from a {dailyQuestions.length}-question bank</Text></View><Action title="Start" onPress={() => startQuiz(null)} /></View>
       <View style={styles.tipCard}><Text style={styles.tipLabel}>TODAY'S TIP</Text><Text style={styles.tipText}>“An” is used before a vowel sound, not simply a vowel letter.</Text><Text style={styles.tipUrdu}>مثال: an hour، لیکن a university۔</Text></View>
     </ScrollView>;
   }
@@ -783,7 +785,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       <Header eyebrow={isExam ? "TIMED ASSESSMENT" : isMistakePractice ? "PERSONALISED REVISION" : "QUICK KNOWLEDGE CHECK"} title={isExam ? "Full course exam" : isMistakePractice ? "Review missed questions" : selected ? selected.title + " quiz" : "Daily practice"} subtitle={isExam ? "Test your knowledge across all 25 lessons." : isMistakePractice ? "Try these questions again and strengthen your weak topics." : "Choose the best answer for each question."} />
       {isExam ? <View style={styles.examTimer}><Text style={styles.examTimerLabel}>TIME REMAINING</Text><Text style={styles.examTimerValue}>{timerText}</Text><Text style={styles.examTimerHint}>{total} questions · 30 minutes · unanswered questions count as incorrect</Text></View> : null}
       {!showResult ? <View style={styles.quizProgress}><View style={styles.quizProgressTop}><Text style={styles.panelLabel}>YOUR PROGRESS</Text><Text style={styles.cardSub}>{Object.keys(answers).length} OF {total} ANSWERED</Text></View><View style={styles.progressTrack}><View style={[styles.progressFill, { width: (total ? Math.round((Object.keys(answers).length / total) * 100) : 0) + "%" }]} /></View></View> : null}
-      {quiz.map((q, i) => <View key={i} style={styles.questionCard}>{isExam && q.lessonTitle ? <Text style={styles.questionCount}>{q.lessonTitle.toUpperCase()}</Text> : null}<View style={styles.questionMetaRow}><Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={[styles.questionStatus, answers[i] !== undefined ? styles.questionStatusAnswered : styles.questionStatusPending]}>{answers[i] !== undefined ? "ANSWERED" : "NOT ANSWERED"}</Text></View><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text> : null}</View>)}
+      {quiz.map((q, i) => <View key={i} style={styles.questionCard}>{isExam && q.lessonTitle ? <Text style={styles.questionCount}>{q.lessonTitle.toUpperCase()}</Text> : null}<View style={styles.questionMetaRow}><Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={[styles.questionStatus, answers[i] !== undefined ? styles.questionStatusAnswered : styles.questionStatusPending]}>{answers[i] !== undefined ? "ANSWERED" : "NOT ANSWERED"}</Text></View><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <><Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text>{q.urduWhy ? <Text style={[styles.explanation, { writingDirection: "rtl", textAlign: "right", marginTop: 6 }]}>{q.urduWhy}</Text> : null}</> : null}</View>)}
       {quizNotice ? <Text style={styles.quizNotice}>{quizNotice}</Text> : null}
       {!showResult ? <Action title={isExam ? "Submit exam" : "Check my answers"} onPress={() => submitQuiz(false)} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text>{isExam ? <>
         <View style={styles.examGradeCard}><Text style={styles.examGradeLabel}>YOUR FINAL GRADE</Text><Text style={styles.examGradeLetter}>{examGrade.letter}</Text><Text style={styles.examGradePercent}>{examGrade.percent}% · {examGrade.label}</Text><Text style={styles.examGradeNote}>{examGrade.passed ? "You passed the full course assessment." : "You need 60% to pass. Review the topics below and try again."}</Text></View>
@@ -799,7 +801,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
   function Practice() {
     return <ScrollView contentContainerStyle={styles.content}>
       <Header eyebrow="BUILD A DAILY HABIT" title="Practice makes progress" subtitle="Short sessions. Stronger grammar. Better confidence." />
-      <View style={styles.practiceHero}><Text style={styles.practiceNumber}>{String(dailyQuestions.length).padStart(2, "0")}</Text><Text style={styles.practiceLabel}>QUESTIONS IN THE PRACTICE BANK</Text><Text style={styles.practiceDescription}>A quick daily challenge covering grammar essentials.</Text><Action title={dailyDone ? "Practice again" : "Start daily practice"} onPress={() => startQuiz(null)} /></View>
+      <View style={styles.practiceHero}><Text style={styles.practiceNumber}>{String(DAILY_PRACTICE_QUESTION_COUNT).padStart(2, "0")}</Text><Text style={styles.practiceLabel}>QUESTIONS TODAY</Text><Text style={styles.practiceDescription}>A fresh set rotates each day from a {dailyQuestions.length}-question grammar bank.</Text><Action title={dailyDone ? "Practice again" : "Start daily practice"} onPress={() => startQuiz(null)} /></View>
       {reviewableMistakes.length ? <View style={styles.reviewCard}><Text style={styles.reviewEyebrow}>PERSONALISED REVISION</Text><Text style={styles.examTitle}>Review missed questions</Text><Text style={styles.examDescription}>{reviewableMistakes.length} saved question{reviewableMistakes.length === 1 ? "" : "s"} to help strengthen your weaker topics. Start with up to 10.</Text><Action title="Practice my mistakes" onPress={startMistakePractice} /></View> : null}
       <View style={styles.examCard}><Text style={styles.examEyebrow}>FINAL ASSESSMENT</Text><Text style={styles.examTitle}>Full course exam</Text><Text style={styles.examDescription}>One question set from every lesson. Check your overall grammar knowledge in a timed challenge.</Text><View style={styles.examFacts}><View><Text style={styles.examFactNumber}>{lessons.reduce((sum, lesson) => sum + lesson.quiz.length, 0)}</Text><Text style={styles.examFactLabel}>QUESTIONS</Text></View><View><Text style={styles.examFactNumber}>30</Text><Text style={styles.examFactLabel}>MINUTES</Text></View><View><Text style={styles.examFactNumber}>{lessons.length}</Text><Text style={styles.examFactLabel}>LESSONS</Text></View></View><Action title="Start full course exam" onPress={startExam} /></View>
       <View style={styles.tipCard}><Text style={styles.tipLabel}>STUDY TIP</Text><Text style={styles.tipText}>Try to explain each grammar rule in your own words after reading it.</Text><Text style={styles.tipUrdu}>ہر سبق کے بعد اصول کو اپنے الفاظ میں سمجھانے کی کوشش کریں۔</Text></View>
