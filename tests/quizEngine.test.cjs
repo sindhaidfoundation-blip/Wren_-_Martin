@@ -126,3 +126,22 @@ test("empty quizzes produce a safe zero score", () => {
     percent: 0
   });
 });
+
+
+test("mistake records preserve the Urdu explanation for bilingual review", () => {
+  const urduWhy = "واحد فاعل کے ساتھ فعل کی درست صورت استعمال کریں۔";
+  const bilingualQuestion = {
+    q: "Choose the correct sentence.",
+    options: ["She go.", "She goes."],
+    answer: 1,
+    why: "A singular third-person subject takes the -s form.",
+    urduWhy
+  };
+  const records = createWrongAnswerRecords([bilingualQuestion], { 0: 0 }, {
+    title: "Daily practice",
+    date: "2026-11-28"
+  });
+
+  assert.equal(records.length, 1);
+  assert.equal(records[0].explanationUrdu, urduWhy);
+});
