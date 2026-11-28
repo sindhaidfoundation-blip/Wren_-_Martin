@@ -6,6 +6,11 @@ import { Alert, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, TextInput
 import AdBanner from "./src/components/AdBanner";
 import { lessons, dailyQuestions, sindhiTranslations } from "./src/data/lessons";
 import { topicDetails } from "./src/data/topicDetails";
+const { createEmptyStats, restoreProgress, createProgressSnapshot, createQueuedProgressWriter } = require("./src/utils/progressStorage");
+const { calculateQuizResult, buildLessonBreakdown, createQuizAttempt, createWrongAnswerRecords, mergeWrongAnswers } = require("./src/utils/quizEngine");
+const { shuffleQuestionOptions } = require("./src/utils/quizOptions");
+const { buildDailyPracticeSet } = require("./src/utils/dailyPractice");
+const DAILY_PRACTICE_QUESTION_COUNT = 10;
 
 const navy = "#101C3A";
 const ink = "#18233F";
@@ -103,19 +108,6 @@ function buildAdditionalTopicQuestions(lesson, lessonIndex) {
   return questions.filter(Boolean);
 }
 
-function shuffleQuestionOptions(question) {
-  const options = question.options.map((option, index) => ({ option, correct: index === question.answer }));
-  for (let index = options.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    [options[index], options[swapIndex]] = [options[swapIndex], options[index]];
-  }
-  return {
-    ...question,
-    options: options.map(item => item.option),
-    answer: options.findIndex(item => item.correct)
-  };
-}
-
 function buildTenTopicQuestions(lesson) {
   const questions = buildTopicQuestions(lesson);
   const otherLessons = lessons.filter(item => item.id !== lesson.id);
@@ -137,14 +129,48 @@ function buildTenTopicQuestions(lesson) {
   return questions.slice(0, 10);
 }
 
+class LessonRenderBoundary extends React.Component {
+  state = { hasError: false };
+
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error, info) {
+    console.error("Lesson detail rendering failed safely.", error, info);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <View style={{ flex: 1, backgroundColor: bg, padding: 24, justifyContent: "center" }}>
+          <Text style={{ color: ink, fontSize: 19, fontWeight: "800", marginBottom: 10 }}>This lesson could not be displayed</Text>
+          <Text style={{ color: muted, fontSize: 14, lineHeight: 22, marginBottom: 18 }}>Some lesson details are incomplete. Return to the lesson list and continue learning while this content is reviewed.</Text>
+          <TouchableOpacity onPress={this.props.onBack} style={{ backgroundColor: navy, borderRadius: 13, padding: 14, alignItems: "center" }}>
+            <Text style={{ color: "#FFFFFF", fontWeight: "800" }}>BACK TO LESSONS</Text>
+          </TouchableOpacity>
+        </View>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 export default function App() {
   const [tab, setTab] = useState("Home");
   const [quizReturnTab, setQuizReturnTab] = useState("Lesson");
   const [selected, setSelected] = useState(null);
   const [completed, setCompleted] = useState([]);
-  const [stats, setStats] = useState({ quizzesTaken: 0, questionsAnsweredCorrectly: 0, dailySessions: 0, lastPracticeDate: null, dailyPracticeDates: [], quizHistory: [], wrongAnswers: [] });
+  const [stats, setStats] = useState(() => createEmptyStats());
   const [storageReady, setStorageReady] = useState(false);
-  const progressWriteQueue = useRef(Promise.resolve());
+  const [storageError, setStorageError] = useState("");
+  const progressWriter = useRef(null);
+  if (!progressWriter.current) {
+    progressWriter.current = createQueuedProgressWriter(AsyncStorage, STORAGE_KEY, error => {
+      console.warn("Could not save learning progress.", error);
+      setStorageError("Your latest progress could not be saved. Check available device storage.");
+    });
+  }
   const [quiz, setQuiz] = useState(null);
   const [answers, setAnswers] = useState({});
   const [dailyDone, setDailyDone] = useState(false);
@@ -169,50 +195,68 @@ export default function App() {
   useEffect(() => {
     let active = true;
     async function loadProgress() {
+      let loadSucceeded = false;
       try {
         const saved = await AsyncStorage.getItem(STORAGE_KEY);
-        if (!active || !saved) return;
-        const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed.completed)) setCompleted(parsed.completed.filter(id => lessons.some(item => item.id === id)));
-        const savedExam = parsed.examSession;
-        if (savedExam && Number.isFinite(savedExam.deadline) && savedExam.totalQuestions === fullCourseQuestions.length) {
-          const restoredAnswers = {};
-          if (savedExam.answers && typeof savedExam.answers === "object" && !Array.isArray(savedExam.answers)) {
-            Object.keys(savedExam.answers).forEach(key => {
-              const index = Number(key);
-              const answer = savedExam.answers[key];
-              if (Number.isInteger(index) && index >= 0 && index < fullCourseQuestions.length && Number.isInteger(answer) && answer >= 0 && answer < fullCourseQuestions[index].options.length) restoredAnswers[index] = answer;
-            });
+        if (!active) return;
+
+        if (saved !== null && saved !== undefined) {
+          let parsed;
+          try {
+            parsed = JSON.parse(saved);
+          } catch (_parseError) {
+            throw new Error("Saved progress is not valid JSON.");
           }
-          setSelected(null);
-          setIsExam(true);
-          setQuiz(fullCourseQuestions);
-          setAnswers(restoredAnswers);
-          setShowResult(false);
-          setQuizRecorded(false);
-          setQuizNotice("Your saved exam has been restored.");
-          setExamDeadline(savedExam.deadline);
-          setExamRemaining(Math.max(0, Math.ceil((savedExam.deadline - Date.now()) / 1000)));
-          setExamExpired(false);
-          setExamCertificateId(typeof savedExam.certificateId === "string" ? savedExam.certificateId : createCertificateId());
-          setTab("Quiz");
+          if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+            throw new Error("Saved progress has an invalid data shape.");
+          }
+          const hasKnownField = ["completed", "stats", "quizSession", "examSession"]
+            .some(key => Object.prototype.hasOwnProperty.call(parsed, key));
+          if (!hasKnownField) {
+            throw new Error("Saved progress does not contain any recognised fields.");
+          }
+
+          const restored = restoreProgress(parsed, lessons.map(item => item.id), fullCourseQuestions);
+          setCompleted(restored.completed);
+          setStats(restored.stats);
+          setDailyDone(restored.stats.lastPracticeDate === localDateKey() || restored.stats.dailyPracticeDates.includes(localDateKey()));
+
+          const session = restored.quizSession;
+          if (session) {
+            const isRestoredExam = session.type === "exam";
+            const restoredLesson = session.lessonId
+              ? lessons.find(item => item.id === session.lessonId) || null
+              : null;
+
+            setSelected(restoredLesson);
+            setIsExam(isRestoredExam);
+            setIsMistakePractice(session.type === "mistakes");
+            setQuiz(session.questions);
+            setAnswers(session.answers);
+            setQuizReturnTab(session.returnTab);
+            setShowResult(false);
+            setQuizRecorded(false);
+            setQuizNotice("Your saved quiz has been restored. Continue where you left off.");
+            setExamDeadline(isRestoredExam ? session.deadline : null);
+            setExamRemaining(isRestoredExam ? Math.max(0, Math.ceil((session.deadline - Date.now()) / 1000)) : 0);
+            setExamExpired(false);
+            setExamCertificateId(isRestoredExam ? session.certificateId || createCertificateId() : "");
+            setExamCompletedDate("");
+            setCertificateMessage("");
+            setTab("Quiz");
+          }
         }
-        if (parsed.stats && typeof parsed.stats === "object") {
-          setStats({
-            quizzesTaken: Number(parsed.stats.quizzesTaken) || 0,
-            questionsAnsweredCorrectly: Number(parsed.stats.questionsAnsweredCorrectly) || 0,
-            dailySessions: Number(parsed.stats.dailySessions) || 0,
-            lastPracticeDate: typeof parsed.stats.lastPracticeDate === "string" ? parsed.stats.lastPracticeDate : null,
-            dailyPracticeDates: Array.isArray(parsed.stats.dailyPracticeDates) ? [...new Set(parsed.stats.dailyPracticeDates.filter(date => typeof date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(date)))].slice(-90) : [],
-            quizHistory: Array.isArray(parsed.stats.quizHistory) ? parsed.stats.quizHistory.filter(item => item && typeof item.title === "string" && Number.isFinite(item.correct) && Number.isFinite(item.total)).slice(0, 20) : [],
-            wrongAnswers: Array.isArray(parsed.stats.wrongAnswers) ? parsed.stats.wrongAnswers.filter(item => item && typeof item.question === "string" && typeof item.correctAnswer === "string").slice(0, 50) : []
-          });
-          setDailyDone(parsed.stats.lastPracticeDate === localDateKey());
-        }
+
+        loadSucceeded = true;
+        setStorageError("");
       } catch (error) {
-        console.warn("Could not load saved learning progress.", error);
+        console.warn("Could not load saved learning progress; stored data will not be overwritten.", error);
+        if (active) {
+          setStorageError("Saved progress could not be read, so it has not been overwritten. Restart the app to retry.");
+        }
       } finally {
-        if (active) setStorageReady(true);
+        // Never write the initial empty state after a failed read or corrupt payload.
+        if (active && loadSucceeded) setStorageReady(true);
       }
     }
     loadProgress();
@@ -237,22 +281,21 @@ export default function App() {
 
   useEffect(() => {
     if (!storageReady) return;
-    const examSession = isExam && examDeadline && !showResult && quiz ? {
-      deadline: examDeadline,
+    const quizSession = tab === "Quiz" && quiz && !showResult ? {
+      type: isExam ? "exam" : isMistakePractice ? "mistakes" : selected ? (quizReturnTab === "MCQs" ? "topic" : "lesson") : "daily",
+      lessonId: selected ? selected.id : null,
+      questions: isExam ? undefined : quiz,
       answers,
+      returnTab: quizReturnTab,
       totalQuestions: quiz.length,
-      certificateId: examCertificateId
+      deadline: isExam ? examDeadline : null,
+      certificateId: isExam ? examCertificateId : null
     } : null;
-    // Serialize snapshots so a slower older write cannot overwrite newer progress.
-    // Keep the learner name in memory only; never persist it with learning progress.
-    const snapshot = JSON.stringify({ completed, stats, examSession });
-    progressWriteQueue.current = progressWriteQueue.current
-      .catch(() => undefined)
-      .then(() => AsyncStorage.setItem(STORAGE_KEY, snapshot))
-      .catch(error => {
-        console.warn("Could not save learning progress.", error);
-      });
-  }, [completed, stats, storageReady, isExam, examDeadline, showResult, quiz, answers, examCertificateId]);
+    // Keep writes ordered so a delayed older snapshot cannot replace newer answers.
+    // The certificate learner name is deliberately excluded from persistent progress.
+    const snapshot = createProgressSnapshot(completed, stats, quizSession);
+    progressWriter.current(snapshot);
+  }, [completed, stats, storageReady, tab, isExam, isMistakePractice, selected, quizReturnTab, examDeadline, showResult, quiz, answers, examCertificateId]);
   const filteredLessons = useMemo(() => {
     const query = lessonSearch.trim().toLocaleLowerCase();
     return lessons.filter(item => {
@@ -298,7 +341,7 @@ export default function App() {
     setExamDeadline(null);
     setExamExpired(false);
     setSelected(item || null);
-    setQuiz(item ? item.quiz : dailyQuestions);
+    setQuiz(item ? item.quiz : buildDailyPracticeSet(dailyQuestions, localDateKey(), DAILY_PRACTICE_QUESTION_COUNT).map(shuffleQuestionOptions));
     setAnswers({});
     setShowResult(false);
     setQuizRecorded(false);
@@ -309,7 +352,7 @@ export default function App() {
     const questions = (stats.wrongAnswers || [])
       .filter(item => Array.isArray(item.options) && Number.isInteger(item.answer) && item.answer >= 0 && item.answer < item.options.length)
       .slice(0, 10)
-      .map(item => ({ q: item.question, options: item.options, answer: item.answer, why: item.explanation, lessonTitle: item.lessonTitle, lessonId: item.lessonId }));
+      .map(item => ({ q: item.question, options: item.options, answer: item.answer, why: item.explanation, urduWhy: item.explanationUrdu, lessonTitle: item.lessonTitle, lessonId: item.lessonId }));
     if (!questions.length) return;
     setIsExam(false);
     setIsMistakePractice(true);
@@ -347,18 +390,14 @@ export default function App() {
     setSelected(null);
   }
   function score() {
-    return (quiz || []).filter((q, i) => answers[i] === q.answer).length;
+    return calculateQuizResult(quiz, answers).correct;
   }
   const examPercent = quiz && quiz.length ? Math.round((score() / quiz.length) * 100) : 0;
   const examGrade = (() => {
     const bands = examPercent >= 90 ? { letter: "A", label: "Excellent", passed: true } : examPercent >= 80 ? { letter: "B", label: "Very good", passed: true } : examPercent >= 70 ? { letter: "C", label: "Good", passed: true } : examPercent >= 60 ? { letter: "D", label: "Pass", passed: true } : { letter: "F", label: "Needs improvement", passed: false };
     return { ...bands, percent: examPercent };
   })();
-  const examBreakdown = isExam ? lessons.map(lesson => {
-    const items = quiz.map((question, index) => ({ question, index })).filter(item => item.question.lessonId === lesson.id);
-    const correct = items.filter(item => answers[item.index] === item.question.answer).length;
-    return { lessonId: lesson.id, title: lesson.title, correct, total: items.length, percent: items.length ? Math.round((correct / items.length) * 100) : 0 };
-  }) : [];
+  const examBreakdown = isExam ? buildLessonBreakdown(quiz || [], answers, lessons) : [];
   async function createAndShareCertificate() {
     if (!isExam || !showResult || !examGrade.passed || !examCertificateId || certificateBusy) return;
     const learner = certificateName.trim();
@@ -448,17 +487,25 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       setQuizNotice("Please answer every question before checking your result.");
       return;
     }
-    const correct = score();
+    const result = calculateQuizResult(quiz, answers);
+    const correct = result.correct;
     const today = localDateKey();
     if (isExam) setExamCompletedDate(today);
     const isDaily = !selected && !isExam && !isMistakePractice;
     const title = isExam ? "Full course exam" : isMistakePractice ? "Mistake review" : selected ? selected.title : "Daily practice";
-    const lessonBreakdown = isExam ? lessons.map(lesson => {
-      const lessonQuestions = quiz.map((question, index) => ({ question, index })).filter(item => item.question.lessonId === lesson.id);
-      const lessonCorrect = lessonQuestions.filter(item => answers[item.index] === item.question.answer).length;
-      return { lessonId: lesson.id, correct: lessonCorrect, total: lessonQuestions.length };
-    }) : [];
-    const attempt = { title, lessonId: selected ? selected.id : null, date: today, correct, total, percent: Math.round((correct / total) * 100), lessonBreakdown };
+    const lessonBreakdown = isExam ? buildLessonBreakdown(quiz, answers, lessons) : [];
+    const attempt = createQuizAttempt({
+      title,
+      lessonId: selected ? selected.id : null,
+      date: today,
+      result,
+      lessonBreakdown
+    });
+    const newWrongAnswers = createWrongAnswerRecords(quiz, answers, {
+      selectedLesson: selected,
+      title,
+      date: today
+    });
     setStats(old => ({
       ...old,
       quizzesTaken: old.quizzesTaken + 1,
@@ -467,7 +514,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       lastPracticeDate: isDaily ? today : old.lastPracticeDate,
       dailyPracticeDates: isDaily ? [...new Set([...(old.dailyPracticeDates || []), today])].slice(-90) : (old.dailyPracticeDates || []),
       quizHistory: [attempt, ...(old.quizHistory || [])].slice(0, 20),
-      wrongAnswers: [...quiz.map((question, index) => ({ question: question.q, options: question.options, answer: question.answer, selectedAnswer: answers[index] === undefined ? "Not answered" : question.options[answers[index]], correctAnswer: question.options[question.answer], explanation: question.why, lessonTitle: question.lessonTitle || (selected ? selected.title : title), lessonId: question.lessonId || (selected ? selected.id : null), date: today })).filter((item, index) => answers[index] !== quiz[index].answer), ...(isMistakePractice ? (old.wrongAnswers || []).filter(item => !quiz.some((question, index) => question.q === item.question && answers[index] === question.answer)) : (old.wrongAnswers || []))].slice(0, 50)
+      wrongAnswers: mergeWrongAnswers(old.wrongAnswers, newWrongAnswers, quiz, answers, isMistakePractice)
     }));
     if (isDaily) setDailyDone(true);
     setQuizRecorded(true);
@@ -526,7 +573,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       </View>
       <View style={styles.sectionRow}><Text style={styles.sectionTitle}>Continue learning</Text><Text style={styles.link} onPress={() => setTab("Learn")}>View all</Text></View>
       {completed.length === lessons.length ? <><Text style={styles.cardSub}>You have completed every lesson. Revisit any topic to refresh your knowledge.</Text>{lessons.slice(0, 2).map(renderLessonCard)}</> : lessons.filter(x => !completed.includes(x.id)).slice(0, 2).map(renderLessonCard)}
-      <View style={styles.dailyCard}><View style={styles.dailyIcon}><Text style={{ fontSize: 22 }}>✦</Text></View><View style={{ flex: 1 }}><Text style={styles.dailyTitle}>Daily practice</Text><Text style={styles.cardSub}>{dailyQuestions.length} quick questions to sharpen your English</Text></View><Action title="Start" onPress={() => startQuiz(null)} /></View>
+      <View style={styles.dailyCard}><View style={styles.dailyIcon}><Text style={{ fontSize: 22 }}>✦</Text></View><View style={{ flex: 1 }}><Text style={styles.dailyTitle}>Daily practice</Text><Text style={styles.cardSub}>{DAILY_PRACTICE_QUESTION_COUNT} fresh questions from a {dailyQuestions.length}-question bank</Text></View><Action title="Start" onPress={() => startQuiz(null)} /></View>
       <View style={styles.tipCard}><Text style={styles.tipLabel}>TODAY'S TIP</Text><Text style={styles.tipText}>“An” is used before a vowel sound, not simply a vowel letter.</Text><Text style={styles.tipUrdu}>مثال: an hour، لیکن a university۔</Text></View>
     </ScrollView>;
   }
@@ -576,7 +623,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
         </View>
         <View style={{ backgroundColor: "#F0F5FF", borderRadius: 16, borderWidth: 1, borderColor: "#DFE8FA", padding: 16, gap: 8 }}>
           <Text style={styles.panelLabel}>MORE EXAMPLES</Text>
-          {topicDetails[selected.id].examples.map((example, index) => <Text key={index} style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{index + 1}. {example}</Text>)}
+          {(Array.isArray(topicDetails[selected.id].examples) ? topicDetails[selected.id].examples : []).map((example, index) => <Text key={index} style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{index + 1}. {example}</Text>)}
         </View>
         {topicDetails[selected.id].overviewUrdu ? <View style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 8 }}>
           <Text style={styles.panelLabel}>اردو میں مزید وضاحت</Text>
@@ -589,9 +636,9 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{topicDetails[selected.id].watchForUrdu}</Text>
           <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{topicDetails[selected.id].watchForSindhi}</Text>
         </View> : null}
-        {topicDetails[selected.id].specialSections ? <View style={{ gap: 12 }}>
+        {Array.isArray(topicDetails[selected.id].specialSections) && topicDetails[selected.id].specialSections.length ? <View style={{ gap: 12 }}>
           <Text style={styles.sectionTitle}>{topicDetails[selected.id].specialSectionsTitle || "DETAILED NOTES"}</Text>
-          {topicDetails[selected.id].specialSections.map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 9 }}>
+          {(Array.isArray(topicDetails[selected.id].specialSections) ? topicDetails[selected.id].specialSections : []).map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 9 }}>
             <Text style={{ color: navy, fontSize: 17, fontWeight: "800" }}>{sectionIndex + 1}. {section.title}</Text>
             <Text style={styles.panelLabel}>ENGLISH EXPLANATION</Text>
             <Text style={{ color: ink, fontSize: 14, lineHeight: 23 }}>{section.english}</Text>
@@ -599,6 +646,18 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{section.urdu}</Text>
             <Text style={styles.panelLabel}>سنڌي ۾ وضاحت</Text>
             <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{section.sindhi}</Text>
+            {(Array.isArray(section.subsections) ? section.subsections : []).map((subsection, subsectionIndex) => <View key={subsectionIndex} style={{ backgroundColor: "#F7F8FC", borderRadius: 12, padding: 12, gap: 8 }}>
+              <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{subsection.title}</Text>
+              <Text style={{ color: ink, fontSize: 14, lineHeight: 22 }}>{subsection.english}</Text>
+              <Text style={{ color: ink, fontSize: 13, lineHeight: 24, textAlign: "right" }}>اردو: {subsection.urdu}</Text>
+              <Text style={{ color: green, fontSize: 13, lineHeight: 24, textAlign: "right" }}>سنڌي: {subsection.sindhi}</Text>
+              {(Array.isArray(subsection.examples) ? subsection.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E5EAF0", paddingTop: 8, gap: 4 }}>
+                <Text style={{ color: ink, fontSize: 13, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
+                <Text style={{ color: muted, fontSize: 12, lineHeight: 22, textAlign: "right" }}>اردو: {example[1]}</Text>
+                <Text style={{ color: green, fontSize: 12, lineHeight: 22, textAlign: "right" }}>سنڌي: {example[2]}</Text>
+                {example[3] ? <Text style={{ color: ink, fontSize: 12, lineHeight: 20 }}>Explanation: {example[3]}</Text> : null}
+              </View>)}
+            </View>)}
             {(Array.isArray(section.examples) ? section.examples : []).map((example, exampleIndex) => <View key={exampleIndex} style={{ borderTopWidth: 1, borderTopColor: "#E8EAF0", paddingTop: 8, gap: 4 }}>
               <Text style={{ color: ink, fontSize: 14, fontWeight: "700" }}>{exampleIndex + 1}. {example[0]}</Text>
               <Text style={{ color: muted, fontSize: 13, lineHeight: 23, textAlign: "right" }}>اردو: {example[1]}</Text>
@@ -607,9 +666,9 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             </View>)}
           </View>)}
         </View> : null}
-        {topicDetails[selected.id].specialSections?.some(section => section.verbTable) ? <View style={{ gap: 12, marginTop: 12 }}>
+        {(Array.isArray(topicDetails[selected.id].specialSections) && topicDetails[selected.id].specialSections.some(section => Array.isArray(section.verbTable) && section.verbTable.length)) ? <View style={{ gap: 12, marginTop: 12 }}>
           <Text style={styles.sectionTitle}>VERB FORMS — V1, V2 AND V3</Text>
-          {topicDetails[selected.id].specialSections.filter(section => section.verbTable).map(section => <View key={section.title} style={{ gap: 8 }}>
+          {topicDetails[selected.id].specialSections.filter(section => Array.isArray(section.verbTable) && section.verbTable.length).map(section => <View key={section.title} style={{ gap: 8 }}>
             <Text style={{ color: navy, fontSize: 16, fontWeight: "800" }}>{section.title}</Text>
             <View style={{ borderWidth: 1, borderColor: "#D9E0EA", borderRadius: 12, overflow: "hidden", backgroundColor: "#FFFFFF" }}>
               <View style={{ flexDirection: "row", backgroundColor: "#EAF0F8", borderBottomWidth: 1, borderBottomColor: "#E5EAF0" }}>
@@ -617,7 +676,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
                   <Text style={{ color: navy, fontSize: 11, lineHeight: 16, fontWeight: "800" }}>{heading}</Text>
                 </View>)}
               </View>
-              {section.verbTable.map((row, rowIndex) => <View key={rowIndex} style={{ flexDirection: "row", backgroundColor: rowIndex % 2 === 0 ? "#FFFFFF" : "#F8FAFC", borderBottomWidth: rowIndex === section.verbTable.length - 1 ? 0 : 1, borderBottomColor: "#E5EAF0" }}>
+              {(Array.isArray(section.verbTable) ? section.verbTable : []).map((row, rowIndex) => <View key={rowIndex} style={{ flexDirection: "row", backgroundColor: rowIndex % 2 === 0 ? "#FFFFFF" : "#F8FAFC", borderBottomWidth: rowIndex === section.verbTable.length - 1 ? 0 : 1, borderBottomColor: "#E5EAF0" }}>
                 {row.map((cell, cellIndex) => <View key={cellIndex} style={{ flex: 1, padding: 8, borderRightWidth: cellIndex === 2 ? 0 : 1, borderRightColor: "#E5EAF0" }}>
                   <Text style={{ color: ink, fontSize: 12, lineHeight: 17, fontWeight: cellIndex === 0 ? "700" : "500" }}>{cell}</Text>
                 </View>)}
@@ -625,10 +684,10 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
             </View>
           </View>)}
         </View> : null}
-        {topicDetails[selected.id].voiceTable ? <View style={{ gap: 10, marginTop: 12 }}>
+        {Array.isArray(topicDetails[selected.id].voiceTable) && topicDetails[selected.id].voiceTable.length ? <View style={{ gap: 10, marginTop: 12 }}>
           <Text style={styles.sectionTitle}>{topicDetails[selected.id].voiceTableTitle}</Text>
           <View style={{ borderWidth: 1, borderColor: "#D9E0EA", borderRadius: 12, overflow: "hidden", backgroundColor: "#FFFFFF" }}>
-            {topicDetails[selected.id].voiceTable.map((row, rowIndex) => <View key={rowIndex} style={{ flexDirection: "row", backgroundColor: rowIndex === 0 ? "#EAF0F8" : (rowIndex % 2 === 0 ? "#FFFFFF" : "#F8FAFC"), borderBottomWidth: rowIndex === topicDetails[selected.id].voiceTable.length - 1 ? 0 : 1, borderBottomColor: "#E5EAF0" }}>
+            {(Array.isArray(topicDetails[selected.id].voiceTable) ? topicDetails[selected.id].voiceTable : []).map((row, rowIndex) => <View key={rowIndex} style={{ flexDirection: "row", backgroundColor: rowIndex === 0 ? "#EAF0F8" : (rowIndex % 2 === 0 ? "#FFFFFF" : "#F8FAFC"), borderBottomWidth: rowIndex === topicDetails[selected.id].voiceTable.length - 1 ? 0 : 1, borderBottomColor: "#E5EAF0" }}>
               {row.map((cell, cellIndex) => <View key={cellIndex} style={{ flex: cellIndex === 0 ? 0.72 : 1.55, padding: 8, borderRightWidth: cellIndex === 2 ? 0 : 1, borderRightColor: "#E5EAF0", justifyContent: "center" }}>
                 <Text style={{ color: navy, fontSize: 11, lineHeight: 16, fontWeight: rowIndex === 0 ? "800" : (cellIndex === 0 ? "700" : "500") }}>{cell}</Text>
               </View>)}
@@ -637,7 +696,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: muted, fontSize: 12, lineHeight: 19 }}>Active: Modal + base verb (V1). Passive: Modal + be + past participle (V3).</Text>
         </View> : null}
       </View> : null}
-      {selected.id === "nouns" && topicDetails.nouns?.nounTypes?.length ? <View style={{ marginTop: 24, gap: 14 }}>
+      {selected.id === "nouns" && Array.isArray(topicDetails.nouns?.nounTypes) && topicDetails.nouns.nounTypes.length ? <View style={{ marginTop: 24, gap: 14 }}>
         <Text style={styles.sectionTitle}>Kinds of Nouns — اسم کی اقسام</Text>
         {topicDetails.nouns.nounTypes.map((item, index) => <View key={item.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 10 }}>
           <Text style={{ color: navy, fontSize: 18, fontWeight: "800" }}>{index + 1}. {item.title}</Text>
@@ -647,7 +706,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
           <Text style={{ color: ink, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{item.urdu}</Text>
           <Text style={styles.panelLabel}>سنڌي ۾ وضاحت</Text>
           <Text style={{ color: green, fontSize: 14, lineHeight: 25, textAlign: "right" }}>{item.sindhi}</Text>
-          {item.specialSections ? <View style={{ gap: 12 }}>
+          {Array.isArray(item.specialSections) && item.specialSections.length ? <View style={{ gap: 12 }}>
             <Text style={styles.panelLabel}>SPECIAL SINGULAR & PLURAL USES — واحد اور جمع کے خاص استعمال</Text>
             {(Array.isArray(item.specialSections) ? item.specialSections : []).map((section, sectionIndex) => <View key={section.title} style={{ backgroundColor: "#FFF9EE", borderRadius: 12, padding: 12, gap: 8 }}>
               <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{sectionIndex + 1}. {section.title}</Text>
@@ -661,7 +720,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
               </View>)}
             </View>)}
           </View> : null}
-          {item.rules ? <View style={{ gap: 10 }}>
+          {Array.isArray(item.rules) && item.rules.length ? <View style={{ gap: 10 }}>
             <Text style={styles.panelLabel}>PLURAL FORMATION RULES — جمع بنانے کے قواعد</Text>
             {(Array.isArray(item.rules) ? item.rules : []).map((rule, ruleIndex) => <View key={rule.title} style={{ backgroundColor: "#F7F8FC", borderRadius: 12, padding: 12, gap: 7 }}>
               <Text style={{ color: navy, fontSize: 15, fontWeight: "800" }}>{rule.title}</Text>
@@ -683,7 +742,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       </View> : null}
       {selected.id === "the-sentence" && topicDetails["the-sentence"]?.bilingualSections?.length ? <View style={{ marginTop: 24, gap: 14 }}>
         <Text style={styles.sectionTitle}>Chapter 1 — The Sentence</Text>
-        {topicDetails["the-sentence"].bilingualSections.map((section, index) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 10 }}>
+        {(Array.isArray(topicDetails["the-sentence"].bilingualSections) ? topicDetails["the-sentence"].bilingualSections : []).map((section, index) => <View key={section.title} style={{ backgroundColor: "#FFFFFF", borderRadius: 16, borderWidth: 1, borderColor: "#E8EAF0", padding: 16, gap: 10 }}>
           <Text style={{ color: navy, fontSize: 18, fontWeight: "800" }}>{index + 1}. {section.title}</Text>
           <Text style={styles.panelLabel}>ENGLISH EXPLANATION</Text>
           <Text style={{ color: ink, fontSize: 14, lineHeight: 23 }}>{section.english}</Text>
@@ -726,7 +785,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
       <Header eyebrow={isExam ? "TIMED ASSESSMENT" : isMistakePractice ? "PERSONALISED REVISION" : "QUICK KNOWLEDGE CHECK"} title={isExam ? "Full course exam" : isMistakePractice ? "Review missed questions" : selected ? selected.title + " quiz" : "Daily practice"} subtitle={isExam ? "Test your knowledge across all 25 lessons." : isMistakePractice ? "Try these questions again and strengthen your weak topics." : "Choose the best answer for each question."} />
       {isExam ? <View style={styles.examTimer}><Text style={styles.examTimerLabel}>TIME REMAINING</Text><Text style={styles.examTimerValue}>{timerText}</Text><Text style={styles.examTimerHint}>{total} questions · 30 minutes · unanswered questions count as incorrect</Text></View> : null}
       {!showResult ? <View style={styles.quizProgress}><View style={styles.quizProgressTop}><Text style={styles.panelLabel}>YOUR PROGRESS</Text><Text style={styles.cardSub}>{Object.keys(answers).length} OF {total} ANSWERED</Text></View><View style={styles.progressTrack}><View style={[styles.progressFill, { width: (total ? Math.round((Object.keys(answers).length / total) * 100) : 0) + "%" }]} /></View></View> : null}
-      {quiz.map((q, i) => <View key={i} style={styles.questionCard}>{isExam && q.lessonTitle ? <Text style={styles.questionCount}>{q.lessonTitle.toUpperCase()}</Text> : null}<View style={styles.questionMetaRow}><Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={[styles.questionStatus, answers[i] !== undefined ? styles.questionStatusAnswered : styles.questionStatusPending]}>{answers[i] !== undefined ? "ANSWERED" : "NOT ANSWERED"}</Text></View><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text> : null}</View>)}
+      {quiz.map((q, i) => <View key={i} style={styles.questionCard}>{isExam && q.lessonTitle ? <Text style={styles.questionCount}>{q.lessonTitle.toUpperCase()}</Text> : null}<View style={styles.questionMetaRow}><Text style={styles.questionCount}>QUESTION {i + 1} OF {total}</Text><Text style={[styles.questionStatus, answers[i] !== undefined ? styles.questionStatusAnswered : styles.questionStatusPending]}>{answers[i] !== undefined ? "ANSWERED" : "NOT ANSWERED"}</Text></View><Text style={styles.questionText}>{q.q}</Text>{q.options.map((option, j) => <TouchableOpacity key={j} onPress={() => !showResult && setAnswers(old => ({ ...old, [i]: j }))} style={[styles.option, answers[i] === j && styles.optionSelected, showResult && j === q.answer && styles.optionCorrect, showResult && answers[i] === j && j !== q.answer && styles.optionWrong]}><Text style={[styles.optionText, answers[i] === j && styles.optionTextSelected]}>{String.fromCharCode(65 + j)}.  {option}</Text></TouchableOpacity>)}{showResult ? <><Text style={styles.explanation}>{answers[i] === q.answer ? "Correct! " : "Not quite. "}{q.why}</Text>{q.urduWhy ? <Text style={[styles.explanation, { writingDirection: "rtl", textAlign: "right", marginTop: 6 }]}>{q.urduWhy}</Text> : null}</> : null}</View>)}
       {quizNotice ? <Text style={styles.quizNotice}>{quizNotice}</Text> : null}
       {!showResult ? <Action title={isExam ? "Submit exam" : "Check my answers"} onPress={() => submitQuiz(false)} /> : <View style={styles.resultCard}><Text style={styles.resultScore}>{score()} / {total}</Text><Text style={styles.resultText}>You got {score()} correct answers.</Text>{isExam ? <>
         <View style={styles.examGradeCard}><Text style={styles.examGradeLabel}>YOUR FINAL GRADE</Text><Text style={styles.examGradeLetter}>{examGrade.letter}</Text><Text style={styles.examGradePercent}>{examGrade.percent}% · {examGrade.label}</Text><Text style={styles.examGradeNote}>{examGrade.passed ? "You passed the full course assessment." : "You need 60% to pass. Review the topics below and try again."}</Text></View>
@@ -742,7 +801,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
   function Practice() {
     return <ScrollView contentContainerStyle={styles.content}>
       <Header eyebrow="BUILD A DAILY HABIT" title="Practice makes progress" subtitle="Short sessions. Stronger grammar. Better confidence." />
-      <View style={styles.practiceHero}><Text style={styles.practiceNumber}>{String(dailyQuestions.length).padStart(2, "0")}</Text><Text style={styles.practiceLabel}>QUESTIONS IN THE PRACTICE BANK</Text><Text style={styles.practiceDescription}>A quick daily challenge covering grammar essentials.</Text><Action title={dailyDone ? "Practice again" : "Start daily practice"} onPress={() => startQuiz(null)} /></View>
+      <View style={styles.practiceHero}><Text style={styles.practiceNumber}>{String(DAILY_PRACTICE_QUESTION_COUNT).padStart(2, "0")}</Text><Text style={styles.practiceLabel}>QUESTIONS TODAY</Text><Text style={styles.practiceDescription}>A fresh set rotates each day from a {dailyQuestions.length}-question grammar bank.</Text><Action title={dailyDone ? "Practice again" : "Start daily practice"} onPress={() => startQuiz(null)} /></View>
       {reviewableMistakes.length ? <View style={styles.reviewCard}><Text style={styles.reviewEyebrow}>PERSONALISED REVISION</Text><Text style={styles.examTitle}>Review missed questions</Text><Text style={styles.examDescription}>{reviewableMistakes.length} saved question{reviewableMistakes.length === 1 ? "" : "s"} to help strengthen your weaker topics. Start with up to 10.</Text><Action title="Practice my mistakes" onPress={startMistakePractice} /></View> : null}
       <View style={styles.examCard}><Text style={styles.examEyebrow}>FINAL ASSESSMENT</Text><Text style={styles.examTitle}>Full course exam</Text><Text style={styles.examDescription}>One question set from every lesson. Check your overall grammar knowledge in a timed challenge.</Text><View style={styles.examFacts}><View><Text style={styles.examFactNumber}>{lessons.reduce((sum, lesson) => sum + lesson.quiz.length, 0)}</Text><Text style={styles.examFactLabel}>QUESTIONS</Text></View><View><Text style={styles.examFactNumber}>30</Text><Text style={styles.examFactLabel}>MINUTES</Text></View><View><Text style={styles.examFactNumber}>{lessons.length}</Text><Text style={styles.examFactLabel}>LESSONS</Text></View></View><Action title="Start full course exam" onPress={startExam} /></View>
       <View style={styles.tipCard}><Text style={styles.tipLabel}>STUDY TIP</Text><Text style={styles.tipText}>Try to explain each grammar rule in your own words after reading it.</Text><Text style={styles.tipUrdu}>ہر سبق کے بعد اصول کو اپنے الفاظ میں سمجھانے کی کوشش کریں۔</Text></View>
@@ -766,7 +825,7 @@ h1 { font-family: Georgia, serif; font-size: 38px; margin: 22px 0 12px; color: #
 
   const screens = { Home: <Home />, Learn: <Learn />, MCQs: <MCQs />, Lesson: <Lesson />, Quiz: <Quiz />, Practice: <Practice />, Progress: <Progress /> };
   const nav = [{ id: "Home", icon: "⌂", label: "Home" }, { id: "Learn", icon: "▤", label: "Learn" }, { id: "Practice", icon: "✦", label: "Practice" }, { id: "Progress", icon: "◔", label: "Progress" }];
-  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View>{!isExam ? <TouchableOpacity onPress={() => setTab("MCQs")} style={[styles.mcqTopButton, tab === "MCQs" && styles.mcqTopButtonActive]}><Text style={styles.mcqTopButtonText}>MCQs</Text></TouchableOpacity> : null}<View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View><View style={styles.screen}>{screens[tab] || <Home />}</View>{isExam ? null : <View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View>}{isExam ? null : <AdBanner />}</SafeAreaView>;
+  return <SafeAreaView style={styles.safe}><StatusBar barStyle="light-content" backgroundColor={navy} /><View style={styles.topbar}><View><Text style={styles.brandSmall}>WREN & MARTIN</Text><Text style={styles.brand}>Grammar Master</Text></View>{!isExam ? <TouchableOpacity onPress={() => setTab("MCQs")} style={[styles.mcqTopButton, tab === "MCQs" && styles.mcqTopButtonActive]}><Text style={styles.mcqTopButtonText}>MCQs</Text></TouchableOpacity> : null}<View style={styles.avatar}><Text style={styles.avatarText}>G</Text></View></View>{storageError ? <View style={{ backgroundColor: "#FFF0F0", paddingHorizontal: 16, paddingVertical: 8 }}><Text accessibilityLiveRegion="polite" style={{ color: "#9A3B3B", fontSize: 12, lineHeight: 18 }}>{storageError}</Text></View> : null}<View style={styles.screen}>{tab === "Lesson" ? <LessonRenderBoundary key={selected ? selected.id : "no-lesson"} onBack={() => { setSelected(null); setTab("Learn"); }}>{screens[tab]}</LessonRenderBoundary> : (screens[tab] || <Home />)}</View>{isExam ? null : <View style={styles.bottomNav}>{nav.map(n => <TouchableOpacity key={n.id} onPress={() => setTab(n.id)} style={styles.navItem}><Text style={[styles.navIcon, tab === n.id && styles.navActive]}>{n.icon}</Text><Text style={[styles.navLabel, tab === n.id && styles.navActive]}>{n.label}</Text></TouchableOpacity>)}</View>}{isExam ? null : <AdBanner />}</SafeAreaView>;
 }
 
 const styles = StyleSheet.create({
