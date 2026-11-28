@@ -45,6 +45,7 @@ function sanitizeQuestion(raw, validLessonIds) {
     answer: raw.answer,
     why: typeof raw.why === "string" ? raw.why.slice(0, 2400) : ""
   };
+  if (typeof raw.urduWhy === "string") question.urduWhy = raw.urduWhy.slice(0, 2400);
   if (typeof raw.lessonTitle === "string") question.lessonTitle = raw.lessonTitle.slice(0, 160);
   if (typeof raw.lessonId === "string" && validLessonIds.has(raw.lessonId)) question.lessonId = raw.lessonId;
   return question;
@@ -127,6 +128,7 @@ function sanitizeStats(rawStats, validLessonIds) {
           options: item.options,
           answer: item.answer,
           why: item.explanation,
+          urduWhy: item.explanationUrdu,
           lessonTitle: item.lessonTitle,
           lessonId: item.lessonId
         }, validLessonIds);
@@ -138,6 +140,7 @@ function sanitizeStats(rawStats, validLessonIds) {
           selectedAnswer: typeof item.selectedAnswer === "string" ? item.selectedAnswer.slice(0, 500) : "Not answered",
           correctAnswer: question.options[question.answer],
           explanation: question.why,
+          explanationUrdu: question.urduWhy || "",
           lessonTitle: question.lessonTitle || "Practice",
           lessonId: question.lessonId || null,
           date: isDateKey(item.date) ? item.date : null
