@@ -176,3 +176,38 @@ test("queued writes preserve order and continue after a storage failure", async 
   ]);
   assert.deepEqual(errors, ["storage unavailable"]);
 });
+
+
+test("daily Urdu explanations survive quiz-session and mistake-history restoration", () => {
+  const urduWhy = "واحد فاعل کے ساتھ فعل کی درست صورت استعمال کریں۔";
+  const restored = restoreProgress({
+    stats: {
+      wrongAnswers: [{
+        question: "Choose the correct sentence.",
+        options: ["She go.", "She goes."],
+        answer: 1,
+        selectedAnswer: "She go.",
+        explanation: "A singular third-person subject takes the -s form.",
+        explanationUrdu: urduWhy,
+        lessonTitle: "Daily practice",
+        date: "2026-11-28"
+      }]
+    },
+    quizSession: {
+      type: "daily",
+      questions: [{
+        q: "Choose the correct sentence.",
+        options: ["She go.", "She goes."],
+        answer: 1,
+        why: "A singular third-person subject takes the -s form.",
+        urduWhy
+      }],
+      answers: { "0": 0 },
+      returnTab: "Practice",
+      totalQuestions: 1
+    }
+  }, lessonIds, fullCourseQuestions);
+
+  assert.equal(restored.quizSession.questions[0].urduWhy, urduWhy);
+  assert.equal(restored.stats.wrongAnswers[0].explanationUrdu, urduWhy);
+});
