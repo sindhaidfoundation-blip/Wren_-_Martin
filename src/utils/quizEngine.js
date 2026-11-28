@@ -94,6 +94,7 @@ function createWrongAnswerRecords(questions, answers, context = {}) {
         : "Not answered",
       correctAnswer: question.options[question.answer],
       explanation: typeof question.why === "string" ? question.why : "",
+      explanationUrdu: typeof question.urduWhy === "string" ? question.urduWhy : "",
       lessonTitle: typeof question.lessonTitle === "string"
         ? question.lessonTitle
         : selectedLesson && typeof selectedLesson.title === "string" ? selectedLesson.title : title,
